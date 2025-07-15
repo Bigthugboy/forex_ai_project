@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pattern
+Version: 0.0.1a0
+Summary: pattern is a Python package offering a suite of plotting functions to visualize machine learning models and data. It provides intuitive and customizable plots to aid in model evaluation and data analysis.
+Home-page: https://lazy-punk.github.io/
+Author: Sane Punk
+Author-email: Sane Punk <punk00pp@gmail.com>
+License: MIT
+Project-URL: homepage, https://lazy-punk.github.io/
+Project-URL: Documentation, https://github.com/lazy-punk/ml-utils
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: seaborn>=0.10.0
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: scikit-learn>=1.5.0
+Requires-Dist: matplotlib>=3.9.0
+
+# ml-utils
+
+`ml_utils` is a Python package that provides a suite of plotting functions to visualize machine learning models and data. It offers intuitive and customizable plots to aid in model evaluation and data analysis.
+
+## Features
+
+- **Model Evaluation Plots:**
+    - Confusion matrices
+    - ROC curves
+    - Precision-recall curves
+- **Data Visualization:**
+    - Heatmaps
+    - Pair plots
+    - Feature importance plots
+- **Compatibility:**
+    - Integrates seamlessly with popular machine learning libraries like scikit-learn and TensorFlow.
+
+## Installation
+
+You can install `ml_utils` using pip:
+
+```bash
+pip install ml_utils

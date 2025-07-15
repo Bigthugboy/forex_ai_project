@@ -8,7 +8,7 @@ from models.train_model import train_signal_model
 from models.predict import predict_signal
 from signals.signal_generator import generate_signal_output
 from config import Config
-from data.fetch_market import get_price_data
+from data.fetch_market import get_price_data, SYMBOL_MAP
 from data.fetch_news import get_news_sentiment
 from datetime import datetime, timedelta
 import numpy as np
@@ -17,7 +17,7 @@ import os
 
 logger = get_logger('backtest')
 
-PAIRS = ['USDJPY', 'BTCJPY', 'USDCHF', 'JPYNZD']
+PAIRS = ['USDJPY', 'BTCUSD', 'USDCHF', 'JPYNZD']
 
 # --- Enhanced Backtest Parameters ---
 DEFAULTS = {
@@ -48,6 +48,9 @@ def get_asset_type(pair):
 def backtest_pair(pair, lookback=120):
     logger.info(f"Backtesting {pair}...")
     price_df = get_price_data(pair, interval='1h', lookback=lookback)
+    if price_df is None or price_df.empty:
+        logger.warning(f"No price data for {pair}. Skipping backtest for this pair.")
+        return pd.DataFrame(), [], []
     today = datetime.utcnow().date()
     from_date = (today - timedelta(days=2)).strftime('%Y-%m-%d')
     to_date = today.strftime('%Y-%m-%d')

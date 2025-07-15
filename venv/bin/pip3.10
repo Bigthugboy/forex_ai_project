@@ -1,4 +1,4 @@
-#!/Users/admin/forex_ai_project/venv/bin/python3.10
+#!/Users/admin/forex_ai_project/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

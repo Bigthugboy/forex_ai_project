@@ -5,8 +5,8 @@ load_dotenv()  # Load environment variables from .env file
 
 class Config:
     # API Keys
-    ALPHA_VANTAGE_API_KEY = 'XPAI7G51FTCVFTBL'
-    NEWS_API_KEY = 'cc39b5247ee84eee9d73a225f9f87332'
+    ALPHA_VANTAGE_API_KEY = os.getenv('ALPHA_VANTAGE_API_KEY')
+    NEWS_API_KEY = os.getenv('NEWS_API_KEY')
     
     # Trading pairs
     TRADING_PAIRS = ['USDJPY', 'BTCUSD']
@@ -52,6 +52,8 @@ class Config:
     def create_directories():
         for directory in [Config.MODEL_DIR, Config.DATA_DIR, Config.LOGS_DIR]:
             os.makedirs(directory, exist_ok=True) 
+
+    FMP_API_KEY = os.getenv('FMP_API_KEY')
 
 # --- Mailgun Notification Config ---
 MAILGUN_API_KEY = os.getenv('MAILGUN_API_KEY')
