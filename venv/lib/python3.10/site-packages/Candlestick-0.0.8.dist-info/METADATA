@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: Candlestick
+Version: 0.0.8
+Summary: A package for finding the candlestick patterns from OHLC data
+Home-page: UNKNOWN
+Author: Harshad Bhirud
+Author-email: harshad.coder@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>1)
+Requires-Dist: pandas (>1)
+
+Candlestick Analyser.
+
+Version - 0.0.8
+
+Dataframe with column names of Date, Open, High, Low, Close, Volume
+
+Whats New - Dark Cloud Cover, Piercing Pattern 
+
+example:
+import Pattern
+
+Pattern.doji(df) :- will add column named 'Doji' in dataframe where True for detected doji and False for rest.
+
+Pattern.gravestone_doji(df) :- will add column named 'Gravestone' in dataframe where True for detected gravestone doji and False for rest.
+
+Pattern.dragonfly_doji(df) :- will add column named 'Dragonfly' in dataframe where True for detected dragonfly doji and  False for rest.
+    
+Pattern.longleg_doji(df) :- will add column named 'LongLeg' in dataframe where True for detected longleg doji and False for rest.
+    
+Pattern.Hammer_Hanging_Man(df) :- will add column named 'Hammer' in dataframe where True for detected Hammer or Hanging Man and False for rest.
+
+Pattern.Inv_Hammer(df) :- will add column named 'Inv_Hammer' in dataframe where True for detected Inverted Hammer or Shooting Star and  False for rest.
+    
+Pattern.Spinning_Top(df) :- will add column named 'Spinning' in dataframe where True for detected spinning top and False for rest.
+
+Pattern.Marubozu(df) :- will add column named 'Bull_Marubozu' & 'Bear_Marubouzu' in dataframe where 'Bull_Marubouzu' True for detected Bullish Marubozu & 'Bear_Marubozu' for detected Bearish Marubozu False for rest of both column.
+
+Pattern.Engulf(df) :- will add column named 'BullEngulf' 'BearEngulf' in dataframe where 'BullEngulf' True for detected Bullish Engulfing & 'BearEngulf' for detected Bearish Engulfing False for rest of both column.
+
+Pattern.Engulfing(df) :- will add column named 'SBullEngulf' 'SBearEngulf' in dataframe where 'SBullEngulf' True for detected Bullish Engulfing & 'SBearEngulf' for detected Bearish Engulfing False for rest of both column.
+
+Pattern.Harami(df) :- will add column named 'BullHarami' 'BearHarami' in dataframe where 'BullHarami' True for detected Bullish Harami & 'BearHarami' for detected Bearish Harami False for rest of both column.
+
+Pattern.DarkCloudCover(df) :- will add column named 'DarkCloud' in dataframe where True for detected Dark Cloud Cover pattern and False for rest.
+
+Pattern.PiercingPattern(df) :- will add column named 'Piercing' in dataframe where True for detected Piercing Pattern and False for rest.
+
+
