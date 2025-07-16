@@ -9,4 +9,19 @@ matplotlib
 vaderSentiment
 requests
 python-dotenv
+schedule
+joblib
+yfinance
+newsapi-python
+alpha-vantage
+pandas-ta
+ta
+ccxt
+nltk
+textblob
+seaborn
+plotly
+Pattern
+# For development/testing only:
+unittest
 # Add any other dependencies your project uses below 
