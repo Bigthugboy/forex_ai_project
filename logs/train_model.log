@@ -665,3 +665,268 @@ weighted avg       0.55      0.55      0.55       383
 [2025-07-16 15:59:29] INFO train_model: fakeout_down: mean=0.0007, std=0.0265, min=0.0000, max=1.0000, unique=2
 [2025-07-16 15:59:29] INFO train_model: Auditing data quality before training...
 [2025-07-16 15:59:29] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:03:25] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:03:25] INFO train_model: Auditing data quality after removing constant features...
+[2025-07-16 16:03:25] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:07:56] INFO train_model: Entering prepare_target_variable
+[2025-07-16 16:07:56] INFO train_model: Exiting prepare_target_variable
+[2025-07-16 16:07:56] INFO train_model: Model is starting a new training session...
+[2025-07-16 16:07:56] INFO train_model: Model is cleaning and preparing data...
+[2025-07-16 16:07:56] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_phase', 'head_shoulders', 'inv_head_shoulders', 'double_top',
+       'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up',
+       'fakeout_down', 'future_return', 'target'],
+      dtype='object')
+[2025-07-16 16:07:56] INFO train_model: Preparing target variable...
+[2025-07-16 16:07:56] INFO train_model: Entering prepare_target_variable
+[2025-07-16 16:07:56] INFO train_model: Exiting prepare_target_variable
+[2025-07-16 16:07:56] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_phase', 'head_shoulders', 'inv_head_shoulders', 'double_top',
+       'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up',
+       'fakeout_down', 'future_return', 'target'],
+      dtype='object')
+[2025-07-16 16:07:56] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down']
+[2025-07-16 16:07:56] INFO train_model: Dropping NaN targets...
+[2025-07-16 16:07:56] INFO train_model: Class distribution: [973 439]
+[2025-07-16 16:07:56] INFO train_model: Upsampling successful.
+[2025-07-16 16:07:56] INFO train_model: Splitting train/test...
+[2025-07-16 16:07:56] INFO train_model: Scaling features...
+[2025-07-16 16:07:56] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-16 16:07:56] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-16 16:07:57] INFO train_model: Model fit complete.
+[2025-07-16 16:07:57] INFO train_model: Model Accuracy: 0.5897
+[2025-07-16 16:07:57] INFO train_model: 
+Classification Report:
+[2025-07-16 16:07:57] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.62      0.45      0.52       195
+           1       0.57      0.73      0.64       195
+
+    accuracy                           0.59       390
+   macro avg       0.60      0.59      0.58       390
+weighted avg       0.60      0.59      0.58       390
+
+[2025-07-16 16:07:57] INFO train_model: Model is saving trained model and scaler...
+[2025-07-16 16:07:57] INFO train_model: Model saved to models/saved_models/signal_model.pkl
+[2025-07-16 16:07:57] INFO train_model: Feature distributions before training:
+[2025-07-16 16:07:57] INFO train_model: supply_zone: mean=0.4433, std=0.4970, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:07:57] INFO train_model: demand_zone: mean=0.3839, std=0.4865, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:07:57] INFO train_model: head_shoulders: mean=0.0319, std=0.1757, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:07:57] INFO train_model: inv_head_shoulders: mean=0.0319, std=0.1757, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:07:57] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-16 16:07:57] INFO train_model: double_bottom: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-16 16:07:57] INFO train_model: rising_wedge: mean=0.2528, std=0.4348, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:07:57] INFO train_model: falling_wedge: mean=0.1948, std=0.3962, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:07:57] INFO train_model: fakeout_up: mean=0.0007, std=0.0266, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:07:57] INFO train_model: fakeout_down: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-16 16:07:57] INFO train_model: Auditing data quality before training...
+[2025-07-16 16:07:57] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:07:58] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:07:58] WARNING train_model: Removing constant feature: double_top
+[2025-07-16 16:07:58] WARNING train_model: Removing constant feature: double_bottom
+[2025-07-16 16:07:58] WARNING train_model: Removing constant feature: fakeout_down
+[2025-07-16 16:07:58] INFO train_model: Auditing data quality after removing constant features...
+[2025-07-16 16:07:58] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:07:59] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:07:59] INFO train_model: Model is engineering features and studying candlestick patterns...
+[2025-07-16 16:07:59] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:07:59] INFO train_model: Model is analyzing feature importance and explainability (SHAP)...
+[2025-07-16 16:07:59] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:07:59] INFO train_model: Model training complete! Ready for new predictions.
+[2025-07-16 16:08:05] INFO train_model: Entering prepare_target_variable
+[2025-07-16 16:08:05] INFO train_model: Exiting prepare_target_variable
+[2025-07-16 16:08:05] INFO train_model: Model is starting a new training session...
+[2025-07-16 16:08:05] INFO train_model: Model is cleaning and preparing data...
+[2025-07-16 16:08:05] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_phase', 'head_shoulders', 'inv_head_shoulders', 'double_top',
+       'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up',
+       'fakeout_down', 'future_return', 'target'],
+      dtype='object')
+[2025-07-16 16:08:05] INFO train_model: Preparing target variable...
+[2025-07-16 16:08:05] INFO train_model: Entering prepare_target_variable
+[2025-07-16 16:08:05] INFO train_model: Exiting prepare_target_variable
+[2025-07-16 16:08:05] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_phase', 'head_shoulders', 'inv_head_shoulders', 'double_top',
+       'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up',
+       'fakeout_down', 'future_return', 'target'],
+      dtype='object')
+[2025-07-16 16:08:05] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down']
+[2025-07-16 16:08:05] INFO train_model: Dropping NaN targets...
+[2025-07-16 16:08:05] INFO train_model: Class distribution: [817 615]
+[2025-07-16 16:08:05] INFO train_model: Upsampling successful.
+[2025-07-16 16:08:05] INFO train_model: Splitting train/test...
+[2025-07-16 16:08:05] INFO train_model: Scaling features...
+[2025-07-16 16:08:05] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-16 16:08:05] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-16 16:08:05] INFO train_model: Model fit complete.
+[2025-07-16 16:08:05] INFO train_model: Model Accuracy: 0.5260
+[2025-07-16 16:08:05] INFO train_model: 
+Classification Report:
+[2025-07-16 16:08:05] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.52      0.63      0.57       164
+           1       0.53      0.42      0.47       163
+
+    accuracy                           0.53       327
+   macro avg       0.53      0.53      0.52       327
+weighted avg       0.53      0.53      0.52       327
+
+[2025-07-16 16:08:05] INFO train_model: Model is saving trained model and scaler...
+[2025-07-16 16:08:05] INFO train_model: Model saved to models/saved_models/signal_model.pkl
+[2025-07-16 16:08:05] INFO train_model: Feature distributions before training:
+[2025-07-16 16:08:05] INFO train_model: supply_zone: mean=0.2716, std=0.4450, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:05] INFO train_model: demand_zone: mean=0.2004, std=0.4005, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:05] INFO train_model: head_shoulders: mean=0.0342, std=0.1819, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:05] INFO train_model: inv_head_shoulders: mean=0.0328, std=0.1782, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:05] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-16 16:08:05] INFO train_model: double_bottom: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-16 16:08:05] INFO train_model: rising_wedge: mean=0.2744, std=0.4464, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:05] INFO train_model: falling_wedge: mean=0.2507, std=0.4336, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:05] INFO train_model: fakeout_up: mean=0.0049, std=0.0698, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:05] INFO train_model: fakeout_down: mean=0.0063, std=0.0791, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:05] INFO train_model: Auditing data quality before training...
+[2025-07-16 16:08:05] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:08:06] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:08:06] WARNING train_model: Removing constant feature: double_top
+[2025-07-16 16:08:06] WARNING train_model: Removing constant feature: double_bottom
+[2025-07-16 16:08:06] INFO train_model: Auditing data quality after removing constant features...
+[2025-07-16 16:08:06] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:08:07] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:08:07] INFO train_model: Model is engineering features and studying candlestick patterns...
+[2025-07-16 16:08:07] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:08:07] INFO train_model: Model is analyzing feature importance and explainability (SHAP)...
+[2025-07-16 16:08:07] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:08:07] INFO train_model: Model training complete! Ready for new predictions.
+[2025-07-16 16:08:13] INFO train_model: Entering prepare_target_variable
+[2025-07-16 16:08:13] INFO train_model: Exiting prepare_target_variable
+[2025-07-16 16:08:13] INFO train_model: Model is starting a new training session...
+[2025-07-16 16:08:13] INFO train_model: Model is cleaning and preparing data...
+[2025-07-16 16:08:13] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_phase', 'head_shoulders', 'inv_head_shoulders', 'double_top',
+       'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up',
+       'fakeout_down', 'future_return', 'target'],
+      dtype='object')
+[2025-07-16 16:08:13] INFO train_model: Preparing target variable...
+[2025-07-16 16:08:13] INFO train_model: Entering prepare_target_variable
+[2025-07-16 16:08:13] INFO train_model: Exiting prepare_target_variable
+[2025-07-16 16:08:13] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_phase', 'head_shoulders', 'inv_head_shoulders', 'double_top',
+       'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up',
+       'fakeout_down', 'future_return', 'target'],
+      dtype='object')
+[2025-07-16 16:08:13] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down']
+[2025-07-16 16:08:13] INFO train_model: Dropping NaN targets...
+[2025-07-16 16:08:13] INFO train_model: Class distribution: [1030  383]
+[2025-07-16 16:08:13] INFO train_model: Upsampling successful.
+[2025-07-16 16:08:13] INFO train_model: Splitting train/test...
+[2025-07-16 16:08:13] INFO train_model: Scaling features...
+[2025-07-16 16:08:13] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-16 16:08:13] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-16 16:08:14] INFO train_model: Model fit complete.
+[2025-07-16 16:08:14] INFO train_model: Model Accuracy: 0.5437
+[2025-07-16 16:08:14] INFO train_model: 
+Classification Report:
+[2025-07-16 16:08:14] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.53      0.70      0.61       206
+           1       0.56      0.39      0.46       206
+
+    accuracy                           0.54       412
+   macro avg       0.55      0.54      0.53       412
+weighted avg       0.55      0.54      0.53       412
+
+[2025-07-16 16:08:14] INFO train_model: Model is saving trained model and scaler...
+[2025-07-16 16:08:14] INFO train_model: Model saved to models/saved_models/signal_model.pkl
+[2025-07-16 16:08:14] INFO train_model: Feature distributions before training:
+[2025-07-16 16:08:14] INFO train_model: supply_zone: mean=0.4190, std=0.4936, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:14] INFO train_model: demand_zone: mean=0.4812, std=0.4998, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:14] INFO train_model: head_shoulders: mean=0.0340, std=0.1812, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:14] INFO train_model: inv_head_shoulders: mean=0.0304, std=0.1718, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:14] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-16 16:08:14] INFO train_model: double_bottom: mean=0.0127, std=0.1122, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:14] INFO train_model: rising_wedge: mean=0.2038, std=0.4030, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:14] INFO train_model: falling_wedge: mean=0.2251, std=0.4178, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:14] INFO train_model: fakeout_up: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-16 16:08:14] INFO train_model: fakeout_down: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-16 16:08:14] INFO train_model: Auditing data quality before training...
+[2025-07-16 16:08:14] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:08:15] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:08:15] WARNING train_model: Removing constant feature: double_top
+[2025-07-16 16:08:15] WARNING train_model: Removing constant feature: fakeout_up
+[2025-07-16 16:08:15] WARNING train_model: Removing constant feature: fakeout_down
+[2025-07-16 16:08:15] INFO train_model: Auditing data quality after removing constant features...
+[2025-07-16 16:08:15] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:08:15] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:08:15] INFO train_model: Model is engineering features and studying candlestick patterns...
+[2025-07-16 16:08:15] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:08:15] INFO train_model: Model is analyzing feature importance and explainability (SHAP)...
+[2025-07-16 16:08:15] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:08:15] INFO train_model: Model training complete! Ready for new predictions.
+[2025-07-16 16:08:19] INFO train_model: Entering prepare_target_variable
+[2025-07-16 16:08:19] INFO train_model: Exiting prepare_target_variable
+[2025-07-16 16:08:19] INFO train_model: Model is starting a new training session...
+[2025-07-16 16:08:19] INFO train_model: Model is cleaning and preparing data...
+[2025-07-16 16:08:19] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_phase', 'head_shoulders', 'inv_head_shoulders', 'double_top',
+       'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up',
+       'fakeout_down', 'future_return', 'target'],
+      dtype='object')
+[2025-07-16 16:08:19] INFO train_model: Preparing target variable...
+[2025-07-16 16:08:19] INFO train_model: Entering prepare_target_variable
+[2025-07-16 16:08:19] INFO train_model: Exiting prepare_target_variable
+[2025-07-16 16:08:19] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_phase', 'head_shoulders', 'inv_head_shoulders', 'double_top',
+       'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up',
+       'fakeout_down', 'future_return', 'target'],
+      dtype='object')
+[2025-07-16 16:08:19] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down']
+[2025-07-16 16:08:19] INFO train_model: Dropping NaN targets...
+[2025-07-16 16:08:19] INFO train_model: Class distribution: [957 464]
+[2025-07-16 16:08:19] INFO train_model: Upsampling successful.
+[2025-07-16 16:08:19] INFO train_model: Splitting train/test...
+[2025-07-16 16:08:19] INFO train_model: Scaling features...
+[2025-07-16 16:08:19] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-16 16:08:19] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-16 16:08:20] INFO train_model: Model fit complete.
+[2025-07-16 16:08:20] INFO train_model: Model Accuracy: 0.5326
+[2025-07-16 16:08:20] INFO train_model: 
+Classification Report:
+[2025-07-16 16:08:20] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.54      0.47      0.50       192
+           1       0.53      0.59      0.56       191
+
+    accuracy                           0.53       383
+   macro avg       0.53      0.53      0.53       383
+weighted avg       0.53      0.53      0.53       383
+
+[2025-07-16 16:08:20] INFO train_model: Model is saving trained model and scaler...
+[2025-07-16 16:08:20] INFO train_model: Model saved to models/saved_models/signal_model.pkl
+[2025-07-16 16:08:20] INFO train_model: Feature distributions before training:
+[2025-07-16 16:08:20] INFO train_model: supply_zone: mean=0.4736, std=0.4995, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: demand_zone: mean=0.3645, std=0.4815, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: head_shoulders: mean=0.0345, std=0.1825, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: inv_head_shoulders: mean=0.0274, std=0.1634, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: double_top: mean=0.0042, std=0.0649, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: double_bottom: mean=0.0014, std=0.0375, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: rising_wedge: mean=0.2920, std=0.4549, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: falling_wedge: mean=0.2365, std=0.4251, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: fakeout_up: mean=0.0014, std=0.0375, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: fakeout_down: mean=0.0007, std=0.0265, min=0.0000, max=1.0000, unique=2
+[2025-07-16 16:08:20] INFO train_model: Auditing data quality before training...
+[2025-07-16 16:08:20] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:08:21] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:08:21] INFO train_model: Auditing data quality after removing constant features...
+[2025-07-16 16:08:21] INFO train_model: Entering audit_data_quality
+[2025-07-16 16:08:21] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:08:21] INFO train_model: Model is engineering features and studying candlestick patterns...
+[2025-07-16 16:08:21] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:08:21] INFO train_model: Model is analyzing feature importance and explainability (SHAP)...
+[2025-07-16 16:08:21] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:08:21] INFO train_model: Model training complete! Ready for new predictions.
+[2025-07-16 16:16:21] INFO train_model: Exiting audit_data_quality
+[2025-07-16 16:16:21] INFO train_model: Model is engineering features and studying candlestick patterns...
+[2025-07-16 16:16:21] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:16:21] INFO train_model: Model is analyzing feature importance and explainability (SHAP)...
+[2025-07-16 16:16:21] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-16 16:16:21] INFO train_model: Model training complete! Ready for new predictions.

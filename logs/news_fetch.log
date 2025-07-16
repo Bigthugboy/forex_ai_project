@@ -156,3 +156,15 @@
 [2025-07-16 15:59:28] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=JPYNZD, from=2025-07-14, to=2025-07-16
 [2025-07-16 15:59:28] INFO news_fetch: Loaded news cache from logs/news_cache.json
 [2025-07-16 15:59:28] INFO news_fetch: Using cached news sentiment for JPYNZD: 0.0
+[2025-07-16 16:07:56] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-14, to=2025-07-16
+[2025-07-16 16:07:56] INFO news_fetch: Loaded news cache from logs/news_cache.json
+[2025-07-16 16:07:56] INFO news_fetch: Using cached news sentiment for USDJPY: -0.128
+[2025-07-16 16:08:04] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-14, to=2025-07-16
+[2025-07-16 16:08:04] INFO news_fetch: Loaded news cache from logs/news_cache.json
+[2025-07-16 16:08:04] INFO news_fetch: Using cached news sentiment for BTCUSD: 0.008706818181818184
+[2025-07-16 16:08:13] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-14, to=2025-07-16
+[2025-07-16 16:08:13] INFO news_fetch: Loaded news cache from logs/news_cache.json
+[2025-07-16 16:08:13] INFO news_fetch: Using cached news sentiment for USDCHF: 0.0
+[2025-07-16 16:08:19] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=JPYNZD, from=2025-07-14, to=2025-07-16
+[2025-07-16 16:08:19] INFO news_fetch: Loaded news cache from logs/news_cache.json
+[2025-07-16 16:08:19] INFO news_fetch: Using cached news sentiment for JPYNZD: 0.0
