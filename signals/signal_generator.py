@@ -2,8 +2,13 @@ import requests
 from datetime import datetime, timedelta
 from config import Config
 import numpy as np
+import os
+from utils.logger import get_logger
+import json
+logger = get_logger('signal_generator', log_file='logs/signal_generator.log')
 
 def classify_trade_type(latest_close, latest_high, latest_low, prediction):
+    logger.info('Classifying trade type...')
     """
     Classify trade type based on prediction and price action.
     Returns: 'Instant', 'Buy Stop', 'Sell Stop', 'Buy Limit', 'Sell Limit'
@@ -13,40 +18,65 @@ def classify_trade_type(latest_close, latest_high, latest_low, prediction):
     range_ = latest_high - latest_low
     if prediction == 1:  # BUY
         if abs(latest_close - latest_high) < 0.2 * range_:
-            return 'Buy Stop', latest_high + 0.1 * range_  # Entry above high
+            trade_type = 'Buy Stop'
+            entry = latest_high + 0.1 * range_  # Entry above high
         elif abs(latest_close - latest_low) < 0.2 * range_:
-            return 'Buy Limit', latest_low - 0.1 * range_   # Entry below low
+            trade_type = 'Buy Limit'
+            entry = latest_low - 0.1 * range_   # Entry below low
         else:
-            return 'Instant Execution', latest_close
+            trade_type = 'Instant Execution'
+            entry = latest_close
     else:  # SELL
         if abs(latest_close - latest_low) < 0.2 * range_:
-            return 'Sell Stop', latest_low - 0.1 * range_   # Entry below low
+            trade_type = 'Sell Stop'
+            entry = latest_low - 0.1 * range_   # Entry below low
         elif abs(latest_close - latest_high) < 0.2 * range_:
-            return 'Sell Limit', latest_high + 0.1 * range_ # Entry above high
+            trade_type = 'Sell Limit'
+            entry = latest_high + 0.1 * range_ # Entry above high
         else:
-            return 'Instant Execution', latest_close
+            trade_type = 'Instant Execution'
+            entry = latest_close
+    logger.info(f'Trade type classified: {trade_type}, Entry: {entry}')
+    return trade_type, entry
 
-def calculate_sl_tp(latest_close, prediction, entry=None):
-    """
-    Calculate Stop Loss (SL) and Take Profit (TP) using 3:1 reward-to-risk ratio from config.
-    Returns: (SL, TP)
-    """
-    risk_pct = Config.DEFAULT_STOP_LOSS_PERCENTAGE / 100
-    tp1_ratio = 2  # 2:1 for TP1
-    tp2_ratio = 3  # 3:1 for TP2
-    if entry is None:
-        entry = latest_close
+def calculate_pip_size(pair):
+    # For JPY pairs, pip = 0.01; for others, pip = 0.0001
+    if 'JPY' in pair:
+        return 0.01
+    else:
+        return 0.0001
+
+def calculate_sl_tp_pip(entry, prediction, pair, sl_pips):
+    pip_size = calculate_pip_size(pair)
     if prediction == 1:  # BUY
-        sl = entry * (1 - risk_pct)
-        tp1 = entry * (1 + risk_pct * tp1_ratio)
-        tp2 = entry * (1 + risk_pct * tp2_ratio)
+        sl = entry - (sl_pips * pip_size)
+        tp1 = entry + (sl_pips * 2 * pip_size)
+        tp2 = entry + (sl_pips * 3 * pip_size)
+        tp3 = entry + (sl_pips * 4 * pip_size)
     else:  # SELL
-        sl = entry * (1 + risk_pct)
-        tp1 = entry * (1 - risk_pct * tp1_ratio)
-        tp2 = entry * (1 - risk_pct * tp2_ratio)
-    return round(sl, 5), round(tp1, 5), round(tp2, 5)
+        sl = entry + (sl_pips * pip_size)
+        tp1 = entry - (sl_pips * 2 * pip_size)
+        tp2 = entry - (sl_pips * 3 * pip_size)
+        tp3 = entry - (sl_pips * 4 * pip_size)
+    return round(sl, 5), round(tp1, 5), round(tp2, 5), round(tp3, 5)
+
+def calculate_position_size(entry, sl, risk_per_trade, min_lot, max_lot, pair):
+    pip_size = calculate_pip_size(pair)
+    sl_distance = abs(entry - sl)
+    if sl_distance == 0:
+        return min_lot
+    # For USDJPY, pip value per 0.01 lot is about $0.09 per pip
+    # For simplicity, pip_value_per_lot = pip_size * 100000 (standard lot)
+    pip_value_per_lot = pip_size * 100000
+    # For 0.01 lot, pip value = pip_value_per_lot * 0.01
+    # Position size in lots = risk_per_trade / (sl_pips * pip_value_per_lot)
+    # But since sl_distance = sl_pips * pip_size, we can use:
+    position_size = risk_per_trade / (sl_distance * pip_value_per_lot)
+    position_size = max(min_lot, min(max_lot, position_size))
+    return round(position_size, 4)
 
 def is_high_impact_event_near(pair, window_minutes=30):
+    logger.info(f'Checking for high-impact news event for {pair}...')
     """
     Check if a high-impact economic event is within ±window_minutes for the pair's currencies.
     Returns True if an event is near, else False.
@@ -66,6 +96,7 @@ def is_high_impact_event_near(pair, window_minutes=30):
     try:
         resp = requests.get(url, timeout=10)
         if resp.status_code != 200:
+            logger.warning(f"Economic calendar API returned status code: {resp.status_code}")
             return False  # Fail open
         events = resp.json()
         for event in events:
@@ -78,18 +109,41 @@ def is_high_impact_event_near(pair, window_minutes=30):
                         if event_time:
                             event_dt = datetime.strptime(event_time, '%Y-%m-%d %H:%M:%S')
                             if abs((event_dt - now).total_seconds()) <= window_minutes * 60:
+                                logger.info(f"High-impact event found: {event['title']} at {event_time}")
                                 return True
+        logger.info('No high-impact event found near.')
         return False
     except Exception as e:
-        print(f"[Warning] Economic calendar API error: {e}")
+        logger.error(f"[Warning] Economic calendar API error: {e}")
         return False
 
+def regime_adaptive_features(latest, regime, all_features):
+    # Define regime-specific indicator sets
+    trend_indicators = [f for f in all_features if any(k in f for k in ['ma', 'ema', 'macd', 'atr', 'trend'])]
+    range_indicators = [f for f in all_features if any(k in f for k in ['rsi', 'bb', 'boll', 'range', 'volatility'])]
+    # Fallback: if none found, use all_features
+    if regime == 'trend' and trend_indicators:
+        logger.info(f"Regime is TREND. Using indicators: {trend_indicators}")
+        return trend_indicators
+    elif regime == 'range' and range_indicators:
+        logger.info(f"Regime is RANGE. Using indicators: {range_indicators}")
+        return range_indicators
+    else:
+        logger.info(f"Regime is {regime.upper()}. Using all available features: {all_features}")
+        return all_features
+
+def detect_ambiguity_conflict(latest, confluence_factors):
+    # Simple logic: if both bullish and bearish factors present, or if confluence is split
+    bullish = any(f in confluence_factors for f in ['trend_up', 'breakout_high', 'bullish_engulfing', 'rsi_oversold', 'macd_bull', 'news_bull'])
+    bearish = any(f in confluence_factors for f in ['trend_down', 'breakout_low', 'bearish_engulfing', 'rsi_overbought', 'macd_bear', 'news_bear'])
+    if bullish and bearish:
+        logger.info('Ambiguity detected: both bullish and bearish confluence factors present.')
+        return True
+    return False
+
 def generate_signal_output(pair, features_df, prediction_result):
-    """
-    Generate full signal output including trade type, confidence, SL/TP, confluence, etc.
-    Implements strict signal filtering: at least 4 confirming factors and confidence >= 0.8.
-    """
     latest = features_df.iloc[-1]
+    latest_time = getattr(latest, 'name', 'N/A')
     close_col = [col for col in features_df.columns if col.startswith('Close')][0]
     high_col = [col for col in features_df.columns if col.startswith('High')][0]
     low_col = [col for col in features_df.columns if col.startswith('Low')][0]
@@ -98,6 +152,14 @@ def generate_signal_output(pair, features_df, prediction_result):
     latest_low = latest[low_col]
     prediction = prediction_result['prediction']
     confidence = prediction_result['confidence']
+    # --- Indicator and pattern logging ---
+    rsi = latest.get('rsi_14', 'N/A')
+    macd = latest.get('macd', 'N/A')
+    macd_signal = latest.get('macd_signal', 'N/A')
+    news_sentiment = latest.get('news_sentiment', 'N/A')
+    patterns = [k for k in ['bullish_engulfing_bar', 'bearish_engulfing_bar', 'pin_bar'] if latest.get(k)]
+    logger.info(f"Analyzing {pair} at {latest_time}: RSI={rsi}, MACD={macd}, MACD_signal={macd_signal}, News sentiment={news_sentiment}")
+    logger.info(f"Detected patterns: {patterns if patterns else 'None'}")
     # --- Confluence Calculation ---
     confluence_factors = []
     # 1. Trend alignment (trendline or moving average)
@@ -135,13 +197,32 @@ def generate_signal_output(pair, features_df, prediction_result):
             confluence_factors.append('news_bear')
     # --- Strict filter: require at least 4 confirming factors and high confidence ---
     confluence_score = len(confluence_factors)
+    logger.info(f"Confluence factors: {confluence_factors}, score={confluence_score}, confidence={confidence:.2f}")
+    # --- Ambiguity/Conflict Detection ---
+    ambiguous = detect_ambiguity_conflict(latest, confluence_factors)
+    if ambiguous:
+        logger.info(f"Signal for {pair} at {latest_time} flagged as ambiguous/conflicting. No signal generated.")
+        return None
+    # --- Granular Confidence Scoring ---
+    logger.info(f"Signal confidence score: {confidence:.2f} (interpreted as probability of correctness)")
     if confluence_score < 4 or confidence < 0.8:
-        return None  # Do not generate signal
-    # --- News event filter: suppress signals near high-impact events ---
+        logger.info(f"No signal for {pair} at {latest_time}: insufficient confluence ({confluence_score}) or confidence ({confidence:.2f})")
+        # If confidence is not less than 0.65, keep studying the chart
+        if confidence >= 0.65:
+            logger.info(f"Model will keep studying the chart for {pair} at {latest_time}: confidence ({confidence:.2f}) not low enough to give up.")
+        return None
     if is_high_impact_event_near(pair, window_minutes=30):
-        return None  # Suppress signal due to news event
+        logger.info(f"No signal for {pair} at {latest_time}: suppressed due to high-impact news event")
+        return None
     trade_type, entry = classify_trade_type(latest_close, latest_high, latest_low, prediction)
-    sl, tp1, tp2 = calculate_sl_tp(latest_close, prediction, entry)
+    # --- Pip-based SL/TP and Dynamic Position Sizing ---
+    sl_pips = min(max(Config.SL_PIPS, 20), 30)  # Clamp between 20 and 30
+    sl, tp1, tp2, tp3 = calculate_sl_tp_pip(entry, prediction, pair, sl_pips)
+    position_size = calculate_position_size(entry, sl, Config.RISK_PER_TRADE, Config.MIN_LOT_SIZE, Config.MAX_LOT_SIZE, pair)
+    logger.info(f"Pip-based SL/TP: SL={sl}, TP1={tp1}, TP2={tp2}, TP3={tp3}, SL_PIPS={sl_pips}, Pip size={calculate_pip_size(pair)}")
+    logger.info(f"Dynamic position size: entry={entry}, sl={sl}, risk_per_trade={Config.RISK_PER_TRADE}, min_lot={Config.MIN_LOT_SIZE}, max_lot={Config.MAX_LOT_SIZE}, position_size={position_size}")
+    # ---
+    logger.info(f"Signal generated for {pair} at {latest_time}: {prediction_result['signal']} {trade_type} Confidence: {confidence:.2f}")
     return {
         'pair': pair,
         'trade_type': trade_type,
@@ -153,8 +234,10 @@ def generate_signal_output(pair, features_df, prediction_result):
         'stop_loss': sl,
         'take_profit_1': tp1,
         'take_profit_2': tp2,
+        'take_profit_3': tp3,
         'latest_close': latest_close,
         'latest_high': latest_high,
         'latest_low': latest_low,
-        'probabilities': prediction_result['probabilities']
+        'probabilities': prediction_result['probabilities'],
+        'position_size': round(position_size, 5)
     }

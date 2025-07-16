@@ -142,6 +142,7 @@ def compute_streaks(series):
     return max_win_streak, max_loss_streak
 
 def summarize_backtest(df, equity_curve, drawdowns, pair=None):
+    logger.info(f'Summarizing backtest for {pair if pair else "all pairs"}...')
     if df.empty:
         logger.warning("No trades generated.")
         return
@@ -167,9 +168,9 @@ def summarize_backtest(df, equity_curve, drawdowns, pair=None):
     print(f"Sharpe ratio: {sharpe:.2f}")
     print(f"Avg trade: {avg_trade:.2f}, Avg win: {avg_win:.2f}, Avg loss: {avg_loss:.2f}")
     print(f"Longest win streak: {max_win_streak}, Longest loss streak: {max_loss_streak}")
-    print(f"Equity curve: {equity_curve[:5]} ... {equity_curve[-5:]}")
-    print(f"Sample trade costs (slippage, spread, commission):")
-    print(df[['slippage', 'spread', 'commission']].head())
+    logger.info(f"Equity curve: {equity_curve[:5]} ... {equity_curve[-5:]}")
+    logger.info(f"Sample trade costs (slippage, spread, commission):")
+    logger.info(df[['slippage', 'spread', 'commission']].head())
     # --- Plot equity curve and drawdown ---
     if plt:
         plt.figure(figsize=(10, 5))
@@ -203,7 +204,9 @@ def summarize_backtest(df, equity_curve, drawdowns, pair=None):
 
 
 def main():
+    logger.info("Starting backtest process...")
     for pair in PAIRS:
+        logger.info(f"Processing pair: {pair}")
         df, equity_curve, drawdowns = backtest_pair(pair, lookback=120)
         summarize_backtest(df, equity_curve, drawdowns, pair=pair)
         # --- Save equity curve ---
@@ -215,6 +218,7 @@ def main():
             df_out = df.copy()
             df_out['source'] = 'backtest'
             df_out.to_csv(SIGNALS_CSV, index=False)
+    logger.info("Backtest process finished.")
 
 if __name__ == "__main__":
     main() 

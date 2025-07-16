@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
 import os
+import json
 
 st.set_page_config(page_title="Forex AI Signals Dashboard", layout="wide")
 st.title("📈 Forex & Crypto AI Signals Dashboard")
 
 SIGNALS_CSV = 'logs/signals.csv'
 EQUITY_CURVE_CSV = 'logs/equity_curve.csv'
+ANALYTICS_JSON = 'logs/analytics_summary.json'
 
 # --- Load latest signals ---
 def load_signals():
@@ -23,6 +25,13 @@ def load_equity_curve():
         return df
     else:
         return pd.DataFrame()
+
+# --- Advanced Analytics ---
+def load_analytics():
+    if os.path.exists(ANALYTICS_JSON):
+        with open(ANALYTICS_JSON, 'r') as f:
+            return json.load(f)
+    return None
 
 # --- Sidebar ---
 st.sidebar.header("Options")
@@ -67,3 +76,24 @@ if not signals_df.empty:
     st.metric("Avg Confidence", f"{avg_conf:.2%}")
     if 'profit' in signals_df:
         st.metric("Total PnL", f"{signals_df['profit'].sum():.2f}") 
+
+# --- Advanced Analytics Section ---
+analytics = load_analytics()
+if analytics:
+    st.subheader('Advanced Analytics Summary')
+    col1, col2, col3 = st.columns(3)
+    col1.metric('Total Signals', analytics['total_signals'])
+    col1.metric('Win Rate', f"{analytics['win_rate']:.2%}")
+    col1.metric('Avg R:R', f"{analytics['avg_rr']:.2f}" if analytics['avg_rr'] is not None else 'N/A')
+    col2.metric('Expectancy', f"{analytics['expectancy']:.2f}" if analytics['expectancy'] is not None else 'N/A')
+    col2.metric('Max Win Streak', analytics['max_win_streak'])
+    col2.metric('Max Loss Streak', analytics['max_loss_streak'])
+    col3.metric('Max Drawdown', f"{analytics['max_drawdown']:.2f}")
+    col3.metric('Profit Factor', f"{analytics['profit_factor']:.2f}")
+    col3.metric('Sharpe Ratio', f"{analytics['sharpe_ratio']:.2f}")
+    col3.metric('Final Equity', f"{analytics['final_equity']:.2f}")
+    st.markdown('**Per-Pair Stats:**')
+    st.json(analytics['per_pair_stats'])
+    if analytics.get('equity_curve'):
+        st.subheader('Analytics Equity Curve')
+        st.line_chart(analytics['equity_curve']) 

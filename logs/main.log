@@ -1,0 +1,423 @@
+[2025-07-16 13:52:00] INFO main: AI-Powered Forex & Crypto Signal Generator (Continuous Mode)
+[2025-07-16 13:52:00] INFO main: Running market analysis...
+[2025-07-16 13:52:00] INFO main: Fetching price data for USDJPY...
+[2025-07-16 13:52:05] INFO main: Fetched 1409 rows of price data for USDJPY
+[2025-07-16 13:52:05] INFO main: Getting keywords for pair: USDJPY
+[2025-07-16 13:52:05] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 13:52:20] INFO main: News sentiment score: -0.1280
+[2025-07-16 13:52:20] INFO main: Generating technical indicators...
+[2025-07-16 13:52:20] INFO main: Feature DataFrame shape: (1390, 37)
+[2025-07-16 13:52:20] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  is_trending  is_ranging
+Datetime                                           ...                         
+2025-07-16 08:00:00+00:00  148.837006  148.899994  ...            0           0
+2025-07-16 09:00:00+00:00  148.718002  148.889008  ...            0           0
+2025-07-16 10:00:00+00:00  148.710007  148.737000  ...            0           0
+2025-07-16 11:00:00+00:00  148.764999  148.785004  ...            0           0
+2025-07-16 12:00:00+00:00  148.604996  148.835007  ...            0           0
+
+[5 rows x 37 columns]
+
+[2025-07-16 13:52:20] INFO main: Target class balance: {0: 954, 1: 436}
+[2025-07-16 13:52:20] INFO main: Training AI model...
+[2025-07-16 13:59:36] INFO main: AI-Powered Forex & Crypto Signal Generator (Continuous Mode)
+[2025-07-16 13:59:36] INFO main: Running market analysis...
+[2025-07-16 13:59:36] INFO main: Fetching price data for USDJPY...
+[2025-07-16 13:59:38] INFO main: Fetched 1409 rows of price data for USDJPY
+[2025-07-16 13:59:38] INFO main: Getting keywords for pair: USDJPY
+[2025-07-16 13:59:38] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 13:59:38] INFO main: News sentiment score: -0.1280
+[2025-07-16 13:59:38] INFO main: Generating technical indicators...
+[2025-07-16 13:59:38] INFO main: Feature DataFrame shape: (1390, 37)
+[2025-07-16 13:59:38] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  is_trending  is_ranging
+Datetime                                           ...                         
+2025-07-16 08:00:00+00:00  148.837006  148.899994  ...            0           0
+2025-07-16 09:00:00+00:00  148.718002  148.889008  ...            0           0
+2025-07-16 10:00:00+00:00  148.710007  148.737000  ...            0           0
+2025-07-16 11:00:00+00:00  148.764999  148.785004  ...            0           0
+2025-07-16 12:00:00+00:00  148.707993  148.835007  ...            0           0
+
+[5 rows x 37 columns]
+
+[2025-07-16 13:59:38] INFO main: Target class balance: {0: 954, 1: 436}
+[2025-07-16 13:59:38] INFO main: Training AI model...
+[2025-07-16 14:11:04] INFO main: AI-Powered Forex & Crypto Signal Generator (Continuous Mode)
+[2025-07-16 14:11:04] INFO main: Running market analysis...
+[2025-07-16 14:11:04] INFO main: Fetching price data for USDJPY...
+[2025-07-16 14:11:06] INFO main: Fetched 1410 rows of price data for USDJPY
+[2025-07-16 14:11:06] INFO main: Getting keywords for pair: USDJPY
+[2025-07-16 14:11:06] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 14:11:06] INFO main: News sentiment score: -0.1280
+[2025-07-16 14:11:06] INFO main: Generating technical indicators...
+[2025-07-16 14:11:06] INFO main: Feature DataFrame shape: (1391, 37)
+[2025-07-16 14:11:06] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  is_trending  is_ranging
+Datetime                                           ...                         
+2025-07-16 09:00:00+00:00  148.718002  148.889008  ...            0           0
+2025-07-16 10:00:00+00:00  148.710007  148.737000  ...            0           0
+2025-07-16 11:00:00+00:00  148.764999  148.785004  ...            0           0
+2025-07-16 12:00:00+00:00  148.701996  148.835007  ...            0           0
+2025-07-16 13:00:00+00:00  148.690002  148.718994  ...            0           0
+
+[5 rows x 37 columns]
+
+[2025-07-16 14:11:06] INFO main: Target class balance: {0: 955, 1: 436}
+[2025-07-16 14:11:06] INFO main: Training AI model...
+[2025-07-16 14:13:56] INFO main: AI-Powered Forex & Crypto Signal Generator (Continuous Mode)
+[2025-07-16 14:13:56] INFO main: Running market analysis...
+[2025-07-16 14:13:56] INFO main: Fetching price data for USDJPY...
+[2025-07-16 14:13:57] INFO main: Fetched 1410 rows of price data for USDJPY
+[2025-07-16 14:13:57] INFO main: Getting keywords for pair: USDJPY
+[2025-07-16 14:13:57] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 14:13:57] INFO main: News sentiment score: -0.1280
+[2025-07-16 14:13:57] INFO main: Generating technical indicators...
+[2025-07-16 14:13:57] INFO main: Feature DataFrame shape: (1391, 37)
+[2025-07-16 14:13:57] INFO main: Feature summary (last 5 rows):
+                                 Open        High         Low  ...  vol_spike_std  is_trending  is_ranging
+Datetime                                                       ...                                        
+2025-07-16 09:00:00+00:00  148.718002  148.889008  148.649002  ...              0            0           0
+2025-07-16 10:00:00+00:00  148.710007  148.737000  148.643997  ...              0            0           0
+2025-07-16 11:00:00+00:00  148.764999  148.785004  148.621994  ...              0            0           0
+2025-07-16 12:00:00+00:00  148.701996  148.835007  148.464005  ...              0            0           0
+2025-07-16 13:00:00+00:00  148.737000  148.751999  148.600006  ...              0            0           0
+
+[5 rows x 37 columns]
+
+[2025-07-16 14:13:57] INFO main: Target class balance: {0: 955, 1: 436}
+[2025-07-16 14:13:57] INFO main: Training AI model...
+[2025-07-16 15:24:37] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-16 15:24:37] INFO main: Running market analysis...
+[2025-07-16 15:24:37] INFO main: Fetching price data for USDJPY...
+[2025-07-16 15:24:47] INFO main: Fetched 1411 rows of price data for USDJPY
+[2025-07-16 15:24:47] INFO main: Getting keywords for pair: USDJPY
+[2025-07-16 15:24:47] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 15:24:47] INFO main: News sentiment score: -0.1280
+[2025-07-16 15:24:47] INFO main: Generating technical indicators...
+[2025-07-16 15:24:47] INFO main: Feature DataFrame shape: (1411, 16)
+[2025-07-16 15:24:47] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  fakeout_up  fakeout_down
+Datetime                                           ...                          
+2025-07-16 10:00:00+00:00  148.710007  148.737000  ...           0             0
+2025-07-16 11:00:00+00:00  148.764999  148.785004  ...           0             0
+2025-07-16 12:00:00+00:00  148.701996  148.835007  ...           0             0
+2025-07-16 13:00:00+00:00  148.807007  148.929001  ...           0             0
+2025-07-16 14:00:00+00:00  148.750000  148.852005  ...           0             0
+
+[5 rows x 16 columns]
+
+[2025-07-16 15:24:47] INFO main: Target class balance: {0: 972, 1: 439}
+[2025-07-16 15:24:47] INFO main: Training AI model...
+[2025-07-16 15:24:47] ERROR main: Error analyzing USDJPY: could not convert string to float: 'markup'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 151, in analyze_and_signal
+    model, scaler, calibration_model = train_signal_model(df)
+  File "/Users/admin/forex_ai_project/models/train_model.py", line 160, in train_signal_model
+    X_train_scaled = scaler.fit_transform(X_train)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 892, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 1363, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1053, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 757, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 2168, in __array__
+    arr = np.asarray(values, dtype=dtype)
+ValueError: could not convert string to float: 'markup'
+[2025-07-16 15:24:47] INFO main: Fetching price data for BTCUSD...
+[2025-07-16 15:24:50] INFO main: Fetched 1431 rows of price data for BTCUSD
+[2025-07-16 15:24:50] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-16 15:24:50] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 15:25:00] INFO main: News sentiment score: 0.0087
+[2025-07-16 15:25:00] INFO main: Generating technical indicators...
+[2025-07-16 15:25:01] INFO main: Feature DataFrame shape: (1431, 16)
+[2025-07-16 15:25:01] INFO main: Feature summary (last 5 rows):
+                                    Open           High  ...  fakeout_up  fakeout_down
+Datetime                                                 ...                          
+2025-07-16 10:00:00+00:00  118762.875000  119294.476562  ...           0             0
+2025-07-16 11:00:00+00:00  118765.257812  118910.953125  ...           0             0
+2025-07-16 12:00:00+00:00  118659.734375  119042.179688  ...           0             0
+2025-07-16 13:00:00+00:00  118732.835938  118916.835938  ...           0             0
+2025-07-16 14:00:00+00:00  118432.656250  118725.882812  ...           0             0
+
+[5 rows x 16 columns]
+
+[2025-07-16 15:25:01] INFO main: Target class balance: {0: 817, 1: 614}
+[2025-07-16 15:25:01] INFO main: Training AI model...
+[2025-07-16 15:25:01] ERROR main: Error analyzing BTCUSD: could not convert string to float: 'markup'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 151, in analyze_and_signal
+    model, scaler, calibration_model = train_signal_model(df)
+  File "/Users/admin/forex_ai_project/models/train_model.py", line 160, in train_signal_model
+    X_train_scaled = scaler.fit_transform(X_train)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 892, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 1363, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1053, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 757, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 2168, in __array__
+    arr = np.asarray(values, dtype=dtype)
+ValueError: could not convert string to float: 'markup'
+[2025-07-16 15:25:01] INFO main: Fetching price data for USDCHF...
+[2025-07-16 15:25:04] INFO main: Fetched 1412 rows of price data for USDCHF
+[2025-07-16 15:25:04] INFO main: Getting keywords for pair: USDCHF
+[2025-07-16 15:25:04] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 15:25:46] INFO main: News sentiment score: 0.0000
+[2025-07-16 15:25:46] INFO main: Generating technical indicators...
+[2025-07-16 15:25:46] INFO main: Feature DataFrame shape: (1412, 16)
+[2025-07-16 15:25:46] INFO main: Feature summary (last 5 rows):
+                              Open     High      Low  ...  falling_wedge  fakeout_up  fakeout_down
+Datetime                                              ...                                         
+2025-07-16 10:00:00+00:00  0.80148  0.80195  0.80142  ...              0           0             0
+2025-07-16 11:00:00+00:00  0.80397  0.80460  0.80124  ...              0           0             0
+2025-07-16 12:00:00+00:00  0.80379  0.80441  0.80251  ...              0           0             0
+2025-07-16 13:00:00+00:00  0.80513  0.80615  0.80339  ...              0           0             0
+2025-07-16 14:00:00+00:00  0.80543  0.80576  0.80475  ...              0           0             0
+
+[5 rows x 16 columns]
+
+[2025-07-16 15:25:46] INFO main: Target class balance: {0: 1030, 1: 382}
+[2025-07-16 15:25:46] INFO main: Training AI model...
+[2025-07-16 15:25:47] ERROR main: Error analyzing USDCHF: could not convert string to float: 'markdown'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 151, in analyze_and_signal
+    model, scaler, calibration_model = train_signal_model(df)
+  File "/Users/admin/forex_ai_project/models/train_model.py", line 160, in train_signal_model
+    X_train_scaled = scaler.fit_transform(X_train)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 892, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 1363, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1053, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 757, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 2168, in __array__
+    arr = np.asarray(values, dtype=dtype)
+ValueError: could not convert string to float: 'markdown'
+[2025-07-16 15:25:47] INFO main: Fetching price data for JPYNZD...
+[2025-07-16 15:25:52] INFO main: Fetched 1420 rows of price data for JPYNZD
+[2025-07-16 15:25:52] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-16 15:25:52] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 15:26:51] INFO main: News sentiment score: 0.0000
+[2025-07-16 15:26:51] INFO main: Generating technical indicators...
+[2025-07-16 15:26:52] INFO main: Feature DataFrame shape: (1420, 16)
+[2025-07-16 15:26:52] INFO main: Feature summary (last 5 rows):
+                                Open       High  ...  fakeout_up  fakeout_down
+Datetime                                         ...                          
+2025-07-16 10:00:00+00:00  88.383003  88.400002  ...           0             0
+2025-07-16 11:00:00+00:00  88.383003  88.390999  ...           0             0
+2025-07-16 12:00:00+00:00  88.315002  88.393997  ...           0             0
+2025-07-16 13:00:00+00:00  88.124001  88.330002  ...           0             0
+2025-07-16 14:00:00+00:00  88.013000  88.140999  ...           0             0
+
+[5 rows x 16 columns]
+
+[2025-07-16 15:26:52] INFO main: Target class balance: {0: 956, 1: 464}
+[2025-07-16 15:26:52] INFO main: Training AI model...
+[2025-07-16 15:26:52] ERROR main: Error analyzing JPYNZD: could not convert string to float: 'markup'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 151, in analyze_and_signal
+    model, scaler, calibration_model = train_signal_model(df)
+  File "/Users/admin/forex_ai_project/models/train_model.py", line 160, in train_signal_model
+    X_train_scaled = scaler.fit_transform(X_train)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 892, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 1363, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1053, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 757, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 2168, in __array__
+    arr = np.asarray(values, dtype=dtype)
+ValueError: could not convert string to float: 'markup'
+[2025-07-16 15:26:52] INFO main: Signal generation summary:
+[2025-07-16 15:26:52] INFO main: USDJPY: Error: could not convert string to float: 'markup'
+[2025-07-16 15:26:52] INFO main: BTCUSD: Error: could not convert string to float: 'markup'
+[2025-07-16 15:26:52] INFO main: USDCHF: Error: could not convert string to float: 'markdown'
+[2025-07-16 15:26:52] INFO main: JPYNZD: Error: could not convert string to float: 'markup'
+[2025-07-16 15:36:39] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-16 15:36:39] INFO main: Running market analysis...
+[2025-07-16 15:36:39] INFO main: Fetching price data for USDJPY...
+[2025-07-16 15:36:45] INFO main: Fetched 1411 rows of price data for USDJPY
+[2025-07-16 15:36:45] INFO main: Getting keywords for pair: USDJPY
+[2025-07-16 15:36:45] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 15:36:45] INFO main: News sentiment score: -0.1280
+[2025-07-16 15:36:45] INFO main: Generating technical indicators...
+[2025-07-16 15:36:46] INFO main: Feature DataFrame shape: (1411, 16)
+[2025-07-16 15:36:46] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  fakeout_up  fakeout_down
+Datetime                                           ...                          
+2025-07-16 10:00:00+00:00  148.710007  148.737000  ...           0             0
+2025-07-16 11:00:00+00:00  148.764999  148.785004  ...           0             0
+2025-07-16 12:00:00+00:00  148.701996  148.835007  ...           0             0
+2025-07-16 13:00:00+00:00  148.807007  148.929001  ...           0             0
+2025-07-16 14:00:00+00:00  148.662003  148.852005  ...           0             0
+
+[5 rows x 16 columns]
+
+[2025-07-16 15:36:46] INFO main: Target class balance: {0: 972, 1: 439}
+[2025-07-16 15:36:46] INFO main: Training AI model...
+[2025-07-16 15:48:19] INFO main: Model trained successfully!
+[2025-07-16 15:48:19] INFO main: Making signal prediction...
+[2025-07-16 15:48:19] ERROR main: Error analyzing USDJPY: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_phase
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 154, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 52, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_phase
+
+[2025-07-16 15:48:19] INFO main: Fetching price data for BTCUSD...
+[2025-07-16 15:48:23] INFO main: Fetched 1431 rows of price data for BTCUSD
+[2025-07-16 15:48:23] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-16 15:48:23] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 15:48:23] INFO main: News sentiment score: 0.0087
+[2025-07-16 15:48:23] INFO main: Generating technical indicators...
+[2025-07-16 15:48:23] INFO main: Feature DataFrame shape: (1431, 16)
+[2025-07-16 15:48:23] INFO main: Feature summary (last 5 rows):
+                                    Open           High            Low  ...  falling_wedge  fakeout_up  fakeout_down
+Datetime                                                                ...                                         
+2025-07-16 10:00:00+00:00  118762.875000  119294.476562  118762.875000  ...              0           0             0
+2025-07-16 11:00:00+00:00  118765.257812  118910.953125  118702.078125  ...              0           0             0
+2025-07-16 12:00:00+00:00  118659.734375  119042.179688  118659.734375  ...              0           0             0
+2025-07-16 13:00:00+00:00  118732.835938  118916.835938  118302.000000  ...              0           0             0
+2025-07-16 14:00:00+00:00  118690.406250  118725.882812  118258.398438  ...              0           0             0
+
+[5 rows x 16 columns]
+
+[2025-07-16 15:48:23] INFO main: Target class balance: {0: 817, 1: 614}
+[2025-07-16 15:48:23] INFO main: Training AI model...
+[2025-07-16 15:54:08] INFO main: Model trained successfully!
+[2025-07-16 15:54:08] INFO main: Making signal prediction...
+[2025-07-16 15:54:08] ERROR main: Error analyzing BTCUSD: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_phase
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 154, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 52, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_phase
+
+[2025-07-16 15:54:08] INFO main: Fetching price data for USDCHF...
+[2025-07-16 15:54:15] INFO main: Fetched 1412 rows of price data for USDCHF
+[2025-07-16 15:54:15] INFO main: Getting keywords for pair: USDCHF
+[2025-07-16 15:54:15] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 15:54:15] INFO main: News sentiment score: 0.0000
+[2025-07-16 15:54:15] INFO main: Generating technical indicators...
+[2025-07-16 15:54:16] INFO main: Feature DataFrame shape: (1412, 16)
+[2025-07-16 15:54:16] INFO main: Feature summary (last 5 rows):
+                              Open     High      Low    Close  ...  rising_wedge  falling_wedge  fakeout_up fakeout_down
+Datetime                                                       ...                                                      
+2025-07-16 10:00:00+00:00  0.80148  0.80195  0.80142  0.80169  ...             0              0           0            0
+2025-07-16 11:00:00+00:00  0.80397  0.80460  0.80124  0.80149  ...             0              0           0            0
+2025-07-16 12:00:00+00:00  0.80379  0.80441  0.80251  0.80395  ...             0              0           0            0
+2025-07-16 13:00:00+00:00  0.80513  0.80615  0.80339  0.80380  ...             0              0           0            0
+2025-07-16 14:00:00+00:00  0.80410  0.80586  0.80410  0.80509  ...             0              0           0            0
+
+[5 rows x 16 columns]
+
+[2025-07-16 15:54:16] INFO main: Target class balance: {0: 1030, 1: 382}
+[2025-07-16 15:54:16] INFO main: Training AI model...
+[2025-07-16 15:59:24] INFO main: Model trained successfully!
+[2025-07-16 15:59:24] INFO main: Making signal prediction...
+[2025-07-16 15:59:25] ERROR main: Error analyzing USDCHF: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_phase
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 154, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 52, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_phase
+
+[2025-07-16 15:59:25] INFO main: Fetching price data for JPYNZD...
+[2025-07-16 15:59:28] INFO main: Fetched 1420 rows of price data for JPYNZD
+[2025-07-16 15:59:28] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-16 15:59:28] INFO main: Fetching news sentiment (with cache)...
+[2025-07-16 15:59:28] INFO main: News sentiment score: 0.0000
+[2025-07-16 15:59:28] INFO main: Generating technical indicators...
+[2025-07-16 15:59:28] INFO main: Feature DataFrame shape: (1420, 16)
+[2025-07-16 15:59:28] INFO main: Feature summary (last 5 rows):
+                                Open       High        Low      Close  ...  rising_wedge  falling_wedge  fakeout_up fakeout_down
+Datetime                                                               ...                                                      
+2025-07-16 10:00:00+00:00  88.383003  88.400002  88.303001  88.359001  ...             0              1           0            0
+2025-07-16 11:00:00+00:00  88.383003  88.390999  88.307999  88.377998  ...             0              1           0            0
+2025-07-16 12:00:00+00:00  88.315002  88.393997  88.275002  88.384003  ...             0              1           0            0
+2025-07-16 13:00:00+00:00  88.124001  88.330002  88.112000  88.316002  ...             0              1           0            0
+2025-07-16 14:00:00+00:00  87.935997  88.140999  87.874001  88.124001  ...             0              1           0            0
+
+[5 rows x 16 columns]
+
+[2025-07-16 15:59:28] INFO main: Target class balance: {0: 956, 1: 464}
+[2025-07-16 15:59:28] INFO main: Training AI model...

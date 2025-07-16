@@ -15,6 +15,11 @@ class Config:
     RISK_REWARD_RATIO = 3.0  # 3:1 profit to loss ratio
     DEFAULT_STOP_LOSS_PERCENTAGE = 1.0  # 1% stop loss
     DEFAULT_TAKE_PROFIT_PERCENTAGE = 3.0  # 3% take profit
+    ACCOUNT_SIZE = 100.0  # USD
+    RISK_PER_TRADE = 2.0  # USD risk per trade
+    SL_PIPS = 20  # Default stop loss in pips (can be set between 20 and 30)
+    MIN_LOT_SIZE = 0.02  # Minimum lot size
+    MAX_LOT_SIZE = 0.05  # Maximum lot size
     
     # Model parameters
     LOOKBACK_PERIOD = 60  # days of historical data
