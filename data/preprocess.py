@@ -2,7 +2,6 @@ import pandas as pd
 import ta.trend
 import ta.momentum
 import ta.volume
-import Pattern
 import pandas_ta as pta  # NEW: pandas-ta for advanced price action
 
 import unittest
@@ -325,11 +324,8 @@ def preprocess_features(price_df, sentiment_score):
         low_col_series = pd.Series(df[low_col], index=df.index)
         high_rolling_max = high_col_series.rolling(window=N, min_periods=1).max()
         low_rolling_min = low_col_series.rolling(window=N, min_periods=1).min()
-        # If needed, align index but do not convert to numpy or wrap in pd.Series
-        # high_rolling_max = high_rolling_max.reindex(df.index) # This line is no longer needed
-        # low_rolling_min = low_rolling_min.reindex(df.index) # This line is no longer needed
-        df['breakout_high'] = (df[close_col] > high_rolling_max.shift(1)).astype(int)  # type: ignore
-        df['breakout_low'] = (df[close_col] < low_rolling_min.shift(1)).astype(int)    # type: ignore
+        df['breakout_high'] = (df[close_col] > high_rolling_max.shift(1)).astype(int)
+        df['breakout_low'] = (df[close_col] < low_rolling_min.shift(1)).astype(int)
         # 2. Support/resistance proximity (distance to recent high/low)
         df['dist_to_high'] = df[close_col] - high_rolling_max.shift(1)
         df['dist_to_low'] = df[close_col] - low_rolling_min.shift(1)
@@ -369,6 +365,11 @@ def preprocess_features(price_df, sentiment_score):
             df = detect_trend_range_regime(df, close_col, atr_col)
         df = detect_supply_demand_zones(df, high_col, low_col)
         df = detect_wyckoff_phase(df, close_col, volume_col)
+        # --- Wyckoff phase one-hot encoding ---
+        if 'wyckoff_phase' in df.columns:
+            wyckoff_dummies = pd.get_dummies(df['wyckoff_phase'], prefix='wyckoff')
+            df = pd.concat([df, wyckoff_dummies], axis=1)
+            df.drop('wyckoff_phase', axis=1, inplace=True)
         logger.info('Advanced market structure features added.')
         # --- Advanced Price Action Patterns ---
         df = detect_head_shoulders(df, close_col)

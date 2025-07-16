@@ -21,6 +21,3 @@ textblob
 seaborn
 plotly
 Pattern
-# For development/testing only:
-unittest
-# Add any other dependencies your project uses below 
