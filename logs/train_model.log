@@ -4267,3 +4267,369 @@ weighted avg       0.89      0.88      0.88       556
 [2025-07-17 01:41:57] INFO train_model: trend_strength_4h: mean=0.0028, std=0.0022, min=0.0000, max=0.0125, unique=2054
 [2025-07-17 01:41:57] INFO train_model: Auditing data quality before training...
 [2025-07-17 01:41:57] INFO train_model: Entering audit_data_quality
+[2025-07-17 01:51:35] INFO train_model: Entering prepare_target_variable
+[2025-07-17 01:51:35] INFO train_model: Exiting prepare_target_variable
+[2025-07-17 01:51:35] INFO train_model: Model is starting a new training session...
+[2025-07-17 01:51:35] INFO train_model: Model is cleaning and preparing data...
+[2025-07-17 01:51:35] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'future_return', 'target'],
+      dtype='object')
+[2025-07-17 01:51:35] INFO train_model: Preparing target variable...
+[2025-07-17 01:51:35] INFO train_model: Entering prepare_target_variable
+[2025-07-17 01:51:35] INFO train_model: Exiting prepare_target_variable
+[2025-07-17 01:51:35] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'future_return', 'target'],
+      dtype='object')
+[2025-07-17 01:51:35] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h']
+[2025-07-17 01:51:35] INFO train_model: Dropping NaN targets...
+[2025-07-17 01:51:35] INFO train_model: Class distribution: [1390  713]
+[2025-07-17 01:51:35] INFO train_model: Upsampling successful.
+[2025-07-17 01:51:35] INFO train_model: Splitting train/test...
+[2025-07-17 01:51:35] INFO train_model: Scaling features...
+[2025-07-17 01:51:35] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-17 01:51:35] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-17 01:51:36] INFO train_model: Model fit complete.
+[2025-07-17 01:51:36] INFO train_model: Model Accuracy: 0.8849
+[2025-07-17 01:51:36] INFO train_model: 
+Classification Report:
+[2025-07-17 01:51:36] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.90      0.87      0.88       278
+           1       0.87      0.90      0.89       278
+
+    accuracy                           0.88       556
+   macro avg       0.89      0.88      0.88       556
+weighted avg       0.89      0.88      0.88       556
+
+[2025-07-17 01:51:36] INFO train_model: Model is saving trained model and scaler...
+[2025-07-17 01:51:36] INFO train_model: Model saved to models/saved_models/signal_model.pkl
+[2025-07-17 01:51:36] INFO train_model: Feature distributions before training:
+[2025-07-17 01:51:36] INFO train_model: supply_zone: mean=0.4184, std=0.4934, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: demand_zone: mean=0.3704, std=0.4830, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: wyckoff_markdown: mean=0.4964, std=0.5001, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: wyckoff_markup: mean=0.4845, std=0.4999, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: wyckoff_unknown: mean=0.0190, std=0.1366, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:36] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:36] INFO train_model: head_shoulders: mean=0.0323, std=0.1769, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: inv_head_shoulders: mean=0.0333, std=0.1794, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:36] INFO train_model: double_bottom: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:36] INFO train_model: rising_wedge: mean=0.2606, std=0.4391, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: falling_wedge: mean=0.2297, std=0.4207, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: fakeout_up: mean=0.0005, std=0.0218, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:36] INFO train_model: fakeout_down: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:36] INFO train_model: sma_20_4h: mean=145.3426, std=2.3828, min=140.5166, max=150.9374, unique=2082
+[2025-07-17 01:51:36] INFO train_model: sma_50_4h: mean=145.2947, std=2.3173, min=140.9014, max=150.6738, unique=2050
+[2025-07-17 01:51:36] INFO train_model: ema_12_4h: mean=145.3703, std=2.3935, min=140.4309, max=150.9399, unique=2103
+[2025-07-17 01:51:36] INFO train_model: ema_26_4h: mean=145.3707, std=2.3611, min=140.6371, max=150.7944, unique=2103
+[2025-07-17 01:51:36] INFO train_model: rsi_14_4h: mean=49.2808, std=32.9282, min=0.0000, max=100.0000, unique=799
+[2025-07-17 01:51:36] INFO train_model: macd_4h: mean=-0.0004, std=0.2403, min=-0.9388, max=0.7986, unique=2103
+[2025-07-17 01:51:36] INFO train_model: macd_signal_4h: mean=-0.0002, std=0.2247, min=-0.8130, max=0.7178, unique=2103
+[2025-07-17 01:51:36] INFO train_model: bb_high_4h: mean=146.0482, std=2.4460, min=140.8112, max=151.4645, unique=2084
+[2025-07-17 01:51:36] INFO train_model: bb_low_4h: mean=144.6370, std=2.3993, min=139.1342, max=150.7418, unique=2084
+[2025-07-17 01:51:36] INFO train_model: atr_14_4h: mean=0.6268, std=0.2773, min=0.1483, max=2.0255, unique=2065
+[2025-07-17 01:51:36] INFO train_model: volatility_20_4h: mean=0.3528, std=0.2190, min=0.0338, max=1.2700, unique=2084
+[2025-07-17 01:51:36] INFO train_model: price_vs_sma20_4h: mean=-0.0000, std=0.0038, min=-0.0154, max=0.0185, unique=2084
+[2025-07-17 01:51:36] INFO train_model: price_vs_sma50_4h: mean=-0.0000, std=0.0059, min=-0.0229, max=0.0202, unique=2052
+[2025-07-17 01:51:36] INFO train_model: trend_strength_4h: mean=0.0028, std=0.0022, min=0.0000, max=0.0125, unique=2054
+[2025-07-17 01:51:36] INFO train_model: Auditing data quality before training...
+[2025-07-17 01:51:36] INFO train_model: Entering audit_data_quality
+[2025-07-17 01:51:37] INFO train_model: Exiting audit_data_quality
+[2025-07-17 01:51:37] WARNING train_model: Removing constant feature: wyckoff_accumulation
+[2025-07-17 01:51:37] WARNING train_model: Removing constant feature: wyckoff_distribution
+[2025-07-17 01:51:37] WARNING train_model: Removing constant feature: double_top
+[2025-07-17 01:51:37] WARNING train_model: Removing constant feature: double_bottom
+[2025-07-17 01:51:37] WARNING train_model: Removing constant feature: fakeout_down
+[2025-07-17 01:51:37] INFO train_model: Auditing data quality after removing constant features...
+[2025-07-17 01:51:37] INFO train_model: Entering audit_data_quality
+[2025-07-17 01:51:38] INFO train_model: Exiting audit_data_quality
+[2025-07-17 01:51:38] INFO train_model: Model is engineering features and studying candlestick patterns...
+[2025-07-17 01:51:39] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-17 01:51:39] INFO train_model: Model is analyzing feature importance and explainability (SHAP)...
+[2025-07-17 01:51:39] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-17 01:51:39] INFO train_model: Model training complete! Ready for new predictions.
+[2025-07-17 01:51:53] INFO train_model: Entering prepare_target_variable
+[2025-07-17 01:51:53] INFO train_model: Exiting prepare_target_variable
+[2025-07-17 01:51:53] INFO train_model: Model is starting a new training session...
+[2025-07-17 01:51:53] INFO train_model: Model is cleaning and preparing data...
+[2025-07-17 01:51:53] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'wyckoff_markdown',
+       'wyckoff_markup', 'wyckoff_unknown', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'future_return', 'target'],
+      dtype='object')
+[2025-07-17 01:51:53] INFO train_model: Preparing target variable...
+[2025-07-17 01:51:53] INFO train_model: Entering prepare_target_variable
+[2025-07-17 01:51:53] INFO train_model: Exiting prepare_target_variable
+[2025-07-17 01:51:53] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'wyckoff_markdown',
+       'wyckoff_markup', 'wyckoff_unknown', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'future_return', 'target'],
+      dtype='object')
+[2025-07-17 01:51:53] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_accumulation', 'wyckoff_distribution', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h']
+[2025-07-17 01:51:53] INFO train_model: Dropping NaN targets...
+[2025-07-17 01:51:53] INFO train_model: Class distribution: [764 725]
+[2025-07-17 01:51:53] INFO train_model: Upsampling successful.
+[2025-07-17 01:51:53] INFO train_model: Splitting train/test...
+[2025-07-17 01:51:53] INFO train_model: Scaling features...
+[2025-07-17 01:51:53] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-17 01:51:53] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-17 01:51:54] INFO train_model: Model fit complete.
+[2025-07-17 01:51:54] INFO train_model: Model Accuracy: 0.7974
+[2025-07-17 01:51:54] INFO train_model: 
+Classification Report:
+[2025-07-17 01:51:54] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.76      0.88      0.81       153
+           1       0.85      0.72      0.78       153
+
+    accuracy                           0.80       306
+   macro avg       0.80      0.80      0.80       306
+weighted avg       0.80      0.80      0.80       306
+
+[2025-07-17 01:51:54] INFO train_model: Model is saving trained model and scaler...
+[2025-07-17 01:51:54] INFO train_model: Model saved to models/saved_models/signal_model.pkl
+[2025-07-17 01:51:54] INFO train_model: Feature distributions before training:
+[2025-07-17 01:51:54] INFO train_model: supply_zone: mean=0.2498, std=0.4331, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: demand_zone: mean=0.1625, std=0.3691, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:54] INFO train_model: wyckoff_distribution: mean=0.1793, std=0.3837, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: wyckoff_markdown: mean=0.3076, std=0.4617, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: wyckoff_markup: mean=0.5131, std=0.5000, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: wyckoff_unknown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:54] INFO train_model: head_shoulders: mean=0.0356, std=0.1853, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: inv_head_shoulders: mean=0.0336, std=0.1802, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:54] INFO train_model: double_bottom: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:51:54] INFO train_model: rising_wedge: mean=0.2653, std=0.4416, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: falling_wedge: mean=0.2344, std=0.4238, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: fakeout_up: mean=0.0047, std=0.0684, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: fakeout_down: mean=0.0054, std=0.0731, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:51:54] INFO train_model: sma_20_4h: mean=144.5407, std=1.5809, min=140.5166, max=148.8194, unique=1488
+[2025-07-17 01:51:54] INFO train_model: sma_50_4h: mean=144.4784, std=1.4740, min=140.9014, max=148.3147, unique=1488
+[2025-07-17 01:51:54] INFO train_model: ema_12_4h: mean=144.5572, std=1.5938, min=140.4309, max=148.8021, unique=1489
+[2025-07-17 01:51:54] INFO train_model: ema_26_4h: mean=144.5284, std=1.5323, min=140.6371, max=148.5877, unique=1489
+[2025-07-17 01:51:54] INFO train_model: rsi_14_4h: mean=50.4925, std=34.3187, min=0.0000, max=100.0000, unique=550
+[2025-07-17 01:51:54] INFO train_model: macd_4h: mean=0.0288, std=0.2276, min=-0.4377, max=0.7986, unique=1489
+[2025-07-17 01:51:54] INFO train_model: macd_signal_4h: mean=0.0287, std=0.2135, min=-0.3715, max=0.7178, unique=1489
+[2025-07-17 01:51:54] INFO train_model: bb_high_4h: mean=145.2015, std=1.6285, min=140.8112, max=149.7951, unique=1489
+[2025-07-17 01:51:54] INFO train_model: bb_low_4h: mean=143.8799, std=1.6230, min=139.1342, max=148.6325, unique=1489
+[2025-07-17 01:51:54] INFO train_model: atr_14_4h: mean=0.5718, std=0.1873, min=0.1883, max=1.4068, unique=1473
+[2025-07-17 01:51:54] INFO train_model: volatility_20_4h: mean=0.3304, std=0.1896, min=0.0575, max=1.2618, unique=1489
+[2025-07-17 01:51:54] INFO train_model: price_vs_sma20_4h: mean=0.0003, std=0.0035, min=-0.0097, max=0.0185, unique=1489
+[2025-07-17 01:51:54] INFO train_model: price_vs_sma50_4h: mean=0.0007, std=0.0055, min=-0.0126, max=0.0202, unique=1489
+[2025-07-17 01:51:54] INFO train_model: trend_strength_4h: mean=0.0029, std=0.0019, min=0.0000, max=0.0112, unique=1489
+[2025-07-17 01:51:54] INFO train_model: Auditing data quality before training...
+[2025-07-17 01:51:54] INFO train_model: Entering audit_data_quality
+[2025-07-17 01:51:55] INFO train_model: Exiting audit_data_quality
+[2025-07-17 01:51:55] WARNING train_model: Removing constant feature: wyckoff_accumulation
+[2025-07-17 01:51:55] WARNING train_model: Removing constant feature: wyckoff_unknown
+[2025-07-17 01:51:55] WARNING train_model: Removing constant feature: double_top
+[2025-07-17 01:51:55] WARNING train_model: Removing constant feature: double_bottom
+[2025-07-17 01:51:55] INFO train_model: Auditing data quality after removing constant features...
+[2025-07-17 01:51:55] INFO train_model: Entering audit_data_quality
+[2025-07-17 01:51:56] INFO train_model: Exiting audit_data_quality
+[2025-07-17 01:51:56] INFO train_model: Model is engineering features and studying candlestick patterns...
+[2025-07-17 01:51:56] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-17 01:51:56] INFO train_model: Model is analyzing feature importance and explainability (SHAP)...
+[2025-07-17 01:51:56] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-17 01:51:56] INFO train_model: Model training complete! Ready for new predictions.
+[2025-07-17 01:52:02] INFO train_model: Entering prepare_target_variable
+[2025-07-17 01:52:02] INFO train_model: Exiting prepare_target_variable
+[2025-07-17 01:52:02] INFO train_model: Model is starting a new training session...
+[2025-07-17 01:52:02] INFO train_model: Model is cleaning and preparing data...
+[2025-07-17 01:52:02] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'future_return', 'target'],
+      dtype='object')
+[2025-07-17 01:52:02] INFO train_model: Preparing target variable...
+[2025-07-17 01:52:02] INFO train_model: Entering prepare_target_variable
+[2025-07-17 01:52:02] INFO train_model: Exiting prepare_target_variable
+[2025-07-17 01:52:02] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'future_return', 'target'],
+      dtype='object')
+[2025-07-17 01:52:02] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h']
+[2025-07-17 01:52:02] INFO train_model: Dropping NaN targets...
+[2025-07-17 01:52:03] INFO train_model: Class distribution: [1331  772]
+[2025-07-17 01:52:03] INFO train_model: Upsampling successful.
+[2025-07-17 01:52:03] INFO train_model: Splitting train/test...
+[2025-07-17 01:52:03] INFO train_model: Scaling features...
+[2025-07-17 01:52:03] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-17 01:52:03] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-17 01:52:04] INFO train_model: Model fit complete.
+[2025-07-17 01:52:04] INFO train_model: Model Accuracy: 0.8687
+[2025-07-17 01:52:04] INFO train_model: 
+Classification Report:
+[2025-07-17 01:52:04] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.87      0.87      0.87       267
+           1       0.87      0.86      0.87       266
+
+    accuracy                           0.87       533
+   macro avg       0.87      0.87      0.87       533
+weighted avg       0.87      0.87      0.87       533
+
+[2025-07-17 01:52:04] INFO train_model: Model is saving trained model and scaler...
+[2025-07-17 01:52:04] INFO train_model: Model saved to models/saved_models/signal_model.pkl
+[2025-07-17 01:52:04] INFO train_model: Feature distributions before training:
+[2025-07-17 01:52:04] INFO train_model: supply_zone: mean=0.4389, std=0.4964, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: demand_zone: mean=0.3405, std=0.4740, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: wyckoff_markdown: mean=0.4151, std=0.4929, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: wyckoff_markup: mean=0.5663, std=0.4957, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: wyckoff_unknown: mean=0.0185, std=0.1349, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:52:04] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 01:52:04] INFO train_model: head_shoulders: mean=0.0338, std=0.1807, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: inv_head_shoulders: mean=0.0257, std=0.1582, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: double_top: mean=0.0029, std=0.0534, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: double_bottom: mean=0.0010, std=0.0308, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: rising_wedge: mean=0.2882, std=0.4530, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: falling_wedge: mean=0.2496, std=0.4329, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: fakeout_up: mean=0.0010, std=0.0308, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: fakeout_down: mean=0.0005, std=0.0218, min=0.0000, max=1.0000, unique=2
+[2025-07-17 01:52:04] INFO train_model: sma_20_4h: mean=145.3426, std=2.3828, min=140.5166, max=150.9374, unique=2082
+[2025-07-17 01:52:04] INFO train_model: sma_50_4h: mean=145.2947, std=2.3173, min=140.9014, max=150.6738, unique=2050
+[2025-07-17 01:52:04] INFO train_model: ema_12_4h: mean=145.3703, std=2.3935, min=140.4309, max=150.9399, unique=2103
+[2025-07-17 01:52:04] INFO train_model: ema_26_4h: mean=145.3707, std=2.3611, min=140.6371, max=150.7944, unique=2103
+[2025-07-17 01:52:04] INFO train_model: rsi_14_4h: mean=49.2808, std=32.9282, min=0.0000, max=100.0000, unique=799
+[2025-07-17 01:52:04] INFO train_model: macd_4h: mean=-0.0004, std=0.2403, min=-0.9388, max=0.7986, unique=2103
+[2025-07-17 01:52:04] INFO train_model: macd_signal_4h: mean=-0.0002, std=0.2247, min=-0.8130, max=0.7178, unique=2103
+[2025-07-17 01:52:04] INFO train_model: bb_high_4h: mean=146.0482, std=2.4460, min=140.8112, max=151.4645, unique=2084
+[2025-07-17 01:52:04] INFO train_model: bb_low_4h: mean=144.6370, std=2.3993, min=139.1342, max=150.7418, unique=2084
+[2025-07-17 01:52:04] INFO train_model: atr_14_4h: mean=0.6268, std=0.2773, min=0.1483, max=2.0255, unique=2065
+[2025-07-17 01:52:04] INFO train_model: volatility_20_4h: mean=0.3528, std=0.2190, min=0.0338, max=1.2700, unique=2084
+[2025-07-17 01:52:04] INFO train_model: price_vs_sma20_4h: mean=-0.0000, std=0.0038, min=-0.0154, max=0.0185, unique=2084
+[2025-07-17 01:52:04] INFO train_model: price_vs_sma50_4h: mean=-0.0000, std=0.0059, min=-0.0229, max=0.0202, unique=2052
+[2025-07-17 01:52:04] INFO train_model: trend_strength_4h: mean=0.0028, std=0.0022, min=0.0000, max=0.0125, unique=2054
+[2025-07-17 01:52:04] INFO train_model: Auditing data quality before training...
+[2025-07-17 01:52:04] INFO train_model: Entering audit_data_quality
+[2025-07-17 01:52:05] INFO train_model: Exiting audit_data_quality
+[2025-07-17 01:52:05] WARNING train_model: Removing constant feature: wyckoff_accumulation
+[2025-07-17 01:52:05] WARNING train_model: Removing constant feature: wyckoff_distribution
+[2025-07-17 01:52:05] INFO train_model: Auditing data quality after removing constant features...
+[2025-07-17 01:52:05] INFO train_model: Entering audit_data_quality
+[2025-07-17 01:52:06] INFO train_model: Exiting audit_data_quality
+[2025-07-17 01:52:06] INFO train_model: Model is engineering features and studying candlestick patterns...
+[2025-07-17 01:52:06] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-17 01:52:06] INFO train_model: Model is analyzing feature importance and explainability (SHAP)...
+[2025-07-17 01:52:06] WARNING train_model: CalibratedClassifierCV has no base_estimator_ attribute after fitting.
+[2025-07-17 01:52:06] INFO train_model: Model training complete! Ready for new predictions.
+[2025-07-17 02:08:35] INFO train_model: Entering prepare_target_variable
+[2025-07-17 02:08:35] INFO train_model: Exiting prepare_target_variable
+[2025-07-17 02:08:35] INFO train_model: Model is starting a new training session...
+[2025-07-17 02:08:35] INFO train_model: Model is cleaning and preparing data...
+[2025-07-17 02:08:35] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'future_return', 'target'],
+      dtype='object')
+[2025-07-17 02:08:35] INFO train_model: Preparing target variable...
+[2025-07-17 02:08:35] INFO train_model: Entering prepare_target_variable
+[2025-07-17 02:08:35] INFO train_model: Exiting prepare_target_variable
+[2025-07-17 02:08:35] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'future_return', 'target'],
+      dtype='object')
+[2025-07-17 02:08:35] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h']
+[2025-07-17 02:08:35] INFO train_model: Dropping NaN targets...
+[2025-07-17 02:08:35] INFO train_model: Class distribution: [1390  713]
+[2025-07-17 02:08:35] INFO train_model: Upsampling successful.
+[2025-07-17 02:08:35] INFO train_model: Splitting train/test...
+[2025-07-17 02:08:35] INFO train_model: Scaling features...
+[2025-07-17 02:08:35] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-17 02:08:35] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-17 02:08:36] INFO train_model: Model fit complete.
+[2025-07-17 02:08:36] INFO train_model: Model Accuracy: 0.8795
+[2025-07-17 02:08:36] INFO train_model: 
+Classification Report:
+[2025-07-17 02:08:36] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.90      0.86      0.88       278
+           1       0.87      0.90      0.88       278
+
+    accuracy                           0.88       556
+   macro avg       0.88      0.88      0.88       556
+weighted avg       0.88      0.88      0.88       556
+
+[2025-07-17 02:08:36] INFO train_model: Model is saving trained model and scaler...
+[2025-07-17 02:08:36] INFO train_model: Model saved to models/saved_models/signal_model.pkl
+[2025-07-17 02:08:36] INFO train_model: Feature distributions before training:
+[2025-07-17 02:08:36] INFO train_model: supply_zone: mean=0.4184, std=0.4934, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: demand_zone: mean=0.3704, std=0.4830, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: wyckoff_markdown: mean=0.4964, std=0.5001, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: wyckoff_markup: mean=0.4845, std=0.4999, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: wyckoff_unknown: mean=0.0190, std=0.1366, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 02:08:36] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 02:08:36] INFO train_model: head_shoulders: mean=0.0323, std=0.1769, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: inv_head_shoulders: mean=0.0333, std=0.1794, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 02:08:36] INFO train_model: double_bottom: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 02:08:36] INFO train_model: rising_wedge: mean=0.2606, std=0.4391, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: falling_wedge: mean=0.2297, std=0.4207, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: fakeout_up: mean=0.0005, std=0.0218, min=0.0000, max=1.0000, unique=2
+[2025-07-17 02:08:36] INFO train_model: fakeout_down: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-17 02:08:36] INFO train_model: sma_20_4h: mean=145.3426, std=2.3828, min=140.5166, max=150.9374, unique=2082
+[2025-07-17 02:08:36] INFO train_model: sma_50_4h: mean=145.2947, std=2.3173, min=140.9014, max=150.6738, unique=2050
+[2025-07-17 02:08:36] INFO train_model: ema_12_4h: mean=145.3703, std=2.3935, min=140.4309, max=150.9399, unique=2103
+[2025-07-17 02:08:36] INFO train_model: ema_26_4h: mean=145.3707, std=2.3611, min=140.6371, max=150.7944, unique=2103
+[2025-07-17 02:08:36] INFO train_model: rsi_14_4h: mean=49.2808, std=32.9282, min=0.0000, max=100.0000, unique=799
+[2025-07-17 02:08:36] INFO train_model: macd_4h: mean=-0.0004, std=0.2403, min=-0.9388, max=0.7986, unique=2103
+[2025-07-17 02:08:36] INFO train_model: macd_signal_4h: mean=-0.0002, std=0.2247, min=-0.8130, max=0.7178, unique=2103
+[2025-07-17 02:08:36] INFO train_model: bb_high_4h: mean=146.0482, std=2.4460, min=140.8112, max=151.4645, unique=2084
+[2025-07-17 02:08:36] INFO train_model: bb_low_4h: mean=144.6370, std=2.3993, min=139.1342, max=150.7418, unique=2084
+[2025-07-17 02:08:36] INFO train_model: atr_14_4h: mean=0.6268, std=0.2773, min=0.1483, max=2.0255, unique=2065
+[2025-07-17 02:08:36] INFO train_model: volatility_20_4h: mean=0.3528, std=0.2190, min=0.0338, max=1.2700, unique=2084
+[2025-07-17 02:08:36] INFO train_model: price_vs_sma20_4h: mean=-0.0000, std=0.0038, min=-0.0154, max=0.0185, unique=2084
+[2025-07-17 02:08:36] INFO train_model: price_vs_sma50_4h: mean=-0.0000, std=0.0059, min=-0.0229, max=0.0202, unique=2052
+[2025-07-17 02:08:36] INFO train_model: trend_strength_4h: mean=0.0028, std=0.0022, min=0.0000, max=0.0125, unique=2054
+[2025-07-17 02:08:36] INFO train_model: Auditing data quality before training...
+[2025-07-17 02:08:36] INFO train_model: Entering audit_data_quality
