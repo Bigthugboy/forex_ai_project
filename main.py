@@ -3,7 +3,7 @@ import schedule
 from data.fetch_market import get_price_data, SYMBOL_MAP
 from data.fetch_news import get_news_sentiment_with_cache
 from data.preprocess import preprocess_features
-from models.train_model import prepare_target_variable, train_signal_model
+from models.model_training_service import ModelTrainingService
 from models.predict import predict_signal, get_signal_strength
 from signals.signal_generator import generate_signal_output
 from config import Config
@@ -16,6 +16,9 @@ import sys
 import json
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np
+from utils.attempt_log import AttemptLog
+from data.data_fetcher import DataFetcher
+from pipeline.pipeline_orchestrator import PipelineOrchestrator
 
 logger = get_logger('main', log_file='logs/main.log')
 
@@ -33,40 +36,10 @@ SESSION_ATTEMPT_TIMES = [
 ]
 
 # --- Persistent attempt log ---
-def load_attempt_log():
-    if os.path.exists(ATTEMPT_LOG):
-        with open(ATTEMPT_LOG, 'r') as f:
-            return json.load(f)
-    return {}
-
-def save_attempt_log(log):
-    os.makedirs(os.path.dirname(ATTEMPT_LOG), exist_ok=True)
-    with open(ATTEMPT_LOG, 'w') as f:
-        json.dump(log, f)
-
-def reset_attempts_if_new_day(log):
-    today = str(date.today())
-    if today not in log:
-        log.clear()
-        log[today] = {}
-    return log
-
-def increment_attempt(log, pair):
-    today = str(date.today())
-    if today not in log:
-        log[today] = {}
-    log[today][pair] = log[today].get(pair, 0) + 1
-    save_attempt_log(log)
-
-def get_attempts(log, pair):
-    today = str(date.today())
-    return log.get(today, {}).get(pair, 0)
-
-def reset_attempts_for_pair(log, pair):
-    today = str(date.today())
-    if today in log and pair in log[today]:
-        log[today][pair] = 0
-        save_attempt_log(log)
+attempt_log = AttemptLog()
+# --- Model training service ---
+model_trainer = ModelTrainingService()
+data_fetcher = DataFetcher()
 
 def save_signal_to_csv(signal, features=None):
     logger.info(f'Saving signal to CSV: {signal}')
@@ -104,125 +77,9 @@ def get_pair_keywords(pair):
     else:
         return [pair]
 
-def analyze_and_signal():
-    logger.info(f"Running market analysis...")
-    signal_summary = {}
-    attempt_log = load_attempt_log()
-    attempt_log = reset_attempts_if_new_day(attempt_log)
-    for pair in Config.TRADING_PAIRS:
-        attempts = get_attempts(attempt_log, pair)
-        if attempts >= MAX_ATTEMPTS:
-            logger.info(f"Max attempts reached for {pair} today. AI will continue to study the chart but will not generate new signals until tomorrow.")
-            # Still run analysis for logging/monitoring, but skip signal generation and logging
-            try:
-                logger.info(f"[STUDY-ONLY] Fetching price data for {pair}...")
-                price_df = get_price_data(pair, interval='1h', lookback=Config.LOOKBACK_PERIOD)
-                if price_df is None or price_df.empty:
-                    logger.warning(f"[STUDY-ONLY] No price data for {pair}.")
-                    signal_summary[pair] = 'Max attempts reached (studying only, no price data)'
-                    continue
-                logger.info(f"[STUDY-ONLY] Fetched {len(price_df)} rows of price data for {pair}")
-                keywords = get_pair_keywords(pair)
-                logger.info(f"[STUDY-ONLY] Fetching news sentiment (with cache)...")
-                from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
-                to_date = price_df.index[-1].strftime('%Y-%m-%d')
-                sentiment = get_news_sentiment_with_cache(keywords, from_date, to_date, pair)
-                logger.info(f"[STUDY-ONLY] News sentiment score: {sentiment:.4f}")
-                logger.info(f"[STUDY-ONLY] Generating technical indicators...")
-                features_df = preprocess_features(price_df, sentiment)
-                logger.info(f"[STUDY-ONLY] Feature DataFrame shape: {features_df.shape}")
-                logger.info(f"[STUDY-ONLY] Feature summary (last 5 rows):\n{features_df.tail()}\n")
-                # No signal generation or logging
-                signal_summary[pair] = f'Max attempts reached ({MAX_ATTEMPTS}) [studying only]'
-            except Exception as e:
-                logger.error(f"[STUDY-ONLY] Error analyzing {pair}: {e}", exc_info=True)
-                signal_summary[pair] = f"Error (studying only): {e}"
-            continue
-        try:
-            logger.info(f"Fetching price data for {pair}...")
-            price_df = get_price_data(pair, interval='1h', lookback=Config.LOOKBACK_PERIOD)
-            if price_df is None or price_df.empty:
-                logger.warning(f"No price data for {pair}. Skipping analysis for this pair.")
-                signal_summary[pair] = 'No price data'
-                increment_attempt(attempt_log, pair)
-                continue
-            logger.info(f"Fetched {len(price_df)} rows of price data for {pair}")
-            # Use pair-specific keywords
-            keywords = get_pair_keywords(pair)
-            logger.info(f"Fetching news sentiment (with cache)...")
-            from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
-            to_date = price_df.index[-1].strftime('%Y-%m-%d')
-            sentiment = get_news_sentiment_with_cache(keywords, from_date, to_date, pair)
-            logger.info(f"News sentiment score: {sentiment:.4f}")
-            logger.info(f"Generating technical indicators with multi-timeframe analysis...")
-            features_df = preprocess_features(price_df, sentiment, use_multi_timeframe=True)
-            logger.info(f"Feature DataFrame shape: {features_df.shape}")
-            logger.info(f"Feature summary (last 5 rows):\n{features_df.tail()}\n")
-            logger.debug(f"features_df columns before prepare_target_variable: {features_df.columns}")
-            df = prepare_target_variable(features_df)
-            logger.debug(f"df columns after prepare_target_variable: {df.columns}")
-            logger.debug(f"df columns after dropna on target: {df.columns}")
-            if 'target' in df.columns:
-                class_counts = df['target'].value_counts()
-                logger.info(f"Target class balance: {class_counts.to_dict()}")
-            else:
-                logger.warning(f"No target column found after feature engineering for {pair}.")
-                signal_summary[pair] = 'No target column'
-                increment_attempt(attempt_log, pair)
-                continue
-            logger.info(f"Training AI model...")
-            model_dict = train_signal_model(df, pair)
-            model = model_dict['model']
-            scaler = model_dict['scaler']
-            calibration_model = model_dict['model']  # For compatibility, use model as calibration_model
-            feature_cols = model_dict['feature_cols']
-            logger.info(f"Model trained successfully!")
-            logger.info(f"Making signal prediction...")
-            logger.info(f"[DEBUG] features_df columns before prediction for {pair}: {list(features_df.columns)}")
-            prediction_result = predict_signal(features_df, pair)
-            signal = generate_signal_output(pair, features_df, prediction_result)
-            if signal is not None:
-                logger.info(f"SIGNAL GENERATED for {pair}: {signal['signal']} {signal['trade_type']} Confidence: {signal['confidence']:.2%}")
-                signal_summary[pair] = f"Signal: {signal['signal']} {signal['trade_type']} Confidence: {signal['confidence']:.2%}"
-                save_signal_to_csv(signal, features=features_df.iloc[-1].to_dict())
-                reset_attempts_for_pair(attempt_log, pair)
-                # --- Send email notification ---
-                email_subject = f"AI Signal: {pair} {signal['signal']} {signal['trade_type']} ({signal['confidence']:.2%})"
-                email_body = f"""
-Pair: {pair}
-Signal: {signal['signal']} ({signal['trade_type']})
-Confidence: {signal['confidence']:.2%}
-Entry: {signal['entry']}
-Stop Loss: {signal['stop_loss']}
-Take Profits: {signal['take_profit_1']}, {signal['take_profit_2']}, {signal['take_profit_3']}
-Position Size: {signal['position_size']}
-Time: {signal.get('time', 'N/A')}
-"""
-                send_email(email_subject, email_body)
-            else:
-                logger.info(f"No valid signal generated for {pair}: filtered out due to confluence, confidence, or news event.")
-                signal_summary[pair] = 'No valid signal'
-                increment_attempt(attempt_log, pair)
-        except Exception as e:
-            logger.error(f"Error analyzing {pair}: {e}", exc_info=True)
-            signal_summary[pair] = f"Error: {e}"
-            increment_attempt(attempt_log, pair)
-    logger.info("Signal generation summary:")
-    for pair, result in signal_summary.items():
-        logger.info(f"{pair}: {result}")
-
-def schedule_session_attempts():
-    for t in SESSION_ATTEMPT_TIMES:
-        schedule.every().day.at(t).do(analyze_and_signal)
-
-
 def main():
-    logger.info("AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)")
-    schedule_session_attempts()
-    analyze_and_signal()  # Run once at startup
-    while True:
-        schedule.run_pending()
-        time.sleep(5)
+    orchestrator = PipelineOrchestrator()
+    orchestrator.run_forever(send_email_func=send_email)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.10.18, pytest-8.4.1, pluggy-1.6.0 -- /Users/admin/forex_ai_project/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/admin/forex_ai_project
+collecting ... collected 9 items
+
+tests/test_signal_generator.py::test_signal_generated_with_strict_confluence PASSED [ 11%]
+tests/test_signal_generator.py::test_signal_not_generated_if_missing_category PASSED [ 22%]
+tests/test_signal_generator.py::test_signal_not_generated_if_not_enough_factors PASSED [ 33%]
+tests/test_signal_generator.py::test_conflict_resolution_bullish_stronger PASSED [ 44%]
+tests/test_signal_generator.py::test_conflict_resolution_bearish_stronger PASSED [ 55%]
+tests/test_signal_generator.py::test_conflict_resolution_equal_strength PASSED [ 66%]
+tests/test_signal_generator.py::test_generate_signal_output_dynamic_weighting PASSED [ 77%]
+tests/test_signal_generator.py::test_generate_signal_output_key_level_proximity PASSED [ 88%]
+tests/test_signal_generator.py::test_generate_signal_output_pattern_strength PASSED [100%]
+
+============================== 9 passed in 2.28s ===============================

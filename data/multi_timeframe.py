@@ -8,10 +8,34 @@ from data.fetch_market import get_price_data
 
 logger = get_logger('multi_timeframe', log_file='logs/multi_timeframe.log')
 
+def detect_structure_trend(df, high_col, low_col, window=10):
+    """
+    Detect market structure: uptrend (higher highs/lows), downtrend (lower highs/lows), or range.
+    Returns a Series with values: 'uptrend', 'downtrend', 'range'.
+    """
+    highs = df[high_col].rolling(window=window, min_periods=window).max()
+    lows = df[low_col].rolling(window=window, min_periods=window).min()
+    trend = []
+    for i in range(len(df)):
+        if i < window:
+            trend.append('range')
+            continue
+        # Compare current high/low to previous window
+        prev_high = highs.iloc[i-window]
+        prev_low = lows.iloc[i-window]
+        curr_high = highs.iloc[i]
+        curr_low = lows.iloc[i]
+        if curr_high > prev_high and curr_low > prev_low:
+            trend.append('uptrend')
+        elif curr_high < prev_high and curr_low < prev_low:
+            trend.append('downtrend')
+        else:
+            trend.append('range')
+    return pd.Series(trend, index=df.index)
+
 class MultiTimeframeData:
     def __init__(self):
         self.timeframes = {
-            '15m': '15m',  # 15 minutes
             '1h': '1h',    # 1 hour
             '4h': '4h'     # 4 hours
         }
@@ -39,6 +63,17 @@ class MultiTimeframeData:
             except Exception as e:
                 logger.error(f"Error fetching {tf_name} data for {symbol}: {e}")
                 
+        # Also fetch D1 data for structure analysis
+        try:
+            logger.info(f"Fetching D1 data for {symbol}")
+            d1_data = get_price_data(symbol, interval='1d', lookback=lookback_days)
+            if d1_data is not None and not d1_data.empty:
+                multi_tf_data['1d'] = d1_data
+                logger.info(f"Successfully fetched {len(d1_data)} rows of D1 data for {symbol}")
+            else:
+                logger.warning(f"No D1 data received for {symbol}")
+        except Exception as e:
+            logger.error(f"Error fetching D1 data for {symbol}: {e}")
         return multi_tf_data
     
     def create_multi_timeframe_features(self, symbol, lookback_days=60):
@@ -72,6 +107,13 @@ class MultiTimeframeData:
         """
         # Start with base 1h data
         features_df = base_data.copy()
+        
+        # Add structure trend for 1h base
+        close_col = [col for col in base_data.columns if col.startswith('Close')][0]
+        high_col = [col for col in base_data.columns if col.startswith('High')][0]
+        low_col = [col for col in base_data.columns if col.startswith('Low')][0]
+        features_df['structure_trend_1h'] = detect_structure_trend(base_data, high_col, low_col, window=10)
+        logger.info(f"Added structure_trend_1h feature")
         
         # Add features from other timeframes
         for tf_name, tf_data in multi_tf_data.items():
@@ -181,6 +223,10 @@ class MultiTimeframeData:
             
             # Trend strength indicators
             base_df[f'trend_strength_{tf_name}'] = abs(base_df[f'sma_20_{tf_name}'] - base_df[f'sma_50_{tf_name}']) / base_df[f'sma_50_{tf_name}']
+            
+            # Structure trend feature
+            base_df[f'structure_trend_{tf_name}'] = detect_structure_trend(tf_data, high_col, low_col, window=10)
+            logger.info(f"Added structure_trend_{tf_name} feature")
             
             logger.info(f"Added {tf_name} timeframe features")
             

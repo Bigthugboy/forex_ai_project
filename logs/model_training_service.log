@@ -1,0 +1,760 @@
+[2025-07-17 14:40:30] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:40:30] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:40:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:40:30] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:40:30] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:40:30] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:40:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:40:30] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:40:30] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:40:30] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:40:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:40:30] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:40:30] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:40:30] INFO model_training_service: Model, scaler, and features saved for TEST
+[2025-07-17 14:40:30] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:40:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:40:30] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:40:30] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:40:30] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:40:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:40:31] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:40:31] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:40:31] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:40:31] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:40:31] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:40:31] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:42:48] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:42:48] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:42:48] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:42:48] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:42:48] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:42:48] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:42:48] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:42:48] INFO model_training_service: Model Accuracy: 0.8333
+[2025-07-17 14:42:48] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      1.00      0.86         3
+           1       1.00      0.67      0.80         3
+
+    accuracy                           0.83         6
+   macro avg       0.88      0.83      0.83         6
+weighted avg       0.88      0.83      0.83         6
+
+[2025-07-17 14:42:48] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:42:48] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:42:48] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:42:48] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:42:48] INFO model_training_service: Model, scaler, and features saved for TEST
+[2025-07-17 14:42:48] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:42:48] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:42:49] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:42:49] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:42:49] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:42:49] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:42:49] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:42:49] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:42:49] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:42:49] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:42:49] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:42:49] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:51:25] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:51:25] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:51:25] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:51:25] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:51:25] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:51:25] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:51:25] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:51:25] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:51:25] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:51:25] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:51:25] INFO model_training_service: Model, scaler, and features saved for TEST
+[2025-07-17 14:51:25] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:51:25] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:51:25] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:51:25] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:51:25] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:51:25] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:51:25] INFO model_training_service: Model Accuracy: 0.8333
+[2025-07-17 14:51:25] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      1.00      0.86         3
+           1       1.00      0.67      0.80         3
+
+    accuracy                           0.83         6
+   macro avg       0.88      0.83      0.83         6
+weighted avg       0.88      0.83      0.83         6
+
+[2025-07-17 14:51:25] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:51:25] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:51:26] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:51:26] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:54:43] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:54:43] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:54:43] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:54:43] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:54:43] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:54:43] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:54:43] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:54:43] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:54:43] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:54:43] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:54:43] INFO model_training_service: Model, scaler, and features saved for TEST
+[2025-07-17 14:54:43] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:54:43] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:54:43] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:54:43] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:54:43] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:54:43] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:54:43] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:54:43] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:57:18] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:18] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:18] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:57:18] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:57:18] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:57:18] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:18] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-17 14:57:18] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:18] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:18] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:57:18] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:57:18] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:57:18] INFO model_training_service: Model, scaler, and features saved for TEST
+[2025-07-17 14:57:18] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:18] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:57:19] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:57:19] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:57:19] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:19] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:57:19] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:57:19] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:57:41] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:41] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:41] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:57:41] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:57:41] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:57:41] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:41] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-17 14:57:41] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:41] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:41] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:57:41] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:57:41] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:57:41] INFO model_training_service: Model, scaler, and features saved for TEST
+[2025-07-17 14:57:41] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:41] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:57:41] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:57:41] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:57:41] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:57:41] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:57:42] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:57:42] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:58:28] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:58:28] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:58:28] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:58:28] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:58:28] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:58:28] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:58:28] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-17 14:58:28] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:58:28] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:58:28] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:58:28] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:58:28] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:58:28] INFO model_training_service: Model, scaler, and features saved for TEST
+[2025-07-17 14:58:28] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:58:28] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:58:28] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:58:28] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:58:28] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:58:28] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:58:28] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:58:28] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:59:20] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:59:20] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:59:20] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:59:20] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:59:20] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:59:20] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:59:20] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-17 14:59:20] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:59:20] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:59:20] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:59:20] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:59:20] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:59:20] INFO model_training_service: Model, scaler, and features saved for TEST
+[2025-07-17 14:59:20] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:59:20] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:59:21] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:59:21] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 14:59:21] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:59:21] INFO model_training_service: Starting training for TEST...
+[2025-07-17 14:59:21] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 14:59:21] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-17 14:59:21] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-17 15:37:21] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 15:37:21] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 15:37:22] INFO model_training_service: Model Accuracy: 1.0000
+[2025-07-17 15:37:22] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        19
+           1       1.00      1.00      1.00        19
+
+    accuracy                           1.00        38
+   macro avg       1.00      1.00      1.00        38
+weighted avg       1.00      1.00      1.00        38
+
+[2025-07-17 15:37:22] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 15:37:25] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 15:37:25] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 15:37:26] INFO model_training_service: Model Accuracy: 1.0000
+[2025-07-17 15:37:26] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        19
+           1       1.00      1.00      1.00        19
+
+    accuracy                           1.00        38
+   macro avg       1.00      1.00      1.00        38
+weighted avg       1.00      1.00      1.00        38
+
+[2025-07-17 15:37:26] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 15:37:33] INFO model_training_service: Starting training for ALL...
+[2025-07-17 17:10:02] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 17:10:02] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 17:10:03] INFO model_training_service: Model Accuracy: 0.8285
+[2025-07-17 17:10:03] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.83      0.83       621
+           1       0.83      0.83      0.83       621
+
+    accuracy                           0.83      1242
+   macro avg       0.83      0.83      0.83      1242
+weighted avg       0.83      0.83      0.83      1242
+
+[2025-07-17 17:10:03] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 17:21:47] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 17:21:47] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 17:21:48] INFO model_training_service: Model Accuracy: 0.8123
+[2025-07-17 17:21:48] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.81      0.81       349
+           1       0.81      0.82      0.81       349
+
+    accuracy                           0.81       698
+   macro avg       0.81      0.81      0.81       698
+weighted avg       0.81      0.81      0.81       698
+
+[2025-07-17 17:21:48] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 19:00:21] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 19:00:21] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 19:00:23] INFO model_training_service: Model Accuracy: 0.8439
+[2025-07-17 19:00:23] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.85      0.85       622
+           1       0.85      0.83      0.84       621
+
+    accuracy                           0.84      1243
+   macro avg       0.84      0.84      0.84      1243
+weighted avg       0.84      0.84      0.84      1243
+
+[2025-07-17 19:00:23] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 19:00:34] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 19:00:34] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 19:00:36] INFO model_training_service: Model Accuracy: 0.7854
+[2025-07-17 19:00:36] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.83      0.79       522
+           1       0.81      0.75      0.78       522
+
+    accuracy                           0.79      1044
+   macro avg       0.79      0.79      0.79      1044
+weighted avg       0.79      0.79      0.79      1044
+
+[2025-07-17 19:00:36] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 19:30:42] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 19:30:42] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 19:30:43] INFO model_training_service: Model Accuracy: 0.8415
+[2025-07-17 19:30:43] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84       622
+           1       0.84      0.84      0.84       621
+
+    accuracy                           0.84      1243
+   macro avg       0.84      0.84      0.84      1243
+weighted avg       0.84      0.84      0.84      1243
+
+[2025-07-17 19:30:43] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 19:31:00] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 19:31:00] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 19:31:01] INFO model_training_service: Model Accuracy: 0.7950
+[2025-07-17 19:31:01] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.78      0.83      0.80       522
+           1       0.81      0.76      0.79       522
+
+    accuracy                           0.80      1044
+   macro avg       0.80      0.80      0.79      1044
+weighted avg       0.80      0.80      0.79      1044
+
+[2025-07-17 19:31:01] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 19:48:07] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 19:48:07] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 19:48:09] INFO model_training_service: Model Accuracy: 0.8423
+[2025-07-17 19:48:09] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.85      0.84       622
+           1       0.85      0.83      0.84       621
+
+    accuracy                           0.84      1243
+   macro avg       0.84      0.84      0.84      1243
+weighted avg       0.84      0.84      0.84      1243
+
+[2025-07-17 19:48:09] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 19:48:23] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 19:48:23] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 19:48:25] INFO model_training_service: Model Accuracy: 0.7950
+[2025-07-17 19:48:25] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.78      0.83      0.80       522
+           1       0.81      0.76      0.79       522
+
+    accuracy                           0.80      1044
+   macro avg       0.80      0.80      0.79      1044
+weighted avg       0.80      0.80      0.79      1044
+
+[2025-07-17 19:48:25] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 20:03:46] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 20:03:46] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:03:48] INFO model_training_service: Model Accuracy: 0.8479
+[2025-07-17 20:03:48] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.85       622
+           1       0.84      0.86      0.85       621
+
+    accuracy                           0.85      1243
+   macro avg       0.85      0.85      0.85      1243
+weighted avg       0.85      0.85      0.85      1243
+
+[2025-07-17 20:03:48] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 20:03:58] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 20:03:58] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:04:00] INFO model_training_service: Model Accuracy: 0.7921
+[2025-07-17 20:04:00] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       522
+           1       0.82      0.75      0.78       522
+
+    accuracy                           0.79      1044
+   macro avg       0.79      0.79      0.79      1044
+weighted avg       0.79      0.79      0.79      1044
+
+[2025-07-17 20:04:00] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 20:04:55] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 20:04:55] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:04:57] INFO model_training_service: Model Accuracy: 0.8488
+[2025-07-17 20:04:57] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.83      0.85       622
+           1       0.84      0.86      0.85       621
+
+    accuracy                           0.85      1243
+   macro avg       0.85      0.85      0.85      1243
+weighted avg       0.85      0.85      0.85      1243
+
+[2025-07-17 20:04:57] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 20:05:08] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 20:05:08] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:05:10] INFO model_training_service: Model Accuracy: 0.7921
+[2025-07-17 20:05:10] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       522
+           1       0.82      0.75      0.78       522
+
+    accuracy                           0.79      1044
+   macro avg       0.79      0.79      0.79      1044
+weighted avg       0.79      0.79      0.79      1044
+
+[2025-07-17 20:05:10] INFO model_training_service: Model, scaler, and features saved for BTCUSD

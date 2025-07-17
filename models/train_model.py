@@ -224,23 +224,50 @@ def train_signal_model(features_df, pair, model_dir='models/saved_models/', top_
     audit_data_quality(df, feature_cols, target_col='target')
 
     # Remove constant features
-    constant_features = [col for col in feature_cols if df[col].nunique() <= 1]
+    # PATCH: Never remove candlestick pattern columns, even if constant
+    candlestick_pattern_cols = [
+        'doji', 'hammer', 'bullish_engulfing', 'bearish_engulfing', 'shooting_star',
+        # Add any other pattern columns your model expects
+    ]
+    if feature_cols is None or not isinstance(feature_cols, list):
+        logger.error('feature_cols is None or not a list before constant feature removal!')
+        raise ValueError('feature_cols is None or not a list before constant feature removal!')
+    if df is None or not hasattr(df, 'columns'):
+        logger.error('df is None or not a DataFrame before constant feature removal!')
+        raise ValueError('df is None or not a DataFrame before constant feature removal!')
+    constant_features = [col for col in feature_cols if df[col].nunique() <= 1 and col not in candlestick_pattern_cols]
     for col in constant_features:
         print(f'Removing constant feature: {col}')
         logger.warning(f'Removing constant feature: {col}')
     feature_cols = [col for col in feature_cols if col not in constant_features]
     if not feature_cols:
-        raise ValueError('No features left after removing constant features!')
         logger.error('No features left after removing constant features!')
+        raise ValueError('No features left after removing constant features!')
     # Re-run audit with updated feature_cols
     logger.info('Auditing data quality after removing constant features...')
     audit_data_quality(df, feature_cols, target_col='target')
 
+    # --- PATCH: Robustness check for feature_cols ---
+    # Ensure feature_cols matches columns in X_bal/X_train
+    if X_bal is not None and isinstance(X_bal, pd.DataFrame):
+        final_train_cols = list(X_bal.columns)
+        missing_in_train = [col for col in feature_cols if col not in final_train_cols]
+        extra_in_train = [col for col in final_train_cols if col not in feature_cols]
+        if missing_in_train:
+            logger.warning(f"[Feature Consistency] Features in feature_cols but missing in training data: {missing_in_train}")
+        if extra_in_train:
+            logger.warning(f"[Feature Consistency] Features in training data but not in feature_cols: {extra_in_train}")
+    else:
+        final_train_cols = []
+        logger.warning("[Feature Consistency] X_bal is None or not a DataFrame when checking final training columns. Skipping feature consistency checks.")
+    # Always update feature_cols to match final training columns
+    feature_cols = final_train_cols
     # Save feature list for prediction (always save, regardless of SHAP analysis)
     logger.info(f"[DEBUG] About to save feature columns: {feature_cols}")
     with open(features_path, 'w') as f:
         json.dump(feature_cols, f)
     logger.info(f"[DEBUG] Feature columns saved to {features_path}")
+    # --- END PATCH ---
     # SHAP and feature importance analysis (robust)
     logger.info('Model is engineering features and studying candlestick patterns...')
     try:

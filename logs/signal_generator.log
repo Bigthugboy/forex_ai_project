@@ -203,3 +203,465 @@
 [2025-07-17 03:00:14] INFO signal_generator: Confluence factors: [], score=0, confidence=0.55
 [2025-07-17 03:00:14] INFO signal_generator: Signal confidence score: 0.55 (interpreted as probability of correctness)
 [2025-07-17 03:00:14] INFO signal_generator: No signal for JPYNZD at 2025-07-17 02:00:00+00:00: insufficient confluence (0) or confidence (0.55)
+[2025-07-17 11:08:18] INFO signal_generator: Analyzing USDJPY at 2025-07-17 07:00:00+00:00: RSI=91.58525465676696, MACD=0.04726198966409356, MACD_signal=-0.020066811240681905, News sentiment=N/A
+[2025-07-17 11:08:18] INFO signal_generator: Detected patterns: None
+[2025-07-17 11:08:18] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 07:00:00+00:00 | Confluence factors: ['rsi_14_4h_overbought'] | Score: 1 | Confidence: 0.80
+[2025-07-17 11:08:18] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h']
+[2025-07-17 11:08:18] INFO signal_generator: [CONFIDENCE] USDJPY @ 2025-07-17 07:00:00+00:00 | Signal confidence score: 0.80 (interpreted as probability of correctness)
+[2025-07-17 11:08:18] WARNING signal_generator: [ALERT] High confidence (0.80) but only 1 confluence factors: ['rsi_14_4h_overbought']
+[2025-07-17 11:08:18] INFO signal_generator: [DEBUG] Top features for USDJPY at 2025-07-17 07:00:00+00:00: {'Close': 148.6269989013672, 'High': 148.76699829101562, 'Low': 148.58599853515625, 'Open': 148.7209930419922, 'Volume': 0, 'supply_zone': 1, 'demand_zone': 0, 'wyckoff_markdown': True, 'wyckoff_markup': False, 'wyckoff_unknown': False}
+[2025-07-17 11:08:18] WARNING signal_generator: [SHAP] Could not generate force plot: Model, scaler, or feature_cols not found at models/saved_models/signal_model_USDJPY.pkl. Please train the model first.
+[2025-07-17 11:08:18] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 07:00:00+00:00 | Reason: Insufficient confluence (1 < 4). No signal generated.
+[2025-07-17 11:08:32] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 07:00:00+00:00: RSI=91.58525465676696, MACD=0.04726198966409356, MACD_signal=-0.020066811240681905, News sentiment=N/A
+[2025-07-17 11:08:32] INFO signal_generator: Detected patterns: None
+[2025-07-17 11:08:32] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 07:00:00+00:00 | Confluence factors: ['rsi_14_4h_overbought'] | Score: 1 | Confidence: 0.77
+[2025-07-17 11:08:32] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h']
+[2025-07-17 11:08:32] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 07:00:00+00:00 | Signal confidence score: 0.77 (interpreted as probability of correctness)
+[2025-07-17 11:08:32] WARNING signal_generator: [ALERT] High confidence (0.77) but only 1 confluence factors: ['rsi_14_4h_overbought']
+[2025-07-17 11:08:32] INFO signal_generator: [DEBUG] Top features for BTCUSD at 2025-07-17 07:00:00+00:00: {'Close': 118483.515625, 'High': 118571.796875, 'Low': 117914.25, 'Open': 118404.8125, 'Volume': 7192215552, 'supply_zone': 0, 'demand_zone': 1, 'wyckoff_markdown': False, 'wyckoff_markup': False, 'wyckoff_unknown': False}
+[2025-07-17 11:08:32] WARNING signal_generator: [SHAP] Could not generate force plot: Model, scaler, or feature_cols not found at models/saved_models/signal_model_BTCUSD.pkl. Please train the model first.
+[2025-07-17 11:08:32] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 07:00:00+00:00 | Reason: Insufficient confluence (1 < 4). No signal generated.
+[2025-07-17 11:30:56] WARNING signal_generator: News sentiment is N/A for USDJPY at 2025-07-17 07:00:00+00:00. No news found or error in fetching.
+[2025-07-17 11:30:56] INFO signal_generator: Analyzing USDJPY at 2025-07-17 07:00:00+00:00: RSI=91.58525465676696, MACD=0.04726198966409356, MACD_signal=-0.020066811240681905, News sentiment=N/A
+[2025-07-17 11:30:56] INFO signal_generator: Detected patterns: None
+[2025-07-17 11:30:56] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 07:00:00+00:00 | Confluence factors: ['rsi_14_4h_overbought'] | Score: 1 | Confidence: 0.77
+[2025-07-17 11:30:56] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h']
+[2025-07-17 11:30:56] INFO signal_generator: [DEBUG] Confluence indicators used: ['rsi_14_4h_overbought']
+[2025-07-17 11:30:56] INFO signal_generator: [CONFIDENCE] USDJPY @ 2025-07-17 07:00:00+00:00 | Signal confidence score: 0.77 (interpreted as probability of correctness)
+[2025-07-17 11:30:56] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 11:30:56] WARNING signal_generator: [ALERT] High confidence (0.77) but only 1 confluence factors: ['rsi_14_4h_overbought']
+[2025-07-17 11:30:56] INFO signal_generator: [DEBUG] Top features for USDJPY at 2025-07-17 07:00:00+00:00: {'Close': 148.6269989013672, 'High': 148.76699829101562, 'Low': 148.58599853515625, 'Open': 148.7209930419922, 'Volume': 0, 'supply_zone': 1, 'demand_zone': 0, 'wyckoff_markdown': True, 'wyckoff_markup': False, 'wyckoff_unknown': False}
+[2025-07-17 11:30:56] WARNING signal_generator: [SHAP] Could not generate force plot: Model, scaler, or feature_cols not found at models/saved_models/signal_model_USDJPY.pkl. Please train the model first.
+[2025-07-17 11:30:56] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 07:00:00+00:00 | Reason: Insufficient confluence (1 < 4). No signal generated.
+[2025-07-17 11:31:11] WARNING signal_generator: News sentiment is N/A for BTCUSD at 2025-07-17 07:00:00+00:00. No news found or error in fetching.
+[2025-07-17 11:31:11] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 07:00:00+00:00: RSI=91.58525465676696, MACD=0.04726198966409356, MACD_signal=-0.020066811240681905, News sentiment=N/A
+[2025-07-17 11:31:11] INFO signal_generator: Detected patterns: None
+[2025-07-17 11:31:11] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 07:00:00+00:00 | Confluence factors: ['rsi_14_4h_overbought'] | Score: 1 | Confidence: 0.73
+[2025-07-17 11:31:11] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h']
+[2025-07-17 11:31:11] INFO signal_generator: [DEBUG] Confluence indicators used: ['rsi_14_4h_overbought']
+[2025-07-17 11:31:11] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 07:00:00+00:00 | Signal confidence score: 0.73 (interpreted as probability of correctness)
+[2025-07-17 11:31:11] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 11:31:11] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 07:00:00+00:00 | Reason: Insufficient confluence (1 < 4). No signal generated.
+[2025-07-17 12:06:38] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 11:00:00+00:00: 0.07066666666666668
+[2025-07-17 12:06:38] INFO signal_generator: Market regime for USDJPY at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 12:06:38] INFO signal_generator: Analyzing USDJPY at 2025-07-17 11:00:00+00:00: RSI=100.0, MACD=0.07853857289288158, MACD_signal=0.03425492574609048, News sentiment=0.07066666666666668
+[2025-07-17 12:06:38] INFO signal_generator: Detected patterns: None | All pattern values: {}
+[2025-07-17 12:06:38] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 11:00:00+00:00 | Confluence factors: [] | Score: 0 | Confidence: 0.83
+[2025-07-17 12:06:38] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone']
+[2025-07-17 12:06:38] INFO signal_generator: [DEBUG] No confluence indicators aligned for USDJPY at 2025-07-17 11:00:00+00:00.
+[2025-07-17 12:06:38] INFO signal_generator: [CONFIDENCE] USDJPY @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.83 (interpreted as probability of correctness)
+[2025-07-17 12:06:38] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 12:06:38] WARNING signal_generator: [ALERT] High confidence (0.83) but only 0 confluence factors: []
+[2025-07-17 12:06:38] INFO signal_generator: [DEBUG] Top features for USDJPY at 2025-07-17 11:00:00+00:00: {'Close': 148.63699340820312, 'High': 148.66799926757812, 'Low': 148.60400390625, 'Open': 148.63499450683594, 'Volume': 0, 'supply_zone': 1, 'demand_zone': 0, 'wyckoff_markdown': True, 'wyckoff_markup': False, 'wyckoff_unknown': False}
+[2025-07-17 12:06:38] WARNING signal_generator: [SHAP] Could not generate force plot: Model, scaler, or feature_cols not found at models/saved_models/signal_model_USDJPY.pkl. Please train the model first.
+[2025-07-17 12:06:38] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 11:00:00+00:00 | Reason: Insufficient confluence (0 < 4). No signal generated.
+[2025-07-17 12:06:50] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 11:00:00+00:00: 0.018336000000000005
+[2025-07-17 12:06:50] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 12:06:50] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 11:00:00+00:00: RSI=100.0, MACD=0.07853857289288158, MACD_signal=0.03425492574609048, News sentiment=0.018336000000000005
+[2025-07-17 12:06:50] INFO signal_generator: Detected patterns: None | All pattern values: {}
+[2025-07-17 12:06:50] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 11:00:00+00:00 | Confluence factors: [] | Score: 0 | Confidence: 0.68
+[2025-07-17 12:06:50] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone']
+[2025-07-17 12:06:50] INFO signal_generator: [DEBUG] No confluence indicators aligned for BTCUSD at 2025-07-17 11:00:00+00:00.
+[2025-07-17 12:06:50] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.68 (interpreted as probability of correctness)
+[2025-07-17 12:06:50] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 12:06:50] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 11:00:00+00:00 | Reason: Insufficient confluence (0 < 4). No signal generated.
+[2025-07-17 12:22:09] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 11:00:00+00:00: 0.07066666666666668
+[2025-07-17 12:22:09] INFO signal_generator: Market regime for USDJPY at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 12:22:09] INFO signal_generator: Analyzing USDJPY at 2025-07-17 11:00:00+00:00: RSI=100.0, MACD=0.07853857289288158, MACD_signal=0.03425492574609048, News sentiment=0.07066666666666668
+[2025-07-17 12:22:09] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0, 'hammer': 0, 'bullish_engulfing': 0, 'bearish_engulfing': 0, 'shooting_star': 0}
+[2025-07-17 12:22:09] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 11:00:00+00:00 | Confluence factors: [] | Score: 0 | Confidence: 0.82
+[2025-07-17 12:22:09] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone']
+[2025-07-17 12:22:09] INFO signal_generator: [DEBUG] No confluence indicators aligned for USDJPY at 2025-07-17 11:00:00+00:00.
+[2025-07-17 12:22:09] INFO signal_generator: [CONFIDENCE] USDJPY @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.82 (interpreted as probability of correctness)
+[2025-07-17 12:22:09] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 12:22:09] WARNING signal_generator: [ALERT] High confidence (0.82) but only 0 confluence factors: []
+[2025-07-17 12:22:09] INFO signal_generator: [DEBUG] Top features for USDJPY at 2025-07-17 11:00:00+00:00: {'Close': 148.63699340820312, 'High': 148.66900634765625, 'Low': 148.5989990234375, 'Open': 148.656005859375, 'Volume': 0, 'supply_zone': 1, 'demand_zone': 0, 'wyckoff_markdown': True, 'wyckoff_markup': False, 'wyckoff_unknown': False}
+[2025-07-17 12:22:09] WARNING signal_generator: [SHAP] Could not generate force plot: Model, scaler, or feature_cols not found at models/saved_models/signal_model_USDJPY.pkl. Please train the model first.
+[2025-07-17 12:22:09] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 11:00:00+00:00 | Reason: Insufficient confluence (0 < 4). No signal generated.
+[2025-07-17 12:22:23] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 11:00:00+00:00: 0.018336000000000005
+[2025-07-17 12:22:23] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 12:22:23] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 11:00:00+00:00: RSI=100.0, MACD=0.07853857289288158, MACD_signal=0.03425492574609048, News sentiment=0.018336000000000005
+[2025-07-17 12:22:23] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0, 'hammer': 0, 'bullish_engulfing': 0, 'bearish_engulfing': 0, 'shooting_star': 0}
+[2025-07-17 12:22:23] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 11:00:00+00:00 | Confluence factors: [] | Score: 0 | Confidence: 0.66
+[2025-07-17 12:22:23] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone']
+[2025-07-17 12:22:23] INFO signal_generator: [DEBUG] No confluence indicators aligned for BTCUSD at 2025-07-17 11:00:00+00:00.
+[2025-07-17 12:22:23] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.66 (interpreted as probability of correctness)
+[2025-07-17 12:22:23] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 12:22:23] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 11:00:00+00:00 | Reason: Insufficient confluence (0 < 4). No signal generated.
+[2025-07-17 12:38:02] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 11:00:00+00:00: 0.07066666666666668
+[2025-07-17 12:38:02] INFO signal_generator: Market regime for USDJPY at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 12:38:02] INFO signal_generator: Analyzing USDJPY at 2025-07-17 11:00:00+00:00: RSI=100.0, MACD=0.07853857289288158, MACD_signal=0.03425492574609048, News sentiment=0.07066666666666668
+[2025-07-17 12:38:02] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0, 'hammer': 0, 'bullish_engulfing': 0, 'bearish_engulfing': 0, 'shooting_star': 0}
+[2025-07-17 12:38:02] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 11:00:00+00:00 | Confluence factors: [] | Score: 0 | Confidence: 0.84
+[2025-07-17 12:38:02] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone']
+[2025-07-17 12:38:02] INFO signal_generator: [DEBUG] No confluence indicators aligned for USDJPY at 2025-07-17 11:00:00+00:00.
+[2025-07-17 12:38:02] INFO signal_generator: [CONFIDENCE] USDJPY @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.84 (interpreted as probability of correctness)
+[2025-07-17 12:38:02] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 12:38:02] WARNING signal_generator: [ALERT] High confidence (0.84) but only 0 confluence factors: []
+[2025-07-17 12:38:02] INFO signal_generator: [DEBUG] Top features for USDJPY at 2025-07-17 11:00:00+00:00: {'Close': 148.63699340820312, 'High': 148.7519989013672, 'Low': 148.5989990234375, 'Open': 148.72900390625, 'Volume': 0, 'supply_zone': 1, 'demand_zone': 0, 'wyckoff_markdown': True, 'wyckoff_markup': False, 'wyckoff_unknown': False}
+[2025-07-17 12:38:02] WARNING signal_generator: [SHAP] Could not generate force plot: Model, scaler, or feature_cols not found at models/saved_models/signal_model_USDJPY.pkl. Please train the model first.
+[2025-07-17 12:38:02] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 11:00:00+00:00 | Reason: Insufficient confluence (0 < 4). No signal generated.
+[2025-07-17 12:38:16] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 11:00:00+00:00: 0.018336000000000005
+[2025-07-17 12:38:16] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 12:38:16] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 11:00:00+00:00: RSI=100.0, MACD=0.07853857289288158, MACD_signal=0.03425492574609048, News sentiment=0.018336000000000005
+[2025-07-17 12:38:16] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0, 'hammer': 0, 'bullish_engulfing': 0, 'bearish_engulfing': 0, 'shooting_star': 0}
+[2025-07-17 12:38:16] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 11:00:00+00:00 | Confluence factors: [] | Score: 0 | Confidence: 0.68
+[2025-07-17 12:38:16] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone']
+[2025-07-17 12:38:16] INFO signal_generator: [DEBUG] No confluence indicators aligned for BTCUSD at 2025-07-17 11:00:00+00:00.
+[2025-07-17 12:38:16] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.68 (interpreted as probability of correctness)
+[2025-07-17 12:38:16] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 12:38:16] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 11:00:00+00:00 | Reason: Insufficient confluence (0 < 4). No signal generated.
+[2025-07-17 13:00:18] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 11:00:00+00:00: 0.07066666666666668
+[2025-07-17 13:00:18] INFO signal_generator: Market regime for USDJPY at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 13:00:18] INFO signal_generator: Analyzing USDJPY at 2025-07-17 11:00:00+00:00: RSI=100.0, MACD=0.07853857289288158, MACD_signal=0.03425492574609048, News sentiment=0.07066666666666668
+[2025-07-17 13:00:18] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0, 'hammer': 0, 'bullish_engulfing': 0, 'bearish_engulfing': 0, 'shooting_star': 0}
+[2025-07-17 13:00:18] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 11:00:00+00:00 | Confluence factors: [] | Score: 0 | Confidence: 0.76
+[2025-07-17 13:00:18] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone']
+[2025-07-17 13:00:18] INFO signal_generator: [DEBUG] No confluence indicators aligned for USDJPY at 2025-07-17 11:00:00+00:00.
+[2025-07-17 13:00:18] INFO signal_generator: [CONFIDENCE] USDJPY @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.76 (interpreted as probability of correctness)
+[2025-07-17 13:00:18] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 13:00:18] WARNING signal_generator: [ALERT] High confidence (0.76) but only 0 confluence factors: []
+[2025-07-17 13:00:18] INFO signal_generator: [DEBUG] Top features for USDJPY at 2025-07-17 11:00:00+00:00: {'Close': 148.63699340820312, 'High': 148.80099487304688, 'Low': 148.5989990234375, 'Open': 148.76699829101562, 'Volume': 0, 'supply_zone': 1, 'demand_zone': 0, 'wyckoff_markdown': True, 'wyckoff_markup': False, 'wyckoff_unknown': False}
+[2025-07-17 13:00:18] WARNING signal_generator: [SHAP] Could not generate force plot: Model, scaler, or feature_cols not found at models/saved_models/signal_model_USDJPY.pkl. Please train the model first.
+[2025-07-17 13:00:18] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 11:00:00+00:00 | Reason: Insufficient confluence (0 < 4). No signal generated.
+[2025-07-17 13:00:36] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 11:00:00+00:00: 0.021518000000000002
+[2025-07-17 13:00:36] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 13:00:36] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 11:00:00+00:00: RSI=100.0, MACD=0.07853857289288158, MACD_signal=0.03425492574609048, News sentiment=0.021518000000000002
+[2025-07-17 13:00:36] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0, 'hammer': 0, 'bullish_engulfing': 0, 'bearish_engulfing': 0, 'shooting_star': 0}
+[2025-07-17 13:00:36] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 11:00:00+00:00 | Confluence factors: [] | Score: 0 | Confidence: 0.75
+[2025-07-17 13:00:36] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['demand_zone']
+[2025-07-17 13:00:36] INFO signal_generator: [DEBUG] No confluence indicators aligned for BTCUSD at 2025-07-17 11:00:00+00:00.
+[2025-07-17 13:00:36] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.75 (interpreted as probability of correctness)
+[2025-07-17 13:00:36] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 13:00:36] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 11:00:00+00:00 | Reason: Insufficient confluence (0 < 4). No signal generated.
+[2025-07-17 14:17:22] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 11:00:00+00:00: 0.07066666666666668
+[2025-07-17 14:17:22] INFO signal_generator: Market regime for USDJPY at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 14:17:22] INFO signal_generator: Analyzing USDJPY at 2025-07-17 11:00:00+00:00: RSI=56.15042110863919, MACD=0.0761819302782385, MACD_signal=0.014174130139161, News sentiment=0.07066666666666668
+[2025-07-17 14:17:22] INFO signal_generator: Detected patterns: ['bearish_engulfing'] | All pattern values: {'doji': 0.0, 'hammer': 0.0, 'bullish_engulfing': 0.0, 'bearish_engulfing': 1.0, 'shooting_star': 0.0}
+[2025-07-17 14:17:22] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 11:00:00+00:00 | Confluence factors: ['sma_20_bull', 'sma_50_bull', 'sma_200_bull', 'ema_12_bull', 'ema_26_bull', 'demand_zone_bull', 'macd_bull', 'bearish_engulfing'] | Score: 8 | Confidence: 0.55
+[2025-07-17 14:17:22] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'demand_zone', 'rsi_14', 'macd', 'macd_signal']
+[2025-07-17 14:17:22] INFO signal_generator: [DEBUG] Confluence indicators used: ['sma_20_bull', 'sma_50_bull', 'sma_200_bull', 'ema_12_bull', 'ema_26_bull', 'demand_zone_bull', 'macd_bull', 'bearish_engulfing']
+[2025-07-17 14:17:22] INFO signal_generator: Ambiguity detected: both bullish and bearish confluence factors present.
+[2025-07-17 14:17:22] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 11:00:00+00:00 | Reason: Ambiguity/conflict in confluence factors. No signal generated.
+[2025-07-17 14:17:37] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 11:00:00+00:00: 0.021518000000000002
+[2025-07-17 14:17:37] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 14:17:37] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 11:00:00+00:00: RSI=47.60168769268162, MACD=-12.137656490667723, MACD_signal=53.71693782738461, News sentiment=0.021518000000000002
+[2025-07-17 14:17:37] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0.0, 'hammer': 0.0, 'bullish_engulfing': 0.0, 'bearish_engulfing': 0.0, 'shooting_star': 0.0}
+[2025-07-17 14:17:37] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 11:00:00+00:00 | Confluence factors: ['sma_20_bear', 'ema_12_bear', 'ema_26_bear', 'macd_bear'] | Score: 4 | Confidence: 0.87
+[2025-07-17 14:17:37] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'demand_zone', 'rsi_14', 'macd', 'macd_signal']
+[2025-07-17 14:17:37] INFO signal_generator: [DEBUG] Confluence indicators used: ['sma_20_bear', 'ema_12_bear', 'ema_26_bear', 'macd_bear']
+[2025-07-17 14:17:37] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.87 (interpreted as probability of correctness)
+[2025-07-17 14:17:37] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 14:17:37] INFO signal_generator: Checking for high-impact news event for BTCUSD... (Economic calendar check disabled, FMP API removed)
+[2025-07-17 14:17:37] INFO signal_generator: Classifying trade type...
+[2025-07-17 14:17:37] INFO signal_generator: Trade type classified: Sell Limit, Entry: 118426.478125
+[2025-07-17 14:17:37] WARNING signal_generator: SL for BTCUSD at 2025-07-17 11:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 14:17:37] WARNING signal_generator: TP1 for BTCUSD at 2025-07-17 11:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 14:17:37] WARNING signal_generator: TP2 for BTCUSD at 2025-07-17 11:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 14:17:37] WARNING signal_generator: TP3 for BTCUSD at 2025-07-17 11:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 14:17:37] INFO signal_generator: Dynamic position size: entry=118426.478125, sl=118426.48012, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 14:17:37] INFO signal_generator: Signal generated for BTCUSD at 2025-07-17 11:00:00+00:00: SELL Sell Limit Confidence: 0.87
+[2025-07-17 14:30:15] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 11:00:00+00:00: 0.07066666666666668
+[2025-07-17 14:30:15] INFO signal_generator: Market regime for USDJPY at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 14:30:15] INFO signal_generator: Analyzing USDJPY at 2025-07-17 11:00:00+00:00: RSI=56.15042110863919, MACD=0.0761819302782385, MACD_signal=0.014174130139161, News sentiment=0.07066666666666668
+[2025-07-17 14:30:15] INFO signal_generator: Detected patterns: ['bearish_engulfing'] | All pattern values: {'doji': 0.0, 'hammer': 0.0, 'bullish_engulfing': 0.0, 'bearish_engulfing': 1.0, 'shooting_star': 0.0}
+[2025-07-17 14:30:15] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 11:00:00+00:00 | Confluence factors: ['sma_20_bull', 'sma_50_bull', 'sma_200_bull', 'ema_12_bull', 'ema_26_bull', 'demand_zone_bull', 'macd_bull', 'bearish_engulfing'] | Score: 8 | Confidence: 0.55
+[2025-07-17 14:30:15] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'demand_zone', 'rsi_14', 'macd', 'macd_signal']
+[2025-07-17 14:30:15] INFO signal_generator: [DEBUG] Confluence indicators used: ['sma_20_bull', 'sma_50_bull', 'sma_200_bull', 'ema_12_bull', 'ema_26_bull', 'demand_zone_bull', 'macd_bull', 'bearish_engulfing']
+[2025-07-17 14:30:15] INFO signal_generator: Ambiguity detected: both bullish and bearish confluence factors present.
+[2025-07-17 14:30:15] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 11:00:00+00:00 | Reason: Ambiguity/conflict in confluence factors. No signal generated.
+[2025-07-17 14:30:31] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 11:00:00+00:00: 0.021518000000000002
+[2025-07-17 14:30:31] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 11:00:00+00:00: unknown
+[2025-07-17 14:30:31] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 11:00:00+00:00: RSI=47.60168769268162, MACD=-12.137656490667723, MACD_signal=53.71693782738461, News sentiment=0.021518000000000002
+[2025-07-17 14:30:31] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0.0, 'hammer': 0.0, 'bullish_engulfing': 0.0, 'bearish_engulfing': 0.0, 'shooting_star': 0.0}
+[2025-07-17 14:30:31] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 11:00:00+00:00 | Confluence factors: ['sma_20_bear', 'ema_12_bear', 'ema_26_bear', 'macd_bear'] | Score: 4 | Confidence: 0.87
+[2025-07-17 14:30:31] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'demand_zone', 'rsi_14', 'macd', 'macd_signal']
+[2025-07-17 14:30:31] INFO signal_generator: [DEBUG] Confluence indicators used: ['sma_20_bear', 'ema_12_bear', 'ema_26_bear', 'macd_bear']
+[2025-07-17 14:30:31] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 11:00:00+00:00 | Signal confidence score: 0.87 (interpreted as probability of correctness)
+[2025-07-17 14:30:31] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 14:30:31] INFO signal_generator: Checking for high-impact news event for BTCUSD... (Economic calendar check disabled, FMP API removed)
+[2025-07-17 14:30:31] INFO signal_generator: Classifying trade type...
+[2025-07-17 14:30:31] INFO signal_generator: Trade type classified: Sell Limit, Entry: 118426.478125
+[2025-07-17 14:30:31] WARNING signal_generator: SL for BTCUSD at 2025-07-17 11:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 14:30:31] WARNING signal_generator: TP1 for BTCUSD at 2025-07-17 11:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 14:30:31] WARNING signal_generator: TP2 for BTCUSD at 2025-07-17 11:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 14:30:31] WARNING signal_generator: TP3 for BTCUSD at 2025-07-17 11:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 14:30:31] INFO signal_generator: Dynamic position size: entry=118426.478125, sl=118426.48012, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 14:30:31] INFO signal_generator: Signal generated for BTCUSD at 2025-07-17 11:00:00+00:00: SELL Sell Limit Confidence: 0.87
+[2025-07-17 16:00:15] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 15:00:00+00:00: 0.05300000000000001
+[2025-07-17 16:00:15] INFO signal_generator: Market regime for USDJPY at 2025-07-17 15:00:00+00:00: unknown
+[2025-07-17 16:00:15] INFO signal_generator: Analyzing USDJPY at 2025-07-17 15:00:00+00:00: RSI=49.65036734922711, MACD=0.07524139371443539, MACD_signal=0.056988346544434174, News sentiment=0.05300000000000001
+[2025-07-17 16:00:15] INFO signal_generator: Detected patterns: ['doji'] | All pattern values: {'doji': 1.0, 'hammer': 0.0, 'bullish_engulfing': 0.0, 'bearish_engulfing': 0.0, 'shooting_star': 0.0}
+[2025-07-17 16:00:15] INFO signal_generator: [SIGNAL CHECK] USDJPY @ 2025-07-17 15:00:00+00:00 | Confluence factors: ['sma_20_bull', 'sma_200_bull', 'demand_zone_bull', 'macd_bull', 'doji'] | Score: 5 | Confidence: 0.57
+[2025-07-17 16:00:15] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'demand_zone', 'rsi_14', 'macd', 'macd_signal']
+[2025-07-17 16:00:15] INFO signal_generator: [DEBUG] Confluence indicators used: ['sma_20_bull', 'sma_200_bull', 'demand_zone_bull', 'macd_bull', 'doji']
+[2025-07-17 16:00:15] INFO signal_generator: [CONFIDENCE] USDJPY @ 2025-07-17 15:00:00+00:00 | Signal confidence score: 0.57 (interpreted as probability of correctness)
+[2025-07-17 16:00:15] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 16:00:15] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 15:00:00+00:00 | Reason: Confidence too low (0.57 < 0.75). No signal generated.
+[2025-07-17 16:00:32] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 14:00:00+00:00: 0.021518000000000002
+[2025-07-17 16:00:32] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 14:00:00+00:00: unknown
+[2025-07-17 16:00:32] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 14:00:00+00:00: RSI=48.58235643505617, MACD=-88.35747636493761, MACD_signal=-12.036992251282632, News sentiment=0.021518000000000002
+[2025-07-17 16:00:32] INFO signal_generator: Detected patterns: ['none'] | All pattern values: {'doji': 0.0, 'hammer': 0.0, 'bullish_engulfing': 0.0, 'bearish_engulfing': 0.0, 'shooting_star': 0.0}
+[2025-07-17 16:00:32] INFO signal_generator: [SIGNAL CHECK] BTCUSD @ 2025-07-17 14:00:00+00:00 | Confluence factors: ['sma_20_bear', 'ema_12_bear', 'ema_26_bear', 'macd_bear'] | Score: 4 | Confidence: 0.72
+[2025-07-17 16:00:32] INFO signal_generator: [DEBUG] Checked indicators for confluence: ['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'demand_zone', 'rsi_14', 'macd', 'macd_signal']
+[2025-07-17 16:00:32] INFO signal_generator: [DEBUG] Confluence indicators used: ['sma_20_bear', 'ema_12_bear', 'ema_26_bear', 'macd_bear']
+[2025-07-17 16:00:32] INFO signal_generator: [CONFIDENCE] BTCUSD @ 2025-07-17 14:00:00+00:00 | Signal confidence score: 0.72 (interpreted as probability of correctness)
+[2025-07-17 16:00:32] INFO signal_generator: [DEBUG] Model does not provide feature importances.
+[2025-07-17 16:00:32] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 14:00:00+00:00 | Reason: Confidence too low (0.72 < 0.75). No signal generated.
+[2025-07-17 16:00:32] INFO signal_generator: [INFO] BTCUSD @ 2025-07-17 14:00:00+00:00 | Model will keep studying the chart: confidence (0.72) not low enough to give up.
+[2025-07-17 17:21:48] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 15:00:00+00:00: -0.05573499999999999
+[2025-07-17 17:21:48] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 15:00:00+00:00: unknown
+[2025-07-17 17:21:48] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 15:00:00+00:00: RSI=54.21846039487448, MACD=-45.26577105969773, MACD_signal=-18.682748012965654, News sentiment=-0.05573499999999999
+[2025-07-17 17:21:48] INFO signal_generator: Detected patterns: [] | All pattern values: {'doji': 0.0, 'hammer': 0.0, 'bullish_engulfing': 0.0, 'bearish_engulfing': 0.0, 'shooting_star': 0.0}
+[2025-07-17 17:21:48] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 15:00:00+00:00 | Reason: Not all required confluence categories present: {'trend': False, 'momentum': True, 'pattern': False, 'news': False, 'regime': False}
+[2025-07-17 19:00:23] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 18:00:00+00:00: -0.09545
+[2025-07-17 19:00:23] INFO signal_generator: Market regime for USDJPY at 2025-07-17 18:00:00+00:00: unknown
+[2025-07-17 19:00:23] INFO signal_generator: Analyzing USDJPY at 2025-07-17 18:00:00+00:00: RSI=55.333810280244094, MACD=0.07133588294462356, MACD_signal=0.06356127709658037, News sentiment=-0.09545
+[2025-07-17 19:00:23] INFO signal_generator: [CONFLUENCE] USDJPY @ 2025-07-17 18:00:00+00:00 | Factors: {'key_level': 'no', 'pattern': 'bearish'} | Votes for bearish: 1
+[2025-07-17 19:00:23] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 18:00:00+00:00 | Only 1 factors align. No signal generated. Factors: {'key_level': 'no', 'pattern': 'bearish'}
+[2025-07-17 19:00:36] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 17:00:00+00:00: 0.0
+[2025-07-17 19:00:36] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 17:00:00+00:00: unknown
+[2025-07-17 19:00:36] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 17:00:00+00:00: RSI=49.982447851002135, MACD=-5.217717637438909, MACD_signal=-13.940817286566423, News sentiment=0.0
+[2025-07-17 19:00:36] INFO signal_generator: [CONFLUENCE] BTCUSD @ 2025-07-17 17:00:00+00:00 | Factors: {'key_level': 'no', 'pattern': 'other', 'ema': 'bearish'} | Votes for bearish: 1
+[2025-07-17 19:00:36] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 17:00:00+00:00 | Only 1 factors align. No signal generated. Factors: {'key_level': 'no', 'pattern': 'other', 'ema': 'bearish'}
+[2025-07-17 19:09:43] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.5
+[2025-07-17 19:09:43] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:09:43] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:09:43] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 00:00:00 | Factors: {'structure': 'bullish', 'key_level': 'yes', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 8.5
+[2025-07-17 19:09:43] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 00:00:00 | 8.5 weighted factors align. Signal allowed.
+[2025-07-17 19:09:43] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:09:44] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:09:44] INFO signal_generator: Trade type classified: Instant Execution, Entry: 100
+[2025-07-17 19:09:44] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 00:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:09:44] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:09:44] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:09:44] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:09:44] INFO signal_generator: Dynamic position size: entry=100, sl=99.997, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:09:44] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 00:00:00: BUY Instant Execution Confidence: 0.90
+[2025-07-17 19:12:24] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.5
+[2025-07-17 19:12:24] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:12:24] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:12:24] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 00:00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 19:12:24] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 00:00:00 | Factors: {'structure': 'bullish', 'key_level': 'yes', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 8.5
+[2025-07-17 19:12:24] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 00:00:00 | 8.5 weighted factors align. Signal allowed.
+[2025-07-17 19:12:24] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:12:25] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:12:25] INFO signal_generator: Trade type classified: Instant Execution, Entry: 100
+[2025-07-17 19:12:25] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 00:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:25] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:25] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:25] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:25] INFO signal_generator: Dynamic position size: entry=100, sl=99.997, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:12:25] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 00:00:00: BUY Instant Execution Confidence: 0.90
+[2025-07-17 19:12:25] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.5
+[2025-07-17 19:12:25] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:12:25] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:12:25] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 00:00:00 | Proximity details: {'support': 'within 0.200% and 0.200 ATR'}
+[2025-07-17 19:12:25] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 00:00:00 | Factors: {'structure': 'bullish', 'key_level': 'yes', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 8.0
+[2025-07-17 19:12:25] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 00:00:00 | 8.0 weighted factors align. Signal allowed.
+[2025-07-17 19:12:25] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:12:25] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:12:25] INFO signal_generator: Trade type classified: Instant Execution, Entry: 100
+[2025-07-17 19:12:25] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 00:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:25] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:25] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:25] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:25] INFO signal_generator: Dynamic position size: entry=100, sl=99.997, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:12:25] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 00:00:00: BUY Instant Execution Confidence: 0.90
+[2025-07-17 19:12:25] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.5
+[2025-07-17 19:12:25] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:12:25] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:12:25] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 00:00:00 | Proximity details: {'support': '20.000% / 20.000 ATR away'}
+[2025-07-17 19:12:25] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 00:00:00 | Factors: {'structure': 'bullish', 'key_level': 'no', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 7.0
+[2025-07-17 19:12:25] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 00:00:00 | 7.0 weighted factors align. Signal allowed.
+[2025-07-17 19:12:25] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:12:26] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:12:26] INFO signal_generator: Trade type classified: Instant Execution, Entry: 100
+[2025-07-17 19:12:26] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 00:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:26] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:26] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:26] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:12:26] INFO signal_generator: Dynamic position size: entry=100, sl=99.997, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:12:26] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 00:00:00: BUY Instant Execution Confidence: 0.90
+[2025-07-17 19:13:21] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.5
+[2025-07-17 19:13:21] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:13:21] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:13:21] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 00:00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 19:13:21] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 00:00:00 | Factors: {'structure': 'bullish', 'key_level': 'yes', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 8.5
+[2025-07-17 19:13:21] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 00:00:00 | 8.5 weighted factors align. Signal allowed.
+[2025-07-17 19:13:21] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:13:21] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:13:21] INFO signal_generator: Trade type classified: Instant Execution, Entry: 100
+[2025-07-17 19:13:21] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 00:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:13:21] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:13:21] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:13:21] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:13:21] INFO signal_generator: Dynamic position size: entry=100, sl=99.997, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:13:21] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 00:00:00: BUY Instant Execution Confidence: 0.90
+[2025-07-17 19:13:21] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.5
+[2025-07-17 19:13:21] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:13:21] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:13:21] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 00:00:00 | Proximity details: {'support': 'within 0.200% and 0.200 ATR'}
+[2025-07-17 19:13:21] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 00:00:00 | Factors: {'structure': 'bullish', 'key_level': 'yes', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 8.0
+[2025-07-17 19:13:21] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 00:00:00 | 8.0 weighted factors align. Signal allowed.
+[2025-07-17 19:13:21] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:13:22] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:13:22] INFO signal_generator: Trade type classified: Instant Execution, Entry: 100
+[2025-07-17 19:13:22] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 00:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:13:22] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:13:22] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:13:22] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 00:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:13:22] INFO signal_generator: Dynamic position size: entry=100, sl=99.997, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:13:22] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 00:00:00: BUY Instant Execution Confidence: 0.90
+[2025-07-17 19:13:22] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.0
+[2025-07-17 19:13:22] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:13:22] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=40, MACD=0.8, MACD_signal=1.0, News sentiment=0.0
+[2025-07-17 19:13:22] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 00:00:00 | Proximity details: {'support': '20.000% / 20.000 ATR away'}
+[2025-07-17 19:13:22] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 00:00:00 | Factors: {'structure': 'bullish', 'key_level': 'no', 'atr': 'normal'} | Weighted votes for bullish: 2.0
+[2025-07-17 19:13:22] INFO signal_generator: [FILTERED] TESTPAIR @ 2024-01-01 00:00:00 | Only 2.0 weighted factors align. No signal generated. Factors: {'structure': 'bullish', 'key_level': 'no', 'atr': 'normal'}
+[2025-07-17 19:24:43] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.5
+[2025-07-17 19:24:43] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:24:43] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:24:43] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 00:00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 19:24:43] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 00:00:00: 0.5
+[2025-07-17 19:24:43] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 00:00:00: unknown
+[2025-07-17 19:24:43] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 00:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:24:43] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 00:00:00 | Proximity details: {'support': 'within 0.200% and 0.200 ATR'}
+[2025-07-17 19:26:30] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 01:00:00: 0.5
+[2025-07-17 19:26:30] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 01:00:00: unknown
+[2025-07-17 19:26:30] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 01:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:26:30] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 01:00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 19:26:30] INFO signal_generator: [PATTERN STRENGTH] TESTPAIR @ 2024-01-01 01:00:00 | Pattern strengths: {}
+[2025-07-17 19:26:30] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 01:00:00 | Factors: {'structure': 'bullish', 'key_level': 'yes', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 8.5
+[2025-07-17 19:26:30] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 01:00:00 | 8.5 weighted factors align. Signal allowed.
+[2025-07-17 19:26:30] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:26:31] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:26:31] INFO signal_generator: Trade type classified: Buy Stop, Entry: 107.8
+[2025-07-17 19:26:31] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 01:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:31] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:31] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:31] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:31] INFO signal_generator: Dynamic position size: entry=107.8, sl=107.797, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:26:31] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 01:00:00: BUY Buy Stop Confidence: 0.90
+[2025-07-17 19:26:31] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 01:00:00: 0.5
+[2025-07-17 19:26:31] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 01:00:00: unknown
+[2025-07-17 19:26:31] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 01:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:26:31] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 01:00:00 | Proximity details: {'support': '5.849% / 6.200 ATR away'}
+[2025-07-17 19:26:31] INFO signal_generator: [PATTERN STRENGTH] TESTPAIR @ 2024-01-01 01:00:00 | Pattern strengths: {}
+[2025-07-17 19:26:31] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 01:00:00 | Factors: {'structure': 'bullish', 'key_level': 'no', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 7.0
+[2025-07-17 19:26:31] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 01:00:00 | 7.0 weighted factors align. Signal allowed.
+[2025-07-17 19:26:31] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:26:32] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:26:32] INFO signal_generator: Trade type classified: Buy Stop, Entry: 107.8
+[2025-07-17 19:26:32] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 01:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:32] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:32] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:32] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:32] INFO signal_generator: Dynamic position size: entry=107.8, sl=107.797, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:26:32] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 01:00:00: BUY Buy Stop Confidence: 0.90
+[2025-07-17 19:26:32] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 01:00:00: 0.0
+[2025-07-17 19:26:32] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 01:00:00: unknown
+[2025-07-17 19:26:32] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 01:00:00: RSI=40, MACD=0.8, MACD_signal=1.0, News sentiment=0.0
+[2025-07-17 19:26:32] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 01:00:00 | Proximity details: {'support': '24.528% / 26.000 ATR away'}
+[2025-07-17 19:26:32] INFO signal_generator: [PATTERN STRENGTH] TESTPAIR @ 2024-01-01 01:00:00 | Pattern strengths: {}
+[2025-07-17 19:26:32] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 01:00:00 | Factors: {'structure': 'bullish', 'key_level': 'no', 'ema': 'bullish', 'atr': 'normal'} | Weighted votes for bullish: 3.0
+[2025-07-17 19:26:32] INFO signal_generator: [FILTERED] TESTPAIR @ 2024-01-01 01:00:00 | Only 3.0 weighted factors align. No signal generated. Factors: {'structure': 'bullish', 'key_level': 'no', 'ema': 'bullish', 'atr': 'normal'}
+[2025-07-17 19:26:32] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 01:00:00: 0.5
+[2025-07-17 19:26:32] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 01:00:00: unknown
+[2025-07-17 19:26:32] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 01:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:26:32] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 01:00:00 | Proximity details: {'support': '6.604% / 7.000 ATR away'}
+[2025-07-17 19:26:32] INFO signal_generator: [PATTERN STRENGTH] TESTPAIR @ 2024-01-01 01:00:00 | Pattern strengths: {}
+[2025-07-17 19:26:32] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 01:00:00 | Factors: {'structure': 'bullish', 'key_level': 'no', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 7.0
+[2025-07-17 19:26:32] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 01:00:00 | 7.0 weighted factors align. Signal allowed.
+[2025-07-17 19:26:32] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:26:33] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:26:33] INFO signal_generator: Trade type classified: Buy Stop, Entry: 107.8
+[2025-07-17 19:26:33] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 01:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:33] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:33] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:33] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:26:33] INFO signal_generator: Dynamic position size: entry=107.8, sl=107.797, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:26:33] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 01:00:00: BUY Buy Stop Confidence: 0.90
+[2025-07-17 19:27:57] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 01:00:00: 0.5
+[2025-07-17 19:27:57] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 01:00:00: unknown
+[2025-07-17 19:27:57] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 01:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:27:57] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 01:00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 19:27:57] INFO signal_generator: [PATTERN STRENGTH] TESTPAIR @ 2024-01-01 01:00:00 | Pattern strengths: {}
+[2025-07-17 19:27:57] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 01:00:00 | Factors: {'structure': 'bullish', 'key_level': 'yes', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 8.5
+[2025-07-17 19:27:57] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 01:00:00 | 8.5 weighted factors align. Signal allowed.
+[2025-07-17 19:27:57] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:27:58] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:27:58] INFO signal_generator: Trade type classified: Buy Stop, Entry: 107.8
+[2025-07-17 19:27:58] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 01:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:58] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:58] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:58] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:58] INFO signal_generator: Dynamic position size: entry=107.8, sl=107.797, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:27:58] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 01:00:00: BUY Buy Stop Confidence: 0.90
+[2025-07-17 19:27:58] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 01:00:00: 0.5
+[2025-07-17 19:27:58] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 01:00:00: unknown
+[2025-07-17 19:27:58] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 01:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:27:58] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 01:00:00 | Proximity details: {'support': '5.849% / 6.200 ATR away'}
+[2025-07-17 19:27:58] INFO signal_generator: [PATTERN STRENGTH] TESTPAIR @ 2024-01-01 01:00:00 | Pattern strengths: {}
+[2025-07-17 19:27:58] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 01:00:00 | Factors: {'structure': 'bullish', 'key_level': 'no', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 7.0
+[2025-07-17 19:27:58] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 01:00:00 | 7.0 weighted factors align. Signal allowed.
+[2025-07-17 19:27:58] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:27:58] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:27:58] INFO signal_generator: Trade type classified: Buy Stop, Entry: 107.8
+[2025-07-17 19:27:58] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 01:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:58] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:58] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:58] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:58] INFO signal_generator: Dynamic position size: entry=107.8, sl=107.797, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:27:58] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 01:00:00: BUY Buy Stop Confidence: 0.90
+[2025-07-17 19:27:58] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 01:00:00: 0.0
+[2025-07-17 19:27:58] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 01:00:00: unknown
+[2025-07-17 19:27:58] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 01:00:00: RSI=40, MACD=0.8, MACD_signal=1.0, News sentiment=0.0
+[2025-07-17 19:27:58] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 01:00:00 | Proximity details: {'support': '24.528% / 26.000 ATR away'}
+[2025-07-17 19:27:58] INFO signal_generator: [PATTERN STRENGTH] TESTPAIR @ 2024-01-01 01:00:00 | Pattern strengths: {}
+[2025-07-17 19:27:58] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 01:00:00 | Factors: {'structure': 'bullish', 'key_level': 'no', 'ema': 'bullish', 'atr': 'normal'} | Weighted votes for bullish: 3.0
+[2025-07-17 19:27:58] INFO signal_generator: [FILTERED] TESTPAIR @ 2024-01-01 01:00:00 | Only 3.0 weighted factors align. No signal generated. Factors: {'structure': 'bullish', 'key_level': 'no', 'ema': 'bullish', 'atr': 'normal'}
+[2025-07-17 19:27:58] INFO signal_generator: News sentiment for TESTPAIR at 2024-01-01 01:00:00: 0.5
+[2025-07-17 19:27:58] INFO signal_generator: Market regime for TESTPAIR at 2024-01-01 01:00:00: unknown
+[2025-07-17 19:27:58] INFO signal_generator: Analyzing TESTPAIR at 2024-01-01 01:00:00: RSI=30, MACD=1.2, MACD_signal=1.0, News sentiment=0.5
+[2025-07-17 19:27:58] INFO signal_generator: [KEY LEVEL PROXIMITY] TESTPAIR @ 2024-01-01 01:00:00 | Proximity details: {'support': '6.604% / 7.000 ATR away'}
+[2025-07-17 19:27:58] INFO signal_generator: [PATTERN STRENGTH] TESTPAIR @ 2024-01-01 01:00:00 | Pattern strengths: {}
+[2025-07-17 19:27:58] INFO signal_generator: [CONFLUENCE] TESTPAIR @ 2024-01-01 01:00:00 | Factors: {'structure': 'bullish', 'key_level': 'no', 'pattern': 'bullish', 'rsi': 'bullish', 'macd': 'bullish', 'ema': 'bullish', 'atr': 'normal', 'news': 'bullish'} | Weighted votes for bullish: 7.0
+[2025-07-17 19:27:58] INFO signal_generator: [SIGNAL] TESTPAIR @ 2024-01-01 01:00:00 | 7.0 weighted factors align. Signal allowed.
+[2025-07-17 19:27:58] INFO signal_generator: Checking for high-impact news event for TESTPAIR...
+[2025-07-17 19:27:59] INFO signal_generator: Classifying trade type...
+[2025-07-17 19:27:59] INFO signal_generator: Trade type classified: Buy Stop, Entry: 107.8
+[2025-07-17 19:27:59] WARNING signal_generator: SL for TESTPAIR at 2024-01-01 01:00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:59] WARNING signal_generator: TP1 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:59] WARNING signal_generator: TP2 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:59] WARNING signal_generator: TP3 for TESTPAIR at 2024-01-01 01:00:00 is 0.01% of entry, which is outside 0.1%-10% range.
+[2025-07-17 19:27:59] INFO signal_generator: Dynamic position size: entry=107.8, sl=107.797, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-17 19:27:59] INFO signal_generator: Signal generated for TESTPAIR at 2024-01-01 01:00:00: BUY Buy Stop Confidence: 0.90
+[2025-07-17 19:30:43] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 18:00:00+00:00: -0.09545
+[2025-07-17 19:30:43] INFO signal_generator: Market regime for USDJPY at 2025-07-17 18:00:00+00:00: unknown
+[2025-07-17 19:30:43] INFO signal_generator: Analyzing USDJPY at 2025-07-17 18:00:00+00:00: RSI=55.21629720159283, MACD=0.07101696990599748, MACD_signal=0.06349749448885515, News sentiment=-0.09545
+[2025-07-17 19:31:01] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 18:00:00+00:00: 0.0
+[2025-07-17 19:31:01] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 18:00:00+00:00: unknown
+[2025-07-17 19:31:01] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 18:00:00+00:00: RSI=58.509283529883234, MACD=59.4993656372244, MACD_signal=0.7472192981917417, News sentiment=0.0
+[2025-07-17 19:31:01] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 18:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 19:48:09] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 18:00:00+00:00: -0.09545
+[2025-07-17 19:48:09] INFO signal_generator: Market regime for USDJPY at 2025-07-17 18:00:00+00:00: unknown
+[2025-07-17 19:48:09] INFO signal_generator: Analyzing USDJPY at 2025-07-17 18:00:00+00:00: RSI=55.21629720159283, MACD=0.07101696990599748, MACD_signal=0.06349749448885515, News sentiment=-0.09545
+[2025-07-17 19:48:25] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 18:00:00+00:00: 0.0
+[2025-07-17 19:48:25] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 18:00:00+00:00: unknown
+[2025-07-17 19:48:25] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 18:00:00+00:00: RSI=58.509283529883234, MACD=59.4993656372244, MACD_signal=0.7472192981917417, News sentiment=0.0
+[2025-07-17 19:48:25] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 18:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:03:48] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 19:00:00+00:00: -0.09545
+[2025-07-17 20:03:48] INFO signal_generator: Market regime for USDJPY at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:03:48] INFO signal_generator: Analyzing USDJPY at 2025-07-17 19:00:00+00:00: RSI=57.21728809402569, MACD=0.07678051981201861, MACD_signal=0.06615409955348785, News sentiment=-0.09545
+[2025-07-17 20:04:00] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 19:00:00+00:00: 0.0
+[2025-07-17 20:04:00] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:04:00] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 19:00:00+00:00: RSI=61.311586105129564, MACD=134.83140036082477, MACD_signal=27.56405551071835, News sentiment=0.0
+[2025-07-17 20:04:00] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:04:57] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 19:00:00+00:00: -0.09545
+[2025-07-17 20:04:57] INFO signal_generator: Market regime for USDJPY at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:04:57] INFO signal_generator: Analyzing USDJPY at 2025-07-17 19:00:00+00:00: RSI=57.21728809402569, MACD=0.07678051981201861, MACD_signal=0.06615409955348785, News sentiment=-0.09545
+[2025-07-17 20:05:10] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 19:00:00+00:00: 0.0
+[2025-07-17 20:05:10] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:05:10] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 19:00:00+00:00: RSI=61.311586105129564, MACD=134.83140036082477, MACD_signal=27.56405551071835, News sentiment=0.0
+[2025-07-17 20:05:10] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}

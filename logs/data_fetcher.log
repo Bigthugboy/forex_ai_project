@@ -1,0 +1,56 @@
+[2025-07-17 15:13:38] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'parameterInvalid', 'message': 'You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-06-16, but you have requested 2023-01-01. You may need to upgrade to a paid plan.'}
+[2025-07-17 15:13:38] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for INVALID
+[2025-07-17 15:13:38] ERROR data_fetcher: No Yahoo symbol mapping for pair: INVALID
+[2025-07-17 15:13:38] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:13:38] ERROR data_fetcher: Not enough data for USDJPY: only 1 rows after cleaning
+[2025-07-17 15:13:38] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:13:38] ERROR data_fetcher: Not enough data for USDJPY: only 3 rows after cleaning
+[2025-07-17 15:19:19] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'parameterInvalid', 'message': 'You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-06-16, but you have requested 2023-01-01. You may need to upgrade to a paid plan.'}
+[2025-07-17 15:19:19] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for INVALID
+[2025-07-17 15:19:19] ERROR data_fetcher: No Yahoo symbol mapping for pair: INVALID
+[2025-07-17 15:19:19] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:19:19] ERROR data_fetcher: Not enough data for USDJPY: only 1 rows after cleaning
+[2025-07-17 15:19:19] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:08:10] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:08:10] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-17 17:08:10] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:08:10] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-17 17:08:27] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:08:27] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-17 17:08:27] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:08:27] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-17 17:08:32] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:08:32] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-17 17:08:32] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:08:32] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-17 17:08:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:08:50] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-17 17:08:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:08:50] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-17 17:09:05] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:10:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:10:13] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-17 17:21:00] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:21:17] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-17 17:21:17] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:21:27] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 19:00:14] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:00:16] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 19:00:23] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 19:00:25] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 19:30:34] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:30:36] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 19:30:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 19:30:45] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 19:47:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:48:01] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 19:48:09] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 19:48:11] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:03:37] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:03:40] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:03:48] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 20:03:50] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:04:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:04:48] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:04:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 20:04:59] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}

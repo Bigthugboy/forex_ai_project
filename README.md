@@ -2,180 +2,35 @@
 
 An advanced AI-driven trading system that generates real-time signals for forex and cryptocurrency pairs using multi-timeframe analysis, technical indicators, and news sentiment analysis.
 
-## 🚀 Features
+---
 
-### Multi-Timeframe Analysis
-- **15-minute data**: Short-term momentum and entry timing
-- **1-hour data**: Base timeframe for signal generation
-- **4-hour data**: Long-term trend analysis and support/resistance
-- **Cross-timeframe confluence**: Validates signals across timeframes
+## 🚦 Pipeline Orchestration (NEW)
 
-### Technical Analysis
-- **50+ Technical Indicators**: SMA, EMA, RSI, MACD, Bollinger Bands, ATR, Stochastic
-- **Advanced Patterns**: Head & Shoulders, Double Tops/Bottoms, Wedges, Fakeouts
-- **Market Structure**: Supply/Demand zones, Wyckoff phases, Trend/Range detection
-- **Price Action**: Pin bars, Engulfing patterns, Breakouts, Inside bars
+All signal generation, scheduling, and continuous learning is now managed by a robust `PipelineOrchestrator` class. This orchestrator:
+- Schedules and runs clustered signal generation sessions for all configured pairs
+- Handles all data fetching, feature engineering, model training, and signal output
+- Manages continuous learning and retraining cycles
+- Supports dependency injection for testability and integration testing
 
-### AI & Machine Learning
-- **Ensemble Model**: XGBoost + LightGBM with probability calibration
-- **Multi-timeframe Features**: 28 additional indicators from different timeframes
-- **News Sentiment Integration**: Real-time sentiment analysis from multiple sources
-- **Confluence Validation**: Requires 4+ aligned indicators for signal generation
+**Main entry points:**
+- `main.py`: Runs the orchestrator in clustered/scheduled mode (production)
+- `core.py`: Runs a single session and a continuous learning cycle (for UI, CLI, or ad-hoc use)
+- `auto_retrain.py`: Runs orchestrator-based retraining on a schedule
 
-### Risk Management
-- **Dynamic Position Sizing**: Based on account risk and stop-loss distance
-- **Pip-based SL/TP**: Configurable stop-loss and take-profit levels
-- **Confidence Scoring**: 75% threshold for signal generation
-- **Economic Calendar**: Suppresses signals during high-impact news events
-
-## 🏗️ How the Project Works
-
-### 1. Data Collection Pipeline
-
-```
-Market Data Sources:
-├── Yahoo Finance (15m, 1h, 4h OHLCV data)
-├── Alpha Vantage (Real-time forex rates)
-└── CryptoCompare (Crypto data)
-
-News Data Sources:
-├── NewsAPI (Forex news)
-├── CryptoPanic (Crypto news)
-├── CoinGecko (Crypto news)
-└── RSS Feeds (FXStreet, ForexCrunch, Economic Calendar)
-```
-
-### 2. Multi-Timeframe Feature Engineering
-
-The system fetches data from three timeframes and creates comprehensive features:
-
+**Advanced usage:**
+You can use the orchestrator directly in Python:
 ```python
-# 15-minute timeframe features (14 indicators)
-sma_20_15m, sma_50_15m, ema_12_15m, ema_26_15m
-rsi_14_15m, macd_15m, macd_signal_15m
-bb_high_15m, bb_low_15m, atr_14_15m
-volatility_20_15m, price_vs_sma20_15m, price_vs_sma50_15m
-trend_strength_15m
+from pipeline.pipeline_orchestrator import PipelineOrchestrator
+from utils.notify import send_email
 
-# 4-hour timeframe features (14 indicators)
-sma_20_4h, sma_50_4h, ema_12_4h, ema_26_4h
-rsi_14_4h, macd_4h, macd_signal_4h
-bb_high_4h, bb_low_4h, atr_14_4h
-volatility_20_4h, price_vs_sma20_4h, price_vs_sma50_4h
-trend_strength_4h
+orchestrator = PipelineOrchestrator()
+# Run a single session (all pairs)
+results = orchestrator.run_session(send_email_func=send_email)
+# Run continuous learning
+orchestrator.run_continuous_learning()
 ```
 
-### 3. AI Model Training Process
-
-#### Target Variable Creation
-```python
-# Calculate 5-hour future returns
-df['future_return'] = df['Close'].shift(-5) / df['Close'] - 1
-
-# Binary classification: 1 if price increases >0.1%, 0 otherwise
-df['target'] = (df['future_return'] > 0.001).astype(int)
-```
-
-#### Model Architecture
-```python
-# Ensemble of two powerful algorithms
-xgb_model = XGBClassifier(n_estimators=100, max_depth=6, learning_rate=0.1)
-lgb_model = LGBMClassifier(n_estimators=100, max_depth=6, learning_rate=0.1)
-
-# Soft voting ensemble
-ensemble = VotingClassifier(estimators=[('xgb', xgb_model), ('lgb', lgb_model)], voting='soft')
-
-# Probability calibration for better confidence scores
-calibrated = CalibratedClassifierCV(ensemble, method='isotonic', cv=3)
-```
-
-#### Training Process
-1. **Data Preparation**: Multi-timeframe features + news sentiment
-2. **Feature Selection**: Remove price columns, keep technical indicators
-3. **Class Balancing**: Upsample minority class for balanced training
-4. **Train/Test Split**: 80/20 split with stratification
-5. **Model Training**: Ensemble training with cross-validation
-6. **Probability Calibration**: Improve confidence score accuracy
-
-### 4. Signal Generation Logic
-
-#### Confluence Requirements (4+ Indicators Must Align)
-
-The system requires **at least 4 confirming factors** for signal generation:
-
-```python
-confluence_factors = []
-
-# 1. Trend Alignment
-if trendline_up and prediction == BUY: confluence_factors.append('trend_up')
-if trendline_down and prediction == SELL: confluence_factors.append('trend_down')
-
-# 2. Price Action Patterns
-if breakout_high and prediction == BUY: confluence_factors.append('breakout_high')
-if bullish_engulfing and prediction == BUY: confluence_factors.append('bullish_engulfing')
-
-# 3. Technical Indicators
-if rsi_14 < 30 and prediction == BUY: confluence_factors.append('rsi_oversold')
-if macd > macd_signal and prediction == BUY: confluence_factors.append('macd_bull')
-
-# 4. News Sentiment
-if news_sentiment > 0.2 and prediction == BUY: confluence_factors.append('news_bull')
-
-# Signal Generation
-if len(confluence_factors) >= 4 and confidence >= 0.75:
-    generate_signal()
-```
-
-#### Multi-Timeframe Validation
-
-```python
-# Cross-timeframe momentum alignment
-if momentum_15m > 0 and momentum_4h > 0:
-    confluence_factors.append('momentum_aligned')
-
-# RSI conditions across timeframes
-if rsi_15m < 30 and rsi_4h < 40:
-    confluence_factors.append('multi_tf_oversold')
-```
-
-### 5. Signal Output
-
-Each generated signal includes:
-
-```python
-signal = {
-    'pair': 'USDJPY',
-    'trade_type': 'Buy Stop',  # Instant, Buy Stop, Sell Stop, Buy Limit, Sell Limit
-    'entry': 148.250,
-    'signal': 'BUY',
-    'confidence': 0.82,  # Must be >= 75%
-    'confluence': 5,     # Number of aligned factors (must be >= 4)
-    'confluence_factors': ['trend_up', 'breakout_high', 'rsi_oversold', 'macd_bull', 'news_bull'],
-    'stop_loss': 147.850,
-    'take_profit_1': 148.650,
-    'take_profit_2': 149.050,
-    'take_profit_3': 149.450,
-    'position_size': 0.02  # Lot size based on risk management
-}
-```
-
-## 📊 Trading Strategy
-
-### Optimal Trading Style: Day Trading with Swing Capabilities
-
-**Timeframe**: 2-8 hour holds
-**Entry**: Based on 1h signals with 15m precision
-**Exit**: Within 5 hours (prediction window)
-**Confidence**: 75% threshold
-**Risk**: Moderate with proper stop-losses
-
-### Why This Configuration Works
-
-1. **15m data**: Captures short-term momentum and entry timing
-2. **1h data**: Primary signal generation timeframe
-3. **4h data**: Confirms long-term trend direction
-4. **5-hour prediction**: Allows trades to develop without being too long
-5. **75% confidence**: Filters weak signals while allowing enough opportunities
+---
 
 ## 🛠️ Installation & Setup
 
@@ -202,25 +57,33 @@ CRYPTOPANIC_API_KEY = 'your_cryptopanic_key'
 
 ### 3. Run the System
 ```bash
-# Run main analysis
+# Run main orchestrated analysis (recommended)
 python main.py
 
-# Test multi-timeframe functionality
-python test_multi_timeframe.py
-
-# Run core analysis (without training)
+# Run a single session and continuous learning (for UI/CLI)
 python core.py
+
+# Run orchestrator-based retraining (scheduled)
+python auto_retrain.py
+
+# Test multi-timeframe functionality (standalone)
+python test_multi_timeframe.py
 ```
+
+---
 
 ## 📁 Project Structure
 
 ```
 forex_ai_project/
 ├── config.py                 # Configuration and API keys
-├── main.py                   # Main execution script
-├── core.py                   # Core analysis functions
+├── main.py                   # Main execution script (uses PipelineOrchestrator)
+├── core.py                   # Single session + learning (uses PipelineOrchestrator)
+├── auto_retrain.py           # Scheduled retraining (uses PipelineOrchestrator)
 ├── requirements.txt          # Python dependencies
-├── test_multi_timeframe.py   # Multi-timeframe testing
+├── pipeline/
+│   ├── pipeline_orchestrator.py # Central pipeline orchestration logic
+│   └── signal_pipeline.py       # Signal pipeline for a single pair
 │
 ├── data/
 │   ├── fetch_market.py       # Market data collection
@@ -242,6 +105,17 @@ forex_ai_project/
 │
 └── logs/                     # System logs
 ```
+
+---
+
+## 🧪 Integration Testing
+
+Integration tests for the orchestrator and pipeline are provided in `tests/test_pipeline_integration.py`. These tests:
+- Run the orchestrator for a single session and continuous learning cycle
+- Mock email and logger dependencies for testability
+- Ensure the full pipeline runs without error and produces expected results
+
+---
 
 ## 🔧 Configuration Options
 
@@ -266,6 +140,8 @@ TIMEFRAMES = ['15m', '1h', '4h']  # Available timeframes
 PREDICTION_WINDOW = 5         # Hours ahead to predict
 ```
 
+---
+
 ## 📈 Performance Monitoring
 
 The system logs comprehensive information:
@@ -277,6 +153,8 @@ The system logs comprehensive information:
 
 Check `logs/` directory for detailed analysis.
 
+---
+
 ## ⚠️ Risk Disclaimer
 
 This is an AI-powered trading system for educational and research purposes. Trading forex and cryptocurrencies involves substantial risk of loss. Always:
@@ -284,6 +162,8 @@ This is an AI-powered trading system for educational and research purposes. Trad
 - Start with small position sizes
 - Never risk more than you can afford to lose
 - Consider consulting with financial advisors
+
+---
 
 ## 🤝 Contributing
 
@@ -293,6 +173,8 @@ Contributions are welcome! Areas for improvement:
 - Enhanced risk management
 - Backtesting framework
 - Real-time data streaming
+
+---
 
 ## 📄 License
 

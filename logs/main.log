@@ -6601,3 +6601,1417 @@ Datetime                                                 ...
 
 [2025-07-17 06:50:16] INFO main: Target class balance: {0: 1736, 1: 1631}
 [2025-07-17 06:50:16] INFO main: Training AI model...
+[2025-07-17 06:53:25] ERROR main: Error analyzing BTCUSD: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/admin/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm_display/datalore/display/display_.py", line 88, in _send_display_message
+    urllib_request.urlopen(url, buffer)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 1352, in do_open
+    r = h.getresponse()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm_display/datalore/display/display_.py", line 63, in try_empty_proxy
+    urllib_request.urlopen(url, buffer)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 1352, in do_open
+    r = h.getresponse()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 174, in analyze_and_signal
+    model_dict = train_signal_model(df, pair)
+  File "/Users/admin/forex_ai_project/models/train_model.py", line 237, in train_signal_model
+    audit_data_quality(df, feature_cols, target_col='target')
+  File "/Users/admin/forex_ai_project/models/train_model.py", line 48, in audit_data_quality
+    plt.show()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/matplotlib/pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+  File "/Users/admin/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm_matplotlib_backend/backend_interagg.py", line 43, in __call__
+    manager.show(**kwargs)
+  File "/Users/admin/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm_matplotlib_backend/backend_interagg.py", line 142, in show
+    self.canvas.show()
+  File "/Users/admin/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm_matplotlib_backend/backend_interagg.py", line 121, in show
+    display(DisplayDataObject(plot_index, width, buffer, html_string))
+  File "/Users/admin/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm_display/datalore/display/display_.py", line 45, in display
+    _send_display_message({
+  File "/Users/admin/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm_display/datalore/display/display_.py", line 92, in _send_display_message
+    try_empty_proxy(buffer)
+  File "/Users/admin/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm_display/datalore/display/display_.py", line 65, in try_empty_proxy
+    sys.stderr.write("Error: failed to send plot to %s:%s\n" % (HOST, PORT))
+BrokenPipeError: [Errno 32] Broken pipe
+[2025-07-17 06:53:25] INFO main: Signal generation summary:
+[2025-07-17 06:53:25] INFO main: USDJPY: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 06:53:25] INFO main: BTCUSD: Error: [Errno 32] Broken pipe
+[2025-07-17 10:42:12] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 10:42:12] INFO main: Running market analysis...
+[2025-07-17 10:42:12] INFO main: Fetching price data for USDJPY...
+[2025-07-17 10:42:14] INFO main: Fetched 4690 rows of price data for USDJPY
+[2025-07-17 10:42:14] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 10:42:14] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 10:42:19] INFO main: News sentiment score: 0.0707
+[2025-07-17 10:42:19] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 10:42:23] INFO main: Feature DataFrame shape: (4688, 36)
+[2025-07-17 10:42:23] INFO main: Feature summary (last 5 rows):
+                                Close        High  ...  atr_14  volatility_20
+Datetime                                           ...                       
+2025-07-17 03:00:00+00:00  148.451004  148.660995  ...       0              0
+2025-07-17 04:00:00+00:00  148.548004  148.613007  ...       0              0
+2025-07-17 05:00:00+00:00  148.419006  148.494995  ...       0              0
+2025-07-17 06:00:00+00:00  148.477997  148.804993  ...       0              0
+2025-07-17 07:00:00+00:00  148.626999  148.766998  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 10:42:23] INFO main: Target class balance: {0: 3098, 1: 1590}
+[2025-07-17 10:42:23] INFO main: Training AI model...
+[2025-07-17 10:42:28] INFO main: Model trained successfully!
+[2025-07-17 10:42:28] INFO main: Making signal prediction...
+[2025-07-17 10:42:28] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 10:42:28] ERROR main: Error analyzing USDJPY: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 10:42:28] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 10:42:30] INFO main: Fetched 4785 rows of price data for BTCUSD
+[2025-07-17 10:42:30] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 10:42:30] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 10:42:35] INFO main: News sentiment score: 0.0183
+[2025-07-17 10:42:35] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 10:42:40] INFO main: Feature DataFrame shape: (3371, 36)
+[2025-07-17 10:42:40] INFO main: Feature summary (last 5 rows):
+                                   Close           High  ...  atr_14  volatility_20
+Datetime                                                 ...                       
+2025-07-17 03:00:00+00:00  118326.773438  118336.515625  ...       0              0
+2025-07-17 04:00:00+00:00  118141.679688  118516.820312  ...       0              0
+2025-07-17 05:00:00+00:00  118510.250000  118659.132812  ...       0              0
+2025-07-17 06:00:00+00:00  118630.273438  118799.218750  ...       0              0
+2025-07-17 07:00:00+00:00  118483.515625  118571.796875  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 10:42:40] INFO main: Target class balance: {0: 1739, 1: 1632}
+[2025-07-17 10:42:40] INFO main: Training AI model...
+[2025-07-17 10:42:43] INFO main: Model trained successfully!
+[2025-07-17 10:42:43] INFO main: Making signal prediction...
+[2025-07-17 10:42:43] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 10:42:43] ERROR main: Error analyzing BTCUSD: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+
+[2025-07-17 10:42:43] INFO main: Signal generation summary:
+[2025-07-17 10:42:43] INFO main: USDJPY: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 10:42:43] INFO main: BTCUSD: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+
+[2025-07-17 10:45:34] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 10:45:34] INFO main: Running market analysis...
+[2025-07-17 10:45:34] INFO main: Fetching price data for USDJPY...
+[2025-07-17 10:45:36] INFO main: Fetched 4690 rows of price data for USDJPY
+[2025-07-17 10:45:36] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 10:45:36] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 10:45:41] INFO main: News sentiment score: 0.0707
+[2025-07-17 10:45:41] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 10:45:45] INFO main: Feature DataFrame shape: (4688, 36)
+[2025-07-17 10:45:45] INFO main: Feature summary (last 5 rows):
+                                Close        High         Low        Open  Volume  ...  price_vs_sma20_4h  price_vs_sma50_4h  trend_strength_4h  atr_14  volatility_20
+Datetime                                                                           ...                                                                                
+2025-07-17 03:00:00+00:00  148.451004  148.660995  148.436005  148.544998       0  ...           0.001079           0.000459           0.000620       0              0
+2025-07-17 04:00:00+00:00  148.548004  148.613007  148.404999  148.416000       0  ...           0.002295           0.001507           0.000786       0              0
+2025-07-17 05:00:00+00:00  148.419006  148.494995  148.363998  148.481995       0  ...           0.002325           0.001370           0.000952       0              0
+2025-07-17 06:00:00+00:00  148.477997  148.804993  148.447006  148.628006       0  ...           0.002354           0.001245           0.001107       0              0
+2025-07-17 07:00:00+00:00  148.626999  148.766998  148.585999  148.720993       0  ...           0.002383           0.001119           0.001261       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 10:45:45] INFO main: Target class balance: {0: 3098, 1: 1590}
+[2025-07-17 10:45:45] INFO main: Training AI model...
+[2025-07-17 10:50:34] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 10:50:34] INFO main: Running market analysis...
+[2025-07-17 10:50:34] INFO main: Fetching price data for USDJPY...
+[2025-07-17 10:50:36] INFO main: Fetched 4690 rows of price data for USDJPY
+[2025-07-17 10:50:36] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 10:50:36] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 10:50:40] INFO main: News sentiment score: 0.0707
+[2025-07-17 10:50:40] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 10:50:44] INFO main: Feature DataFrame shape: (4688, 36)
+[2025-07-17 10:50:44] INFO main: Feature summary (last 5 rows):
+                                Close        High  ...  atr_14  volatility_20
+Datetime                                           ...                       
+2025-07-17 03:00:00+00:00  148.451004  148.660995  ...       0              0
+2025-07-17 04:00:00+00:00  148.548004  148.613007  ...       0              0
+2025-07-17 05:00:00+00:00  148.419006  148.494995  ...       0              0
+2025-07-17 06:00:00+00:00  148.477997  148.804993  ...       0              0
+2025-07-17 07:00:00+00:00  148.626999  148.766998  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 10:50:44] INFO main: Target class balance: {0: 3098, 1: 1590}
+[2025-07-17 10:50:44] INFO main: Training AI model...
+[2025-07-17 10:52:24] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 10:52:24] INFO main: Running market analysis...
+[2025-07-17 10:52:24] INFO main: Fetching price data for USDJPY...
+[2025-07-17 10:52:25] INFO main: Fetched 4690 rows of price data for USDJPY
+[2025-07-17 10:52:25] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 10:52:25] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 10:52:28] INFO main: News sentiment score: 0.0707
+[2025-07-17 10:52:28] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 10:52:34] INFO main: Feature DataFrame shape: (4688, 36)
+[2025-07-17 10:52:34] INFO main: Feature summary (last 5 rows):
+                                Close        High  ...  atr_14  volatility_20
+Datetime                                           ...                       
+2025-07-17 03:00:00+00:00  148.451004  148.660995  ...       0              0
+2025-07-17 04:00:00+00:00  148.548004  148.613007  ...       0              0
+2025-07-17 05:00:00+00:00  148.419006  148.494995  ...       0              0
+2025-07-17 06:00:00+00:00  148.477997  148.804993  ...       0              0
+2025-07-17 07:00:00+00:00  148.626999  148.766998  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 10:52:34] INFO main: Target class balance: {0: 3098, 1: 1590}
+[2025-07-17 10:52:34] INFO main: Training AI model...
+[2025-07-17 11:08:03] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 11:08:03] INFO main: Running market analysis...
+[2025-07-17 11:08:03] INFO main: Fetching price data for USDJPY...
+[2025-07-17 11:08:05] INFO main: Fetched 4691 rows of price data for USDJPY
+[2025-07-17 11:08:05] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 11:08:05] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 11:08:09] INFO main: News sentiment score: 0.0707
+[2025-07-17 11:08:09] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 11:08:14] INFO main: Feature DataFrame shape: (4688, 36)
+[2025-07-17 11:08:14] INFO main: Feature summary (last 5 rows):
+                                Close        High  ...  atr_14  volatility_20
+Datetime                                           ...                       
+2025-07-17 03:00:00+00:00  148.451004  148.660995  ...       0              0
+2025-07-17 04:00:00+00:00  148.548004  148.613007  ...       0              0
+2025-07-17 05:00:00+00:00  148.419006  148.494995  ...       0              0
+2025-07-17 06:00:00+00:00  148.477997  148.804993  ...       0              0
+2025-07-17 07:00:00+00:00  148.626999  148.766998  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 11:08:14] INFO main: Target class balance: {0: 3098, 1: 1590}
+[2025-07-17 11:08:14] INFO main: Training AI model...
+[2025-07-17 11:08:18] INFO main: Model trained successfully!
+[2025-07-17 11:08:18] INFO main: Making signal prediction...
+[2025-07-17 11:08:18] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 11:08:18] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 11:08:18] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 11:08:19] INFO main: Fetched 4786 rows of price data for BTCUSD
+[2025-07-17 11:08:19] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 11:08:19] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 11:08:24] INFO main: News sentiment score: 0.0183
+[2025-07-17 11:08:24] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 11:08:29] INFO main: Feature DataFrame shape: (3371, 36)
+[2025-07-17 11:08:29] INFO main: Feature summary (last 5 rows):
+                                   Close           High  ...  atr_14  volatility_20
+Datetime                                                 ...                       
+2025-07-17 03:00:00+00:00  118326.773438  118336.515625  ...       0              0
+2025-07-17 04:00:00+00:00  118141.679688  118516.820312  ...       0              0
+2025-07-17 05:00:00+00:00  118510.250000  118659.132812  ...       0              0
+2025-07-17 06:00:00+00:00  118630.273438  118799.218750  ...       0              0
+2025-07-17 07:00:00+00:00  118483.515625  118571.796875  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 11:08:29] INFO main: Target class balance: {0: 1739, 1: 1632}
+[2025-07-17 11:08:29] INFO main: Training AI model...
+[2025-07-17 11:08:32] INFO main: Model trained successfully!
+[2025-07-17 11:08:32] INFO main: Making signal prediction...
+[2025-07-17 11:08:32] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 11:08:32] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 11:08:32] INFO main: Signal generation summary:
+[2025-07-17 11:08:32] INFO main: USDJPY: No valid signal
+[2025-07-17 11:08:32] INFO main: BTCUSD: No valid signal
+[2025-07-17 11:25:35] INFO main: Model trained successfully!
+[2025-07-17 11:25:35] INFO main: Making signal prediction...
+[2025-07-17 11:25:35] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 11:25:35] ERROR main: Error analyzing USDJPY: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 11:25:35] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 11:25:36] INFO main: Fetched 4786 rows of price data for BTCUSD
+[2025-07-17 11:25:36] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 11:25:36] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 11:25:41] INFO main: Model trained successfully!
+[2025-07-17 11:25:41] INFO main: Making signal prediction...
+[2025-07-17 11:25:41] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 11:25:41] ERROR main: Error analyzing USDJPY: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 11:25:42] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 11:25:43] INFO main: Fetched 4786 rows of price data for BTCUSD
+[2025-07-17 11:25:43] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 11:25:43] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 11:25:43] INFO main: News sentiment score: 0.0183
+[2025-07-17 11:25:43] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 11:25:48] INFO main: News sentiment score: 0.0183
+[2025-07-17 11:25:48] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 11:25:49] INFO main: Feature DataFrame shape: (3371, 36)
+[2025-07-17 11:25:49] INFO main: Feature summary (last 5 rows):
+                                   Close           High            Low           Open  ...  price_vs_sma50_4h  trend_strength_4h  atr_14  volatility_20
+Datetime                                                                               ...                                                             
+2025-07-17 03:00:00+00:00  118326.773438  118336.515625  117856.492188  118144.687500  ...           0.000459           0.000620       0              0
+2025-07-17 04:00:00+00:00  118141.679688  118516.820312  118028.625000  118510.562500  ...           0.001507           0.000786       0              0
+2025-07-17 05:00:00+00:00  118510.250000  118659.132812  118301.562500  118620.125000  ...           0.001370           0.000952       0              0
+2025-07-17 06:00:00+00:00  118630.273438  118799.218750  118410.515625  118450.796875  ...           0.001245           0.001107       0              0
+2025-07-17 07:00:00+00:00  118483.515625  118571.796875  117914.250000  118404.812500  ...           0.001119           0.001261       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 11:25:49] INFO main: Target class balance: {0: 1739, 1: 1632}
+[2025-07-17 11:25:49] INFO main: Training AI model...
+[2025-07-17 11:25:53] INFO main: Feature DataFrame shape: (3371, 36)
+[2025-07-17 11:25:53] INFO main: Feature summary (last 5 rows):
+                                   Close           High  ...  atr_14  volatility_20
+Datetime                                                 ...                       
+2025-07-17 03:00:00+00:00  118326.773438  118336.515625  ...       0              0
+2025-07-17 04:00:00+00:00  118141.679688  118516.820312  ...       0              0
+2025-07-17 05:00:00+00:00  118510.250000  118659.132812  ...       0              0
+2025-07-17 06:00:00+00:00  118630.273438  118799.218750  ...       0              0
+2025-07-17 07:00:00+00:00  118483.515625  118571.796875  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 11:25:53] INFO main: Target class balance: {0: 1739, 1: 1632}
+[2025-07-17 11:25:53] INFO main: Training AI model...
+[2025-07-17 11:30:40] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 11:30:40] INFO main: Running market analysis...
+[2025-07-17 11:30:40] INFO main: Fetching price data for USDJPY...
+[2025-07-17 11:30:42] INFO main: Fetched 4691 rows of price data for USDJPY
+[2025-07-17 11:30:42] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 11:30:42] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 11:30:47] INFO main: News sentiment score: 0.0707
+[2025-07-17 11:30:47] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 11:30:52] INFO main: Feature DataFrame shape: (4688, 36)
+[2025-07-17 11:30:52] INFO main: Feature summary (last 5 rows):
+                                Close        High  ...  atr_14  volatility_20
+Datetime                                           ...                       
+2025-07-17 03:00:00+00:00  148.451004  148.660995  ...       0              0
+2025-07-17 04:00:00+00:00  148.548004  148.613007  ...       0              0
+2025-07-17 05:00:00+00:00  148.419006  148.494995  ...       0              0
+2025-07-17 06:00:00+00:00  148.477997  148.804993  ...       0              0
+2025-07-17 07:00:00+00:00  148.626999  148.766998  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 11:30:52] INFO main: Target class balance: {0: 3098, 1: 1590}
+[2025-07-17 11:30:52] INFO main: Training AI model...
+[2025-07-17 11:30:56] INFO main: Model trained successfully!
+[2025-07-17 11:30:56] INFO main: Making signal prediction...
+[2025-07-17 11:30:56] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 11:30:56] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 11:30:56] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 11:30:57] INFO main: Fetched 4786 rows of price data for BTCUSD
+[2025-07-17 11:30:57] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 11:30:57] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 11:31:02] INFO main: News sentiment score: 0.0183
+[2025-07-17 11:31:02] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 11:31:07] INFO main: Feature DataFrame shape: (3371, 36)
+[2025-07-17 11:31:07] INFO main: Feature summary (last 5 rows):
+                                   Close           High  ...  atr_14  volatility_20
+Datetime                                                 ...                       
+2025-07-17 03:00:00+00:00  118326.773438  118336.515625  ...       0              0
+2025-07-17 04:00:00+00:00  118141.679688  118516.820312  ...       0              0
+2025-07-17 05:00:00+00:00  118510.250000  118659.132812  ...       0              0
+2025-07-17 06:00:00+00:00  118630.273438  118799.218750  ...       0              0
+2025-07-17 07:00:00+00:00  118483.515625  118571.796875  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 11:31:07] INFO main: Target class balance: {0: 1739, 1: 1632}
+[2025-07-17 11:31:07] INFO main: Training AI model...
+[2025-07-17 11:31:11] INFO main: Model trained successfully!
+[2025-07-17 11:31:11] INFO main: Making signal prediction...
+[2025-07-17 11:31:11] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 11:31:11] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 11:31:11] INFO main: Signal generation summary:
+[2025-07-17 11:31:11] INFO main: USDJPY: No valid signal
+[2025-07-17 11:31:11] INFO main: BTCUSD: No valid signal
+[2025-07-17 11:31:19] INFO main: Model trained successfully!
+[2025-07-17 11:31:19] INFO main: Making signal prediction...
+[2025-07-17 11:31:19] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 11:31:19] ERROR main: Error analyzing BTCUSD: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+
+[2025-07-17 11:31:19] INFO main: Signal generation summary:
+[2025-07-17 11:31:19] INFO main: USDJPY: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 11:31:19] INFO main: BTCUSD: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+
+[2025-07-17 11:31:24] INFO main: Model trained successfully!
+[2025-07-17 11:31:24] INFO main: Making signal prediction...
+[2025-07-17 11:31:24] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 11:31:24] ERROR main: Error analyzing BTCUSD: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+
+[2025-07-17 11:31:24] INFO main: Signal generation summary:
+[2025-07-17 11:31:24] INFO main: USDJPY: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_top
+- volatility_20
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 11:31:24] INFO main: BTCUSD: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- atr_14
+- double_bottom
+- double_top
+- volatility_20
+- wyckoff_accumulation
+
+[2025-07-17 12:06:24] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 12:06:24] INFO main: Running market analysis...
+[2025-07-17 12:06:24] INFO main: Fetching price data for USDJPY...
+[2025-07-17 12:06:26] INFO main: Fetched 4692 rows of price data for USDJPY
+[2025-07-17 12:06:26] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 12:06:26] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 12:06:29] INFO main: News sentiment score: 0.0707
+[2025-07-17 12:06:29] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 12:06:33] INFO main: Feature DataFrame shape: (4692, 37)
+[2025-07-17 12:06:33] INFO main: Feature summary (last 5 rows):
+                                Close  ...  news_sentiment
+Datetime                               ...                
+2025-07-17 07:00:00+00:00  148.626999  ...        0.070667
+2025-07-17 08:00:00+00:00  148.716003  ...        0.070667
+2025-07-17 09:00:00+00:00  148.585999  ...        0.070667
+2025-07-17 10:00:00+00:00  148.748993  ...        0.070667
+2025-07-17 11:00:00+00:00  148.636993  ...        0.070667
+
+[5 rows x 37 columns]
+
+[2025-07-17 12:06:33] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 12:06:33] INFO main: Training AI model...
+[2025-07-17 12:06:38] INFO main: Model trained successfully!
+[2025-07-17 12:06:38] INFO main: Making signal prediction...
+[2025-07-17 12:06:38] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'news_sentiment', 'future_return', 'target']
+[2025-07-17 12:06:38] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 12:06:38] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 12:06:39] INFO main: Fetched 4787 rows of price data for BTCUSD
+[2025-07-17 12:06:39] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 12:06:39] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 12:06:42] INFO main: News sentiment score: 0.0183
+[2025-07-17 12:06:42] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 12:06:47] INFO main: Feature DataFrame shape: (3375, 37)
+[2025-07-17 12:06:47] INFO main: Feature summary (last 5 rows):
+                                   Close  ...  news_sentiment
+Datetime                                  ...                
+2025-07-17 07:00:00+00:00  118483.515625  ...        0.018336
+2025-07-17 08:00:00+00:00  118376.445312  ...        0.018336
+2025-07-17 09:00:00+00:00  118347.539062  ...        0.018336
+2025-07-17 10:00:00+00:00  118821.562500  ...        0.018336
+2025-07-17 11:00:00+00:00  118389.890625  ...        0.018336
+
+[5 rows x 37 columns]
+
+[2025-07-17 12:06:47] INFO main: Target class balance: {0: 1741, 1: 1634}
+[2025-07-17 12:06:47] INFO main: Training AI model...
+[2025-07-17 12:06:50] INFO main: Model trained successfully!
+[2025-07-17 12:06:50] INFO main: Making signal prediction...
+[2025-07-17 12:06:50] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'news_sentiment', 'future_return', 'target']
+[2025-07-17 12:06:50] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 12:06:50] INFO main: Signal generation summary:
+[2025-07-17 12:06:50] INFO main: USDJPY: No valid signal
+[2025-07-17 12:06:50] INFO main: BTCUSD: No valid signal
+[2025-07-17 12:21:56] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 12:21:56] INFO main: Running market analysis...
+[2025-07-17 12:21:56] INFO main: Fetching price data for USDJPY...
+[2025-07-17 12:21:57] INFO main: Fetched 4692 rows of price data for USDJPY
+[2025-07-17 12:21:57] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 12:21:57] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 12:22:00] INFO main: News sentiment score: 0.0707
+[2025-07-17 12:22:00] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 12:22:05] INFO main: Feature DataFrame shape: (4692, 37)
+[2025-07-17 12:22:05] INFO main: Feature summary (last 5 rows):
+                                Close  ...  news_sentiment
+Datetime                               ...                
+2025-07-17 07:00:00+00:00  148.626999  ...        0.070667
+2025-07-17 08:00:00+00:00  148.716003  ...        0.070667
+2025-07-17 09:00:00+00:00  148.585999  ...        0.070667
+2025-07-17 10:00:00+00:00  148.748993  ...        0.070667
+2025-07-17 11:00:00+00:00  148.636993  ...        0.070667
+
+[5 rows x 37 columns]
+
+[2025-07-17 12:22:05] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 12:22:05] INFO main: Training AI model...
+[2025-07-17 12:22:09] INFO main: Model trained successfully!
+[2025-07-17 12:22:09] INFO main: Making signal prediction...
+[2025-07-17 12:22:09] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'news_sentiment', 'future_return', 'target']
+[2025-07-17 12:22:09] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 12:22:09] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 12:22:11] INFO main: Fetched 4787 rows of price data for BTCUSD
+[2025-07-17 12:22:11] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 12:22:11] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 12:22:15] INFO main: News sentiment score: 0.0183
+[2025-07-17 12:22:15] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 12:22:19] INFO main: Feature DataFrame shape: (3375, 37)
+[2025-07-17 12:22:19] INFO main: Feature summary (last 5 rows):
+                                   Close  ...  news_sentiment
+Datetime                                  ...                
+2025-07-17 07:00:00+00:00  118483.515625  ...        0.018336
+2025-07-17 08:00:00+00:00  118376.445312  ...        0.018336
+2025-07-17 09:00:00+00:00  118347.539062  ...        0.018336
+2025-07-17 10:00:00+00:00  118821.562500  ...        0.018336
+2025-07-17 11:00:00+00:00  118389.890625  ...        0.018336
+
+[5 rows x 37 columns]
+
+[2025-07-17 12:22:19] INFO main: Target class balance: {0: 1741, 1: 1634}
+[2025-07-17 12:22:19] INFO main: Training AI model...
+[2025-07-17 12:22:23] INFO main: Model trained successfully!
+[2025-07-17 12:22:23] INFO main: Making signal prediction...
+[2025-07-17 12:22:23] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'news_sentiment', 'future_return', 'target']
+[2025-07-17 12:22:23] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 12:22:23] INFO main: Signal generation summary:
+[2025-07-17 12:22:23] INFO main: USDJPY: No valid signal
+[2025-07-17 12:22:23] INFO main: BTCUSD: No valid signal
+[2025-07-17 12:37:49] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 12:37:49] INFO main: Running market analysis...
+[2025-07-17 12:37:49] INFO main: Fetching price data for USDJPY...
+[2025-07-17 12:37:51] INFO main: Fetched 4692 rows of price data for USDJPY
+[2025-07-17 12:37:51] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 12:37:51] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 12:37:54] INFO main: News sentiment score: 0.0707
+[2025-07-17 12:37:54] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 12:37:58] INFO main: Feature DataFrame shape: (4692, 37)
+[2025-07-17 12:37:58] INFO main: Feature summary (last 5 rows):
+                                Close  ...  news_sentiment
+Datetime                               ...                
+2025-07-17 07:00:00+00:00  148.626999  ...        0.070667
+2025-07-17 08:00:00+00:00  148.716003  ...        0.070667
+2025-07-17 09:00:00+00:00  148.585999  ...        0.070667
+2025-07-17 10:00:00+00:00  148.748993  ...        0.070667
+2025-07-17 11:00:00+00:00  148.636993  ...        0.070667
+
+[5 rows x 37 columns]
+
+[2025-07-17 12:37:58] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 12:37:58] INFO main: Training AI model...
+[2025-07-17 12:38:02] INFO main: Model trained successfully!
+[2025-07-17 12:38:02] INFO main: Making signal prediction...
+[2025-07-17 12:38:02] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'news_sentiment', 'future_return', 'target']
+[2025-07-17 12:38:02] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 12:38:02] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 12:38:04] INFO main: Fetched 4787 rows of price data for BTCUSD
+[2025-07-17 12:38:04] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 12:38:04] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 12:38:08] INFO main: News sentiment score: 0.0183
+[2025-07-17 12:38:08] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 12:38:12] INFO main: Feature DataFrame shape: (3375, 37)
+[2025-07-17 12:38:12] INFO main: Feature summary (last 5 rows):
+                                   Close  ...  news_sentiment
+Datetime                                  ...                
+2025-07-17 07:00:00+00:00  118483.515625  ...        0.018336
+2025-07-17 08:00:00+00:00  118376.445312  ...        0.018336
+2025-07-17 09:00:00+00:00  118347.539062  ...        0.018336
+2025-07-17 10:00:00+00:00  118821.562500  ...        0.018336
+2025-07-17 11:00:00+00:00  118389.890625  ...        0.018336
+
+[5 rows x 37 columns]
+
+[2025-07-17 12:38:12] INFO main: Target class balance: {0: 1741, 1: 1634}
+[2025-07-17 12:38:12] INFO main: Training AI model...
+[2025-07-17 12:38:16] INFO main: Model trained successfully!
+[2025-07-17 12:38:16] INFO main: Making signal prediction...
+[2025-07-17 12:38:16] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'news_sentiment', 'future_return', 'target']
+[2025-07-17 12:38:16] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 12:38:16] INFO main: Signal generation summary:
+[2025-07-17 12:38:16] INFO main: USDJPY: No valid signal
+[2025-07-17 12:38:16] INFO main: BTCUSD: No valid signal
+[2025-07-17 13:00:00] INFO main: Running market analysis...
+[2025-07-17 13:00:00] INFO main: Fetching price data for USDJPY...
+[2025-07-17 13:00:01] INFO main: Running market analysis...
+[2025-07-17 13:00:01] INFO main: Fetching price data for USDJPY...
+[2025-07-17 13:00:02] INFO main: Fetched 4693 rows of price data for USDJPY
+[2025-07-17 13:00:02] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 13:00:02] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 13:00:02] INFO main: Fetched 4693 rows of price data for USDJPY
+[2025-07-17 13:00:02] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 13:00:02] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 13:00:02] INFO main: Running market analysis...
+[2025-07-17 13:00:02] INFO main: Fetching price data for USDJPY...
+[2025-07-17 13:00:03] INFO main: Fetched 4693 rows of price data for USDJPY
+[2025-07-17 13:00:03] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 13:00:03] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 13:00:05] INFO main: News sentiment score: 0.0707
+[2025-07-17 13:00:05] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 13:00:06] INFO main: News sentiment score: 0.0707
+[2025-07-17 13:00:06] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 13:00:07] INFO main: News sentiment score: 0.0707
+[2025-07-17 13:00:07] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 13:00:11] INFO main: Feature DataFrame shape: (4692, 36)
+[2025-07-17 13:00:11] INFO main: Feature summary (last 5 rows):
+                                Close        High         Low        Open  Volume  ...  price_vs_sma20_4h  price_vs_sma50_4h  trend_strength_4h  atr_14  volatility_20
+Datetime                                                                           ...                                                                                
+2025-07-17 07:00:00+00:00  148.626999  148.766998  148.585999  148.720993       0  ...           0.002383           0.001119           0.001261       0              0
+2025-07-17 08:00:00+00:00  148.716003  148.785004  148.580002  148.582993       0  ...           0.002394           0.001060           0.001331       0              0
+2025-07-17 09:00:00+00:00  148.585999  148.772995  148.518005  148.748001       0  ...           0.002337           0.000934           0.001400       0              0
+2025-07-17 10:00:00+00:00  148.748993  148.834000  148.610001  148.639008       0  ...           0.002280           0.000812           0.001466       0              0
+2025-07-17 11:00:00+00:00  148.636993  148.800995  148.598999  148.766998       0  ...           0.002224           0.000690           0.001531       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 13:00:11] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 13:00:11] INFO main: Training AI model...
+[2025-07-17 13:00:11] INFO main: Feature DataFrame shape: (4692, 37)
+[2025-07-17 13:00:11] INFO main: Feature summary (last 5 rows):
+                                Close  ...  news_sentiment
+Datetime                               ...                
+2025-07-17 07:00:00+00:00  148.626999  ...        0.070667
+2025-07-17 08:00:00+00:00  148.716003  ...        0.070667
+2025-07-17 09:00:00+00:00  148.585999  ...        0.070667
+2025-07-17 10:00:00+00:00  148.748993  ...        0.070667
+2025-07-17 11:00:00+00:00  148.636993  ...        0.070667
+
+[5 rows x 37 columns]
+
+[2025-07-17 13:00:11] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 13:00:11] INFO main: Training AI model...
+[2025-07-17 13:00:11] INFO main: Feature DataFrame shape: (4692, 36)
+[2025-07-17 13:00:11] INFO main: Feature summary (last 5 rows):
+                                Close        High  ...  atr_14  volatility_20
+Datetime                                           ...                       
+2025-07-17 07:00:00+00:00  148.626999  148.766998  ...       0              0
+2025-07-17 08:00:00+00:00  148.716003  148.785004  ...       0              0
+2025-07-17 09:00:00+00:00  148.585999  148.772995  ...       0              0
+2025-07-17 10:00:00+00:00  148.748993  148.834000  ...       0              0
+2025-07-17 11:00:00+00:00  148.636993  148.800995  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 13:00:11] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 13:00:11] INFO main: Training AI model...
+[2025-07-17 13:00:18] INFO main: Model trained successfully!
+[2025-07-17 13:00:18] INFO main: Making signal prediction...
+[2025-07-17 13:00:18] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'news_sentiment', 'future_return', 'target']
+[2025-07-17 13:00:18] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 13:00:18] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 13:00:20] INFO main: Fetched 4787 rows of price data for BTCUSD
+[2025-07-17 13:00:20] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 13:00:20] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 13:00:25] INFO main: News sentiment score: 0.0215
+[2025-07-17 13:00:25] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 13:00:31] INFO main: Feature DataFrame shape: (3375, 37)
+[2025-07-17 13:00:31] INFO main: Feature summary (last 5 rows):
+                                   Close  ...  news_sentiment
+Datetime                                  ...                
+2025-07-17 07:00:00+00:00  118483.515625  ...        0.021518
+2025-07-17 08:00:00+00:00  118376.445312  ...        0.021518
+2025-07-17 09:00:00+00:00  118347.539062  ...        0.021518
+2025-07-17 10:00:00+00:00  118821.562500  ...        0.021518
+2025-07-17 11:00:00+00:00  118389.890625  ...        0.021518
+
+[5 rows x 37 columns]
+
+[2025-07-17 13:00:31] INFO main: Target class balance: {0: 1741, 1: 1634}
+[2025-07-17 13:00:31] INFO main: Training AI model...
+[2025-07-17 13:00:36] INFO main: Model trained successfully!
+[2025-07-17 13:00:36] INFO main: Making signal prediction...
+[2025-07-17 13:00:36] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'news_sentiment', 'future_return', 'target']
+[2025-07-17 13:00:36] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 13:00:36] INFO main: Signal generation summary:
+[2025-07-17 13:00:36] INFO main: USDJPY: No valid signal
+[2025-07-17 13:00:36] INFO main: BTCUSD: No valid signal
+[2025-07-17 13:49:52] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 13:49:52] INFO main: Running market analysis...
+[2025-07-17 13:49:52] INFO main: Fetching price data for USDJPY...
+[2025-07-17 13:49:54] INFO main: Fetched 4693 rows of price data for USDJPY
+[2025-07-17 13:49:54] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 13:49:54] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 13:49:57] INFO main: News sentiment score: 0.0707
+[2025-07-17 13:49:57] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 13:50:03] INFO main: Feature DataFrame shape: (4692, 81)
+[2025-07-17 13:50:03] INFO main: Feature summary (last 5 rows):
+                                 Open        High         Low  ...  volatility_20_4h  fib_levels  wyckoff_phases
+Datetime                                                       ...                                              
+2025-07-17 07:00:00+00:00  148.720993  148.766998  148.585999  ...          0.311396           0               0
+2025-07-17 08:00:00+00:00  148.582993  148.785004  148.580002  ...          0.319114           0               0
+2025-07-17 09:00:00+00:00  148.748001  148.772995  148.518005  ...          0.326423           0               0
+2025-07-17 10:00:00+00:00  148.639008  148.834000  148.610001  ...          0.333349           0               0
+2025-07-17 11:00:00+00:00  148.766998  148.800995  148.598999  ...          0.339915           0               0
+
+[5 rows x 81 columns]
+
+[2025-07-17 13:50:03] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 13:50:03] INFO main: Training AI model...
+[2025-07-17 14:10:26] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 14:10:26] INFO main: Running market analysis...
+[2025-07-17 14:10:26] INFO main: Fetching price data for USDJPY...
+[2025-07-17 14:10:29] INFO main: Fetched 4694 rows of price data for USDJPY
+[2025-07-17 14:10:29] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 14:10:29] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 14:10:33] INFO main: News sentiment score: 0.0707
+[2025-07-17 14:10:33] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 14:10:38] INFO main: Feature DataFrame shape: (4692, 81)
+[2025-07-17 14:10:38] INFO main: Feature summary (last 5 rows):
+                                 Open        High         Low  ...  volatility_20_4h  fib_levels  wyckoff_phases
+Datetime                                                       ...                                              
+2025-07-17 07:00:00+00:00  148.720993  148.766998  148.585999  ...          0.311396           0               0
+2025-07-17 08:00:00+00:00  148.582993  148.785004  148.580002  ...          0.319114           0               0
+2025-07-17 09:00:00+00:00  148.748001  148.772995  148.518005  ...          0.326423           0               0
+2025-07-17 10:00:00+00:00  148.639008  148.834000  148.610001  ...          0.333349           0               0
+2025-07-17 11:00:00+00:00  148.766998  148.800995  148.598999  ...          0.339915           0               0
+
+[5 rows x 81 columns]
+
+[2025-07-17 14:10:38] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 14:10:38] INFO main: Training AI model...
+[2025-07-17 14:17:04] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 14:17:04] INFO main: Running market analysis...
+[2025-07-17 14:17:04] INFO main: Fetching price data for USDJPY...
+[2025-07-17 14:17:06] INFO main: Fetched 4694 rows of price data for USDJPY
+[2025-07-17 14:17:06] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 14:17:06] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 14:17:09] INFO main: News sentiment score: 0.0707
+[2025-07-17 14:17:09] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 14:17:17] INFO main: Feature DataFrame shape: (4692, 81)
+[2025-07-17 14:17:17] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2025-07-17 07:00:00+00:00  148.720993  148.766998  ...           0               0
+2025-07-17 08:00:00+00:00  148.582993  148.785004  ...           0               0
+2025-07-17 09:00:00+00:00  148.748001  148.772995  ...           0               0
+2025-07-17 10:00:00+00:00  148.639008  148.834000  ...           0               0
+2025-07-17 11:00:00+00:00  148.766998  148.800995  ...           0               0
+
+[5 rows x 81 columns]
+
+[2025-07-17 14:17:17] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 14:17:17] INFO main: Training AI model...
+[2025-07-17 14:17:22] INFO main: Model trained successfully!
+[2025-07-17 14:17:22] INFO main: Making signal prediction...
+[2025-07-17 14:17:22] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20', 'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd', 'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0', 'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382', 'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618', 'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100', 'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low', 'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low', 'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std', 'is_trending', 'is_ranging', 'supply_zone', 'demand_zone', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'news_sentiment', 'doji', 'hammer', 'bullish_engulfing', 'bearish_engulfing', 'shooting_star', 'pin_bar', 'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'fib_levels', 'wyckoff_phases', 'future_return', 'target']
+[2025-07-17 14:17:22] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 14:17:22] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 14:17:23] INFO main: Fetched 4789 rows of price data for BTCUSD
+[2025-07-17 14:17:23] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 14:17:23] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 14:17:28] INFO main: News sentiment score: 0.0215
+[2025-07-17 14:17:28] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 14:17:33] INFO main: Feature DataFrame shape: (3375, 81)
+[2025-07-17 14:17:33] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  wyckoff_phases
+Datetime                                  ...                
+2025-07-17 07:00:00+00:00  118404.812500  ...               0
+2025-07-17 08:00:00+00:00  118295.546875  ...               0
+2025-07-17 09:00:00+00:00  118863.429688  ...               0
+2025-07-17 10:00:00+00:00  118471.007812  ...               0
+2025-07-17 11:00:00+00:00  118031.359375  ...               0
+
+[5 rows x 81 columns]
+
+[2025-07-17 14:17:33] INFO main: Target class balance: {0: 1741, 1: 1634}
+[2025-07-17 14:17:33] INFO main: Training AI model...
+[2025-07-17 14:17:37] INFO main: Model trained successfully!
+[2025-07-17 14:17:37] INFO main: Making signal prediction...
+[2025-07-17 14:17:37] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20', 'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd', 'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0', 'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382', 'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618', 'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100', 'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low', 'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low', 'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std', 'is_trending', 'is_ranging', 'supply_zone', 'demand_zone', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'news_sentiment', 'doji', 'hammer', 'bullish_engulfing', 'bearish_engulfing', 'shooting_star', 'pin_bar', 'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'fib_levels', 'wyckoff_phases', 'future_return', 'target']
+[2025-07-17 14:17:37] INFO main: SIGNAL GENERATED for BTCUSD: SELL Sell Limit Confidence: 87.30%
+[2025-07-17 14:17:37] INFO main: Saving signal to CSV: {'pair': 'BTCUSD', 'trade_type': 'Sell Limit', 'entry': 118426.47812, 'signal': 'SELL', 'confidence': 0.8730103527669097, 'confluence': 4, 'confluence_factors': ['sma_20_bear', 'ema_12_bear', 'ema_26_bear', 'macd_bear'], 'stop_loss': 118426.48012, 'take_profit_1': 118426.47412, 'take_profit_2': 118426.47212, 'take_profit_3': 118426.47012, 'latest_close': 118389.890625, 'latest_high': 118389.890625, 'latest_low': 118024.015625, 'probabilities': array([0.87301035, 0.12698965]), 'position_size': 0.05}
+[2025-07-17 14:17:39] INFO main: Signal generation summary:
+[2025-07-17 14:17:39] INFO main: USDJPY: No valid signal
+[2025-07-17 14:17:39] INFO main: BTCUSD: Signal: SELL Sell Limit Confidence: 87.30%
+[2025-07-17 14:30:02] INFO main: Running market analysis...
+[2025-07-17 14:30:02] INFO main: Fetching price data for USDJPY...
+[2025-07-17 14:30:04] INFO main: Fetched 4694 rows of price data for USDJPY
+[2025-07-17 14:30:04] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 14:30:04] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 14:30:07] INFO main: News sentiment score: 0.0707
+[2025-07-17 14:30:07] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 14:30:11] INFO main: Feature DataFrame shape: (4692, 81)
+[2025-07-17 14:30:11] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2025-07-17 07:00:00+00:00  148.720993  148.766998  ...           0               0
+2025-07-17 08:00:00+00:00  148.582993  148.785004  ...           0               0
+2025-07-17 09:00:00+00:00  148.748001  148.772995  ...           0               0
+2025-07-17 10:00:00+00:00  148.639008  148.834000  ...           0               0
+2025-07-17 11:00:00+00:00  148.766998  148.800995  ...           0               0
+
+[5 rows x 81 columns]
+
+[2025-07-17 14:30:11] INFO main: Target class balance: {0: 3099, 1: 1593}
+[2025-07-17 14:30:11] INFO main: Training AI model...
+[2025-07-17 14:30:15] INFO main: Model trained successfully!
+[2025-07-17 14:30:15] INFO main: Making signal prediction...
+[2025-07-17 14:30:15] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20', 'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd', 'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0', 'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382', 'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618', 'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100', 'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low', 'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low', 'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std', 'is_trending', 'is_ranging', 'supply_zone', 'demand_zone', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'news_sentiment', 'doji', 'hammer', 'bullish_engulfing', 'bearish_engulfing', 'shooting_star', 'pin_bar', 'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'fib_levels', 'wyckoff_phases', 'future_return', 'target']
+[2025-07-17 14:30:15] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 14:30:15] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 14:30:17] INFO main: Fetched 4789 rows of price data for BTCUSD
+[2025-07-17 14:30:17] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 14:30:17] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 14:30:22] INFO main: News sentiment score: 0.0215
+[2025-07-17 14:30:22] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 14:30:28] INFO main: Feature DataFrame shape: (3375, 81)
+[2025-07-17 14:30:28] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  wyckoff_phases
+Datetime                                  ...                
+2025-07-17 07:00:00+00:00  118404.812500  ...               0
+2025-07-17 08:00:00+00:00  118295.546875  ...               0
+2025-07-17 09:00:00+00:00  118863.429688  ...               0
+2025-07-17 10:00:00+00:00  118471.007812  ...               0
+2025-07-17 11:00:00+00:00  118031.359375  ...               0
+
+[5 rows x 81 columns]
+
+[2025-07-17 14:30:28] INFO main: Target class balance: {0: 1741, 1: 1634}
+[2025-07-17 14:30:28] INFO main: Training AI model...
+[2025-07-17 14:30:31] INFO main: Model trained successfully!
+[2025-07-17 14:30:31] INFO main: Making signal prediction...
+[2025-07-17 14:30:31] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20', 'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd', 'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0', 'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382', 'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618', 'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100', 'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low', 'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low', 'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std', 'is_trending', 'is_ranging', 'supply_zone', 'demand_zone', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'news_sentiment', 'doji', 'hammer', 'bullish_engulfing', 'bearish_engulfing', 'shooting_star', 'pin_bar', 'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'fib_levels', 'wyckoff_phases', 'future_return', 'target']
+[2025-07-17 14:30:31] INFO main: SIGNAL GENERATED for BTCUSD: SELL Sell Limit Confidence: 87.30%
+[2025-07-17 14:30:31] INFO main: Saving signal to CSV: {'pair': 'BTCUSD', 'trade_type': 'Sell Limit', 'entry': 118426.47812, 'signal': 'SELL', 'confidence': 0.8730103527669097, 'confluence': 4, 'confluence_factors': ['sma_20_bear', 'ema_12_bear', 'ema_26_bear', 'macd_bear'], 'stop_loss': 118426.48012, 'take_profit_1': 118426.47412, 'take_profit_2': 118426.47212, 'take_profit_3': 118426.47012, 'latest_close': 118389.890625, 'latest_high': 118389.890625, 'latest_low': 118024.015625, 'probabilities': array([0.87301035, 0.12698965]), 'position_size': 0.05}
+[2025-07-17 14:30:32] INFO main: Signal generation summary:
+[2025-07-17 14:30:32] INFO main: USDJPY: No valid signal
+[2025-07-17 14:30:32] INFO main: BTCUSD: Signal: SELL Sell Limit Confidence: 87.30%
+[2025-07-17 15:34:58] INFO main: Running market analysis...
+[2025-07-17 15:34:58] INFO main: Max attempts reached for USDJPY today. AI will continue to study the chart but will not generate new signals until tomorrow.
+[2025-07-17 15:34:58] INFO main: [STUDY-ONLY] Fetching price data for USDJPY...
+[2025-07-17 15:34:58] INFO main: [STUDY-ONLY] Fetched 100 rows of price data for USDJPY
+[2025-07-17 15:34:58] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 15:34:58] INFO main: [STUDY-ONLY] Fetching news sentiment...
+[2025-07-17 15:34:58] ERROR main: [STUDY-ONLY] Error analyzing USDJPY: 'int' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 98, in analyze_and_signal
+    from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
+AttributeError: 'int' object has no attribute 'strftime'
+[2025-07-17 15:34:58] INFO main: Max attempts reached for BTCUSD today. AI will continue to study the chart but will not generate new signals until tomorrow.
+[2025-07-17 15:34:58] INFO main: [STUDY-ONLY] Fetching price data for BTCUSD...
+[2025-07-17 15:34:58] INFO main: [STUDY-ONLY] Fetched 100 rows of price data for BTCUSD
+[2025-07-17 15:34:58] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 15:34:58] INFO main: [STUDY-ONLY] Fetching news sentiment...
+[2025-07-17 15:34:58] ERROR main: [STUDY-ONLY] Error analyzing BTCUSD: 'int' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 98, in analyze_and_signal
+    from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
+AttributeError: 'int' object has no attribute 'strftime'
+[2025-07-17 15:34:58] INFO main: Signal generation summary:
+[2025-07-17 15:34:58] INFO main: USDJPY: Error (studying only): 'int' object has no attribute 'strftime'
+[2025-07-17 15:34:58] INFO main: BTCUSD: Error (studying only): 'int' object has no attribute 'strftime'
+[2025-07-17 15:34:58] INFO main: Running market analysis...
+[2025-07-17 15:34:58] INFO main: Fetching price data for USDJPY...
+[2025-07-17 15:34:58] INFO main: Fetched 100 rows of price data for USDJPY
+[2025-07-17 15:34:58] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 15:34:58] INFO main: Fetching news sentiment...
+[2025-07-17 15:34:58] ERROR main: Error analyzing USDJPY: 'int' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 127, in analyze_and_signal
+    from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
+AttributeError: 'int' object has no attribute 'strftime'
+[2025-07-17 15:34:58] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 15:34:58] INFO main: Fetched 100 rows of price data for BTCUSD
+[2025-07-17 15:34:58] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 15:34:58] INFO main: Fetching news sentiment...
+[2025-07-17 15:34:58] ERROR main: Error analyzing BTCUSD: 'int' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 127, in analyze_and_signal
+    from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
+AttributeError: 'int' object has no attribute 'strftime'
+[2025-07-17 15:34:58] INFO main: Signal generation summary:
+[2025-07-17 15:34:58] INFO main: USDJPY: Error: 'int' object has no attribute 'strftime'
+[2025-07-17 15:34:58] INFO main: BTCUSD: Error: 'int' object has no attribute 'strftime'
+[2025-07-17 15:37:10] INFO main: Running market analysis...
+[2025-07-17 15:37:10] INFO main: Max attempts reached for USDJPY today. AI will continue to study the chart but will not generate new signals until tomorrow.
+[2025-07-17 15:37:10] INFO main: [STUDY-ONLY] Fetching price data for USDJPY...
+[2025-07-17 15:37:10] INFO main: [STUDY-ONLY] Fetched 100 rows of price data for USDJPY
+[2025-07-17 15:37:10] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 15:37:10] INFO main: [STUDY-ONLY] Fetching news sentiment...
+[2025-07-17 15:37:10] INFO main: [STUDY-ONLY] News sentiment score: 0.1000
+[2025-07-17 15:37:11] INFO main: [STUDY-ONLY] Generating technical indicators...
+[2025-07-17 15:37:15] INFO main: [STUDY-ONLY] Feature DataFrame shape: (100, 70)
+[2025-07-17 15:37:15] INFO main: [STUDY-ONLY] Feature summary (last 5 rows):
+                     Open  High  Low  Close  ...  fakeout_up  fakeout_down  fib_levels  wyckoff_phases
+2023-01-04 23:00:00    95    96   95     97  ...           0             0           0               0
+2023-01-05 00:00:00    96    97   96     98  ...           0             0           0               0
+2023-01-05 01:00:00    97    98   97     99  ...           0             0           0               0
+2023-01-05 02:00:00    98    99   98    100  ...           0             0           0               0
+2023-01-05 03:00:00    99   100   99    101  ...           0             0           0               0
+
+[5 rows x 70 columns]
+
+[2025-07-17 15:37:15] INFO main: Max attempts reached for BTCUSD today. AI will continue to study the chart but will not generate new signals until tomorrow.
+[2025-07-17 15:37:15] INFO main: [STUDY-ONLY] Fetching price data for BTCUSD...
+[2025-07-17 15:37:15] INFO main: [STUDY-ONLY] Fetched 100 rows of price data for BTCUSD
+[2025-07-17 15:37:15] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 15:37:15] INFO main: [STUDY-ONLY] Fetching news sentiment...
+[2025-07-17 15:37:15] INFO main: [STUDY-ONLY] News sentiment score: 0.1000
+[2025-07-17 15:37:15] INFO main: [STUDY-ONLY] Generating technical indicators...
+[2025-07-17 15:37:19] INFO main: [STUDY-ONLY] Feature DataFrame shape: (100, 70)
+[2025-07-17 15:37:19] INFO main: [STUDY-ONLY] Feature summary (last 5 rows):
+                     Open  High  Low  Close  ...  fakeout_up  fakeout_down  fib_levels  wyckoff_phases
+2023-01-04 23:00:00    95    96   95     97  ...           0             0           0               0
+2023-01-05 00:00:00    96    97   96     98  ...           0             0           0               0
+2023-01-05 01:00:00    97    98   97     99  ...           0             0           0               0
+2023-01-05 02:00:00    98    99   98    100  ...           0             0           0               0
+2023-01-05 03:00:00    99   100   99    101  ...           0             0           0               0
+
+[5 rows x 70 columns]
+
+[2025-07-17 15:37:19] INFO main: Signal generation summary:
+[2025-07-17 15:37:19] INFO main: USDJPY: Max attempts reached (30) [studying only]
+[2025-07-17 15:37:19] INFO main: BTCUSD: Max attempts reached (30) [studying only]
+[2025-07-17 15:37:19] INFO main: Running market analysis...
+[2025-07-17 15:37:19] INFO main: Fetching price data for USDJPY...
+[2025-07-17 15:37:19] INFO main: Fetched 100 rows of price data for USDJPY
+[2025-07-17 15:37:19] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 15:37:19] INFO main: Fetching news sentiment...
+[2025-07-17 15:37:19] INFO main: News sentiment score: 0.1000
+[2025-07-17 15:37:19] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 15:37:21] INFO main: Feature DataFrame shape: (100, 70)
+[2025-07-17 15:37:21] INFO main: Feature summary (last 5 rows):
+                     Open  High  Low  Close  ...  fakeout_up  fakeout_down  fib_levels  wyckoff_phases
+2023-01-04 23:00:00    95    96   95     97  ...           0             0           0               0
+2023-01-05 00:00:00    96    97   96     98  ...           0             0           0               0
+2023-01-05 01:00:00    97    98   97     99  ...           0             0           0               0
+2023-01-05 02:00:00    98    99   98    100  ...           0             0           0               0
+2023-01-05 03:00:00    99   100   99    101  ...           0             0           0               0
+
+[5 rows x 70 columns]
+
+[2025-07-17 15:37:21] INFO main: Target class balance: {1: 95, 0: 5}
+[2025-07-17 15:37:21] INFO main: Training AI model...
+[2025-07-17 15:37:22] ERROR main: Error analyzing USDJPY: too many values to unpack (expected 3)
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 151, in analyze_and_signal
+    model, scaler, feature_cols = model_trainer.train(df, pair)
+ValueError: too many values to unpack (expected 3)
+[2025-07-17 15:37:22] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 15:37:22] INFO main: Fetched 100 rows of price data for BTCUSD
+[2025-07-17 15:37:22] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 15:37:22] INFO main: Fetching news sentiment...
+[2025-07-17 15:37:22] INFO main: News sentiment score: 0.1000
+[2025-07-17 15:37:22] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 15:37:25] INFO main: Feature DataFrame shape: (100, 70)
+[2025-07-17 15:37:25] INFO main: Feature summary (last 5 rows):
+                     Open  High  Low  Close  ...  fakeout_up  fakeout_down  fib_levels  wyckoff_phases
+2023-01-04 23:00:00    95    96   95     97  ...           0             0           0               0
+2023-01-05 00:00:00    96    97   96     98  ...           0             0           0               0
+2023-01-05 01:00:00    97    98   97     99  ...           0             0           0               0
+2023-01-05 02:00:00    98    99   98    100  ...           0             0           0               0
+2023-01-05 03:00:00    99   100   99    101  ...           0             0           0               0
+
+[5 rows x 70 columns]
+
+[2025-07-17 15:37:25] INFO main: Target class balance: {1: 95, 0: 5}
+[2025-07-17 15:37:25] INFO main: Training AI model...
+[2025-07-17 15:37:26] ERROR main: Error analyzing BTCUSD: too many values to unpack (expected 3)
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 151, in analyze_and_signal
+    model, scaler, feature_cols = model_trainer.train(df, pair)
+ValueError: too many values to unpack (expected 3)
+[2025-07-17 15:37:26] INFO main: Signal generation summary:
+[2025-07-17 15:37:26] INFO main: USDJPY: Error: too many values to unpack (expected 3)
+[2025-07-17 15:37:26] INFO main: BTCUSD: Error: too many values to unpack (expected 3)
+[2025-07-17 16:00:01] INFO main: Running market analysis...
+[2025-07-17 16:00:01] INFO main: Fetching price data for USDJPY...
+[2025-07-17 16:00:02] INFO main: Fetched 4696 rows of price data for USDJPY
+[2025-07-17 16:00:02] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 16:00:02] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 16:00:06] INFO main: News sentiment score: 0.0530
+[2025-07-17 16:00:06] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 16:00:10] INFO main: Feature DataFrame shape: (4696, 81)
+[2025-07-17 16:00:10] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2025-07-17 11:00:00+00:00  148.766998  148.800995  ...           0               0
+2025-07-17 12:00:00+00:00  148.714005  149.087006  ...           0               0
+2025-07-17 13:00:00+00:00  148.574005  148.753006  ...           0               0
+2025-07-17 14:00:00+00:00  148.481003  148.658005  ...           0               0
+2025-07-17 15:00:00+00:00  148.470001  148.470001  ...           0               0
+
+[5 rows x 81 columns]
+
+[2025-07-17 16:00:10] INFO main: Target class balance: {0: 3103, 1: 1593}
+[2025-07-17 16:00:10] INFO main: Training AI model...
+[2025-07-17 16:00:15] INFO main: Model trained successfully!
+[2025-07-17 16:00:15] INFO main: Making signal prediction...
+[2025-07-17 16:00:15] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20', 'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd', 'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0', 'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382', 'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618', 'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100', 'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low', 'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low', 'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std', 'is_trending', 'is_ranging', 'supply_zone', 'demand_zone', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'news_sentiment', 'doji', 'hammer', 'bullish_engulfing', 'bearish_engulfing', 'shooting_star', 'pin_bar', 'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'fib_levels', 'wyckoff_phases', 'future_return', 'target']
+[2025-07-17 16:00:15] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 16:00:15] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 16:00:17] INFO main: Fetched 4790 rows of price data for BTCUSD
+[2025-07-17 16:00:17] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 16:00:17] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 16:00:22] INFO main: News sentiment score: 0.0215
+[2025-07-17 16:00:22] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 16:00:27] INFO main: Feature DataFrame shape: (3378, 81)
+[2025-07-17 16:00:27] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  wyckoff_phases
+Datetime                                  ...                
+2025-07-17 10:00:00+00:00  118471.007812  ...               0
+2025-07-17 11:00:00+00:00  118031.359375  ...               0
+2025-07-17 12:00:00+00:00  117992.210938  ...               0
+2025-07-17 13:00:00+00:00  118419.015625  ...               0
+2025-07-17 14:00:00+00:00  118755.007812  ...               0
+
+[5 rows x 81 columns]
+
+[2025-07-17 16:00:27] INFO main: Target class balance: {0: 1744, 1: 1634}
+[2025-07-17 16:00:27] INFO main: Training AI model...
+[2025-07-17 16:00:32] INFO main: Model trained successfully!
+[2025-07-17 16:00:32] INFO main: Making signal prediction...
+[2025-07-17 16:00:32] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20', 'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd', 'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0', 'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382', 'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618', 'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100', 'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low', 'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low', 'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std', 'is_trending', 'is_ranging', 'supply_zone', 'demand_zone', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'news_sentiment', 'doji', 'hammer', 'bullish_engulfing', 'bearish_engulfing', 'shooting_star', 'pin_bar', 'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'fib_levels', 'wyckoff_phases', 'future_return', 'target']
+[2025-07-17 16:00:32] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 16:00:32] INFO main: Signal generation summary:
+[2025-07-17 16:00:32] INFO main: USDJPY: No valid signal
+[2025-07-17 16:00:32] INFO main: BTCUSD: No valid signal
+[2025-07-17 17:16:42] INFO main: Model trained successfully!
+[2025-07-17 17:16:42] INFO main: Making signal prediction...
+[2025-07-17 17:16:42] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 17:16:42] ERROR main: Error analyzing USDJPY: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+
+[2025-07-17 17:16:42] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 17:16:43] INFO main: Fetched 4792 rows of price data for BTCUSD
+[2025-07-17 17:16:43] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 17:16:43] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 17:16:45] INFO main: News sentiment score: -0.0557
+[2025-07-17 17:16:45] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 17:16:59] INFO main: Feature DataFrame shape: (3379, 36)
+[2025-07-17 17:16:59] INFO main: Feature summary (last 5 rows):
+                                   Close           High            Low           Open  ...  price_vs_sma50_4h  trend_strength_4h  atr_14  volatility_20
+Datetime                                                                               ...                                                             
+2025-07-17 11:00:00+00:00  118389.890625  118389.890625  118024.015625  118031.359375  ...           0.000690           0.001531       0              0
+2025-07-17 12:00:00+00:00  118028.937500  118150.265625  117552.539062  117992.210938  ...          -0.000461           0.001451       0              0
+2025-07-17 13:00:00+00:00  117948.023438  118419.015625  117641.367188  118419.015625  ...          -0.000562           0.001371       0              0
+2025-07-17 14:00:00+00:00  118377.578125  118843.937500  118271.242188  118724.523438  ...          -0.000517           0.001146       0              0
+2025-07-17 15:00:00+00:00  118857.414062  119096.031250  118417.492188  118933.632812  ...          -0.000472           0.000920       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 17:16:59] INFO main: Target class balance: {0: 1745, 1: 1634}
+[2025-07-17 17:16:59] INFO main: Training AI model...
+[2025-07-17 17:48:47] INFO main: Model trained successfully!
+[2025-07-17 17:48:47] INFO main: Making signal prediction...
+[2025-07-17 17:48:47] INFO main: [DEBUG] features_df columns before prediction for USDJPY: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 17:48:47] ERROR main: Error analyzing USDJPY: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+
+[2025-07-17 17:48:47] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 17:48:57] INFO main: Model trained successfully!
+[2025-07-17 17:48:57] INFO main: Making signal prediction...
+[2025-07-17 17:48:57] INFO main: [DEBUG] features_df columns before prediction for BTCUSD: ['Close', 'High', 'Low', 'Open', 'Volume', 'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20', 'future_return', 'target']
+[2025-07-17 17:48:57] ERROR main: Error analyzing BTCUSD: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_distribution
+- wyckoff_markdown
+- wyckoff_markup
+- wyckoff_unknown
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 182, in analyze_and_signal
+  File "/Users/admin/forex_ai_project/models/predict.py", line 76, in predict_signal
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_distribution
+- wyckoff_markdown
+- wyckoff_markup
+- wyckoff_unknown
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+
+[2025-07-17 17:48:57] INFO main: Signal generation summary:
+[2025-07-17 17:48:57] INFO main: USDJPY: Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+
+[2025-07-17 17:48:57] INFO main: BTCUSD: Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_distribution
+- wyckoff_markdown
+- wyckoff_markup
+- wyckoff_unknown
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+
+[2025-07-17 17:48:57] WARNING main: No price data for BTCUSD. Skipping analysis for this pair.
+[2025-07-17 17:48:57] INFO main: Signal generation summary:
+[2025-07-17 17:48:57] INFO main: USDJPY: Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- atr_14
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- ...
+
+[2025-07-17 17:48:57] INFO main: BTCUSD: No price data
+[2025-07-17 17:49:02] INFO main: Running market analysis...
+[2025-07-17 17:49:02] INFO main: Fetching price data for USDJPY...
+[2025-07-17 17:49:02] INFO main: Running market analysis...
+[2025-07-17 17:49:02] INFO main: Fetching price data for USDJPY...
+[2025-07-17 17:49:08] INFO main: Fetched 4697 rows of price data for USDJPY
+[2025-07-17 17:49:08] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 17:49:08] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 17:49:12] WARNING main: No price data for USDJPY. Skipping analysis for this pair.
+[2025-07-17 17:49:12] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 17:49:19] INFO main: Fetched 4792 rows of price data for BTCUSD
+[2025-07-17 17:49:19] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 17:49:19] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 17:49:22] INFO main: News sentiment score: -0.0954
+[2025-07-17 17:49:22] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 17:49:37] INFO main: Feature DataFrame shape: (4696, 36)
+[2025-07-17 17:49:37] INFO main: Feature summary (last 5 rows):
+                                Close        High  ...  atr_14  volatility_20
+Datetime                                           ...                       
+2025-07-17 11:00:00+00:00  148.636993  148.800995  ...       0              0
+2025-07-17 12:00:00+00:00  148.761993  149.087006  ...       0              0
+2025-07-17 13:00:00+00:00  148.712997  148.753006  ...       0              0
+2025-07-17 14:00:00+00:00  148.585007  148.658005  ...       0              0
+2025-07-17 15:00:00+00:00  148.481003  148.610992  ...       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 17:49:37] INFO main: Target class balance: {0: 3103, 1: 1593}
+[2025-07-17 17:49:37] INFO main: Training AI model...
+[2025-07-17 17:49:55] INFO main: News sentiment score: 0.0000
+[2025-07-17 17:49:55] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 17:50:05] INFO main: Feature DataFrame shape: (3379, 36)
+[2025-07-17 17:50:05] INFO main: Feature summary (last 5 rows):
+                                   Close           High            Low           Open  ...  price_vs_sma50_4h  trend_strength_4h  atr_14  volatility_20
+Datetime                                                                               ...                                                             
+2025-07-17 11:00:00+00:00  118389.890625  118389.890625  118024.015625  118031.359375  ...           0.000690           0.001531       0              0
+2025-07-17 12:00:00+00:00  118028.937500  118150.265625  117552.539062  117992.210938  ...          -0.000461           0.001451       0              0
+2025-07-17 13:00:00+00:00  117948.023438  118419.015625  117641.367188  118419.015625  ...          -0.000562           0.001371       0              0
+2025-07-17 14:00:00+00:00  118377.578125  118843.937500  118271.242188  118724.523438  ...          -0.000517           0.001146       0              0
+2025-07-17 15:00:00+00:00  118857.414062  119096.031250  118417.492188  118933.632812  ...          -0.000472           0.000920       0              0
+
+[5 rows x 36 columns]
+
+[2025-07-17 17:50:05] INFO main: Target class balance: {0: 1745, 1: 1634}
+[2025-07-17 17:50:05] INFO main: Training AI model...

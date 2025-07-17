@@ -11,6 +11,8 @@ from data.fetch_market import get_price_data
 from data.preprocess import preprocess_features
 from data.fetch_news import get_news_sentiment_with_cache
 from data.multi_timeframe import get_multi_timeframe_features
+from models.model_training_service import ModelTrainingService
+from data.data_fetcher import DataFetcher
 
 logger = get_logger('continuous_learning')
 
@@ -189,57 +191,36 @@ class ContinuousLearning:
         """Retrain the model with updated data"""
         try:
             logger.info("Starting model retraining...")
-            
-            # Collect fresh data for all pairs
             all_features = []
             all_targets = []
-            
             for pair in Config.TRADING_PAIRS:
                 logger.info(f"Collecting data for {pair}...")
-                
-                # Fetch price data
-                price_df = get_price_data(pair, interval='1h', lookback=Config.LOOKBACK_PERIOD)
+                price_df = data_fetcher.get_price_data(pair, interval='1h', lookback=Config.LOOKBACK_PERIOD)
                 if price_df is None or price_df.empty:
                     logger.warning(f"No price data for {pair}")
                     continue
-                
-                # Fetch news sentiment
                 keywords = self.get_pair_keywords(pair)
                 from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
                 to_date = price_df.index[-1].strftime('%Y-%m-%d')
-                sentiment = get_news_sentiment_with_cache(keywords, from_date, to_date, pair)
-                
-                # Generate features
+                sentiment = data_fetcher.get_news_sentiment(keywords, from_date, to_date, pair)
                 features_df = preprocess_features(price_df, sentiment, use_multi_timeframe=True)
-                
-                # Prepare target variable
-                from data.preprocess import prepare_target_variable
-                df = prepare_target_variable(features_df)
-                
+                df = model_trainer.prepare_target(features_df)
                 if 'target' in df.columns:
-                    # Remove price columns, keep only features
                     feature_cols = [col for col in df.columns if col not in ['Open', 'High', 'Low', 'Close', 'Volume', 'target']]
                     all_features.append(df[feature_cols])
                     all_targets.append(df['target'])
-                    
                     logger.info(f"Added {len(df)} samples for {pair}")
-            
             if not all_features:
                 logger.error("No features collected for retraining")
                 return False
-            
-            # Combine all data
             combined_features = pd.concat(all_features, ignore_index=True)
             combined_targets = pd.concat(all_targets, ignore_index=True)
-            
             logger.info(f"Total training data: {len(combined_features)} samples")
-            
-            # Train new model
-            model, scaler, feature_cols = train_signal_model(
-                pd.concat([combined_features, combined_targets], axis=1)
-            )
-            
-            # Save updated model
+            train_df = pd.concat([combined_features, combined_targets], axis=1)
+            train_result = model_trainer.train(train_df, 'ALL')
+            model = train_result['model']
+            scaler = train_result['scaler']
+            feature_cols = train_result['feature_cols']
             os.makedirs('models/saved_models', exist_ok=True)
             with open('models/saved_models/signal_model.pkl', 'wb') as f:
                 pickle.dump({
@@ -248,11 +229,8 @@ class ContinuousLearning:
                     'feature_cols': feature_cols,
                     'retrain_date': datetime.now().isoformat()
                 }, f)
-            
-            # Update retrain date
             self.save_last_retrain_date()
             self.last_retrain_date = datetime.now()
-            
             logger.info("Model retraining completed successfully")
             return True
         except Exception as e:
@@ -293,3 +271,5 @@ class ContinuousLearning:
 
 # Global instance
 continuous_learner = ContinuousLearning() 
+model_trainer = ModelTrainingService() 
+data_fetcher = DataFetcher() 

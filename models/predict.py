@@ -47,12 +47,21 @@ def predict_signal(features_df, pair, model_dir='models/saved_models/'):
     if model is None or scaler is None or not feature_cols:
         return None
     
-    # Only use columns in feature_cols (do not add/fill columns not in feature_cols)
+    # --- PATCH: Enforce feature consistency ---
+    missing_cols = [col for col in feature_cols if col not in features_df.columns]
+    extra_cols = [col for col in features_df.columns if col not in feature_cols]
+    if missing_cols:
+        logger.warning(f"[Feature Consistency] Missing columns for prediction: {missing_cols}. Filling with 0.0.")
+        for col in missing_cols:
+            features_df[col] = 0.0
+    if extra_cols:
+        logger.warning(f"[Feature Consistency] Extra columns in features_df: {extra_cols}. These will be dropped.")
+    # Reindex to match feature_cols exactly
     features_df = features_df.reindex(columns=feature_cols)
     latest_data = features_df.iloc[-1:].copy()
-    # Final guarantee: reindex latest_data to feature_cols
     latest_data = latest_data.reindex(columns=feature_cols)
     latest_data = latest_data.astype(float)
+    # --- END PATCH ---
     # Debug: print column differences
     missing = [col for col in feature_cols if col not in latest_data.columns]
     extra = [col for col in latest_data.columns if col not in feature_cols]
@@ -74,9 +83,11 @@ def predict_signal(features_df, pair, model_dir='models/saved_models/'):
     print(f"[DEBUG] latest_data values going into scaler:\n{latest_data.values}")
     # Now scale
     latest_scaled = scaler.transform(latest_data)
+    # Convert back to DataFrame with correct columns and index for model
+    if not isinstance(latest_scaled, pd.DataFrame):
+        latest_scaled = pd.DataFrame(latest_scaled, columns=feature_cols, index=latest_data.index)
     print(f"[DEBUG] Output from scaler:\n{latest_scaled}")
-    
-    # Make prediction
+    # Make prediction using DataFrame with correct feature names
     prediction = model.predict(latest_scaled)[0]
     probabilities = model.predict_proba(latest_scaled)[0]
     confidence = max(probabilities)

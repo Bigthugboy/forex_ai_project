@@ -1,0 +1,212 @@
+[2025-07-17 17:08:10] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 17:08:10] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 17:08:10] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 17:08:10] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-17 17:08:27] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 17:08:27] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 17:08:27] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 17:08:27] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-17 17:08:32] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 17:08:32] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 17:08:32] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 17:08:32] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-17 17:08:50] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 17:08:50] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 17:08:50] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 17:08:50] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-17 17:09:05] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 17:09:05] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 17:09:05] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 17:10:13] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...           0               0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...           0               0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...           0               0
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...           0               0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...           0               0
+...                               ...         ...  ...         ...             ...
+2025-07-17 12:00:00+00:00  148.714005  149.087006  ...           0               0
+2025-07-17 13:00:00+00:00  148.574005  148.753006  ...           0               0
+2025-07-17 14:00:00+00:00  148.481003  148.658005  ...           0               0
+2025-07-17 15:00:00+00:00  148.552002  148.610992  ...           0               0
+2025-07-17 16:00:00+00:00  148.503006  148.570999  ...           0               0
+
+[4697 rows x 70 columns], 'error': 'too many values to unpack (expected 3)', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-17 17:21:00] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 17:21:00] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 17:21:00] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 17:21:48] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features':                                     Open  ...  wyckoff_phases
+Datetime                                  ...                
+2024-12-30 00:00:00+00:00   93357.867188  ...               0
+2024-12-30 01:00:00+00:00   93732.515625  ...               0
+2024-12-30 02:00:00+00:00   93692.289062  ...               0
+2024-12-30 03:00:00+00:00   93487.312500  ...               0
+2024-12-30 04:00:00+00:00   93116.101562  ...               0
+...                                  ...  ...             ...
+2025-07-17 11:00:00+00:00  118031.359375  ...               0
+2025-07-17 12:00:00+00:00  117992.210938  ...               0
+2025-07-17 13:00:00+00:00  118419.015625  ...               0
+2025-07-17 14:00:00+00:00  118724.523438  ...               0
+2025-07-17 15:00:00+00:00  118933.632812  ...               0
+
+[3379 rows x 81 columns], 'error': None, 'logs': []}}
+[2025-07-17 19:00:14] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 19:00:14] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 19:00:14] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 19:00:36] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...           0               0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...           0               0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...           0               0
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...           0               0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...           0               0
+...                               ...         ...  ...         ...             ...
+2025-07-17 14:00:00+00:00  148.481003  148.658005  ...           0               0
+2025-07-17 15:00:00+00:00  148.552002  148.610992  ...           0               0
+2025-07-17 16:00:00+00:00  148.625000  148.703995  ...           0               0
+2025-07-17 17:00:00+00:00  148.658997  148.673004  ...           0               0
+2025-07-17 18:00:00+00:00  148.658997  148.658997  ...           0               0
+
+[4699 rows x 74 columns], 'error': None, 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features':                                     Open  ...  wyckoff_phases
+Datetime                                  ...                
+2024-12-30 00:00:00+00:00   93357.867188  ...               0
+2024-12-30 01:00:00+00:00   93732.515625  ...               0
+2024-12-30 02:00:00+00:00   93692.289062  ...               0
+2024-12-30 03:00:00+00:00   93487.312500  ...               0
+2024-12-30 04:00:00+00:00   93116.101562  ...               0
+...                                  ...  ...             ...
+2025-07-17 13:00:00+00:00  118419.015625  ...               0
+2025-07-17 14:00:00+00:00  118724.523438  ...               0
+2025-07-17 15:00:00+00:00  118933.632812  ...               0
+2025-07-17 16:00:00+00:00  118513.140625  ...               0
+2025-07-17 17:00:00+00:00  119159.179688  ...               0
+
+[4793 rows x 74 columns], 'error': None, 'logs': []}}
+[2025-07-17 19:30:34] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 19:30:34] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 19:30:34] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 19:31:01] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...           0               0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...           0               0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...           0               0
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...           0               0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...           0               0
+...                               ...         ...  ...         ...             ...
+2025-07-17 14:00:00+00:00  148.481003  148.658005  ...           0               0
+2025-07-17 15:00:00+00:00  148.552002  148.610992  ...           0               0
+2025-07-17 16:00:00+00:00  148.625000  148.703995  ...           0               0
+2025-07-17 17:00:00+00:00  148.658997  148.673004  ...           0               0
+2025-07-17 18:00:00+00:00  148.740997  148.744003  ...           0               0
+
+[4699 rows x 74 columns], 'error': "type object 'Config' has no attribute 'KEY_LEVEL_PROXIMITY_THRESHOLDS'", 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features':                                     Open  ...  wyckoff_phases
+Datetime                                  ...                
+2024-12-30 00:00:00+00:00   93357.867188  ...               0
+2024-12-30 01:00:00+00:00   93732.515625  ...               0
+2024-12-30 02:00:00+00:00   93692.289062  ...               0
+2024-12-30 03:00:00+00:00   93487.312500  ...               0
+2024-12-30 04:00:00+00:00   93116.101562  ...               0
+...                                  ...  ...             ...
+2025-07-17 14:00:00+00:00  118724.523438  ...               0
+2025-07-17 15:00:00+00:00  118933.632812  ...               0
+2025-07-17 16:00:00+00:00  118513.140625  ...               0
+2025-07-17 17:00:00+00:00  119237.335938  ...               0
+2025-07-17 18:00:00+00:00  119628.523438  ...               0
+
+[4794 rows x 74 columns], 'error': "type object 'Config' has no attribute 'PATTERN_STRENGTH_THRESHOLDS'", 'logs': []}}
+[2025-07-17 19:47:58] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 19:47:58] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 19:47:58] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 19:48:25] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...           0               0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...           0               0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...           0               0
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...           0               0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...           0               0
+...                               ...         ...  ...         ...             ...
+2025-07-17 14:00:00+00:00  148.481003  148.658005  ...           0               0
+2025-07-17 15:00:00+00:00  148.552002  148.610992  ...           0               0
+2025-07-17 16:00:00+00:00  148.625000  148.703995  ...           0               0
+2025-07-17 17:00:00+00:00  148.658997  148.673004  ...           0               0
+2025-07-17 18:00:00+00:00  148.684998  148.753006  ...           0               0
+
+[4699 rows x 74 columns], 'error': "type object 'Config' has no attribute 'KEY_LEVEL_PROXIMITY_THRESHOLDS'", 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features':                                     Open  ...  wyckoff_phases
+Datetime                                  ...                
+2024-12-30 00:00:00+00:00   93357.867188  ...               0
+2024-12-30 01:00:00+00:00   93732.515625  ...               0
+2024-12-30 02:00:00+00:00   93692.289062  ...               0
+2024-12-30 03:00:00+00:00   93487.312500  ...               0
+2024-12-30 04:00:00+00:00   93116.101562  ...               0
+...                                  ...  ...             ...
+2025-07-17 14:00:00+00:00  118724.523438  ...               0
+2025-07-17 15:00:00+00:00  118933.632812  ...               0
+2025-07-17 16:00:00+00:00  118513.140625  ...               0
+2025-07-17 17:00:00+00:00  119237.335938  ...               0
+2025-07-17 18:00:00+00:00  119772.296875  ...               0
+
+[4794 rows x 74 columns], 'error': "type object 'Config' has no attribute 'PATTERN_STRENGTH_THRESHOLDS'", 'logs': []}}
+[2025-07-17 20:03:37] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 20:03:37] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 20:03:37] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 20:04:00] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...           0               0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...           0               0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...           0               0
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...           0               0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...           0               0
+...                               ...         ...  ...         ...             ...
+2025-07-17 15:00:00+00:00  148.552002  148.610992  ...           0               0
+2025-07-17 16:00:00+00:00  148.625000  148.703995  ...           0               0
+2025-07-17 17:00:00+00:00  148.658997  148.673004  ...           0               0
+2025-07-17 18:00:00+00:00  148.725006  148.753006  ...           0               0
+2025-07-17 19:00:00+00:00  148.733994  148.753006  ...           0               0
+
+[4700 rows x 74 columns], 'error': "type object 'Config' has no attribute 'KEY_LEVEL_PROXIMITY_THRESHOLDS'", 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features':                                     Open  ...  wyckoff_phases
+Datetime                                  ...                
+2024-12-30 00:00:00+00:00   93357.867188  ...               0
+2024-12-30 01:00:00+00:00   93732.515625  ...               0
+2024-12-30 02:00:00+00:00   93692.289062  ...               0
+2024-12-30 03:00:00+00:00   93487.312500  ...               0
+2024-12-30 04:00:00+00:00   93116.101562  ...               0
+...                                  ...  ...             ...
+2025-07-17 15:00:00+00:00  118933.632812  ...               0
+2025-07-17 16:00:00+00:00  118513.140625  ...               0
+2025-07-17 17:00:00+00:00  119237.335938  ...               0
+2025-07-17 18:00:00+00:00  119633.648438  ...               0
+2025-07-17 19:00:00+00:00  119663.343750  ...               0
+
+[4795 rows x 74 columns], 'error': "type object 'Config' has no attribute 'PATTERN_STRENGTH_THRESHOLDS'", 'logs': []}}
+[2025-07-17 20:04:45] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-17 20:04:45] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-17 20:04:45] INFO orchestrator: Running orchestrated session for pairs: ['USDJPY', 'BTCUSD']
+[2025-07-17 20:05:10] INFO orchestrator: Session results: {'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open        High  ...  fib_levels  wyckoff_phases
+Datetime                                           ...                            
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...           0               0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...           0               0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...           0               0
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...           0               0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...           0               0
+...                               ...         ...  ...         ...             ...
+2025-07-17 15:00:00+00:00  148.552002  148.610992  ...           0               0
+2025-07-17 16:00:00+00:00  148.625000  148.703995  ...           0               0
+2025-07-17 17:00:00+00:00  148.658997  148.673004  ...           0               0
+2025-07-17 18:00:00+00:00  148.725006  148.753006  ...           0               0
+2025-07-17 19:00:00+00:00  148.725006  148.753006  ...           0               0
+
+[4700 rows x 74 columns], 'error': "type object 'Config' has no attribute 'KEY_LEVEL_PROXIMITY_THRESHOLDS'", 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features':                                     Open  ...  wyckoff_phases
+Datetime                                  ...                
+2024-12-30 00:00:00+00:00   93357.867188  ...               0
+2024-12-30 01:00:00+00:00   93732.515625  ...               0
+2024-12-30 02:00:00+00:00   93692.289062  ...               0
+2024-12-30 03:00:00+00:00   93487.312500  ...               0
+2024-12-30 04:00:00+00:00   93116.101562  ...               0
+...                                  ...  ...             ...
+2025-07-17 15:00:00+00:00  118933.632812  ...               0
+2025-07-17 16:00:00+00:00  118513.140625  ...               0
+2025-07-17 17:00:00+00:00  119237.335938  ...               0
+2025-07-17 18:00:00+00:00  119633.648438  ...               0
+2025-07-17 19:00:00+00:00  119679.320312  ...               0
+
+[4795 rows x 74 columns], 'error': "type object 'Config' has no attribute 'PATTERN_STRENGTH_THRESHOLDS'", 'logs': []}}

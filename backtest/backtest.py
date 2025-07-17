@@ -56,7 +56,7 @@ def backtest_pair(pair, lookback=120):
     to_date = today.strftime('%Y-%m-%d')
     sentiment = get_news_sentiment(Config.NEWS_KEYWORDS, from_date, to_date)
     features_df = preprocess_features(price_df, sentiment)
-    model, scaler, feature_cols = train_signal_model(features_df)
+    model, scaler, feature_cols = train_signal_model(features_df, pair)
 
     # Enhanced backtest params
     asset_type = get_asset_type(pair)

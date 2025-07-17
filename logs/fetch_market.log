@@ -592,3 +592,649 @@
 [2025-07-17 06:50:14] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
 [2025-07-17 06:50:14] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
 [2025-07-17 06:50:14] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:42:12] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:42:12] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:42:12] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:42:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:42:19] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:42:19] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:42:20] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 10:42:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:42:20] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:42:20] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:42:21] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:42:21] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:42:21] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:42:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 10:42:28] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 10:42:28] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 10:42:35] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:42:35] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:42:35] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:42:36] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 10:42:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:42:36] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:42:36] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:42:38] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:42:38] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:42:38] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:45:34] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:45:34] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:45:34] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:45:41] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:45:41] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:45:41] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:45:42] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 10:45:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:45:42] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:45:42] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:45:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:45:43] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:45:43] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:50:34] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:50:34] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:50:34] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:50:40] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:50:40] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:50:40] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:50:41] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 10:50:41] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:50:41] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:50:41] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:50:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:50:42] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:50:42] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:52:24] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:52:24] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:52:24] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:52:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:52:28] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:52:28] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:52:30] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 10:52:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:52:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:52:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 10:52:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 10:52:31] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 10:52:31] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:08:03] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:08:03] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:08:03] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:08:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:08:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:08:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:08:10] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 11:08:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:08:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:08:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:08:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:08:11] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:08:11] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:08:18] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 11:08:18] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 11:08:18] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 11:08:24] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:08:24] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:08:24] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:08:26] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 11:08:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:08:26] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:08:26] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:08:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:08:27] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:08:27] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:25:35] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 11:25:35] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 11:25:35] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 11:25:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 11:25:42] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 11:25:42] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 11:25:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:25:43] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:25:43] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:25:46] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 11:25:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:25:46] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:25:46] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:25:47] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:25:47] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:25:47] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:25:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:25:48] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:25:48] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:25:50] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 11:25:50] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:25:50] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:25:50] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:25:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:25:51] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:25:51] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:30:40] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:30:40] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:30:40] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:30:47] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:30:47] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:30:47] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:30:48] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 11:30:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:30:48] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:30:48] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:30:49] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:30:49] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:30:49] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:30:56] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 11:30:56] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 11:30:56] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 11:31:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:31:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:31:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:31:04] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 11:31:04] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:31:04] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:31:04] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 11:31:05] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 11:31:05] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 11:31:05] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:06:24] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:06:24] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:06:24] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:06:29] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:06:29] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:06:29] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:06:30] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 12:06:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:06:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:06:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:06:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:06:31] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:06:31] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:06:38] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 12:06:38] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 12:06:38] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 12:06:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:06:42] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:06:42] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:06:44] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 12:06:44] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:06:44] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:06:44] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:06:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:06:45] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:06:45] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:21:56] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:21:56] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:21:56] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:22:00] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:22:00] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:22:00] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:22:01] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 12:22:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:22:01] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:22:01] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:22:03] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:22:03] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:22:03] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:22:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 12:22:09] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 12:22:09] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 12:22:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:22:15] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:22:15] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:22:16] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 12:22:16] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:22:16] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:22:16] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:22:17] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:22:17] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:22:17] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:37:49] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:37:49] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:37:49] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:37:54] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:37:54] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:37:54] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:37:55] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 12:37:55] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:37:55] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:37:55] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:37:56] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:37:56] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:37:56] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:38:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 12:38:02] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 12:38:02] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 12:38:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:38:08] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:38:08] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:38:09] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 12:38:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:38:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:38:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 12:38:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 12:38:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 12:38:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:00] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:00] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:00] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:01] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:01] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:05] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:05] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:05] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:06] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:06] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:06] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:06] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 13:00:06] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:06] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:06] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:07] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:07] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:07] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:08] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 13:00:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:08] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:08] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:08] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:08] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:08] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 13:00:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:08] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:08] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:18] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 13:00:18] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 13:00:18] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 13:00:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:25] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:25] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:27] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 13:00:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:27] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:27] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:00:29] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:00:29] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:00:29] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:49:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:49:52] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:49:52] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:49:57] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:49:57] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:49:57] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:49:58] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 13:49:58] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:49:58] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:49:58] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 13:50:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 13:50:01] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 13:50:01] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:10:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:10:26] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:10:26] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:10:33] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:10:33] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:10:33] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:10:34] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 14:10:34] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:10:34] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:10:34] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:10:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:10:36] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:10:36] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:17:04] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:17:04] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:17:04] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:17:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:17:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:17:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:17:13] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 14:17:13] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:17:13] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:17:13] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:17:14] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:17:14] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:17:14] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:17:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 14:17:22] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 14:17:22] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 14:17:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:17:28] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:17:28] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:17:30] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 14:17:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:17:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:17:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:17:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:17:31] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:17:31] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:30:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:30:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:30:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:30:07] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:30:07] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:30:07] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:30:08] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 14:30:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:30:08] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:30:08] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:30:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:30:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:30:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:30:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 14:30:15] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 14:30:15] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 14:30:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:30:22] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:30:22] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:30:23] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 14:30:23] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:30:23] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:30:23] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 14:30:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 14:30:25] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 14:30:25] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:11] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:11] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:13] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 15:37:13] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:13] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:13] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:14] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:14] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:14] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:15] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:15] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:17] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 15:37:17] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:17] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:17] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:18] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:18] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:18] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:19] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:19] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:20] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 15:37:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:20] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:20] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:21] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:21] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:21] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:22] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:22] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:24] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 15:37:24] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:24] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:24] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:25] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:25] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:26] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:26] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:27] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 15:37:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:27] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:27] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:28] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:28] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:29] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:29] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:29] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:31] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 15:37:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:31] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:31] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 15:37:32] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 15:37:32] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 15:37:32] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 16:00:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 16:00:01] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 16:00:01] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 16:00:06] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 16:00:06] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 16:00:06] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 16:00:07] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 16:00:07] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 16:00:07] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 16:00:07] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 16:00:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 16:00:08] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 16:00:08] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 16:00:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 16:00:15] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 16:00:15] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 16:00:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 16:00:22] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 16:00:22] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 16:00:24] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 16:00:24] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 16:00:24] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 16:00:24] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 16:00:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 16:00:25] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 16:00:25] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:09:39] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:09:39] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:09:39] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:09:43] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 17:09:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:09:43] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:09:43] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:09:53] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 17:09:53] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:09:53] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:09:53] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:16:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:16:42] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 17:16:42] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 17:16:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:16:45] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:16:45] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:16:51] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 17:16:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:16:51] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:16:51] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:16:55] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:16:55] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:16:55] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:21:34] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:21:34] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:21:34] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:21:36] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 17:21:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:21:36] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:21:36] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:21:41] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:21:41] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:21:41] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:48:47] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:48:47] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 17:48:47] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 17:48:57] ERROR fetch_market: Data is empty for BTCUSD after fetch.
+[2025-07-17 17:49:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:49:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:49:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:49:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:49:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:49:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:49:12] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 17:49:12] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 17:49:12] INFO fetch_market: [DEBUG] Using lookback=200 for BTCUSD
+[2025-07-17 17:49:12] INFO fetch_market: Fetching data for BTCUSD using Yahoo symbol: BTC-USD
+[2025-07-17 17:49:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:49:22] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:49:22] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:49:28] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 17:49:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:49:28] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:49:28] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:49:33] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:49:33] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:49:33] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:49:55] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:49:55] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:49:55] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:49:57] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-17 17:49:57] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:49:57] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:49:57] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 17:50:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 17:50:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 17:50:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 18:54:16] INFO fetch_market: [DEBUG] Increasing lookback from 120 to 200 for USDJPY
+[2025-07-17 18:54:16] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 18:54:16] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 18:54:21] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 18:54:21] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 18:54:21] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 18:54:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 18:54:22] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 18:54:22] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 18:54:23] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 18:54:23] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 18:54:23] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 18:55:40] INFO fetch_market: [DEBUG] Increasing lookback from 120 to 200 for USDJPY
+[2025-07-17 18:55:40] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 18:55:40] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 18:55:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 18:55:43] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 18:55:43] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 18:55:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 18:55:45] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 18:55:45] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 18:55:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 18:55:46] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 18:55:46] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:00:17] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:00:17] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:00:17] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:00:18] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:00:18] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:00:18] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:00:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:00:19] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:00:19] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:00:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:00:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:00:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:00:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:00:31] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:00:31] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:00:32] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:00:32] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:00:32] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:28:39] INFO fetch_market: [DEBUG] Increasing lookback from 120 to 200 for USDJPY
+[2025-07-17 19:28:39] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:28:39] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:28:44] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:28:44] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:28:44] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:28:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:28:45] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:28:45] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:28:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:28:46] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:28:46] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:30:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:30:37] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:30:37] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:30:38] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:30:38] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:30:38] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:30:39] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:30:39] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:30:39] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:30:55] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:30:55] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:30:55] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:30:56] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:30:56] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:30:56] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:30:57] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:30:57] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:30:57] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:39:03] INFO fetch_market: [DEBUG] Increasing lookback from 120 to 200 for USDJPY
+[2025-07-17 19:39:03] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:39:03] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:43:06] INFO fetch_market: [DEBUG] Increasing lookback from 120 to 200 for USDJPY
+[2025-07-17 19:43:06] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:43:06] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:43:13] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:43:13] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:43:13] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:43:14] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:43:14] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:43:14] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:43:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:43:15] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:43:15] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:48:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:48:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:48:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:48:03] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:48:03] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:48:03] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:48:05] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:48:05] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:48:05] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:48:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:48:19] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:48:19] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:48:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:48:20] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:48:20] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 19:48:21] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 19:48:21] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 19:48:21] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:03:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:03:42] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:03:42] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:03:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:03:43] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:03:43] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:03:44] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:03:44] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:03:44] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:03:54] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:03:54] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:03:54] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:03:55] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:03:55] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:03:55] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:03:56] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:03:56] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:03:56] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:04:49] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:04:49] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:04:49] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:04:50] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:04:50] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:04:50] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:04:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:04:51] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:04:51] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:05:04] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:05:04] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:05:04] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:05:05] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:05:05] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:05:05] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:05:06] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:05:06] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:05:06] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
