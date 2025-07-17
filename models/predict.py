@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import joblib
 from sklearn.preprocessing import StandardScaler
+import os
+import json
 
 def load_model(model_path='models/saved_models/signal_model.pkl'):
     """
@@ -15,12 +17,18 @@ def load_model(model_path='models/saved_models/signal_model.pkl'):
         model = joblib.load(model_path)
         scaler = joblib.load(model_path.replace('.pkl', '_scaler.pkl'))
         
-        # Define feature columns (same as in training)
-        feature_cols = [
-            'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14',
-            'macd', 'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 
-            'atr_14', 'news_sentiment'
-        ]
+        # Try to load feature columns from saved file
+        feature_file = model_path.replace('.pkl', '_features.json')
+        if os.path.exists(feature_file):
+            with open(feature_file, 'r') as f:
+                feature_cols = json.load(f)
+        else:
+            # Fallback to default feature columns
+            feature_cols = [
+                'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14',
+                'macd', 'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 
+                'atr_14', 'news_sentiment'
+            ]
         
         return model, scaler, feature_cols
     except FileNotFoundError:
@@ -36,17 +44,24 @@ def predict_signal(features_df, model_path='models/saved_models/signal_model.pkl
     Returns:
         dict: Prediction results with signal, confidence, and probabilities
     """
-    model, scaler, _ = load_model(model_path)
+    model, scaler, feature_cols = load_model(model_path)
     
-    if model is None:
+    if model is None or scaler is None or feature_cols is None:
         return None
-    
-    # Dynamically select feature columns (exclude price columns and target)
-    exclude_cols = [col for col in features_df.columns if col.startswith(('Close', 'Open', 'High', 'Low', 'Volume'))] + ['future_return', 'target']
-    feature_cols = [col for col in features_df.columns if col not in exclude_cols]
     
     # Get the latest data point
     latest_data = features_df[feature_cols].iloc[-1:].copy()
+    
+    # Ensure all required features are present
+    missing_features = [col for col in feature_cols if col not in latest_data.columns]
+    if missing_features:
+        print(f"Missing features: {missing_features}")
+        # Fill missing features with 0
+        for col in missing_features:
+            latest_data[col] = 0
+    
+    # Ensure feature order matches training
+    latest_data = latest_data[feature_cols]
     
     # Scale the features
     latest_scaled = scaler.transform(latest_data)

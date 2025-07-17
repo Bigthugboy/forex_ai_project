@@ -76,46 +76,9 @@ def calculate_position_size(entry, sl, risk_per_trade, min_lot, max_lot, pair):
     return round(position_size, 4)
 
 def is_high_impact_event_near(pair, window_minutes=30):
-    logger.info(f'Checking for high-impact news event for {pair}...')
-    """
-    Check if a high-impact economic event is within ±window_minutes for the pair's currencies.
-    Returns True if an event is near, else False.
-    """
-    # Map pair to relevant currencies
-    currency_map = {
-        'USDJPY': ['USD', 'JPY'],
-        'BTCUSD': ['USD'],
-        'USDCHF': ['USD', 'CHF'],
-        'JPYNZD': ['JPY', 'NZD'],
-    }
-    currencies = currency_map.get(pair, [])
-    now = datetime.utcnow()
-    from_date = now.strftime('%Y-%m-%d')
-    to_date = (now + timedelta(days=1)).strftime('%Y-%m-%d')
-    url = f"https://financialmodelingprep.com/api/v3/economic_calendar?from={from_date}&to={to_date}&apikey={Config.FMP_API_KEY}"
-    try:
-        resp = requests.get(url, timeout=10)
-        if resp.status_code != 200:
-            logger.warning(f"Economic calendar API returned status code: {resp.status_code}")
-            return False  # Fail open
-        events = resp.json()
-        for event in events:
-            # Only consider high-impact events for relevant currencies
-            if event.get('impact', '').lower() == 'high' and event.get('country'):
-                for cur in currencies:
-                    if cur in event.get('country') or cur in event.get('event', ''):
-                        # Parse event time
-                        event_time = event.get('date')
-                        if event_time:
-                            event_dt = datetime.strptime(event_time, '%Y-%m-%d %H:%M:%S')
-                            if abs((event_dt - now).total_seconds()) <= window_minutes * 60:
-                                logger.info(f"High-impact event found: {event['title']} at {event_time}")
-                                return True
-        logger.info('No high-impact event found near.')
-        return False
-    except Exception as e:
-        logger.error(f"[Warning] Economic calendar API error: {e}")
-        return False
+    logger.info(f'Checking for high-impact news event for {pair}... (Economic calendar check disabled, FMP API removed)')
+    # TODO: Implement RSS-based economic calendar check
+    return False
 
 def regime_adaptive_features(latest, regime, all_features):
     # Define regime-specific indicator sets
@@ -152,38 +115,51 @@ def generate_signal_output(pair, features_df, prediction_result):
     latest_low = latest[low_col]
     prediction = prediction_result['prediction']
     confidence = prediction_result['confidence']
+    
     # --- Indicator and pattern logging ---
     # Try to get RSI and MACD from different timeframes if not present in base
-    rsi = (
-        latest.get('rsi_14') or
-        latest.get('rsi_14_1h') or
-        latest.get('rsi_14_4h') or
-        'N/A'
-    )
-    macd = (
-        latest.get('macd') or
-        latest.get('macd_1h') or
-        latest.get('macd_4h') or
-        'N/A'
-    )
-    macd_signal = (
-        latest.get('macd_signal') or
-        latest.get('macd_signal_1h') or
-        latest.get('macd_signal_4h') or
-        'N/A'
-    )
+    rsi = None
+    macd = None
+    macd_signal = None
+    
+    # Check for RSI across all timeframes
+    for col in features_df.columns:
+        if 'rsi' in col.lower():
+            rsi = latest[col]
+            break
+    
+    # Check for MACD across all timeframes
+    for col in features_df.columns:
+        if 'macd' in col.lower() and 'signal' not in col.lower():
+            macd = latest[col]
+            break
+    
+    # Check for MACD signal across all timeframes
+    for col in features_df.columns:
+        if 'macd_signal' in col.lower():
+            macd_signal = latest[col]
+            break
+    
+    # Convert to string for logging
+    rsi_str = str(rsi) if rsi is not None else 'N/A'
+    macd_str = str(macd) if macd is not None else 'N/A'
+    macd_signal_str = str(macd_signal) if macd_signal is not None else 'N/A'
+    
     news_sentiment = latest.get('news_sentiment', 'N/A')
     patterns = [k for k in ['bullish_engulfing_bar', 'bearish_engulfing_bar', 'pin_bar'] if latest.get(k)]
-    logger.info(f"Analyzing {pair} at {latest_time}: RSI={rsi}, MACD={macd}, MACD_signal={macd_signal}, News sentiment={news_sentiment}")
+    logger.info(f"Analyzing {pair} at {latest_time}: RSI={rsi_str}, MACD={macd_str}, MACD_signal={macd_signal_str}, News sentiment={news_sentiment}")
     logger.info(f"Detected patterns: {patterns if patterns else 'None'}")
+    
     # --- Confluence Calculation ---
     confluence_factors = []
-    # 1. Trend alignment (trendline or moving average)
+    
+    # 1 Trend alignment (trendline or moving average)
     if 'trendline_up' in latest and prediction == 1 and latest['trendline_up']:
         confluence_factors.append('trend_up')
     if 'trendline_down' in latest and prediction == 0 and latest['trendline_down']:
         confluence_factors.append('trend_down')
-    # 2. Price action (breakout, engulfing, pin bar, etc.)
+    
+    #2rice action (breakout, engulfing, pin bar, etc.)
     if prediction == 1 and ('breakout_high' in latest and latest['breakout_high']):
         confluence_factors.append('breakout_high')
     if prediction == 0 and ('breakout_low' in latest and latest['breakout_low']):
@@ -194,31 +170,37 @@ def generate_signal_output(pair, features_df, prediction_result):
         confluence_factors.append('bearish_engulfing')
     if 'pin_bar' in latest and latest['pin_bar']:
         confluence_factors.append('pin_bar')
-    # 3. Technical indicators (RSI, MACD, etc.)
-    if 'rsi_14' in latest:
-        if prediction == 1 and latest['rsi_14'] < 30:
+    
+    # 3. Technical indicators (RSI, MACD, etc.) - check across all timeframes
+    if rsi is not None:
+        if prediction == 1 and rsi < 30:
             confluence_factors.append('rsi_oversold')
-        if prediction == 0 and latest['rsi_14'] > 70:
+        if prediction == 0 and rsi > 70:
             confluence_factors.append('rsi_overbought')
-    if 'macd' in latest and 'macd_signal' in latest:
-        if prediction == 1 and latest['macd'] > latest['macd_signal']:
+    
+    if macd is not None and macd_signal is not None:
+        if prediction == 1 and macd > macd_signal:
             confluence_factors.append('macd_bull')
-        if prediction == 0 and latest['macd'] < latest['macd_signal']:
+        if prediction == 0 and macd < macd_signal:
             confluence_factors.append('macd_bear')
-    # 4. News sentiment (if available)
+    
+    #4. News sentiment (if available)
     if 'news_sentiment' in latest:
         if prediction == 1 and latest['news_sentiment'] > 0.2:
             confluence_factors.append('news_bull')
         if prediction == 0 and latest['news_sentiment'] < -0.2:
             confluence_factors.append('news_bear')
+    
     # --- Strict filter: require at least 4 confirming factors and high confidence ---
     confluence_score = len(confluence_factors)
     logger.info(f"Confluence factors: {confluence_factors}, score={confluence_score}, confidence={confidence:.2f}")
+    
     # --- Ambiguity/Conflict Detection ---
     ambiguous = detect_ambiguity_conflict(latest, confluence_factors)
     if ambiguous:
         logger.info(f"Signal for {pair} at {latest_time} flagged as ambiguous/conflicting. No signal generated.")
         return None
+    
     # --- Granular Confidence Scoring ---
     logger.info(f"Signal confidence score: {confidence:.2f} (interpreted as probability of correctness)")
     if confluence_score < 4 or confidence < 0.75:
@@ -227,10 +209,13 @@ def generate_signal_output(pair, features_df, prediction_result):
         if confidence >= 0.65:
             logger.info(f"Model will keep studying the chart for {pair} at {latest_time}: confidence ({confidence:.2f}) not low enough to give up.")
         return None
+    
     if is_high_impact_event_near(pair, window_minutes=30):
         logger.info(f"No signal for {pair} at {latest_time}: suppressed due to high-impact news event")
         return None
+    
     trade_type, entry = classify_trade_type(latest_close, latest_high, latest_low, prediction)
+    
     # --- Pip-based SL/TP and Dynamic Position Sizing ---
     sl_pips = min(max(Config.SL_PIPS, 20), 30)  # Clamp between 20 and 30
     sl, tp1, tp2, tp3 = calculate_sl_tp_pip(entry, prediction, pair, sl_pips)
