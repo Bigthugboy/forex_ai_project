@@ -82,7 +82,7 @@ def fetch_economic_calendar(pair):
         'USDJPY': ['USD', 'JPY'],
         'BTCUSD': ['USD'],
         'USDCHF': ['USD', 'CHF'],
-        'JPYNZD': ['JPY', 'NZD']
+        'NZDJPY': ['JPY', 'NZD']
     }
     currencies = currency_map.get(pair, [])
     for feed_url in calendar_feeds:
@@ -309,7 +309,7 @@ def get_macro_events(pair, from_date, to_date):
                 'USDJPY': ['USD', 'JPY'],
                 'BTCUSD': ['USD'],
                 'USDCHF': ['USD', 'CHF'],
-                'JPYNZD': ['JPY', 'NZD'],
+                'NZDJPY': ['JPY', 'NZD'],
             }
             currencies = currency_map.get(pair, [])
             relevant_events = [e for e in events if any(cur in e.get('country', '') or cur in e.get('event', '') for cur in currencies)]

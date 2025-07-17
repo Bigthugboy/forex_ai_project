@@ -16,7 +16,7 @@ import numpy as np
 
 logger = get_logger('core', log_file='logs/core.log')
 
-ALL_PAIRS = ['USDJPY', 'BTCUSD', 'USDCHF', 'JPYNZD']
+ALL_PAIRS = ['USDJPY', 'BTCUSD', 'USDCHF', 'NZDJPY']
 SIGNALS_CSV = 'logs/signals.csv'
 ATTEMPT_LOG = 'logs/attempt_log.json'
 MAX_ATTEMPTS = 30  # Updated as per your request
@@ -86,8 +86,8 @@ def get_pair_keywords(pair):
         return ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC', 'BTC-USD']
     elif pair == 'USDCHF':
         return ['USD/CHF', 'USDCHF', 'CHF/USD', 'USDCHF=X']
-    elif pair == 'JPYNZD':
-        return ['JPY/NZD', 'JPYNZD', 'NZD/JPY', 'NZDJPY=X']
+    elif pair == 'NZDJPY':
+        return ['NZD/JPY', 'NZDJPY', 'NZDJPY=X']
     else:
         return [pair]
 

@@ -19,7 +19,7 @@ import numpy as np
 
 logger = get_logger('main', log_file='logs/main.log')
 
-PAIRS = ['USDJPY', 'BTCUSD', 'JPYNZD']
+PAIRS = ['USDJPY', 'BTCUSD', 'NZDJPY']
 SIGNALS_CSV = 'logs/signals.csv'
 ATTEMPT_LOG = 'logs/attempt_log.json'
 MAX_ATTEMPTS = 30
@@ -99,7 +99,7 @@ def get_pair_keywords(pair):
         return ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC', 'BTC-USD']
     elif pair == 'USDCHF':
         return ['USD/CHF', 'USDCHF', 'CHF/USD', 'USDCHF=X']
-    elif pair == 'JPYNZD':
+    elif pair == 'NZDJPY':
         return ['NZD/JPY', 'NZDJPY', 'JPY/NZD', 'NZDJPY=X']
     else:
         return [pair]
@@ -109,7 +109,7 @@ def analyze_and_signal():
     signal_summary = {}
     attempt_log = load_attempt_log()
     attempt_log = reset_attempts_if_new_day(attempt_log)
-    for pair in PAIRS:
+    for pair in Config.TRADING_PAIRS:
         attempts = get_attempts(attempt_log, pair)
         if attempts >= MAX_ATTEMPTS:
             logger.info(f"Max attempts reached for {pair} today. AI will continue to study the chart but will not generate new signals until tomorrow.")
@@ -171,10 +171,15 @@ def analyze_and_signal():
                 increment_attempt(attempt_log, pair)
                 continue
             logger.info(f"Training AI model...")
-            model, scaler, calibration_model = train_signal_model(df)
+            model_dict = train_signal_model(df, pair)
+            model = model_dict['model']
+            scaler = model_dict['scaler']
+            calibration_model = model_dict['model']  # For compatibility, use model as calibration_model
+            feature_cols = model_dict['feature_cols']
             logger.info(f"Model trained successfully!")
             logger.info(f"Making signal prediction...")
-            prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+            logger.info(f"[DEBUG] features_df columns before prediction for {pair}: {list(features_df.columns)}")
+            prediction_result = predict_signal(features_df, pair)
             signal = generate_signal_output(pair, features_df, prediction_result)
             if signal is not None:
                 logger.info(f"SIGNAL GENERATED for {pair}: {signal['signal']} {signal['trade_type']} Confidence: {signal['confidence']:.2%}")

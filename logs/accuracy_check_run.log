@@ -1,0 +1,245 @@
+[DEBUG] About to fetch data for USDJPY (symbol: USDJPY=X) with yfinance...
+[DEBUG] Data fetched for USDJPY. Type: <class 'pandas.core.frame.DataFrame'>, Shape: (4684, 5)
+[DEBUG] Flattened columns: Index(['USDJPY=X', 'USDJPY=X', 'USDJPY=X', 'USDJPY=X', 'USDJPY=X'], dtype='object')
+[DEBUG] Renamed columns to standard OHLCV: Index(['Open', 'High', 'Low', 'Close', 'Volume'], dtype='object')
+[DEBUG] Data before dropna for USDJPY:
+                                 Open        High  ...       Close  Volume
+Datetime                                           ...                    
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...  148.658997       0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...  148.701004       0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...  148.457001       0
+
+[3 rows x 5 columns]
+[DEBUG] Checking column 'Open' in data for USDJPY...
+[DEBUG] NaN count for column 'Open' in USDJPY: 0
+[DEBUG] Checking column 'High' in data for USDJPY...
+[DEBUG] NaN count for column 'High' in USDJPY: 0
+[DEBUG] Checking column 'Low' in data for USDJPY...
+[DEBUG] NaN count for column 'Low' in USDJPY: 0
+[DEBUG] Checking column 'Close' in data for USDJPY...
+[DEBUG] NaN count for column 'Close' in USDJPY: 0
+[DEBUG] Checking column 'Volume' in data for USDJPY...
+[DEBUG] NaN count for column 'Volume' in USDJPY: 0
+[DEBUG] Price data for USDJPY (symbol: USDJPY=X), first 3 rows:
+                                 Open        High  ...       Close  Volume
+Datetime                                           ...                    
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...  148.658997       0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...  148.701004       0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...  148.457001       0
+
+[3 rows x 5 columns]
+[DEBUG] About to fetch data for USDJPY (symbol: USDJPY=X) with yfinance...
+[DEBUG] Data fetched for USDJPY. Type: <class 'pandas.core.frame.DataFrame'>, Shape: (0, 6)
+[DEBUG] About to fetch data for USDJPY (symbol: USDJPY=X) with yfinance...
+[DEBUG] Data fetched for USDJPY. Type: <class 'pandas.core.frame.DataFrame'>, Shape: (4684, 5)
+[DEBUG] Flattened columns: Index(['USDJPY=X', 'USDJPY=X', 'USDJPY=X', 'USDJPY=X', 'USDJPY=X'], dtype='object')
+[DEBUG] Renamed columns to standard OHLCV: Index(['Open', 'High', 'Low', 'Close', 'Volume'], dtype='object')
+[DEBUG] Data before dropna for USDJPY:
+                                 Open        High  ...       Close  Volume
+Datetime                                           ...                    
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...  148.658997       0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...  148.701004       0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...  148.457001       0
+
+[3 rows x 5 columns]
+[DEBUG] Checking column 'Open' in data for USDJPY...
+[DEBUG] NaN count for column 'Open' in USDJPY: 0
+[DEBUG] Checking column 'High' in data for USDJPY...
+[DEBUG] NaN count for column 'High' in USDJPY: 0
+[DEBUG] Checking column 'Low' in data for USDJPY...
+[DEBUG] NaN count for column 'Low' in USDJPY: 0
+[DEBUG] Checking column 'Close' in data for USDJPY...
+[DEBUG] NaN count for column 'Close' in USDJPY: 0
+[DEBUG] Checking column 'Volume' in data for USDJPY...
+[DEBUG] NaN count for column 'Volume' in USDJPY: 0
+[DEBUG] Price data for USDJPY (symbol: USDJPY=X), first 3 rows:
+                                 Open        High  ...       Close  Volume
+Datetime                                           ...                    
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...  148.658997       0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...  148.701004       0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...  148.457001       0
+
+[3 rows x 5 columns]
+[DEBUG] About to fetch data for USDJPY (symbol: USDJPY=X) with yfinance...
+[DEBUG] Data fetched for USDJPY. Type: <class 'pandas.core.frame.DataFrame'>, Shape: (1190, 5)
+[DEBUG] Flattened columns: Index(['USDJPY=X', 'USDJPY=X', 'USDJPY=X', 'USDJPY=X', 'USDJPY=X'], dtype='object')
+[DEBUG] Renamed columns to standard OHLCV: Index(['Open', 'High', 'Low', 'Close', 'Volume'], dtype='object')
+[DEBUG] Data before dropna for USDJPY:
+                                 Open        High  ...       Close  Volume
+Datetime                                           ...                    
+2024-10-10 23:00:00+00:00  148.666000  148.798004  ...  148.658997       0
+2024-10-11 03:00:00+00:00  148.692001  148.856995  ...  148.666000       0
+2024-10-11 07:00:00+00:00  149.054001  149.082993  ...  148.688995       0
+
+[3 rows x 5 columns]
+[DEBUG] Checking column 'Open' in data for USDJPY...
+[DEBUG] NaN count for column 'Open' in USDJPY: 0
+[DEBUG] Checking column 'High' in data for USDJPY...
+[DEBUG] NaN count for column 'High' in USDJPY: 0
+[DEBUG] Checking column 'Low' in data for USDJPY...
+[DEBUG] NaN count for column 'Low' in USDJPY: 0
+[DEBUG] Checking column 'Close' in data for USDJPY...
+[DEBUG] NaN count for column 'Close' in USDJPY: 0
+[DEBUG] Checking column 'Volume' in data for USDJPY...
+[DEBUG] NaN count for column 'Volume' in USDJPY: 0
+[DEBUG] Price data for USDJPY (symbol: USDJPY=X), first 3 rows:
+                                 Open        High  ...       Close  Volume
+Datetime                                           ...                    
+2024-10-10 23:00:00+00:00  148.666000  148.798004  ...  148.658997       0
+2024-10-11 03:00:00+00:00  148.692001  148.856995  ...  148.666000       0
+2024-10-11 07:00:00+00:00  149.054001  149.082993  ...  148.688995       0
+
+[3 rows x 5 columns]
+                                 Open        High  ...  future_return  target
+Datetime                                           ...                       
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...       0.000309       0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...       0.000061       0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...       0.001556       1
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...      -0.000457       0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...       0.000726       0
+
+[5 rows x 38 columns]
+                                 Open        High  ...  future_return  target
+Datetime                                           ...                       
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...       0.000309       0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...       0.000061       0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...       0.001556       1
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...      -0.000457       0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...       0.000726       0
+
+[5 rows x 38 columns]
+DEBUG: df columns after dropna on target: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'supply_zone', 'demand_zone',
+       'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown',
+       'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders',
+       'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge',
+       'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h',
+       'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h',
+       'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14',
+       'volatility_20', 'future_return', 'target'],
+      dtype='object')
+                                 Open        High  ...  future_return  target
+Datetime                                           ...                       
+2024-10-10 23:00:00+00:00  148.703003  148.746002  ...       0.000309       0
+2024-10-11 00:00:00+00:00  148.459000  148.761993  ...       0.000061       0
+2024-10-11 01:00:00+00:00  148.759995  148.798004  ...       0.001556       1
+2024-10-11 02:00:00+00:00  148.666000  148.776993  ...      -0.000457       0
+2024-10-11 03:00:00+00:00  148.710999  148.733994  ...       0.000726       0
+
+[5 rows x 38 columns]
+Class balance after upsampling:
+target
+0    3097
+1    3097
+Name: count, dtype: int64
+[LightGBM] [Info] Number of positive: 1652, number of negative: 1651
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000525 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 3597
+[LightGBM] [Info] Number of data points in the train set: 3303, number of used features: 23
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Info] Number of positive: 1652, number of negative: 1651
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000498 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 3597
+[LightGBM] [Info] Number of data points in the train set: 3303, number of used features: 23
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf

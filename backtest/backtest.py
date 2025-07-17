@@ -17,7 +17,7 @@ import os
 
 logger = get_logger('backtest')
 
-PAIRS = ['USDJPY', 'BTCUSD', 'USDCHF', 'JPYNZD']
+PAIRS = ['USDJPY', 'BTCUSD', 'USDCHF', 'NZDJPY']
 
 # --- Enhanced Backtest Parameters ---
 DEFAULTS = {
@@ -26,7 +26,7 @@ DEFAULTS = {
         'CRYPTO': 0.0005  # 0.05%
     },
     'spread': {
-        'USDJPY': 0.02, 'USDCHF': 0.02, 'JPYNZD': 0.03,  # in price units
+        'USDJPY': 0.02, 'USDCHF': 0.02, 'NZDJPY': 0.03,  # in price units
         'BTCJPY': 50.0, 'BTCUSD': 2.0
     },
     'commission': {

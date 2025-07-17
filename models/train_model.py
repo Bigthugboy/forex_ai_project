@@ -8,10 +8,11 @@ from sklearn.calibration import CalibratedClassifierCV
 import xgboost as xgb
 import lightgbm as lgb
 import joblib
-from config import Config
+
 import os
 from sklearn.utils import resample
 from utils.logger import get_logger
+import json
 logger = get_logger('train_model', log_file='logs/train_model.log')
 
 def prepare_target_variable(df):
@@ -65,7 +66,12 @@ def test_label_thresholds(df, close_col, thresholds=[0.001, 0.002, 0.003], looka
             plt.show()
     logger.info('Exiting test_label_thresholds')
 
-def train_signal_model(features_df, model_path='models/saved_models/signal_model.pkl', top_n_features=10):
+def train_signal_model(features_df, pair, model_dir='models/saved_models/', top_n_features=10):
+    import os
+    os.makedirs(model_dir, exist_ok=True)
+    model_path = os.path.join(model_dir, f'signal_model_{pair}.pkl')
+    scaler_path = model_path.replace('.pkl', '_scaler.pkl')
+    features_path = model_path.replace('.pkl', '_features.json')
     logger.info('Model is starting a new training session...')
     logger.info('Model is cleaning and preparing data...')
     logger.info(f'features_df columns before prepare_target_variable: {features_df.columns}')
@@ -82,42 +88,49 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
         print(df.head())
         raise ValueError('target column missing after prepare_target_variable')
     
+    # --- Ensure all possible pattern/structure columns are present before selecting feature_cols ---
+    all_pattern_cols = [
+        'double_bottom', 'double_top', 'fakeout_down', 'fakeout_up',
+        'wyckoff_accumulation', 'wyckoff_distribution', 'wyckoff_markup', 'wyckoff_markdown', 'wyckoff_unknown',
+        'head_shoulders', 'inv_head_shoulders', 'rising_wedge', 'falling_wedge',
+        # Add any others you use
+    ]
+    for col in all_pattern_cols:
+        if col not in df.columns:
+            df[col] = 0
+
     # Use the same exclusion logic as in predict_signal
     exclude_cols = [col for col in df.columns if col.startswith(('Close', 'Open', 'High', 'Low', 'Volume'))] + ['future_return', 'target']
-    feature_cols = [col for col in df.columns if col not in exclude_cols]
-    # Only keep numeric columns
-    feature_cols = [col for col in feature_cols if pd.api.types.is_numeric_dtype(df[col])]
+    # --- Always use the full required feature set for all pairs ---
+    ALL_REQUIRED_FEATURES = [
+        "supply_zone", "demand_zone", "wyckoff_markdown", "wyckoff_markup", "wyckoff_unknown",
+        "wyckoff_accumulation", "wyckoff_distribution",
+        "head_shoulders", "inv_head_shoulders", "double_top", "double_bottom",
+        "rising_wedge", "falling_wedge", "fakeout_up", "fakeout_down",
+        "sma_20_4h", "sma_50_4h", "ema_12_4h", "ema_26_4h", "rsi_14_4h",
+        "macd_4h", "macd_signal_4h", "bb_high_4h", "bb_low_4h", "atr_14_4h", "volatility_20_4h",
+        "price_vs_sma20_4h", "price_vs_sma50_4h", "trend_strength_4h",
+        "atr_14", "volatility_20"
+    ]
+    feature_cols = [col for col in ALL_REQUIRED_FEATURES if col in df.columns]
     logger.info(f"Final feature columns used for training: {feature_cols}")
+    
+    # Assign X before any use
+    X = df[feature_cols]
     
     logger.info('Dropping NaN targets...')
     df = df.dropna(subset=['target'])
     print('DEBUG: df columns after dropna on target:', df.columns)
     print(df.head())
-    
-    if df.empty:
-        logger.error('DataFrame is empty after dropna on target!')
-        print('DEBUG: DataFrame is empty after dropna on target!')
-        print(df.head())
-        raise ValueError('No data left after dropping NaN targets.')
-    
-    if len(df) < 100:
-        logger.error('Not enough data for training. Need at least 100 samples.')
-        raise ValueError("Not enough data for training. Need at least 100 samples.")
-    
-    X = df[feature_cols]
-    # Filter out non-numeric columns
-    X = X.select_dtypes(include=[np.number])
+    # Ensure y is defined before use
     y = df['target']
-    
+    if len(df) < 100:
+        logger.error(f'Not enough data for training {pair}. Need at least 100 samples, got {len(df)}.')
+        raise ValueError(f"Not enough data for training {pair}. Need at least 100 samples, got {len(df)}.")
     if len(y.unique()) < 2:
-        logger.error('Need both buy and sell signals for training.')
-        raise ValueError("Need both buy and sell signals for training.")
-    
-    logger.info(f"Class distribution: {np.bincount(y) if y is not None else 'None'}")
-
-    # Visualize class balance before upsampling
-    print('Class balance before upsampling:')
-    print(y.value_counts())
+        logger.error(f'Need both buy and sell signals for training {pair}.')
+        raise ValueError(f"Need both buy and sell signals for training {pair}.")
+    logger.info(f"Class balance before upsampling: {y.value_counts().to_dict()}")
     # Always initialize to valid defaults
     X_bal, y_bal = X, y
     # Upsample minority class
@@ -194,12 +207,11 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
     logger.info("\nClassification Report:")
     logger.info(classification_report(y_test, y_pred))
     
-    os.makedirs(os.path.dirname(model_path), exist_ok=True)
     joblib.dump(calibrated, model_path)
-    joblib.dump(scaler, model_path.replace('.pkl', '_scaler.pkl'))
-    
-    logger.info('Model is saving trained model and scaler...')
-    logger.info(f"Model saved to {model_path}")
+    joblib.dump(scaler, scaler_path)
+    with open(features_path, 'w') as f:
+        json.dump(feature_cols, f)
+    logger.info(f"Model, scaler, and features saved for {pair}")
     
     # Print feature distributions for debugging
     logger.info('Feature distributions before training:')
@@ -226,10 +238,9 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
 
     # Save feature list for prediction (always save, regardless of SHAP analysis)
     logger.info(f"[DEBUG] About to save feature columns: {feature_cols}")
-    import json
-    with open(model_path.replace('.pkl', '_features.json'), 'w') as f:
+    with open(features_path, 'w') as f:
         json.dump(feature_cols, f)
-    logger.info(f"[DEBUG] Feature columns saved to {model_path.replace('.pkl', '_features.json')}")
+    logger.info(f"[DEBUG] Feature columns saved to {features_path}")
     # SHAP and feature importance analysis (robust)
     logger.info('Model is engineering features and studying candlestick patterns...')
     try:
@@ -264,34 +275,55 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
         logger.warning(f'SHAP/feature importance analysis failed: {e}')
     logger.info('Model is analyzing feature importance and explainability (SHAP)...')
     # --- SHAP/Feature Importance Filtering ---
-    try:
-        import shap
-        import matplotlib.pyplot as plt
-        base_ensemble = getattr(calibrated, 'base_estimator_', None)
-        if base_ensemble is not None:
-            tree_model = base_ensemble.estimators_[0][1]
-            explainer = shap.Explainer(tree_model, X_train)
-            shap_values = explainer(X_train)
-            shap_importance = np.abs(shap_values.values).mean(axis=0)
-            feature_importance = tree_model.feature_importances_
-            feature_ranking = sorted(zip(feature_cols, shap_importance, feature_importance), key=lambda x: x[1], reverse=True)
-            top_features = [f[0] for f in feature_ranking[:top_n_features]]
-            logger.info(f"Top {top_n_features} features by SHAP: {top_features}")
-            dropped_features = [f for f in feature_cols if f not in top_features]
-            logger.info(f"Dropping uninformative features: {dropped_features}")
-            feature_cols = top_features
-            # Update feature list file with top features
-            with open(model_path.replace('.pkl', '_features.json'), 'w') as f:
-                json.dump(feature_cols, f)
-            logger.info(f"Updated feature columns with top {top_n_features} features")
-        else:
-            logger.warning('CalibratedClassifierCV has no base_estimator_ attribute after fitting.')
-    except Exception as e:
-        logger.warning(f'SHAP/feature importance analysis failed: {e}')
+    # (Disabled: always use full feature set for all pairs)
+    # try:
+    #     import shap
+    #     import matplotlib.pyplot as plt
+    #     base_ensemble = getattr(calibrated, 'base_estimator_', None)
+    #     if base_ensemble is not None:
+    #         tree_model = base_ensemble.estimators_[0][1]
+    #         explainer = shap.Explainer(tree_model, X_train)
+    #         shap_values = explainer(X_train)
+    #         shap_importance = np.abs(shap_values.values).mean(axis=0)
+    #         feature_importance = tree_model.feature_importances_
+    #         feature_ranking = sorted(zip(feature_cols, shap_importance, feature_importance), key=lambda x: x[1], reverse=True)
+    #         top_features = [f[0] for f in feature_ranking[:top_n_features]]
+    #         logger.info(f"Top {top_n_features} features by SHAP: {top_features}")
+    #         dropped_features = [f for f in feature_cols if f not in top_features]
+    #         logger.info(f"Dropping uninformative features: {dropped_features}")
+    #         feature_cols = top_features
+    #         # Update feature list file with top features
+    #         with open(features_path, 'w') as f:
+    #             json.dump(feature_cols, f)
+    #         logger.info(f"Updated feature columns with top {top_n_features} features")
+    #     else:
+    #         logger.warning('CalibratedClassifierCV has no base_estimator_ attribute after fitting.')
+    # except Exception as e:
+    #     logger.warning(f'SHAP/feature importance analysis failed: {e}')
     logger.info('Model training complete! Ready for new predictions.')
-    return calibrated, scaler, feature_cols
+    return {'model': calibrated, 'scaler': scaler, 'feature_cols': feature_cols, 'pair': pair}
 
 if __name__ == "__main__":
-    # This will be called when training the model
-    print("Training signal prediction model...")
-    logger.info("Training signal prediction model...")
+    from config import Config
+    from data.fetch_market import get_price_data
+    from data.preprocess import preprocess_features
+    from data.fetch_news import get_news_sentiment_with_cache
+    import sys
+    logger.info("Batch retraining all models for all pairs in Config.TRADING_PAIRS...")
+    for pair in Config.TRADING_PAIRS:
+        logger.info(f"Retraining model for {pair}...")
+        price_df = get_price_data(pair, interval='1h', lookback=Config.LOOKBACK_PERIOD)
+        if price_df is None or price_df.empty:
+            logger.error(f"No price data for {pair}, skipping.")
+            continue
+        keywords = [pair]
+        from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
+        to_date = price_df.index[-1].strftime('%Y-%m-%d')
+        sentiment = get_news_sentiment_with_cache(keywords, from_date, to_date, pair)
+        features_df = preprocess_features(price_df, sentiment, use_multi_timeframe=True)
+        try:
+            train_signal_model(features_df, pair)
+            logger.info(f"Retrained and saved model for {pair}.")
+        except Exception as e:
+            logger.error(f"Error retraining model for {pair}: {e}")
+    logger.info("Batch retraining complete.")

@@ -22,7 +22,7 @@ def test_rss_news():
         ['USD/JPY', 'USDJPY', 'JPY'],
         ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC'],
         ['USD/CHF', 'USDCHF', 'CHF'],
-        ['JPY/NZD', 'JPYNZD', 'NZD']
+        ['NZD/JPY', 'NZDJPY', 'NZD']
     ]
     
     analyzer = SentimentIntensityAnalyzer()
@@ -57,7 +57,7 @@ def test_economic_calendar():
     """Test economic calendar fetching"""
     print("\n📅 Testing Economic Calendar...")
     
-    test_pairs = ['USDJPY', 'BTCUSD', 'USDCHF', 'JPYNZD']
+    test_pairs = ['USDJPY', 'BTCUSD', 'USDCHF', 'NZDJPY']
     
     for pair in test_pairs:
         print(f"\n🏦 Testing economic calendar for {pair}")

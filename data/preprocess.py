@@ -430,22 +430,25 @@ def preprocess_features(price_df, sentiment_score, use_multi_timeframe=True):
                 if len(common_index) > 0:
                     df_aligned = df.loc[common_index]
                     mtf_aligned = mtf_features.loc[common_index]
-                    
                     # Add multi-timeframe features (excluding price columns to avoid duplicates)
                     mtf_feature_cols = [col for col in mtf_aligned.columns 
                                       if not col.startswith(('Open', 'High', 'Low', 'Close', 'Volume'))]
-                    
                     for col in mtf_feature_cols:
                         if col not in df_aligned.columns:
                             df_aligned[col] = mtf_aligned[col]
-                    
+                        else:
+                            # If a column exists in both, keep the base (1h) version and add the multi-timeframe as col_{tf}
+                            pass  # Already handled by naming convention (e.g., sma_20_1h vs sma_20_4h)
                     df = df_aligned
                     logger.info(f'Added {len(mtf_feature_cols)} multi-timeframe features')
+                    logger.info(f'[DEBUG] Columns after multi-timeframe integration: {list(df.columns)}')
                 else:
                     logger.warning('No common index found for multi-timeframe integration')
             except Exception as e:
                 logger.error(f'Error integrating multi-timeframe features: {e}')
-        
+        # After all integration, log all columns to ensure both 1h and 4h features are present
+        logger.info(f'[DEBUG] Final feature columns: {list(df.columns)}')
+
         # --- Ensure all possible pattern/structure columns are present ---
         all_pattern_cols = [
             'double_bottom', 'double_top', 'fakeout_down', 'fakeout_up',
@@ -457,6 +460,46 @@ def preprocess_features(price_df, sentiment_score, use_multi_timeframe=True):
             if col not in df.columns:
                 df[col] = 0
 
+        # --- Ensure all required features are present and no NaNs ---
+        required_features = [open_col, high_col, low_col, close_col, 'atr_14', 'volatility_20']
+        missing_features = [col for col in required_features if col not in df.columns]
+        if missing_features:
+            for col in missing_features:
+                df[col] = 0
+                logger.warning(f"Filled missing required feature {col} with zeros.")
+            # If more than 50% of required features are missing, raise error
+            if len(missing_features) > len(required_features) // 2:
+                logger.error(f"Too many required features missing: {missing_features}")
+                raise ValueError(f"Too many required features missing: {missing_features}")
+        for col in df.columns:
+            n_imputed = df[col].isnull().sum()
+            if n_imputed / max(1, len(df)) > 0.1:
+                logger.warning(f"More than 10% imputed values in column {col}")
+        if df.isnull().sum().sum() > 0:
+            logger.warning("NaNs remain after feature engineering, filling with zeros as fallback.")
+            df = df.fillna(0)
+        if df.isnull().sum().sum() > 0:
+            logger.error("NaNs remain after feature engineering!")
+            raise ValueError("NaNs remain after feature engineering!")
+
+        # --- Ensure all required features are present for all pairs ---
+        ALL_REQUIRED_FEATURES = [
+            "supply_zone", "demand_zone", "wyckoff_markdown", "wyckoff_markup", "wyckoff_unknown",
+            "wyckoff_accumulation", "wyckoff_distribution",
+            "head_shoulders", "inv_head_shoulders", "double_top", "double_bottom",
+            "rising_wedge", "falling_wedge", "fakeout_up", "fakeout_down",
+            "sma_20_4h", "sma_50_4h", "ema_12_4h", "ema_26_4h", "rsi_14_4h",
+            "macd_4h", "macd_signal_4h", "bb_high_4h", "bb_low_4h", "atr_14_4h", "volatility_20_4h",
+            "price_vs_sma20_4h", "price_vs_sma50_4h", "trend_strength_4h",
+            "atr_14", "volatility_20"
+        ]
+        for col in ALL_REQUIRED_FEATURES:
+            if col not in df.columns:
+                df[col] = 0
+        # Reorder columns to match ALL_REQUIRED_FEATURES at the end
+        df = df.reindex(columns=list(df.columns.difference(ALL_REQUIRED_FEATURES)) + ALL_REQUIRED_FEATURES)
+
+        logger.info(f"[DEBUG] Final columns in preprocess_features: {list(df.columns)}")
         return df
     except Exception as e:
         logger.error(f'Error in preprocess_features: {e}', exc_info=True)

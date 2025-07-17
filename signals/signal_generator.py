@@ -152,14 +152,35 @@ def generate_signal_output(pair, features_df, prediction_result):
     
     # --- Confluence Calculation ---
     confluence_factors = []
-    
-    # 1 Trend alignment (trendline or moving average)
-    if 'trendline_up' in latest and prediction == 1 and latest['trendline_up']:
-        confluence_factors.append('trend_up')
-    if 'trendline_down' in latest and prediction == 0 and latest['trendline_down']:
-        confluence_factors.append('trend_down')
-    
-    #2rice action (breakout, engulfing, pin bar, etc.)
+    checked_indicators = []
+    # 1. Trend alignment (trendline or moving average)
+    for ma_col in [c for c in features_df.columns if 'sma' in c.lower() or 'ema' in c.lower()]:
+        checked_indicators.append(ma_col)
+        if prediction == 1 and latest[ma_col] < latest_close:
+            confluence_factors.append(f'{ma_col}_bull')
+        if prediction == 0 and latest[ma_col] > latest_close:
+            confluence_factors.append(f'{ma_col}_bear')
+    # 2. RSI
+    for rsi_col in [c for c in features_df.columns if 'rsi' in c.lower()]:
+        checked_indicators.append(rsi_col)
+        rsi_val = latest[rsi_col]
+        if prediction == 1 and rsi_val < 30:
+            confluence_factors.append(f'{rsi_col}_oversold')
+        if prediction == 0 and rsi_val > 70:
+            confluence_factors.append(f'{rsi_col}_overbought')
+    # 3. MACD
+    macd_cols = [c for c in features_df.columns if 'macd' in c.lower() and 'signal' not in c.lower()]
+    macd_signal_cols = [c for c in features_df.columns if 'macd_signal' in c.lower()]
+    for macd_col, macd_signal_col in zip(macd_cols, macd_signal_cols):
+        checked_indicators.append(macd_col)
+        checked_indicators.append(macd_signal_col)
+        macd_val = latest[macd_col]
+        macd_signal_val = latest[macd_signal_col]
+        if prediction == 1 and macd_val > macd_signal_val:
+            confluence_factors.append(f'{macd_col}_bull')
+        if prediction == 0 and macd_val < macd_signal_val:
+            confluence_factors.append(f'{macd_col}_bear')
+    # 4. Existing confluence logic (patterns, news, etc.)
     if prediction == 1 and ('breakout_high' in latest and latest['breakout_high']):
         confluence_factors.append('breakout_high')
     if prediction == 0 and ('breakout_low' in latest and latest['breakout_low']):
@@ -171,20 +192,7 @@ def generate_signal_output(pair, features_df, prediction_result):
     if 'pin_bar' in latest and latest['pin_bar']:
         confluence_factors.append('pin_bar')
     
-    # 3. Technical indicators (RSI, MACD, etc.) - check across all timeframes
-    if rsi is not None:
-        if prediction == 1 and rsi < 30:
-            confluence_factors.append('rsi_oversold')
-        if prediction == 0 and rsi > 70:
-            confluence_factors.append('rsi_overbought')
-    
-    if macd is not None and macd_signal is not None:
-        if prediction == 1 and macd > macd_signal:
-            confluence_factors.append('macd_bull')
-        if prediction == 0 and macd < macd_signal:
-            confluence_factors.append('macd_bear')
-    
-    #4. News sentiment (if available)
+    # 5. News sentiment (if available)
     if 'news_sentiment' in latest:
         if prediction == 1 and latest['news_sentiment'] > 0.2:
             confluence_factors.append('news_bull')
@@ -193,25 +201,44 @@ def generate_signal_output(pair, features_df, prediction_result):
     
     # --- Strict filter: require at least 4 confirming factors and high confidence ---
     confluence_score = len(confluence_factors)
-    logger.info(f"Confluence factors: {confluence_factors}, score={confluence_score}, confidence={confidence:.2f}")
-    
+    logger.info(f"[SIGNAL CHECK] {pair} @ {latest_time} | Confluence factors: {confluence_factors} | Score: {confluence_score} | Confidence: {confidence:.2f}")
+    logger.info(f"[DEBUG] Checked indicators for confluence: {checked_indicators}")
+
     # --- Ambiguity/Conflict Detection ---
     ambiguous = detect_ambiguity_conflict(latest, confluence_factors)
     if ambiguous:
-        logger.info(f"Signal for {pair} at {latest_time} flagged as ambiguous/conflicting. No signal generated.")
+        logger.info(f"[FILTERED] {pair} @ {latest_time} | Reason: Ambiguity/conflict in confluence factors. No signal generated.")
         return None
-    
+
     # --- Granular Confidence Scoring ---
-    logger.info(f"Signal confidence score: {confidence:.2f} (interpreted as probability of correctness)")
-    if confluence_score < 4 or confidence < 0.75:
-        logger.info(f"No signal for {pair} at {latest_time}: insufficient confluence ({confluence_score}) or confidence ({confidence:.2f})")
-        # If confidence is not less than 0.65, keep studying the chart
-        if confidence >= 0.65:
-            logger.info(f"Model will keep studying the chart for {pair} at {latest_time}: confidence ({confidence:.2f}) not low enough to give up.")
+    logger.info(f"[CONFIDENCE] {pair} @ {latest_time} | Signal confidence score: {confidence:.2f} (interpreted as probability of correctness)")
+    if confluence_score < 4:
+        if confidence > 0.75:
+            logger.warning(f"[ALERT] High confidence ({confidence:.2f}) but only {confluence_score} confluence factors: {confluence_factors}")
+            # Log top features and their values for the latest row
+            top_features = [col for col in features_df.columns if col not in ['target', 'future_return']][:10]
+            feature_vals = {col: latest[col] for col in top_features}
+            logger.info(f"[DEBUG] Top features for {pair} at {latest_time}: {feature_vals}")
+            # SHAP force plot for latest sample
+            try:
+                from models.shap_analysis import explain_single_sample
+                shap_plot = explain_single_sample(features_df, idx=-1, model_type='xgb', model_path=f'models/saved_models/signal_model_{pair}.pkl')
+                import shap
+                shap_path = f'logs/shap_force_{pair}_{str(latest_time).replace(":","-").replace(" ","T")}.html'
+                shap.save_html(shap_path, shap_plot)
+                logger.info(f"[SHAP] Force plot saved to {shap_path}")
+            except Exception as e:
+                logger.warning(f"[SHAP] Could not generate force plot: {e}")
+        logger.info(f"[FILTERED] {pair} @ {latest_time} | Reason: Insufficient confluence ({confluence_score} < 4). No signal generated.")
         return None
-    
+    if confidence < 0.75:
+        logger.info(f"[FILTERED] {pair} @ {latest_time} | Reason: Confidence too low ({confidence:.2f} < 0.75). No signal generated.")
+        if confidence >= 0.65:
+            logger.info(f"[INFO] {pair} @ {latest_time} | Model will keep studying the chart: confidence ({confidence:.2f}) not low enough to give up.")
+        return None
+
     if is_high_impact_event_near(pair, window_minutes=30):
-        logger.info(f"No signal for {pair} at {latest_time}: suppressed due to high-impact news event")
+        logger.info(f"[FILTERED] {pair} @ {latest_time} | Reason: High-impact news event. No signal generated.")
         return None
     
     trade_type, entry = classify_trade_type(latest_close, latest_high, latest_low, prediction)
@@ -220,7 +247,11 @@ def generate_signal_output(pair, features_df, prediction_result):
     sl_pips = min(max(Config.SL_PIPS, 20), 30)  # Clamp between 20 and 30
     sl, tp1, tp2, tp3 = calculate_sl_tp_pip(entry, prediction, pair, sl_pips)
     position_size = calculate_position_size(entry, sl, Config.RISK_PER_TRADE, Config.MIN_LOT_SIZE, Config.MAX_LOT_SIZE, pair)
-    logger.info(f"Pip-based SL/TP: SL={sl}, TP1={tp1}, TP2={tp2}, TP3={tp3}, SL_PIPS={sl_pips}, Pip size={calculate_pip_size(pair)}")
+    # Assert SL/TP are within 0.1% to 10% of entry
+    for val, name in zip([sl, tp1, tp2, tp3], ['SL', 'TP1', 'TP2', 'TP3']):
+        pct = abs(val - entry) / max(1e-8, entry)
+        if pct < 0.001 or pct > 0.10:
+            logger.warning(f"{name} for {pair} at {latest_time} is {pct*100:.2f}% of entry, which is outside 0.1%-10% range.")
     logger.info(f"Dynamic position size: entry={entry}, sl={sl}, risk_per_trade={Config.RISK_PER_TRADE}, min_lot={Config.MIN_LOT_SIZE}, max_lot={Config.MAX_LOT_SIZE}, position_size={position_size}")
     # ---
     logger.info(f"Signal generated for {pair} at {latest_time}: {prediction_result['signal']} {trade_type} Confidence: {confidence:.2f}")
