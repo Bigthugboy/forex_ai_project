@@ -446,6 +446,17 @@ def preprocess_features(price_df, sentiment_score, use_multi_timeframe=True):
             except Exception as e:
                 logger.error(f'Error integrating multi-timeframe features: {e}')
         
+        # --- Ensure all possible pattern/structure columns are present ---
+        all_pattern_cols = [
+            'double_bottom', 'double_top', 'fakeout_down', 'fakeout_up',
+            'wyckoff_accumulation', 'wyckoff_distribution', 'wyckoff_markup', 'wyckoff_markdown', 'wyckoff_unknown',
+            'head_shoulders', 'inv_head_shoulders', 'rising_wedge', 'falling_wedge',
+            # Add any others you use
+        ]
+        for col in all_pattern_cols:
+            if col not in df.columns:
+                df[col] = 0
+
         return df
     except Exception as e:
         logger.error(f'Error in preprocess_features: {e}', exc_info=True)

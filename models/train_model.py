@@ -113,7 +113,7 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
         logger.error('Need both buy and sell signals for training.')
         raise ValueError("Need both buy and sell signals for training.")
     
-    logger.info(f"Class distribution: {np.bincount(y)}")
+    logger.info(f"Class distribution: {np.bincount(y) if y is not None else 'None'}")
 
     # Visualize class balance before upsampling
     print('Class balance before upsampling:')
@@ -163,7 +163,7 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
     # Final check before train_test_split
     if X_bal is None or y_bal is None:
         raise ValueError('X_bal or y_bal is None before train_test_split. Check data pipeline and upsampling logic.')
-    # No need for __iter__ check; pandas DataFrame/Series are always iterable if not None
+
 
     logger.info('Splitting train/test...')
     X_train, X_test, y_train, y_test = train_test_split(
@@ -224,6 +224,12 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
     logger.info('Auditing data quality after removing constant features...')
     audit_data_quality(df, feature_cols, target_col='target')
 
+    # Save feature list for prediction (always save, regardless of SHAP analysis)
+    logger.info(f"[DEBUG] About to save feature columns: {feature_cols}")
+    import json
+    with open(model_path.replace('.pkl', '_features.json'), 'w') as f:
+        json.dump(feature_cols, f)
+    logger.info(f"[DEBUG] Feature columns saved to {model_path.replace('.pkl', '_features.json')}")
     # SHAP and feature importance analysis (robust)
     logger.info('Model is engineering features and studying candlestick patterns...')
     try:
@@ -274,10 +280,10 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
             dropped_features = [f for f in feature_cols if f not in top_features]
             logger.info(f"Dropping uninformative features: {dropped_features}")
             feature_cols = top_features
-            # Save feature list for prediction
-            import json
+            # Update feature list file with top features
             with open(model_path.replace('.pkl', '_features.json'), 'w') as f:
                 json.dump(feature_cols, f)
+            logger.info(f"Updated feature columns with top {top_n_features} features")
         else:
             logger.warning('CalibratedClassifierCV has no base_estimator_ attribute after fitting.')
     except Exception as e:

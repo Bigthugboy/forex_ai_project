@@ -2749,3 +2749,921 @@ Datetime                               ...
 
 [2025-07-17 02:27:54] INFO main: Target class balance: {0: 1390, 1: 713}
 [2025-07-17 02:27:54] INFO main: Training AI model...
+[2025-07-17 02:29:42] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:29:42] INFO main: Running market analysis...
+[2025-07-17 02:29:42] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:29:44] INFO main: Fetched 2105 rows of price data for USDJPY
+[2025-07-17 02:29:44] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:29:44] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:29:46] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:29:46] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:29:49] INFO main: Feature DataFrame shape: (2103, 34)
+[2025-07-17 02:29:49] INFO main: Feature summary (last 5 rows):
+                                 Open  ...  trend_strength_4h
+Datetime                               ...                   
+2025-07-16 17:00:00+00:00  147.681000  ...           0.002186
+2025-07-16 18:00:00+00:00  147.942993  ...           0.001847
+2025-07-16 19:00:00+00:00  147.841995  ...           0.001507
+2025-07-16 20:00:00+00:00  147.830994  ...           0.001145
+2025-07-16 23:00:00+00:00  147.988007  ...           0.000783
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:29:49] INFO main: Target class balance: {0: 1390, 1: 713}
+[2025-07-17 02:29:49] INFO main: Training AI model...
+[2025-07-17 02:29:54] INFO main: Model trained successfully!
+[2025-07-17 02:29:54] INFO main: Making signal prediction...
+[2025-07-17 02:29:54] ERROR main: Error analyzing USDJPY: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:29:54] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 02:29:55] INFO main: Fetched 2135 rows of price data for BTCUSD
+[2025-07-17 02:29:55] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 02:29:55] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:30:03] INFO main: News sentiment score: 0.0855
+[2025-07-17 02:30:03] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:30:09] INFO main: Feature DataFrame shape: (1489, 34)
+[2025-07-17 02:30:09] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  trend_strength_4h
+Datetime                                  ...                   
+2025-07-16 16:00:00+00:00  119312.914062  ...           0.002566
+2025-07-16 17:00:00+00:00  119129.312500  ...           0.002186
+2025-07-16 18:00:00+00:00  119634.789062  ...           0.001847
+2025-07-16 19:00:00+00:00  119255.750000  ...           0.001507
+2025-07-16 20:00:00+00:00  119478.320312  ...           0.001145
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:30:09] INFO main: Target class balance: {0: 764, 1: 725}
+[2025-07-17 02:30:09] INFO main: Training AI model...
+[2025-07-17 02:30:12] INFO main: Model trained successfully!
+[2025-07-17 02:30:12] INFO main: Making signal prediction...
+[2025-07-17 02:30:12] ERROR main: Error analyzing BTCUSD: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:30:12] INFO main: Fetching price data for JPYNZD...
+[2025-07-17 02:30:13] INFO main: Fetched 2119 rows of price data for JPYNZD
+[2025-07-17 02:30:13] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-17 02:30:13] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:30:15] INFO main: News sentiment score: 0.0000
+[2025-07-17 02:30:15] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:30:18] INFO main: Feature DataFrame shape: (2103, 34)
+[2025-07-17 02:30:18] INFO main: Feature summary (last 5 rows):
+                                Open  ...  trend_strength_4h
+Datetime                              ...                   
+2025-07-16 17:00:00+00:00  87.794998  ...           0.002186
+2025-07-16 18:00:00+00:00  87.824997  ...           0.001847
+2025-07-16 19:00:00+00:00  87.867996  ...           0.001507
+2025-07-16 20:00:00+00:00  87.862000  ...           0.001145
+2025-07-16 23:00:00+00:00  87.963997  ...           0.000783
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:30:18] INFO main: Target class balance: {0: 1331, 1: 772}
+[2025-07-17 02:30:18] INFO main: Training AI model...
+[2025-07-17 02:30:22] INFO main: Model trained successfully!
+[2025-07-17 02:30:22] INFO main: Making signal prediction...
+[2025-07-17 02:30:22] ERROR main: Error analyzing JPYNZD: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:30:22] INFO main: Signal generation summary:
+[2025-07-17 02:30:22] INFO main: USDJPY: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:30:22] INFO main: BTCUSD: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:30:22] INFO main: JPYNZD: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:33:29] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:33:29] INFO main: Running market analysis...
+[2025-07-17 02:33:29] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:33:31] INFO main: Fetched 2105 rows of price data for USDJPY
+[2025-07-17 02:33:31] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:33:31] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:33:33] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:33:33] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:33:36] INFO main: Feature DataFrame shape: (2103, 34)
+[2025-07-17 02:33:36] INFO main: Feature summary (last 5 rows):
+                                 Open  ...  trend_strength_4h
+Datetime                               ...                   
+2025-07-16 17:00:00+00:00  147.681000  ...           0.002186
+2025-07-16 18:00:00+00:00  147.942993  ...           0.001847
+2025-07-16 19:00:00+00:00  147.841995  ...           0.001507
+2025-07-16 20:00:00+00:00  147.830994  ...           0.001145
+2025-07-16 23:00:00+00:00  147.988007  ...           0.000783
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:33:36] INFO main: Target class balance: {0: 1390, 1: 713}
+[2025-07-17 02:33:36] INFO main: Training AI model...
+[2025-07-17 02:33:40] INFO main: Model trained successfully!
+[2025-07-17 02:33:40] INFO main: Making signal prediction...
+[2025-07-17 02:33:40] ERROR main: Error analyzing USDJPY: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:33:40] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 02:33:41] INFO main: Fetched 2135 rows of price data for BTCUSD
+[2025-07-17 02:33:41] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 02:33:41] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:33:49] INFO main: News sentiment score: 0.0855
+[2025-07-17 02:33:49] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:33:53] INFO main: Feature DataFrame shape: (1489, 34)
+[2025-07-17 02:33:53] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  trend_strength_4h
+Datetime                                  ...                   
+2025-07-16 16:00:00+00:00  119312.914062  ...           0.002566
+2025-07-16 17:00:00+00:00  119129.312500  ...           0.002186
+2025-07-16 18:00:00+00:00  119634.789062  ...           0.001847
+2025-07-16 19:00:00+00:00  119255.750000  ...           0.001507
+2025-07-16 20:00:00+00:00  119478.320312  ...           0.001145
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:33:53] INFO main: Target class balance: {0: 764, 1: 725}
+[2025-07-17 02:33:53] INFO main: Training AI model...
+[2025-07-17 02:33:56] INFO main: Model trained successfully!
+[2025-07-17 02:33:56] INFO main: Making signal prediction...
+[2025-07-17 02:33:56] ERROR main: Error analyzing BTCUSD: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:33:56] INFO main: Fetching price data for JPYNZD...
+[2025-07-17 02:33:57] INFO main: Fetched 2119 rows of price data for JPYNZD
+[2025-07-17 02:33:57] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-17 02:33:57] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:33:59] INFO main: News sentiment score: 0.0000
+[2025-07-17 02:33:59] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:34:03] INFO main: Feature DataFrame shape: (2103, 34)
+[2025-07-17 02:34:03] INFO main: Feature summary (last 5 rows):
+                                Open  ...  trend_strength_4h
+Datetime                              ...                   
+2025-07-16 17:00:00+00:00  87.794998  ...           0.002186
+2025-07-16 18:00:00+00:00  87.824997  ...           0.001847
+2025-07-16 19:00:00+00:00  87.867996  ...           0.001507
+2025-07-16 20:00:00+00:00  87.862000  ...           0.001145
+2025-07-16 23:00:00+00:00  87.963997  ...           0.000783
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:34:03] INFO main: Target class balance: {0: 1331, 1: 772}
+[2025-07-17 02:34:03] INFO main: Training AI model...
+[2025-07-17 02:34:06] INFO main: Model trained successfully!
+[2025-07-17 02:34:06] INFO main: Making signal prediction...
+[2025-07-17 02:34:06] ERROR main: Error analyzing JPYNZD: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:34:06] INFO main: Signal generation summary:
+[2025-07-17 02:34:06] INFO main: USDJPY: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:34:06] INFO main: BTCUSD: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:34:06] INFO main: JPYNZD: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:34:48] INFO main: Model trained successfully!
+[2025-07-17 02:34:48] INFO main: Making signal prediction...
+[2025-07-17 02:34:48] ERROR main: Error analyzing USDJPY: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:34:48] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 02:34:49] INFO main: Fetched 2135 rows of price data for BTCUSD
+[2025-07-17 02:34:49] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 02:34:49] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:35:03] INFO main: News sentiment score: 0.0000
+[2025-07-17 02:35:03] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:35:06] INFO main: Feature DataFrame shape: (1489, 34)
+[2025-07-17 02:35:06] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  trend_strength_4h
+Datetime                                  ...                   
+2025-07-16 16:00:00+00:00  119312.914062  ...           0.002566
+2025-07-16 17:00:00+00:00  119129.312500  ...           0.002186
+2025-07-16 18:00:00+00:00  119634.789062  ...           0.001847
+2025-07-16 19:00:00+00:00  119255.750000  ...           0.001507
+2025-07-16 20:00:00+00:00  119478.320312  ...           0.001145
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:35:06] INFO main: Target class balance: {0: 764, 1: 725}
+[2025-07-17 02:35:06] INFO main: Training AI model...
+[2025-07-17 02:35:31] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:35:31] INFO main: Running market analysis...
+[2025-07-17 02:35:31] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:35:32] INFO main: Fetched 2105 rows of price data for USDJPY
+[2025-07-17 02:35:32] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:35:32] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:35:35] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:35:35] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:35:39] INFO main: Feature DataFrame shape: (2103, 34)
+[2025-07-17 02:35:39] INFO main: Feature summary (last 5 rows):
+                                 Open  ...  trend_strength_4h
+Datetime                               ...                   
+2025-07-16 17:00:00+00:00  147.681000  ...           0.002186
+2025-07-16 18:00:00+00:00  147.942993  ...           0.001847
+2025-07-16 19:00:00+00:00  147.841995  ...           0.001507
+2025-07-16 20:00:00+00:00  147.830994  ...           0.001145
+2025-07-16 23:00:00+00:00  147.988007  ...           0.000783
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:35:39] INFO main: Target class balance: {0: 1390, 1: 713}
+[2025-07-17 02:35:39] INFO main: Training AI model...
+[2025-07-17 02:35:43] INFO main: Model trained successfully!
+[2025-07-17 02:35:43] INFO main: Making signal prediction...
+[2025-07-17 02:35:43] ERROR main: Error analyzing USDJPY: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:35:43] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 02:35:45] INFO main: Fetched 2135 rows of price data for BTCUSD
+[2025-07-17 02:35:45] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 02:35:45] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:35:55] INFO main: News sentiment score: 0.0000
+[2025-07-17 02:35:55] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:35:59] INFO main: Feature DataFrame shape: (1489, 34)
+[2025-07-17 02:35:59] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  trend_strength_4h
+Datetime                                  ...                   
+2025-07-16 16:00:00+00:00  119312.914062  ...           0.002566
+2025-07-16 17:00:00+00:00  119129.312500  ...           0.002186
+2025-07-16 18:00:00+00:00  119634.789062  ...           0.001847
+2025-07-16 19:00:00+00:00  119255.750000  ...           0.001507
+2025-07-16 20:00:00+00:00  119478.320312  ...           0.001145
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:35:59] INFO main: Target class balance: {0: 764, 1: 725}
+[2025-07-17 02:35:59] INFO main: Training AI model...
+[2025-07-17 02:36:04] INFO main: Model trained successfully!
+[2025-07-17 02:36:04] INFO main: Making signal prediction...
+[2025-07-17 02:36:04] ERROR main: Error analyzing BTCUSD: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:36:04] INFO main: Fetching price data for JPYNZD...
+[2025-07-17 02:36:05] INFO main: Fetched 2119 rows of price data for JPYNZD
+[2025-07-17 02:36:05] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-17 02:36:05] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:36:07] INFO main: News sentiment score: 0.0000
+[2025-07-17 02:36:07] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:36:11] INFO main: Feature DataFrame shape: (2103, 34)
+[2025-07-17 02:36:11] INFO main: Feature summary (last 5 rows):
+                                Open  ...  trend_strength_4h
+Datetime                              ...                   
+2025-07-16 17:00:00+00:00  87.794998  ...           0.002186
+2025-07-16 18:00:00+00:00  87.824997  ...           0.001847
+2025-07-16 19:00:00+00:00  87.867996  ...           0.001507
+2025-07-16 20:00:00+00:00  87.862000  ...           0.001145
+2025-07-16 23:00:00+00:00  87.963997  ...           0.000783
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:36:11] INFO main: Target class balance: {0: 1331, 1: 772}
+[2025-07-17 02:36:11] INFO main: Training AI model...
+[2025-07-17 02:36:15] INFO main: Model trained successfully!
+[2025-07-17 02:36:15] INFO main: Making signal prediction...
+[2025-07-17 02:36:15] ERROR main: Error analyzing JPYNZD: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 53, in predict_signal
+    latest_data = features_df[feature_cols].iloc[-1:].copy()
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:36:15] INFO main: Signal generation summary:
+[2025-07-17 02:36:15] INFO main: USDJPY: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:36:15] INFO main: BTCUSD: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:36:15] INFO main: JPYNZD: Error: "None of [Index(['sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',\n       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'atr_14',\n       'news_sentiment'],\n      dtype='object')] are in the [columns]"
+[2025-07-17 02:45:44] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:45:44] INFO main: Running market analysis...
+[2025-07-17 02:45:44] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:45:46] INFO main: Fetched 2107 rows of price data for USDJPY
+[2025-07-17 02:45:46] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:45:46] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:45:48] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:45:48] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:45:52] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 02:45:52] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  price_vs_sma50_4h  trend_strength_4h
+Datetime                                           ...                                      
+2025-07-16 19:00:00+00:00  147.841995  148.022995  ...          -0.002477           0.001507
+2025-07-16 20:00:00+00:00  147.824005  147.914001  ...          -0.002958           0.001145
+2025-07-16 21:00:00+00:00  147.804993  147.871994  ...          -0.002974           0.000783
+2025-07-16 22:00:00+00:00  147.882004  147.929993  ...          -0.002989           0.000420
+2025-07-16 23:00:00+00:00  147.988007  148.070007  ...          -0.003005           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:45:52] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 02:45:52] INFO main: Training AI model...
+[2025-07-17 02:50:16] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:50:16] INFO main: Running market analysis...
+[2025-07-17 02:50:16] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:50:17] INFO main: Fetched 2107 rows of price data for USDJPY
+[2025-07-17 02:50:17] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:50:17] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:50:19] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:50:19] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:50:23] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 02:50:23] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  price_vs_sma50_4h  trend_strength_4h
+Datetime                                           ...                                      
+2025-07-16 19:00:00+00:00  147.841995  148.022995  ...          -0.002477           0.001507
+2025-07-16 20:00:00+00:00  147.824005  147.914001  ...          -0.002958           0.001145
+2025-07-16 21:00:00+00:00  147.804993  147.871994  ...          -0.002974           0.000783
+2025-07-16 22:00:00+00:00  147.882004  147.929993  ...          -0.002989           0.000420
+2025-07-16 23:00:00+00:00  147.988007  148.070007  ...          -0.003005           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:50:23] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 02:50:23] INFO main: Training AI model...
+[2025-07-17 02:52:21] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:52:21] INFO main: Running market analysis...
+[2025-07-17 02:52:21] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:52:23] INFO main: Fetched 2107 rows of price data for USDJPY
+[2025-07-17 02:52:23] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:52:23] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:52:25] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:52:25] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:52:28] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 02:52:28] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  price_vs_sma50_4h  trend_strength_4h
+Datetime                                           ...                                      
+2025-07-16 19:00:00+00:00  147.841995  148.022995  ...          -0.002477           0.001507
+2025-07-16 20:00:00+00:00  147.824005  147.914001  ...          -0.002958           0.001145
+2025-07-16 21:00:00+00:00  147.804993  147.871994  ...          -0.002974           0.000783
+2025-07-16 22:00:00+00:00  147.882004  147.929993  ...          -0.002989           0.000420
+2025-07-16 23:00:00+00:00  147.988007  148.070007  ...          -0.003005           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:52:28] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 02:52:28] INFO main: Training AI model...
+[2025-07-17 02:53:53] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:53:53] INFO main: Running market analysis...
+[2025-07-17 02:53:53] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:53:56] INFO main: Fetched 2107 rows of price data for USDJPY
+[2025-07-17 02:53:56] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:53:56] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:54:02] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:54:02] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:54:06] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 02:54:06] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  price_vs_sma50_4h  trend_strength_4h
+Datetime                                           ...                                      
+2025-07-16 19:00:00+00:00  147.841995  148.022995  ...          -0.002477           0.001507
+2025-07-16 20:00:00+00:00  147.824005  147.914001  ...          -0.002958           0.001145
+2025-07-16 21:00:00+00:00  147.804993  147.871994  ...          -0.002974           0.000783
+2025-07-16 22:00:00+00:00  147.882004  147.929993  ...          -0.002989           0.000420
+2025-07-16 23:00:00+00:00  147.988007  148.070007  ...          -0.003005           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:54:06] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 02:54:06] INFO main: Training AI model...
+[2025-07-17 02:54:27] INFO main: Model trained successfully!
+[2025-07-17 02:54:27] INFO main: Making signal prediction...
+[2025-07-17 02:54:27] ERROR main: Error analyzing USDJPY: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 67, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 02:54:27] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 02:54:28] INFO main: Fetched 2138 rows of price data for BTCUSD
+[2025-07-17 02:54:28] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 02:54:28] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:54:44] INFO main: News sentiment score: 0.0000
+[2025-07-17 02:54:44] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:54:49] INFO main: Feature DataFrame shape: (1492, 34)
+[2025-07-17 02:54:49] INFO main: Feature summary (last 5 rows):
+                                    Open           High  ...  price_vs_sma50_4h  trend_strength_4h
+Datetime                                                 ...                                      
+2025-07-16 19:00:00+00:00  119255.750000  119666.820312  ...          -0.002477           0.001507
+2025-07-16 20:00:00+00:00  119877.875000  119917.226562  ...          -0.002958           0.001145
+2025-07-16 21:00:00+00:00  119434.312500  120054.640625  ...          -0.002974           0.000783
+2025-07-16 22:00:00+00:00  118705.640625  119497.640625  ...          -0.002989           0.000420
+2025-07-16 23:00:00+00:00  118700.601562  118872.242188  ...          -0.003005           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:54:49] INFO main: Target class balance: {0: 765, 1: 727}
+[2025-07-17 02:54:49] INFO main: Training AI model...
+[2025-07-17 02:54:57] INFO main: Model trained successfully!
+[2025-07-17 02:54:57] INFO main: Making signal prediction...
+[2025-07-17 02:54:57] ERROR main: Error analyzing BTCUSD: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 67, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 02:54:57] INFO main: Fetching price data for JPYNZD...
+[2025-07-17 02:55:01] INFO main: Fetched 2121 rows of price data for JPYNZD
+[2025-07-17 02:55:01] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-17 02:55:01] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:55:04] INFO main: News sentiment score: 0.0000
+[2025-07-17 02:55:04] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:55:08] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 02:55:08] INFO main: Feature summary (last 5 rows):
+                                Open  ...  trend_strength_4h
+Datetime                              ...                   
+2025-07-16 19:00:00+00:00  87.867996  ...           0.001507
+2025-07-16 20:00:00+00:00  87.870003  ...           0.001145
+2025-07-16 21:00:00+00:00  87.848999  ...           0.000783
+2025-07-16 22:00:00+00:00  87.903000  ...           0.000420
+2025-07-16 23:00:00+00:00  87.963997  ...           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:55:08] INFO main: Target class balance: {0: 1332, 1: 773}
+[2025-07-17 02:55:08] INFO main: Training AI model...
+[2025-07-17 02:55:47] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:55:47] INFO main: Running market analysis...
+[2025-07-17 02:55:47] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:55:49] INFO main: Fetched 2107 rows of price data for USDJPY
+[2025-07-17 02:55:49] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:55:49] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:55:51] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:55:51] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:55:55] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 02:55:55] INFO main: Feature summary (last 5 rows):
+                                 Open  ...  trend_strength_4h
+Datetime                               ...                   
+2025-07-16 19:00:00+00:00  147.841995  ...           0.001507
+2025-07-16 20:00:00+00:00  147.824005  ...           0.001145
+2025-07-16 21:00:00+00:00  147.804993  ...           0.000783
+2025-07-16 22:00:00+00:00  147.882004  ...           0.000420
+2025-07-16 23:00:00+00:00  147.988007  ...           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:55:55] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 02:55:55] INFO main: Training AI model...
+[2025-07-17 03:00:02] INFO main: Running market analysis...
+[2025-07-17 03:00:02] INFO main: Fetching price data for USDJPY...
+[2025-07-17 03:00:03] INFO main: Fetched 1399 rows of price data for USDJPY
+[2025-07-17 03:00:03] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 03:00:03] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:00:03] INFO main: News sentiment score: 0.0000
+[2025-07-17 03:00:03] INFO main: Generating technical indicators...
+[2025-07-17 03:00:03] INFO main: Feature DataFrame shape: (1399, 20)
+[2025-07-17 03:00:03] INFO main: Feature summary (last 5 rows):
+                                 Open        High         Low  ...  falling_wedge  fakeout_up  fakeout_down
+Datetime                                                       ...                                         
+2025-07-16 22:00:00+00:00  147.882004  147.929993  147.716995  ...              1           0             0
+2025-07-16 23:00:00+00:00  147.988007  148.070007  147.761993  ...              1           0             0
+2025-07-17 00:00:00+00:00  148.378006  148.425995  147.979996  ...              1           0             0
+2025-07-17 01:00:00+00:00  148.339005  148.492996  148.274002  ...              1           0             0
+2025-07-17 02:00:00+00:00  148.343002  148.343002  148.343002  ...              1           0             0
+
+[5 rows x 20 columns]
+
+[2025-07-17 03:00:03] INFO main: Target class balance: {0: 964, 1: 435}
+[2025-07-17 03:00:03] INFO main: Training AI model...
+[2025-07-17 03:00:04] INFO main: Running market analysis...
+[2025-07-17 03:00:04] INFO main: Fetching price data for USDJPY...
+[2025-07-17 03:00:05] INFO main: Model trained successfully!
+[2025-07-17 03:00:05] INFO main: Making signal prediction...
+[2025-07-17 03:00:05] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 03:00:05] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 03:00:06] INFO main: Fetched 1418 rows of price data for BTCUSD
+[2025-07-17 03:00:06] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 03:00:06] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:00:06] INFO main: News sentiment score: 0.0000
+[2025-07-17 03:00:06] INFO main: Generating technical indicators...
+[2025-07-17 03:00:06] INFO main: Fetched 2108 rows of price data for USDJPY
+[2025-07-17 03:00:06] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 03:00:06] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:00:07] INFO main: Feature DataFrame shape: (1418, 20)
+[2025-07-17 03:00:07] INFO main: Feature summary (last 5 rows):
+                                    Open           High  ...  fakeout_up  fakeout_down
+Datetime                                                 ...                          
+2025-07-16 21:00:00+00:00  119434.312500  120054.640625  ...           0             0
+2025-07-16 22:00:00+00:00  118705.640625  119497.640625  ...           0             0
+2025-07-16 23:00:00+00:00  118700.601562  118872.242188  ...           1             0
+2025-07-17 00:00:00+00:00  118975.859375  119182.757812  ...           0             0
+2025-07-17 01:00:00+00:00  118028.281250  119103.289062  ...           0             0
+
+[5 rows x 20 columns]
+
+[2025-07-17 03:00:07] INFO main: Target class balance: {0: 811, 1: 607}
+[2025-07-17 03:00:07] INFO main: Training AI model...
+[2025-07-17 03:00:08] INFO main: Model trained successfully!
+[2025-07-17 03:00:08] INFO main: Making signal prediction...
+[2025-07-17 03:00:08] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 03:00:08] INFO main: Fetching price data for USDCHF...
+[2025-07-17 03:00:09] INFO main: Fetched 1400 rows of price data for USDCHF
+[2025-07-17 03:00:09] INFO main: Getting keywords for pair: USDCHF
+[2025-07-17 03:00:09] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:00:09] INFO main: News sentiment score: 0.0000
+[2025-07-17 03:00:09] INFO main: Generating technical indicators...
+[2025-07-17 03:00:09] INFO main: News sentiment score: -0.1989
+[2025-07-17 03:00:09] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 03:00:09] INFO main: Feature DataFrame shape: (1400, 20)
+[2025-07-17 03:00:09] INFO main: Feature summary (last 5 rows):
+                              Open     High      Low  ...  falling_wedge  fakeout_up  fakeout_down
+Datetime                                              ...                                         
+2025-07-16 22:00:00+00:00  0.80102  0.80108  0.80017  ...              0           0             0
+2025-07-16 23:00:00+00:00  0.80097  0.80115  0.80056  ...              1           0             0
+2025-07-17 00:00:00+00:00  0.80215  0.80240  0.80082  ...              1           0             0
+2025-07-17 01:00:00+00:00  0.80139  0.80271  0.80130  ...              1           0             0
+2025-07-17 02:00:00+00:00  0.80141  0.80141  0.80141  ...              0           0             0
+
+[5 rows x 20 columns]
+
+[2025-07-17 03:00:09] INFO main: Target class balance: {0: 1024, 1: 376}
+[2025-07-17 03:00:09] INFO main: Training AI model...
+[2025-07-17 03:00:11] INFO main: Model trained successfully!
+[2025-07-17 03:00:11] INFO main: Making signal prediction...
+[2025-07-17 03:00:11] INFO main: No valid signal generated for USDCHF: filtered out due to confluence, confidence, or news event.
+[2025-07-17 03:00:11] INFO main: Fetching price data for JPYNZD...
+[2025-07-17 03:00:12] INFO main: Fetched 1408 rows of price data for JPYNZD
+[2025-07-17 03:00:12] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-17 03:00:12] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:00:12] INFO main: News sentiment score: 0.0000
+[2025-07-17 03:00:12] INFO main: Generating technical indicators...
+[2025-07-17 03:00:12] INFO main: Feature DataFrame shape: (1408, 20)
+[2025-07-17 03:00:12] INFO main: Feature summary (last 5 rows):
+                                Open       High        Low  ...  falling_wedge  fakeout_up  fakeout_down
+Datetime                                                    ...                                         
+2025-07-16 22:00:00+00:00  87.903000  87.939003  87.839996  ...              1           0             0
+2025-07-16 23:00:00+00:00  87.963997  88.024002  87.848999  ...              1           0             0
+2025-07-17 00:00:00+00:00  88.044998  88.074997  87.948997  ...              1           0             0
+2025-07-17 01:00:00+00:00  88.035004  88.167999  87.943001  ...              1           0             0
+2025-07-17 02:00:00+00:00  88.033997  88.033997  88.033997  ...              1           0             0
+
+[5 rows x 20 columns]
+
+[2025-07-17 03:00:12] INFO main: Target class balance: {0: 953, 1: 455}
+[2025-07-17 03:00:12] INFO main: Training AI model...
+[2025-07-17 03:00:14] INFO main: Model trained successfully!
+[2025-07-17 03:00:14] INFO main: Making signal prediction...
+[2025-07-17 03:00:14] INFO main: No valid signal generated for JPYNZD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 03:00:14] INFO main: Signal generation summary:
+[2025-07-17 03:00:14] INFO main: USDJPY: No valid signal
+[2025-07-17 03:00:14] INFO main: BTCUSD: No valid signal
+[2025-07-17 03:00:14] INFO main: USDCHF: No valid signal
+[2025-07-17 03:00:14] INFO main: JPYNZD: No valid signal
+[2025-07-17 03:00:15] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 03:00:15] INFO main: Feature summary (last 5 rows):
+                                 Open  ...  trend_strength_4h
+Datetime                               ...                   
+2025-07-16 19:00:00+00:00  147.841995  ...           0.001507
+2025-07-16 20:00:00+00:00  147.824005  ...           0.001145
+2025-07-16 21:00:00+00:00  147.804993  ...           0.000783
+2025-07-16 22:00:00+00:00  147.882004  ...           0.000420
+2025-07-16 23:00:00+00:00  147.988007  ...           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 03:00:15] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 03:00:15] INFO main: Training AI model...
+[2025-07-17 03:00:20] INFO main: Model trained successfully!
+[2025-07-17 03:00:20] INFO main: Making signal prediction...
+[2025-07-17 03:00:20] ERROR main: Error analyzing USDJPY: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 67, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 03:00:20] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 03:00:21] INFO main: Fetched 2138 rows of price data for BTCUSD
+[2025-07-17 03:00:21] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 03:00:21] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:00:31] INFO main: News sentiment score: 0.0000
+[2025-07-17 03:00:31] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 03:00:36] INFO main: Feature DataFrame shape: (1492, 34)
+[2025-07-17 03:00:36] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  trend_strength_4h
+Datetime                                  ...                   
+2025-07-16 19:00:00+00:00  119255.750000  ...           0.001507
+2025-07-16 20:00:00+00:00  119877.875000  ...           0.001145
+2025-07-16 21:00:00+00:00  119434.312500  ...           0.000783
+2025-07-16 22:00:00+00:00  118705.640625  ...           0.000420
+2025-07-16 23:00:00+00:00  118700.601562  ...           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 03:00:36] INFO main: Target class balance: {0: 765, 1: 727}
+[2025-07-17 03:00:36] INFO main: Training AI model...
+[2025-07-17 03:00:41] INFO main: Model trained successfully!
+[2025-07-17 03:00:41] INFO main: Making signal prediction...
+[2025-07-17 03:00:41] ERROR main: Error analyzing BTCUSD: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 67, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 03:00:41] INFO main: Fetching price data for JPYNZD...
+[2025-07-17 03:00:42] INFO main: Fetched 2122 rows of price data for JPYNZD
+[2025-07-17 03:00:42] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-17 03:00:42] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:00:45] INFO main: News sentiment score: 0.0000
+[2025-07-17 03:00:45] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 03:00:49] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 03:00:49] INFO main: Feature summary (last 5 rows):
+                                Open  ...  trend_strength_4h
+Datetime                              ...                   
+2025-07-16 19:00:00+00:00  87.867996  ...           0.001507
+2025-07-16 20:00:00+00:00  87.870003  ...           0.001145
+2025-07-16 21:00:00+00:00  87.848999  ...           0.000783
+2025-07-16 22:00:00+00:00  87.903000  ...           0.000420
+2025-07-16 23:00:00+00:00  87.963997  ...           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 03:00:49] INFO main: Target class balance: {0: 1332, 1: 773}
+[2025-07-17 03:00:49] INFO main: Training AI model...
+[2025-07-17 03:00:51] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 03:00:51] INFO main: Running market analysis...
+[2025-07-17 03:00:51] INFO main: Fetching price data for USDJPY...
+[2025-07-17 03:00:53] INFO main: Model trained successfully!
+[2025-07-17 03:00:53] INFO main: Making signal prediction...
+[2025-07-17 03:00:54] ERROR main: Error analyzing JPYNZD: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/main.py", line 177, in analyze_and_signal
+    prediction_result = predict_signal(features_df, model_path='models/saved_models/signal_model.pkl')
+  File "/Users/admin/forex_ai_project/models/predict.py", line 67, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 03:00:54] INFO main: Signal generation summary:
+[2025-07-17 03:00:54] INFO main: USDJPY: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 03:00:54] INFO main: BTCUSD: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 03:00:54] INFO main: JPYNZD: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- double_bottom
+- double_top
+- fakeout_down
+- wyckoff_accumulation
+- wyckoff_distribution
+
+[2025-07-17 03:00:54] INFO main: Fetched 2108 rows of price data for USDJPY
+[2025-07-17 03:00:54] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 03:00:54] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:00:56] INFO main: News sentiment score: -0.1989
+[2025-07-17 03:00:56] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 03:00:59] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 03:00:59] INFO main: Feature summary (last 5 rows):
+                                 Open        High  ...  price_vs_sma50_4h  trend_strength_4h
+Datetime                                           ...                                      
+2025-07-16 19:00:00+00:00  147.841995  148.022995  ...          -0.002477           0.001507
+2025-07-16 20:00:00+00:00  147.824005  147.914001  ...          -0.002958           0.001145
+2025-07-16 21:00:00+00:00  147.804993  147.871994  ...          -0.002974           0.000783
+2025-07-16 22:00:00+00:00  147.882004  147.929993  ...          -0.002989           0.000420
+2025-07-16 23:00:00+00:00  147.988007  148.070007  ...          -0.003005           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 03:00:59] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 03:00:59] INFO main: Training AI model...
+[2025-07-17 03:01:48] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 03:01:48] INFO main: Running market analysis...
+[2025-07-17 03:01:48] INFO main: Fetching price data for USDJPY...
+[2025-07-17 03:01:50] INFO main: Fetched 2108 rows of price data for USDJPY
+[2025-07-17 03:01:50] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 03:01:50] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:01:52] INFO main: News sentiment score: -0.1989
+[2025-07-17 03:01:52] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 03:01:55] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 03:01:55] INFO main: Feature summary (last 5 rows):
+                                 Open  ...  trend_strength_4h
+Datetime                               ...                   
+2025-07-16 19:00:00+00:00  147.841995  ...           0.001507
+2025-07-16 20:00:00+00:00  147.824005  ...           0.001145
+2025-07-16 21:00:00+00:00  147.804993  ...           0.000783
+2025-07-16 22:00:00+00:00  147.882004  ...           0.000420
+2025-07-16 23:00:00+00:00  147.988007  ...           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 03:01:55] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 03:01:55] INFO main: Training AI model...
+[2025-07-17 03:07:44] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 03:07:44] INFO main: Running market analysis...
+[2025-07-17 03:07:44] INFO main: Fetching price data for USDJPY...
+[2025-07-17 03:07:46] INFO main: Fetched 2108 rows of price data for USDJPY
+[2025-07-17 03:07:46] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 03:07:46] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 03:07:48] INFO main: News sentiment score: -0.1989
+[2025-07-17 03:07:48] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 03:07:51] INFO main: Feature DataFrame shape: (2105, 34)
+[2025-07-17 03:07:51] INFO main: Feature summary (last 5 rows):
+                                 Open  ...  trend_strength_4h
+Datetime                               ...                   
+2025-07-16 19:00:00+00:00  147.841995  ...           0.001507
+2025-07-16 20:00:00+00:00  147.824005  ...           0.001145
+2025-07-16 21:00:00+00:00  147.804993  ...           0.000783
+2025-07-16 22:00:00+00:00  147.882004  ...           0.000420
+2025-07-16 23:00:00+00:00  147.988007  ...           0.000057
+
+[5 rows x 34 columns]
+
+[2025-07-17 03:07:51] INFO main: Target class balance: {0: 1391, 1: 714}
+[2025-07-17 03:07:51] INFO main: Training AI model...

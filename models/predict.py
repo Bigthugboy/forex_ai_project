@@ -49,20 +49,16 @@ def predict_signal(features_df, model_path='models/saved_models/signal_model.pkl
     if model is None or scaler is None or feature_cols is None:
         return None
     
-    # Get the latest data point
+    # Ensure all required features are present in the DataFrame (for all rows)
+    for col in feature_cols:
+        if col not in features_df.columns:
+            features_df[col] = 0
+    # Now select and order columns
     latest_data = features_df[feature_cols].iloc[-1:].copy()
-    
-    # Ensure all required features are present
-    missing_features = [col for col in feature_cols if col not in latest_data.columns]
-    if missing_features:
-        print(f"Missing features: {missing_features}")
-        # Fill missing features with 0
-        for col in missing_features:
-            latest_data[col] = 0
-    
-    # Ensure feature order matches training
-    latest_data = latest_data[feature_cols]
-    
+
+    print(f"[DEBUG] Columns in latest_data: {list(latest_data.columns)}")
+    print(f"[DEBUG] Feature columns expected: {feature_cols}")
+
     # Scale the features
     latest_scaled = scaler.transform(latest_data)
     
