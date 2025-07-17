@@ -4235,3 +4235,184 @@
 [2025-07-17 05:57:43] WARNING news_fetch: No news headlines found from any API. Returning neutral sentiment.
 [2025-07-17 05:57:43] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-17. Trying cache fallback.
 [2025-07-17 05:57:43] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-17 06:32:43] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-11, to=2025-07-17
+[2025-07-17 06:32:43] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'USDJPY', 'USD/JPY', 'USDJPY=X'], from=2025-07-11, to=2025-07-17, pair=None
+[2025-07-17 06:32:43] INFO news_fetch: Trying NewsAPI...
+[2025-07-17 06:32:43] INFO news_fetch: Trying NewsAPI for keyword 'USD/JPY'...
+[2025-07-17 06:32:44] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USD/JPY'. Trying Newsdata.io...
+[2025-07-17 06:32:44] INFO news_fetch: Trying CryptoPanic...
+[2025-07-17 06:32:44] INFO news_fetch: Skipping CryptoPanic for non-crypto pair
+[2025-07-17 06:32:44] INFO news_fetch: Trying CoinGecko News...
+[2025-07-17 06:32:44] INFO news_fetch: Skipping CoinGecko News for non-crypto pair
+[2025-07-17 06:32:44] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-17 06:32:44] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'USD/JPY', 'USDJPY=X']
+[2025-07-17 06:32:44] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-17 06:32:47] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 3 relevant headlines
+[2025-07-17 06:32:47] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-17 06:32:47] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 1 relevant headlines
+[2025-07-17 06:32:47] INFO news_fetch: RSS total headlines found: 4
+[2025-07-17 06:32:47] INFO news_fetch: RSS found 4 headlines. Sample: ['USD/JPY: Sustained break above 149.30 is unlikely – UOB Group']
+[2025-07-17 06:32:47] INFO news_fetch: RSS headline 1: 'USD/JPY: Sustained break above 149.30 is unlikely – UOB Group' -> sentiment: 0.0000
+[2025-07-17 06:32:47] INFO news_fetch: RSS headline 2: 'USD/JPY struggles to extend upside above 149.00, US PPI awaited' -> sentiment: -0.2263
+[2025-07-17 06:32:47] INFO news_fetch: RSS headline 3: 'USD/JPY: Near term election risks – OCBC' -> sentiment: -0.2732
+[2025-07-17 06:32:47] INFO news_fetch: RSS headline 4: 'USD/JPY Forecast: Fed Doubts Keep US-Japan Rate Gap Wide' -> sentiment: -0.2960
+[2025-07-17 06:32:47] INFO news_fetch: RSS individual scores: [0.0, -0.2263, -0.2732, -0.296]
+[2025-07-17 06:32:47] INFO news_fetch: RSS calculated average: -0.1989
+[2025-07-17 06:32:47] INFO news_fetch: RSS sentiment score: -0.1989
+[2025-07-17 06:32:47] INFO news_fetch: [news_api] Got sentiment score -0.1989 for USDJPY 2025-07-17
+[2025-07-17 06:33:00] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-13, to=2025-07-17
+[2025-07-17 06:33:00] INFO news_fetch: Starting news sentiment fetch for ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC', 'BTC-USD'], from=2025-07-13, to=2025-07-17, pair=None
+[2025-07-17 06:33:00] INFO news_fetch: Trying NewsAPI...
+[2025-07-17 06:33:00] INFO news_fetch: Trying NewsAPI for keyword 'BTC/USD'...
+[2025-07-17 06:33:01] WARNING news_fetch: NewsAPI rate limit hit for keyword 'BTC/USD'. Trying Newsdata.io...
+[2025-07-17 06:33:01] INFO news_fetch: Trying CryptoPanic...
+[2025-07-17 06:33:02] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC/USD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:33:03] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTCUSD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:33:04] WARNING news_fetch: CryptoPanic: Non-200 response for 'Bitcoin': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:33:05] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:33:06] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC-USD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:33:06] INFO news_fetch: Trying CoinGecko News...
+[2025-07-17 06:33:07] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC/USD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:33:07] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTCUSD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:33:08] WARNING news_fetch: CoinGecko News: Non-200 response for 'Bitcoin': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:33:10] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:33:11] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC-USD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:33:11] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-17 06:33:11] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC', 'BTC-USD']
+[2025-07-17 06:33:11] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-17 06:33:12] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-17 06:33:12] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-17 06:33:13] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-17 06:33:13] INFO news_fetch: RSS total headlines found: 0
+[2025-07-17 06:33:13] WARNING news_fetch: No news headlines found from any API. Returning neutral sentiment.
+[2025-07-17 06:33:13] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-17. Trying cache fallback.
+[2025-07-17 06:33:13] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-17 06:34:28] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-11, to=2025-07-17
+[2025-07-17 06:34:28] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'USDJPY', 'USD/JPY', 'USDJPY=X'], from=2025-07-11, to=2025-07-17, pair=None
+[2025-07-17 06:34:28] INFO news_fetch: Trying NewsAPI...
+[2025-07-17 06:34:28] INFO news_fetch: Trying NewsAPI for keyword 'USD/JPY'...
+[2025-07-17 06:34:28] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USD/JPY'. Trying Newsdata.io...
+[2025-07-17 06:34:28] INFO news_fetch: Trying CryptoPanic...
+[2025-07-17 06:34:28] INFO news_fetch: Skipping CryptoPanic for non-crypto pair
+[2025-07-17 06:34:28] INFO news_fetch: Trying CoinGecko News...
+[2025-07-17 06:34:28] INFO news_fetch: Skipping CoinGecko News for non-crypto pair
+[2025-07-17 06:34:28] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-17 06:34:28] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'USD/JPY', 'USDJPY=X']
+[2025-07-17 06:34:28] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-17 06:34:29] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 3 relevant headlines
+[2025-07-17 06:34:29] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-17 06:34:30] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 1 relevant headlines
+[2025-07-17 06:34:30] INFO news_fetch: RSS total headlines found: 4
+[2025-07-17 06:34:30] INFO news_fetch: RSS found 4 headlines. Sample: ['USD/JPY: Sustained break above 149.30 is unlikely – UOB Group']
+[2025-07-17 06:34:30] INFO news_fetch: RSS headline 1: 'USD/JPY: Sustained break above 149.30 is unlikely – UOB Group' -> sentiment: 0.0000
+[2025-07-17 06:34:30] INFO news_fetch: RSS headline 2: 'USD/JPY struggles to extend upside above 149.00, US PPI awaited' -> sentiment: -0.2263
+[2025-07-17 06:34:30] INFO news_fetch: RSS headline 3: 'USD/JPY: Near term election risks – OCBC' -> sentiment: -0.2732
+[2025-07-17 06:34:30] INFO news_fetch: RSS headline 4: 'USD/JPY Forecast: Fed Doubts Keep US-Japan Rate Gap Wide' -> sentiment: -0.2960
+[2025-07-17 06:34:30] INFO news_fetch: RSS individual scores: [0.0, -0.2263, -0.2732, -0.296]
+[2025-07-17 06:34:30] INFO news_fetch: RSS calculated average: -0.1989
+[2025-07-17 06:34:30] INFO news_fetch: RSS sentiment score: -0.1989
+[2025-07-17 06:34:30] INFO news_fetch: [news_api] Got sentiment score -0.1989 for USDJPY 2025-07-17
+[2025-07-17 06:45:30] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-11, to=2025-07-17
+[2025-07-17 06:45:30] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'USDJPY', 'USD/JPY', 'USDJPY=X'], from=2025-07-11, to=2025-07-17, pair=None
+[2025-07-17 06:45:30] INFO news_fetch: Trying NewsAPI...
+[2025-07-17 06:45:30] INFO news_fetch: Trying NewsAPI for keyword 'USD/JPY'...
+[2025-07-17 06:45:32] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USD/JPY'. Trying Newsdata.io...
+[2025-07-17 06:45:32] INFO news_fetch: Trying CryptoPanic...
+[2025-07-17 06:45:32] INFO news_fetch: Skipping CryptoPanic for non-crypto pair
+[2025-07-17 06:45:32] INFO news_fetch: Trying CoinGecko News...
+[2025-07-17 06:45:32] INFO news_fetch: Skipping CoinGecko News for non-crypto pair
+[2025-07-17 06:45:32] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-17 06:45:32] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'USD/JPY', 'USDJPY=X']
+[2025-07-17 06:45:32] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-17 06:45:32] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 3 relevant headlines
+[2025-07-17 06:45:32] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-17 06:45:33] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 1 relevant headlines
+[2025-07-17 06:45:33] INFO news_fetch: RSS total headlines found: 4
+[2025-07-17 06:45:33] INFO news_fetch: RSS found 4 headlines. Sample: ['USD/JPY: Sustained break above 149.30 is unlikely – UOB Group']
+[2025-07-17 06:45:33] INFO news_fetch: RSS headline 1: 'USD/JPY: Sustained break above 149.30 is unlikely – UOB Group' -> sentiment: 0.0000
+[2025-07-17 06:45:33] INFO news_fetch: RSS headline 2: 'USD/JPY struggles to extend upside above 149.00, US PPI awaited' -> sentiment: -0.2263
+[2025-07-17 06:45:33] INFO news_fetch: RSS headline 3: 'USD/JPY: Near term election risks – OCBC' -> sentiment: -0.2732
+[2025-07-17 06:45:33] INFO news_fetch: RSS headline 4: 'USD/JPY Forecast: Fed Doubts Keep US-Japan Rate Gap Wide' -> sentiment: -0.2960
+[2025-07-17 06:45:33] INFO news_fetch: RSS individual scores: [0.0, -0.2263, -0.2732, -0.296]
+[2025-07-17 06:45:33] INFO news_fetch: RSS calculated average: -0.1989
+[2025-07-17 06:45:33] INFO news_fetch: RSS sentiment score: -0.1989
+[2025-07-17 06:45:33] INFO news_fetch: [news_api] Got sentiment score -0.1989 for USDJPY 2025-07-17
+[2025-07-17 06:45:46] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-13, to=2025-07-17
+[2025-07-17 06:45:46] INFO news_fetch: Starting news sentiment fetch for ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC', 'BTC-USD'], from=2025-07-13, to=2025-07-17, pair=None
+[2025-07-17 06:45:46] INFO news_fetch: Trying NewsAPI...
+[2025-07-17 06:45:46] INFO news_fetch: Trying NewsAPI for keyword 'BTC/USD'...
+[2025-07-17 06:45:47] WARNING news_fetch: NewsAPI rate limit hit for keyword 'BTC/USD'. Trying Newsdata.io...
+[2025-07-17 06:45:47] INFO news_fetch: Trying CryptoPanic...
+[2025-07-17 06:45:48] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC/USD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:45:49] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTCUSD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:45:50] WARNING news_fetch: CryptoPanic: Non-200 response for 'Bitcoin': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:45:50] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:45:51] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC-USD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:45:51] INFO news_fetch: Trying CoinGecko News...
+[2025-07-17 06:45:52] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC/USD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:45:53] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTCUSD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:45:54] WARNING news_fetch: CoinGecko News: Non-200 response for 'Bitcoin': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:45:55] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:45:56] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC-USD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:45:56] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-17 06:45:56] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC', 'BTC-USD']
+[2025-07-17 06:45:56] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-17 06:45:57] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-17 06:45:57] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-17 06:45:58] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-17 06:45:58] INFO news_fetch: RSS total headlines found: 0
+[2025-07-17 06:45:58] WARNING news_fetch: No news headlines found from any API. Returning neutral sentiment.
+[2025-07-17 06:45:58] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-17. Trying cache fallback.
+[2025-07-17 06:45:58] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-17 06:49:42] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-11, to=2025-07-17
+[2025-07-17 06:49:42] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'USDJPY', 'USD/JPY', 'USDJPY=X'], from=2025-07-11, to=2025-07-17, pair=None
+[2025-07-17 06:49:42] INFO news_fetch: Trying NewsAPI...
+[2025-07-17 06:49:42] INFO news_fetch: Trying NewsAPI for keyword 'USD/JPY'...
+[2025-07-17 06:49:42] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USD/JPY'. Trying Newsdata.io...
+[2025-07-17 06:49:42] INFO news_fetch: Trying CryptoPanic...
+[2025-07-17 06:49:42] INFO news_fetch: Skipping CryptoPanic for non-crypto pair
+[2025-07-17 06:49:42] INFO news_fetch: Trying CoinGecko News...
+[2025-07-17 06:49:42] INFO news_fetch: Skipping CoinGecko News for non-crypto pair
+[2025-07-17 06:49:42] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-17 06:49:42] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'USD/JPY', 'USDJPY=X']
+[2025-07-17 06:49:42] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-17 06:49:43] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 3 relevant headlines
+[2025-07-17 06:49:43] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-17 06:49:44] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 1 relevant headlines
+[2025-07-17 06:49:44] INFO news_fetch: RSS total headlines found: 4
+[2025-07-17 06:49:44] INFO news_fetch: RSS found 4 headlines. Sample: ['USD/JPY: Sustained break above 149.30 is unlikely – UOB Group']
+[2025-07-17 06:49:44] INFO news_fetch: RSS headline 1: 'USD/JPY: Sustained break above 149.30 is unlikely – UOB Group' -> sentiment: 0.0000
+[2025-07-17 06:49:44] INFO news_fetch: RSS headline 2: 'USD/JPY struggles to extend upside above 149.00, US PPI awaited' -> sentiment: -0.2263
+[2025-07-17 06:49:44] INFO news_fetch: RSS headline 3: 'USD/JPY: Near term election risks – OCBC' -> sentiment: -0.2732
+[2025-07-17 06:49:44] INFO news_fetch: RSS headline 4: 'USD/JPY Forecast: Fed Doubts Keep US-Japan Rate Gap Wide' -> sentiment: -0.2960
+[2025-07-17 06:49:44] INFO news_fetch: RSS individual scores: [0.0, -0.2263, -0.2732, -0.296]
+[2025-07-17 06:49:44] INFO news_fetch: RSS calculated average: -0.1989
+[2025-07-17 06:49:44] INFO news_fetch: RSS sentiment score: -0.1989
+[2025-07-17 06:49:44] INFO news_fetch: [news_api] Got sentiment score -0.1989 for USDJPY 2025-07-17
+[2025-07-17 06:49:58] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-13, to=2025-07-17
+[2025-07-17 06:49:58] INFO news_fetch: Starting news sentiment fetch for ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC', 'BTC-USD'], from=2025-07-13, to=2025-07-17, pair=None
+[2025-07-17 06:49:58] INFO news_fetch: Trying NewsAPI...
+[2025-07-17 06:49:58] INFO news_fetch: Trying NewsAPI for keyword 'BTC/USD'...
+[2025-07-17 06:50:00] WARNING news_fetch: NewsAPI rate limit hit for keyword 'BTC/USD'. Trying Newsdata.io...
+[2025-07-17 06:50:00] INFO news_fetch: Trying CryptoPanic...
+[2025-07-17 06:50:00] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC/USD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:50:02] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTCUSD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:50:03] WARNING news_fetch: CryptoPanic: Non-200 response for 'Bitcoin': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:50:04] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:50:04] WARNING news_fetch: CryptoPanic: Non-200 response for 'BTC-USD': 403, message: {"status":"api_error","info":"API monthly quota exceeded - Upgrade your API plan: \/developers\/api\/plans\/"}
+[2025-07-17 06:50:04] INFO news_fetch: Trying CoinGecko News...
+[2025-07-17 06:50:05] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC/USD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:50:06] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTCUSD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:50:07] WARNING news_fetch: CoinGecko News: Non-200 response for 'Bitcoin': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:50:08] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:50:09] WARNING news_fetch: CoinGecko News: Non-200 response for 'BTC-USD': 422, message: {"error":"Invalid page param!"}
+[2025-07-17 06:50:09] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-17 06:50:09] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC', 'BTC-USD']
+[2025-07-17 06:50:09] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-17 06:50:09] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-17 06:50:09] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-17 06:50:10] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-17 06:50:10] INFO news_fetch: RSS total headlines found: 0
+[2025-07-17 06:50:10] WARNING news_fetch: No news headlines found from any API. Returning neutral sentiment.
+[2025-07-17 06:50:10] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-17. Trying cache fallback.
+[2025-07-17 06:50:10] ERROR news_fetch: [news_cache] No cached news available for BTCUSD

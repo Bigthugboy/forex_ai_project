@@ -47,20 +47,11 @@ def predict_signal(features_df, pair, model_dir='models/saved_models/'):
     if model is None or scaler is None or not feature_cols:
         return None
     
-    # Ensure all required features are present in the DataFrame (for all rows)
-    for col in feature_cols:
-        if col not in features_df.columns:
-            features_df[col] = 0
-    # Reindex to match feature_cols exactly (order and fill missing)
-    features_df = features_df.reindex(columns=feature_cols, fill_value=0)
-    # Now select and order columns
+    # Only use columns in feature_cols (do not add/fill columns not in feature_cols)
+    features_df = features_df.reindex(columns=feature_cols)
     latest_data = features_df.iloc[-1:].copy()
-    # Final guarantee: add any missing columns to latest_data and reindex
-    for col in feature_cols:
-        if col not in latest_data.columns:
-            latest_data[col] = 0
-    latest_data = latest_data.reindex(columns=feature_cols, fill_value=0)
-    # Force dtype to float
+    # Final guarantee: reindex latest_data to feature_cols
+    latest_data = latest_data.reindex(columns=feature_cols)
     latest_data = latest_data.astype(float)
     # Debug: print column differences
     missing = [col for col in feature_cols if col not in latest_data.columns]
