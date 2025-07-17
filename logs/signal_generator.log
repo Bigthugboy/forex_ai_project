@@ -91,3 +91,23 @@
 [2025-07-17 00:19:47] INFO signal_generator: Confluence factors: [], score=0, confidence=0.53
 [2025-07-17 00:19:47] INFO signal_generator: Signal confidence score: 0.53 (interpreted as probability of correctness)
 [2025-07-17 00:19:47] INFO signal_generator: No signal for USDJPY at 2025-07-16 23:00:00+00:00: insufficient confluence (0) or confidence (0.53)
+[2025-07-17 01:30:07] INFO signal_generator: Analyzing USDJPY at 2025-07-17 00:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 01:30:07] INFO signal_generator: Detected patterns: None
+[2025-07-17 01:30:07] INFO signal_generator: Confluence factors: [], score=0, confidence=0.51
+[2025-07-17 01:30:07] INFO signal_generator: Signal confidence score: 0.51 (interpreted as probability of correctness)
+[2025-07-17 01:30:07] INFO signal_generator: No signal for USDJPY at 2025-07-17 00:00:00+00:00: insufficient confluence (0) or confidence (0.51)
+[2025-07-17 01:30:09] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 00:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 01:30:09] INFO signal_generator: Detected patterns: None
+[2025-07-17 01:30:09] INFO signal_generator: Confluence factors: [], score=0, confidence=0.50
+[2025-07-17 01:30:09] INFO signal_generator: Signal confidence score: 0.50 (interpreted as probability of correctness)
+[2025-07-17 01:30:09] INFO signal_generator: No signal for BTCUSD at 2025-07-17 00:00:00+00:00: insufficient confluence (0) or confidence (0.50)
+[2025-07-17 01:30:12] INFO signal_generator: Analyzing USDCHF at 2025-07-17 00:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 01:30:12] INFO signal_generator: Detected patterns: None
+[2025-07-17 01:30:12] INFO signal_generator: Confluence factors: [], score=0, confidence=0.51
+[2025-07-17 01:30:12] INFO signal_generator: Signal confidence score: 0.51 (interpreted as probability of correctness)
+[2025-07-17 01:30:12] INFO signal_generator: No signal for USDCHF at 2025-07-17 00:00:00+00:00: insufficient confluence (0) or confidence (0.51)
+[2025-07-17 01:30:15] INFO signal_generator: Analyzing JPYNZD at 2025-07-17 00:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 01:30:15] INFO signal_generator: Detected patterns: None
+[2025-07-17 01:30:15] INFO signal_generator: Confluence factors: [], score=0, confidence=0.52
+[2025-07-17 01:30:15] INFO signal_generator: Signal confidence score: 0.52 (interpreted as probability of correctness)
+[2025-07-17 01:30:15] INFO signal_generator: No signal for JPYNZD at 2025-07-17 00:00:00+00:00: insufficient confluence (0) or confidence (0.52)

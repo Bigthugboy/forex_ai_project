@@ -1,0 +1,126 @@
+[2025-07-17 01:09:47] INFO multi_timeframe: Getting timeframe summary for USDJPY
+[2025-07-17 01:09:47] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:09:47] INFO multi_timeframe: Fetching 30min data for USDJPY
+[2025-07-17 01:09:49] WARNING multi_timeframe: No 30min data received for USDJPY
+[2025-07-17 01:09:49] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:09:51] INFO multi_timeframe: Successfully fetched 922 rows of 1h data for USDJPY
+[2025-07-17 01:09:51] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:09:52] INFO multi_timeframe: Successfully fetched 235 rows of 4h data for USDJPY
+[2025-07-17 01:09:52] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 01:09:52] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:09:52] INFO multi_timeframe: Fetching 30min data for USDJPY
+[2025-07-17 01:09:53] WARNING multi_timeframe: No 30min data received for USDJPY
+[2025-07-17 01:09:53] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:09:54] INFO multi_timeframe: Successfully fetched 1395 rows of 1h data for USDJPY
+[2025-07-17 01:09:54] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:09:55] INFO multi_timeframe: Successfully fetched 355 rows of 4h data for USDJPY
+[2025-07-17 01:09:55] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:09:55] INFO multi_timeframe: Created multi-timeframe features with shape: (1394, 19)
+[2025-07-17 01:09:55] INFO multi_timeframe: Creating multi-timeframe features for BTCUSD
+[2025-07-17 01:09:55] INFO multi_timeframe: Fetching multi-timeframe data for BTCUSD
+[2025-07-17 01:09:55] INFO multi_timeframe: Fetching 30min data for BTCUSD
+[2025-07-17 01:09:56] WARNING multi_timeframe: No 30min data received for BTCUSD
+[2025-07-17 01:09:56] INFO multi_timeframe: Fetching 1h data for BTCUSD
+[2025-07-17 01:09:57] INFO multi_timeframe: Successfully fetched 1414 rows of 1h data for BTCUSD
+[2025-07-17 01:09:57] INFO multi_timeframe: Fetching 4h data for BTCUSD
+[2025-07-17 01:09:57] INFO multi_timeframe: Successfully fetched 355 rows of 4h data for BTCUSD
+[2025-07-17 01:09:57] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:09:57] INFO multi_timeframe: Created multi-timeframe features with shape: (1414, 19)
+[2025-07-17 01:11:01] INFO multi_timeframe: Getting timeframe summary for USDJPY
+[2025-07-17 01:11:01] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:11:01] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 01:11:04] INFO multi_timeframe: Successfully fetched 3675 rows of 15m data for USDJPY
+[2025-07-17 01:11:04] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:11:05] INFO multi_timeframe: Successfully fetched 922 rows of 1h data for USDJPY
+[2025-07-17 01:11:05] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:11:06] INFO multi_timeframe: Successfully fetched 235 rows of 4h data for USDJPY
+[2025-07-17 01:11:06] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 01:11:06] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:11:06] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 01:11:07] INFO multi_timeframe: Successfully fetched 5564 rows of 15m data for USDJPY
+[2025-07-17 01:11:07] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:11:07] INFO multi_timeframe: Successfully fetched 1395 rows of 1h data for USDJPY
+[2025-07-17 01:11:07] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:11:08] INFO multi_timeframe: Successfully fetched 355 rows of 4h data for USDJPY
+[2025-07-17 01:11:08] INFO multi_timeframe: Added 15m timeframe features
+[2025-07-17 01:11:08] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:11:08] INFO multi_timeframe: Created multi-timeframe features with shape: (1394, 33)
+[2025-07-17 01:11:08] INFO multi_timeframe: Creating multi-timeframe features for BTCUSD
+[2025-07-17 01:11:08] INFO multi_timeframe: Fetching multi-timeframe data for BTCUSD
+[2025-07-17 01:11:08] INFO multi_timeframe: Fetching 15m data for BTCUSD
+[2025-07-17 01:11:09] INFO multi_timeframe: Successfully fetched 5651 rows of 15m data for BTCUSD
+[2025-07-17 01:11:09] INFO multi_timeframe: Fetching 1h data for BTCUSD
+[2025-07-17 01:11:11] INFO multi_timeframe: Successfully fetched 1414 rows of 1h data for BTCUSD
+[2025-07-17 01:11:11] INFO multi_timeframe: Fetching 4h data for BTCUSD
+[2025-07-17 01:11:12] INFO multi_timeframe: Successfully fetched 355 rows of 4h data for BTCUSD
+[2025-07-17 01:11:12] INFO multi_timeframe: Added 15m timeframe features
+[2025-07-17 01:11:12] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:11:12] INFO multi_timeframe: Created multi-timeframe features with shape: (1414, 33)
+[2025-07-17 01:18:01] INFO multi_timeframe: Getting timeframe summary for USDJPY
+[2025-07-17 01:18:01] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:18:01] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 01:18:03] INFO multi_timeframe: Successfully fetched 5565 rows of 15m data for USDJPY
+[2025-07-17 01:18:03] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:18:04] INFO multi_timeframe: Successfully fetched 1395 rows of 1h data for USDJPY
+[2025-07-17 01:18:04] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:18:05] INFO multi_timeframe: Successfully fetched 355 rows of 4h data for USDJPY
+[2025-07-17 01:18:05] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 01:18:05] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:18:05] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 01:18:06] INFO multi_timeframe: Successfully fetched 5565 rows of 15m data for USDJPY
+[2025-07-17 01:18:06] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:18:06] INFO multi_timeframe: Successfully fetched 1395 rows of 1h data for USDJPY
+[2025-07-17 01:18:06] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:18:07] INFO multi_timeframe: Successfully fetched 355 rows of 4h data for USDJPY
+[2025-07-17 01:18:07] INFO multi_timeframe: Added 15m timeframe features
+[2025-07-17 01:18:07] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:18:07] INFO multi_timeframe: Created multi-timeframe features with shape: (1394, 33)
+[2025-07-17 01:18:07] INFO multi_timeframe: Creating multi-timeframe features for BTCUSD
+[2025-07-17 01:18:07] INFO multi_timeframe: Fetching multi-timeframe data for BTCUSD
+[2025-07-17 01:18:07] INFO multi_timeframe: Fetching 15m data for BTCUSD
+[2025-07-17 01:18:08] INFO multi_timeframe: Successfully fetched 5652 rows of 15m data for BTCUSD
+[2025-07-17 01:18:08] INFO multi_timeframe: Fetching 1h data for BTCUSD
+[2025-07-17 01:18:09] INFO multi_timeframe: Successfully fetched 1414 rows of 1h data for BTCUSD
+[2025-07-17 01:18:09] INFO multi_timeframe: Fetching 4h data for BTCUSD
+[2025-07-17 01:18:10] INFO multi_timeframe: Successfully fetched 355 rows of 4h data for BTCUSD
+[2025-07-17 01:18:10] INFO multi_timeframe: Added 15m timeframe features
+[2025-07-17 01:18:10] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:18:10] INFO multi_timeframe: Created multi-timeframe features with shape: (1414, 33)
+[2025-07-17 01:23:10] INFO multi_timeframe: Getting timeframe summary for USDJPY
+[2025-07-17 01:23:10] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:23:10] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 01:23:12] WARNING multi_timeframe: No 15m data received for USDJPY
+[2025-07-17 01:23:12] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:23:13] INFO multi_timeframe: Successfully fetched 2814 rows of 1h data for USDJPY
+[2025-07-17 01:23:13] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:23:14] INFO multi_timeframe: Successfully fetched 715 rows of 4h data for USDJPY
+[2025-07-17 01:23:14] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 01:23:14] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:23:14] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 01:23:17] WARNING multi_timeframe: No 15m data received for USDJPY
+[2025-07-17 01:23:17] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:23:19] INFO multi_timeframe: Successfully fetched 2814 rows of 1h data for USDJPY
+[2025-07-17 01:23:19] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:23:20] INFO multi_timeframe: Successfully fetched 715 rows of 4h data for USDJPY
+[2025-07-17 01:23:20] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:23:20] INFO multi_timeframe: Created multi-timeframe features with shape: (2813, 19)
+[2025-07-17 01:23:20] INFO multi_timeframe: Creating multi-timeframe features for BTCUSD
+[2025-07-17 01:23:20] INFO multi_timeframe: Fetching multi-timeframe data for BTCUSD
+[2025-07-17 01:23:20] INFO multi_timeframe: Fetching 15m data for BTCUSD
+[2025-07-17 01:23:21] WARNING multi_timeframe: No 15m data received for BTCUSD
+[2025-07-17 01:23:21] INFO multi_timeframe: Fetching 1h data for BTCUSD
+[2025-07-17 01:23:22] INFO multi_timeframe: Successfully fetched 2854 rows of 1h data for BTCUSD
+[2025-07-17 01:23:22] INFO multi_timeframe: Fetching 4h data for BTCUSD
+[2025-07-17 01:23:23] INFO multi_timeframe: Successfully fetched 715 rows of 4h data for BTCUSD
+[2025-07-17 01:23:23] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:23:23] INFO multi_timeframe: Created multi-timeframe features with shape: (2854, 19)
+[2025-07-17 01:41:52] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 01:41:52] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 01:41:52] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 01:41:53] WARNING multi_timeframe: No 15m data received for USDJPY
+[2025-07-17 01:41:53] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 01:41:54] INFO multi_timeframe: Successfully fetched 2104 rows of 1h data for USDJPY
+[2025-07-17 01:41:54] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 01:41:55] INFO multi_timeframe: Successfully fetched 535 rows of 4h data for USDJPY
+[2025-07-17 01:41:55] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 01:41:55] INFO multi_timeframe: Created multi-timeframe features with shape: (2103, 19)

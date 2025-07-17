@@ -20,8 +20,8 @@ def get_price_data(pair, interval='1h', lookback=Config.LOOKBACK_PERIOD):
     Returns:
         pd.DataFrame: Price data with OHLCV, or None if unavailable.
     """
-    # Force lookback to at least 40 for robust rolling features
-    min_lookback = 40
+    # Force lookback to at least 90 for robust rolling features
+    min_lookback = 90
     if lookback < min_lookback:
         print(f"[DEBUG] Increasing lookback from {lookback} to {min_lookback} for {pair}")
         lookback = min_lookback

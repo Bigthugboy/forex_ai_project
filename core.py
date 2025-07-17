@@ -7,6 +7,7 @@ from data.fetch_news import get_news_sentiment_with_cache
 from models.train_model import prepare_target_variable, train_signal_model
 from models.predict import predict_signal
 from signals.signal_generator import generate_signal_output
+from models.continuous_learning import continuous_learner
 from config import Config
 from datetime import datetime, date
 from utils.logger import get_logger
@@ -136,8 +137,8 @@ def run_market_analysis():
             to_date = price_df.index[-1].strftime('%Y-%m-%d')
             sentiment = get_news_sentiment_with_cache(keywords, from_date, to_date, pair)
             logger.info(f"News sentiment score: {sentiment:.4f}")
-            logger.info(f"Generating technical indicators...")
-            features_df = preprocess_features(price_df, sentiment)
+            logger.info(f"Generating technical indicators with multi-timeframe analysis...")
+            features_df = preprocess_features(price_df, sentiment, use_multi_timeframe=True)
             logger.info(f"Feature DataFrame shape: {features_df.shape}")
             logger.info(f"Feature summary (last 5 rows):\n{features_df.tail()}\n")
             df = prepare_target_variable(features_df)
@@ -169,4 +170,10 @@ def run_market_analysis():
     logger.info("Signal generation summary:")
     for pair, result in signal_summary.items():
         logger.info(f"{pair}: {result}")
+    # Run continuous learning cycle
+    try:
+        logger.info("Running continuous learning cycle...")
+        continuous_learner.run_continuous_learning_cycle()
+    except Exception as e:
+        logger.error(f"Error in continuous learning: {e}")
     return ALL_PAIRS, signals, signal_summary 

@@ -11,9 +11,9 @@ class Config:
     ALPHA_VANTAGE_API_KEY = os.getenv('ALPHA_VANTAGE_API_KEY')
     NEWS_API_KEY = os.getenv('NEWS_API_KEY')
     FMP_API_KEY = os.getenv('FMP_API_KEY')
-    NEWSDATA_API_KEY = os.getenv('NEWSDATA_API_KEY')
-    FINNHUB_API_KEY = os.getenv('FINNHUB_API_KEY')
-    CRYPTOPANIC_API_KEY = os.getenv('CRYPTOPANIC_API_KEY')
+    NEWSDATA_API_KEY = 'pub_20a9d7d787e04ea7b863ce9e33d55579'
+    FINNHUB_API_KEY = 'd1s0vo9r01qskg7qsuu0d1s0vo9r01qskg7qsuug'
+    CRYPTOPANIC_API_KEY = '33aac378af50f293544f98578dee9b3ceae19162'
 
     # Debug: Log whether keys are loaded
     logger.info(f"ALPHA_VANTAGE_API_KEY loaded: {'Yes' if ALPHA_VANTAGE_API_KEY else 'No'}")
@@ -37,7 +37,7 @@ class Config:
     MAX_LOT_SIZE = 0.05  # Maximum lot size
     
     # Model parameters
-    LOOKBACK_PERIOD = 60  # days of historical data
+    LOOKBACK_PERIOD = 90  # days of historical data
     PREDICTION_HORIZON = 24  # hours ahead to predict
     
     # Technical indicators

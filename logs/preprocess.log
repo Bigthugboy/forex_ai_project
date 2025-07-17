@@ -3234,3 +3234,245 @@ Datetime
 [2025-07-17 00:42:36] INFO preprocess: Feature engineering complete.
 [2025-07-17 00:42:36] INFO preprocess: [preprocess_features] Total missing values before fill: 0
 [2025-07-17 00:42:36] INFO preprocess: [preprocess_features] Total missing values after fill: 0
+[2025-07-17 01:30:05] INFO preprocess: Model is analyzing technical indicators...
+[2025-07-17 01:30:05] INFO preprocess: Starting data cleaning (missing values, outliers)...
+[2025-07-17 01:30:05] INFO preprocess: Data cleaning complete.
+[2025-07-17 01:30:05] INFO preprocess: Missing/outlier cleaning done.
+[2025-07-17 01:30:05] INFO preprocess: 
+[DEBUG] After ATR calculation:
+[2025-07-17 01:30:05] INFO preprocess:                                  Open        High         Low       Close  Volume  atr_14
+Datetime                                                                                 
+2025-04-24 23:00:00+00:00  142.852005  142.927994  142.688004  142.714005       0     0.0
+2025-04-25 00:00:00+00:00  143.063004  143.115997  142.817001  142.850998       0     0.0
+2025-04-25 01:00:00+00:00  142.962997  143.108994  142.906998  143.063995       0     0.0
+[2025-07-17 01:30:05] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14'], dtype='object')
+[2025-07-17 01:30:05] INFO preprocess: [DEBUG] ATR_14: min=0.0, max=0.576838846286261, mean=0.31367858650527514, NaNs=0
+[2025-07-17 01:30:05] INFO preprocess: 
+[DEBUG] After volatility calculation:
+[2025-07-17 01:30:05] INFO preprocess:                                  Open        High         Low       Close  Volume  atr_14  volatility_20
+Datetime                                                                                                
+2025-04-24 23:00:00+00:00  142.852005  142.927994  142.688004  142.714005       0     0.0            NaN
+2025-04-25 00:00:00+00:00  143.063004  143.115997  142.817001  142.850998       0     0.0            NaN
+2025-04-25 01:00:00+00:00  142.962997  143.108994  142.906998  143.063995       0     0.0            NaN
+[2025-07-17 01:30:05] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:30:05] INFO preprocess: [DEBUG] volatility_20: min=0.058281286967976374, max=1.1794675870846802, mean=0.32026798284879676, NaNs=19
+[2025-07-17 01:30:05] WARNING preprocess: [WARNING] NaN values found in volatility_20
+[2025-07-17 01:30:05] WARNING preprocess: [Warning] Could not compute candlestick patterns: Not enough price arguments: expected 4 (open, high, low, close)
+[2025-07-17 01:30:05] INFO preprocess: Model is studying candlestick patterns...
+[2025-07-17 01:30:05] INFO preprocess: 
+[DEBUG] After all feature engineering:
+[2025-07-17 01:30:05] INFO preprocess:                                  Open        High         Low       Close  Volume  atr_14  volatility_20
+Datetime                                                                                                
+2025-04-24 23:00:00+00:00  142.852005  142.927994  142.688004  142.714005       0     0.0            NaN
+2025-04-25 00:00:00+00:00  143.063004  143.115997  142.817001  142.850998       0     0.0            NaN
+2025-04-25 01:00:00+00:00  142.962997  143.108994  142.906998  143.063995       0     0.0            NaN
+[2025-07-17 01:30:05] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:30:05] INFO preprocess: [DEBUG] Dropped 19 rows with NaNs after feature engineering. Remaining rows: 1376
+[2025-07-17 01:30:05] INFO preprocess: Model is extracting price action features...
+[2025-07-17 01:30:05] INFO preprocess: Model is mapping supply (resistance) and demand (support) zones...
+[2025-07-17 01:30:05] INFO preprocess: Detected 621 supply and 527 demand zone points in window=20.
+[2025-07-17 01:30:05] INFO preprocess: Model is detecting Wyckoff cycle phase (accumulation, markup, distribution, markdown)...
+[2025-07-17 01:30:05] INFO preprocess: Wyckoff phase counts: {'markup': 692, 'markdown': 663, 'unknown': 40}
+[2025-07-17 01:30:05] INFO preprocess: Advanced market structure features added.
+[2025-07-17 01:30:05] INFO preprocess: Detected 44 head & shoulders and 44 inverse head & shoulders patterns.
+[2025-07-17 01:30:05] INFO preprocess: Detected 0 double tops and 0 double bottoms.
+[2025-07-17 01:30:05] INFO preprocess: Detected 354 rising wedges and 281 falling wedges.
+[2025-07-17 01:30:05] INFO preprocess: Detected 1 fakeout ups and 0 fakeout downs.
+[2025-07-17 01:30:05] INFO preprocess: Advanced price action pattern features added.
+[2025-07-17 01:30:05] INFO preprocess: Feature engineering complete.
+[2025-07-17 01:30:08] INFO preprocess: Model is analyzing technical indicators...
+[2025-07-17 01:30:08] INFO preprocess: Starting data cleaning (missing values, outliers)...
+[2025-07-17 01:30:08] INFO preprocess: Outliers detected: 56
+[2025-07-17 01:30:08] INFO preprocess: Outliers replaced with median.
+[2025-07-17 01:30:08] INFO preprocess: Data cleaning complete.
+[2025-07-17 01:30:08] INFO preprocess: Missing/outlier cleaning done.
+[2025-07-17 01:30:08] INFO preprocess: 
+[DEBUG] After ATR calculation:
+[2025-07-17 01:30:08] INFO preprocess:                                     Open           High            Low          Close      Volume  atr_14
+Datetime                                                                                                 
+2025-05-19 00:00:00+00:00  105256.929688  107038.789062  105244.546875  106516.164062           0     0.0
+2025-05-19 01:00:00+00:00  105068.890625  105352.765625  104766.031250  105272.570312  2186604544     0.0
+2025-05-19 02:00:00+00:00  104627.812500  105149.562500  104613.437500  105045.687500   257662976     0.0
+[2025-07-17 01:30:08] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14'], dtype='object')
+[2025-07-17 01:30:08] INFO preprocess: [DEBUG] ATR_14: min=0.0, max=2777.3709110315517, mean=624.8094378460212, NaNs=0
+[2025-07-17 01:30:08] INFO preprocess: 
+[DEBUG] After volatility calculation:
+[2025-07-17 01:30:08] INFO preprocess:                                     Open           High            Low  ...      Volume  atr_14  volatility_20
+Datetime                                                                ...                                   
+2025-05-19 00:00:00+00:00  105256.929688  107038.789062  105244.546875  ...           0     0.0            NaN
+2025-05-19 01:00:00+00:00  105068.890625  105352.765625  104766.031250  ...  2186604544     0.0            NaN
+2025-05-19 02:00:00+00:00  104627.812500  105149.562500  104613.437500  ...   257662976     0.0            NaN
+
+[3 rows x 7 columns]
+[2025-07-17 01:30:08] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:30:08] INFO preprocess: [DEBUG] volatility_20: min=61.296903671439374, max=6461.977184319787, mean=706.8831608831475, NaNs=19
+[2025-07-17 01:30:08] WARNING preprocess: [WARNING] NaN values found in volatility_20
+[2025-07-17 01:30:08] WARNING preprocess: [Warning] Could not compute candlestick patterns: Not enough price arguments: expected 4 (open, high, low, close)
+[2025-07-17 01:30:08] INFO preprocess: Model is studying candlestick patterns...
+[2025-07-17 01:30:08] INFO preprocess: 
+[DEBUG] After all feature engineering:
+[2025-07-17 01:30:08] INFO preprocess:                                     Open           High            Low  ...      Volume  atr_14  volatility_20
+Datetime                                                                ...                                   
+2025-05-19 00:00:00+00:00  105256.929688  107038.789062  105244.546875  ...           0     0.0            NaN
+2025-05-19 01:00:00+00:00  105068.890625  105352.765625  104766.031250  ...  2186604544     0.0            NaN
+2025-05-19 02:00:00+00:00  104627.812500  105149.562500  104613.437500  ...   257662976     0.0            NaN
+
+[3 rows x 7 columns]
+[2025-07-17 01:30:08] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:30:08] INFO preprocess: [DEBUG] Dropped 19 rows with NaNs after feature engineering. Remaining rows: 1395
+[2025-07-17 01:30:08] INFO preprocess: Model is extracting price action features...
+[2025-07-17 01:30:08] INFO preprocess: Model is mapping supply (resistance) and demand (support) zones...
+[2025-07-17 01:30:08] INFO preprocess: Detected 371 supply and 285 demand zone points in window=20.
+[2025-07-17 01:30:08] INFO preprocess: Model is detecting Wyckoff cycle phase (accumulation, markup, distribution, markdown)...
+[2025-07-17 01:30:08] INFO preprocess: Wyckoff phase counts: {'markup': 639, 'markdown': 545, 'distribution': 189, 'unknown': 40, 'accumulation': 1}
+[2025-07-17 01:30:08] INFO preprocess: Advanced market structure features added.
+[2025-07-17 01:30:08] INFO preprocess: Detected 48 head & shoulders and 46 inverse head & shoulders patterns.
+[2025-07-17 01:30:08] INFO preprocess: Detected 0 double tops and 0 double bottoms.
+[2025-07-17 01:30:08] INFO preprocess: Detected 393 rising wedges and 357 falling wedges.
+[2025-07-17 01:30:08] INFO preprocess: Detected 6 fakeout ups and 9 fakeout downs.
+[2025-07-17 01:30:08] INFO preprocess: Advanced price action pattern features added.
+[2025-07-17 01:30:08] INFO preprocess: Feature engineering complete.
+[2025-07-17 01:30:10] INFO preprocess: Model is analyzing technical indicators...
+[2025-07-17 01:30:10] INFO preprocess: Starting data cleaning (missing values, outliers)...
+[2025-07-17 01:30:10] INFO preprocess: Data cleaning complete.
+[2025-07-17 01:30:10] INFO preprocess: Missing/outlier cleaning done.
+[2025-07-17 01:30:10] INFO preprocess: 
+[DEBUG] After ATR calculation:
+[2025-07-17 01:30:10] INFO preprocess:                               Open     High      Low    Close  Volume  atr_14
+Datetime                                                                     
+2025-04-24 23:00:00+00:00  0.82855  0.82883  0.82722  0.82734       0     0.0
+2025-04-25 00:00:00+00:00  0.83072  0.83080  0.82847  0.82853       0     0.0
+2025-04-25 01:00:00+00:00  0.83089  0.83110  0.83000  0.83075       0     0.0
+[2025-07-17 01:30:10] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14'], dtype='object')
+[2025-07-17 01:30:10] INFO preprocess: [DEBUG] ATR_14: min=0.0, max=0.003461716837710192, mean=0.0016917820679290948, NaNs=0
+[2025-07-17 01:30:10] INFO preprocess: 
+[DEBUG] After volatility calculation:
+[2025-07-17 01:30:10] INFO preprocess:                               Open     High      Low    Close  Volume  atr_14  volatility_20
+Datetime                                                                                    
+2025-04-24 23:00:00+00:00  0.82855  0.82883  0.82722  0.82734       0     0.0            NaN
+2025-04-25 00:00:00+00:00  0.83072  0.83080  0.82847  0.82853       0     0.0            NaN
+2025-04-25 01:00:00+00:00  0.83089  0.83110  0.83000  0.83075       0     0.0            NaN
+[2025-07-17 01:30:10] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:30:10] INFO preprocess: [DEBUG] volatility_20: min=0.00033949322781853423, max=0.0053707358114902, mean=0.0014999210661134235, NaNs=19
+[2025-07-17 01:30:10] WARNING preprocess: [WARNING] NaN values found in volatility_20
+[2025-07-17 01:30:10] WARNING preprocess: [Warning] Could not compute candlestick patterns: Not enough price arguments: expected 4 (open, high, low, close)
+[2025-07-17 01:30:10] INFO preprocess: Model is studying candlestick patterns...
+[2025-07-17 01:30:10] INFO preprocess: 
+[DEBUG] After all feature engineering:
+[2025-07-17 01:30:10] INFO preprocess:                               Open     High      Low    Close  Volume  atr_14  volatility_20
+Datetime                                                                                    
+2025-04-24 23:00:00+00:00  0.82855  0.82883  0.82722  0.82734       0     0.0            NaN
+2025-04-25 00:00:00+00:00  0.83072  0.83080  0.82847  0.82853       0     0.0            NaN
+2025-04-25 01:00:00+00:00  0.83089  0.83110  0.83000  0.83075       0     0.0            NaN
+[2025-07-17 01:30:10] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:30:10] INFO preprocess: [DEBUG] Dropped 19 rows with NaNs after feature engineering. Remaining rows: 1377
+[2025-07-17 01:30:10] INFO preprocess: Model is extracting price action features...
+[2025-07-17 01:30:10] INFO preprocess: Model is mapping supply (resistance) and demand (support) zones...
+[2025-07-17 01:30:10] INFO preprocess: Detected 582 supply and 671 demand zone points in window=20.
+[2025-07-17 01:30:10] INFO preprocess: Model is detecting Wyckoff cycle phase (accumulation, markup, distribution, markdown)...
+[2025-07-17 01:30:10] INFO preprocess: Wyckoff phase counts: {'markdown': 744, 'markup': 612, 'unknown': 40}
+[2025-07-17 01:30:10] INFO preprocess: Advanced market structure features added.
+[2025-07-17 01:30:10] INFO preprocess: Detected 47 head & shoulders and 43 inverse head & shoulders patterns.
+[2025-07-17 01:30:10] INFO preprocess: Detected 0 double tops and 15 double bottoms.
+[2025-07-17 01:30:10] INFO preprocess: Detected 283 rising wedges and 312 falling wedges.
+[2025-07-17 01:30:11] INFO preprocess: Detected 0 fakeout ups and 0 fakeout downs.
+[2025-07-17 01:30:11] INFO preprocess: Advanced price action pattern features added.
+[2025-07-17 01:30:11] INFO preprocess: Feature engineering complete.
+[2025-07-17 01:30:13] INFO preprocess: Model is analyzing technical indicators...
+[2025-07-17 01:30:13] INFO preprocess: Starting data cleaning (missing values, outliers)...
+[2025-07-17 01:30:13] INFO preprocess: Data cleaning complete.
+[2025-07-17 01:30:13] INFO preprocess: Missing/outlier cleaning done.
+[2025-07-17 01:30:13] INFO preprocess: 
+[DEBUG] After ATR calculation:
+[2025-07-17 01:30:13] INFO preprocess:                                 Open       High        Low      Close  Volume  atr_14
+Datetime                                                                             
+2025-04-24 23:00:00+00:00  85.531998  85.627998  85.516998  85.544998       0     0.0
+2025-04-25 00:00:00+00:00  85.628998  85.683998  85.525002  85.536003       0     0.0
+2025-04-25 01:00:00+00:00  85.518997  85.662003  85.500000  85.626999       0     0.0
+[2025-07-17 01:30:13] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14'], dtype='object')
+[2025-07-17 01:30:13] INFO preprocess: [DEBUG] ATR_14: min=0.0, max=0.3229581786567834, mean=0.1932440067228649, NaNs=0
+[2025-07-17 01:30:13] INFO preprocess: 
+[DEBUG] After volatility calculation:
+[2025-07-17 01:30:13] INFO preprocess:                                 Open       High        Low      Close  Volume  atr_14  volatility_20
+Datetime                                                                                            
+2025-04-24 23:00:00+00:00  85.531998  85.627998  85.516998  85.544998       0     0.0            NaN
+2025-04-25 00:00:00+00:00  85.628998  85.683998  85.525002  85.536003       0     0.0            NaN
+2025-04-25 01:00:00+00:00  85.518997  85.662003  85.500000  85.626999       0     0.0            NaN
+[2025-07-17 01:30:13] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:30:13] INFO preprocess: [DEBUG] volatility_20: min=0.048746262844813835, max=0.44772821841541066, mean=0.17214166681337675, NaNs=19
+[2025-07-17 01:30:13] WARNING preprocess: [WARNING] NaN values found in volatility_20
+[2025-07-17 01:30:13] WARNING preprocess: [Warning] Could not compute candlestick patterns: Not enough price arguments: expected 4 (open, high, low, close)
+[2025-07-17 01:30:13] INFO preprocess: Model is studying candlestick patterns...
+[2025-07-17 01:30:13] INFO preprocess: 
+[DEBUG] After all feature engineering:
+[2025-07-17 01:30:13] INFO preprocess:                                 Open       High        Low      Close  Volume  atr_14  volatility_20
+Datetime                                                                                            
+2025-04-24 23:00:00+00:00  85.531998  85.627998  85.516998  85.544998       0     0.0            NaN
+2025-04-25 00:00:00+00:00  85.628998  85.683998  85.525002  85.536003       0     0.0            NaN
+2025-04-25 01:00:00+00:00  85.518997  85.662003  85.500000  85.626999       0     0.0            NaN
+[2025-07-17 01:30:13] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:30:13] INFO preprocess: [DEBUG] Dropped 19 rows with NaNs after feature engineering. Remaining rows: 1385
+[2025-07-17 01:30:13] INFO preprocess: Model is extracting price action features...
+[2025-07-17 01:30:13] INFO preprocess: Model is mapping supply (resistance) and demand (support) zones...
+[2025-07-17 01:30:13] INFO preprocess: Detected 655 supply and 519 demand zone points in window=20.
+[2025-07-17 01:30:13] INFO preprocess: Model is detecting Wyckoff cycle phase (accumulation, markup, distribution, markdown)...
+[2025-07-17 01:30:13] INFO preprocess: Wyckoff phase counts: {'markup': 785, 'markdown': 579, 'unknown': 40}
+[2025-07-17 01:30:13] INFO preprocess: Advanced market structure features added.
+[2025-07-17 01:30:13] INFO preprocess: Detected 48 head & shoulders and 39 inverse head & shoulders patterns.
+[2025-07-17 01:30:13] INFO preprocess: Detected 6 double tops and 2 double bottoms.
+[2025-07-17 01:30:13] INFO preprocess: Detected 406 rising wedges and 343 falling wedges.
+[2025-07-17 01:30:13] INFO preprocess: Detected 2 fakeout ups and 1 fakeout downs.
+[2025-07-17 01:30:13] INFO preprocess: Advanced price action pattern features added.
+[2025-07-17 01:30:13] INFO preprocess: Feature engineering complete.
+[2025-07-17 01:41:52] INFO preprocess: Model is analyzing technical indicators...
+[2025-07-17 01:41:52] INFO preprocess: Adding multi-timeframe features for USDJPY
+[2025-07-17 01:41:55] INFO preprocess: Multi-timeframe features shape: (2103, 19)
+[2025-07-17 01:41:55] INFO preprocess: Starting data cleaning (missing values, outliers)...
+[2025-07-17 01:41:55] INFO preprocess: Data cleaning complete.
+[2025-07-17 01:41:55] INFO preprocess: Missing/outlier cleaning done.
+[2025-07-17 01:41:55] INFO preprocess: 
+[DEBUG] After ATR calculation:
+[2025-07-17 01:41:55] INFO preprocess:                                  Open        High         Low       Close  Volume  atr_14
+Datetime                                                                                 
+2025-03-14 00:00:00+00:00  148.294006  148.328995  147.841995  147.938004       0     0.0
+2025-03-14 01:00:00+00:00  148.173996  148.429993  148.151993  148.298004       0     0.0
+2025-03-14 02:00:00+00:00  148.246002  148.313995  148.156006  148.169006       0     0.0
+[2025-07-17 01:41:55] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14'], dtype='object')
+[2025-07-17 01:41:55] INFO preprocess: [DEBUG] ATR_14: min=0.0, max=0.9927274752230194, mean=0.3494317746185444, NaNs=0
+[2025-07-17 01:41:55] INFO preprocess: 
+[DEBUG] After volatility calculation:
+[2025-07-17 01:41:55] INFO preprocess:                                  Open        High         Low       Close  Volume  atr_14  volatility_20
+Datetime                                                                                                
+2025-03-14 00:00:00+00:00  148.294006  148.328995  147.841995  147.938004       0     0.0            NaN
+2025-03-14 01:00:00+00:00  148.173996  148.429993  148.151993  148.298004       0     0.0            NaN
+2025-03-14 02:00:00+00:00  148.246002  148.313995  148.156006  148.169006       0     0.0            NaN
+[2025-07-17 01:41:55] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:41:55] INFO preprocess: [DEBUG] volatility_20: min=0.034364702359906456, max=1.3003849743005327, mean=0.3501174151164059, NaNs=19
+[2025-07-17 01:41:55] WARNING preprocess: [WARNING] NaN values found in volatility_20
+[2025-07-17 01:41:55] WARNING preprocess: [Warning] Could not compute candlestick patterns: Not enough price arguments: expected 4 (open, high, low, close)
+[2025-07-17 01:41:55] INFO preprocess: Model is studying candlestick patterns...
+[2025-07-17 01:41:55] INFO preprocess: 
+[DEBUG] After all feature engineering:
+[2025-07-17 01:41:55] INFO preprocess:                                  Open        High         Low       Close  Volume  atr_14  volatility_20
+Datetime                                                                                                
+2025-03-14 00:00:00+00:00  148.294006  148.328995  147.841995  147.938004       0     0.0            NaN
+2025-03-14 01:00:00+00:00  148.173996  148.429993  148.151993  148.298004       0     0.0            NaN
+2025-03-14 02:00:00+00:00  148.246002  148.313995  148.156006  148.169006       0     0.0            NaN
+[2025-07-17 01:41:55] INFO preprocess: [DEBUG] Columns: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20'], dtype='object')
+[2025-07-17 01:41:55] INFO preprocess: [DEBUG] Dropped 19 rows with NaNs after feature engineering. Remaining rows: 2085
+[2025-07-17 01:41:55] INFO preprocess: Model is extracting price action features...
+[2025-07-17 01:41:55] INFO preprocess: Model is mapping supply (resistance) and demand (support) zones...
+[2025-07-17 01:41:55] INFO preprocess: Detected 880 supply and 779 demand zone points in window=20.
+[2025-07-17 01:41:55] INFO preprocess: Model is detecting Wyckoff cycle phase (accumulation, markup, distribution, markdown)...
+[2025-07-17 01:41:55] INFO preprocess: Wyckoff phase counts: {'markdown': 1044, 'markup': 1020, 'unknown': 40}
+[2025-07-17 01:41:55] INFO preprocess: Advanced market structure features added.
+[2025-07-17 01:41:55] INFO preprocess: Detected 68 head & shoulders and 70 inverse head & shoulders patterns.
+[2025-07-17 01:41:55] INFO preprocess: Detected 0 double tops and 0 double bottoms.
+[2025-07-17 01:41:56] INFO preprocess: Detected 548 rising wedges and 484 falling wedges.
+[2025-07-17 01:41:56] INFO preprocess: Detected 1 fakeout ups and 0 fakeout downs.
+[2025-07-17 01:41:56] INFO preprocess: Advanced price action pattern features added.
+[2025-07-17 01:41:56] INFO preprocess: Feature engineering complete.
+[2025-07-17 01:41:56] INFO preprocess: [preprocess_features] Total missing values before fill: 0
+[2025-07-17 01:41:56] INFO preprocess: [preprocess_features] Total missing values after fill: 0
+[2025-07-17 01:41:56] INFO preprocess: Integrating multi-timeframe features...
+[2025-07-17 01:41:56] INFO preprocess: Added 14 multi-timeframe features

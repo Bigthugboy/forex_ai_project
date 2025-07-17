@@ -8,6 +8,7 @@ import unittest
 import numpy as np
 import os
 from utils.logger import get_logger
+from config import Config
 logger = get_logger('preprocess', log_file='logs/preprocess.log')
 
 # --- Advanced Data Cleaning Helpers ---
@@ -225,8 +226,32 @@ def detect_fakeouts(df, close_col, high_col, low_col, window=20, threshold=0.001
     logger.info(f"Detected {sum(fakeout_up)} fakeout ups and {sum(fakeout_down)} fakeout downs.")
     return df
 
-def preprocess_features(price_df, sentiment_score):
+def preprocess_features(price_df, sentiment_score, use_multi_timeframe=True):
     logger.info('Model is analyzing technical indicators...')
+    
+    # Add multi-timeframe analysis if enabled
+    if use_multi_timeframe:
+        try:
+            from data.multi_timeframe import get_multi_timeframe_features
+            # Extract symbol from price_df (assuming it's in the data somewhere)
+            # For now, we'll use the first symbol from config
+            symbol = Config.TRADING_PAIRS[0] if Config.TRADING_PAIRS else 'USDJPY'
+            logger.info(f'Adding multi-timeframe features for {symbol}')
+            
+            # Get multi-timeframe features
+            mtf_features = get_multi_timeframe_features(symbol, lookback_days=90)
+            if mtf_features is not None and not mtf_features.empty:
+                # Merge multi-timeframe features with base features
+                # We'll add them after the base features are created
+                logger.info(f'Multi-timeframe features shape: {mtf_features.shape}')
+            else:
+                logger.warning('Could not fetch multi-timeframe features, continuing with base features only')
+                mtf_features = None
+        except Exception as e:
+            logger.warning(f'Error in multi-timeframe analysis: {e}, continuing with base features only')
+            mtf_features = None
+    else:
+        mtf_features = None
     # Flatten MultiIndex columns if present
     if isinstance(price_df.columns, pd.MultiIndex):
         price_df.columns = ['_'.join([str(i) for i in col if i]) for col in price_df.columns.values]
@@ -395,6 +420,32 @@ def preprocess_features(price_df, sentiment_score):
         df = df.ffill().bfill().fillna(0)
         missing_after = df.isna().sum().sum()
         logger.info(f"[preprocess_features] Total missing values after fill: {missing_after}")
+        
+        # Add multi-timeframe features if available
+        if mtf_features is not None and not mtf_features.empty:
+            try:
+                logger.info('Integrating multi-timeframe features...')
+                # Align indices
+                common_index = df.index.intersection(mtf_features.index)
+                if len(common_index) > 0:
+                    df_aligned = df.loc[common_index]
+                    mtf_aligned = mtf_features.loc[common_index]
+                    
+                    # Add multi-timeframe features (excluding price columns to avoid duplicates)
+                    mtf_feature_cols = [col for col in mtf_aligned.columns 
+                                      if not col.startswith(('Open', 'High', 'Low', 'Close', 'Volume'))]
+                    
+                    for col in mtf_feature_cols:
+                        if col not in df_aligned.columns:
+                            df_aligned[col] = mtf_aligned[col]
+                    
+                    df = df_aligned
+                    logger.info(f'Added {len(mtf_feature_cols)} multi-timeframe features')
+                else:
+                    logger.warning('No common index found for multi-timeframe integration')
+            except Exception as e:
+                logger.error(f'Error integrating multi-timeframe features: {e}')
+        
         return df
     except Exception as e:
         logger.error(f'Error in preprocess_features: {e}', exc_info=True)
