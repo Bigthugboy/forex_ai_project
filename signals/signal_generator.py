@@ -153,9 +153,25 @@ def generate_signal_output(pair, features_df, prediction_result):
     prediction = prediction_result['prediction']
     confidence = prediction_result['confidence']
     # --- Indicator and pattern logging ---
-    rsi = latest.get('rsi_14', 'N/A')
-    macd = latest.get('macd', 'N/A')
-    macd_signal = latest.get('macd_signal', 'N/A')
+    # Try to get RSI and MACD from different timeframes if not present in base
+    rsi = (
+        latest.get('rsi_14') or
+        latest.get('rsi_14_1h') or
+        latest.get('rsi_14_4h') or
+        'N/A'
+    )
+    macd = (
+        latest.get('macd') or
+        latest.get('macd_1h') or
+        latest.get('macd_4h') or
+        'N/A'
+    )
+    macd_signal = (
+        latest.get('macd_signal') or
+        latest.get('macd_signal_1h') or
+        latest.get('macd_signal_4h') or
+        'N/A'
+    )
     news_sentiment = latest.get('news_sentiment', 'N/A')
     patterns = [k for k in ['bullish_engulfing_bar', 'bearish_engulfing_bar', 'pin_bar'] if latest.get(k)]
     logger.info(f"Analyzing {pair} at {latest_time}: RSI={rsi}, MACD={macd}, MACD_signal={macd_signal}, News sentiment={news_sentiment}")

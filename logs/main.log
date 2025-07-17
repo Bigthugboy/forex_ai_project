@@ -2502,3 +2502,78 @@ Datetime                                           ...
 
 [2025-07-17 02:08:35] INFO main: Target class balance: {0: 1390, 1: 713}
 [2025-07-17 02:08:35] INFO main: Training AI model...
+[2025-07-17 02:10:39] INFO main: AI-Powered Forex & Crypto Signal Generator (Session Clustered Mode)
+[2025-07-17 02:10:39] INFO main: Running market analysis...
+[2025-07-17 02:10:39] INFO main: Fetching price data for USDJPY...
+[2025-07-17 02:10:41] INFO main: Fetched 2105 rows of price data for USDJPY
+[2025-07-17 02:10:41] INFO main: Getting keywords for pair: USDJPY
+[2025-07-17 02:10:41] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:10:44] INFO main: News sentiment score: -0.1989
+[2025-07-17 02:10:44] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:10:47] INFO main: Feature DataFrame shape: (2103, 34)
+[2025-07-17 02:10:47] INFO main: Feature summary (last 5 rows):
+                                 Open  ...  trend_strength_4h
+Datetime                               ...                   
+2025-07-16 17:00:00+00:00  147.681000  ...           0.002186
+2025-07-16 18:00:00+00:00  147.942993  ...           0.001847
+2025-07-16 19:00:00+00:00  147.841995  ...           0.001507
+2025-07-16 20:00:00+00:00  147.830994  ...           0.001145
+2025-07-16 23:00:00+00:00  147.988007  ...           0.000783
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:10:47] INFO main: Target class balance: {0: 1390, 1: 713}
+[2025-07-17 02:10:47] INFO main: Training AI model...
+[2025-07-17 02:10:52] INFO main: Model trained successfully!
+[2025-07-17 02:10:52] INFO main: Making signal prediction...
+[2025-07-17 02:10:52] INFO main: No valid signal generated for USDJPY: filtered out due to confluence, confidence, or news event.
+[2025-07-17 02:10:52] INFO main: Fetching price data for BTCUSD...
+[2025-07-17 02:10:53] INFO main: Fetched 2135 rows of price data for BTCUSD
+[2025-07-17 02:10:53] INFO main: Getting keywords for pair: BTCUSD
+[2025-07-17 02:10:53] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:11:00] INFO main: News sentiment score: 0.0855
+[2025-07-17 02:11:00] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:11:04] INFO main: Feature DataFrame shape: (1489, 34)
+[2025-07-17 02:11:04] INFO main: Feature summary (last 5 rows):
+                                    Open  ...  trend_strength_4h
+Datetime                                  ...                   
+2025-07-16 16:00:00+00:00  119312.914062  ...           0.002566
+2025-07-16 17:00:00+00:00  119129.312500  ...           0.002186
+2025-07-16 18:00:00+00:00  119634.789062  ...           0.001847
+2025-07-16 19:00:00+00:00  119255.750000  ...           0.001507
+2025-07-16 20:00:00+00:00  119478.320312  ...           0.001145
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:11:04] INFO main: Target class balance: {0: 764, 1: 725}
+[2025-07-17 02:11:04] INFO main: Training AI model...
+[2025-07-17 02:11:07] INFO main: Model trained successfully!
+[2025-07-17 02:11:07] INFO main: Making signal prediction...
+[2025-07-17 02:11:07] INFO main: No valid signal generated for BTCUSD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 02:11:07] INFO main: Fetching price data for JPYNZD...
+[2025-07-17 02:11:08] INFO main: Fetched 2119 rows of price data for JPYNZD
+[2025-07-17 02:11:08] INFO main: Getting keywords for pair: JPYNZD
+[2025-07-17 02:11:08] INFO main: Fetching news sentiment (with cache)...
+[2025-07-17 02:11:10] INFO main: News sentiment score: 0.0000
+[2025-07-17 02:11:10] INFO main: Generating technical indicators with multi-timeframe analysis...
+[2025-07-17 02:11:14] INFO main: Feature DataFrame shape: (2103, 34)
+[2025-07-17 02:11:14] INFO main: Feature summary (last 5 rows):
+                                Open  ...  trend_strength_4h
+Datetime                              ...                   
+2025-07-16 17:00:00+00:00  87.794998  ...           0.002186
+2025-07-16 18:00:00+00:00  87.824997  ...           0.001847
+2025-07-16 19:00:00+00:00  87.867996  ...           0.001507
+2025-07-16 20:00:00+00:00  87.862000  ...           0.001145
+2025-07-16 23:00:00+00:00  87.963997  ...           0.000783
+
+[5 rows x 34 columns]
+
+[2025-07-17 02:11:14] INFO main: Target class balance: {0: 1331, 1: 772}
+[2025-07-17 02:11:14] INFO main: Training AI model...
+[2025-07-17 02:11:18] INFO main: Model trained successfully!
+[2025-07-17 02:11:18] INFO main: Making signal prediction...
+[2025-07-17 02:11:18] INFO main: No valid signal generated for JPYNZD: filtered out due to confluence, confidence, or news event.
+[2025-07-17 02:11:18] INFO main: Signal generation summary:
+[2025-07-17 02:11:18] INFO main: USDJPY: No valid signal
+[2025-07-17 02:11:18] INFO main: BTCUSD: No valid signal
+[2025-07-17 02:11:18] INFO main: JPYNZD: No valid signal

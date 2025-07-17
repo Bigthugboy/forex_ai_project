@@ -164,3 +164,33 @@
 [2025-07-17 02:08:34] INFO multi_timeframe: Successfully fetched 535 rows of 4h data for USDJPY
 [2025-07-17 02:08:34] INFO multi_timeframe: Added 4h timeframe features
 [2025-07-17 02:08:34] INFO multi_timeframe: Created multi-timeframe features with shape: (2103, 19)
+[2025-07-17 02:10:44] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 02:10:44] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 02:10:44] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 02:10:45] WARNING multi_timeframe: No 15m data received for USDJPY
+[2025-07-17 02:10:45] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 02:10:46] INFO multi_timeframe: Successfully fetched 2105 rows of 1h data for USDJPY
+[2025-07-17 02:10:46] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 02:10:47] INFO multi_timeframe: Successfully fetched 535 rows of 4h data for USDJPY
+[2025-07-17 02:10:47] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 02:10:47] INFO multi_timeframe: Created multi-timeframe features with shape: (2103, 19)
+[2025-07-17 02:11:00] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 02:11:00] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 02:11:00] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 02:11:01] WARNING multi_timeframe: No 15m data received for USDJPY
+[2025-07-17 02:11:01] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 02:11:02] INFO multi_timeframe: Successfully fetched 2105 rows of 1h data for USDJPY
+[2025-07-17 02:11:02] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 02:11:03] INFO multi_timeframe: Successfully fetched 535 rows of 4h data for USDJPY
+[2025-07-17 02:11:03] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 02:11:03] INFO multi_timeframe: Created multi-timeframe features with shape: (2103, 19)
+[2025-07-17 02:11:10] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 02:11:10] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 02:11:10] INFO multi_timeframe: Fetching 15m data for USDJPY
+[2025-07-17 02:11:12] WARNING multi_timeframe: No 15m data received for USDJPY
+[2025-07-17 02:11:12] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 02:11:13] INFO multi_timeframe: Successfully fetched 2105 rows of 1h data for USDJPY
+[2025-07-17 02:11:13] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 02:11:13] INFO multi_timeframe: Successfully fetched 535 rows of 4h data for USDJPY
+[2025-07-17 02:11:13] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 02:11:13] INFO multi_timeframe: Created multi-timeframe features with shape: (2103, 19)
