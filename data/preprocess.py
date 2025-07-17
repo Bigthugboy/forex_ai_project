@@ -370,6 +370,17 @@ def preprocess_features(price_df, sentiment_score):
             wyckoff_dummies = pd.get_dummies(df['wyckoff_phase'], prefix='wyckoff')
             df = pd.concat([df, wyckoff_dummies], axis=1)
             df.drop('wyckoff_phase', axis=1, inplace=True)
+            # Ensure all possible wyckoff one-hot columns are present
+            wyckoff_phases = [
+                'wyckoff_accumulation',
+                'wyckoff_distribution',
+                'wyckoff_markdown',
+                'wyckoff_markup',
+                'wyckoff_unknown'
+            ]
+            for col in wyckoff_phases:
+                if col not in df.columns:
+                    df[col] = 0
         logger.info('Advanced market structure features added.')
         # --- Advanced Price Action Patterns ---
         df = detect_head_shoulders(df, close_col)
@@ -378,6 +389,12 @@ def preprocess_features(price_df, sentiment_score):
         df = detect_fakeouts(df, close_col, high_col, low_col)
         logger.info('Advanced price action pattern features added.')
         logger.info('Feature engineering complete.')
+        # After all indicators/features are computed:
+        missing_before = df.isna().sum().sum()
+        logger.info(f"[preprocess_features] Total missing values before fill: {missing_before}")
+        df = df.ffill().bfill().fillna(0)
+        missing_after = df.isna().sum().sum()
+        logger.info(f"[preprocess_features] Total missing values after fill: {missing_after}")
         return df
     except Exception as e:
         logger.error(f'Error in preprocess_features: {e}', exc_info=True)

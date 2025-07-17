@@ -1,5 +1,8 @@
 import os
 from dotenv import load_dotenv
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("config_debug")
 
 load_dotenv()  # Load environment variables from .env file
 
@@ -7,6 +10,18 @@ class Config:
     # API Keys
     ALPHA_VANTAGE_API_KEY = os.getenv('ALPHA_VANTAGE_API_KEY')
     NEWS_API_KEY = os.getenv('NEWS_API_KEY')
+    FMP_API_KEY = os.getenv('FMP_API_KEY')
+    NEWSDATA_API_KEY = os.getenv('NEWSDATA_API_KEY')
+    FINNHUB_API_KEY = os.getenv('FINNHUB_API_KEY')
+    CRYPTOPANIC_API_KEY = os.getenv('CRYPTOPANIC_API_KEY')
+
+    # Debug: Log whether keys are loaded
+    logger.info(f"ALPHA_VANTAGE_API_KEY loaded: {'Yes' if ALPHA_VANTAGE_API_KEY else 'No'}")
+    logger.info(f"NEWS_API_KEY loaded: {'Yes' if NEWS_API_KEY else 'No'}")
+    logger.info(f"FMP_API_KEY loaded: {'Yes' if FMP_API_KEY else 'No'}")
+    logger.info(f"NEWSDATA_API_KEY loaded: {'Yes' if NEWSDATA_API_KEY else 'No'}")
+    logger.info(f"FINNHUB_API_KEY loaded: {'Yes' if FINNHUB_API_KEY else 'No'}")
+    logger.info(f"CRYPTOPANIC_API_KEY loaded: {'Yes' if CRYPTOPANIC_API_KEY else 'No'}")
     
     # Trading pairs
     TRADING_PAIRS = ['USDJPY', 'BTCUSD']
@@ -57,8 +72,6 @@ class Config:
     def create_directories():
         for directory in [Config.MODEL_DIR, Config.DATA_DIR, Config.LOGS_DIR]:
             os.makedirs(directory, exist_ok=True) 
-
-    FMP_API_KEY = os.getenv('FMP_API_KEY')
 
 # --- Mailgun Notification Config ---
 MAILGUN_API_KEY = os.getenv('MAILGUN_API_KEY')

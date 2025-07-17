@@ -205,7 +205,7 @@ def generate_signal_output(pair, features_df, prediction_result):
         return None
     # --- Granular Confidence Scoring ---
     logger.info(f"Signal confidence score: {confidence:.2f} (interpreted as probability of correctness)")
-    if confluence_score < 4 or confidence < 0.8:
+    if confluence_score < 4 or confidence < 0.75:
         logger.info(f"No signal for {pair} at {latest_time}: insufficient confluence ({confluence_score}) or confidence ({confidence:.2f})")
         # If confidence is not less than 0.65, keep studying the chart
         if confidence >= 0.65:

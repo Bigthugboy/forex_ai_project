@@ -1,0 +1,93 @@
+[2025-07-16 19:21:39] INFO signal_generator: Analyzing USDJPY at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:21:39] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:21:39] INFO signal_generator: Confluence factors: [], score=0, confidence=0.52
+[2025-07-16 19:21:39] INFO signal_generator: Signal confidence score: 0.52 (interpreted as probability of correctness)
+[2025-07-16 19:21:39] INFO signal_generator: No signal for USDJPY at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.52)
+[2025-07-16 19:21:42] INFO signal_generator: Analyzing BTCUSD at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:21:42] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:21:42] INFO signal_generator: Confluence factors: [], score=0, confidence=0.53
+[2025-07-16 19:21:42] INFO signal_generator: Signal confidence score: 0.53 (interpreted as probability of correctness)
+[2025-07-16 19:21:42] INFO signal_generator: No signal for BTCUSD at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.53)
+[2025-07-16 19:21:45] INFO signal_generator: Analyzing USDCHF at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:21:45] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:21:45] INFO signal_generator: Confluence factors: [], score=0, confidence=0.53
+[2025-07-16 19:21:45] INFO signal_generator: Signal confidence score: 0.53 (interpreted as probability of correctness)
+[2025-07-16 19:21:45] INFO signal_generator: No signal for USDCHF at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.53)
+[2025-07-16 19:21:47] INFO signal_generator: Analyzing JPYNZD at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:21:47] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:21:47] INFO signal_generator: Confluence factors: [], score=0, confidence=0.66
+[2025-07-16 19:21:47] INFO signal_generator: Signal confidence score: 0.66 (interpreted as probability of correctness)
+[2025-07-16 19:21:47] INFO signal_generator: No signal for JPYNZD at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.66)
+[2025-07-16 19:21:47] INFO signal_generator: Model will keep studying the chart for JPYNZD at 2025-07-16 18:00:00+00:00: confidence (0.66) not low enough to give up.
+[2025-07-16 19:29:45] INFO signal_generator: Analyzing USDJPY at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:29:45] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:29:45] INFO signal_generator: Confluence factors: [], score=0, confidence=0.52
+[2025-07-16 19:29:45] INFO signal_generator: Signal confidence score: 0.52 (interpreted as probability of correctness)
+[2025-07-16 19:29:45] INFO signal_generator: No signal for USDJPY at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.52)
+[2025-07-16 19:30:18] INFO signal_generator: Analyzing BTCUSD at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:30:18] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:30:18] INFO signal_generator: Confluence factors: [], score=0, confidence=0.53
+[2025-07-16 19:30:18] INFO signal_generator: Signal confidence score: 0.53 (interpreted as probability of correctness)
+[2025-07-16 19:30:18] INFO signal_generator: No signal for BTCUSD at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.53)
+[2025-07-16 19:30:45] INFO signal_generator: Analyzing USDCHF at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:30:45] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:30:45] INFO signal_generator: Confluence factors: [], score=0, confidence=0.53
+[2025-07-16 19:30:45] INFO signal_generator: Signal confidence score: 0.53 (interpreted as probability of correctness)
+[2025-07-16 19:30:45] INFO signal_generator: No signal for USDCHF at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.53)
+[2025-07-16 19:31:09] INFO signal_generator: Analyzing JPYNZD at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:31:09] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:31:09] INFO signal_generator: Confluence factors: [], score=0, confidence=0.66
+[2025-07-16 19:31:09] INFO signal_generator: Signal confidence score: 0.66 (interpreted as probability of correctness)
+[2025-07-16 19:31:09] INFO signal_generator: No signal for JPYNZD at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.66)
+[2025-07-16 19:31:09] INFO signal_generator: Model will keep studying the chart for JPYNZD at 2025-07-16 18:00:00+00:00: confidence (0.66) not low enough to give up.
+[2025-07-16 19:34:24] INFO signal_generator: Analyzing USDCHF at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:34:24] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:34:24] INFO signal_generator: Confluence factors: [], score=0, confidence=0.53
+[2025-07-16 19:34:24] INFO signal_generator: Signal confidence score: 0.53 (interpreted as probability of correctness)
+[2025-07-16 19:34:24] INFO signal_generator: No signal for USDCHF at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.53)
+[2025-07-16 19:34:26] INFO signal_generator: Analyzing JPYNZD at 2025-07-16 18:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 19:34:26] INFO signal_generator: Detected patterns: None
+[2025-07-16 19:34:26] INFO signal_generator: Confluence factors: [], score=0, confidence=0.66
+[2025-07-16 19:34:26] INFO signal_generator: Signal confidence score: 0.66 (interpreted as probability of correctness)
+[2025-07-16 19:34:26] INFO signal_generator: No signal for JPYNZD at 2025-07-16 18:00:00+00:00: insufficient confluence (0) or confidence (0.66)
+[2025-07-16 19:34:26] INFO signal_generator: Model will keep studying the chart for JPYNZD at 2025-07-16 18:00:00+00:00: confidence (0.66) not low enough to give up.
+[2025-07-16 22:09:16] INFO signal_generator: Analyzing USDJPY at 2025-07-16 19:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 22:09:16] INFO signal_generator: Detected patterns: None
+[2025-07-16 22:09:16] INFO signal_generator: Confluence factors: [], score=0, confidence=0.54
+[2025-07-16 22:09:16] INFO signal_generator: Signal confidence score: 0.54 (interpreted as probability of correctness)
+[2025-07-16 22:09:16] INFO signal_generator: No signal for USDJPY at 2025-07-16 19:00:00+00:00: insufficient confluence (0) or confidence (0.54)
+[2025-07-16 22:09:17] INFO signal_generator: Analyzing USDJPY at 2025-07-16 21:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 22:09:17] INFO signal_generator: Detected patterns: None
+[2025-07-16 22:09:17] INFO signal_generator: Confluence factors: [], score=0, confidence=0.54
+[2025-07-16 22:09:17] INFO signal_generator: Signal confidence score: 0.54 (interpreted as probability of correctness)
+[2025-07-16 22:09:17] INFO signal_generator: No signal for USDJPY at 2025-07-16 21:00:00+00:00: insufficient confluence (0) or confidence (0.54)
+[2025-07-16 22:58:42] INFO signal_generator: Analyzing USDJPY at 2025-07-16 21:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-16 22:58:42] INFO signal_generator: Detected patterns: None
+[2025-07-16 22:58:42] INFO signal_generator: Confluence factors: [], score=0, confidence=0.54
+[2025-07-16 22:58:42] INFO signal_generator: Signal confidence score: 0.54 (interpreted as probability of correctness)
+[2025-07-16 22:58:42] INFO signal_generator: No signal for USDJPY at 2025-07-16 21:00:00+00:00: insufficient confluence (0) or confidence (0.54)
+[2025-07-17 00:00:28] INFO signal_generator: Analyzing USDJPY at 2025-07-16 23:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 00:00:28] INFO signal_generator: Detected patterns: None
+[2025-07-17 00:00:28] INFO signal_generator: Confluence factors: [], score=0, confidence=0.53
+[2025-07-17 00:00:28] INFO signal_generator: Signal confidence score: 0.53 (interpreted as probability of correctness)
+[2025-07-17 00:00:28] INFO signal_generator: No signal for USDJPY at 2025-07-16 23:00:00+00:00: insufficient confluence (0) or confidence (0.53)
+[2025-07-17 00:00:57] INFO signal_generator: Analyzing BTCUSD at 2025-07-16 22:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 00:00:57] INFO signal_generator: Detected patterns: None
+[2025-07-17 00:00:57] INFO signal_generator: Confluence factors: [], score=0, confidence=0.50
+[2025-07-17 00:00:57] INFO signal_generator: Signal confidence score: 0.50 (interpreted as probability of correctness)
+[2025-07-17 00:00:57] INFO signal_generator: No signal for BTCUSD at 2025-07-16 22:00:00+00:00: insufficient confluence (0) or confidence (0.50)
+[2025-07-17 00:01:21] INFO signal_generator: Analyzing USDCHF at 2025-07-16 23:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 00:01:21] INFO signal_generator: Detected patterns: None
+[2025-07-17 00:01:21] INFO signal_generator: Confluence factors: [], score=0, confidence=0.52
+[2025-07-17 00:01:21] INFO signal_generator: Signal confidence score: 0.52 (interpreted as probability of correctness)
+[2025-07-17 00:01:21] INFO signal_generator: No signal for USDCHF at 2025-07-16 23:00:00+00:00: insufficient confluence (0) or confidence (0.52)
+[2025-07-17 00:01:44] INFO signal_generator: Analyzing JPYNZD at 2025-07-16 23:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 00:01:44] INFO signal_generator: Detected patterns: None
+[2025-07-17 00:01:44] INFO signal_generator: Confluence factors: [], score=0, confidence=0.52
+[2025-07-17 00:01:44] INFO signal_generator: Signal confidence score: 0.52 (interpreted as probability of correctness)
+[2025-07-17 00:01:44] INFO signal_generator: No signal for JPYNZD at 2025-07-16 23:00:00+00:00: insufficient confluence (0) or confidence (0.52)
+[2025-07-17 00:19:47] INFO signal_generator: Analyzing USDJPY at 2025-07-16 23:00:00+00:00: RSI=N/A, MACD=N/A, MACD_signal=N/A, News sentiment=N/A
+[2025-07-17 00:19:47] INFO signal_generator: Detected patterns: None
+[2025-07-17 00:19:47] INFO signal_generator: Confluence factors: [], score=0, confidence=0.53
+[2025-07-17 00:19:47] INFO signal_generator: Signal confidence score: 0.53 (interpreted as probability of correctness)
+[2025-07-17 00:19:47] INFO signal_generator: No signal for USDJPY at 2025-07-16 23:00:00+00:00: insufficient confluence (0) or confidence (0.53)

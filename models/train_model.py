@@ -22,8 +22,8 @@ def prepare_target_variable(df):
     logger.info('Entering prepare_target_variable')
     # Detect correct column names
     close_col = [col for col in df.columns if col.startswith('Close')][0]
-    # Calculate future price change (next 4 hours)
-    df['future_return'] = df[close_col].shift(-4) / df[close_col] - 1
+    # Calculate future price change (next 5 hours)
+    df['future_return'] = df[close_col].shift(-5) / df[close_col] - 1
     # Create binary target: 1 if price goes up by more than 0.1%, 0 otherwise
     threshold = 0.001  # 0.1% threshold
     df['target'] = (df['future_return'] > threshold).astype(int)
@@ -50,7 +50,7 @@ def audit_data_quality(df, feature_cols, target_col='target'):
     plt.show()
     logger.info('Exiting audit_data_quality')
 
-def test_label_thresholds(df, close_col, thresholds=[0.001, 0.002, 0.003], lookaheads=[4, 8, 12]):
+def test_label_thresholds(df, close_col, thresholds=[0.001, 0.002, 0.003], lookaheads=[5, 8, 12]):
     import matplotlib.pyplot as plt
     logger.info('Entering test_label_thresholds')
     for lookahead in lookaheads:
@@ -132,6 +132,10 @@ def train_signal_model(features_df, model_path='models/saved_models/signal_model
             minority_upsampled = resample(minority, replace=True, n_samples=len(majority), random_state=42)
             if isinstance(minority_upsampled, pd.DataFrame) and not minority_upsampled.empty:
                 Xy_balanced = pd.concat([majority, minority_upsampled], axis=0).reset_index(drop=True)
+                # Ensure all feature columns are present after upsampling
+                for col in feature_cols:
+                    if col not in Xy_balanced.columns:
+                        Xy_balanced[col] = 0
                 X_bal = Xy_balanced[feature_cols]
                 y_bal = Xy_balanced['target']
                 print('Class balance after upsampling:')

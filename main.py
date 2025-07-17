@@ -19,10 +19,10 @@ import numpy as np
 
 logger = get_logger('main', log_file='logs/main.log')
 
-PAIRS = ['USDJPY', 'BTCUSD', 'USDCHF', 'JPYNZD']
+PAIRS = ['USDJPY', 'BTCUSD', 'JPYNZD']
 SIGNALS_CSV = 'logs/signals.csv'
 ATTEMPT_LOG = 'logs/attempt_log.json'
-MAX_ATTEMPTS = 10
+MAX_ATTEMPTS = 30
 
 # --- Session attempt times (UTC) ---
 SESSION_ATTEMPT_TIMES = [
@@ -100,7 +100,7 @@ def get_pair_keywords(pair):
     elif pair == 'USDCHF':
         return ['USD/CHF', 'USDCHF', 'CHF/USD', 'USDCHF=X']
     elif pair == 'JPYNZD':
-        return ['JPY/NZD', 'JPYNZD', 'NZD/JPY', 'NZDJPY=X']
+        return ['NZD/JPY', 'NZDJPY', 'JPY/NZD', 'NZDJPY=X']
     else:
         return [pair]
 
@@ -112,8 +112,31 @@ def analyze_and_signal():
     for pair in PAIRS:
         attempts = get_attempts(attempt_log, pair)
         if attempts >= MAX_ATTEMPTS:
-            logger.info(f"Max attempts reached for {pair} today. Skipping.")
-            signal_summary[pair] = f'Max attempts reached ({MAX_ATTEMPTS})'
+            logger.info(f"Max attempts reached for {pair} today. AI will continue to study the chart but will not generate new signals until tomorrow.")
+            # Still run analysis for logging/monitoring, but skip signal generation and logging
+            try:
+                logger.info(f"[STUDY-ONLY] Fetching price data for {pair}...")
+                price_df = get_price_data(pair, interval='1h', lookback=Config.LOOKBACK_PERIOD)
+                if price_df is None or price_df.empty:
+                    logger.warning(f"[STUDY-ONLY] No price data for {pair}.")
+                    signal_summary[pair] = 'Max attempts reached (studying only, no price data)'
+                    continue
+                logger.info(f"[STUDY-ONLY] Fetched {len(price_df)} rows of price data for {pair}")
+                keywords = get_pair_keywords(pair)
+                logger.info(f"[STUDY-ONLY] Fetching news sentiment (with cache)...")
+                from_date = price_df.index[-Config.LOOKBACK_PERIOD].strftime('%Y-%m-%d')
+                to_date = price_df.index[-1].strftime('%Y-%m-%d')
+                sentiment = get_news_sentiment_with_cache(keywords, from_date, to_date, pair)
+                logger.info(f"[STUDY-ONLY] News sentiment score: {sentiment:.4f}")
+                logger.info(f"[STUDY-ONLY] Generating technical indicators...")
+                features_df = preprocess_features(price_df, sentiment)
+                logger.info(f"[STUDY-ONLY] Feature DataFrame shape: {features_df.shape}")
+                logger.info(f"[STUDY-ONLY] Feature summary (last 5 rows):\n{features_df.tail()}\n")
+                # No signal generation or logging
+                signal_summary[pair] = f'Max attempts reached ({MAX_ATTEMPTS}) [studying only]'
+            except Exception as e:
+                logger.error(f"[STUDY-ONLY] Error analyzing {pair}: {e}", exc_info=True)
+                signal_summary[pair] = f"Error (studying only): {e}"
             continue
         try:
             logger.info(f"Fetching price data for {pair}...")
@@ -158,6 +181,19 @@ def analyze_and_signal():
                 signal_summary[pair] = f"Signal: {signal['signal']} {signal['trade_type']} Confidence: {signal['confidence']:.2%}"
                 save_signal_to_csv(signal, features=features_df.iloc[-1].to_dict())
                 reset_attempts_for_pair(attempt_log, pair)
+                # --- Send email notification ---
+                email_subject = f"AI Signal: {pair} {signal['signal']} {signal['trade_type']} ({signal['confidence']:.2%})"
+                email_body = f"""
+Pair: {pair}
+Signal: {signal['signal']} ({signal['trade_type']})
+Confidence: {signal['confidence']:.2%}
+Entry: {signal['entry']}
+Stop Loss: {signal['stop_loss']}
+Take Profits: {signal['take_profit_1']}, {signal['take_profit_2']}, {signal['take_profit_3']}
+Position Size: {signal['position_size']}
+Time: {signal.get('time', 'N/A')}
+"""
+                send_email(email_subject, email_body)
             else:
                 logger.info(f"No valid signal generated for {pair}: filtered out due to confluence, confidence, or news event.")
                 signal_summary[pair] = 'No valid signal'
