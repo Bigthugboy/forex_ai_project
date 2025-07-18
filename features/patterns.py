@@ -334,27 +334,132 @@ def pin_bar_strength(df):
     moderate = bullish_moderate | bearish_moderate
     return strong.astype(int) * 2 + (moderate.astype(int) * (1 - strong.astype(int)))
 
-# --- Registry ---
+def morning_star(df):
+    open_col = [col for col in df.columns if col.startswith('Open')][0]
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    low_col = [col for col in df.columns if col.startswith('Low')][0]
+    # 3-bar pattern: bearish, small body, bullish
+    ms = [0] * len(df)
+    for i in range(2, len(df)):
+        prev = i - 2
+        mid = i - 1
+        curr = i
+        if (df[close_col].iloc[prev] < df[open_col].iloc[prev] and
+            abs(df[close_col].iloc[mid] - df[open_col].iloc[mid]) < 0.5 * abs(df[close_col].iloc[prev] - df[open_col].iloc[prev]) and
+            df[close_col].iloc[curr] > df[open_col].iloc[curr] and
+            df[close_col].iloc[curr] > df[open_col].iloc[prev]):
+            ms[i] = 1
+    return pd.Series(ms, index=df.index)
+
+def evening_star(df):
+    open_col = [col for col in df.columns if col.startswith('Open')][0]
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    high_col = [col for col in df.columns if col.startswith('High')][0]
+    # 3-bar pattern: bullish, small body, bearish
+    es = [0] * len(df)
+    for i in range(2, len(df)):
+        prev = i - 2
+        mid = i - 1
+        curr = i
+        if (df[close_col].iloc[prev] > df[open_col].iloc[prev] and
+            abs(df[close_col].iloc[mid] - df[open_col].iloc[mid]) < 0.5 * abs(df[close_col].iloc[prev] - df[open_col].iloc[prev]) and
+            df[close_col].iloc[curr] < df[open_col].iloc[curr] and
+            df[close_col].iloc[curr] < df[open_col].iloc[prev]):
+            es[i] = 1
+    return pd.Series(es, index=df.index)
+
+def three_white_soldiers(df):
+    open_col = [col for col in df.columns if col.startswith('Open')][0]
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    tws = [0] * len(df)
+    for i in range(2, len(df)):
+        if (df[close_col].iloc[i-2] > df[open_col].iloc[i-2] and
+            df[close_col].iloc[i-1] > df[open_col].iloc[i-1] and
+            df[close_col].iloc[i] > df[open_col].iloc[i] and
+            df[close_col].iloc[i-1] > df[close_col].iloc[i-2] and
+            df[close_col].iloc[i] > df[close_col].iloc[i-1]):
+            tws[i] = 1
+    return pd.Series(tws, index=df.index)
+
+def three_black_crows(df):
+    open_col = [col for col in df.columns if col.startswith('Open')][0]
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    tbc = [0] * len(df)
+    for i in range(2, len(df)):
+        if (df[close_col].iloc[i-2] < df[open_col].iloc[i-2] and
+            df[close_col].iloc[i-1] < df[open_col].iloc[i-1] and
+            df[close_col].iloc[i] < df[open_col].iloc[i] and
+            df[close_col].iloc[i-1] < df[close_col].iloc[i-2] and
+            df[close_col].iloc[i] < df[close_col].iloc[i-1]):
+            tbc[i] = 1
+    return pd.Series(tbc, index=df.index)
+
+def bullish_harami(df):
+    open_col = [col for col in df.columns if col.startswith('Open')][0]
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    bh = [0] * len(df)
+    for i in range(1, len(df)):
+        if (df[close_col].iloc[i-1] < df[open_col].iloc[i-1] and
+            df[close_col].iloc[i] > df[open_col].iloc[i] and
+            df[open_col].iloc[i] > df[close_col].iloc[i-1] and
+            df[close_col].iloc[i] < df[open_col].iloc[i-1]):
+            bh[i] = 1
+    return pd.Series(bh, index=df.index)
+
+def bearish_harami(df):
+    open_col = [col for col in df.columns if col.startswith('Open')][0]
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    bh = [0] * len(df)
+    for i in range(1, len(df)):
+        if (df[close_col].iloc[i-1] > df[open_col].iloc[i-1] and
+            df[close_col].iloc[i] < df[open_col].iloc[i] and
+            df[open_col].iloc[i] < df[close_col].iloc[i-1] and
+            df[close_col].iloc[i] > df[open_col].iloc[i-1]):
+            bh[i] = 1
+    return pd.Series(bh, index=df.index)
+
+def dark_cloud_cover(df):
+    open_col = [col for col in df.columns if col.startswith('Open')][0]
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    high_col = [col for col in df.columns if col.startswith('High')][0]
+    dcc = [0] * len(df)
+    for i in range(1, len(df)):
+        if (df[close_col].iloc[i-1] > df[open_col].iloc[i-1] and
+            df[close_col].iloc[i] < df[open_col].iloc[i] and
+            df[open_col].iloc[i] > df[close_col].iloc[i-1] and
+            df[close_col].iloc[i] < (df[open_col].iloc[i-1] + df[close_col].iloc[i-1]) / 2):
+            dcc[i] = 1
+    return pd.Series(dcc, index=df.index)
+
+# --- Pattern registry ---
 PATTERNS = [
-    Pattern('doji', doji, 'Doji candlestick pattern'),
-    Pattern('hammer', hammer, 'Hammer candlestick pattern'),
-    Pattern('bullish_engulfing', bullish_engulfing, 'Bullish engulfing candlestick pattern'),
-    Pattern('bearish_engulfing', bearish_engulfing, 'Bearish engulfing candlestick pattern'),
-    Pattern('shooting_star', shooting_star, 'Shooting star candlestick pattern'),
-    Pattern('pin_bar', pin_bar, 'Pin bar price action pattern'),
+    Pattern('doji', doji, 'Doji candlestick'),
+    Pattern('hammer', hammer, 'Hammer candlestick'),
+    Pattern('bullish_engulfing', bullish_engulfing, 'Bullish engulfing'),
+    Pattern('bearish_engulfing', bearish_engulfing, 'Bearish engulfing'),
+    Pattern('shooting_star', shooting_star, 'Shooting star'),
+    Pattern('pin_bar', pin_bar, 'Pin bar'),
     Pattern('bullish_engulfing_bar', bullish_engulfing_bar, 'Bullish engulfing bar'),
     Pattern('bearish_engulfing_bar', bearish_engulfing_bar, 'Bearish engulfing bar'),
     Pattern('inside_bar', inside_bar, 'Inside bar'),
     Pattern('head_shoulders', head_shoulders, 'Head & Shoulders'),
     Pattern('inv_head_shoulders', inv_head_shoulders, 'Inverse Head & Shoulders'),
-    Pattern('double_top', double_top, 'Double top'),
-    Pattern('double_bottom', double_bottom, 'Double bottom'),
-    Pattern('rising_wedge', rising_wedge, 'Rising wedge'),
-    Pattern('falling_wedge', falling_wedge, 'Falling wedge'),
-    Pattern('fakeout_up', fakeout_up, 'Fakeout up'),
-    Pattern('fakeout_down', fakeout_down, 'Fakeout down'),
-    Pattern('bullish_flag', bullish_flag, 'Bullish flag continuation pattern'),
-    Pattern('bearish_flag', bearish_flag, 'Bearish flag continuation pattern'),
-    Pattern('bullish_pennant', bullish_pennant, 'Bullish pennant continuation pattern'),
-    Pattern('bearish_pennant', bearish_pennant, 'Bearish pennant continuation pattern'),
+    Pattern('double_top', double_top, 'Double Top'),
+    Pattern('double_bottom', double_bottom, 'Double Bottom'),
+    Pattern('rising_wedge', rising_wedge, 'Rising Wedge'),
+    Pattern('falling_wedge', falling_wedge, 'Falling Wedge'),
+    Pattern('fakeout_up', fakeout_up, 'Fakeout Up'),
+    Pattern('fakeout_down', fakeout_down, 'Fakeout Down'),
+    Pattern('bullish_flag', bullish_flag, 'Bullish Flag'),
+    Pattern('bearish_flag', bearish_flag, 'Bearish Flag'),
+    Pattern('bullish_pennant', bullish_pennant, 'Bullish Pennant'),
+    Pattern('bearish_pennant', bearish_pennant, 'Bearish Pennant'),
+    # --- New patterns ---
+    Pattern('morning_star', morning_star, 'Morning Star'),
+    Pattern('evening_star', evening_star, 'Evening Star'),
+    Pattern('three_white_soldiers', three_white_soldiers, 'Three White Soldiers'),
+    Pattern('three_black_crows', three_black_crows, 'Three Black Crows'),
+    Pattern('bullish_harami', bullish_harami, 'Bullish Harami'),
+    Pattern('bearish_harami', bearish_harami, 'Bearish Harami'),
+    Pattern('dark_cloud_cover', dark_cloud_cover, 'Dark Cloud Cover'),
 ] 

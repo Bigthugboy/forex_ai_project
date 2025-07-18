@@ -8015,3 +8015,6 @@ Datetime                                                                        
 
 [2025-07-17 17:50:05] INFO main: Target class balance: {0: 1745, 1: 1634}
 [2025-07-17 17:50:05] INFO main: Training AI model...
+[2025-07-18 18:18:54] INFO main: Today is Friday. Skipping trading due to market closure (live mode).
+[2025-07-18 19:42:34] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 20:01:01] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).

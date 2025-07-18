@@ -83,7 +83,7 @@ class OutcomeTracker:
             logger.error(f"Error checking signal outcomes: {e}")
     
     def determine_signal_outcome(self, signal_info):
-        """Determine if a signal has hit SL/TP levels"""
+        """Determine if a signal has hit SL/TP levels, tracking all TPs hit."""
         try:
             signal_data = signal_info['signal_data']
             pair = signal_data['pair']
@@ -93,77 +93,117 @@ class OutcomeTracker:
             take_profit_1 = signal_data['take_profit_1']
             take_profit_2 = signal_data['take_profit_2']
             take_profit_3 = signal_data['take_profit_3']
-            
+
             # Fetch recent price data (last 5 hours since signal)
-            price_df = get_price_data(pair, interval=1h
+            price_df = get_price_data(pair, interval='1h')
             if price_df is None or price_df.empty:
                 return None
-            
+
             # Get high and low prices since signal
             signal_time = datetime.fromisoformat(signal_info['timestamp'])
             recent_data = price_df[price_df.index > signal_time]
-            
+
             if recent_data.empty:
                 return None
-            
-            high_price = recent_data['High'].max()
-            low_price = recent_data['Low'].min()
+
+            high_price = recent_data['High'].cummax()
+            low_price = recent_data['Low'].cummin()
             current_price = recent_data['Close'].iloc[-1]
-            # Determine outcome based on signal type
+            tps_hit = []
+            sl_hit = False
+            exit_time = None
+            exit_price = None
+            pnl = 0
+            # Track all TPs hit before SL
             if signal_type == 'BUY':
-                # Check if TP levels were hit
-                if high_price >= take_profit_3:
-                    return self.create_outcome('win', take_profit_3, 'tp3', 300)
-                elif high_price >= take_profit_2:
-                    return self.create_outcome('win', take_profit_2, 'tp2', 200)
-                elif high_price >= take_profit_1:
-                    return self.create_outcome('win', take_profit_1, 'tp1', 100)
-                elif low_price <= stop_loss:
-                    return self.create_outcome('loss', stop_loss, 'sl', -100)
+                for idx, row in recent_data.iterrows():
+                    if not sl_hit:
+                        if row['High'] >= take_profit_1 and 'tp1' not in tps_hit:
+                            tps_hit.append('tp1')
+                        if row['High'] >= take_profit_2 and 'tp2' not in tps_hit:
+                            tps_hit.append('tp2')
+                        if row['High'] >= take_profit_3 and 'tp3' not in tps_hit:
+                            tps_hit.append('tp3')
+                        if row['Low'] <= stop_loss:
+                            sl_hit = True
+                            exit_time = idx.isoformat() if hasattr(idx, 'isoformat') else str(idx)
+                            exit_price = row['Low']
+                            pnl = (exit_price - entry_price) * 10000
+                            break
+                if not sl_hit and tps_hit:
+                    # If no SL, but at least one TP hit, exit at last TP
+                    last_tp = tps_hit[-1]
+                    if last_tp == 'tp3':
+                        exit_price = take_profit_3
+                    elif last_tp == 'tp2':
+                        exit_price = take_profit_2
+                    elif last_tp == 'tp1':
+                        exit_price = take_profit_1
+                    exit_time = recent_data.index[-1].isoformat() if hasattr(recent_data.index[-1], 'isoformat') else str(recent_data.index[-1])
+                    pnl = (exit_price - entry_price) * 10000
+                elif not sl_hit and not tps_hit:
+                    # Neither TP nor SL hit, exit at current price
+                    exit_price = current_price
+                    exit_time = recent_data.index[-1].isoformat() if hasattr(recent_data.index[-1], 'isoformat') else str(recent_data.index[-1])
+                    pnl = (exit_price - entry_price) * 10000
             elif signal_type == 'SELL':
-                # Check if TP levels were hit (reverse logic for SELL)
-                if low_price <= take_profit_3:
-                    return self.create_outcome('win', take_profit_3, 'tp3', 300)
-                elif low_price <= take_profit_2:
-                    return self.create_outcome('win', take_profit_2, 'tp2', 200)
-                elif low_price <= take_profit_1:
-                    return self.create_outcome('win', take_profit_1, 'tp1', 100)
-                elif high_price >= stop_loss:
-                    return self.create_outcome('loss', stop_loss, 'sl', -100)
-            # Check if 5 hours have passed (prediction window)
-            hours_since_signal = (datetime.now() - signal_time).total_seconds() / 3600          if hours_since_signal >= 5
-                # Calculate PnL at current price
-                if signal_type == 'BUY':
-                    pnl = (current_price - entry_price) *10 # Convert to pips
-                else:
-                    pnl = (entry_price - current_price) * 100
-                
-                if pnl > 0:
-                    return self.create_outcome('win', current_price, datetime.now().isoformat(), pnl)
-                else:
-                    return self.create_outcome('loss', current_price, datetime.now().isoformat(), pnl)
-            
-            return None  # Still pending
-            
+                for idx, row in recent_data.iterrows():
+                    if not sl_hit:
+                        if row['Low'] <= take_profit_1 and 'tp1' not in tps_hit:
+                            tps_hit.append('tp1')
+                        if row['Low'] <= take_profit_2 and 'tp2' not in tps_hit:
+                            tps_hit.append('tp2')
+                        if row['Low'] <= take_profit_3 and 'tp3' not in tps_hit:
+                            tps_hit.append('tp3')
+                        if row['High'] >= stop_loss:
+                            sl_hit = True
+                            exit_time = idx.isoformat() if hasattr(idx, 'isoformat') else str(idx)
+                            exit_price = row['High']
+                            pnl = (entry_price - exit_price) * 10000
+                            break
+                if not sl_hit and tps_hit:
+                    last_tp = tps_hit[-1]
+                    if last_tp == 'tp3':
+                        exit_price = take_profit_3
+                    elif last_tp == 'tp2':
+                        exit_price = take_profit_2
+                    elif last_tp == 'tp1':
+                        exit_price = take_profit_1
+                    exit_time = recent_data.index[-1].isoformat() if hasattr(recent_data.index[-1], 'isoformat') else str(recent_data.index[-1])
+                    pnl = (entry_price - exit_price) * 10000
+                elif not sl_hit and not tps_hit:
+                    exit_price = current_price
+                    exit_time = recent_data.index[-1].isoformat() if hasattr(recent_data.index[-1], 'isoformat') else str(recent_data.index[-1])
+                    pnl = (entry_price - exit_price) * 10000
+            # Outcome logic
+            if sl_hit:
+                return self.create_outcome('loss', exit_price, exit_time, pnl, tps_hit)
+            elif tps_hit:
+                return self.create_outcome('win', exit_price, exit_time, pnl, tps_hit)
+            else:
+                return self.create_outcome('pending', exit_price, exit_time, pnl, tps_hit)
         except Exception as e:
             logger.error(f"Error determining signal outcome: {e}")
             return None
-    
-    def create_outcome(self, outcome, exit_price, exit_time, pnl):
-        """Create outcome data structure"""
+
+    def create_outcome(self, outcome, exit_price, exit_time, pnl, tps_hit, timeframe='1h', days_to_outcome=0):
+        """Create outcome data structure, including all TPs hit."""
         return {
             'outcome': outcome,
             'exit_price': exit_price,
             'exit_time': exit_time,
             'pnl': pnl,
-            'exit_reason': 'SL/TP hit' if outcome == 'loss' else 'Time exit'
+            'exit_reason': 'SL/TP hit' if outcome == 'loss' else 'TP hit' if outcome == 'win' else 'Time exit',
+            'tps_hit': tps_hit,
+            'timeframe': timeframe,
+            'days_to_outcome': days_to_outcome
         }
-    
+
     def log_signal_outcome(self, signal_data, outcome_data):
-        """Log the outcome using continuous learning module"""
+        """Log the outcome using continuous learning module, including all TPs hit."""
         try:
             continuous_learner.log_signal_outcome(signal_data, outcome_data)
-            logger.info(f"Logged outcome: {signal_data['pair']} - {outcome_data['outcome']} ({outcome_data['pnl']:.1f} pips)")
+            logger.info(f"Logged outcome: {signal_data['pair']} - {outcome_data['outcome']} (TPs hit: {outcome_data.get('tps_hit', [])}, {outcome_data['pnl']:.1f} pips)")
         except Exception as e:
             logger.error(f"Error logging signal outcome: {e}")
     

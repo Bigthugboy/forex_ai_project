@@ -54,3 +54,359 @@
 [2025-07-17 20:04:48] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
 [2025-07-17 20:04:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
 [2025-07-17 20:04:59] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:10:14] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:10:17] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:10:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 20:10:26] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:18:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:18:27] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:18:35] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 20:18:37] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:25:21] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:23] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:25:31] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 20:25:33] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:25:44] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-17 20:25:46] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:55:26] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:29] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:55:36] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 20:55:38] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 20:55:55] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-17 20:55:57] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 22:00:01] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:04] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 22:00:04] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 22:00:15] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 22:00:17] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 22:00:17] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-17 22:00:19] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-17 22:00:31] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-17 22:00:33] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 00:05:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 00:05:43] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 00:05:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 00:05:43] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 00:05:48] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 00:05:48] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 00:05:48] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 00:05:48] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 00:05:48] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 00:05:48] ERROR data_fetcher: Data is None or empty for NZDJPY after fetch.
+[2025-07-18 01:41:07] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 01:41:07] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 01:41:07] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 01:41:07] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 01:41:07] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 01:41:07] ERROR data_fetcher: Data is None or empty for NZDJPY after fetch.
+[2025-07-18 01:41:08] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 01:41:08] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 01:41:08] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 01:41:08] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 03:01:42] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 03:01:42] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 03:01:42] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 03:01:42] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 03:01:42] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 03:01:42] ERROR data_fetcher: Data is None or empty for NZDJPY after fetch.
+[2025-07-18 03:01:42] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 03:01:42] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 03:01:42] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 03:01:42] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 07:14:15] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 07:14:15] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 07:14:15] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 07:14:15] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 07:14:15] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 07:14:15] ERROR data_fetcher: Data is None or empty for NZDJPY after fetch.
+[2025-07-18 07:14:16] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 07:14:16] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 07:14:16] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 07:14:16] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 08:37:27] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 08:37:27] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 08:37:27] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 08:37:27] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 08:37:27] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 08:37:27] ERROR data_fetcher: Data is None or empty for NZDJPY after fetch.
+[2025-07-18 08:37:28] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 08:37:28] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 08:37:28] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 08:37:28] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 10:11:18] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:11:18] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 10:11:18] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 10:11:18] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 10:11:18] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 10:11:18] ERROR data_fetcher: Data is None or empty for NZDJPY after fetch.
+[2025-07-18 10:11:18] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:11:18] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 10:11:18] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 10:11:18] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 10:40:09] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:40:23] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 10:40:23] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 10:40:33] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 10:40:33] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 10:40:39] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 10:47:00] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:47:00] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 10:47:00] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 10:47:00] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 10:47:00] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 10:47:00] ERROR data_fetcher: Data is None or empty for NZDJPY after fetch.
+[2025-07-18 10:47:16] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:47:49] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 10:47:59] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 10:47:59] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 11:23:08] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:23:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 11:24:21] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 13:04:42] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:04:42] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 13:04:42] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 13:04:42] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 13:04:46] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:04:46] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 13:04:46] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 13:04:46] ERROR data_fetcher: Data is None or empty for BTCUSD after fetch.
+[2025-07-18 13:04:46] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 13:04:46] ERROR data_fetcher: Data is None or empty for NZDJPY after fetch.
+[2025-07-18 13:12:40] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:13:25] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 13:14:02] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 14:30:04] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:04] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:30] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 14:30:35] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 14:30:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 15:34:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:34:43] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:34:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 15:34:43] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPUSD
+[2025-07-18 15:34:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 15:34:53] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 15:35:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 15:35:03] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDUSD
+[2025-07-18 15:35:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 15:35:03] ERROR data_fetcher: No Yahoo symbol mapping for pair: NZDUSD
+[2025-07-18 15:35:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 15:35:03] ERROR data_fetcher: No Yahoo symbol mapping for pair: USDCAD
+[2025-07-18 15:35:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 15:35:03] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURJPY
+[2025-07-18 15:35:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 15:35:03] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPJPY
+[2025-07-18 15:35:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 15:35:03] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDJPY
+[2025-07-18 15:35:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 15:45:33] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:45:33] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:45:33] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 15:45:33] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPUSD
+[2025-07-18 15:45:33] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 15:45:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 15:45:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 15:45:57] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDUSD
+[2025-07-18 15:45:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 15:45:57] ERROR data_fetcher: No Yahoo symbol mapping for pair: NZDUSD
+[2025-07-18 15:45:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 15:45:57] ERROR data_fetcher: No Yahoo symbol mapping for pair: USDCAD
+[2025-07-18 15:45:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 15:45:57] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURJPY
+[2025-07-18 15:45:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 15:45:57] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPJPY
+[2025-07-18 15:45:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 15:45:57] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDJPY
+[2025-07-18 15:45:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 16:00:04] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 16:00:04] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:04] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:04] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 16:00:04] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPUSD
+[2025-07-18 16:00:04] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 16:00:13] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 16:00:14] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for BTCUSD
+[2025-07-18 16:00:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 16:00:24] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDUSD
+[2025-07-18 16:00:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 16:00:24] ERROR data_fetcher: No Yahoo symbol mapping for pair: NZDUSD
+[2025-07-18 16:00:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 16:00:24] ERROR data_fetcher: No Yahoo symbol mapping for pair: USDCAD
+[2025-07-18 16:00:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 16:00:24] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURJPY
+[2025-07-18 16:00:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 16:00:24] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPJPY
+[2025-07-18 16:00:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 16:00:24] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDJPY
+[2025-07-18 16:00:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 17:00:41] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:00:52] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 17:01:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 17:01:13] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 17:01:22] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 17:01:22] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDUSD
+[2025-07-18 17:01:22] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 17:01:22] ERROR data_fetcher: No Yahoo symbol mapping for pair: NZDUSD
+[2025-07-18 17:01:22] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 17:01:22] ERROR data_fetcher: No Yahoo symbol mapping for pair: USDCAD
+[2025-07-18 17:01:22] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 17:01:22] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURJPY
+[2025-07-18 17:01:22] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 17:01:22] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPJPY
+[2025-07-18 17:01:22] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 17:01:22] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDJPY
+[2025-07-18 17:01:22] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 17:02:06] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:15] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 17:02:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 17:02:34] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 17:02:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 17:02:45] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDUSD
+[2025-07-18 17:02:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 17:02:45] ERROR data_fetcher: No Yahoo symbol mapping for pair: NZDUSD
+[2025-07-18 17:02:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 17:02:45] ERROR data_fetcher: No Yahoo symbol mapping for pair: USDCAD
+[2025-07-18 17:02:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 17:02:45] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURJPY
+[2025-07-18 17:02:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 17:02:45] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPJPY
+[2025-07-18 17:02:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 17:02:45] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDJPY
+[2025-07-18 17:02:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 17:11:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:11:54] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 17:12:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 17:12:13] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 17:12:16] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:30] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 17:12:39] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 17:12:49] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 17:12:54] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:12:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 17:12:58] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDUSD
+[2025-07-18 17:12:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 17:12:58] ERROR data_fetcher: No Yahoo symbol mapping for pair: NZDUSD
+[2025-07-18 17:12:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 17:12:58] ERROR data_fetcher: No Yahoo symbol mapping for pair: USDCAD
+[2025-07-18 17:12:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 17:12:58] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURJPY
+[2025-07-18 17:12:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 17:12:58] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPJPY
+[2025-07-18 17:12:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 17:12:58] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDJPY
+[2025-07-18 17:12:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 17:13:00] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:16:28] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:42] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:45] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:22:49] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 17:22:50] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:22:54] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 17:22:56] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:22:59] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 17:23:01] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:23:05] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 17:23:05] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDUSD
+[2025-07-18 17:23:05] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 17:23:05] ERROR data_fetcher: No Yahoo symbol mapping for pair: NZDUSD
+[2025-07-18 17:23:05] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 17:23:05] ERROR data_fetcher: No Yahoo symbol mapping for pair: USDCAD
+[2025-07-18 17:23:05] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 17:23:05] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURJPY
+[2025-07-18 17:23:05] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 17:23:05] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPJPY
+[2025-07-18 17:23:05] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 17:23:05] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDJPY
+[2025-07-18 17:23:05] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 17:23:06] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:32:21] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:23] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:32:27] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 17:32:29] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:32:33] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 17:32:36] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:32:40] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 17:32:43] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:32:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 17:32:50] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDUSD
+[2025-07-18 17:32:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 17:32:50] ERROR data_fetcher: No Yahoo symbol mapping for pair: NZDUSD
+[2025-07-18 17:32:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 17:32:50] ERROR data_fetcher: No Yahoo symbol mapping for pair: USDCAD
+[2025-07-18 17:32:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 17:32:50] ERROR data_fetcher: No Yahoo symbol mapping for pair: EURJPY
+[2025-07-18 17:32:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 17:32:50] ERROR data_fetcher: No Yahoo symbol mapping for pair: GBPJPY
+[2025-07-18 17:32:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 17:32:50] ERROR data_fetcher: No Yahoo symbol mapping for pair: AUDJPY
+[2025-07-18 17:32:50] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 17:32:52] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:44:04] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:07] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:44:11] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 17:44:14] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:44:17] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 17:44:20] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:44:24] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 17:44:26] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:44:30] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 17:44:32] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:44:37] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 17:44:40] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:44:45] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 17:44:49] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:44:57] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 17:44:59] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:45:04] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 17:45:07] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:45:13] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 17:45:17] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 17:45:23] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 17:45:24] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 18:26:17] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 18:26:21] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 19:42:34] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:42:53] ERROR data_fetcher: Data is None or empty for EURUSD after fetch.
+[2025-07-18 19:42:53] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 19:43:03] ERROR data_fetcher: Data is None or empty for GBPUSD after fetch.
+[2025-07-18 19:43:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 19:43:13] ERROR data_fetcher: Data is None or empty for USDJPY after fetch.
+[2025-07-18 19:43:13] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 19:43:25] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 19:43:53] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 19:43:58] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 19:44:23] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 19:44:33] ERROR data_fetcher: Data is None or empty for NZDUSD after fetch.
+[2025-07-18 19:44:33] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 19:44:43] ERROR data_fetcher: Data is None or empty for USDCAD after fetch.
+[2025-07-18 19:44:43] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 19:44:53] ERROR data_fetcher: Data is None or empty for EURJPY after fetch.
+[2025-07-18 19:44:53] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 19:45:03] ERROR data_fetcher: Data is None or empty for GBPJPY after fetch.
+[2025-07-18 19:45:03] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 19:45:13] ERROR data_fetcher: Data is None or empty for AUDJPY after fetch.
+[2025-07-18 19:45:13] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 19:45:24] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:01:01] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:01:09] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:01:18] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPUSD
+[2025-07-18 20:01:28] ERROR data_fetcher: Data is None or empty for GBPUSD after fetch.
+[2025-07-18 20:01:28] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 20:01:30] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:01:34] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCHF
+[2025-07-18 20:01:36] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:02:49] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDUSD
+[2025-07-18 20:02:51] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:02:58] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDUSD
+[2025-07-18 20:02:59] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:03:06] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for USDCAD
+[2025-07-18 20:03:10] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:03:16] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for EURJPY
+[2025-07-18 20:03:18] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:03:22] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for GBPJPY
+[2025-07-18 20:03:24] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:03:30] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for AUDJPY
+[2025-07-18 20:03:32] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}
+[2025-07-18 20:03:40] INFO data_fetcher: [DEBUG] Increasing lookback from 90 to 200 for NZDJPY
+[2025-07-18 20:03:42] WARNING data_fetcher: NewsAPI failed: {'status': 'error', 'code': 'rateLimited', 'message': 'You have made too many requests recently. Developer accounts are limited to 100 requests over a 24 hour period (50 requests available every 12 hours). Please upgrade to a paid plan if you need more requests.'}

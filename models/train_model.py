@@ -14,6 +14,8 @@ from sklearn.utils import resample
 from utils.logger import get_logger
 import json
 logger = get_logger('train_model', log_file='logs/train_model.log')
+from models.model_registry import ModelRegistry
+from config import Config, REMOVE_CONSTANT_FEATURES, ALWAYS_KEEP_FEATURES
 
 def prepare_target_variable(df):
     """
@@ -212,6 +214,34 @@ def train_signal_model(features_df, pair, model_dir='models/saved_models/', top_
     with open(features_path, 'w') as f:
         json.dump(feature_cols, f)
     logger.info(f"Model, scaler, and features saved for {pair}")
+
+    # Register model in ModelRegistry
+    try:
+        registry = ModelRegistry()
+        # Compute version as hash of model file and features
+        import hashlib
+        with open(model_path, 'rb') as mf:
+            model_bytes = mf.read()
+        version = hashlib.md5(model_bytes).hexdigest()
+        metrics = {
+            'accuracy': float(accuracy),
+            'classification_report': classification_report(y_test, y_pred, output_dict=True)
+        }
+        registry.register_model(
+            model_type=f'signal_model_{pair}',
+            version=version,
+            features=feature_cols,
+            scaler_path=scaler_path,
+            model_path=model_path,
+            metrics=metrics,
+            data_range=f"{df.index.min()} to {df.index.max()}",
+            notes=None,
+            retrain_source='train_signal_model',
+            status='active'
+        )
+        logger.info(f"Model registered in ModelRegistry for {pair}, version {version}")
+    except Exception as e:
+        logger.error(f"Failed to register model in ModelRegistry: {e}")
     
     # Print feature distributions for debugging
     logger.info('Feature distributions before training:')
@@ -223,29 +253,25 @@ def train_signal_model(features_df, pair, model_dir='models/saved_models/', top_
     logger.info('Auditing data quality before training...')
     audit_data_quality(df, feature_cols, target_col='target')
 
-    # Remove constant features
-    # PATCH: Never remove candlestick pattern columns, even if constant
-    candlestick_pattern_cols = [
-        'doji', 'hammer', 'bullish_engulfing', 'bearish_engulfing', 'shooting_star',
-        # Add any other pattern columns your model expects
-    ]
-    if feature_cols is None or not isinstance(feature_cols, list):
-        logger.error('feature_cols is None or not a list before constant feature removal!')
-        raise ValueError('feature_cols is None or not a list before constant feature removal!')
-    if df is None or not hasattr(df, 'columns'):
-        logger.error('df is None or not a DataFrame before constant feature removal!')
-        raise ValueError('df is None or not a DataFrame before constant feature removal!')
-    constant_features = [col for col in feature_cols if df[col].nunique() <= 1 and col not in candlestick_pattern_cols]
-    for col in constant_features:
-        print(f'Removing constant feature: {col}')
-        logger.warning(f'Removing constant feature: {col}')
-    feature_cols = [col for col in feature_cols if col not in constant_features]
-    if not feature_cols:
-        logger.error('No features left after removing constant features!')
-        raise ValueError('No features left after removing constant features!')
-    # Re-run audit with updated feature_cols
-    logger.info('Auditing data quality after removing constant features...')
-    audit_data_quality(df, feature_cols, target_col='target')
+    # Remove constant features if enabled in config
+    if REMOVE_CONSTANT_FEATURES:
+        if feature_cols is None or not isinstance(feature_cols, list):
+            logger.error('feature_cols is None or not a list before constant feature removal!')
+            raise ValueError('feature_cols is None or not a list before constant feature removal!')
+        if df is None or not hasattr(df, 'columns'):
+            logger.error('df is None or not a DataFrame before constant feature removal!')
+            raise ValueError('df is None or not a DataFrame before constant feature removal!')
+        constant_features = [col for col in feature_cols if df[col].nunique() <= 1 and col not in ALWAYS_KEEP_FEATURES]
+        for col in constant_features:
+            print(f'Removing constant feature: {col}')
+            logger.warning(f'Removing constant feature: {col}')
+        feature_cols = [col for col in feature_cols if col not in constant_features]
+        if not feature_cols:
+            logger.error('No features left after removing constant features!')
+            raise ValueError('No features left after removing constant features!')
+        # Re-run audit with updated feature_cols
+        logger.info('Auditing data quality after removing constant features...')
+        audit_data_quality(df, feature_cols, target_col='target')
 
     # --- PATCH: Robustness check for feature_cols ---
     # Ensure feature_cols matches columns in X_bal/X_train
@@ -268,6 +294,13 @@ def train_signal_model(features_df, pair, model_dir='models/saved_models/', top_
         json.dump(feature_cols, f)
     logger.info(f"[DEBUG] Feature columns saved to {features_path}")
     # --- END PATCH ---
+
+    # --- PATCH: Ensure DataFrame with feature names for LightGBM/ensemble ---
+    # Convert scaled arrays back to DataFrames with correct column names
+    X_train_scaled = pd.DataFrame(X_train_scaled, columns=feature_cols, index=X_train.index)
+    X_test_scaled = pd.DataFrame(X_test_scaled, columns=feature_cols, index=X_test.index)
+    # --- END PATCH ---
+
     # SHAP and feature importance analysis (robust)
     logger.info('Model is engineering features and studying candlestick patterns...')
     try:

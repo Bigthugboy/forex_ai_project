@@ -105,7 +105,9 @@ class MultiTimeframeData:
         """
         Create features from multiple timeframes
         """
-        # Start with base 1h data
+        # Ensure base_data index is timezone-naive
+        if base_data.index.tz is not None:
+            base_data.index = base_data.index.tz_localize(None)
         features_df = base_data.copy()
         
         # Add structure trend for 1h base
@@ -123,10 +125,17 @@ class MultiTimeframeData:
             if tf_data is None or tf_data.empty:
                 continue
                 
+            # Ensure tf_data index is timezone-naive
+            if tf_data.index.tz is not None:
+                tf_data.index = tf_data.index.tz_localize(None)
+                
             # Resample other timeframes to match 1h timeframe
             resampled_data = self._resample_to_1h(tf_data, tf_name)
             
             if resampled_data is not None:
+                # Ensure resampled_data index is timezone-naive
+                if resampled_data.index.tz is not None:
+                    resampled_data.index = resampled_data.index.tz_localize(None)
                 # Add timeframe-specific features
                 features_df = self._add_timeframe_features(features_df, resampled_data, tf_name)
         
@@ -171,11 +180,14 @@ class MultiTimeframeData:
         Add features from a specific timeframe
         """
         try:
-            # Ensure both dataframes have the same index
-            common_index = base_df.index.intersection(tf_data.index)
-            base_df = base_df.loc[common_index]
-            tf_data = tf_data.loc[common_index]
-            
+            # Ensure both dataframes have the same index and are timezone-naive
+            if base_df.index.tz is not None:
+                base_df.index = base_df.index.tz_localize(None)
+            if tf_data.index.tz is not None:
+                tf_data.index = tf_data.index.tz_localize(None)
+            # --- Fix: Align tf_data to base_df index using reindex and ffill ---
+            tf_data = tf_data.reindex(base_df.index, method='ffill')
+            # Now, base_df and tf_data always have the same index
             # Calculate timeframe-specific indicators
             close_col = [col for col in tf_data.columns if col.startswith('Close')][0]
             high_col = [col for col in tf_data.columns if col.startswith('High')][0]

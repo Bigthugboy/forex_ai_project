@@ -5,6 +5,7 @@ from sklearn.preprocessing import StandardScaler
 import os
 import json
 import logging
+from models.model_registry import ModelRegistry
 
 logger = logging.getLogger(__name__)
 
@@ -33,20 +34,41 @@ def load_model(pair, model_dir='models/saved_models/'):
         print(f"Model not found for {pair} at {model_path}. Please train the model first.")
         return None, None, None
 
-def predict_signal(features_df, pair, model_dir='models/saved_models/'):
+def load_model_registry_aware(pair, model_dir='models/saved_models/'):
+    """
+    Load the latest/active model for a pair using ModelRegistry. Fallback to disk if not found.
+    Returns: (model, scaler, feature_cols)
+    """
+    registry = ModelRegistry()
+    entry = registry.get_latest_model(f'signal_model_{pair}')
+    if entry and entry.get('model_path') and entry.get('scaler_path') and entry.get('features'):
+        try:
+            import joblib
+            import json
+            model = joblib.load(entry['model_path'])
+            scaler = joblib.load(entry['scaler_path'])
+            feature_cols = entry['features']
+            return model, scaler, feature_cols
+        except Exception as e:
+            logger.warning(f"[ModelRegistry] Failed to load model from registry for {pair}: {e}. Falling back to disk.")
+    # Fallback to disk
+    return load_model(pair, model_dir)
+
+def predict_signal(features_df, pair, model_dir='models/saved_models/', mode='live'):
     """
     Predict trading signal for the latest data point.
     Args:
         features_df (pd.DataFrame): DataFrame with features
         model_path (str): Path to the saved model
+        mode (str): 'live' or 'study_only'
     Returns:
         dict: Prediction results with signal, confidence, and probabilities
     """
-    model, scaler, feature_cols = load_model(pair, model_dir)
-    
+    model, scaler, feature_cols = load_model_registry_aware(pair, model_dir)
+    logger.info(f"[DEBUG] Loaded model for {pair} in mode={mode}")
     if model is None or scaler is None or not feature_cols:
+        logger.warning(f"[DEBUG] Model/scaler/feature_cols missing for {pair}. Returning None.")
         return None
-    
     # --- PATCH: Enforce feature consistency ---
     missing_cols = [col for col in feature_cols if col not in features_df.columns]
     extra_cols = [col for col in features_df.columns if col not in feature_cols]
@@ -65,44 +87,44 @@ def predict_signal(features_df, pair, model_dir='models/saved_models/'):
     # Debug: print column differences
     missing = [col for col in feature_cols if col not in latest_data.columns]
     extra = [col for col in latest_data.columns if col not in feature_cols]
-    print(f"[DEBUG] Missing in latest_data: {missing}")
-    print(f"[DEBUG] Extra in latest_data: {extra}")
-    print(f"[DEBUG] latest_data columns: {list(latest_data.columns)}")
-    print(f"[DEBUG] feature_cols: {feature_cols}")
-    print(f"[DEBUG] Final columns for prediction: {list(latest_data.columns)}")
-    print(f"[DEBUG] Model expects: {feature_cols}")
-    print("[DEBUG] Columns in latest_data before scaling:", list(latest_data.columns))
-    print("[DEBUG] Model expects:", feature_cols)
-
+    logger.info(f"[DEBUG] Missing in latest_data: {missing}")
+    logger.info(f"[DEBUG] Extra in latest_data: {extra}")
+    logger.info(f"[DEBUG] latest_data columns: {list(latest_data.columns)}")
+    logger.info(f"[DEBUG] feature_cols: {feature_cols}")
+    logger.info(f"[DEBUG] Final columns for prediction: {list(latest_data.columns)}")
+    logger.info(f"[DEBUG] Model expects: {feature_cols}")
+    logger.info(f"[DEBUG] Columns in latest_data before scaling: {list(latest_data.columns)}")
+    logger.info(f"[DEBUG] Model expects: {feature_cols}")
     # Check for duplicate columns
     duplicates = latest_data.columns[latest_data.columns.duplicated()].tolist()
-    print(f"[DEBUG] Duplicate columns in latest_data: {duplicates}")
-    # Print dtypes
-    print(f"[DEBUG] latest_data dtypes: {latest_data.dtypes}")
-    # Print values going into scaler
-    print(f"[DEBUG] latest_data values going into scaler:\n{latest_data.values}")
+    logger.info(f"[DEBUG] Duplicate columns in latest_data: {duplicates}")
+    logger.info(f"[DEBUG] latest_data dtypes: {latest_data.dtypes}")
+    logger.info(f"[DEBUG] latest_data values going into scaler:\n{latest_data.values}")
     # Now scale
     latest_scaled = scaler.transform(latest_data)
-    # Convert back to DataFrame with correct columns and index for model
     if not isinstance(latest_scaled, pd.DataFrame):
         latest_scaled = pd.DataFrame(latest_scaled, columns=feature_cols, index=latest_data.index)
-    print(f"[DEBUG] Output from scaler:\n{latest_scaled}")
-    # Make prediction using DataFrame with correct feature names
+    logger.info(f"[DEBUG] Output from scaler:\n{latest_scaled}")
     prediction = model.predict(latest_scaled)[0]
     probabilities = model.predict_proba(latest_scaled)[0]
     confidence = max(probabilities)
-    
     # Determine signal type
     if prediction == 1:
         signal_type = "BUY"
     else:
         signal_type = "SELL"
-    
+    # Study mode: allow signals at lower confidence, log as study
+    min_conf = 0.75 if mode == 'live' else 0.65
+    if confidence < min_conf:
+        logger.info(f"[FILTERED] {pair} | Mode={mode} | Confidence {confidence:.2f} below threshold {min_conf}. No signal generated.")
+        return None
+    logger.info(f"[SIGNAL] {pair} | Mode={mode} | Signal: {signal_type}, Confidence: {confidence:.2f}")
     return {
         'signal': signal_type,
         'confidence': confidence,
         'probabilities': probabilities,
-        'prediction': prediction
+        'prediction': prediction,
+        'mode': mode
     }
 
 def get_signal_strength(confidence):

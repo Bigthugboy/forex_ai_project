@@ -253,6 +253,62 @@ def news_sentiment(df):
     else:
         return pd.Series([0]*len(df), index=df.index)
 
+def bos(df):
+    """Break of Structure: 1 if price breaks previous swing high/low, 0 otherwise."""
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    high_col = [col for col in df.columns if col.startswith('High')][0]
+    low_col = [col for col in df.columns if col.startswith('Low')][0]
+    window = 20
+    bos = [0] * len(df)
+    for i in range(window, len(df)):
+        prev_high = df[high_col].iloc[i-window:i].max()
+        prev_low = df[low_col].iloc[i-window:i].min()
+        if df[close_col].iloc[i] > prev_high or df[close_col].iloc[i] < prev_low:
+            bos[i] = 1
+    return pd.Series(bos, index=df.index)
+
+def choch(df):
+    """Change of Character: 1 if trend direction changes (up to down or down to up), 0 otherwise."""
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    window = 10
+    choch = [0] * len(df)
+    prev_trend = 0
+    for i in range(window, len(df)):
+        win = df[close_col].iloc[i-window:i]
+        trend = 1 if win.iloc[-1] > win.iloc[0] else -1 if win.iloc[-1] < win.iloc[0] else 0
+        if prev_trend != 0 and trend != prev_trend:
+            choch[i] = 1
+        prev_trend = trend
+    return pd.Series(choch, index=df.index)
+
+def volatility_clustering(df):
+    """Volatility clustering: rolling stddev of returns, and binary high-vol cluster indicator."""
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    returns = df[close_col].pct_change()
+    rolling_std = returns.rolling(window=20).std()
+    high_vol_cluster = (rolling_std > rolling_std.rolling(window=100, min_periods=20).mean() * 1.5).astype(int)
+    df['vol_cluster_std'] = rolling_std
+    df['vol_cluster_high'] = high_vol_cluster
+    return df[['vol_cluster_std', 'vol_cluster_high']]
+
+def regime_detection(df):
+    """Regime detection: rolling z-score of returns, regime label (bull, bear, neutral)."""
+    close_col = [col for col in df.columns if col.startswith('Close')][0]
+    returns = df[close_col].pct_change()
+    zscore = (returns - returns.rolling(100).mean()) / (returns.rolling(100).std() + 1e-8)
+    ma_50 = df[close_col].rolling(window=50).mean()
+    ma_200 = df[close_col].rolling(window=200).mean()
+    regime = ['neutral'] * len(df)
+    for i in range(len(df)):
+        if i >= 200:
+            if ma_50.iloc[i] > ma_200.iloc[i]:
+                regime[i] = 'bull'
+            elif ma_50.iloc[i] < ma_200.iloc[i]:
+                regime[i] = 'bear'
+    df['regime_zscore'] = zscore
+    df['regime_label'] = regime
+    return df[['regime_zscore', 'regime_label']]
+
 # --- Registry ---
 INDICATORS = [
     Indicator('atr_14', atr_14, 'Average True Range (14)'),
@@ -289,4 +345,10 @@ INDICATORS = [
     Indicator('price_vs_sma50_4h', price_vs_sma50_4h, 'Price vs SMA50 4h'),
     Indicator('trend_strength_4h', trend_strength_4h, 'Trend strength 4h'),
     Indicator('news_sentiment', news_sentiment, 'News sentiment score'),
+    Indicator('bos', bos, 'Break of Structure'),
+    Indicator('choch', choch, 'Change of Character'),
+    Indicator('vol_cluster_std', lambda df: volatility_clustering(df)['vol_cluster_std'], 'Volatility Clustering (stddev)'),
+    Indicator('vol_cluster_high', lambda df: volatility_clustering(df)['vol_cluster_high'], 'Volatility Clustering (high cluster)'),
+    Indicator('regime_zscore', lambda df: regime_detection(df)['regime_zscore'], 'Regime Detection (z-score)'),
+    Indicator('regime_label', lambda df: regime_detection(df)['regime_label'], 'Regime Detection (label)'),
 ] 

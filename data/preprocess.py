@@ -3,6 +3,7 @@ import ta.trend
 import ta.momentum
 import ta.volume
 import pandas_ta as pta  # NEW: pandas-ta for advanced price action
+import ta.volatility
 
 import unittest
 import numpy as np
@@ -12,6 +13,7 @@ from config import Config
 import sys
 from features.indicators import INDICATORS
 from features.patterns import PATTERNS
+from sklearn.preprocessing import LabelEncoder
 
 indicator_registry = {ind.name: ind.func for ind in INDICATORS}
 pattern_registry = {pat.name: pat.func for pat in PATTERNS}
@@ -91,23 +93,39 @@ def detect_wyckoff_phase(df, close_col, volume_col, window=40):
     logger.info(f"Wyckoff phase counts: {df['wyckoff_phase'].value_counts().to_dict()}")
     return df
 
-def detect_trend_range_regime(df, close_col, atr_col, window=20, atr_threshold=0.001):
-    """Classify regime as 'trend' or 'range' using ATR and moving average slope."""
-    import numpy as np
+def detect_market_regime(df, close_col, high_col, low_col, atr_col, window=20):
+    """Composite regime detection: uptrend, downtrend, range, consolidation, choppy."""
     ma = df[close_col].rolling(window=window).mean()
     slope = ma.diff(window)
     atr = df[atr_col]
+    # Calculate ADX
+    adx = ta.trend.adx(df[high_col], df[low_col], df[close_col], window=window)
+    # Calculate Bollinger Band width
+    bb_high = ma + 2 * df[close_col].rolling(window=window).std()
+    bb_low = ma - 2 * df[close_col].rolling(window=window).std()
+    bb_width = (bb_high - bb_low) / ma
     regime = []
     for i in range(len(df)):
         if i < window:
-            regime.append('unknown')
+            regime.append('range')
             continue
-        if abs(slope.iloc[i]) > atr_threshold and atr.iloc[i] > atr_threshold:
-            regime.append('trend')
+        # Uptrend
+        if adx.iloc[i] > 20 and slope.iloc[i] > 0.001:
+            regime.append('uptrend')
+        # Downtrend
+        elif adx.iloc[i] > 20 and slope.iloc[i] < -0.001:
+            regime.append('downtrend')
+        # Consolidation
+        elif bb_width.iloc[i] < 0.01 and atr.iloc[i] < 0.001:
+            regime.append('consolidation')
+        # Choppy
+        elif atr.iloc[i] > 0.002 and adx.iloc[i] < 15:
+            regime.append('choppy')
+        # Default to range
         else:
             regime.append('range')
     df['market_regime'] = regime
-    logger.info('Model is classifying market regime (trend vs. range)...')
+    logger.info('Model is classifying market regime (uptrend, downtrend, range, consolidation, choppy)...')
     logger.info(f"Regime counts: {df['market_regime'].value_counts().to_dict()}")
     return df
 
@@ -199,6 +217,9 @@ def preprocess_features(price_df, sentiment_score, use_multi_timeframe=True):
                     logger.warning(f"Pattern {name} returned unsupported type: {type(result)}")
             except Exception as e:
                 logger.warning(f"Pattern {name} failed: {e}")
+        # --- Market regime detection (always present) ---
+        atr_col = [col for col in df.columns if 'atr' in col.lower() and '_1h' not in col and '_4h' not in col and '_1d' not in col][0]
+        df = detect_market_regime(df, close_col, high_col, low_col, atr_col, window=20)
         # --- Multi-timeframe features integration (unchanged) ---
         if mtf_features is not None and not mtf_features.empty:
             try:
@@ -209,10 +230,9 @@ def preprocess_features(price_df, sentiment_score, use_multi_timeframe=True):
                     mtf_aligned = mtf_features.loc[common_index]
                     mtf_feature_cols = [col for col in mtf_aligned.columns 
                                       if not col.startswith(('Open', 'High', 'Low', 'Close', 'Volume'))]
-                    for col in mtf_feature_cols:
-                        if col not in df_aligned.columns:
-                            df_aligned[col] = mtf_aligned[col]
-                    df = df_aligned
+                    # --- Refactor: Use pd.concat for bulk addition ---
+                    mtf_to_add = mtf_aligned[mtf_feature_cols]
+                    df = pd.concat([df_aligned, mtf_to_add], axis=1)
                     logger.info(f'Added {len(mtf_feature_cols)} multi-timeframe features')
                     logger.info(f'[DEBUG] Columns after multi-timeframe integration: {list(df.columns)}')
                 else:
@@ -228,6 +248,14 @@ def preprocess_features(price_df, sentiment_score, use_multi_timeframe=True):
         # --- After all feature engineering, always add news_sentiment column ---
         df['news_sentiment'] = sentiment_score
         logger.info(f"[DEBUG] Final columns in preprocess_features: {list(df.columns)}")
+        # --- Encode categorical columns ---
+        # One-hot encode 'market_regime' if present and is object/string type
+        if 'market_regime' in df.columns and df['market_regime'].dtype == object:
+            df = pd.get_dummies(df, columns=['market_regime'])
+        # Label encode 'wyckoff_phase' if present and is object/string type
+        if 'wyckoff_phase' in df.columns and df['wyckoff_phase'].dtype == object:
+            le = LabelEncoder()
+            df['wyckoff_phase'] = le.fit_transform(df['wyckoff_phase'].astype(str))
         # Fill any remaining NaNs
         df = df.ffill().bfill().fillna(0)
         return df

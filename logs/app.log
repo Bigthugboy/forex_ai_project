@@ -27,3 +27,48 @@
 [2025-07-17 19:43:06] INFO backtest: Starting backtest process...
 [2025-07-17 19:43:06] INFO backtest: Processing pair: USDJPY
 [2025-07-17 19:43:06] INFO backtest: Backtesting USDJPY...
+[2025-07-17 22:00:16] INFO notify: Sending email: AI Signal: USDJPY SELL Instant Execution (83.87%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-17 22:00:17] INFO notify: Email sent: AI Signal: USDJPY SELL Instant Execution (83.87%)
+[2025-07-18 11:24:19] INFO notify: Sending email: AI Signal: BTCUSD SELL Sell Limit (80.29%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 11:24:21] INFO notify: Email sent: AI Signal: BTCUSD SELL Sell Limit (80.29%)
+[2025-07-18 13:13:22] INFO notify: Sending email: AI Signal: USDJPY BUY Buy Stop (56.63%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 13:13:25] INFO notify: Email sent: AI Signal: USDJPY BUY Buy Stop (56.63%)
+[2025-07-18 13:14:00] INFO notify: Sending email: AI Signal: BTCUSD SELL Sell Stop (88.02%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 13:14:02] INFO notify: Email sent: AI Signal: BTCUSD SELL Sell Stop (88.02%)
+[2025-07-18 14:30:32] INFO notify: Sending email: AI Signal: USDJPY SELL Instant Execution (88.22%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 14:30:35] INFO notify: Email sent: AI Signal: USDJPY SELL Instant Execution (88.22%)
+[2025-07-18 14:30:55] INFO notify: Sending email: AI Signal: BTCUSD SELL Sell Limit (91.27%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 14:30:57] INFO notify: Email sent: AI Signal: BTCUSD SELL Sell Limit (91.27%)
+[2025-07-18 15:45:56] INFO notify: Sending email: AI Signal: USDCHF SELL Sell Stop (96.24%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 15:45:57] INFO notify: Email sent: AI Signal: USDCHF SELL Sell Stop (96.24%)
+[2025-07-18 16:44:36] INFO continuous_learning: [Registry] Model for TEST is up-to-date (version abc123). No retrain needed.
+[2025-07-18 16:44:36] INFO continuous_learning: [Registry] Model for TEST is outdated or missing. Retrain needed.
+[2025-07-18 17:44:55] INFO notify: Sending email: AI Signal: USDCAD SELL Instant Execution (94.10%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 17:44:57] INFO notify: Email sent: AI Signal: USDCAD SELL Instant Execution (94.10%)
+[2025-07-18 19:42:34] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 19:43:50] INFO notify: Sending email: AI Signal: USDCHF SELL Instant Execution (88.43%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 19:43:53] INFO notify: Email sent: AI Signal: USDCHF SELL Instant Execution (88.43%)
+[2025-07-18 19:44:16] INFO notify: Sending email: AI Signal: AUDUSD SELL Sell Limit (83.08%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 19:44:23] INFO notify: Email sent: AI Signal: AUDUSD SELL Sell Limit (83.08%)
+[2025-07-18 19:46:51] INFO backtest: Starting backtest process...
+[2025-07-18 19:46:51] INFO backtest: Processing pair: USDJPY
+[2025-07-18 19:46:51] INFO backtest: Backtesting USDJPY...
+[2025-07-18 19:48:28] INFO backtest: Starting backtest process...
+[2025-07-18 19:48:28] INFO backtest: Processing pair: USDJPY
+[2025-07-18 19:48:28] INFO backtest: Backtesting USDJPY...
+[2025-07-18 20:01:01] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 20:02:47] INFO notify: Sending email: AI Signal: USDCHF SELL Instant Execution (88.60%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:02:49] INFO notify: Email sent: AI Signal: USDCHF SELL Instant Execution (88.60%)
+[2025-07-18 20:02:56] INFO notify: Sending email: AI Signal: AUDUSD SELL Instant Execution (83.08%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:02:58] INFO notify: Email sent: AI Signal: AUDUSD SELL Instant Execution (83.08%)
+[2025-07-18 20:03:05] INFO notify: Sending email: AI Signal: NZDUSD SELL Instant Execution (84.14%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:03:06] INFO notify: Email sent: AI Signal: NZDUSD SELL Instant Execution (84.14%)
+[2025-07-18 20:03:15] INFO notify: Sending email: AI Signal: USDCAD SELL Sell Limit (98.58%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:03:16] INFO notify: Email sent: AI Signal: USDCAD SELL Sell Limit (98.58%)
+[2025-07-18 20:03:29] INFO notify: Sending email: AI Signal: GBPJPY SELL Instant Execution (88.89%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:03:30] INFO notify: Email sent: AI Signal: GBPJPY SELL Instant Execution (88.89%)
+[2025-07-18 20:03:39] INFO notify: Sending email: AI Signal: AUDJPY SELL Instant Execution (88.30%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:03:40] INFO notify: Email sent: AI Signal: AUDJPY SELL Instant Execution (88.30%)
+[2025-07-18 20:16:30] INFO backtest: Starting backtest process...
+[2025-07-18 20:16:30] INFO backtest: Processing pair: USDJPY
+[2025-07-18 20:16:30] INFO backtest: Backtesting USDJPY...

@@ -1825,3 +1825,1320 @@
 [2025-07-17 20:05:07] INFO multi_timeframe: Added 4h timeframe features
 [2025-07-17 20:05:07] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
 [2025-07-17 20:05:07] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 20:10:18] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:10:18] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:10:18] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:10:20] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:10:20] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:10:20] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:10:20] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:10:21] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:10:21] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:10:21] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:10:21] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:10:21] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 20:10:21] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 20:10:30] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:10:30] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:10:30] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:10:31] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:10:31] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:10:32] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:10:32] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:10:33] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:10:33] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:10:33] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:10:33] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:10:33] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 20:10:33] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 20:18:29] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:18:29] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:18:29] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:18:30] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:18:30] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:18:31] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:18:31] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:18:32] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:18:32] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:18:32] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:18:32] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:18:32] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 20:18:32] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 20:18:43] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:18:43] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:18:43] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:18:44] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:18:44] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:18:45] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:18:45] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:18:46] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:18:46] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:18:46] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:18:46] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:18:46] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 20:18:46] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 20:25:25] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:25:25] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:25:25] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:25:26] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:25:26] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:25:27] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:25:27] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:25:28] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:25:28] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:25:28] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:25:28] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:25:28] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 20:25:28] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 20:25:38] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:25:38] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:25:38] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:25:40] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:25:40] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:25:41] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:25:41] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:25:41] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:25:41] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:25:41] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:25:41] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:25:41] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 20:25:41] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 20:25:47] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:25:47] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:25:47] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:25:48] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:25:48] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:25:49] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:25:49] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:25:50] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:25:50] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:25:50] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:25:50] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:25:50] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 20:25:50] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 20:55:30] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:55:30] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:55:30] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:55:31] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:55:31] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:55:32] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:55:32] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:55:32] INFO multi_timeframe: Successfully fetched 196 rows of D1 data for USDJPY
+[2025-07-17 20:55:33] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:55:33] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:55:33] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:55:33] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-17 20:55:33] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-17 20:55:33] INFO multi_timeframe: Created multi-timeframe features with shape: (196, 36)
+[2025-07-17 20:55:49] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:55:49] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:55:49] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:55:50] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:55:50] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:55:51] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:55:51] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:55:52] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:55:52] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:55:52] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:55:52] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:55:52] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-17 20:55:52] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-17 20:55:52] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-17 20:55:58] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 20:55:58] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 20:55:58] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 20:55:59] INFO multi_timeframe: Successfully fetched 4700 rows of 1h data for USDJPY
+[2025-07-17 20:55:59] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 20:56:00] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 20:56:00] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 20:56:01] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-17 20:56:01] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 20:56:01] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 20:56:01] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 20:56:01] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-17 20:56:01] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-17 20:56:01] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-17 22:00:09] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 22:00:09] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 22:00:09] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 22:00:09] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 22:00:09] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 22:00:09] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 22:00:10] INFO multi_timeframe: Successfully fetched 4702 rows of 1h data for USDJPY
+[2025-07-17 22:00:10] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 22:00:10] INFO multi_timeframe: Successfully fetched 4702 rows of 1h data for USDJPY
+[2025-07-17 22:00:10] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 22:00:10] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 22:00:10] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 22:00:10] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 22:00:10] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 22:00:11] INFO multi_timeframe: Successfully fetched 198 rows of D1 data for USDJPY
+[2025-07-17 22:00:11] INFO multi_timeframe: Successfully fetched 198 rows of D1 data for USDJPY
+[2025-07-17 22:00:11] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 22:00:11] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 22:00:11] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 22:00:11] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 22:00:11] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 22:00:11] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 22:00:11] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 22:00:11] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 22:00:11] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-17 22:00:11] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-17 22:00:11] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-17 22:00:25] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 22:00:25] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 22:00:25] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 22:00:25] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 22:00:25] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 22:00:25] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 22:00:26] INFO multi_timeframe: Successfully fetched 4702 rows of 1h data for USDJPY
+[2025-07-17 22:00:26] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 22:00:26] INFO multi_timeframe: Successfully fetched 4702 rows of 1h data for USDJPY
+[2025-07-17 22:00:26] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 22:00:27] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 22:00:27] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 22:00:27] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 22:00:27] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 22:00:27] INFO multi_timeframe: Successfully fetched 198 rows of D1 data for USDJPY
+[2025-07-17 22:00:27] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 22:00:27] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 22:00:27] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 22:00:27] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-17 22:00:27] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-17 22:00:27] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-17 22:00:28] INFO multi_timeframe: Successfully fetched 198 rows of D1 data for USDJPY
+[2025-07-17 22:00:28] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 22:00:28] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 22:00:28] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 22:00:28] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-17 22:00:28] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-17 22:00:35] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-17 22:00:35] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-17 22:00:35] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-17 22:00:36] INFO multi_timeframe: Successfully fetched 4702 rows of 1h data for USDJPY
+[2025-07-17 22:00:36] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-17 22:00:37] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for USDJPY
+[2025-07-17 22:00:37] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-17 22:00:38] INFO multi_timeframe: Successfully fetched 198 rows of D1 data for USDJPY
+[2025-07-17 22:00:38] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-17 22:00:38] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-17 22:00:38] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-17 22:00:38] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-17 22:00:38] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-17 22:00:38] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 10:40:45] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 10:40:45] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 10:40:45] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 10:40:49] INFO multi_timeframe: Successfully fetched 4691 rows of 1h data for USDJPY
+[2025-07-18 10:40:49] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 10:40:54] INFO multi_timeframe: Successfully fetched 1191 rows of 4h data for USDJPY
+[2025-07-18 10:40:54] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 10:40:59] INFO multi_timeframe: Successfully fetched 196 rows of D1 data for USDJPY
+[2025-07-18 10:40:59] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 10:40:59] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 10:40:59] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 10:40:59] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 10:40:59] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 10:40:59] INFO multi_timeframe: Created multi-timeframe features with shape: (196, 36)
+[2025-07-18 10:47:35] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 10:47:35] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 10:47:35] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 10:47:40] INFO multi_timeframe: Successfully fetched 4691 rows of 1h data for USDJPY
+[2025-07-18 10:47:40] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 10:47:44] INFO multi_timeframe: Successfully fetched 1191 rows of 4h data for USDJPY
+[2025-07-18 10:47:44] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 10:47:46] INFO multi_timeframe: Successfully fetched 196 rows of D1 data for USDJPY
+[2025-07-18 10:47:46] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 10:47:46] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 10:47:46] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 10:47:46] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 10:47:46] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 10:47:46] INFO multi_timeframe: Created multi-timeframe features with shape: (196, 36)
+[2025-07-18 10:48:15] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 10:48:15] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 10:48:15] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 10:48:18] INFO multi_timeframe: Successfully fetched 4691 rows of 1h data for USDJPY
+[2025-07-18 10:48:18] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 10:48:20] INFO multi_timeframe: Successfully fetched 1191 rows of 4h data for USDJPY
+[2025-07-18 10:48:20] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 10:48:22] INFO multi_timeframe: Successfully fetched 196 rows of D1 data for USDJPY
+[2025-07-18 10:48:22] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 10:48:22] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 10:48:22] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 10:48:22] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 10:48:22] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 10:48:22] INFO multi_timeframe: Created multi-timeframe features with shape: (196, 36)
+[2025-07-18 11:23:30] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 11:23:30] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 11:23:30] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 11:23:37] INFO multi_timeframe: Successfully fetched 4692 rows of 1h data for USDJPY
+[2025-07-18 11:23:37] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 11:23:38] INFO multi_timeframe: Successfully fetched 1191 rows of 4h data for USDJPY
+[2025-07-18 11:23:38] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 11:23:40] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 11:23:40] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 11:23:40] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 11:23:40] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 11:23:40] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 11:23:40] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 11:23:40] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 11:24:02] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 11:24:02] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 11:24:02] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 11:24:04] INFO multi_timeframe: Successfully fetched 4692 rows of 1h data for USDJPY
+[2025-07-18 11:24:04] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 11:24:08] INFO multi_timeframe: Successfully fetched 1191 rows of 4h data for USDJPY
+[2025-07-18 11:24:08] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 11:24:09] INFO multi_timeframe: Successfully fetched 196 rows of D1 data for USDJPY
+[2025-07-18 11:24:09] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 11:24:09] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 11:24:09] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 11:24:09] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 11:24:09] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 11:24:09] INFO multi_timeframe: Created multi-timeframe features with shape: (196, 36)
+[2025-07-18 11:24:37] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 11:24:37] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 11:24:37] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 11:24:47] WARNING multi_timeframe: No 1h data received for USDJPY
+[2025-07-18 11:24:47] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 11:24:50] INFO multi_timeframe: Successfully fetched 1191 rows of 4h data for USDJPY
+[2025-07-18 11:24:50] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 11:24:55] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 11:24:55] ERROR multi_timeframe: No 1h data available for USDJPY
+[2025-07-18 13:13:02] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 13:13:02] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 13:13:02] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 13:13:10] INFO multi_timeframe: Successfully fetched 4694 rows of 1h data for USDJPY
+[2025-07-18 13:13:10] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 13:13:14] INFO multi_timeframe: Successfully fetched 1192 rows of 4h data for USDJPY
+[2025-07-18 13:13:14] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 13:13:17] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 13:13:17] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 13:13:17] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 13:13:17] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 13:13:17] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 13:13:17] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 13:13:17] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 13:13:40] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 13:13:40] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 13:13:40] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 13:13:50] WARNING multi_timeframe: No 1h data received for USDJPY
+[2025-07-18 13:13:50] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 13:13:53] INFO multi_timeframe: Successfully fetched 1192 rows of 4h data for USDJPY
+[2025-07-18 13:13:53] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 13:13:55] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 13:13:55] ERROR multi_timeframe: No 1h data available for USDJPY
+[2025-07-18 13:14:09] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 13:14:09] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 13:14:09] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 13:14:10] INFO multi_timeframe: Successfully fetched 4694 rows of 1h data for USDJPY
+[2025-07-18 13:14:10] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 13:14:11] INFO multi_timeframe: Successfully fetched 1192 rows of 4h data for USDJPY
+[2025-07-18 13:14:11] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 13:14:12] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 13:14:12] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 13:14:12] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 13:14:12] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 13:14:12] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 13:14:12] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 13:14:12] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 14:30:14] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 14:30:14] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 14:30:14] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 14:30:19] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 14:30:19] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 14:30:19] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 14:30:21] INFO multi_timeframe: Successfully fetched 4695 rows of 1h data for USDJPY
+[2025-07-18 14:30:21] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 14:30:21] INFO multi_timeframe: Successfully fetched 4695 rows of 1h data for USDJPY
+[2025-07-18 14:30:21] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 14:30:22] INFO multi_timeframe: Successfully fetched 1192 rows of 4h data for USDJPY
+[2025-07-18 14:30:22] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 14:30:23] INFO multi_timeframe: Successfully fetched 1192 rows of 4h data for USDJPY
+[2025-07-18 14:30:23] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 14:30:25] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 14:30:25] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 14:30:25] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 14:30:25] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 14:30:25] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 14:30:25] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 14:30:25] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 14:30:26] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 14:30:26] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 14:30:26] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 14:30:26] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 14:30:26] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-18 14:30:26] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-18 14:30:40] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 14:30:40] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 14:30:40] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 14:30:43] INFO multi_timeframe: Successfully fetched 4695 rows of 1h data for USDJPY
+[2025-07-18 14:30:43] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 14:30:45] INFO multi_timeframe: Successfully fetched 1192 rows of 4h data for USDJPY
+[2025-07-18 14:30:45] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 14:30:45] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 14:30:46] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 14:30:46] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 14:30:46] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 14:30:46] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-18 14:30:46] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-18 14:30:46] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 14:30:46] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 14:30:46] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 14:30:48] INFO multi_timeframe: Successfully fetched 4695 rows of 1h data for USDJPY
+[2025-07-18 14:30:48] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 14:30:49] INFO multi_timeframe: Successfully fetched 1192 rows of 4h data for USDJPY
+[2025-07-18 14:30:49] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 14:30:51] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 14:30:51] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 14:30:51] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 14:30:51] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 14:30:51] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 14:30:51] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 14:30:51] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 14:31:13] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 14:31:13] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 14:31:13] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 14:31:17] INFO multi_timeframe: Successfully fetched 4695 rows of 1h data for USDJPY
+[2025-07-18 14:31:17] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 14:31:20] INFO multi_timeframe: Successfully fetched 1192 rows of 4h data for USDJPY
+[2025-07-18 14:31:20] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 14:31:21] INFO multi_timeframe: Successfully fetched 196 rows of D1 data for USDJPY
+[2025-07-18 14:31:21] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 14:31:21] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 14:31:21] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 14:31:21] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 14:31:21] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 14:31:21] INFO multi_timeframe: Created multi-timeframe features with shape: (196, 36)
+[2025-07-18 15:34:51] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 15:34:51] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 15:34:51] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 15:34:51] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 15:34:51] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 15:34:51] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 15:34:51] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 15:34:51] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 15:34:51] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 15:35:01] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 15:35:01] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 15:35:01] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 15:35:01] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 15:35:01] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 15:35:01] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 15:35:01] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 15:35:01] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 15:35:01] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 15:35:11] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 15:35:11] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 15:35:11] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 15:35:11] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 15:35:11] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 15:35:11] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 15:35:11] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 15:35:11] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 15:35:11] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 15:45:42] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 15:45:42] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 15:45:42] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 15:45:42] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 15:45:42] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 15:45:42] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 15:45:42] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 15:45:42] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 15:45:42] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 15:45:52] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 15:45:52] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 15:45:52] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 15:45:52] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 15:45:52] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 15:45:52] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 15:45:52] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 15:45:52] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 15:45:52] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 15:46:05] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 15:46:05] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 15:46:05] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 15:46:05] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 15:46:05] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 15:46:05] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 15:46:05] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 15:46:05] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 15:46:05] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 16:00:08] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 16:00:08] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 16:00:08] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 16:00:09] INFO multi_timeframe: Successfully fetched 4697 rows of 1h data for USDJPY
+[2025-07-18 16:00:09] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 16:00:10] INFO multi_timeframe: Successfully fetched 1193 rows of 4h data for USDJPY
+[2025-07-18 16:00:10] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 16:00:11] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 16:00:11] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 16:00:11] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 16:00:11] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 16:00:11] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-18 16:00:11] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-18 16:00:11] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 16:00:11] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 16:00:11] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 16:00:11] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 16:00:11] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 16:00:11] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 16:00:11] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 16:00:11] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 16:00:11] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 16:00:19] INFO multi_timeframe: Creating multi-timeframe features for USDJPY
+[2025-07-18 16:00:19] INFO multi_timeframe: Fetching multi-timeframe data for USDJPY
+[2025-07-18 16:00:19] INFO multi_timeframe: Fetching 1h data for USDJPY
+[2025-07-18 16:00:21] INFO multi_timeframe: Successfully fetched 4697 rows of 1h data for USDJPY
+[2025-07-18 16:00:21] INFO multi_timeframe: Fetching 4h data for USDJPY
+[2025-07-18 16:00:22] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 16:00:22] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 16:00:22] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 16:00:22] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 16:00:22] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 16:00:22] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 16:00:22] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 16:00:22] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 16:00:22] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 16:00:22] INFO multi_timeframe: Successfully fetched 1193 rows of 4h data for USDJPY
+[2025-07-18 16:00:22] INFO multi_timeframe: Fetching D1 data for USDJPY
+[2025-07-18 16:00:23] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for USDJPY
+[2025-07-18 16:00:23] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 16:00:23] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 16:00:23] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 16:00:23] ERROR multi_timeframe: Error adding 1d timeframe features: Cannot join tz-naive with tz-aware DatetimeIndex
+[2025-07-18 16:00:23] INFO multi_timeframe: Created multi-timeframe features with shape: (0, 32)
+[2025-07-18 16:00:33] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 16:00:33] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 16:00:33] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 16:00:33] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 16:00:33] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 16:00:33] WARNING multi_timeframe: No 4h data received for EURUSD
+[2025-07-18 16:00:33] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 16:00:33] WARNING multi_timeframe: No D1 data received for EURUSD
+[2025-07-18 16:00:33] ERROR multi_timeframe: No multi-timeframe data available for EURUSD
+[2025-07-18 16:12:14] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 16:12:14] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 16:12:14] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 16:12:14] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 16:12:14] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 16:12:15] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 16:12:15] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 16:12:16] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 16:12:16] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 16:12:16] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 16:12:16] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 16:12:16] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 16:12:16] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 16:12:16] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:00:48] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:00:48] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:00:48] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:00:48] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:00:48] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:00:48] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:00:48] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:00:48] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:00:48] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:00:48] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:00:48] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:00:48] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:00:48] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:00:48] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:00:59] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:00:59] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:00:59] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:00:59] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:00:59] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:00:59] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:00:59] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:00:59] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:00:59] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:00:59] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:00:59] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:00:59] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:00:59] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:00:59] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:01:10] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:01:10] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:01:10] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:01:10] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:01:10] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:01:10] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:01:10] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:01:10] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:01:10] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:01:10] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:01:10] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:01:10] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:01:10] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:01:10] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:01:20] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:01:20] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:01:20] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:01:20] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:01:20] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:01:20] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:01:20] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:01:20] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:01:20] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:01:20] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:01:20] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:01:20] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:01:20] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:01:20] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:01:28] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:01:28] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:01:28] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:01:28] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:01:28] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:01:28] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:01:28] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:01:28] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:01:28] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:01:28] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:01:28] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:01:28] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:01:28] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:01:28] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:02:13] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:02:13] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:02:13] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:02:13] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:02:13] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:02:13] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:02:13] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:02:13] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:02:13] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:02:13] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:02:13] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:02:13] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:02:13] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:02:13] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:02:22] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:02:22] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:02:22] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:02:22] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:02:22] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:02:22] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:02:22] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:02:22] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:02:22] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:02:22] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:02:22] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:02:22] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:02:22] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:02:22] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:02:32] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:02:32] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:02:32] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:02:32] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:02:32] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:02:32] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:02:32] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:02:32] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:02:32] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:02:32] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:02:32] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:02:32] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:02:32] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:02:32] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:02:42] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:02:42] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:02:42] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:02:42] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:02:42] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:02:42] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:02:42] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:02:42] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:02:42] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:02:42] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:02:42] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:02:42] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:02:42] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:02:42] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:02:52] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:02:52] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:02:52] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:02:52] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:02:52] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:02:52] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:02:52] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:02:52] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:02:52] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:02:52] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:02:52] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:02:52] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:02:52] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:02:52] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:10:45] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:10:45] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:10:45] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:10:45] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:10:45] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:10:45] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:10:45] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:10:45] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:10:45] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:10:45] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:10:45] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:10:45] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:10:45] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:10:45] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:11:51] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:11:51] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:11:51] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:11:51] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:11:51] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:11:51] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:11:51] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:11:51] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:11:51] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:11:51] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:11:51] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:11:51] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:11:51] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:11:51] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:12:01] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:12:01] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:12:01] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:12:01] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:12:01] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:12:01] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:12:01] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:12:01] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:12:01] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:12:01] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:12:01] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:12:01] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:12:01] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:12:01] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:12:02] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:12:02] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:12:02] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:12:02] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:12:02] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:12:02] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:12:02] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:12:02] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:12:02] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:12:02] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:12:02] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:12:02] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:12:02] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:12:02] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:12:10] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:12:10] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:12:10] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:12:10] INFO multi_timeframe: Successfully fetched 4720 rows of 1h data for EURUSD
+[2025-07-18 17:12:10] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:12:10] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:12:10] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:12:10] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:12:10] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:12:10] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:12:10] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:12:10] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:12:10] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:12:10] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:12:25] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:12:25] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:12:25] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:12:26] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:12:26] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:12:27] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:12:27] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:12:28] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:12:28] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:12:28] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:12:28] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:12:28] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:12:28] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:12:28] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:12:37] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:12:37] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:12:37] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:12:37] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:12:37] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:12:37] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:12:37] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:12:37] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:12:37] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:12:37] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:12:37] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:12:37] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:12:37] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:12:37] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:12:46] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:12:46] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:12:46] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:12:46] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:12:46] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:12:47] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:12:47] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:12:47] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:12:47] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:12:47] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:12:47] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:12:47] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:12:47] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:12:47] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:12:56] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:12:56] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:12:56] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:12:56] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:12:56] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:12:56] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:12:56] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:12:56] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:12:56] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:12:56] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:12:56] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:12:56] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:12:56] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:12:56] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:13:01] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:13:01] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:13:01] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:13:01] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:13:01] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:13:01] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:13:01] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:13:01] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:13:01] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:13:01] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:13:01] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:13:01] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:13:01] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:13:01] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:16:36] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:16:36] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:16:36] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:16:36] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:16:36] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:16:36] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:16:36] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:16:36] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:16:36] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:16:36] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:16:36] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:16:36] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:16:36] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:16:36] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:22:46] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:22:46] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:22:46] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:22:46] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:22:46] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:22:46] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:22:46] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:22:46] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:22:46] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:22:46] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:22:46] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:22:46] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:22:46] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:22:46] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:22:52] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:22:52] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:22:52] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:22:52] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:22:52] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:22:52] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:22:52] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:22:52] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:22:52] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:22:52] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:22:52] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:22:52] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:22:52] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:22:52] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:22:57] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:22:57] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:22:57] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:22:57] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:22:57] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:22:57] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:22:57] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:22:57] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:22:57] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:22:57] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:22:57] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:22:57] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:22:57] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:22:57] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:23:02] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:23:02] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:23:02] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:23:02] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:23:02] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:23:02] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:23:02] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:23:02] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:23:02] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:23:02] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:23:02] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:23:02] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:23:02] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:23:02] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:23:07] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:23:07] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:23:07] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:23:07] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:23:07] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:23:07] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:23:07] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:23:07] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:23:07] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:23:07] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:23:07] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:23:07] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:23:07] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:23:07] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:32:25] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:32:25] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:32:25] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:32:25] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:32:25] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:32:25] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:32:25] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:32:25] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:32:25] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:32:25] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:32:25] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:32:25] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:32:25] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:32:25] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:32:31] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:32:31] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:32:31] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:32:31] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:32:31] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:32:31] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:32:31] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:32:31] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:32:31] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:32:31] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:32:31] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:32:31] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:32:31] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:32:31] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:32:37] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:32:37] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:32:37] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:32:37] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:32:37] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:32:37] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:32:37] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:32:37] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:32:37] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:32:37] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:32:37] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:32:37] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:32:37] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:32:37] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:32:48] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:32:48] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:32:48] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:32:48] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:32:48] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:32:48] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:32:48] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:32:48] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:32:48] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:32:48] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:32:48] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:32:48] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:32:48] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:32:48] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:32:53] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:32:53] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:32:53] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:32:53] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:32:53] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:32:53] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:32:53] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:32:53] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:32:53] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:32:53] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:32:53] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:32:53] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:32:53] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:32:53] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:44:08] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:44:08] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:44:08] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:44:08] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:44:08] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:44:08] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:44:08] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:44:08] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:44:08] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:44:08] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:44:08] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:44:09] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:44:09] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:44:09] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:44:15] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:44:15] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:44:15] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:44:15] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:44:15] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:44:15] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:44:15] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:44:15] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:44:15] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:44:15] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:44:15] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:44:15] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:44:15] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:44:15] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:44:22] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:44:22] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:44:22] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:44:22] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:44:22] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:44:22] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:44:22] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:44:22] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:44:22] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:44:22] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:44:22] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:44:22] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:44:22] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:44:22] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:44:27] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:44:27] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:44:27] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:44:27] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:44:27] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:44:27] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:44:27] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:44:27] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:44:27] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:44:27] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:44:27] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:44:27] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:44:27] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:44:27] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:44:33] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:44:33] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:44:33] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:44:33] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:44:33] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:44:33] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:44:33] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:44:33] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:44:33] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:44:33] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:44:33] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:44:33] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:44:33] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:44:33] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:44:41] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:44:41] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:44:41] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:44:41] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:44:41] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:44:41] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:44:41] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:44:41] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:44:41] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:44:41] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:44:41] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:44:41] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:44:41] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:44:41] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:44:51] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:44:51] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:44:51] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:44:51] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:44:51] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:44:51] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:44:51] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:44:51] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:44:51] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:44:51] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:44:51] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:44:51] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:44:51] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:44:51] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:45:00] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:45:00] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:45:00] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:45:00] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:45:00] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:45:00] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:45:00] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:45:00] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:45:00] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:45:00] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:45:00] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:45:00] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:45:00] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:45:00] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:45:08] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:45:08] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:45:08] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:45:08] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:45:08] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:45:08] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:45:08] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:45:08] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:45:08] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:45:08] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:45:08] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:45:08] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:45:08] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:45:08] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:45:19] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:45:19] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:45:19] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:45:19] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:45:19] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:45:19] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:45:19] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:45:19] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:45:19] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:45:19] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:45:19] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:45:19] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:45:19] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:45:19] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 17:45:26] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 17:45:26] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 17:45:26] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 17:45:26] INFO multi_timeframe: Successfully fetched 4721 rows of 1h data for EURUSD
+[2025-07-18 17:45:26] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 17:45:26] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 17:45:26] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 17:45:26] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 17:45:26] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 17:45:26] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 17:45:26] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 17:45:26] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 17:45:26] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 17:45:26] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 18:26:24] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 18:26:24] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 18:26:24] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 18:26:25] INFO multi_timeframe: Successfully fetched 4722 rows of 1h data for EURUSD
+[2025-07-18 18:26:25] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 18:26:26] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 18:26:26] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 18:26:28] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 18:26:28] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 18:26:28] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 18:26:28] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 18:26:28] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 18:26:28] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 18:26:28] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 19:43:29] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 19:43:29] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 19:43:29] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 19:43:39] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 19:43:39] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 19:43:40] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 19:43:40] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 19:43:43] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 19:43:43] ERROR multi_timeframe: No 1h data available for EURUSD
+[2025-07-18 19:44:01] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 19:44:01] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 19:44:01] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 19:44:11] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 19:44:11] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 19:44:11] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 19:44:11] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 19:44:11] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 19:44:11] ERROR multi_timeframe: No 1h data available for EURUSD
+[2025-07-18 19:45:26] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 19:45:26] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 19:45:26] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 19:45:36] WARNING multi_timeframe: No 1h data received for EURUSD
+[2025-07-18 19:45:36] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 19:45:36] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 19:45:36] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 19:45:36] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 19:45:36] ERROR multi_timeframe: No 1h data available for EURUSD
+[2025-07-18 19:47:08] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 19:47:08] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 19:47:08] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 19:47:12] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 19:47:12] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 19:47:12] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 19:47:12] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 19:47:12] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 19:47:12] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 19:47:12] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 19:47:12] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 19:47:12] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 19:47:12] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 19:47:12] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 19:48:28] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 19:48:28] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 19:48:28] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 19:48:28] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 19:48:28] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 19:48:28] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 19:48:28] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 19:48:28] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 19:48:28] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 19:48:28] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 19:48:28] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 19:48:28] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 19:48:28] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 19:48:28] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:01:15] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:01:15] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:01:15] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:01:15] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:01:15] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:01:15] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:01:15] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:01:15] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:01:15] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:01:15] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:01:15] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:01:15] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:01:15] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:01:15] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:01:31] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:01:31] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:01:31] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:01:31] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:01:31] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:01:31] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:01:31] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:01:31] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:01:31] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:01:31] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:01:31] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:01:31] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:01:31] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:01:31] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:02:44] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:02:44] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:02:44] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:02:44] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:02:44] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:02:44] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:02:44] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:02:44] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:02:44] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:02:44] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:02:44] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:02:44] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:02:44] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:02:44] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:02:52] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:02:52] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:02:52] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:02:52] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:02:52] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:02:52] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:02:52] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:02:52] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:02:53] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:02:53] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:02:53] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:02:53] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:02:53] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:02:53] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:03:01] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:03:01] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:03:01] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:03:01] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:03:01] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:03:01] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:03:01] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:03:01] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:03:01] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:03:01] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:03:01] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:03:01] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:03:01] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:03:01] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:03:11] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:03:11] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:03:11] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:03:11] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:03:11] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:03:11] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:03:11] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:03:11] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:03:11] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:03:11] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:03:11] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:03:11] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:03:11] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:03:11] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:03:20] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:03:20] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:03:20] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:03:20] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:03:20] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:03:20] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:03:20] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:03:20] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:03:20] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:03:20] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:03:20] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:03:20] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:03:20] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:03:20] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:03:25] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:03:25] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:03:25] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:03:25] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:03:25] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:03:25] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:03:25] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:03:25] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:03:25] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:03:25] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:03:25] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:03:25] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:03:25] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:03:25] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:03:34] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:03:34] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:03:34] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:03:34] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:03:34] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:03:34] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:03:34] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:03:34] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:03:34] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:03:35] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:03:35] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:03:35] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:03:35] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:03:35] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:03:43] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:03:43] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:03:43] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:03:43] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:03:43] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:03:43] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:03:43] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:03:43] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:03:43] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:03:43] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:03:43] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:03:43] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:03:43] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:03:43] INFO multi_timeframe: Created multi-timeframe features with shape: (197, 36)
+[2025-07-18 20:16:30] INFO multi_timeframe: Creating multi-timeframe features for EURUSD
+[2025-07-18 20:16:30] INFO multi_timeframe: Fetching multi-timeframe data for EURUSD
+[2025-07-18 20:16:30] INFO multi_timeframe: Fetching 1h data for EURUSD
+[2025-07-18 20:16:30] INFO multi_timeframe: Successfully fetched 4723 rows of 1h data for EURUSD
+[2025-07-18 20:16:30] INFO multi_timeframe: Fetching 4h data for EURUSD
+[2025-07-18 20:16:30] INFO multi_timeframe: Successfully fetched 1194 rows of 4h data for EURUSD
+[2025-07-18 20:16:30] INFO multi_timeframe: Fetching D1 data for EURUSD
+[2025-07-18 20:16:30] INFO multi_timeframe: Successfully fetched 197 rows of D1 data for EURUSD
+[2025-07-18 20:16:31] INFO multi_timeframe: Added structure_trend_1h feature
+[2025-07-18 20:16:31] INFO multi_timeframe: Added structure_trend_4h feature
+[2025-07-18 20:16:31] INFO multi_timeframe: Added 4h timeframe features
+[2025-07-18 20:16:31] INFO multi_timeframe: Added structure_trend_1d feature
+[2025-07-18 20:16:31] INFO multi_timeframe: Added 1d timeframe features
+[2025-07-18 20:16:31] INFO multi_timeframe: Created multi-timeframe features with shape: (4723, 36)

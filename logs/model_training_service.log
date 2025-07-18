@@ -758,3 +758,914 @@ Classification Report:
 weighted avg       0.79      0.79      0.79      1044
 
 [2025-07-17 20:05:10] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 20:10:23] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 20:10:23] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:10:24] INFO model_training_service: Model Accuracy: 0.8479
+[2025-07-17 20:10:24] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.85       622
+           1       0.84      0.86      0.85       621
+
+    accuracy                           0.85      1243
+   macro avg       0.85      0.85      0.85      1243
+weighted avg       0.85      0.85      0.85      1243
+
+[2025-07-17 20:10:24] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 20:10:35] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 20:10:35] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:10:36] INFO model_training_service: Model Accuracy: 0.7921
+[2025-07-17 20:10:36] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       522
+           1       0.82      0.75      0.78       522
+
+    accuracy                           0.79      1044
+   macro avg       0.79      0.79      0.79      1044
+weighted avg       0.79      0.79      0.79      1044
+
+[2025-07-17 20:10:36] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 20:18:33] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 20:18:33] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:18:35] INFO model_training_service: Model Accuracy: 0.8496
+[2025-07-17 20:18:35] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.85       622
+           1       0.85      0.86      0.85       621
+
+    accuracy                           0.85      1243
+   macro avg       0.85      0.85      0.85      1243
+weighted avg       0.85      0.85      0.85      1243
+
+[2025-07-17 20:18:35] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 20:18:47] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 20:18:47] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:18:49] INFO model_training_service: Model Accuracy: 0.7921
+[2025-07-17 20:18:49] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       522
+           1       0.82      0.75      0.78       522
+
+    accuracy                           0.79      1044
+   macro avg       0.79      0.79      0.79      1044
+weighted avg       0.79      0.79      0.79      1044
+
+[2025-07-17 20:18:49] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 20:25:29] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 20:25:29] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:25:31] INFO model_training_service: Model Accuracy: 0.8439
+[2025-07-17 20:25:31] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.84       622
+           1       0.84      0.85      0.84       621
+
+    accuracy                           0.84      1243
+   macro avg       0.84      0.84      0.84      1243
+weighted avg       0.84      0.84      0.84      1243
+
+[2025-07-17 20:25:31] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 20:25:43] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 20:25:43] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:25:44] INFO model_training_service: Model Accuracy: 0.7921
+[2025-07-17 20:25:44] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       522
+           1       0.82      0.75      0.78       522
+
+    accuracy                           0.79      1044
+   macro avg       0.79      0.79      0.79      1044
+weighted avg       0.79      0.79      0.79      1044
+
+[2025-07-17 20:25:44] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 20:25:52] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-17 20:25:52] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:25:53] INFO model_training_service: Model Accuracy: 0.8397
+[2025-07-17 20:25:53] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.82      0.84       615
+           1       0.83      0.86      0.84       614
+
+    accuracy                           0.84      1229
+   macro avg       0.84      0.84      0.84      1229
+weighted avg       0.84      0.84      0.84      1229
+
+[2025-07-17 20:25:53] INFO model_training_service: Model, scaler, and features saved for NZDJPY
+[2025-07-17 20:55:35] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 20:55:35] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:55:36] INFO model_training_service: Model Accuracy: 0.8520
+[2025-07-17 20:55:36] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85       622
+           1       0.85      0.86      0.85       621
+
+    accuracy                           0.85      1243
+   macro avg       0.85      0.85      0.85      1243
+weighted avg       0.85      0.85      0.85      1243
+
+[2025-07-17 20:55:36] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 20:55:54] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 20:55:54] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:55:55] INFO model_training_service: Model Accuracy: 0.7921
+[2025-07-17 20:55:55] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       522
+           1       0.82      0.75      0.78       522
+
+    accuracy                           0.79      1044
+   macro avg       0.79      0.79      0.79      1044
+weighted avg       0.79      0.79      0.79      1044
+
+[2025-07-17 20:55:55] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 20:56:02] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-17 20:56:02] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 20:56:04] INFO model_training_service: Model Accuracy: 0.8397
+[2025-07-17 20:56:04] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.82      0.84       615
+           1       0.83      0.86      0.84       614
+
+    accuracy                           0.84      1229
+   macro avg       0.84      0.84      0.84      1229
+weighted avg       0.84      0.84      0.84      1229
+
+[2025-07-17 20:56:04] INFO model_training_service: Model, scaler, and features saved for NZDJPY
+[2025-07-17 22:00:13] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 22:00:13] INFO model_training_service: Starting training for USDJPY...
+[2025-07-17 22:00:13] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 22:00:13] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 22:00:15] INFO model_training_service: Model Accuracy: 0.8288
+[2025-07-17 22:00:15] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.84      0.83       622
+           1       0.83      0.82      0.83       622
+
+    accuracy                           0.83      1244
+   macro avg       0.83      0.83      0.83      1244
+weighted avg       0.83      0.83      0.83      1244
+
+[2025-07-17 22:00:15] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 22:00:15] INFO model_training_service: Model Accuracy: 0.8272
+[2025-07-17 22:00:15] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.83      0.83       622
+           1       0.83      0.82      0.83       622
+
+    accuracy                           0.83      1244
+   macro avg       0.83      0.83      0.83      1244
+weighted avg       0.83      0.83      0.83      1244
+
+[2025-07-17 22:00:15] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-17 22:00:29] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 22:00:29] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 22:00:29] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-17 22:00:29] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 22:00:31] INFO model_training_service: Model Accuracy: 0.7950
+[2025-07-17 22:00:31] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       522
+           1       0.82      0.76      0.79       522
+
+    accuracy                           0.80      1044
+   macro avg       0.80      0.80      0.79      1044
+weighted avg       0.80      0.80      0.79      1044
+
+[2025-07-17 22:00:31] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 22:00:31] INFO model_training_service: Model Accuracy: 0.7950
+[2025-07-17 22:00:31] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       522
+           1       0.82      0.76      0.79       522
+
+    accuracy                           0.80      1044
+   macro avg       0.80      0.80      0.79      1044
+weighted avg       0.80      0.80      0.79      1044
+
+[2025-07-17 22:00:31] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-17 22:00:39] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-17 22:00:39] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-17 22:00:41] INFO model_training_service: Model Accuracy: 0.8308
+[2025-07-17 22:00:41] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.82      0.83       615
+           1       0.82      0.84      0.83       614
+
+    accuracy                           0.83      1229
+   macro avg       0.83      0.83      0.83      1229
+weighted avg       0.83      0.83      0.83      1229
+
+[2025-07-17 22:00:41] INFO model_training_service: Model, scaler, and features saved for NZDJPY
+[2025-07-18 10:41:01] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 10:41:01] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 10:41:02] INFO model_training_service: Model Accuracy: 0.8392
+[2025-07-18 10:41:02] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.86      0.84       613
+           1       0.85      0.82      0.84       612
+
+    accuracy                           0.84      1225
+   macro avg       0.84      0.84      0.84      1225
+weighted avg       0.84      0.84      0.84      1225
+
+[2025-07-18 10:41:02] INFO model_training_service: Model, scaler, and features saved for NZDJPY
+[2025-07-18 10:47:48] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 10:47:48] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 10:47:49] INFO model_training_service: Model Accuracy: 0.8390
+[2025-07-18 10:47:49] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84       621
+           1       0.84      0.84      0.84       621
+
+    accuracy                           0.84      1242
+   macro avg       0.84      0.84      0.84      1242
+weighted avg       0.84      0.84      0.84      1242
+
+[2025-07-18 10:47:49] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-18 10:48:24] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 10:48:24] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 10:48:26] INFO model_training_service: Model Accuracy: 0.8400
+[2025-07-18 10:48:26] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.87      0.84       613
+           1       0.86      0.81      0.84       612
+
+    accuracy                           0.84      1225
+   macro avg       0.84      0.84      0.84      1225
+weighted avg       0.84      0.84      0.84      1225
+
+[2025-07-18 10:48:26] INFO model_training_service: Model, scaler, and features saved for NZDJPY
+[2025-07-18 11:23:42] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 11:23:42] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 11:23:43] INFO model_training_service: Model Accuracy: 0.8301
+[2025-07-18 11:23:43] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.85      0.83       621
+           1       0.84      0.81      0.83       621
+
+    accuracy                           0.83      1242
+   macro avg       0.83      0.83      0.83      1242
+weighted avg       0.83      0.83      0.83      1242
+
+[2025-07-18 11:23:43] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-18 11:24:11] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-18 11:24:11] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 11:24:12] INFO model_training_service: Model Accuracy: 0.8125
+[2025-07-18 11:24:12] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.81      0.81       520
+           1       0.81      0.82      0.81       520
+
+    accuracy                           0.81      1040
+   macro avg       0.81      0.81      0.81      1040
+weighted avg       0.81      0.81      0.81      1040
+
+[2025-07-18 11:24:12] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-18 11:24:56] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 11:24:56] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 11:24:58] INFO model_training_service: Model Accuracy: 0.8441
+[2025-07-18 11:24:58] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.86      0.85       613
+           1       0.85      0.83      0.84       612
+
+    accuracy                           0.84      1225
+   macro avg       0.84      0.84      0.84      1225
+weighted avg       0.84      0.84      0.84      1225
+
+[2025-07-18 11:24:58] INFO model_training_service: Model, scaler, and features saved for NZDJPY
+[2025-07-18 13:13:18] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 13:13:18] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 13:13:20] INFO model_training_service: Model Accuracy: 0.8423
+[2025-07-18 13:13:20] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.84       622
+           1       0.84      0.85      0.84       621
+
+    accuracy                           0.84      1243
+   macro avg       0.84      0.84      0.84      1243
+weighted avg       0.84      0.84      0.84      1243
+
+[2025-07-18 13:13:20] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-18 13:13:57] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-18 13:13:57] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 13:13:58] INFO model_training_service: Model Accuracy: 0.8029
+[2025-07-18 13:13:58] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.79      0.82      0.81       520
+           1       0.81      0.79      0.80       520
+
+    accuracy                           0.80      1040
+   macro avg       0.80      0.80      0.80      1040
+weighted avg       0.80      0.80      0.80      1040
+
+[2025-07-18 13:13:58] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-18 13:14:13] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 13:14:13] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 13:14:15] INFO model_training_service: Model Accuracy: 0.8449
+[2025-07-18 13:14:15] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.85      0.85       613
+           1       0.85      0.84      0.84       612
+
+    accuracy                           0.84      1225
+   macro avg       0.84      0.84      0.84      1225
+weighted avg       0.84      0.84      0.84      1225
+
+[2025-07-18 13:14:15] INFO model_training_service: Model, scaler, and features saved for NZDJPY
+[2025-07-18 14:30:27] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 14:30:27] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 14:30:27] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 14:30:27] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 14:30:29] INFO model_training_service: Model Accuracy: 0.8391
+[2025-07-18 14:30:29] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84       622
+           1       0.84      0.84      0.84       621
+
+    accuracy                           0.84      1243
+   macro avg       0.84      0.84      0.84      1243
+weighted avg       0.84      0.84      0.84      1243
+
+[2025-07-18 14:30:29] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-18 14:30:29] INFO model_training_service: Model Accuracy: 0.8391
+[2025-07-18 14:30:29] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84       622
+           1       0.84      0.84      0.84       621
+
+    accuracy                           0.84      1243
+   macro avg       0.84      0.84      0.84      1243
+weighted avg       0.84      0.84      0.84      1243
+
+[2025-07-18 14:30:30] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-18 14:30:47] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-18 14:30:47] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 14:30:49] INFO model_training_service: Model Accuracy: 0.7906
+[2025-07-18 14:30:49] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.82      0.80       521
+           1       0.81      0.76      0.78       520
+
+    accuracy                           0.79      1041
+   macro avg       0.79      0.79      0.79      1041
+weighted avg       0.79      0.79      0.79      1041
+
+[2025-07-18 14:30:49] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-18 14:30:52] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-18 14:30:52] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 14:30:54] INFO model_training_service: Model Accuracy: 0.7906
+[2025-07-18 14:30:54] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.82      0.80       521
+           1       0.81      0.76      0.78       520
+
+    accuracy                           0.79      1041
+   macro avg       0.79      0.79      0.79      1041
+weighted avg       0.79      0.79      0.79      1041
+
+[2025-07-18 14:30:54] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-18 14:31:23] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 14:31:23] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 14:31:24] INFO model_training_service: Model Accuracy: 0.8173
+[2025-07-18 14:31:24] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.80      0.81       613
+           1       0.81      0.83      0.82       613
+
+    accuracy                           0.82      1226
+   macro avg       0.82      0.82      0.82      1226
+weighted avg       0.82      0.82      0.82      1226
+
+[2025-07-18 14:31:24] INFO model_training_service: Model, scaler, and features saved for NZDJPY
+[2025-07-18 15:11:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:11:29] INFO model_training_service: Starting training for TESTPAIR...
+[2025-07-18 15:21:53] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:21:53] INFO model_training_service: Starting training for TESTPAIR...
+[2025-07-18 15:21:53] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 15:21:53] INFO model_training_service: Model Accuracy: 0.7407
+[2025-07-18 15:21:53] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.71      0.86      0.77        14
+           1       0.80      0.62      0.70        13
+
+    accuracy                           0.74        27
+   macro avg       0.75      0.74      0.73        27
+weighted avg       0.75      0.74      0.74        27
+
+[2025-07-18 15:21:53] INFO model_training_service: Saved model version for TESTPAIR: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 15:21:53] INFO model_training_service: Model, scaler, features, and version saved for TESTPAIR
+[2025-07-18 15:21:54] INFO model_training_service: Model for TESTPAIR (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 15:21:54] INFO model_training_service: Model for TESTPAIR (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 15:34:43] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:34:43] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:34:53] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:34:53] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 15:35:03] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:35:03] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 15:35:13] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:35:13] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 15:45:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:45:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:45:44] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:45:44] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 15:45:44] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 15:45:45] INFO model_training_service: Model Accuracy: 0.8384
+[2025-07-18 15:45:45] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.82      0.84       622
+           1       0.83      0.86      0.84       622
+
+    accuracy                           0.84      1244
+   macro avg       0.84      0.84      0.84      1244
+weighted avg       0.84      0.84      0.84      1244
+
+[2025-07-18 15:45:45] INFO model_training_service: Saved model version for USDJPY: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 15:45:45] INFO model_training_service: Model, scaler, features, and version saved for USDJPY
+[2025-07-18 15:45:45] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 15:45:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:45:54] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 15:45:54] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 15:45:56] INFO model_training_service: Model Accuracy: 0.8673
+[2025-07-18 15:45:56] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.85      0.86       686
+           1       0.85      0.89      0.87       685
+
+    accuracy                           0.87      1371
+   macro avg       0.87      0.87      0.87      1371
+weighted avg       0.87      0.87      0.87      1371
+
+[2025-07-18 15:45:56] INFO model_training_service: Saved model version for USDCHF: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 15:45:56] INFO model_training_service: Model, scaler, features, and version saved for USDCHF
+[2025-07-18 15:45:56] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 15:46:07] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 15:46:07] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 15:46:07] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 15:46:09] INFO model_training_service: Model Accuracy: 0.8222
+[2025-07-18 15:46:09] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.81      0.82       613
+           1       0.81      0.83      0.82       613
+
+    accuracy                           0.82      1226
+   macro avg       0.82      0.82      0.82      1226
+weighted avg       0.82      0.82      0.82      1226
+
+[2025-07-18 15:46:09] INFO model_training_service: Saved model version for NZDJPY: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 15:46:09] INFO model_training_service: Model, scaler, features, and version saved for NZDJPY
+[2025-07-18 15:46:09] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 16:00:12] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 16:00:12] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 16:00:13] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 16:00:13] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 16:00:13] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 16:00:13] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 16:00:14] INFO model_training_service: Model Accuracy: 0.8449
+[2025-07-18 16:00:14] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.83      0.84       622
+           1       0.84      0.86      0.85       622
+
+    accuracy                           0.84      1244
+   macro avg       0.85      0.84      0.84      1244
+weighted avg       0.85      0.84      0.84      1244
+
+[2025-07-18 16:00:14] INFO model_training_service: Model, scaler, and features saved for USDJPY
+[2025-07-18 16:00:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 16:00:24] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 16:00:24] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 16:00:24] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 16:00:25] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-18 16:00:25] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 16:00:27] INFO model_training_service: Model Accuracy: 0.7800
+[2025-07-18 16:00:27] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.81      0.79       521
+           1       0.80      0.75      0.77       520
+
+    accuracy                           0.78      1041
+   macro avg       0.78      0.78      0.78      1041
+weighted avg       0.78      0.78      0.78      1041
+
+[2025-07-18 16:00:27] INFO model_training_service: Model, scaler, and features saved for BTCUSD
+[2025-07-18 16:00:35] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 16:00:35] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 16:00:35] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 16:00:35] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 16:44:36] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:00:40] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:00:40] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:00:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:00:50] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 17:00:50] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 17:00:52] INFO model_training_service: Model Accuracy: 0.8429
+[2025-07-18 17:00:52] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.84       662
+           1       0.84      0.85      0.84       662
+
+    accuracy                           0.84      1324
+   macro avg       0.84      0.84      0.84      1324
+weighted avg       0.84      0.84      0.84      1324
+
+[2025-07-18 17:00:52] INFO model_training_service: Saved model version for EURUSD: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 17:00:52] INFO model_training_service: Model, scaler, features, and version saved for EURUSD
+[2025-07-18 17:00:52] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 17:01:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:01:01] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 17:01:01] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 17:01:03] INFO model_training_service: Model Accuracy: 0.8401
+[2025-07-18 17:01:03] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.86      0.84       666
+           1       0.85      0.82      0.84       666
+
+    accuracy                           0.84      1332
+   macro avg       0.84      0.84      0.84      1332
+weighted avg       0.84      0.84      0.84      1332
+
+[2025-07-18 17:01:03] INFO model_training_service: Saved model version for GBPUSD: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 17:01:03] INFO model_training_service: Model, scaler, features, and version saved for GBPUSD
+[2025-07-18 17:01:03] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 17:01:13] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:01:13] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 17:01:13] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:01:13] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:01:22] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:01:22] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 17:01:22] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:01:22] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:01:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:01:30] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 17:01:30] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:01:30] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:02:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:02:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:02:15] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:02:15] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 17:02:15] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:02:15] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:02:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:02:24] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 17:02:24] INFO model_training_service: Model for GBPUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:02:24] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:02:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:02:34] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 17:02:34] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:02:34] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:02:45] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:02:45] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 17:02:45] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:02:45] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:02:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:02:54] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 17:02:54] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:02:54] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:11:43] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:11:43] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:11:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:11:54] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 17:11:54] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:11:54] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:12:03] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:12:03] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 17:12:03] INFO model_training_service: Model for GBPUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:12:03] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:12:13] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:12:13] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 17:12:13] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:12:13] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:12:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:12:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:12:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:12:30] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 17:12:30] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:12:30] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:12:39] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:12:39] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 17:12:39] INFO model_training_service: Model for GBPUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:12:39] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:12:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:12:49] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 17:12:49] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:12:49] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:12:58] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:12:58] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 17:12:58] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:12:58] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:13:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:13:04] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 17:13:04] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:13:04] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:16:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:16:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:16:38] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:16:38] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 17:16:38] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:16:38] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:22:42] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:22:42] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:22:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:22:49] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 17:22:49] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:22:49] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:22:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:22:54] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 17:22:54] INFO model_training_service: Model for GBPUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:22:54] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:22:59] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:22:59] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 17:22:59] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:22:59] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:23:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:23:04] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 17:23:04] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:23:04] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:23:10] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:23:10] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 17:23:10] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:23:10] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:32:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:32:21] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:32:27] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:32:27] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 17:32:27] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:32:27] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:32:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:32:33] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 17:32:33] INFO model_training_service: Model for GBPUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:32:33] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:32:40] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:32:40] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 17:32:40] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:32:40] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:32:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:32:50] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 17:32:50] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:32:50] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:32:56] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:32:56] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 17:32:56] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:32:56] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:44:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:11] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:11] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 17:44:11] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:44:11] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:44:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:17] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 17:44:17] INFO model_training_service: Model for GBPUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:44:17] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:44:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:24] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 17:44:24] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:44:24] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:44:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:30] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 17:44:30] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:44:30] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 17:44:35] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:35] INFO model_training_service: Starting training for AUDUSD...
+[2025-07-18 17:44:35] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 17:44:37] INFO model_training_service: Model Accuracy: 0.8589
+[2025-07-18 17:44:37] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.86      0.86       638
+           1       0.86      0.86      0.86       638
+
+    accuracy                           0.86      1276
+   macro avg       0.86      0.86      0.86      1276
+weighted avg       0.86      0.86      0.86      1276
+
+[2025-07-18 17:44:37] INFO model_training_service: Saved model version for AUDUSD: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 17:44:37] INFO model_training_service: Model, scaler, features, and version saved for AUDUSD
+[2025-07-18 17:44:37] INFO model_training_service: Model for AUDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 17:44:44] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:44] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-18 17:44:44] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 17:44:45] INFO model_training_service: Model Accuracy: 0.8316
+[2025-07-18 17:44:45] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.84      0.83       624
+           1       0.84      0.82      0.83       623
+
+    accuracy                           0.83      1247
+   macro avg       0.83      0.83      0.83      1247
+weighted avg       0.83      0.83      0.83      1247
+
+[2025-07-18 17:44:45] INFO model_training_service: Saved model version for NZDUSD: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 17:44:45] INFO model_training_service: Model, scaler, features, and version saved for NZDUSD
+[2025-07-18 17:44:45] INFO model_training_service: Model for NZDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 17:44:53] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:44:53] INFO model_training_service: Starting training for USDCAD...
+[2025-07-18 17:44:53] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 17:44:55] INFO model_training_service: Model Accuracy: 0.8828
+[2025-07-18 17:44:55] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.86      0.88       734
+           1       0.87      0.90      0.89       734
+
+    accuracy                           0.88      1468
+   macro avg       0.88      0.88      0.88      1468
+weighted avg       0.88      0.88      0.88      1468
+
+[2025-07-18 17:44:55] INFO model_training_service: Saved model version for USDCAD: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 17:44:55] INFO model_training_service: Model, scaler, features, and version saved for USDCAD
+[2025-07-18 17:44:55] INFO model_training_service: Model for USDCAD (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 17:45:03] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:45:03] INFO model_training_service: Starting training for EURJPY...
+[2025-07-18 17:45:03] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 17:45:04] INFO model_training_service: Model Accuracy: 0.8544
+[2025-07-18 17:45:04] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.85      0.85       632
+           1       0.85      0.86      0.85       632
+
+    accuracy                           0.85      1264
+   macro avg       0.85      0.85      0.85      1264
+weighted avg       0.85      0.85      0.85      1264
+
+[2025-07-18 17:45:04] INFO model_training_service: Saved model version for EURJPY: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 17:45:04] INFO model_training_service: Model, scaler, features, and version saved for EURJPY
+[2025-07-18 17:45:04] INFO model_training_service: Model for EURJPY (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 17:45:10] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:45:10] INFO model_training_service: Starting training for GBPJPY...
+[2025-07-18 17:45:10] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 17:45:13] INFO model_training_service: Model Accuracy: 0.8421
+[2025-07-18 17:45:13] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.84       627
+           1       0.84      0.85      0.84       627
+
+    accuracy                           0.84      1254
+   macro avg       0.84      0.84      0.84      1254
+weighted avg       0.84      0.84      0.84      1254
+
+[2025-07-18 17:45:13] INFO model_training_service: Saved model version for GBPJPY: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 17:45:13] INFO model_training_service: Model, scaler, features, and version saved for GBPJPY
+[2025-07-18 17:45:13] INFO model_training_service: Model for GBPJPY (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 17:45:21] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:45:21] INFO model_training_service: Starting training for AUDJPY...
+[2025-07-18 17:45:21] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 17:45:23] INFO model_training_service: Model Accuracy: 0.8264
+[2025-07-18 17:45:23] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.83      0.83       617
+           1       0.83      0.82      0.83       616
+
+    accuracy                           0.83      1233
+   macro avg       0.83      0.83      0.83      1233
+weighted avg       0.83      0.83      0.83      1233
+
+[2025-07-18 17:45:23] INFO model_training_service: Saved model version for AUDJPY: c1553960e5e5b966e2fe85a3f76b44ee
+[2025-07-18 17:45:23] INFO model_training_service: Model, scaler, features, and version saved for AUDJPY
+[2025-07-18 17:45:23] INFO model_training_service: Model for AUDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) saved to MongoDB.
+[2025-07-18 17:45:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 17:45:28] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 17:45:28] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 17:45:28] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 18:18:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 18:18:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 18:26:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 18:26:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 19:42:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 19:42:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 19:43:46] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 19:43:46] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 19:43:46] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 19:43:46] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 19:44:14] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 19:44:14] INFO model_training_service: Starting training for AUDUSD...
+[2025-07-18 19:44:14] INFO model_training_service: Model for AUDUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 19:44:14] INFO model_training_service: Model for AUDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 19:45:39] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 19:45:39] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 19:45:39] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 19:45:39] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:01:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:01:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:01:18] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:01:18] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 20:01:18] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:01:18] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:01:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:01:33] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 20:01:33] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:01:33] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:02:47] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:02:47] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 20:02:47] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:02:47] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:02:55] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:02:55] INFO model_training_service: Starting training for AUDUSD...
+[2025-07-18 20:02:55] INFO model_training_service: Model for AUDUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:02:55] INFO model_training_service: Model for AUDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:03:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:03:04] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-18 20:03:04] INFO model_training_service: Model for NZDUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:03:04] INFO model_training_service: Model for NZDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:03:14] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:03:14] INFO model_training_service: Starting training for USDCAD...
+[2025-07-18 20:03:14] INFO model_training_service: Model for USDCAD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:03:14] INFO model_training_service: Model for USDCAD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:03:22] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:03:22] INFO model_training_service: Starting training for EURJPY...
+[2025-07-18 20:03:22] INFO model_training_service: Model for EURJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:03:22] INFO model_training_service: Model for EURJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:03:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:03:28] INFO model_training_service: Starting training for GBPJPY...
+[2025-07-18 20:03:28] INFO model_training_service: Model for GBPJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:03:28] INFO model_training_service: Model for GBPJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:03:37] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:03:37] INFO model_training_service: Starting training for AUDJPY...
+[2025-07-18 20:03:37] INFO model_training_service: Model for AUDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:03:37] INFO model_training_service: Model for AUDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:03:46] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:03:46] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 20:03:46] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:03:46] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.

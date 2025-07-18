@@ -19,6 +19,9 @@ import numpy as np
 from utils.attempt_log import AttemptLog
 from data.data_fetcher import DataFetcher
 from pipeline.pipeline_orchestrator import PipelineOrchestrator
+from pipeline.signal_pipeline import SignalPipeline
+from models.continuous_learning import continuous_learner
+import threading
 
 logger = get_logger('main', log_file='logs/main.log')
 
@@ -78,7 +81,27 @@ def get_pair_keywords(pair):
         return [pair]
 
 def main():
-    orchestrator = PipelineOrchestrator()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--mode', default='live', choices=['live', 'study-only', 'backtest'], help='Pipeline mode')
+    parser.add_argument('--pair', default=None, help='Optional: Only run for a specific pair (e.g., BTCUSD)')
+    args = parser.parse_args()
+    mode = args.mode
+    pair = args.pair
+    # On Friday, Saturday, Sunday: only allow BTCUSD for live trading
+    weekday = datetime.utcnow().weekday()  # Monday=0, Sunday=6
+    if mode == 'live' and weekday in [4, 5, 6]:
+        if not pair:
+            pair = 'BTCUSD'
+            logger.info("Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).")
+        if pair.upper() != 'BTCUSD':
+            logger.info("Market closed for forex pairs (Fri-Sun). Skipping live trading for forex pairs. BTCUSD is allowed.")
+            exit(0)
+    signal_pipeline = SignalPipeline(mode=mode, pair=pair)
+    orchestrator = PipelineOrchestrator(signal_pipeline=signal_pipeline)
+    # Start daily summary email scheduler in background
+    email_thread = threading.Thread(target=continuous_learner.run_daily_summary_email, args=(send_email,), daemon=True)
+    email_thread.start()
     orchestrator.run_forever(send_email_func=send_email)
 
 if __name__ == "__main__":

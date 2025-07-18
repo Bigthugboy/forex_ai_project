@@ -5,6 +5,7 @@ from config import Config
 from utils.logger import get_logger
 from pipeline.signal_pipeline import SignalPipeline
 from models.continuous_learning import ContinuousLearning
+import json
 
 class PipelineOrchestrator:
     def __init__(self, 
@@ -30,6 +31,19 @@ class PipelineOrchestrator:
         for pair in self.trading_pairs:
             result = self.signal_pipeline.run(pair, send_email_func=send_email_func)
             results[pair] = result
+            # --- Analytics logging for study ---
+            analytics_log = {
+                'timestamp': datetime.utcnow().isoformat(),
+                'pair': pair,
+                'signal': result.get('signal', {}).get('signal') if result.get('signal') else None,
+                'confidence': result.get('signal', {}).get('confidence') if result.get('signal') else None,
+                'confluence': result.get('signal', {}).get('confluence') if result.get('signal') else None,
+                'confluence_factors': result.get('signal', {}).get('confluence_factors') if result.get('signal') else None,
+                'all_factors': result.get('signal', {}).get('factors') if result.get('signal') and 'factors' in result['signal'] else None,
+                'error': result.get('error')
+            }
+            with open('logs/analytics_signals.jsonl', 'a') as f:
+                f.write(json.dumps(analytics_log) + '\n')
         self.logger.info(f"Session results: {results}")
         return results
 

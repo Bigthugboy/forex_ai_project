@@ -16915,3 +16915,514 @@ weighted avg       0.68      0.68      0.68      1243
 [2025-07-17 19:43:19] INFO train_model: volatility_20: mean=0.3281, std=0.1835, min=0.0344, max=1.3004, unique=4680
 [2025-07-17 19:43:19] INFO train_model: Auditing data quality before training...
 [2025-07-17 19:43:19] INFO train_model: Entering audit_data_quality
+[2025-07-18 16:12:11] INFO train_model: Batch retraining all models for all pairs in Config.TRADING_PAIRS...
+[2025-07-18 16:12:11] INFO train_model: Retraining model for EURUSD...
+[2025-07-18 16:12:18] INFO train_model: Model is starting a new training session...
+[2025-07-18 16:12:18] INFO train_model: Model is cleaning and preparing data...
+[2025-07-18 16:12:18] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',
+       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0',
+       'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382',
+       'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618',
+       'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100',
+       'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low',
+       'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low',
+       'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std',
+       'is_trending', 'is_ranging', 'supply_zone', 'demand_zone',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'news_sentiment', 'doji', 'hammer', 'bullish_engulfing',
+       'bearish_engulfing', 'shooting_star', 'pin_bar',
+       'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar',
+       'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom',
+       'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down',
+       'bullish_flag', 'bearish_flag', 'bullish_pennant', 'bearish_pennant',
+       'morning_star', 'evening_star', 'three_white_soldiers',
+       'three_black_crows', 'bullish_harami', 'bearish_harami',
+       'dark_cloud_cover', 'fib_levels', 'wyckoff_phases',
+       'market_regime_choppy', 'market_regime_consolidation',
+       'market_regime_downtrend', 'market_regime_range',
+       'market_regime_uptrend'],
+      dtype='object')
+[2025-07-18 16:12:18] INFO train_model: Preparing target variable...
+[2025-07-18 16:12:18] INFO train_model: Entering prepare_target_variable
+[2025-07-18 16:12:18] INFO train_model: Exiting prepare_target_variable
+[2025-07-18 16:12:18] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',
+       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0',
+       'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382',
+       'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618',
+       'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100',
+       'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low',
+       'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low',
+       'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std',
+       'is_trending', 'is_ranging', 'supply_zone', 'demand_zone',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'news_sentiment', 'doji', 'hammer', 'bullish_engulfing',
+       'bearish_engulfing', 'shooting_star', 'pin_bar',
+       'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar',
+       'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom',
+       'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down',
+       'bullish_flag', 'bearish_flag', 'bullish_pennant', 'bearish_pennant',
+       'morning_star', 'evening_star', 'three_white_soldiers',
+       'three_black_crows', 'bullish_harami', 'bearish_harami',
+       'dark_cloud_cover', 'fib_levels', 'wyckoff_phases',
+       'market_regime_choppy', 'market_regime_consolidation',
+       'market_regime_downtrend', 'market_regime_range',
+       'market_regime_uptrend', 'future_return', 'target'],
+      dtype='object')
+[2025-07-18 16:12:18] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20']
+[2025-07-18 16:12:18] INFO train_model: Dropping NaN targets...
+[2025-07-18 16:12:18] INFO train_model: Class balance before upsampling: {0: 3307, 1: 1413}
+[2025-07-18 16:12:18] INFO train_model: Upsampling successful.
+[2025-07-18 16:12:18] INFO train_model: Splitting train/test...
+[2025-07-18 16:12:18] INFO train_model: Scaling features...
+[2025-07-18 16:12:18] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-18 16:12:18] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-18 16:12:19] INFO train_model: Model fit complete.
+[2025-07-18 16:12:19] INFO train_model: Model Accuracy: 0.7158
+[2025-07-18 16:12:19] INFO train_model: 
+Classification Report:
+[2025-07-18 16:12:19] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.72      0.71      0.72       662
+           1       0.71      0.72      0.72       661
+
+    accuracy                           0.72      1323
+   macro avg       0.72      0.72      0.72      1323
+weighted avg       0.72      0.72      0.72      1323
+
+[2025-07-18 16:12:19] INFO train_model: Model, scaler, and features saved for EURUSD
+[2025-07-18 16:12:20] INFO train_model: Model registered in ModelRegistry for EURUSD, version 94eb05d81b85d90c2795518243f96e99
+[2025-07-18 16:12:20] INFO train_model: Feature distributions before training:
+[2025-07-18 16:12:20] INFO train_model: supply_zone: mean=0.4831, std=0.4998, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: demand_zone: mean=0.4657, std=0.4989, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: wyckoff_markdown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 16:12:20] INFO train_model: wyckoff_markup: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 16:12:20] INFO train_model: wyckoff_unknown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 16:12:20] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 16:12:20] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 16:12:20] INFO train_model: head_shoulders: mean=0.0303, std=0.1714, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: inv_head_shoulders: mean=0.0294, std=0.1691, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: double_top: mean=0.0331, std=0.1788, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: double_bottom: mean=0.0436, std=0.2043, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: rising_wedge: mean=0.2364, std=0.4249, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: falling_wedge: mean=0.2290, std=0.4203, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: fakeout_up: mean=0.0038, std=0.0616, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: fakeout_down: mean=0.0042, std=0.0650, min=0.0000, max=1.0000, unique=2
+[2025-07-18 16:12:20] INFO train_model: price_vs_sma20_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 16:12:20] INFO train_model: price_vs_sma50_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 16:12:20] INFO train_model: trend_strength_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 16:12:20] INFO train_model: atr_14: mean=0.0019, std=0.0007, min=0.0000, max=0.0064, unique=4708
+[2025-07-18 16:12:20] INFO train_model: volatility_20: mean=0.0019, std=0.0012, min=0.0004, max=0.0094, unique=4653
+[2025-07-18 16:12:20] INFO train_model: Auditing data quality before training...
+[2025-07-18 16:12:20] INFO train_model: Entering audit_data_quality
+[2025-07-18 17:10:45] INFO train_model: Batch retraining all models for all pairs in Config.TRADING_PAIRS...
+[2025-07-18 17:10:45] INFO train_model: Retraining model for EURUSD...
+[2025-07-18 17:10:47] INFO train_model: Model is starting a new training session...
+[2025-07-18 17:10:47] INFO train_model: Model is cleaning and preparing data...
+[2025-07-18 17:10:47] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200',
+       ...
+       'price_vs_sma50_1d', 'trend_strength_1d', 'structure_trend_1d',
+       'fib_levels', 'wyckoff_phases', 'market_regime_choppy',
+       'market_regime_consolidation', 'market_regime_downtrend',
+       'market_regime_range', 'market_regime_uptrend'],
+      dtype='object', length=114)
+[2025-07-18 17:10:47] INFO train_model: Preparing target variable...
+[2025-07-18 17:10:47] INFO train_model: Entering prepare_target_variable
+[2025-07-18 17:10:47] INFO train_model: Exiting prepare_target_variable
+[2025-07-18 17:10:47] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200',
+       ...
+       'structure_trend_1d', 'fib_levels', 'wyckoff_phases',
+       'market_regime_choppy', 'market_regime_consolidation',
+       'market_regime_downtrend', 'market_regime_range',
+       'market_regime_uptrend', 'future_return', 'target'],
+      dtype='object', length=116)
+[2025-07-18 17:10:47] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20']
+[2025-07-18 17:10:47] INFO train_model: Dropping NaN targets...
+[2025-07-18 17:10:47] INFO train_model: Class balance before upsampling: {0: 104, 1: 93}
+[2025-07-18 17:10:47] INFO train_model: Upsampling successful.
+[2025-07-18 17:10:47] INFO train_model: Splitting train/test...
+[2025-07-18 17:10:47] INFO train_model: Scaling features...
+[2025-07-18 17:10:47] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-18 17:10:47] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-18 17:10:48] INFO train_model: Model fit complete.
+[2025-07-18 17:10:48] INFO train_model: Model Accuracy: 0.6429
+[2025-07-18 17:10:48] INFO train_model: 
+Classification Report:
+[2025-07-18 17:10:48] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.64      0.67      0.65        21
+           1       0.65      0.62      0.63        21
+
+    accuracy                           0.64        42
+   macro avg       0.64      0.64      0.64        42
+weighted avg       0.64      0.64      0.64        42
+
+[2025-07-18 17:10:48] INFO train_model: Model, scaler, and features saved for EURUSD
+[2025-07-18 17:10:48] INFO train_model: Model registered in ModelRegistry for EURUSD, version 2b1cc48e5c0bf6ff024941f7ea234e72
+[2025-07-18 17:10:48] INFO train_model: Feature distributions before training:
+[2025-07-18 17:10:48] INFO train_model: supply_zone: mean=0.4619, std=0.4998, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: demand_zone: mean=0.4365, std=0.4972, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: wyckoff_markdown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: wyckoff_markup: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: wyckoff_unknown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: head_shoulders: mean=0.0711, std=0.2576, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: inv_head_shoulders: mean=0.0305, std=0.1723, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: double_top: mean=0.0203, std=0.1414, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: double_bottom: mean=0.0355, std=0.1856, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: rising_wedge: mean=0.3299, std=0.4714, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: falling_wedge: mean=0.1421, std=0.3501, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: fakeout_up: mean=0.0051, std=0.0712, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:10:48] INFO train_model: fakeout_down: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: sma_20_4h: mean=1.0896, std=0.0459, min=1.0219, max=1.1795, unique=196
+[2025-07-18 17:10:48] INFO train_model: sma_50_4h: mean=1.0894, std=0.0457, min=1.0248, max=1.1791, unique=195
+[2025-07-18 17:10:48] INFO train_model: ema_12_4h: mean=1.0896, std=0.0460, min=1.0236, max=1.1797, unique=197
+[2025-07-18 17:10:48] INFO train_model: ema_26_4h: mean=1.0895, std=0.0458, min=1.0233, max=1.1792, unique=197
+[2025-07-18 17:10:48] INFO train_model: rsi_14_4h: mean=51.1382, std=33.2214, min=0.0000, max=100.0000, unique=150
+[2025-07-18 17:10:48] INFO train_model: macd_4h: mean=0.0001, std=0.0014, min=-0.0039, max=0.0066, unique=197
+[2025-07-18 17:10:48] INFO train_model: macd_signal_4h: mean=0.0001, std=0.0013, min=-0.0034, max=0.0057, unique=197
+[2025-07-18 17:10:48] INFO train_model: bb_high_4h: mean=1.0935, std=0.0461, min=1.0268, max=1.1823, unique=196
+[2025-07-18 17:10:48] INFO train_model: bb_low_4h: mean=1.0857, std=0.0459, min=1.0169, max=1.1776, unique=196
+[2025-07-18 17:10:48] INFO train_model: atr_14_4h: mean=0.0032, std=0.0015, min=0.0012, max=0.0107, unique=196
+[2025-07-18 17:10:48] INFO train_model: volatility_20_4h: mean=0.0019, std=0.0013, min=0.0002, max=0.0096, unique=196
+[2025-07-18 17:10:48] INFO train_model: price_vs_sma20_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: price_vs_sma50_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: trend_strength_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:10:48] INFO train_model: atr_14: mean=0.0018, std=0.0007, min=0.0000, max=0.0052, unique=197
+[2025-07-18 17:10:48] INFO train_model: volatility_20: mean=0.0021, std=0.0012, min=0.0004, max=0.0093, unique=196
+[2025-07-18 17:10:48] INFO train_model: Auditing data quality before training...
+[2025-07-18 17:10:48] INFO train_model: Entering audit_data_quality
+[2025-07-18 17:12:02] INFO train_model: Batch retraining all models for all pairs in Config.TRADING_PAIRS...
+[2025-07-18 17:12:02] INFO train_model: Retraining model for EURUSD...
+[2025-07-18 17:12:04] INFO train_model: Model is starting a new training session...
+[2025-07-18 17:12:04] INFO train_model: Model is cleaning and preparing data...
+[2025-07-18 17:12:04] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200',
+       ...
+       'price_vs_sma50_1d', 'trend_strength_1d', 'structure_trend_1d',
+       'fib_levels', 'wyckoff_phases', 'market_regime_choppy',
+       'market_regime_consolidation', 'market_regime_downtrend',
+       'market_regime_range', 'market_regime_uptrend'],
+      dtype='object', length=114)
+[2025-07-18 17:12:04] INFO train_model: Preparing target variable...
+[2025-07-18 17:12:04] INFO train_model: Entering prepare_target_variable
+[2025-07-18 17:12:04] INFO train_model: Exiting prepare_target_variable
+[2025-07-18 17:12:04] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200',
+       ...
+       'structure_trend_1d', 'fib_levels', 'wyckoff_phases',
+       'market_regime_choppy', 'market_regime_consolidation',
+       'market_regime_downtrend', 'market_regime_range',
+       'market_regime_uptrend', 'future_return', 'target'],
+      dtype='object', length=116)
+[2025-07-18 17:12:04] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20']
+[2025-07-18 17:12:04] INFO train_model: Dropping NaN targets...
+[2025-07-18 17:12:04] INFO train_model: Class balance before upsampling: {0: 104, 1: 93}
+[2025-07-18 17:12:04] INFO train_model: Upsampling successful.
+[2025-07-18 17:12:04] INFO train_model: Splitting train/test...
+[2025-07-18 17:12:04] INFO train_model: Scaling features...
+[2025-07-18 17:12:04] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-18 17:12:04] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-18 17:12:05] INFO train_model: Model fit complete.
+[2025-07-18 17:12:05] INFO train_model: Model Accuracy: 0.6429
+[2025-07-18 17:12:05] INFO train_model: 
+Classification Report:
+[2025-07-18 17:12:05] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.64      0.67      0.65        21
+           1       0.65      0.62      0.63        21
+
+    accuracy                           0.64        42
+   macro avg       0.64      0.64      0.64        42
+weighted avg       0.64      0.64      0.64        42
+
+[2025-07-18 17:12:05] INFO train_model: Model, scaler, and features saved for EURUSD
+[2025-07-18 17:12:05] ERROR train_model: Failed to register model in ModelRegistry: Failed to register model: E11000 duplicate key error collection: forex_ai.model_registry index: model_type_1_version_-1 dup key: { model_type: "signal_model_EURUSD", version: "2b1cc48e5c0bf6ff024941f7ea234e72" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: forex_ai.model_registry index: model_type_1_version_-1 dup key: { model_type: "signal_model_EURUSD", version: "2b1cc48e5c0bf6ff024941f7ea234e72" }', 'keyPattern': {'model_type': 1, 'version': -1}, 'keyValue': {'model_type': 'signal_model_EURUSD', 'version': '2b1cc48e5c0bf6ff024941f7ea234e72'}}
+[2025-07-18 17:12:05] INFO train_model: Feature distributions before training:
+[2025-07-18 17:12:05] INFO train_model: supply_zone: mean=0.4619, std=0.4998, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: demand_zone: mean=0.4365, std=0.4972, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: wyckoff_markdown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: wyckoff_markup: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: wyckoff_unknown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: head_shoulders: mean=0.0711, std=0.2576, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: inv_head_shoulders: mean=0.0305, std=0.1723, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: double_top: mean=0.0203, std=0.1414, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: double_bottom: mean=0.0355, std=0.1856, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: rising_wedge: mean=0.3299, std=0.4714, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: falling_wedge: mean=0.1421, std=0.3501, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: fakeout_up: mean=0.0051, std=0.0712, min=0.0000, max=1.0000, unique=2
+[2025-07-18 17:12:05] INFO train_model: fakeout_down: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: sma_20_4h: mean=1.0896, std=0.0459, min=1.0219, max=1.1795, unique=196
+[2025-07-18 17:12:05] INFO train_model: sma_50_4h: mean=1.0894, std=0.0457, min=1.0248, max=1.1791, unique=195
+[2025-07-18 17:12:05] INFO train_model: ema_12_4h: mean=1.0896, std=0.0460, min=1.0236, max=1.1797, unique=197
+[2025-07-18 17:12:05] INFO train_model: ema_26_4h: mean=1.0895, std=0.0458, min=1.0233, max=1.1792, unique=197
+[2025-07-18 17:12:05] INFO train_model: rsi_14_4h: mean=51.1382, std=33.2214, min=0.0000, max=100.0000, unique=150
+[2025-07-18 17:12:05] INFO train_model: macd_4h: mean=0.0001, std=0.0014, min=-0.0039, max=0.0066, unique=197
+[2025-07-18 17:12:05] INFO train_model: macd_signal_4h: mean=0.0001, std=0.0013, min=-0.0034, max=0.0057, unique=197
+[2025-07-18 17:12:05] INFO train_model: bb_high_4h: mean=1.0935, std=0.0461, min=1.0268, max=1.1823, unique=196
+[2025-07-18 17:12:05] INFO train_model: bb_low_4h: mean=1.0857, std=0.0459, min=1.0169, max=1.1776, unique=196
+[2025-07-18 17:12:05] INFO train_model: atr_14_4h: mean=0.0032, std=0.0015, min=0.0012, max=0.0107, unique=196
+[2025-07-18 17:12:05] INFO train_model: volatility_20_4h: mean=0.0019, std=0.0013, min=0.0002, max=0.0096, unique=196
+[2025-07-18 17:12:05] INFO train_model: price_vs_sma20_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: price_vs_sma50_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: trend_strength_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 17:12:05] INFO train_model: atr_14: mean=0.0018, std=0.0007, min=0.0000, max=0.0052, unique=197
+[2025-07-18 17:12:05] INFO train_model: volatility_20: mean=0.0021, std=0.0012, min=0.0004, max=0.0093, unique=196
+[2025-07-18 17:12:05] INFO train_model: Auditing data quality before training...
+[2025-07-18 17:12:05] INFO train_model: Entering audit_data_quality
+[2025-07-18 19:47:15] INFO train_model: Model is starting a new training session...
+[2025-07-18 19:47:15] INFO train_model: Model is cleaning and preparing data...
+[2025-07-18 19:47:15] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',
+       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0',
+       'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382',
+       'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618',
+       'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100',
+       'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low',
+       'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low',
+       'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std',
+       'is_trending', 'is_ranging', 'supply_zone', 'demand_zone',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'news_sentiment', 'bos', 'choch', 'vol_cluster_std', 'vol_cluster_high',
+       'regime_zscore', 'regime_label', 'doji', 'hammer', 'bullish_engulfing',
+       'bearish_engulfing', 'shooting_star', 'pin_bar',
+       'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar',
+       'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom',
+       'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down',
+       'bullish_flag', 'bearish_flag', 'bullish_pennant', 'bearish_pennant',
+       'morning_star', 'evening_star', 'three_white_soldiers',
+       'three_black_crows', 'bullish_harami', 'bearish_harami',
+       'dark_cloud_cover', 'fib_levels', 'wyckoff_phases',
+       'market_regime_choppy', 'market_regime_downtrend',
+       'market_regime_range', 'market_regime_uptrend'],
+      dtype='object')
+[2025-07-18 19:47:15] INFO train_model: Preparing target variable...
+[2025-07-18 19:47:15] INFO train_model: Entering prepare_target_variable
+[2025-07-18 19:47:15] INFO train_model: Exiting prepare_target_variable
+[2025-07-18 19:47:15] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200', 'ema_12', 'ema_26', 'rsi_14', 'macd',
+       'macd_signal', 'bb_high', 'bb_low', 'stoch_k', 'stoch_d', 'fib_0',
+       'dist_to_fib_0', 'fib_236', 'dist_to_fib_236', 'fib_382',
+       'dist_to_fib_382', 'fib_500', 'dist_to_fib_500', 'fib_618',
+       'dist_to_fib_618', 'fib_786', 'dist_to_fib_786', 'fib_100',
+       'dist_to_fib_100', 'trendline_slope_high', 'trendline_slope_low',
+       'trendline_up', 'trendline_down', 'breakout_high', 'breakout_low',
+       'dist_to_high', 'dist_to_low', 'vol_spike_atr', 'vol_spike_std',
+       'is_trending', 'is_ranging', 'supply_zone', 'demand_zone',
+       'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+       'news_sentiment', 'bos', 'choch', 'vol_cluster_std', 'vol_cluster_high',
+       'regime_zscore', 'regime_label', 'doji', 'hammer', 'bullish_engulfing',
+       'bearish_engulfing', 'shooting_star', 'pin_bar',
+       'bullish_engulfing_bar', 'bearish_engulfing_bar', 'inside_bar',
+       'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom',
+       'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down',
+       'bullish_flag', 'bearish_flag', 'bullish_pennant', 'bearish_pennant',
+       'morning_star', 'evening_star', 'three_white_soldiers',
+       'three_black_crows', 'bullish_harami', 'bearish_harami',
+       'dark_cloud_cover', 'fib_levels', 'wyckoff_phases',
+       'market_regime_choppy', 'market_regime_downtrend',
+       'market_regime_range', 'market_regime_uptrend', 'future_return',
+       'target'],
+      dtype='object')
+[2025-07-18 19:47:15] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20']
+[2025-07-18 19:47:15] INFO train_model: Dropping NaN targets...
+[2025-07-18 19:47:15] INFO train_model: Class balance before upsampling: {0: 3110, 1: 1590}
+[2025-07-18 19:47:15] INFO train_model: Upsampling successful.
+[2025-07-18 19:47:15] INFO train_model: Splitting train/test...
+[2025-07-18 19:47:15] INFO train_model: Scaling features...
+[2025-07-18 19:47:15] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-18 19:47:15] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-18 19:47:16] INFO train_model: Model fit complete.
+[2025-07-18 19:47:16] INFO train_model: Model Accuracy: 0.6744
+[2025-07-18 19:47:16] INFO train_model: 
+Classification Report:
+[2025-07-18 19:47:16] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.69      0.64      0.66       622
+           1       0.66      0.71      0.69       622
+
+    accuracy                           0.67      1244
+   macro avg       0.68      0.67      0.67      1244
+weighted avg       0.68      0.67      0.67      1244
+
+[2025-07-18 19:47:16] INFO train_model: Model, scaler, and features saved for USDJPY
+[2025-07-18 19:47:16] INFO train_model: Model registered in ModelRegistry for USDJPY, version f7daeeab06a39c5caa6e62eba65c358f
+[2025-07-18 19:47:16] INFO train_model: Feature distributions before training:
+[2025-07-18 19:47:16] INFO train_model: supply_zone: mean=0.4368, std=0.4960, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: demand_zone: mean=0.3696, std=0.4827, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: wyckoff_markdown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: wyckoff_markup: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: wyckoff_unknown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: head_shoulders: mean=0.0311, std=0.1735, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: inv_head_shoulders: mean=0.0328, std=0.1780, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: double_bottom: mean=0.0011, std=0.0326, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: rising_wedge: mean=0.2679, std=0.4429, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: falling_wedge: mean=0.2404, std=0.4274, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: fakeout_up: mean=0.0004, std=0.0206, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: fakeout_down: mean=0.0004, std=0.0206, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:47:16] INFO train_model: price_vs_sma20_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: price_vs_sma50_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: trend_strength_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:47:16] INFO train_model: atr_14: mean=0.3417, std=0.1040, min=0.0000, max=0.9927, unique=4688
+[2025-07-18 19:47:16] INFO train_model: volatility_20: mean=0.3280, std=0.1837, min=0.0344, max=1.3004, unique=4681
+[2025-07-18 19:47:16] INFO train_model: Auditing data quality before training...
+[2025-07-18 19:47:16] INFO train_model: Entering audit_data_quality
+[2025-07-18 19:48:31] INFO train_model: Model is starting a new training session...
+[2025-07-18 19:48:31] INFO train_model: Model is cleaning and preparing data...
+[2025-07-18 19:48:31] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200',
+       ...
+       'price_vs_sma20_1d', 'price_vs_sma50_1d', 'trend_strength_1d',
+       'structure_trend_1d', 'fib_levels', 'wyckoff_phases',
+       'market_regime_choppy', 'market_regime_downtrend',
+       'market_regime_range', 'market_regime_uptrend'],
+      dtype='object', length=119)
+[2025-07-18 19:48:31] INFO train_model: Preparing target variable...
+[2025-07-18 19:48:31] INFO train_model: Entering prepare_target_variable
+[2025-07-18 19:48:31] INFO train_model: Exiting prepare_target_variable
+[2025-07-18 19:48:31] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200',
+       ...
+       'trend_strength_1d', 'structure_trend_1d', 'fib_levels',
+       'wyckoff_phases', 'market_regime_choppy', 'market_regime_downtrend',
+       'market_regime_range', 'market_regime_uptrend', 'future_return',
+       'target'],
+      dtype='object', length=121)
+[2025-07-18 19:48:31] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20']
+[2025-07-18 19:48:31] INFO train_model: Dropping NaN targets...
+[2025-07-18 19:48:31] INFO train_model: Class balance before upsampling: {0: 108, 1: 89}
+[2025-07-18 19:48:31] INFO train_model: Upsampling successful.
+[2025-07-18 19:48:31] INFO train_model: Splitting train/test...
+[2025-07-18 19:48:31] INFO train_model: Scaling features...
+[2025-07-18 19:48:31] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-18 19:48:31] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-18 19:48:31] INFO train_model: Model fit complete.
+[2025-07-18 19:48:31] INFO train_model: Model Accuracy: 0.7273
+[2025-07-18 19:48:31] INFO train_model: 
+Classification Report:
+[2025-07-18 19:48:31] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.69      0.82      0.75        22
+           1       0.78      0.64      0.70        22
+
+    accuracy                           0.73        44
+   macro avg       0.74      0.73      0.72        44
+weighted avg       0.74      0.73      0.72        44
+
+[2025-07-18 19:48:31] INFO train_model: Model, scaler, and features saved for USDJPY
+[2025-07-18 19:48:31] INFO train_model: Model registered in ModelRegistry for USDJPY, version 68128ac4f1882038fd0efd075e04b432
+[2025-07-18 19:48:31] INFO train_model: Feature distributions before training:
+[2025-07-18 19:48:31] INFO train_model: supply_zone: mean=0.4924, std=0.5012, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:48:31] INFO train_model: demand_zone: mean=0.4365, std=0.4972, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:48:31] INFO train_model: wyckoff_markdown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: wyckoff_markup: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: wyckoff_unknown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: head_shoulders: mean=0.0457, std=0.2093, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:48:31] INFO train_model: inv_head_shoulders: mean=0.0508, std=0.2201, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:48:31] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: double_bottom: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: rising_wedge: mean=0.4213, std=0.4950, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:48:31] INFO train_model: falling_wedge: mean=0.1117, std=0.3158, min=0.0000, max=1.0000, unique=2
+[2025-07-18 19:48:31] INFO train_model: fakeout_up: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: fakeout_down: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: sma_20_4h: mean=1.0896, std=0.0459, min=1.0219, max=1.1795, unique=196
+[2025-07-18 19:48:31] INFO train_model: sma_50_4h: mean=1.0894, std=0.0457, min=1.0248, max=1.1791, unique=195
+[2025-07-18 19:48:31] INFO train_model: ema_12_4h: mean=1.0896, std=0.0460, min=1.0236, max=1.1797, unique=197
+[2025-07-18 19:48:31] INFO train_model: ema_26_4h: mean=1.0895, std=0.0458, min=1.0233, max=1.1792, unique=197
+[2025-07-18 19:48:31] INFO train_model: rsi_14_4h: mean=51.1382, std=33.2214, min=0.0000, max=100.0000, unique=150
+[2025-07-18 19:48:31] INFO train_model: macd_4h: mean=0.0001, std=0.0014, min=-0.0039, max=0.0066, unique=197
+[2025-07-18 19:48:31] INFO train_model: macd_signal_4h: mean=0.0001, std=0.0013, min=-0.0034, max=0.0057, unique=197
+[2025-07-18 19:48:31] INFO train_model: bb_high_4h: mean=1.0935, std=0.0461, min=1.0268, max=1.1823, unique=196
+[2025-07-18 19:48:31] INFO train_model: bb_low_4h: mean=1.0857, std=0.0459, min=1.0169, max=1.1776, unique=196
+[2025-07-18 19:48:31] INFO train_model: atr_14_4h: mean=0.0032, std=0.0015, min=0.0012, max=0.0107, unique=196
+[2025-07-18 19:48:31] INFO train_model: volatility_20_4h: mean=0.0019, std=0.0013, min=0.0002, max=0.0096, unique=196
+[2025-07-18 19:48:31] INFO train_model: price_vs_sma20_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: price_vs_sma50_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: trend_strength_4h: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 19:48:31] INFO train_model: atr_14: mean=0.3312, std=0.1063, min=0.0000, max=0.8629, unique=197
+[2025-07-18 19:48:31] INFO train_model: volatility_20: mean=0.3264, std=0.1829, min=0.0839, max=1.2551, unique=196
+[2025-07-18 19:48:31] INFO train_model: Auditing data quality before training...
+[2025-07-18 19:48:31] INFO train_model: Entering audit_data_quality
+[2025-07-18 20:16:33] INFO train_model: Model is starting a new training session...
+[2025-07-18 20:16:33] INFO train_model: Model is cleaning and preparing data...
+[2025-07-18 20:16:33] INFO train_model: features_df columns before prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200',
+       ...
+       'price_vs_sma20_1d', 'price_vs_sma50_1d', 'trend_strength_1d',
+       'structure_trend_1d', 'fib_levels', 'wyckoff_phases',
+       'market_regime_choppy', 'market_regime_downtrend',
+       'market_regime_range', 'market_regime_uptrend'],
+      dtype='object', length=122)
+[2025-07-18 20:16:33] INFO train_model: Preparing target variable...
+[2025-07-18 20:16:33] INFO train_model: Entering prepare_target_variable
+[2025-07-18 20:16:33] INFO train_model: Exiting prepare_target_variable
+[2025-07-18 20:16:33] INFO train_model: df columns after prepare_target_variable: Index(['Open', 'High', 'Low', 'Close', 'Volume', 'atr_14', 'volatility_20',
+       'sma_20', 'sma_50', 'sma_200',
+       ...
+       'trend_strength_1d', 'structure_trend_1d', 'fib_levels',
+       'wyckoff_phases', 'market_regime_choppy', 'market_regime_downtrend',
+       'market_regime_range', 'market_regime_uptrend', 'future_return',
+       'target'],
+      dtype='object', length=124)
+[2025-07-18 20:16:33] INFO train_model: Final feature columns used for training: ['supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown', 'wyckoff_accumulation', 'wyckoff_distribution', 'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom', 'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down', 'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h', 'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'atr_14', 'volatility_20']
+[2025-07-18 20:16:33] INFO train_model: Dropping NaN targets...
+[2025-07-18 20:16:33] INFO train_model: Class balance before upsampling: {0: 3104, 1: 1590}
+[2025-07-18 20:16:33] INFO train_model: Upsampling successful.
+[2025-07-18 20:16:33] WARNING train_model: Dropping non-numeric columns after upsampling: ['price_vs_sma20_4h', 'price_vs_sma20_4h', 'price_vs_sma50_4h', 'price_vs_sma50_4h', 'trend_strength_4h', 'trend_strength_4h']
+[2025-07-18 20:16:33] INFO train_model: Splitting train/test...
+[2025-07-18 20:16:33] INFO train_model: Scaling features...
+[2025-07-18 20:16:33] INFO train_model: Initializing models (XGBoost, LightGBM, VotingClassifier)...
+[2025-07-18 20:16:33] INFO train_model: Model is fitting ensemble (XGBoost + LightGBM) and calibrating probabilities...
+[2025-07-18 20:16:35] INFO train_model: Model fit complete.
+[2025-07-18 20:16:35] INFO train_model: Model Accuracy: 0.8583
+[2025-07-18 20:16:35] INFO train_model: 
+Classification Report:
+[2025-07-18 20:16:35] INFO train_model:               precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86       621
+           1       0.84      0.88      0.86       621
+
+    accuracy                           0.86      1242
+   macro avg       0.86      0.86      0.86      1242
+weighted avg       0.86      0.86      0.86      1242
+
+[2025-07-18 20:16:35] INFO train_model: Model, scaler, and features saved for USDJPY
+[2025-07-18 20:16:35] INFO train_model: Model registered in ModelRegistry for USDJPY, version 543827b99676486ff53b06f3d9983490
+[2025-07-18 20:16:35] INFO train_model: Feature distributions before training:
+[2025-07-18 20:16:35] INFO train_model: supply_zone: mean=0.4363, std=0.4960, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: demand_zone: mean=0.3688, std=0.4825, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: wyckoff_markdown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 20:16:35] INFO train_model: wyckoff_markup: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 20:16:35] INFO train_model: wyckoff_unknown: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 20:16:35] INFO train_model: wyckoff_accumulation: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 20:16:35] INFO train_model: wyckoff_distribution: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 20:16:35] INFO train_model: head_shoulders: mean=0.0311, std=0.1736, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: inv_head_shoulders: mean=0.0326, std=0.1776, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: double_top: mean=0.0000, std=0.0000, min=0.0000, max=0.0000, unique=1
+[2025-07-18 20:16:35] INFO train_model: double_bottom: mean=0.0009, std=0.0292, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: rising_wedge: mean=0.2682, std=0.4431, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: falling_wedge: mean=0.2399, std=0.4271, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: fakeout_up: mean=0.0004, std=0.0206, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: fakeout_down: mean=0.0004, std=0.0206, min=0.0000, max=1.0000, unique=2
+[2025-07-18 20:16:35] INFO train_model: sma_20_4h: mean=1.0903, std=0.0460, min=1.0209, max=1.1802, unique=4641
+[2025-07-18 20:16:35] INFO train_model: sma_50_4h: mean=1.0901, std=0.0457, min=1.0239, max=1.1794, unique=4616
+[2025-07-18 20:16:35] INFO train_model: ema_12_4h: mean=1.0904, std=0.0460, min=1.0207, max=1.1802, unique=4694
+[2025-07-18 20:16:35] INFO train_model: ema_26_4h: mean=1.0903, std=0.0459, min=1.0222, max=1.1797, unique=4694
+[2025-07-18 20:16:35] INFO train_model: rsi_14_4h: mean=51.1473, std=32.6406, min=0.0000, max=100.0000, unique=1779
+[2025-07-18 20:16:35] INFO train_model: macd_4h: mean=0.0001, std=0.0014, min=-0.0050, max=0.0072, unique=4694
+[2025-07-18 20:16:35] INFO train_model: macd_signal_4h: mean=0.0001, std=0.0013, min=-0.0042, max=0.0064, unique=4694
+[2025-07-18 20:16:35] INFO train_model: bb_high_4h: mean=1.0940, std=0.0462, min=1.0227, max=1.1833, unique=4643
+[2025-07-18 20:16:35] INFO train_model: bb_low_4h: mean=1.0866, std=0.0459, min=1.0138, max=1.1796, unique=4643
+[2025-07-18 20:16:35] INFO train_model: atr_14_4h: mean=0.0034, std=0.0016, min=0.0009, max=0.0139, unique=4679
+[2025-07-18 20:16:35] INFO train_model: volatility_20_4h: mean=0.0018, std=0.0013, min=0.0001, max=0.0102, unique=4633

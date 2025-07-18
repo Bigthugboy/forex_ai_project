@@ -1,0 +1,124 @@
+{"timestamp": "2025-07-18T14:34:43.386257", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:34:43.391169", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:34:53.759070", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "could not convert string to float: 'range'"}
+{"timestamp": "2025-07-18T14:35:03.455262", "pair": "USDCHF", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "could not convert string to float: 'range'"}
+{"timestamp": "2025-07-18T14:35:03.460900", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:35:03.465374", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:35:03.469686", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:35:03.474029", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:35:03.478315", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:35:03.482625", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:35:13.994246", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "could not convert string to float: 'range'"}
+{"timestamp": "2025-07-18T14:45:33.478192", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:45:33.482653", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:45:45.989308", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T14:45:57.825427", "pair": "USDCHF", "signal": "SELL", "confidence": 0.9623567019400353, "confluence": 4.0, "confluence_factors": ["key_level", "pattern", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T14:45:57.840302", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:45:57.851007", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:45:57.860403", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:45:57.868252", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:45:57.875289", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:45:57.881610", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T14:46:09.149924", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T15:00:04.833946", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T15:00:04.846495", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T15:00:13.848613", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "'NoneType' object is not subscriptable"}
+{"timestamp": "2025-07-18T15:00:24.548309", "pair": "USDCHF", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T15:00:24.553449", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T15:00:24.559101", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T15:00:24.564117", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T15:00:24.568878", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T15:00:24.573741", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T15:00:24.578391", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T15:00:35.413140", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:00:52.676386", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- wyckoff_accumulation\n- wyckoff_distribution\n- wyckoff_markdown\n- wyckoff_markup\n- wyckoff_unknown\nFeature names seen at fit time, yet now missing:\n- bb_high\n- bb_low\n- bearish_engulfing\n- bearish_engulfing_bar\n- bearish_flag\n- ...\n"}
+{"timestamp": "2025-07-18T16:01:03.411599", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:01:13.584393", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "'NoneType' object is not subscriptable"}
+{"timestamp": "2025-07-18T16:01:22.478881", "pair": "USDCHF", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:01:22.484901", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:01:22.489363", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:01:22.494173", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:01:22.499226", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:01:22.504129", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:01:22.508978", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:01:31.036887", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:02:15.913046", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- wyckoff_accumulation\n- wyckoff_distribution\n- wyckoff_markdown\n- wyckoff_markup\n- wyckoff_unknown\nFeature names seen at fit time, yet now missing:\n- bb_high\n- bb_low\n- bearish_engulfing\n- bearish_engulfing_bar\n- bearish_flag\n- ...\n"}
+{"timestamp": "2025-07-18T16:02:24.560023", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:02:34.555620", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "'NoneType' object is not subscriptable"}
+{"timestamp": "2025-07-18T16:02:45.162287", "pair": "USDCHF", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:02:45.167612", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:02:45.172685", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:02:45.177261", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:02:45.181617", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:02:45.185891", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:02:45.190707", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:02:54.703371", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:11:54.133978", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "'NoneType' object is not subscriptable"}
+{"timestamp": "2025-07-18T16:12:03.573774", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:12:13.332440", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "'NoneType' object is not subscriptable"}
+{"timestamp": "2025-07-18T16:12:30.351417", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "'NoneType' object is not subscriptable"}
+{"timestamp": "2025-07-18T16:12:39.477443", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:12:49.362469", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "'NoneType' object is not subscriptable"}
+{"timestamp": "2025-07-18T16:12:58.478540", "pair": "USDCHF", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:12:58.483315", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:12:58.488017", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:12:58.492493", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:12:58.496701", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:12:58.501197", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:12:58.506042", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:13:04.597430", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:22:49.198275", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:22:54.529314", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:22:59.893103", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:23:05.037373", "pair": "USDCHF", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:23:05.042103", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:23:05.046575", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:23:05.051071", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:23:05.055398", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:23:05.059739", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:23:05.064220", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:23:10.070462", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:32:27.980485", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:32:33.506308", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:32:40.131796", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:32:50.843288", "pair": "USDCHF", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:32:50.848695", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:32:50.853241", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:32:50.859113", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:32:50.863781", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:32:50.868193", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:32:50.873333", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T16:32:56.374528", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:44:11.920655", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:44:17.757751", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:44:24.523212", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:44:30.252763", "pair": "USDCHF", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:44:37.700337", "pair": "AUDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:44:45.895250", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:44:57.503128", "pair": "USDCAD", "signal": "SELL", "confidence": 0.9410380053477158, "confluence": 4.0, "confluence_factors": ["key_level", "pattern", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:45:04.904033", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:45:13.569003", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:45:23.338306", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T16:45:28.731777", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T18:42:53.468409", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T18:43:03.494770", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T18:43:13.524742", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T18:43:53.106724", "pair": "USDCHF", "signal": "SELL", "confidence": 0.8842537257598928, "confluence": 3.0, "confluence_factors": ["key_level", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T18:44:23.509851", "pair": "AUDUSD", "signal": "SELL", "confidence": 0.8308169014084507, "confluence": 4.0, "confluence_factors": ["key_level", "pattern", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T18:44:33.553869", "pair": "NZDUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T18:44:43.583118", "pair": "USDCAD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T18:44:53.619101", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T18:45:03.654476", "pair": "GBPJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T18:45:13.682150", "pair": "AUDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T18:45:39.366698", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:01:18.401803", "pair": "EURUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:01:28.422331", "pair": "GBPUSD", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": "No price data"}
+{"timestamp": "2025-07-18T19:01:34.006615", "pair": "USDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:02:49.858042", "pair": "USDCHF", "signal": "SELL", "confidence": 0.8860444908244384, "confluence": 3.0, "confluence_factors": ["key_level", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:02:58.069253", "pair": "AUDUSD", "signal": "SELL", "confidence": 0.8308169014084507, "confluence": 3.0, "confluence_factors": ["key_level", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:03:06.297310", "pair": "NZDUSD", "signal": "SELL", "confidence": 0.8414321855208255, "confluence": 3.0, "confluence_factors": ["key_level", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:03:16.689494", "pair": "USDCAD", "signal": "SELL", "confidence": 0.9857823518200877, "confluence": 3.0, "confluence_factors": ["key_level", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:03:22.853574", "pair": "EURJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:03:30.267029", "pair": "GBPJPY", "signal": "SELL", "confidence": 0.8888590074584051, "confluence": 4.0, "confluence_factors": ["key_level", "pattern", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:03:40.286432", "pair": "AUDJPY", "signal": "SELL", "confidence": 0.8830168395962344, "confluence": 4.0, "confluence_factors": ["key_level", "pattern", "macd", "ema"], "all_factors": null, "error": null}
+{"timestamp": "2025-07-18T19:03:46.920244", "pair": "NZDJPY", "signal": null, "confidence": null, "confluence": null, "confluence_factors": null, "all_factors": null, "error": null}

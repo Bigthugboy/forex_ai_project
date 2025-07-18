@@ -151,10 +151,12 @@ def summarize_backtest(df, equity_curve, drawdowns, pair=None):
     losses = (df['profit'] <= 0).sum()
     win_rate = wins / total_trades if total_trades else 0
     profit_factor = df[df['profit'] > 0]['profit'].sum() / abs(df[df['profit'] <= 0]['profit'].sum()) if losses else float('inf')
+    # Max drawdown: largest drop from a peak in the equity curve
     max_drawdown = max(drawdowns) if drawdowns else 0
     avg_trade = df['profit'].mean()
     avg_win = df[df['profit'] > 0]['profit'].mean() if wins else 0
     avg_loss = df[df['profit'] <= 0]['profit'].mean() if losses else 0
+    # Sharpe ratio: mean/standard deviation of returns, annualized (sqrt(252) for daily, sqrt(N) for N periods)
     sharpe = (df['profit'].mean() / df['profit'].std()) * np.sqrt(252) if df['profit'].std() > 0 else 0
     max_win_streak, max_loss_streak = compute_streaks(df['profit'])
     logger.info(f"Summary for {pair if pair else ''}: Total trades: {total_trades}, Win rate: {win_rate:.2%}, Profit factor: {profit_factor:.2f}, Max drawdown: {max_drawdown:.2f}, Final capital: {df['capital'].iloc[-1]:.2f}, Sharpe: {sharpe:.2f}")
@@ -162,10 +164,10 @@ def summarize_backtest(df, equity_curve, drawdowns, pair=None):
     print(f"Total trades: {total_trades}")
     print(f"Win rate: {win_rate:.2%}")
     print(f"Profit factor: {profit_factor:.2f}")
-    print(f"Max drawdown: {max_drawdown:.2f}")
+    print(f"Max drawdown: {max_drawdown:.2f} (largest drop from a peak in equity curve)")
     print(f"Total PnL: {df['profit'].sum():.2f}")
     print(f"Final capital: {df['capital'].iloc[-1]:.2f}")
-    print(f"Sharpe ratio: {sharpe:.2f}")
+    print(f"Sharpe ratio: {sharpe:.2f} (annualized)")
     print(f"Avg trade: {avg_trade:.2f}, Avg win: {avg_win:.2f}, Avg loss: {avg_loss:.2f}")
     print(f"Longest win streak: {max_win_streak}, Longest loss streak: {max_loss_streak}")
     logger.info(f"Equity curve: {equity_curve[:5]} ... {equity_curve[-5:]}")
@@ -199,8 +201,6 @@ def summarize_backtest(df, equity_curve, drawdowns, pair=None):
         if pair:
             plt.savefig(f'drawdown_{pair}.png')
             print(f"Drawdown plot saved as drawdown_{pair}.png")
-        else:
-            plt.show()
 
 
 def main():

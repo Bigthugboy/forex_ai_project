@@ -5125,3 +5125,69 @@
 [2025-07-17 19:43:13] INFO news_fetch: RSS individual scores: [0.0, 0.0, 0.0, 0.2732, -0.5267, -0.4588, 0.0, 0.2732, -0.128, -0.2023, 0.0, -0.4404, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5719, 0.0, 0.0, -0.7003, -0.3818, -0.4939, 0.2023, 0.0]
 [2025-07-17 19:43:13] INFO news_fetch: RSS calculated average: -0.1214
 [2025-07-17 19:43:13] INFO news_fetch: RSS sentiment score: -0.1214
+[2025-07-17 22:00:15] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-17 22:00:16] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-18 11:24:12] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-18 11:24:19] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-18 13:13:20] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-18 13:13:22] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-18 13:13:59] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-18 13:14:00] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-18 14:30:29] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-18 14:30:32] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-18 14:30:54] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-18 14:30:55] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-18 15:45:56] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-18 15:45:56] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-18 16:12:13] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-14, to=2025-07-18
+[2025-07-18 16:12:13] INFO news_fetch: Starting news sentiment fetch for ['EURUSD'], from=2025-07-14, to=2025-07-18, pair=None
+[2025-07-18 16:12:13] INFO news_fetch: Trying NewsAPI...
+[2025-07-18 16:12:13] INFO news_fetch: Trying NewsAPI for keyword 'EURUSD'...
+[2025-07-18 16:12:14] INFO news_fetch: NewsAPI: 4 headlines for 'EURUSD'. Sample: [{'source': {'id': None, 'name': 'Barchart.com'}, 'author': 'Rich Asplund', 'title': 'Dollar Rallies to 3-week High', 'description': 'The dollar index (DXY00 ) is up +0.22% today. The dollar index is seeing some technical buying as it extends its two-week rally to post a 3-week high...', 'url': 'https://www.barchart.com/story/news/33441081/dollar-rallies-to-3-week-high', 'urlToImage': 'https://s.yimg.com/ny/api/res/1.2/YrzLbZx5YPWWvwBr6QTKXQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDE-/https://media.zenfs.com/en/barchart_com_477/e45537fa0954bccea6b645c41b80d7a7', 'publishedAt': '2025-07-16T14:49:46Z', 'content': 'US dollar background by Iluhanos via iStock\r\nThe dollar index (DXY00) is up +0.22% today.\xa0 The dollar index is seeing some technical buying as it extends its two-week rally to post a 3-week high.\xa0 Bu… [+3476 chars]'}, {'source': {'id': None, 'name': 'Barchart.com'}, 'author': 'Rich Asplund', 'title': 'Dollar Supported by Latest US Tariff Threats', 'description': 'The dollar index (DXY00 ) today is up by +0.07%, and posted a new 2.5-week high. The dollar moved higher due to a slump in stocks, which boosted some...', 'url': 'https://www.barchart.com/story/news/33387350/dollar-supported-by-latest-us-tariff-threats', 'urlToImage': 'https://s.yimg.com/ny/api/res/1.2/YrzLbZx5YPWWvwBr6QTKXQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDE-/https://media.zenfs.com/en/barchart_com_477/e45537fa0954bccea6b645c41b80d7a7', 'publishedAt': '2025-07-14T14:46:37Z', 'content': 'US dollar background by Iluhanos via iStock\r\nThe dollar index (DXY00) today is up by +0.07%, and posted a new 2.5-week high.\xa0 The dollar moved higher due to a slump in stocks, which boosted some liqu… [+4442 chars]'}, {'source': {'id': None, 'name': 'Barchart.com'}, 'author': 'Rich Asplund', 'title': 'Dollar Rallies on Higher T-note Yields', 'description': 'The dollar index (DXY00 ) today is up +0.47%. The dollar is seeing support as the 10-year T-note rose +3.6 bp and the 30-year T-bond yield rose back above 5%...', 'url': 'https://www.barchart.com/story/news/33413645/dollar-rallies-on-higher-t-note-yields', 'urlToImage': 'https://s.yimg.com/ny/api/res/1.2/_H4nhaBEG2vjP6QChOjGAQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MzQ-/https://media.zenfs.com/en/barchart_com_477/0d2930021ab714cff3f9a0b9dbce099d', 'publishedAt': '2025-07-15T15:13:11Z', 'content': 'Puzzle made of money by Qimono via Pixabay\r\nThe dollar index (DXY00) today is up +0.47%. \xa0The dollar is seeing support as the 10-year T-note rose +3.6 bp and the 30-year T-bond yield rose back above … [+3699 chars]'}]
+[2025-07-18 16:12:14] INFO news_fetch: NewsAPI: 4 headlines found. Sample: ['Dollar Rallies to 3-week High']
+[2025-07-18 16:12:14] INFO news_fetch: NewsAPI sentiment score: -0.0320
+[2025-07-18 16:12:14] INFO news_fetch: [news_cache] Saved news sentiment for 2025-07-14_2025-07-18 to logs/news_cache/2025-07-14_2025-07-18.json
+[2025-07-18 16:12:14] INFO news_fetch: [news_api] Got sentiment score -0.0320 for EURUSD 2025-07-18
+[2025-07-18 17:10:45] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-14, to=2025-07-18
+[2025-07-18 17:10:45] INFO news_fetch: Starting news sentiment fetch for ['EURUSD'], from=2025-07-14, to=2025-07-18, pair=None
+[2025-07-18 17:10:45] INFO news_fetch: [news_cache] Cache hit for 2025-07-14_2025-07-18, age: 0.98h < 12h TTL
+[2025-07-18 17:10:45] INFO news_fetch: [news_api] Got sentiment score -0.0320 for EURUSD 2025-07-18
+[2025-07-18 17:12:02] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-14, to=2025-07-18
+[2025-07-18 17:12:02] INFO news_fetch: Starting news sentiment fetch for ['EURUSD'], from=2025-07-14, to=2025-07-18, pair=None
+[2025-07-18 17:12:02] INFO news_fetch: [news_cache] Cache hit for 2025-07-14_2025-07-18, age: 1.00h < 12h TTL
+[2025-07-18 17:12:02] INFO news_fetch: [news_api] Got sentiment score -0.0320 for EURUSD 2025-07-18
+[2025-07-18 17:44:55] INFO news_fetch: Fetching economic calendar for USDCAD
+[2025-07-18 17:44:55] INFO news_fetch: Economic calendar events for USDCAD: 0
+[2025-07-18 19:43:46] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-18 19:43:50] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-18 19:44:14] INFO news_fetch: Fetching economic calendar for AUDUSD
+[2025-07-18 19:44:16] INFO news_fetch: Economic calendar events for AUDUSD: 0
+[2025-07-18 19:46:58] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-18 19:46:58] INFO news_fetch: Trying NewsAPI...
+[2025-07-18 19:46:58] INFO news_fetch: Trying NewsAPI for keyword 'USD'...
+[2025-07-18 19:47:01] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USD'. Trying Newsdata.io...
+[2025-07-18 19:47:01] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-18 19:47:01] INFO news_fetch: Fetching RSS news for keywords: ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance']
+[2025-07-18 19:47:01] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-18 19:47:07] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 22 relevant headlines
+[2025-07-18 19:47:07] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-18 19:47:08] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 2 relevant headlines
+[2025-07-18 19:47:08] INFO news_fetch: RSS total headlines found: 24
+[2025-07-18 19:47:08] INFO news_fetch: RSS found 24 headlines. Sample: ['Gold recovers as focus shifts to US consumer sentiment data']
+[2025-07-18 19:47:08] INFO news_fetch: [news_cache] Saved RSS sentiment for 2025-07-16_2025-07-18 to logs/news_cache/2025-07-16_2025-07-18.json
+[2025-07-18 19:48:28] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-18 19:48:28] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.03h < 12h TTL
+[2025-07-18 20:02:47] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-18 20:02:47] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-18 20:02:55] INFO news_fetch: Fetching economic calendar for AUDUSD
+[2025-07-18 20:02:56] INFO news_fetch: Economic calendar events for AUDUSD: 0
+[2025-07-18 20:03:04] INFO news_fetch: Fetching economic calendar for NZDUSD
+[2025-07-18 20:03:05] INFO news_fetch: Economic calendar events for NZDUSD: 0
+[2025-07-18 20:03:14] INFO news_fetch: Fetching economic calendar for USDCAD
+[2025-07-18 20:03:15] INFO news_fetch: Economic calendar events for USDCAD: 0
+[2025-07-18 20:03:28] INFO news_fetch: Fetching economic calendar for GBPJPY
+[2025-07-18 20:03:29] INFO news_fetch: Economic calendar events for GBPJPY: 0
+[2025-07-18 20:03:37] INFO news_fetch: Fetching economic calendar for AUDJPY
+[2025-07-18 20:03:39] INFO news_fetch: Economic calendar events for AUDJPY: 0
+[2025-07-18 20:16:30] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-18 20:16:30] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.49h < 12h TTL

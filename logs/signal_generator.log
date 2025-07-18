@@ -665,3 +665,528 @@
 [2025-07-17 20:05:10] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 19:00:00+00:00: unknown
 [2025-07-17 20:05:10] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 19:00:00+00:00: RSI=61.311586105129564, MACD=134.83140036082477, MACD_signal=27.56405551071835, News sentiment=0.0
 [2025-07-17 20:05:10] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:10:24] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 19:00:00+00:00: -0.09545
+[2025-07-17 20:10:24] INFO signal_generator: Market regime for USDJPY at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:10:24] INFO signal_generator: Analyzing USDJPY at 2025-07-17 19:00:00+00:00: RSI=57.21728809402569, MACD=0.07678051981201861, MACD_signal=0.06615409955348785, News sentiment=-0.09545
+[2025-07-17 20:10:37] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 19:00:00+00:00: 0.0
+[2025-07-17 20:10:37] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:10:37] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 19:00:00+00:00: RSI=61.311586105129564, MACD=134.83140036082477, MACD_signal=27.56405551071835, News sentiment=0.0
+[2025-07-17 20:10:37] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:18:35] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 19:00:00+00:00: -0.09545
+[2025-07-17 20:18:35] INFO signal_generator: Market regime for USDJPY at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:18:35] INFO signal_generator: Analyzing USDJPY at 2025-07-17 19:00:00+00:00: RSI=57.21728809402569, MACD=0.07678051981201861, MACD_signal=0.06615409955348785, News sentiment=-0.09545
+[2025-07-17 20:18:49] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 19:00:00+00:00: 0.0
+[2025-07-17 20:18:49] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:18:49] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 19:00:00+00:00: RSI=61.311586105129564, MACD=134.83140036082477, MACD_signal=27.56405551071835, News sentiment=0.0
+[2025-07-17 20:18:49] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:25:31] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 19:00:00+00:00: -0.09545
+[2025-07-17 20:25:31] INFO signal_generator: Market regime for USDJPY at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:25:31] INFO signal_generator: Analyzing USDJPY at 2025-07-17 19:00:00+00:00: RSI=57.21728809402569, MACD=0.07678051981201861, MACD_signal=0.06615409955348785, News sentiment=-0.09545
+[2025-07-17 20:25:31] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 545.357 ATR away', 'demand_zone': '100.000% / 545.357 ATR away', 'fib_0': '0.246% / 1.342 ATR away', 'fib_236': 'within 0.070% and 0.384 ATR'}
+[2025-07-17 20:25:31] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-17 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-17 20:25:31] INFO signal_generator: [CONFLUENCE] USDJPY @ 2025-07-17 19:00:00+00:00 | Factors: {'key_level': 'yes'} | Weighted votes for bearish: 1.0
+[2025-07-17 20:25:31] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 19:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes'}
+[2025-07-17 20:25:44] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 19:00:00+00:00: 0.0
+[2025-07-17 20:25:44] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:25:44] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 19:00:00+00:00: RSI=61.311586105129564, MACD=134.83140036082477, MACD_signal=27.56405551071835, News sentiment=0.0
+[2025-07-17 20:25:44] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:25:44] INFO signal_generator: [PATTERN STRENGTH] BTCUSD @ 2025-07-17 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-17 20:25:44] INFO signal_generator: [CONFLUENCE] BTCUSD @ 2025-07-17 19:00:00+00:00 | Factors: {'key_level': 'yes'} | Weighted votes for bearish: 1.0
+[2025-07-17 20:25:44] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 19:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes'}
+[2025-07-17 20:25:53] INFO signal_generator: News sentiment for NZDJPY at 2025-07-17 19:00:00+00:00: 0.0
+[2025-07-17 20:25:53] INFO signal_generator: Market regime for NZDJPY at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:25:53] INFO signal_generator: Analyzing NZDJPY at 2025-07-17 19:00:00+00:00: RSI=53.8178754329121, MACD=-0.019669871010123074, MACD_signal=-0.04998969561688902, News sentiment=0.0
+[2025-07-17 20:25:53] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:25:53] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-17 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-17 20:25:53] INFO signal_generator: [CONFLUENCE] NZDJPY @ 2025-07-17 19:00:00+00:00 | Factors: {'key_level': 'yes', 'pattern': 'other'} | Weighted votes for bearish: 1.0
+[2025-07-17 20:25:53] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-17 19:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes', 'pattern': 'other'}
+[2025-07-17 20:55:36] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 19:00:00+00:00: -0.09545
+[2025-07-17 20:55:36] INFO signal_generator: Market regime for USDJPY at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:55:36] INFO signal_generator: Analyzing USDJPY at 2025-07-17 19:00:00+00:00: RSI=57.21728809402569, MACD=0.07678051981201861, MACD_signal=0.06615409955348785, News sentiment=-0.09545
+[2025-07-17 20:55:36] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 535.814 ATR away', 'demand_zone': '100.000% / 535.814 ATR away', 'fib_0': '0.246% / 1.319 ATR away', 'fib_236': 'within 0.070% and 0.377 ATR'}
+[2025-07-17 20:55:36] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-17 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-17 20:55:36] INFO signal_generator: [CONFLUENCE] USDJPY @ 2025-07-17 19:00:00+00:00 | Factors: {'key_level': 'yes'} | Weighted votes for bearish: 1.0
+[2025-07-17 20:55:36] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-17 19:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes'}
+[2025-07-17 20:55:55] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 19:00:00+00:00: 0.0
+[2025-07-17 20:55:55] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:55:55] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 19:00:00+00:00: RSI=61.311586105129564, MACD=134.83140036082477, MACD_signal=27.56405551071835, News sentiment=0.0
+[2025-07-17 20:55:55] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:55:55] INFO signal_generator: [PATTERN STRENGTH] BTCUSD @ 2025-07-17 19:00:00+00:00 | Pattern strengths: {'bullish_engulfing': 'moderate'}
+[2025-07-17 20:55:55] INFO signal_generator: [CONFLUENCE] BTCUSD @ 2025-07-17 19:00:00+00:00 | Factors: {'key_level': 'yes', 'pattern': 'moderate_bullish'} | Weighted votes for bearish: 1.0
+[2025-07-17 20:55:55] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 19:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes', 'pattern': 'moderate_bullish'}
+[2025-07-17 20:56:04] INFO signal_generator: News sentiment for NZDJPY at 2025-07-17 19:00:00+00:00: 0.0
+[2025-07-17 20:56:04] INFO signal_generator: Market regime for NZDJPY at 2025-07-17 19:00:00+00:00: unknown
+[2025-07-17 20:56:04] INFO signal_generator: Analyzing NZDJPY at 2025-07-17 19:00:00+00:00: RSI=53.8178754329121, MACD=-0.019669871010123074, MACD_signal=-0.04998969561688902, News sentiment=0.0
+[2025-07-17 20:56:04] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-17 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 20:56:04] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-17 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-17 20:56:04] INFO signal_generator: [CONFLUENCE] NZDJPY @ 2025-07-17 19:00:00+00:00 | Factors: {'key_level': 'yes'} | Weighted votes for bearish: 1.0
+[2025-07-17 20:56:04] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-17 19:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes'}
+[2025-07-17 22:00:15] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 21:00:00+00:00: -0.09545
+[2025-07-17 22:00:15] INFO signal_generator: Market regime for USDJPY at 2025-07-17 21:00:00+00:00: unknown
+[2025-07-17 22:00:15] INFO signal_generator: Analyzing USDJPY at 2025-07-17 21:00:00+00:00: RSI=51.50399427388514, MACD=0.06193708133525888, MACD_signal=0.06585775481270141, News sentiment=-0.09545
+[2025-07-17 22:00:15] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-17 21:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 587.546 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-17 22:00:15] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-17 21:00:00+00:00 | Pattern strengths: {}
+[2025-07-17 22:00:15] INFO signal_generator: [CONFLUENCE] USDJPY @ 2025-07-17 21:00:00+00:00 | Factors: {'key_level': 'yes', 'pattern': 'bearish', 'macd': 'bearish', 'ema': 'bearish'} | Weighted votes for bearish: 4.0
+[2025-07-17 22:00:15] INFO signal_generator: [SIGNAL] USDJPY @ 2025-07-17 21:00:00+00:00 | 4.0 weighted factors align. Signal allowed.
+[2025-07-17 22:00:15] INFO signal_generator: Checking for high-impact news event for USDJPY...
+[2025-07-17 22:00:15] INFO signal_generator: News sentiment for USDJPY at 2025-07-17 21:00:00+00:00: -0.09545
+[2025-07-17 22:00:15] INFO signal_generator: Market regime for USDJPY at 2025-07-17 21:00:00+00:00: unknown
+[2025-07-17 22:00:15] INFO signal_generator: Analyzing USDJPY at 2025-07-17 21:00:00+00:00: RSI=51.43077607892528, MACD=0.06177640759059955, MACD_signal=0.06582562006376955, News sentiment=-0.09545
+[2025-07-17 22:00:16] INFO signal_generator: Classifying trade type...
+[2025-07-17 22:00:16] INFO signal_generator: Trade type classified: Instant Execution, Entry: 148.57000732421875
+[2025-07-17 22:00:16] INFO signal_generator: Dynamic position size: entry=148.57000732421875, sl=148.87001, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.02
+[2025-07-17 22:00:16] INFO signal_generator: Signal generated for USDJPY at 2025-07-17 21:00:00+00:00: SELL Instant Execution Confidence: 0.84
+[2025-07-17 22:00:31] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 20:00:00+00:00: 0.0
+[2025-07-17 22:00:31] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 20:00:00+00:00: unknown
+[2025-07-17 22:00:31] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 20:00:00+00:00: RSI=53.188730330349664, MACD=139.18311744784296, MACD_signal=49.88786789814328, News sentiment=0.0
+[2025-07-17 22:00:31] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-17 20:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 147.762 ATR away', 'demand_zone': '100.000% / 147.762 ATR away', 'fib_0': '0.767% / 1.133 ATR away', 'fib_236': '0.300% / 0.443 ATR away', 'fib_382': 'within 0.010% and 0.015 ATR'}
+[2025-07-17 22:00:31] INFO signal_generator: [PATTERN STRENGTH] BTCUSD @ 2025-07-17 20:00:00+00:00 | Pattern strengths: {}
+[2025-07-17 22:00:31] INFO signal_generator: [CONFLUENCE] BTCUSD @ 2025-07-17 20:00:00+00:00 | Factors: {'key_level': 'yes'} | Weighted votes for bearish: 1.0
+[2025-07-17 22:00:31] INFO signal_generator: [FILTERED] BTCUSD @ 2025-07-17 20:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes'}
+[2025-07-17 22:00:31] INFO signal_generator: News sentiment for BTCUSD at 2025-07-17 20:00:00+00:00: 0.0
+[2025-07-17 22:00:31] INFO signal_generator: Market regime for BTCUSD at 2025-07-17 20:00:00+00:00: unknown
+[2025-07-17 22:00:31] INFO signal_generator: Analyzing BTCUSD at 2025-07-17 20:00:00+00:00: RSI=53.188730330349664, MACD=139.18311744784296, MACD_signal=49.88786789814328, News sentiment=0.0
+[2025-07-17 22:00:41] INFO signal_generator: News sentiment for NZDJPY at 2025-07-17 20:00:00+00:00: 0.0
+[2025-07-17 22:00:41] INFO signal_generator: Market regime for NZDJPY at 2025-07-17 20:00:00+00:00: unknown
+[2025-07-17 22:00:41] INFO signal_generator: Analyzing NZDJPY at 2025-07-17 20:00:00+00:00: RSI=53.295870378818414, MACD=-0.011498634109841532, MACD_signal=-0.04229148331547952, News sentiment=0.0
+[2025-07-17 22:00:41] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-17 20:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-17 22:00:41] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-17 20:00:00+00:00 | Pattern strengths: {}
+[2025-07-17 22:00:41] INFO signal_generator: [CONFLUENCE] NZDJPY @ 2025-07-17 20:00:00+00:00 | Factors: {'key_level': 'yes'} | Weighted votes for bearish: 1.0
+[2025-07-17 22:00:41] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-17 20:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes'}
+[2025-07-18 10:41:02] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 09:00:00+00:00: 0.0
+[2025-07-18 10:41:02] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 09:00:00+00:00: unknown
+[2025-07-18 10:41:02] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 09:00:00+00:00: RSI=70.37932756653898, MACD=0.14898167860886247, MACD_signal=0.10578437474845978, News sentiment=0.0
+[2025-07-18 10:41:02] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 09:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 10:41:02] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 09:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 10:41:02] INFO signal_generator: [CONFLUENCE] NZDJPY @ 2025-07-18 09:00:00+00:00 | Factors: {'key_level': 'yes', 'rsi': 'bearish'} | Weighted votes for bearish: 2.0
+[2025-07-18 10:41:02] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 09:00:00+00:00 | Only 2.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes', 'rsi': 'bearish'}
+[2025-07-18 10:47:49] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 09:00:00+00:00: -0.042666666666666665
+[2025-07-18 10:47:49] INFO signal_generator: Market regime for USDJPY at 2025-07-18 09:00:00+00:00: unknown
+[2025-07-18 10:47:49] INFO signal_generator: Analyzing USDJPY at 2025-07-18 09:00:00+00:00: RSI=50.62464683721522, MACD=0.052049614180361914, MACD_signal=0.043039325355096573, News sentiment=-0.042666666666666665
+[2025-07-18 10:47:49] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-18 09:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 10:47:49] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-18 09:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 10:47:49] INFO signal_generator: [CONFLUENCE] USDJPY @ 2025-07-18 09:00:00+00:00 | Factors: {'key_level': 'yes', 'ema': 'bearish'} | Weighted votes for bearish: 2.0
+[2025-07-18 10:47:49] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-18 09:00:00+00:00 | Only 2.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes', 'ema': 'bearish'}
+[2025-07-18 10:48:26] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 09:00:00+00:00: 0.0
+[2025-07-18 10:48:26] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 09:00:00+00:00: unknown
+[2025-07-18 10:48:26] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 09:00:00+00:00: RSI=70.37932756653898, MACD=0.14898167860886247, MACD_signal=0.10578437474845978, News sentiment=0.0
+[2025-07-18 10:48:26] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 09:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 10:48:26] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 09:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 10:48:26] INFO signal_generator: [CONFLUENCE] NZDJPY @ 2025-07-18 09:00:00+00:00 | Factors: {'key_level': 'yes', 'rsi': 'bearish'} | Weighted votes for bearish: 2.0
+[2025-07-18 10:48:26] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 09:00:00+00:00 | Only 2.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes', 'rsi': 'bearish'}
+[2025-07-18 11:23:43] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 10:00:00+00:00: -0.042666666666666665
+[2025-07-18 11:23:43] INFO signal_generator: Market regime for USDJPY at 2025-07-18 10:00:00+00:00: unknown
+[2025-07-18 11:23:43] INFO signal_generator: Analyzing USDJPY at 2025-07-18 10:00:00+00:00: RSI=54.62408071943297, MACD=0.05370802281223064, MACD_signal=0.04517306484652339, News sentiment=-0.042666666666666665
+[2025-07-18 11:23:43] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-18 10:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 11:23:43] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-18 10:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 11:23:43] INFO signal_generator: [CONFLUENCE] USDJPY @ 2025-07-18 10:00:00+00:00 | Factors: {'key_level': 'yes'} | Weighted votes for bearish: 1.0
+[2025-07-18 11:23:43] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-18 10:00:00+00:00 | Only 1.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes'}
+[2025-07-18 11:24:12] INFO signal_generator: News sentiment for BTCUSD at 2025-07-18 10:00:00+00:00: 0.01609900000000001
+[2025-07-18 11:24:12] INFO signal_generator: Market regime for BTCUSD at 2025-07-18 10:00:00+00:00: unknown
+[2025-07-18 11:24:12] INFO signal_generator: Analyzing BTCUSD at 2025-07-18 10:00:00+00:00: RSI=45.72627549144977, MACD=188.28719447477488, MACD_signal=330.6866487640004, News sentiment=0.01609900000000001
+[2025-07-18 11:24:12] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-18 10:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 136.246 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 11:24:12] INFO signal_generator: [PATTERN STRENGTH] BTCUSD @ 2025-07-18 10:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 11:24:12] INFO signal_generator: [CONFLUENCE] BTCUSD @ 2025-07-18 10:00:00+00:00 | Factors: {'key_level': 'yes', 'macd': 'bearish', 'ema': 'bearish'} | Weighted votes for bearish: 3.0
+[2025-07-18 11:24:12] INFO signal_generator: [SIGNAL] BTCUSD @ 2025-07-18 10:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 11:24:12] INFO signal_generator: Checking for high-impact news event for BTCUSD...
+[2025-07-18 11:24:19] INFO signal_generator: Classifying trade type...
+[2025-07-18 11:24:19] INFO signal_generator: Trade type classified: Sell Limit, Entry: 118986.165625
+[2025-07-18 11:24:19] WARNING signal_generator: SL for BTCUSD at 2025-07-18 10:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 11:24:19] WARNING signal_generator: TP1 for BTCUSD at 2025-07-18 10:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 11:24:19] WARNING signal_generator: TP2 for BTCUSD at 2025-07-18 10:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 11:24:19] WARNING signal_generator: TP3 for BTCUSD at 2025-07-18 10:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 11:24:19] INFO signal_generator: Dynamic position size: entry=118986.165625, sl=118986.16862, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 11:24:19] INFO signal_generator: Signal generated for BTCUSD at 2025-07-18 10:00:00+00:00: SELL Sell Limit Confidence: 0.80
+[2025-07-18 11:24:58] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 10:00:00+00:00: 0.0
+[2025-07-18 11:24:58] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 10:00:00+00:00: unknown
+[2025-07-18 11:24:58] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 10:00:00+00:00: RSI=73.49334969866528, MACD=0.15911142180803495, MACD_signal=0.11644978416037483, News sentiment=0.0
+[2025-07-18 11:24:58] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 10:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 11:24:58] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 10:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 11:24:58] INFO signal_generator: [CONFLUENCE] NZDJPY @ 2025-07-18 10:00:00+00:00 | Factors: {'key_level': 'yes', 'pattern': 'other', 'rsi': 'bearish'} | Weighted votes for bearish: 2.0
+[2025-07-18 11:24:58] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 10:00:00+00:00 | Only 2.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes', 'pattern': 'other', 'rsi': 'bearish'}
+[2025-07-18 13:13:20] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 12:00:00+00:00: -0.042666666666666665
+[2025-07-18 13:13:20] INFO signal_generator: Market regime for USDJPY at 2025-07-18 12:00:00+00:00: unknown
+[2025-07-18 13:13:20] INFO signal_generator: Analyzing USDJPY at 2025-07-18 12:00:00+00:00: RSI=46.94541380691471, MACD=0.026727031322707262, MACD_signal=0.0405981915379337, News sentiment=-0.042666666666666665
+[2025-07-18 13:13:20] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-18 12:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 636.020 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 13:13:20] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-18 12:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 13:13:20] INFO signal_generator: [CONFLUENCE] USDJPY @ 2025-07-18 12:00:00+00:00 | Factors: {'key_level': 'yes', 'pattern': 'bullish', 'ema': 'bullish'} | Weighted votes for bullish: 3.0
+[2025-07-18 13:13:20] INFO signal_generator: [SIGNAL] USDJPY @ 2025-07-18 12:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 13:13:20] INFO signal_generator: Checking for high-impact news event for USDJPY...
+[2025-07-18 13:13:22] INFO signal_generator: Classifying trade type...
+[2025-07-18 13:13:22] INFO signal_generator: Trade type classified: Buy Stop, Entry: 148.54239959716796
+[2025-07-18 13:13:22] INFO signal_generator: Dynamic position size: entry=148.54239959716796, sl=148.2424, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.02
+[2025-07-18 13:13:22] INFO signal_generator: Signal generated for USDJPY at 2025-07-18 12:00:00+00:00: BUY Buy Stop Confidence: 0.57
+[2025-07-18 13:13:59] INFO signal_generator: News sentiment for BTCUSD at 2025-07-18 12:00:00+00:00: 0.019725
+[2025-07-18 13:13:59] INFO signal_generator: Market regime for BTCUSD at 2025-07-18 12:00:00+00:00: unknown
+[2025-07-18 13:13:59] INFO signal_generator: Analyzing BTCUSD at 2025-07-18 12:00:00+00:00: RSI=48.26024006410027, MACD=109.3344210916548, MACD_signal=257.28505750670826, News sentiment=0.019725
+[2025-07-18 13:13:59] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-18 12:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 147.238 ATR away', 'demand_zone': '100.000% / 147.238 ATR away', 'fib_0': '1.486% / 2.188 ATR away', 'fib_236': '0.990% / 1.457 ATR away', 'fib_382': '0.683% / 1.005 ATR away', 'fib_500': '0.435% / 0.640 ATR away', 'fib_618': 'within 0.186% and 0.275 ATR'}
+[2025-07-18 13:13:59] INFO signal_generator: [PATTERN STRENGTH] BTCUSD @ 2025-07-18 12:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 13:13:59] INFO signal_generator: [CONFLUENCE] BTCUSD @ 2025-07-18 12:00:00+00:00 | Factors: {'key_level': 'yes', 'macd': 'bearish', 'ema': 'bearish'} | Weighted votes for bearish: 3.0
+[2025-07-18 13:13:59] INFO signal_generator: [SIGNAL] BTCUSD @ 2025-07-18 12:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 13:13:59] INFO signal_generator: Checking for high-impact news event for BTCUSD...
+[2025-07-18 13:14:00] INFO signal_generator: Classifying trade type...
+[2025-07-18 13:14:00] INFO signal_generator: Trade type classified: Sell Stop, Entry: 119208.4125
+[2025-07-18 13:14:00] WARNING signal_generator: SL for BTCUSD at 2025-07-18 12:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 13:14:00] WARNING signal_generator: TP1 for BTCUSD at 2025-07-18 12:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 13:14:00] WARNING signal_generator: TP2 for BTCUSD at 2025-07-18 12:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 13:14:00] WARNING signal_generator: TP3 for BTCUSD at 2025-07-18 12:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 13:14:00] INFO signal_generator: Dynamic position size: entry=119208.4125, sl=119208.4155, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 13:14:00] INFO signal_generator: Signal generated for BTCUSD at 2025-07-18 12:00:00+00:00: SELL Sell Stop Confidence: 0.88
+[2025-07-18 13:14:15] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 12:00:00+00:00: 0.0
+[2025-07-18 13:14:15] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 12:00:00+00:00: unknown
+[2025-07-18 13:14:15] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 12:00:00+00:00: RSI=71.85012384744289, MACD=0.168089724801618, MACD_signal=0.13473642023691168, News sentiment=0.0
+[2025-07-18 13:14:15] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 12:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 13:14:15] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 12:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 13:14:15] INFO signal_generator: [CONFLUENCE] NZDJPY @ 2025-07-18 12:00:00+00:00 | Factors: {'key_level': 'yes', 'rsi': 'bearish'} | Weighted votes for bearish: 2.0
+[2025-07-18 13:14:15] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 12:00:00+00:00 | Only 2.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes', 'rsi': 'bearish'}
+[2025-07-18 14:30:29] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 13:00:00+00:00: -0.042666666666666665
+[2025-07-18 14:30:29] INFO signal_generator: Market regime for USDJPY at 2025-07-18 13:00:00+00:00: unknown
+[2025-07-18 14:30:29] INFO signal_generator: Analyzing USDJPY at 2025-07-18 13:00:00+00:00: RSI=42.16829055458649, MACD=0.004978577580402543, MACD_signal=0.03347426874642747, News sentiment=-0.042666666666666665
+[2025-07-18 14:30:29] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-18 13:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 609.337 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 14:30:29] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-18 13:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 14:30:29] INFO signal_generator: [CONFLUENCE] USDJPY @ 2025-07-18 13:00:00+00:00 | Factors: {'key_level': 'yes', 'macd': 'bearish', 'ema': 'bearish'} | Weighted votes for bearish: 3.0
+[2025-07-18 14:30:29] INFO signal_generator: [SIGNAL] USDJPY @ 2025-07-18 13:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 14:30:29] INFO signal_generator: Checking for high-impact news event for USDJPY...
+[2025-07-18 14:30:30] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 13:00:00+00:00: -0.042666666666666665
+[2025-07-18 14:30:30] INFO signal_generator: Market regime for USDJPY at 2025-07-18 13:00:00+00:00: unknown
+[2025-07-18 14:30:30] INFO signal_generator: Analyzing USDJPY at 2025-07-18 13:00:00+00:00: RSI=42.16829055458649, MACD=0.004978577580402543, MACD_signal=0.03347426874642747, News sentiment=-0.042666666666666665
+[2025-07-18 14:30:32] INFO signal_generator: Classifying trade type...
+[2025-07-18 14:30:32] INFO signal_generator: Trade type classified: Instant Execution, Entry: 148.35899353027344
+[2025-07-18 14:30:32] INFO signal_generator: Dynamic position size: entry=148.35899353027344, sl=148.65899, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.02
+[2025-07-18 14:30:32] INFO signal_generator: Signal generated for USDJPY at 2025-07-18 13:00:00+00:00: SELL Instant Execution Confidence: 0.88
+[2025-07-18 14:30:49] INFO signal_generator: News sentiment for BTCUSD at 2025-07-18 13:00:00+00:00: 0.016005000000000002
+[2025-07-18 14:30:49] INFO signal_generator: Market regime for BTCUSD at 2025-07-18 13:00:00+00:00: unknown
+[2025-07-18 14:30:49] INFO signal_generator: Analyzing BTCUSD at 2025-07-18 13:00:00+00:00: RSI=50.48946201478936, MACD=95.66531544162717, MACD_signal=224.96110909369204, News sentiment=0.016005000000000002
+[2025-07-18 14:30:54] INFO signal_generator: News sentiment for BTCUSD at 2025-07-18 13:00:00+00:00: 0.016005000000000002
+[2025-07-18 14:30:54] INFO signal_generator: Market regime for BTCUSD at 2025-07-18 13:00:00+00:00: unknown
+[2025-07-18 14:30:54] INFO signal_generator: Analyzing BTCUSD at 2025-07-18 13:00:00+00:00: RSI=50.48946201478936, MACD=95.66531544162717, MACD_signal=224.96110909369204, News sentiment=0.016005000000000002
+[2025-07-18 14:30:54] INFO signal_generator: [KEY LEVEL PROXIMITY] BTCUSD @ 2025-07-18 13:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 146.526 ATR away', 'demand_zone': '100.000% / 146.526 ATR away', 'fib_0': '1.290% / 1.891 ATR away', 'fib_236': '0.795% / 1.165 ATR away', 'fib_382': '0.489% / 0.716 ATR away', 'fib_500': 'within 0.241% and 0.353 ATR'}
+[2025-07-18 14:30:54] INFO signal_generator: [PATTERN STRENGTH] BTCUSD @ 2025-07-18 13:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 14:30:54] INFO signal_generator: [CONFLUENCE] BTCUSD @ 2025-07-18 13:00:00+00:00 | Factors: {'key_level': 'yes', 'macd': 'bearish', 'ema': 'bearish'} | Weighted votes for bearish: 3.0
+[2025-07-18 14:30:54] INFO signal_generator: [SIGNAL] BTCUSD @ 2025-07-18 13:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 14:30:54] INFO signal_generator: Checking for high-impact news event for BTCUSD...
+[2025-07-18 14:30:55] INFO signal_generator: Classifying trade type...
+[2025-07-18 14:30:55] INFO signal_generator: Trade type classified: Sell Limit, Entry: 119514.696875
+[2025-07-18 14:30:55] WARNING signal_generator: SL for BTCUSD at 2025-07-18 13:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 14:30:55] WARNING signal_generator: TP1 for BTCUSD at 2025-07-18 13:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 14:30:55] WARNING signal_generator: TP2 for BTCUSD at 2025-07-18 13:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 14:30:55] WARNING signal_generator: TP3 for BTCUSD at 2025-07-18 13:00:00+00:00 is 0.00% of entry, which is outside 0.1%-10% range.
+[2025-07-18 14:30:55] INFO signal_generator: Dynamic position size: entry=119514.696875, sl=119514.69988, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 14:30:55] INFO signal_generator: Signal generated for BTCUSD at 2025-07-18 13:00:00+00:00: SELL Sell Limit Confidence: 0.91
+[2025-07-18 14:31:24] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 13:00:00+00:00: 0.0
+[2025-07-18 14:31:24] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 13:00:00+00:00: unknown
+[2025-07-18 14:31:24] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 13:00:00+00:00: RSI=70.99413980781073, MACD=0.16694335278083372, MACD_signal=0.1411778067456961, News sentiment=0.0
+[2025-07-18 14:31:24] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 13:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 14:31:24] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 13:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 14:31:24] INFO signal_generator: [CONFLUENCE] NZDJPY @ 2025-07-18 13:00:00+00:00 | Factors: {'key_level': 'yes', 'rsi': 'bearish'} | Weighted votes for bearish: 2.0
+[2025-07-18 14:31:24] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 13:00:00+00:00 | Only 2.0 weighted factors align. No signal generated. Factors: {'key_level': 'yes', 'rsi': 'bearish'}
+[2025-07-18 15:45:45] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 14:00:00+00:00: 0.02104565217391304
+[2025-07-18 15:45:45] INFO signal_generator: Market regime for USDJPY at 2025-07-18 14:00:00+00:00: unknown
+[2025-07-18 15:45:45] INFO signal_generator: Analyzing USDJPY at 2025-07-18 14:00:00+00:00: RSI=39.175517227079595, MACD=-0.020014903176587495, MACD_signal=0.02277643436182448, News sentiment=0.02104565217391304
+[2025-07-18 15:45:45] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-18 14:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 595.046 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 15:45:45] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-18 14:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 15:45:45] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-18 14:00:00+00:00 | Confidence 0.88 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'ema': 'bullish'}
+[2025-07-18 15:45:56] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 14:00:00+00:00: -0.016235135135135137
+[2025-07-18 15:45:56] INFO signal_generator: Market regime for USDCHF at 2025-07-18 14:00:00+00:00: unknown
+[2025-07-18 15:45:56] INFO signal_generator: Analyzing USDCHF at 2025-07-18 14:00:00+00:00: RSI=27.058925630387606, MACD=-0.0008147245681860982, MACD_signal=-0.00035252445676136517, News sentiment=-0.016235135135135137
+[2025-07-18 15:45:56] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 14:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 548.668 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 15:45:56] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 14:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 15:45:56] INFO signal_generator: [CONFLUENCE] USDCHF @ 2025-07-18 14:00:00+00:00 | Factors: {'key_level': 1, 'pattern': 'bearish', 'macd': 'bearish', 'ema': 'bearish'} | Weighted votes for bearish: 4.0
+[2025-07-18 15:45:56] INFO signal_generator: [SIGNAL] USDCHF @ 2025-07-18 14:00:00+00:00 | 4.0 weighted factors align. Signal allowed.
+[2025-07-18 15:45:56] INFO signal_generator: Checking for high-impact news event for USDCHF...
+[2025-07-18 15:45:56] INFO signal_generator: Classifying trade type...
+[2025-07-18 15:45:56] INFO signal_generator: Trade type classified: Sell Stop, Entry: 0.7985080063343049
+[2025-07-18 15:45:56] INFO signal_generator: Dynamic position size: entry=0.7985080063343049, sl=0.80151, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 15:45:56] INFO signal_generator: Signal generated for USDCHF at 2025-07-18 14:00:00+00:00: SELL Sell Stop Confidence: 0.96
+[2025-07-18 15:46:09] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 14:00:00+00:00: 0.128675
+[2025-07-18 15:46:09] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 14:00:00+00:00: unknown
+[2025-07-18 15:46:09] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 14:00:00+00:00: RSI=72.10715156815297, MACD=0.16637631820873366, MACD_signal=0.14621750903830363, News sentiment=0.128675
+[2025-07-18 15:46:09] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 14:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 15:46:09] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 14:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 15:46:09] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 14:00:00+00:00 | Confidence 0.89 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'other', 'rsi': 'bearish'}
+[2025-07-18 16:00:14] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 15:00:00+00:00: -0.032
+[2025-07-18 16:00:14] INFO signal_generator: Market regime for USDJPY at 2025-07-18 15:00:00+00:00: unknown
+[2025-07-18 16:00:14] INFO signal_generator: Analyzing USDJPY at 2025-07-18 15:00:00+00:00: RSI=48.006616601496376, MACD=-0.021818645101888023, MACD_signal=0.013857418469081978, News sentiment=-0.032
+[2025-07-18 16:00:24] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 15:00:00+00:00: -0.016235135135135137
+[2025-07-18 16:00:24] INFO signal_generator: Market regime for USDCHF at 2025-07-18 15:00:00+00:00: unknown
+[2025-07-18 16:00:24] INFO signal_generator: Analyzing USDCHF at 2025-07-18 15:00:00+00:00: RSI=36.644270636769406, MACD=-0.0008693070364079736, MACD_signal=-0.00045588097269068687, News sentiment=-0.016235135135135137
+[2025-07-18 16:00:24] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 15:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 558.132 ATR away', 'demand_zone': '100.000% / 558.132 ATR away', 'fib_0': '0.644% / 3.593 ATR away', 'fib_236': '0.443% / 2.475 ATR away', 'fib_382': '0.319% / 1.783 ATR away', 'fib_500': '0.219% / 1.224 ATR away', 'fib_618': 'within 0.119% and 0.665 ATR'}
+[2025-07-18 16:00:24] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 15:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 16:00:24] INFO signal_generator: [FILTERED] USDCHF @ 2025-07-18 15:00:00+00:00 | Confidence 0.90 or only 3 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'other', 'macd': 'bearish', 'ema': 'bearish'}
+[2025-07-18 16:00:27] INFO signal_generator: News sentiment for BTCUSD at 2025-07-18 14:00:00+00:00: -0.004834999999999998
+[2025-07-18 16:00:27] INFO signal_generator: Market regime for BTCUSD at 2025-07-18 14:00:00+00:00: unknown
+[2025-07-18 16:00:27] INFO signal_generator: Analyzing BTCUSD at 2025-07-18 14:00:00+00:00: RSI=44.9053746366915, MACD=34.67686368798604, MACD_signal=186.90426001255085, News sentiment=-0.004834999999999998
+[2025-07-18 16:00:35] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 15:00:00+00:00: 0.12254761904761906
+[2025-07-18 16:00:35] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 15:00:00+00:00: unknown
+[2025-07-18 16:00:35] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 15:00:00+00:00: RSI=70.04012269938114, MACD=0.16244086012889625, MACD_signal=0.14946217925642216, News sentiment=0.12254761904761906
+[2025-07-18 16:00:35] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 15:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 16:00:35] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 15:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 16:00:35] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 15:00:00+00:00 | Confidence 0.88 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'other', 'rsi': 'bearish'}
+[2025-07-18 17:01:03] INFO signal_generator: News sentiment for GBPUSD at 2025-07-18 16:00:00+00:00: 0.003351282051282055
+[2025-07-18 17:01:03] INFO signal_generator: Market regime for GBPUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:01:03] INFO signal_generator: Analyzing GBPUSD at 2025-07-18 16:00:00+00:00: RSI=51.862906299243186, MACD=0.0010038258749536233, MACD_signal=0.0009860718106023808, News sentiment=0.003351282051282055
+[2025-07-18 17:01:03] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 774.023 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:01:03] INFO signal_generator: [PATTERN STRENGTH] GBPUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:01:03] INFO signal_generator: [FILTERED] GBPUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.88 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'other', 'ema': 'bearish'}
+[2025-07-18 17:01:22] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 16:00:00+00:00: -0.015807894736842104
+[2025-07-18 17:01:22] INFO signal_generator: Market regime for USDCHF at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:01:22] INFO signal_generator: Analyzing USDCHF at 2025-07-18 16:00:00+00:00: RSI=36.75284072148203, MACD=-0.0009044456729124795, MACD_signal=-0.0005462321952718433, News sentiment=-0.015807894736842104
+[2025-07-18 17:01:22] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 593.679 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:01:22] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:01:22] INFO signal_generator: [FILTERED] USDCHF @ 2025-07-18 16:00:00+00:00 | Confidence 0.88 or only 3 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'other', 'macd': 'bearish', 'ema': 'bearish'}
+[2025-07-18 17:01:31] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 16:00:00+00:00: 0.13613636363636364
+[2025-07-18 17:01:31] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:01:31] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 16:00:00+00:00: RSI=72.50623762142814, MACD=0.16224909127008402, MACD_signal=0.1519940486160622, News sentiment=0.13613636363636364
+[2025-07-18 17:01:31] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:01:31] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:01:31] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.89 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'other', 'rsi': 'bearish'}
+[2025-07-18 17:02:24] INFO signal_generator: News sentiment for GBPUSD at 2025-07-18 16:00:00+00:00: 0.003351282051282055
+[2025-07-18 17:02:24] INFO signal_generator: Market regime for GBPUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:02:24] INFO signal_generator: Analyzing GBPUSD at 2025-07-18 16:00:00+00:00: RSI=51.862906299243186, MACD=0.0010038258749536233, MACD_signal=0.0009860718106023808, News sentiment=0.003351282051282055
+[2025-07-18 17:02:24] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 774.023 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:02:24] INFO signal_generator: [PATTERN STRENGTH] GBPUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:02:24] INFO signal_generator: [FILTERED] GBPUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.88 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'ema': 'bearish'}
+[2025-07-18 17:02:45] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 16:00:00+00:00: -0.015807894736842104
+[2025-07-18 17:02:45] INFO signal_generator: Market regime for USDCHF at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:02:45] INFO signal_generator: Analyzing USDCHF at 2025-07-18 16:00:00+00:00: RSI=36.75284072148203, MACD=-0.0009044456729124795, MACD_signal=-0.0005462321952718433, News sentiment=-0.015807894736842104
+[2025-07-18 17:02:45] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 587.451 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:02:45] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:02:45] INFO signal_generator: [FILTERED] USDCHF @ 2025-07-18 16:00:00+00:00 | Confidence 0.94 or only 3 factors. No signal generated. Factors: {'key_level': 1, 'macd': 'bearish', 'ema': 'bearish'}
+[2025-07-18 17:02:54] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 16:00:00+00:00: 0.13613636363636364
+[2025-07-18 17:02:54] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:02:54] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 16:00:00+00:00: RSI=72.50623762142814, MACD=0.16224909127008402, MACD_signal=0.1519940486160622, News sentiment=0.13613636363636364
+[2025-07-18 17:02:54] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:02:54] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:02:54] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.96 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'rsi': 'bearish'}
+[2025-07-18 17:12:03] INFO signal_generator: News sentiment for GBPUSD at 2025-07-18 16:00:00+00:00: 0.003351282051282055
+[2025-07-18 17:12:03] INFO signal_generator: Market regime for GBPUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:12:03] INFO signal_generator: Analyzing GBPUSD at 2025-07-18 16:00:00+00:00: RSI=51.862906299243186, MACD=0.0010038258749536233, MACD_signal=0.0009860718106023808, News sentiment=0.003351282051282055
+[2025-07-18 17:12:03] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 754.963 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:12:03] INFO signal_generator: [PATTERN STRENGTH] GBPUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:12:03] INFO signal_generator: [FILTERED] GBPUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.82 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'ema': 'bearish'}
+[2025-07-18 17:12:39] INFO signal_generator: News sentiment for GBPUSD at 2025-07-18 16:00:00+00:00: 0.003351282051282055
+[2025-07-18 17:12:39] INFO signal_generator: Market regime for GBPUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:12:39] INFO signal_generator: Analyzing GBPUSD at 2025-07-18 16:00:00+00:00: RSI=51.862906299243186, MACD=0.0010038258749536233, MACD_signal=0.0009860718106023808, News sentiment=0.003351282051282055
+[2025-07-18 17:12:39] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 754.963 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:12:39] INFO signal_generator: [PATTERN STRENGTH] GBPUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:12:39] INFO signal_generator: [FILTERED] GBPUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.82 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'ema': 'bearish'}
+[2025-07-18 17:12:58] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:12:58] INFO signal_generator: Market regime for USDCHF at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:12:58] INFO signal_generator: Analyzing USDCHF at 2025-07-18 16:00:00+00:00: RSI=36.75284072148203, MACD=-0.0009044456729124795, MACD_signal=-0.0005462321952718433, News sentiment=0.05991428571428571
+[2025-07-18 17:12:58] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 585.916 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:12:58] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {'pin_bar': 'strong'}
+[2025-07-18 17:12:58] INFO signal_generator: [FILTERED] USDCHF @ 2025-07-18 16:00:00+00:00 | Confidence 0.83 or only 3 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'strong_pin', 'macd': 'bearish', 'ema': 'bearish'}
+[2025-07-18 17:13:04] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 16:00:00+00:00: 0.043925000000000006
+[2025-07-18 17:13:04] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:13:04] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 16:00:00+00:00: RSI=72.50623762142814, MACD=0.16224909127008402, MACD_signal=0.1519940486160622, News sentiment=0.043925000000000006
+[2025-07-18 17:13:04] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:13:04] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:13:04] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.96 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'rsi': 'bearish'}
+[2025-07-18 17:22:54] INFO signal_generator: News sentiment for GBPUSD at 2025-07-18 16:00:00+00:00: 0.06527727272727274
+[2025-07-18 17:22:54] INFO signal_generator: Market regime for GBPUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:22:54] INFO signal_generator: Analyzing GBPUSD at 2025-07-18 16:00:00+00:00: RSI=51.862906299243186, MACD=0.0010038258749536233, MACD_signal=0.0009860718106023808, News sentiment=0.06527727272727274
+[2025-07-18 17:22:54] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 745.789 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:22:54] INFO signal_generator: [PATTERN STRENGTH] GBPUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:22:54] INFO signal_generator: [FILTERED] GBPUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.79 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'ema': 'bearish'}
+[2025-07-18 17:23:05] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:23:05] INFO signal_generator: Market regime for USDCHF at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:23:05] INFO signal_generator: Analyzing USDCHF at 2025-07-18 16:00:00+00:00: RSI=36.75284072148203, MACD=-0.0009044456729124795, MACD_signal=-0.0005462321952718433, News sentiment=0.05991428571428571
+[2025-07-18 17:23:05] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 577.756 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:23:05] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:23:05] INFO signal_generator: [FILTERED] USDCHF @ 2025-07-18 16:00:00+00:00 | Confidence 0.88 or only 3 factors. No signal generated. Factors: {'key_level': 1, 'macd': 'bearish', 'ema': 'bearish'}
+[2025-07-18 17:23:10] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 16:00:00+00:00: 0.043925000000000006
+[2025-07-18 17:23:10] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:23:10] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 16:00:00+00:00: RSI=72.50623762142814, MACD=0.16224909127008402, MACD_signal=0.1519940486160622, News sentiment=0.043925000000000006
+[2025-07-18 17:23:10] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:23:10] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:23:10] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.96 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'rsi': 'bearish'}
+[2025-07-18 17:32:33] INFO signal_generator: News sentiment for GBPUSD at 2025-07-18 16:00:00+00:00: 0.06527727272727274
+[2025-07-18 17:32:33] INFO signal_generator: Market regime for GBPUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:32:33] INFO signal_generator: Analyzing GBPUSD at 2025-07-18 16:00:00+00:00: RSI=51.862906299243186, MACD=0.0010038258749536233, MACD_signal=0.0009860718106023808, News sentiment=0.06527727272727274
+[2025-07-18 17:32:33] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 721.064 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:32:33] INFO signal_generator: [PATTERN STRENGTH] GBPUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:32:33] INFO signal_generator: [FILTERED] GBPUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.79 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'ema': 'bearish'}
+[2025-07-18 17:32:40] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:32:40] INFO signal_generator: Market regime for USDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:32:40] INFO signal_generator: Analyzing USDJPY at 2025-07-18 16:00:00+00:00: RSI=50.60700748065148, MACD=-0.017140731479912574, MACD_signal=0.007645129335765729, News sentiment=0.05991428571428571
+[2025-07-18 17:32:40] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:32:40] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {'pin_bar': 'moderate'}
+[2025-07-18 17:32:40] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.76 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'moderate_pin', 'ema': 'bullish'}
+[2025-07-18 17:32:50] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:32:50] INFO signal_generator: Market regime for USDCHF at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:32:50] INFO signal_generator: Analyzing USDCHF at 2025-07-18 16:00:00+00:00: RSI=36.75284072148203, MACD=-0.0009044456729124795, MACD_signal=-0.0005462321952718433, News sentiment=0.05991428571428571
+[2025-07-18 17:32:50] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 569.242 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:32:50] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:32:50] INFO signal_generator: [FILTERED] USDCHF @ 2025-07-18 16:00:00+00:00 | Confidence 0.85 or only 3 factors. No signal generated. Factors: {'key_level': 1, 'macd': 'bearish', 'ema': 'bearish'}
+[2025-07-18 17:32:56] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 16:00:00+00:00: 0.043925000000000006
+[2025-07-18 17:32:56] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:32:56] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 16:00:00+00:00: RSI=72.50623762142814, MACD=0.16224909127008402, MACD_signal=0.1519940486160622, News sentiment=0.043925000000000006
+[2025-07-18 17:32:56] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:32:56] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:32:56] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.96 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'rsi': 'bearish'}
+[2025-07-18 17:44:17] INFO signal_generator: News sentiment for GBPUSD at 2025-07-18 16:00:00+00:00: 0.06527727272727274
+[2025-07-18 17:44:17] INFO signal_generator: Market regime for GBPUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:44:17] INFO signal_generator: Analyzing GBPUSD at 2025-07-18 16:00:00+00:00: RSI=51.862906299243186, MACD=0.0010038258749536233, MACD_signal=0.0009860718106023808, News sentiment=0.06527727272727274
+[2025-07-18 17:44:17] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 721.064 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:44:17] INFO signal_generator: [PATTERN STRENGTH] GBPUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:44:17] INFO signal_generator: [FILTERED] GBPUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.79 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'ema': 'bearish'}
+[2025-07-18 17:44:24] INFO signal_generator: News sentiment for USDJPY at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:44:24] INFO signal_generator: Market regime for USDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:44:24] INFO signal_generator: Analyzing USDJPY at 2025-07-18 16:00:00+00:00: RSI=50.60700748065148, MACD=-0.017140731479912574, MACD_signal=0.007645129335765729, News sentiment=0.05991428571428571
+[2025-07-18 17:44:24] INFO signal_generator: [KEY LEVEL PROXIMITY] USDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:44:24] INFO signal_generator: [PATTERN STRENGTH] USDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:44:24] INFO signal_generator: [FILTERED] USDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.76 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'ema': 'bullish'}
+[2025-07-18 17:44:30] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:44:30] INFO signal_generator: Market regime for USDCHF at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:44:30] INFO signal_generator: Analyzing USDCHF at 2025-07-18 16:00:00+00:00: RSI=36.75284072148203, MACD=-0.0009044456729124795, MACD_signal=-0.0005462321952718433, News sentiment=0.05991428571428571
+[2025-07-18 17:44:30] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 562.948 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:44:30] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:44:30] INFO signal_generator: [FILTERED] USDCHF @ 2025-07-18 16:00:00+00:00 | Confidence 0.85 or only 3 factors. No signal generated. Factors: {'key_level': 1, 'macd': 'bearish', 'ema': 'bearish'}
+[2025-07-18 17:44:37] INFO signal_generator: News sentiment for AUDUSD at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:44:37] INFO signal_generator: Market regime for AUDUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:44:37] INFO signal_generator: Analyzing AUDUSD at 2025-07-18 16:00:00+00:00: RSI=60.795886329098856, MACD=0.0009468834024449757, MACD_signal=0.0007306481330848542, News sentiment=0.05991428571428571
+[2025-07-18 17:44:37] INFO signal_generator: [KEY LEVEL PROXIMITY] AUDUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 566.756 ATR away', 'demand_zone': '100.000% / 566.756 ATR away', 'fib_0': '0.214% / 1.212 ATR away', 'fib_236': 'within 0.001% and 0.006 ATR'}
+[2025-07-18 17:44:37] INFO signal_generator: [PATTERN STRENGTH] AUDUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {'bullish_engulfing': 'strong'}
+[2025-07-18 17:44:37] INFO signal_generator: [FILTERED] AUDUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.93 or only 1 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'strong_bullish'}
+[2025-07-18 17:44:45] INFO signal_generator: News sentiment for NZDUSD at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:44:45] INFO signal_generator: Market regime for NZDUSD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:44:45] INFO signal_generator: Analyzing NZDUSD at 2025-07-18 16:00:00+00:00: RSI=65.63685862041962, MACD=0.0011686703456668113, MACD_signal=0.0009996962281343593, News sentiment=0.05991428571428571
+[2025-07-18 17:44:45] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDUSD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 580.340 ATR away', 'demand_zone': '100.000% / 580.340 ATR away', 'fib_0': '0.228% / 1.321 ATR away', 'fib_236': 'within 0.015% and 0.087 ATR'}
+[2025-07-18 17:44:45] INFO signal_generator: [PATTERN STRENGTH] NZDUSD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {'bullish_engulfing': 'strong'}
+[2025-07-18 17:44:45] INFO signal_generator: [FILTERED] NZDUSD @ 2025-07-18 16:00:00+00:00 | Confidence 0.93 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'strong_bullish', 'rsi': 'bearish'}
+[2025-07-18 17:44:55] INFO signal_generator: News sentiment for USDCAD at 2025-07-18 16:00:00+00:00: 0.05991428571428571
+[2025-07-18 17:44:55] INFO signal_generator: Market regime for USDCAD at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:44:55] INFO signal_generator: Analyzing USDCAD at 2025-07-18 16:00:00+00:00: RSI=40.45521851035485, MACD=-0.0006593024253946922, MACD_signal=-0.000339741750210547, News sentiment=0.05991428571428571
+[2025-07-18 17:44:55] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCAD @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 746.595 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 17:44:55] INFO signal_generator: [PATTERN STRENGTH] USDCAD @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:44:55] INFO signal_generator: [CONFLUENCE] USDCAD @ 2025-07-18 16:00:00+00:00 | Factors: {'key_level': 1, 'pattern': 'bearish', 'macd': 'bearish', 'ema': 'bearish'} | Weighted votes for bearish: 4.0
+[2025-07-18 17:44:55] INFO signal_generator: [SIGNAL] USDCAD @ 2025-07-18 16:00:00+00:00 | 4.0 weighted factors align. Signal allowed.
+[2025-07-18 17:44:55] INFO signal_generator: Checking for high-impact news event for USDCAD...
+[2025-07-18 17:44:55] INFO signal_generator: Classifying trade type...
+[2025-07-18 17:44:55] INFO signal_generator: Trade type classified: Instant Execution, Entry: 1.3711800575256348
+[2025-07-18 17:44:55] INFO signal_generator: Dynamic position size: entry=1.3711800575256348, sl=1.37418, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 17:44:55] INFO signal_generator: Signal generated for USDCAD at 2025-07-18 16:00:00+00:00: SELL Instant Execution Confidence: 0.94
+[2025-07-18 17:45:04] INFO signal_generator: News sentiment for EURJPY at 2025-07-18 16:00:00+00:00: 0.06161000000000001
+[2025-07-18 17:45:04] INFO signal_generator: Market regime for EURJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:45:04] INFO signal_generator: Analyzing EURJPY at 2025-07-18 16:00:00+00:00: RSI=63.386106796402075, MACD=0.15462468668593488, MACD_signal=0.14527257115625816, News sentiment=0.06161000000000001
+[2025-07-18 17:45:04] INFO signal_generator: [KEY LEVEL PROXIMITY] EURJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:45:04] INFO signal_generator: [PATTERN STRENGTH] EURJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:45:04] INFO signal_generator: [FILTERED] EURJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.94 or only 1 factors. No signal generated. Factors: {'key_level': 1}
+[2025-07-18 17:45:13] INFO signal_generator: News sentiment for GBPJPY at 2025-07-18 16:00:00+00:00: 0.1079285714285714
+[2025-07-18 17:45:13] INFO signal_generator: Market regime for GBPJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:45:13] INFO signal_generator: Analyzing GBPJPY at 2025-07-18 16:00:00+00:00: RSI=54.26951961461027, MACD=0.12725186754764195, MACD_signal=0.1561764438763957, News sentiment=0.1079285714285714
+[2025-07-18 17:45:13] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:45:13] INFO signal_generator: [PATTERN STRENGTH] GBPJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {'pin_bar': 'strong'}
+[2025-07-18 17:45:13] INFO signal_generator: [FILTERED] GBPJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.89 or only 3 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'strong_pin', 'macd': 'bearish', 'ema': 'bearish'}
+[2025-07-18 17:45:23] INFO signal_generator: News sentiment for AUDJPY at 2025-07-18 16:00:00+00:00: 0.035140000000000005
+[2025-07-18 17:45:23] INFO signal_generator: Market regime for AUDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:45:23] INFO signal_generator: Analyzing AUDJPY at 2025-07-18 16:00:00+00:00: RSI=64.36600453575767, MACD=0.12948955088781133, MACD_signal=0.11329833414736545, News sentiment=0.035140000000000005
+[2025-07-18 17:45:23] INFO signal_generator: [KEY LEVEL PROXIMITY] AUDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:45:23] INFO signal_generator: [PATTERN STRENGTH] AUDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 17:45:23] INFO signal_generator: [FILTERED] AUDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.94 or only 1 factors. No signal generated. Factors: {'key_level': 1}
+[2025-07-18 17:45:28] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 16:00:00+00:00: 0.043925000000000006
+[2025-07-18 17:45:28] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 16:00:00+00:00: unknown
+[2025-07-18 17:45:28] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 16:00:00+00:00: RSI=72.50623762142814, MACD=0.16224909127008402, MACD_signal=0.1519940486160622, News sentiment=0.043925000000000006
+[2025-07-18 17:45:28] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 16:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 17:45:28] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 16:00:00+00:00 | Pattern strengths: {'pin_bar': 'strong'}
+[2025-07-18 17:45:28] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 16:00:00+00:00 | Confidence 0.92 or only 2 factors. No signal generated. Factors: {'key_level': 1, 'pattern': 'strong_pin', 'rsi': 'bearish'}
+[2025-07-18 19:43:46] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 18:00:00+00:00: 0.042826086956521736
+[2025-07-18 19:43:46] INFO signal_generator: Market regime for USDCHF at 2025-07-18 18:00:00+00:00: unknown
+[2025-07-18 19:43:46] INFO signal_generator: Analyzing USDCHF at 2025-07-18 18:00:00+00:00: RSI=45.53906008807035, MACD=-0.0007867406245412045, MACD_signal=-0.0006454804709076683, News sentiment=0.042826086956521736
+[2025-07-18 19:43:46] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 18:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 576.398 ATR away', 'demand_zone': '100.000% / 576.398 ATR away', 'fib_0': '0.306% / 1.762 ATR away', 'fib_236': 'within 0.151% and 0.871 ATR'}
+[2025-07-18 19:43:46] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 18:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 19:43:46] INFO signal_generator: [SIGNAL] USDCHF @ 2025-07-18 18:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 19:43:46] INFO signal_generator: Checking for high-impact news event for USDCHF...
+[2025-07-18 19:43:50] INFO signal_generator: Classifying trade type...
+[2025-07-18 19:43:50] INFO signal_generator: Trade type classified: Instant Execution, Entry: 0.8012499809265137
+[2025-07-18 19:43:50] INFO signal_generator: Dynamic position size: entry=0.8012499809265137, sl=0.80425, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 19:43:50] INFO signal_generator: Signal generated for USDCHF at 2025-07-18 18:00:00+00:00: SELL Instant Execution Confidence: 0.88
+[2025-07-18 19:44:14] INFO signal_generator: News sentiment for AUDUSD at 2025-07-18 18:00:00+00:00: 0.042826086956521736
+[2025-07-18 19:44:14] INFO signal_generator: Market regime for AUDUSD at 2025-07-18 18:00:00+00:00: unknown
+[2025-07-18 19:44:14] INFO signal_generator: Analyzing AUDUSD at 2025-07-18 18:00:00+00:00: RSI=49.48304245251489, MACD=0.0006802876968801108, MACD_signal=0.0007340940939187168, News sentiment=0.042826086956521736
+[2025-07-18 19:44:14] INFO signal_generator: [KEY LEVEL PROXIMITY] AUDUSD @ 2025-07-18 18:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 543.576 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 19:44:14] INFO signal_generator: [PATTERN STRENGTH] AUDUSD @ 2025-07-18 18:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 19:44:14] INFO signal_generator: [SIGNAL] AUDUSD @ 2025-07-18 18:00:00+00:00 | 4.0 weighted factors align. Signal allowed.
+[2025-07-18 19:44:14] INFO signal_generator: Checking for high-impact news event for AUDUSD...
+[2025-07-18 19:44:16] INFO signal_generator: Classifying trade type...
+[2025-07-18 19:44:16] INFO signal_generator: Trade type classified: Sell Limit, Entry: 0.6513006806373596
+[2025-07-18 19:44:16] INFO signal_generator: Dynamic position size: entry=0.6513006806373596, sl=0.6543, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 19:44:16] INFO signal_generator: Signal generated for AUDUSD at 2025-07-18 18:00:00+00:00: SELL Sell Limit Confidence: 0.83
+[2025-07-18 20:02:47] INFO signal_generator: News sentiment for USDCHF at 2025-07-18 19:00:00+00:00: 0.05991428571428571
+[2025-07-18 20:02:47] INFO signal_generator: Market regime for USDCHF at 2025-07-18 19:00:00+00:00: unknown
+[2025-07-18 20:02:47] INFO signal_generator: Analyzing USDCHF at 2025-07-18 19:00:00+00:00: RSI=48.40868778374016, MACD=-0.0006830485576571066, MACD_signal=-0.0006529940882575559, News sentiment=0.05991428571428571
+[2025-07-18 20:02:47] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCHF @ 2025-07-18 19:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 604.449 ATR away', 'demand_zone': '100.000% / 604.449 ATR away', 'fib_0': '0.254% / 1.538 ATR away', 'fib_236': 'within 0.100% and 0.604 ATR'}
+[2025-07-18 20:02:47] INFO signal_generator: [PATTERN STRENGTH] USDCHF @ 2025-07-18 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 20:02:47] INFO signal_generator: [SIGNAL] USDCHF @ 2025-07-18 19:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 20:02:47] INFO signal_generator: Checking for high-impact news event for USDCHF...
+[2025-07-18 20:02:47] INFO signal_generator: Classifying trade type...
+[2025-07-18 20:02:47] INFO signal_generator: Trade type classified: Instant Execution, Entry: 0.8016600012779236
+[2025-07-18 20:02:47] INFO signal_generator: Dynamic position size: entry=0.8016600012779236, sl=0.80466, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 20:02:47] INFO signal_generator: Signal generated for USDCHF at 2025-07-18 19:00:00+00:00: SELL Instant Execution Confidence: 0.89
+[2025-07-18 20:02:55] INFO signal_generator: News sentiment for AUDUSD at 2025-07-18 19:00:00+00:00: 0.05991428571428571
+[2025-07-18 20:02:55] INFO signal_generator: Market regime for AUDUSD at 2025-07-18 19:00:00+00:00: unknown
+[2025-07-18 20:02:55] INFO signal_generator: Analyzing AUDUSD at 2025-07-18 19:00:00+00:00: RSI=47.97067428829439, MACD=0.0005476088982756533, MACD_signal=0.0006967970547901042, News sentiment=0.05991428571428571
+[2025-07-18 20:02:55] INFO signal_generator: [KEY LEVEL PROXIMITY] AUDUSD @ 2025-07-18 19:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 572.357 ATR away', 'demand_zone': 'direct hit'}
+[2025-07-18 20:02:55] INFO signal_generator: [PATTERN STRENGTH] AUDUSD @ 2025-07-18 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 20:02:55] INFO signal_generator: [SIGNAL] AUDUSD @ 2025-07-18 19:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 20:02:55] INFO signal_generator: Checking for high-impact news event for AUDUSD...
+[2025-07-18 20:02:56] INFO signal_generator: Classifying trade type...
+[2025-07-18 20:02:56] INFO signal_generator: Trade type classified: Instant Execution, Entry: 0.6509568691253662
+[2025-07-18 20:02:56] INFO signal_generator: Dynamic position size: entry=0.6509568691253662, sl=0.65396, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 20:02:56] INFO signal_generator: Signal generated for AUDUSD at 2025-07-18 19:00:00+00:00: SELL Instant Execution Confidence: 0.83
+[2025-07-18 20:03:04] INFO signal_generator: News sentiment for NZDUSD at 2025-07-18 19:00:00+00:00: 0.05991428571428571
+[2025-07-18 20:03:04] INFO signal_generator: Market regime for NZDUSD at 2025-07-18 19:00:00+00:00: unknown
+[2025-07-18 20:03:04] INFO signal_generator: Analyzing NZDUSD at 2025-07-18 19:00:00+00:00: RSI=52.83946008703495, MACD=0.0008114487171485552, MACD_signal=0.0009560485517226603, News sentiment=0.05991428571428571
+[2025-07-18 20:03:04] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDUSD @ 2025-07-18 19:00:00+00:00 | Proximity details: {'supply_zone': '100.000% / 614.850 ATR away', 'demand_zone': '100.000% / 614.850 ATR away', 'fib_0': '0.473% / 2.911 ATR away', 'fib_236': '0.286% / 1.758 ATR away', 'fib_382': 'within 0.170% and 1.045 ATR'}
+[2025-07-18 20:03:04] INFO signal_generator: [PATTERN STRENGTH] NZDUSD @ 2025-07-18 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 20:03:04] INFO signal_generator: [SIGNAL] NZDUSD @ 2025-07-18 19:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 20:03:04] INFO signal_generator: Checking for high-impact news event for NZDUSD...
+[2025-07-18 20:03:05] INFO signal_generator: Classifying trade type...
+[2025-07-18 20:03:05] INFO signal_generator: Trade type classified: Instant Execution, Entry: 0.5963740348815918
+[2025-07-18 20:03:05] INFO signal_generator: Dynamic position size: entry=0.5963740348815918, sl=0.59937, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 20:03:05] INFO signal_generator: Signal generated for NZDUSD at 2025-07-18 19:00:00+00:00: SELL Instant Execution Confidence: 0.84
+[2025-07-18 20:03:14] INFO signal_generator: News sentiment for USDCAD at 2025-07-18 19:00:00+00:00: 0.05991428571428571
+[2025-07-18 20:03:14] INFO signal_generator: Market regime for USDCAD at 2025-07-18 19:00:00+00:00: unknown
+[2025-07-18 20:03:14] INFO signal_generator: Analyzing USDCAD at 2025-07-18 19:00:00+00:00: RSI=49.729193504574965, MACD=-0.000419025683009, MACD_signal=-0.000409582939261236, News sentiment=0.05991428571428571
+[2025-07-18 20:03:14] INFO signal_generator: [KEY LEVEL PROXIMITY] USDCAD @ 2025-07-18 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 20:03:14] INFO signal_generator: [PATTERN STRENGTH] USDCAD @ 2025-07-18 19:00:00+00:00 | Pattern strengths: {'pin_bar': 'strong'}
+[2025-07-18 20:03:14] INFO signal_generator: [SIGNAL] USDCAD @ 2025-07-18 19:00:00+00:00 | 3.0 weighted factors align. Signal allowed.
+[2025-07-18 20:03:14] INFO signal_generator: Checking for high-impact news event for USDCAD...
+[2025-07-18 20:03:15] INFO signal_generator: Classifying trade type...
+[2025-07-18 20:03:15] INFO signal_generator: Trade type classified: Sell Limit, Entry: 1.3727599740028382
+[2025-07-18 20:03:15] INFO signal_generator: Dynamic position size: entry=1.3727599740028382, sl=1.37576, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.05
+[2025-07-18 20:03:15] INFO signal_generator: Signal generated for USDCAD at 2025-07-18 19:00:00+00:00: SELL Sell Limit Confidence: 0.99
+[2025-07-18 20:03:22] INFO signal_generator: News sentiment for EURJPY at 2025-07-18 19:00:00+00:00: 0.06161000000000001
+[2025-07-18 20:03:22] INFO signal_generator: Market regime for EURJPY at 2025-07-18 19:00:00+00:00: unknown
+[2025-07-18 20:03:22] INFO signal_generator: Analyzing EURJPY at 2025-07-18 19:00:00+00:00: RSI=58.04837598200168, MACD=0.12704153318563272, MACD_signal=0.14016791325231728, News sentiment=0.06161000000000001
+[2025-07-18 20:03:22] INFO signal_generator: [KEY LEVEL PROXIMITY] EURJPY @ 2025-07-18 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 20:03:22] INFO signal_generator: [PATTERN STRENGTH] EURJPY @ 2025-07-18 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 20:03:22] INFO signal_generator: [FILTERED] EURJPY @ 2025-07-18 19:00:00+00:00 | Only 2 factors. No signal generated. Factors: {'key_level': 1, 'macd': 'bearish'}
+[2025-07-18 20:03:28] INFO signal_generator: News sentiment for GBPJPY at 2025-07-18 19:00:00+00:00: 0.1079285714285714
+[2025-07-18 20:03:28] INFO signal_generator: Market regime for GBPJPY at 2025-07-18 19:00:00+00:00: unknown
+[2025-07-18 20:03:28] INFO signal_generator: Analyzing GBPJPY at 2025-07-18 19:00:00+00:00: RSI=53.48875999799051, MACD=0.08596960672505816, MACD_signal=0.1260043365815276, News sentiment=0.1079285714285714
+[2025-07-18 20:03:28] INFO signal_generator: [KEY LEVEL PROXIMITY] GBPJPY @ 2025-07-18 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 20:03:28] INFO signal_generator: [PATTERN STRENGTH] GBPJPY @ 2025-07-18 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 20:03:28] INFO signal_generator: [SIGNAL] GBPJPY @ 2025-07-18 19:00:00+00:00 | 4.0 weighted factors align. Signal allowed.
+[2025-07-18 20:03:28] INFO signal_generator: Checking for high-impact news event for GBPJPY...
+[2025-07-18 20:03:29] INFO signal_generator: Classifying trade type...
+[2025-07-18 20:03:29] INFO signal_generator: Trade type classified: Instant Execution, Entry: 199.5989990234375
+[2025-07-18 20:03:29] INFO signal_generator: Dynamic position size: entry=199.5989990234375, sl=199.899, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.02
+[2025-07-18 20:03:29] INFO signal_generator: Signal generated for GBPJPY at 2025-07-18 19:00:00+00:00: SELL Instant Execution Confidence: 0.89
+[2025-07-18 20:03:37] INFO signal_generator: News sentiment for AUDJPY at 2025-07-18 19:00:00+00:00: 0.035140000000000005
+[2025-07-18 20:03:37] INFO signal_generator: Market regime for AUDJPY at 2025-07-18 19:00:00+00:00: unknown
+[2025-07-18 20:03:37] INFO signal_generator: Analyzing AUDJPY at 2025-07-18 19:00:00+00:00: RSI=54.547261007685975, MACD=0.09846658730181446, MACD_signal=0.11054129083361819, News sentiment=0.035140000000000005
+[2025-07-18 20:03:37] INFO signal_generator: [KEY LEVEL PROXIMITY] AUDJPY @ 2025-07-18 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 20:03:37] INFO signal_generator: [PATTERN STRENGTH] AUDJPY @ 2025-07-18 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 20:03:37] INFO signal_generator: [SIGNAL] AUDJPY @ 2025-07-18 19:00:00+00:00 | 4.0 weighted factors align. Signal allowed.
+[2025-07-18 20:03:37] INFO signal_generator: Checking for high-impact news event for AUDJPY...
+[2025-07-18 20:03:39] INFO signal_generator: Classifying trade type...
+[2025-07-18 20:03:39] INFO signal_generator: Trade type classified: Instant Execution, Entry: 96.79199981689453
+[2025-07-18 20:03:39] INFO signal_generator: Dynamic position size: entry=96.79199981689453, sl=97.092, risk_per_trade=2.0, min_lot=0.02, max_lot=0.05, position_size=0.02
+[2025-07-18 20:03:39] INFO signal_generator: Signal generated for AUDJPY at 2025-07-18 19:00:00+00:00: SELL Instant Execution Confidence: 0.88
+[2025-07-18 20:03:46] INFO signal_generator: News sentiment for NZDJPY at 2025-07-18 19:00:00+00:00: 0.043925000000000006
+[2025-07-18 20:03:46] INFO signal_generator: Market regime for NZDJPY at 2025-07-18 19:00:00+00:00: unknown
+[2025-07-18 20:03:46] INFO signal_generator: Analyzing NZDJPY at 2025-07-18 19:00:00+00:00: RSI=63.211960073858, MACD=0.13634786254489484, MACD_signal=0.14814130704950593, News sentiment=0.043925000000000006
+[2025-07-18 20:03:46] INFO signal_generator: [KEY LEVEL PROXIMITY] NZDJPY @ 2025-07-18 19:00:00+00:00 | Proximity details: {'supply_zone': 'direct hit'}
+[2025-07-18 20:03:46] INFO signal_generator: [PATTERN STRENGTH] NZDJPY @ 2025-07-18 19:00:00+00:00 | Pattern strengths: {}
+[2025-07-18 20:03:46] INFO signal_generator: [FILTERED] NZDJPY @ 2025-07-18 19:00:00+00:00 | Only 2 factors. No signal generated. Factors: {'key_level': 1, 'macd': 'bearish'}

@@ -1238,3 +1238,1121 @@
 [2025-07-17 20:05:06] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
 [2025-07-17 20:05:06] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
 [2025-07-17 20:05:06] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:10:18] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:10:18] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:10:18] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:10:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:10:20] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:10:20] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:10:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:10:20] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:10:20] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:10:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:10:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:10:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:10:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:10:31] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:10:31] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:10:32] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:10:32] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:10:32] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:18:29] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:18:29] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:18:29] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:18:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:18:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:18:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:18:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:18:31] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:18:31] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:18:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:18:43] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:18:43] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:18:44] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:18:44] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:18:44] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:18:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:18:45] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:18:45] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:25] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:25] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:26] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:26] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:27] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:27] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:38] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:38] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:38] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:40] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:40] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:40] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:41] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:41] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:41] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:47] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:47] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:47] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:48] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:48] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:25:49] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:25:49] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:25:49] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:55:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:55:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:55:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:31] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:55:31] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:55:32] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:32] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:55:32] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:55:49] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:49] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:55:49] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:55:50] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:50] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:55:50] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:55:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:51] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:55:51] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:55:58] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:58] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:55:58] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:55:59] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:55:59] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:55:59] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 20:56:00] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 20:56:00] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 20:56:00] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:25] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:25] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:25] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:25] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:26] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:26] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:26] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:26] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:27] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:27] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:27] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:27] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:35] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:35] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:35] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:36] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:36] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-17 22:00:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-17 22:00:37] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-17 22:00:37] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:40:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:40:45] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:40:45] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:40:49] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:40:49] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:40:49] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:40:54] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:40:54] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:40:54] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:47:35] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:47:35] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:47:35] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:47:40] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:47:40] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:47:40] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:47:44] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:47:44] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:47:44] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:48:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:48:15] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:48:15] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:48:18] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:48:18] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:48:18] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 10:48:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 10:48:20] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 10:48:20] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:23:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:23:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:23:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:23:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:23:37] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:23:37] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:23:38] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:23:38] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:23:38] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:24:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:24:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:24:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:24:04] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:24:04] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:24:04] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:24:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:24:08] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:24:08] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:24:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:24:37] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:24:37] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:24:47] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-18 11:24:47] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:24:47] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:24:47] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 11:24:50] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 11:24:50] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 11:24:50] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:13:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:13:02] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:13:02] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:13:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:13:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:13:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:13:14] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:13:14] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:13:14] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:13:40] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:13:40] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:13:40] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:13:50] ERROR fetch_market: Data is empty for USDJPY after fetch.
+[2025-07-18 13:13:50] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:13:50] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:13:50] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:13:53] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:13:53] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:13:53] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:14:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:14:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:14:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:14:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:14:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:14:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 13:14:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 13:14:11] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 13:14:11] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:14] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:14] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:14] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:19] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:19] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:21] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:21] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:21] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:21] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:21] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:21] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:22] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:22] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:23] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:23] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:23] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:40] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:40] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:40] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:43] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:43] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:45] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:45] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:46] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:46] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:48] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:48] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:30:49] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:30:49] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:30:49] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:31:13] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:31:13] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:31:13] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:31:17] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:31:17] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:31:17] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 14:31:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 14:31:20] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 14:31:20] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 15:34:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:34:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:34:51] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:34:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:34:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:34:51] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:34:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:34:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:34:51] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:35:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:35:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:35:01] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:35:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:35:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:35:01] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:35:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:35:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:35:01] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:35:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:35:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:35:11] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:35:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:35:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:35:11] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:35:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:35:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:35:11] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:45:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:45:42] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:45:42] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:45:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:45:42] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:45:42] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:45:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:45:42] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:45:42] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:45:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:45:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:45:52] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:45:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:45:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:45:52] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:45:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:45:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:45:52] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:46:05] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:46:05] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:46:05] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:46:05] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:46:05] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:46:05] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 15:46:05] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 15:46:05] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 15:46:05] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 16:00:08] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 16:00:08] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 16:00:09] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 16:00:09] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 16:00:09] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 16:00:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 16:00:10] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 16:00:10] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 16:00:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:11] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:11] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:11] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 16:00:19] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 16:00:19] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 16:00:21] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 16:00:21] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 16:00:21] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 16:00:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:22] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:22] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:22] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for USDJPY
+[2025-07-18 16:00:22] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 16:00:22] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 16:00:33] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:33] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:33] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:33] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:33] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:33] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:00:33] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:00:33] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:00:33] ERROR fetch_market: No Yahoo symbol mapping for pair: EURUSD
+[2025-07-18 16:12:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:12:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:12:11] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 16:12:13] INFO fetch_market: [price_cache] Saved price data for EURUSD_1h_200 to logs/price_cache/EURUSD_1h_200.json
+[2025-07-18 16:12:14] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:12:14] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:12:14] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 16:12:14] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.00h < 1h TTL
+[2025-07-18 16:12:14] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:12:14] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:12:14] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 16:12:15] INFO fetch_market: [price_cache] Saved price data for EURUSD_4h_200 to logs/price_cache/EURUSD_4h_200.json
+[2025-07-18 16:12:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 16:12:15] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 16:12:15] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 16:12:16] INFO fetch_market: [price_cache] Saved price data for EURUSD_1d_200 to logs/price_cache/EURUSD_1d_200.json
+[2025-07-18 17:00:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:00:48] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:00:48] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:00:48] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.81h < 1h TTL
+[2025-07-18 17:00:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:00:48] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:00:48] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:00:48] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.81h < 1h TTL
+[2025-07-18 17:00:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:00:48] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:00:48] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:00:48] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.81h < 1h TTL
+[2025-07-18 17:00:59] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:00:59] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:00:59] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:00:59] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.81h < 1h TTL
+[2025-07-18 17:00:59] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:00:59] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:00:59] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:00:59] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.81h < 1h TTL
+[2025-07-18 17:00:59] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:00:59] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:00:59] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:00:59] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.81h < 1h TTL
+[2025-07-18 17:01:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:10] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:10] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:10] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.82h < 1h TTL
+[2025-07-18 17:01:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:10] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:10] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:10] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.82h < 1h TTL
+[2025-07-18 17:01:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:10] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:10] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:10] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.82h < 1h TTL
+[2025-07-18 17:01:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:20] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:20] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:20] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.82h < 1h TTL
+[2025-07-18 17:01:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:20] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:20] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:20] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.82h < 1h TTL
+[2025-07-18 17:01:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:20] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:20] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:20] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.82h < 1h TTL
+[2025-07-18 17:01:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:28] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:28] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:28] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.82h < 1h TTL
+[2025-07-18 17:01:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:28] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:28] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:28] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.82h < 1h TTL
+[2025-07-18 17:01:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:01:28] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:01:28] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:01:28] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.82h < 1h TTL
+[2025-07-18 17:02:13] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:13] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:13] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:13] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.83h < 1h TTL
+[2025-07-18 17:02:13] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:13] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:13] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:13] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.83h < 1h TTL
+[2025-07-18 17:02:13] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:13] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:13] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:13] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.83h < 1h TTL
+[2025-07-18 17:02:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:22] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:22] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:22] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:22] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:22] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:22] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:32] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:32] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:32] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:32] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:32] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:32] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:32] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:32] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:32] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:32] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:32] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:32] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:42] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:42] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:42] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:42] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:42] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:42] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:42] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:42] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:42] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:42] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.84h < 1h TTL
+[2025-07-18 17:02:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:02:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:02:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:02:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.84h < 1h TTL
+[2025-07-18 17:10:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:10:45] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:10:45] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:10:45] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.98h < 1h TTL
+[2025-07-18 17:10:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:10:45] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:10:45] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:10:45] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.98h < 1h TTL
+[2025-07-18 17:10:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:10:45] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:10:45] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:10:45] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.98h < 1h TTL
+[2025-07-18 17:10:45] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:10:45] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:10:45] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:10:45] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.98h < 1h TTL
+[2025-07-18 17:11:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:11:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:11:51] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:11:51] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.99h < 1h TTL
+[2025-07-18 17:11:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:11:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:11:51] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:11:51] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.99h < 1h TTL
+[2025-07-18 17:11:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:11:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:11:51] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:11:51] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.99h < 1h TTL
+[2025-07-18 17:12:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:02] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:02] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:02] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:02] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:02] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:02] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:02] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:02] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:02] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:02] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:02] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:02] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:10] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:10] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:10] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:10] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:10] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:10] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:10] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:10] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:10] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:10] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 1.00h < 1h TTL
+[2025-07-18 17:12:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:25] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:25] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:25] INFO fetch_market: [price_cache] Cache expired for EURUSD_1h_200, age: 1.00h >= 1h TTL. Fetching fresh data.
+[2025-07-18 17:12:26] INFO fetch_market: [price_cache] Saved price data for EURUSD_1h_200 to logs/price_cache/EURUSD_1h_200.json
+[2025-07-18 17:12:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:26] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:26] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:26] INFO fetch_market: [price_cache] Cache expired for EURUSD_4h_200, age: 1.00h >= 1h TTL. Fetching fresh data.
+[2025-07-18 17:12:27] INFO fetch_market: [price_cache] Saved price data for EURUSD_4h_200 to logs/price_cache/EURUSD_4h_200.json
+[2025-07-18 17:12:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:27] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:27] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:27] INFO fetch_market: [price_cache] Cache expired for EURUSD_1d_200, age: 1.00h >= 1h TTL. Fetching fresh data.
+[2025-07-18 17:12:28] INFO fetch_market: [price_cache] Saved price data for EURUSD_1d_200 to logs/price_cache/EURUSD_1d_200.json
+[2025-07-18 17:12:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:37] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:37] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:37] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.00h < 1h TTL
+[2025-07-18 17:12:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:37] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:37] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:37] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.00h < 1h TTL
+[2025-07-18 17:12:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:37] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:37] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:37] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.00h < 1h TTL
+[2025-07-18 17:12:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:46] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:46] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:46] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.01h < 1h TTL
+[2025-07-18 17:12:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:46] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:46] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:46] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.01h < 1h TTL
+[2025-07-18 17:12:47] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:47] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:47] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:47] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.01h < 1h TTL
+[2025-07-18 17:12:56] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:56] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:56] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:56] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.01h < 1h TTL
+[2025-07-18 17:12:56] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:56] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:56] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:56] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.01h < 1h TTL
+[2025-07-18 17:12:56] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:12:56] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:12:56] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:12:56] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.01h < 1h TTL
+[2025-07-18 17:13:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:13:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:13:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:13:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.01h < 1h TTL
+[2025-07-18 17:13:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:13:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:13:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:13:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.01h < 1h TTL
+[2025-07-18 17:13:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:13:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:13:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:13:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.01h < 1h TTL
+[2025-07-18 17:16:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:16:36] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:16:36] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:16:36] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.07h < 1h TTL
+[2025-07-18 17:16:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:16:36] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:16:36] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:16:36] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.07h < 1h TTL
+[2025-07-18 17:16:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:16:36] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:16:36] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:16:36] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.07h < 1h TTL
+[2025-07-18 17:22:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:46] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:46] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:46] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.17h < 1h TTL
+[2025-07-18 17:22:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:46] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:46] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:46] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.17h < 1h TTL
+[2025-07-18 17:22:46] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:46] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:46] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:46] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.17h < 1h TTL
+[2025-07-18 17:22:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.17h < 1h TTL
+[2025-07-18 17:22:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.17h < 1h TTL
+[2025-07-18 17:22:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.17h < 1h TTL
+[2025-07-18 17:22:57] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:57] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:57] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:57] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.18h < 1h TTL
+[2025-07-18 17:22:57] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:57] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:57] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:57] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.18h < 1h TTL
+[2025-07-18 17:22:57] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:22:57] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:22:57] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:22:57] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.18h < 1h TTL
+[2025-07-18 17:23:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:23:02] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:23:02] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:23:02] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.18h < 1h TTL
+[2025-07-18 17:23:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:23:02] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:23:02] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:23:02] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.18h < 1h TTL
+[2025-07-18 17:23:02] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:23:02] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:23:02] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:23:02] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.18h < 1h TTL
+[2025-07-18 17:23:07] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:23:07] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:23:07] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:23:07] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.18h < 1h TTL
+[2025-07-18 17:23:07] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:23:07] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:23:07] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:23:07] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.18h < 1h TTL
+[2025-07-18 17:23:07] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:23:07] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:23:07] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:23:07] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.18h < 1h TTL
+[2025-07-18 17:32:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:25] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:25] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:25] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.33h < 1h TTL
+[2025-07-18 17:32:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:25] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:25] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:25] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.33h < 1h TTL
+[2025-07-18 17:32:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:25] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:25] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:25] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.33h < 1h TTL
+[2025-07-18 17:32:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:31] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:31] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:31] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.33h < 1h TTL
+[2025-07-18 17:32:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:31] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:31] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:31] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.33h < 1h TTL
+[2025-07-18 17:32:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:31] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:31] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:31] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.33h < 1h TTL
+[2025-07-18 17:32:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:37] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:37] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:37] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.34h < 1h TTL
+[2025-07-18 17:32:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:37] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:37] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:37] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.34h < 1h TTL
+[2025-07-18 17:32:37] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:37] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:37] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:37] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.34h < 1h TTL
+[2025-07-18 17:32:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:48] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:48] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:48] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.34h < 1h TTL
+[2025-07-18 17:32:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:48] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:48] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:48] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.34h < 1h TTL
+[2025-07-18 17:32:48] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:48] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:48] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:48] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.34h < 1h TTL
+[2025-07-18 17:32:53] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:53] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:53] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:53] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.34h < 1h TTL
+[2025-07-18 17:32:53] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:53] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:53] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:53] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.34h < 1h TTL
+[2025-07-18 17:32:53] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:32:53] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:32:53] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:32:53] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.34h < 1h TTL
+[2025-07-18 17:44:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:08] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:08] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:08] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:08] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:08] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:08] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:08] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:08] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:08] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:15] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:15] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:15] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:15] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:15] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:15] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:15] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:15] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:15] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:22] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:22] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:22] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:22] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:22] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:22] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:22] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:22] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:27] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:27] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:27] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:27] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:27] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:27] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:27] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:27] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:27] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:27] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.53h < 1h TTL
+[2025-07-18 17:44:33] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:33] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:33] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:33] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:44:33] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:33] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:33] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:33] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:44:33] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:33] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:33] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:33] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.54h < 1h TTL
+[2025-07-18 17:44:41] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:41] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:41] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:41] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:44:41] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:41] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:41] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:41] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:44:41] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:41] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:41] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:41] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.54h < 1h TTL
+[2025-07-18 17:44:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:51] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:51] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:44:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:51] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:51] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:44:51] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:44:51] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:44:51] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:44:51] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.54h < 1h TTL
+[2025-07-18 17:45:00] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:00] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:00] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:00] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:45:00] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:00] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:00] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:00] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:45:00] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:00] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:00] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:00] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.54h < 1h TTL
+[2025-07-18 17:45:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:08] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:08] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:08] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.55h < 1h TTL
+[2025-07-18 17:45:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:08] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:08] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:08] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.54h < 1h TTL
+[2025-07-18 17:45:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:08] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:08] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:08] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.54h < 1h TTL
+[2025-07-18 17:45:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:19] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:19] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:19] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.55h < 1h TTL
+[2025-07-18 17:45:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:19] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:19] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:19] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.55h < 1h TTL
+[2025-07-18 17:45:19] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:19] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:19] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:19] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.55h < 1h TTL
+[2025-07-18 17:45:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:26] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:26] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:26] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.55h < 1h TTL
+[2025-07-18 17:45:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:26] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:26] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:26] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.55h < 1h TTL
+[2025-07-18 17:45:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 17:45:26] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 17:45:26] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 17:45:26] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.55h < 1h TTL
+[2025-07-18 18:26:24] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 18:26:24] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 18:26:24] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 18:26:24] INFO fetch_market: [price_cache] Cache expired for EURUSD_1h_200, age: 1.23h >= 1h TTL. Fetching fresh data.
+[2025-07-18 18:26:25] INFO fetch_market: [price_cache] Saved price data for EURUSD_1h_200 to logs/price_cache/EURUSD_1h_200.json
+[2025-07-18 18:26:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 18:26:25] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 18:26:25] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 18:26:25] INFO fetch_market: [price_cache] Cache expired for EURUSD_4h_200, age: 1.23h >= 1h TTL. Fetching fresh data.
+[2025-07-18 18:26:26] INFO fetch_market: [price_cache] Saved price data for EURUSD_4h_200 to logs/price_cache/EURUSD_4h_200.json
+[2025-07-18 18:26:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 18:26:26] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 18:26:26] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 18:26:26] INFO fetch_market: [price_cache] Cache expired for EURUSD_1d_200, age: 1.23h >= 1h TTL. Fetching fresh data.
+[2025-07-18 18:26:28] INFO fetch_market: [price_cache] Saved price data for EURUSD_1d_200 to logs/price_cache/EURUSD_1d_200.json
+[2025-07-18 19:43:29] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:43:29] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:43:29] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:43:29] INFO fetch_market: [price_cache] Cache expired for EURUSD_1h_200, age: 1.28h >= 1h TTL. Fetching fresh data.
+[2025-07-18 19:43:39] ERROR fetch_market: Data is empty for EURUSD after fetch.
+[2025-07-18 19:43:39] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:43:39] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:43:39] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:43:39] INFO fetch_market: [price_cache] Cache expired for EURUSD_4h_200, age: 1.29h >= 1h TTL. Fetching fresh data.
+[2025-07-18 19:43:40] INFO fetch_market: [price_cache] Saved price data for EURUSD_4h_200 to logs/price_cache/EURUSD_4h_200.json
+[2025-07-18 19:43:40] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:43:40] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:43:40] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:43:41] INFO fetch_market: [price_cache] Cache expired for EURUSD_1d_200, age: 1.29h >= 1h TTL. Fetching fresh data.
+[2025-07-18 19:43:43] INFO fetch_market: [price_cache] Saved price data for EURUSD_1d_200 to logs/price_cache/EURUSD_1d_200.json
+[2025-07-18 19:44:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:44:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:44:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:44:01] INFO fetch_market: [price_cache] Cache expired for EURUSD_1h_200, age: 1.29h >= 1h TTL. Fetching fresh data.
+[2025-07-18 19:44:11] ERROR fetch_market: Data is empty for EURUSD after fetch.
+[2025-07-18 19:44:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:44:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:44:11] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:44:11] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.01h < 1h TTL
+[2025-07-18 19:44:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:44:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:44:11] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:44:11] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.01h < 1h TTL
+[2025-07-18 19:45:26] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:45:26] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:45:26] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:45:26] INFO fetch_market: [price_cache] Cache expired for EURUSD_1h_200, age: 1.32h >= 1h TTL. Fetching fresh data.
+[2025-07-18 19:45:36] ERROR fetch_market: Data is empty for EURUSD after fetch.
+[2025-07-18 19:45:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:45:36] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:45:36] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:45:36] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.03h < 1h TTL
+[2025-07-18 19:45:36] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:45:36] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:45:36] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:45:36] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.03h < 1h TTL
+[2025-07-18 19:46:51] INFO fetch_market: [DEBUG] Increasing lookback from 120 to 200 for USDJPY
+[2025-07-18 19:46:51] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 19:46:51] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 19:46:58] INFO fetch_market: [price_cache] Saved price data for USDJPY_1h_200 to logs/price_cache/USDJPY_1h_200.json
+[2025-07-18 19:47:08] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:47:08] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:47:08] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:47:08] INFO fetch_market: [price_cache] Cache expired for EURUSD_1h_200, age: 1.35h >= 1h TTL. Fetching fresh data.
+[2025-07-18 19:47:12] INFO fetch_market: [price_cache] Saved price data for EURUSD_1h_200 to logs/price_cache/EURUSD_1h_200.json
+[2025-07-18 19:47:12] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:47:12] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:47:12] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:47:12] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.06h < 1h TTL
+[2025-07-18 19:47:12] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:47:12] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:47:12] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:47:12] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.06h < 1h TTL
+[2025-07-18 19:48:28] INFO fetch_market: [DEBUG] Increasing lookback from 120 to 200 for USDJPY
+[2025-07-18 19:48:28] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 19:48:28] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 19:48:28] INFO fetch_market: [price_cache] Cache hit for USDJPY_1h_200, age: 0.03h < 1h TTL
+[2025-07-18 19:48:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:48:28] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:48:28] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:48:28] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.02h < 1h TTL
+[2025-07-18 19:48:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:48:28] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:48:28] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:48:28] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.08h < 1h TTL
+[2025-07-18 19:48:28] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 19:48:28] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 19:48:28] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 19:48:28] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.08h < 1h TTL
+[2025-07-18 20:01:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:01:15] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:01:15] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:01:15] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.24h < 1h TTL
+[2025-07-18 20:01:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:01:15] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:01:15] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:01:15] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.29h < 1h TTL
+[2025-07-18 20:01:15] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:01:15] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:01:15] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:01:15] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.29h < 1h TTL
+[2025-07-18 20:01:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:01:31] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:01:31] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:01:31] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.24h < 1h TTL
+[2025-07-18 20:01:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:01:31] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:01:31] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:01:31] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.30h < 1h TTL
+[2025-07-18 20:01:31] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:01:31] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:01:31] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:01:31] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.30h < 1h TTL
+[2025-07-18 20:02:44] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:02:44] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:02:44] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:02:44] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.26h < 1h TTL
+[2025-07-18 20:02:44] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:02:44] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:02:44] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:02:44] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.32h < 1h TTL
+[2025-07-18 20:02:44] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:02:44] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:02:44] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:02:44] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.32h < 1h TTL
+[2025-07-18 20:02:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:02:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:02:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:02:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.26h < 1h TTL
+[2025-07-18 20:02:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:02:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:02:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:02:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.32h < 1h TTL
+[2025-07-18 20:02:52] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:02:52] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:02:52] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:02:52] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.32h < 1h TTL
+[2025-07-18 20:03:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.26h < 1h TTL
+[2025-07-18 20:03:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.32h < 1h TTL
+[2025-07-18 20:03:01] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:01] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:01] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:01] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.32h < 1h TTL
+[2025-07-18 20:03:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:11] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:11] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.27h < 1h TTL
+[2025-07-18 20:03:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:11] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:11] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:11] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:11] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:11] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:11] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:20] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:20] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:20] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.27h < 1h TTL
+[2025-07-18 20:03:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:20] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:20] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:20] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:20] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:20] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:20] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:20] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:25] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:25] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:25] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.27h < 1h TTL
+[2025-07-18 20:03:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:25] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:25] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:25] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:25] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:25] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:25] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:25] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:34] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:34] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:34] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:34] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.27h < 1h TTL
+[2025-07-18 20:03:34] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:34] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:34] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:34] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:34] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:34] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:34] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:34] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:43] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:43] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:43] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.28h < 1h TTL
+[2025-07-18 20:03:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:43] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:43] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:43] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.33h < 1h TTL
+[2025-07-18 20:03:43] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:03:43] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:03:43] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:03:43] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.33h < 1h TTL
+[2025-07-18 20:16:30] INFO fetch_market: [DEBUG] Increasing lookback from 120 to 200 for USDJPY
+[2025-07-18 20:16:30] INFO fetch_market: [DEBUG] Using lookback=200 for USDJPY
+[2025-07-18 20:16:30] INFO fetch_market: Fetching data for USDJPY using Yahoo symbol: USDJPY=X
+[2025-07-18 20:16:30] INFO fetch_market: [price_cache] Cache hit for USDJPY_1h_200, age: 0.49h < 1h TTL
+[2025-07-18 20:16:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:16:30] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:16:30] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:16:30] INFO fetch_market: [price_cache] Cache hit for EURUSD_1h_200, age: 0.49h < 1h TTL
+[2025-07-18 20:16:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:16:30] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:16:30] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:16:30] INFO fetch_market: [price_cache] Cache hit for EURUSD_4h_200, age: 0.55h < 1h TTL
+[2025-07-18 20:16:30] INFO fetch_market: [DEBUG] Increasing lookback from 90 to 200 for EURUSD
+[2025-07-18 20:16:30] INFO fetch_market: [DEBUG] Using lookback=200 for EURUSD
+[2025-07-18 20:16:30] INFO fetch_market: Fetching data for EURUSD using Yahoo symbol: EURUSD=X
+[2025-07-18 20:16:30] INFO fetch_market: [price_cache] Cache hit for EURUSD_1d_200, age: 0.55h < 1h TTL

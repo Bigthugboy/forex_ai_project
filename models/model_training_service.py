@@ -12,15 +12,27 @@ from sklearn.utils import resample, shuffle
 import xgboost as xgb
 import lightgbm as lgb
 from utils.logger import get_logger
+import hashlib
+from pymongo import MongoClient
+import gridfs
 
 logger = get_logger('model_training_service', log_file='logs/model_training_service.log')
 
 class ModelTrainingService:
-    def __init__(self, model_dir='models/saved_models/', min_samples=100, min_classes=2):
+    def __init__(self, model_dir='models/saved_models/', min_samples=100, min_classes=2, mongo_uri='mongodb://localhost:27017/', mongo_db='forex_ai', mongo_collection='models'):
         self.model_dir = model_dir
         self.min_samples = min_samples
         self.min_classes = min_classes
         os.makedirs(self.model_dir, exist_ok=True)
+        # MongoDB setup
+        self.mongo_uri = mongo_uri
+        self.mongo_db = mongo_db
+        self.mongo_collection = mongo_collection
+        self.mongo_client = MongoClient(self.mongo_uri)
+        self.db = self.mongo_client[self.mongo_db]
+        self.fs = gridfs.GridFS(self.db)
+        self.collection = self.db[self.mongo_collection]
+        logger.info(f"MongoDB connected: {self.mongo_uri}, db: {self.mongo_db}, collection: {self.mongo_collection}")
 
     def prepare_target(self, df, close_col=None, threshold=0.001, horizon=5):
         """
@@ -67,8 +79,76 @@ class ModelTrainingService:
                     return X_bal, y_bal
         return X, y
 
-    def train(self, df, pair, required_features=None, save=True):
+    def get_model_version(self, pair, config_hash=None):
+        """Compute a version hash based on model code and config."""
+        # Use the hash of this file and config hash
+        code_path = os.path.abspath(__file__)
+        with open(code_path, 'rb') as f:
+            code_bytes = f.read()
+        code_hash = hashlib.md5(code_bytes).hexdigest()
+        version_str = code_hash
+        if config_hash:
+            version_str += str(config_hash)
+        return hashlib.md5(version_str.encode()).hexdigest()
+
+    def save_version(self, pair, version):
+        version_path = os.path.join(self.model_dir, f'signal_model_{pair}_version.txt')
+        with open(version_path, 'w') as f:
+            f.write(version)
+        logger.info(f"Saved model version for {pair}: {version}")
+
+    def load_version(self, pair):
+        version_path = os.path.join(self.model_dir, f'signal_model_{pair}_version.txt')
+        if not os.path.exists(version_path):
+            return None
+        with open(version_path, 'r') as f:
+            return f.read().strip()
+
+    def save_to_mongo(self, pair, model, scaler, feature_cols, version, accuracy):
+        import pickle
+        # Remove old entry for this pair/version
+        self.collection.delete_many({'pair': pair, 'version': version})
+        # Save model and scaler as binary
+        model_bin = pickle.dumps(model)
+        scaler_bin = pickle.dumps(scaler)
+        model_id = self.fs.put(model_bin, filename=f'{pair}_model_{version}')
+        scaler_id = self.fs.put(scaler_bin, filename=f'{pair}_scaler_{version}')
+        doc = {
+            'pair': pair,
+            'version': version,
+            'feature_cols': feature_cols,
+            'accuracy': accuracy,
+            'model_id': model_id,
+            'scaler_id': scaler_id,
+            'timestamp': pd.Timestamp.now().isoformat()
+        }
+        self.collection.insert_one(doc)
+        logger.info(f"Model for {pair} (version {version}) saved to MongoDB.")
+
+    def load_from_mongo(self, pair, version):
+        import pickle
+        doc = self.collection.find_one({'pair': pair, 'version': version})
+        if not doc:
+            logger.warning(f"No model found in MongoDB for {pair} version {version}")
+            return None, None, None
+        model_bin = self.fs.get(doc['model_id']).read()
+        scaler_bin = self.fs.get(doc['scaler_id']).read()
+        model = pickle.loads(model_bin)
+        scaler = pickle.loads(scaler_bin)
+        feature_cols = doc['feature_cols']
+        logger.info(f"Model for {pair} (version {version}) loaded from MongoDB.")
+        return model, scaler, feature_cols
+
+    def train(self, df, pair, required_features=None, save=True, config_hash=None, force_retrain=False):
         logger.info(f"Starting training for {pair}...")
+        current_version = self.get_model_version(pair, config_hash)
+        saved_version = self.load_version(pair)
+        # Try to load from Mongo first
+        if not force_retrain and saved_version == current_version:
+            logger.info(f"Model for {pair} is up to date (version: {current_version}). Loading from MongoDB.")
+            model, scaler, feature_cols = self.load_from_mongo(pair, current_version)
+            if model and scaler and feature_cols:
+                return {'model': model, 'scaler': scaler, 'feature_cols': feature_cols, 'accuracy': None}
         df = self.prepare_target(df)
         if 'target' not in df.columns:
             logger.error('Target column missing after prepare_target')
@@ -114,7 +194,10 @@ class ModelTrainingService:
             joblib.dump(scaler, scaler_path)
             with open(features_path, 'w') as f:
                 json.dump(feature_cols, f)
-            logger.info(f"Model, scaler, and features saved for {pair}")
+            self.save_version(pair, current_version)
+            logger.info(f"Model, scaler, features, and version saved for {pair}")
+            # Save to MongoDB
+            self.save_to_mongo(pair, calibrated, scaler, feature_cols, current_version, accuracy)
         return {
             'model': calibrated,
             'scaler': scaler,
@@ -134,3 +217,31 @@ class ModelTrainingService:
         with open(features_path, 'r') as f:
             feature_cols = json.load(f)
         return model, scaler, feature_cols 
+
+# --- Unit test stub for MongoDB model persistence ---
+def test_mongo_model_persistence():
+    mts = ModelTrainingService()
+    import numpy as np
+    import pandas as pd
+    # Dummy data with all required features
+    feature_cols = [
+        'Close', 'Open', 'High', 'Low', 'Volume',
+        'supply_zone', 'demand_zone', 'wyckoff_markdown', 'wyckoff_markup', 'wyckoff_unknown',
+        'wyckoff_accumulation', 'wyckoff_distribution',
+        'head_shoulders', 'inv_head_shoulders', 'double_top', 'double_bottom',
+        'rising_wedge', 'falling_wedge', 'fakeout_up', 'fakeout_down',
+        'sma_20_4h', 'sma_50_4h', 'ema_12_4h', 'ema_26_4h', 'rsi_14_4h',
+        'macd_4h', 'macd_signal_4h', 'bb_high_4h', 'bb_low_4h', 'atr_14_4h', 'volatility_20_4h',
+        'price_vs_sma20_4h', 'price_vs_sma50_4h', 'trend_strength_4h',
+        'atr_14', 'volatility_20'
+    ]
+    n = 120
+    data = {col: np.random.rand(n) for col in feature_cols}
+    df = pd.DataFrame(data)
+    df['target'] = np.random.randint(0, 2, size=n)
+    pair = 'TESTPAIR'
+    mts.train(df, pair, save=True, force_retrain=True)
+    version = mts.get_model_version(pair)
+    model, scaler, feature_cols = mts.load_from_mongo(pair, version)
+    assert model is not None and scaler is not None and feature_cols is not None
+    print("MongoDB model persistence test passed.") 

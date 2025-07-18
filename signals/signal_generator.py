@@ -7,7 +7,11 @@ from utils.logger import get_logger
 import json
 from data.fetch_news import fetch_economic_calendar
 import dateutil.parser
+from utils.analytics_logger import AnalyticsLogger
 logger = get_logger('signal_generator', log_file='logs/signal_generator.log')
+
+# Instantiate analytics logger (singleton)
+analytics_logger = AnalyticsLogger()
 
 def classify_trade_type(latest_close, latest_high, latest_low, prediction):
     logger.info('Classifying trade type...')
@@ -187,20 +191,11 @@ def generate_signal_output(pair, features_df, prediction_result):
     logger.info(f"Market regime for {pair} at {latest_time}: {market_regime}")
     logger.info(f"Analyzing {pair} at {latest_time}: RSI={rsi_str}, MACD={macd_str}, MACD_signal={macd_signal_str}, News sentiment={news_sentiment}")
 
-    # --- Higher timeframe structure enforcement ---
-    structure_4h = latest.get('structure_trend_4h', None)
-    structure_1d = latest.get('structure_trend_1d', None)
-    if structure_4h in ('uptrend', 'downtrend') or structure_1d in ('uptrend', 'downtrend'):
-        higher_tf_trend = structure_4h if structure_4h in ('uptrend', 'downtrend') else structure_1d
-        if higher_tf_trend == 'uptrend' and prediction == 0:
-            logger.info(f"[FILTERED] {pair} @ {latest_time} | Signal is SHORT but higher timeframe ({'4h' if structure_4h else '1d'}) is UPTREND. Blocked by professional rule.")
-            return None
-        if higher_tf_trend == 'downtrend' and prediction == 1:
-            logger.info(f"[FILTERED] {pair} @ {latest_time} | Signal is LONG but higher timeframe ({'4h' if structure_4h else '1d'}) is DOWNTREND. Blocked by professional rule.")
-            return None
-
     # --- Blended Professional Confluence Logic ---
     factors = {}
+    proximity_log = {}
+    pattern_strengths = {}
+    detected_patterns = []
     direction = 'bullish' if prediction == 1 else 'bearish'
     # 1. Structure (higher timeframe)
     structure_4h = latest.get('structure_trend_4h', None)
@@ -220,7 +215,6 @@ def generate_signal_output(pair, features_df, prediction_result):
         'breakout_high', 'breakout_low', 'dist_to_high', 'dist_to_low', 'support', 'resistance'
     ]
     at_key_level = False
-    proximity_log = {}
     atr_val = None
     # Try to get ATR for proximity checks
     for col in features_df.columns:
@@ -234,13 +228,11 @@ def generate_signal_output(pair, features_df, prediction_result):
             if key_col in ['supply_zone', 'demand_zone', 'breakout_high', 'breakout_low', 'support', 'resistance']:
                 if key_val == 1:
                     at_key_level = True
-                    factors['key_level'] = 'yes'
+                    factors['key_level'] = 1  # Always binary
                     proximity_log[key_col] = 'direct hit'
                     break
             # Proximity logic for fibs, dist, support, resistance, supply, demand
-            # Get reference price for proximity (support/resistance/fib value)
             if key_col.startswith('fib') or key_col in ['support', 'resistance', 'supply_zone', 'demand_zone']:
-                # Assume value is the level, compare to latest_close
                 level_val = key_val
                 price = latest_close
                 # Get thresholds
@@ -256,17 +248,16 @@ def generate_signal_output(pair, features_df, prediction_result):
                 atr_dist = abs(price - level_val) / atr_val if atr_val else 0
                 if percent_dist <= thresholds['percent'] or atr_dist <= thresholds['atr']:
                     at_key_level = True
-                    factors['key_level'] = 'yes'
+                    factors['key_level'] = 1  # Always binary
                     proximity_log[key_col] = f"within {percent_dist:.3f}% and {atr_dist:.3f} ATR"
                     break
                 else:
                     proximity_log[key_col] = f"{percent_dist:.3f}% / {atr_dist:.3f} ATR away"
     if not at_key_level:
-        factors['key_level'] = 'no'
+        factors['key_level'] = 0
     logger.info(f"[KEY LEVEL PROXIMITY] {pair} @ {latest_time} | Proximity details: {proximity_log}")
     # 3. Pattern (quantified strength)
     from features.patterns import bullish_engulfing_strength, pin_bar_strength
-    pattern_strengths = {}
     # Bullish engulfing
     if 'bullish_engulfing' in features_df.columns:
         be_strength = bullish_engulfing_strength(features_df).iloc[-1]
@@ -315,9 +306,10 @@ def generate_signal_output(pair, features_df, prediction_result):
     rsi_cols = [c for c in features_df.columns if 'rsi' in c.lower() and all(x not in c.lower() for x in ['_4h', '_1d', 'daily', 'week', 'month'])]
     for rsi_col in rsi_cols:
         rsi_val = latest[rsi_col]
-        if direction == 'bullish' and rsi_val < 35:
+        # Adjusted thresholds: <30 for bullish, >70 for bearish
+        if direction == 'bullish' and rsi_val < 30:
             factors['rsi'] = 'bullish'
-        if direction == 'bearish' and rsi_val > 65:
+        if direction == 'bearish' and rsi_val > 70:
             factors['rsi'] = 'bearish'
     # 5. MACD
     macd_cols = [c for c in features_df.columns if 'macd' in c.lower() and 'signal' not in c.lower() and all(x not in c.lower() for x in ['_4h', '_1d', 'daily', 'week', 'month'])]
@@ -347,22 +339,37 @@ def generate_signal_output(pair, features_df, prediction_result):
     # 8. News
     news_sentiment = latest.get('news_sentiment', None)
     if news_sentiment is not None:
+        # Threshold remains >0.2 for bullish, <-0.2 for bearish
         if direction == 'bullish' and news_sentiment > 0.2:
             factors['news'] = 'bullish'
         if direction == 'bearish' and news_sentiment < -0.2:
             factors['news'] = 'bearish'
     # --- Count confluence (dynamic weighting, with pattern adjustment) ---
-    factor_weights = getattr(Config, 'FACTOR_WEIGHTS', {})
     weighted_votes = 0.0
+    factor_weights = Config.FACTOR_WEIGHTS
+    pattern_weight = 1.0
     contributing_factors = []
     for k, v in factors.items():
-        if (v == direction or (k == 'key_level' and v == 'yes') or (k == 'atr' and v == 'normal')):
+        if (v == direction or (k == 'key_level' and v == 1) or (k == 'atr' and v == 'normal')):
             weight = pattern_weight if k == 'pattern' else factor_weights.get(k, 1.0)
             weighted_votes += weight
             contributing_factors.append(k)
-    logger.info(f"[CONFLUENCE] {pair} @ {latest_time} | Factors: {factors} | Weighted votes for {direction}: {weighted_votes}")
+    # --- Tiered Filtering Logic ---
+    num_factors = len(contributing_factors)
+    if num_factors >= 4:
+        if confidence < 0.70:
+            logger.info(f"[FILTERED] {pair} @ {latest_time} | 4+ factors but confidence {confidence:.2f} < 0.70. No signal generated. Factors: {factors}")
+            return None
+        # else: allow
+    elif num_factors == 3:
+        if confidence < 0.80:
+            logger.info(f"[FILTERED] {pair} @ {latest_time} | Only 3 factors and confidence {confidence:.2f} < 0.80. No signal generated. Factors: {factors}")
+            return None
+    else:
+        logger.info(f"[FILTERED] {pair} @ {latest_time} | Only {num_factors} factors. No signal generated. Factors: {factors}")
+        return None
     # --- Signal rules (dynamic threshold) ---
-    threshold = 4.0 if at_key_level else 5.0
+    threshold = 3.0 if at_key_level else 4.0
     if weighted_votes >= threshold:
         logger.info(f"[SIGNAL] {pair} @ {latest_time} | {weighted_votes} weighted factors align. Signal allowed.")
     else:
@@ -387,6 +394,26 @@ def generate_signal_output(pair, features_df, prediction_result):
     logger.info(f"Dynamic position size: entry={entry}, sl={sl}, risk_per_trade={Config.RISK_PER_TRADE}, min_lot={Config.MIN_LOT_SIZE}, max_lot={Config.MAX_LOT_SIZE}, position_size={position_size}")
     # ---
     logger.info(f"Signal generated for {pair} at {latest_time}: {prediction_result['signal']} {trade_type} Confidence: {confidence:.2f}")
+    # --- After all signal logic, before returning the signal ---
+    # Compose analytics log context
+    analytics_context = {
+        'pair': pair,
+        'trend': market_regime,
+        'key_levels': proximity_log,
+        'patterns': list(pattern_strengths.keys()) if pattern_strengths else detected_patterns if 'detected_patterns' in locals() else [],
+        'indicators': {
+            'rsi': rsi_str,
+            'macd': macd_str,
+            'macd_signal': macd_signal_str,
+            'news_sentiment': news_sentiment
+        },
+        'confluence': factors,
+        'model_action': f"Studying chart: trend={market_regime}, key_levels={proximity_log}, patterns={pattern_strengths if pattern_strengths else detected_patterns if 'detected_patterns' in locals() else []}",
+        'decision': 'BUY' if prediction == 1 else 'SELL',
+        'confidence': confidence,
+        'reason': f"Confluence: {factors}, Pattern strengths: {pattern_strengths if pattern_strengths else detected_patterns if 'detected_patterns' in locals() else []}"
+    }
+    analytics_logger.log_signal(**analytics_context)
     return {
         'pair': pair,
         'trade_type': trade_type,
