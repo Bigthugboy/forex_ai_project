@@ -101,21 +101,10 @@ def train_signal_model(features_df, pair, model_dir='models/saved_models/', top_
         if col not in df.columns:
             df[col] = 0
 
-    # Use the same exclusion logic as in predict_signal
+    # --- Select features: use all columns except target, future_return, and OHLCV columns ---
     exclude_cols = [col for col in df.columns if col.startswith(('Close', 'Open', 'High', 'Low', 'Volume'))] + ['future_return', 'target']
-    # --- Always use the full required feature set for all pairs ---
-    ALL_REQUIRED_FEATURES = [
-        "supply_zone", "demand_zone", "wyckoff_markdown", "wyckoff_markup", "wyckoff_unknown",
-        "wyckoff_accumulation", "wyckoff_distribution",
-        "head_shoulders", "inv_head_shoulders", "double_top", "double_bottom",
-        "rising_wedge", "falling_wedge", "fakeout_up", "fakeout_down",
-        "sma_20_4h", "sma_50_4h", "ema_12_4h", "ema_26_4h", "rsi_14_4h",
-        "macd_4h", "macd_signal_4h", "bb_high_4h", "bb_low_4h", "atr_14_4h", "volatility_20_4h",
-        "price_vs_sma20_4h", "price_vs_sma50_4h", "trend_strength_4h",
-        "atr_14", "volatility_20"
-    ]
-    feature_cols = [col for col in ALL_REQUIRED_FEATURES if col in df.columns]
-    logger.info(f"Final feature columns used for training: {feature_cols}")
+    feature_cols = [col for col in df.columns if col not in exclude_cols]
+    logger.info(f"[DEBUG] Final feature columns used for training: {feature_cols}")
     
     # Assign X before any use
     X = df[feature_cols]
@@ -247,7 +236,16 @@ def train_signal_model(features_df, pair, model_dir='models/saved_models/', top_
     logger.info('Feature distributions before training:')
     for col in feature_cols:
         col_data = df[col]
-        logger.info(f"{col}: mean={col_data.mean():.4f}, std={col_data.std():.4f}, min={col_data.min():.4f}, max={col_data.max():.4f}, unique={col_data.nunique()}")
+        # Check if col_data is a Series (single column) or DataFrame (multiple columns)
+        if isinstance(col_data, pd.Series):
+            # Check if column is numeric before trying to format as float
+            if pd.api.types.is_numeric_dtype(col_data):
+                logger.info(f"{col}: mean={col_data.mean():.4f}, std={col_data.std():.4f}, min={col_data.min():.4f}, max={col_data.max():.4f}, unique={col_data.nunique()}")
+            else:
+                logger.info(f"{col}: dtype={col_data.dtype}, unique={col_data.nunique()}, sample_values={col_data.value_counts().head(3).to_dict()}")
+        else:
+            # Handle case where col_data is a DataFrame (multiple columns with same name)
+            logger.info(f"{col}: DataFrame with {len(col_data.columns)} columns, shape={col_data.shape}")
     
     # Audit data quality before training
     logger.info('Auditing data quality before training...')

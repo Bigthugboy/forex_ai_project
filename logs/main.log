@@ -8018,3 +8018,17 @@ Datetime                                                                        
 [2025-07-18 18:18:54] INFO main: Today is Friday. Skipping trading due to market closure (live mode).
 [2025-07-18 19:42:34] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
 [2025-07-18 20:01:01] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 20:20:49] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 20:21:25] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 20:23:52] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 20:52:12] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 21:11:48] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 21:12:04] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 21:14:52] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 21:32:06] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 21:35:33] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 21:45:01] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-18 21:45:36] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-19 00:19:58] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-19 15:03:24] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).
+[2025-07-19 15:15:16] INFO main: Market closed for forex pairs (Fri-Sun). No pair specified, defaulting to BTCUSD (always active).

@@ -2489,3 +2489,2251 @@ Datetime                              ...
 [5 rows x 91 columns]
 
 [2025-07-18 20:03:46] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:20:49] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 20:21:03] INFO signal_pipeline: Fetched 4724 rows of price data for EURUSD
+[2025-07-18 20:21:03] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:21:14] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 20:21:14] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:21:17] INFO signal_pipeline: Feature DataFrame shape: (4724, 92)
+[2025-07-18 20:21:17] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 15:00:00+00:00  1.164687  ...                  False
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162250  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:21:17] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:21:17] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-18 20:21:17] INFO signal_pipeline: Fetching price data for GBPUSD...
+[2025-07-18 20:21:25] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 20:21:34] INFO signal_pipeline: Fetched 4724 rows of price data for EURUSD
+[2025-07-18 20:21:34] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:21:49] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 20:21:49] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:21:52] INFO signal_pipeline: Feature DataFrame shape: (4724, 92)
+[2025-07-18 20:21:52] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 15:00:00+00:00  1.164687  ...                  False
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162250  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:21:52] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:21:52] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-18 20:21:52] INFO signal_pipeline: Fetching price data for GBPUSD...
+[2025-07-18 20:22:00] INFO signal_pipeline: Fetched 4724 rows of price data for GBPUSD
+[2025-07-18 20:22:00] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:22:06] INFO signal_pipeline: News sentiment score: 0.0485
+[2025-07-18 20:22:06] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:22:09] INFO signal_pipeline: Feature DataFrame shape: (4724, 92)
+[2025-07-18 20:22:09] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 15:00:00+00:00  1.343743  ...                  False
+2025-07-18 16:00:00+00:00  1.341940  ...                  False
+2025-07-18 17:00:00+00:00  1.342030  ...                  False
+2025-07-18 18:00:00+00:00  1.341724  ...                  False
+2025-07-18 19:00:00+00:00  1.341076  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:22:09] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:22:09] ERROR signal_pipeline: Prediction failed for GBPUSD. Skipping signal generation.
+[2025-07-18 20:22:09] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 20:22:18] INFO signal_pipeline: Fetched 4701 rows of price data for USDJPY
+[2025-07-18 20:22:18] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:23:52] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 20:24:00] INFO signal_pipeline: Fetched 4724 rows of price data for EURUSD
+[2025-07-18 20:24:00] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:24:06] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 20:24:06] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:24:09] INFO signal_pipeline: Feature DataFrame shape: (4724, 92)
+[2025-07-18 20:24:09] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 15:00:00+00:00  1.164687  ...                  False
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162250  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:24:09] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:24:09] ERROR signal_pipeline: Error in signal pipeline for EURUSD: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 104, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+[2025-07-18 20:24:09] INFO signal_pipeline: Fetching price data for GBPUSD...
+[2025-07-18 20:24:19] WARNING signal_pipeline: No price data for GBPUSD.
+[2025-07-18 20:24:19] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 20:24:25] INFO signal_pipeline: Fetched 4701 rows of price data for USDJPY
+[2025-07-18 20:24:25] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:24:33] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:24:33] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:24:36] INFO signal_pipeline: Feature DataFrame shape: (4701, 91)
+[2025-07-18 20:24:36] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 15:00:00+00:00  148.548996  ...                  False
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.761993  ...                  False
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:24:36] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:24:36] ERROR signal_pipeline: Error in signal pipeline for USDJPY: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 104, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+[2025-07-18 20:24:36] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-18 20:24:44] INFO signal_pipeline: Fetched 4701 rows of price data for USDCHF
+[2025-07-18 20:24:44] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:24:55] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:24:55] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:24:58] INFO signal_pipeline: Feature DataFrame shape: (4701, 92)
+[2025-07-18 20:24:58] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 15:00:00+00:00  0.80013  ...                  False
+2025-07-18 16:00:00+00:00  0.80075  ...                  False
+2025-07-18 17:00:00+00:00  0.80123  ...                  False
+2025-07-18 18:00:00+00:00  0.80167  ...                  False
+2025-07-18 19:00:00+00:00  0.80176  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:24:58] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:25:03] INFO signal_pipeline: Fetching price data for AUDUSD...
+[2025-07-18 20:25:08] INFO signal_pipeline: Fetched 4758 rows of price data for AUDUSD
+[2025-07-18 20:25:08] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:25:17] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:25:17] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:25:20] INFO signal_pipeline: Feature DataFrame shape: (4758, 92)
+[2025-07-18 20:25:20] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 15:00:00+00:00  0.652784  ...                  False
+2025-07-18 16:00:00+00:00  0.651423  ...                  False
+2025-07-18 17:00:00+00:00  0.651228  ...                  False
+2025-07-18 18:00:00+00:00  0.650940  ...                  False
+2025-07-18 19:00:00+00:00  0.650948  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:25:20] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:25:25] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-18 20:25:34] INFO signal_pipeline: Fetched 4758 rows of price data for NZDUSD
+[2025-07-18 20:25:34] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:25:43] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:25:43] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:25:46] INFO signal_pipeline: Feature DataFrame shape: (4758, 92)
+[2025-07-18 20:25:46] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 15:00:00+00:00  0.597764  ...                   True
+2025-07-18 16:00:00+00:00  0.596766  ...                   True
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:25:46] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:25:51] INFO signal_pipeline: Fetching price data for USDCAD...
+[2025-07-18 20:25:55] INFO signal_pipeline: Fetched 4755 rows of price data for USDCAD
+[2025-07-18 20:25:55] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:26:05] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:26:05] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:26:08] INFO signal_pipeline: Feature DataFrame shape: (4755, 92)
+[2025-07-18 20:26:08] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 15:00:00+00:00  1.37125  ...                  False
+2025-07-18 16:00:00+00:00  1.37252  ...                  False
+2025-07-18 17:00:00+00:00  1.37258  ...                  False
+2025-07-18 18:00:00+00:00  1.37259  ...                  False
+2025-07-18 19:00:00+00:00  1.37296  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:26:08] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:26:12] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-18 20:26:17] INFO signal_pipeline: Fetched 4726 rows of price data for EURJPY
+[2025-07-18 20:26:17] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:26:24] INFO signal_pipeline: News sentiment score: 0.0560
+[2025-07-18 20:26:24] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:26:27] INFO signal_pipeline: Feature DataFrame shape: (4726, 91)
+[2025-07-18 20:26:27] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 15:00:00+00:00  172.996002  ...                  False
+2025-07-18 16:00:00+00:00  172.912003  ...                  False
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.852997  ...                  False
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:26:27] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:26:28] INFO signal_pipeline: Fetching price data for GBPJPY...
+[2025-07-18 20:26:33] INFO signal_pipeline: Fetched 4726 rows of price data for GBPJPY
+[2025-07-18 20:26:33] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:26:39] INFO signal_pipeline: News sentiment score: 0.0536
+[2025-07-18 20:26:39] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:26:42] INFO signal_pipeline: Feature DataFrame shape: (4726, 91)
+[2025-07-18 20:26:42] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 15:00:00+00:00  199.615005  ...                   True
+2025-07-18 16:00:00+00:00  199.516998  ...                   True
+2025-07-18 17:00:00+00:00  199.557007  ...                  False
+2025-07-18 18:00:00+00:00  199.600006  ...                  False
+2025-07-18 19:00:00+00:00  199.516006  ...                  False
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:26:42] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:26:48] INFO signal_pipeline: Fetching price data for AUDJPY...
+[2025-07-18 20:26:52] INFO signal_pipeline: Fetched 4729 rows of price data for AUDJPY
+[2025-07-18 20:26:52] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:26:58] INFO signal_pipeline: News sentiment score: 0.0293
+[2025-07-18 20:26:58] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:27:01] INFO signal_pipeline: Feature DataFrame shape: (4729, 91)
+[2025-07-18 20:27:01] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 15:00:00+00:00  96.944000  ...                   True
+2025-07-18 16:00:00+00:00  96.828003  ...                  False
+2025-07-18 17:00:00+00:00  96.808998  ...                  False
+2025-07-18 18:00:00+00:00  96.791000  ...                  False
+2025-07-18 19:00:00+00:00  96.788002  ...                  False
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:27:01] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:27:07] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-18 20:27:11] INFO signal_pipeline: Fetched 4728 rows of price data for NZDJPY
+[2025-07-18 20:27:11] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:27:18] INFO signal_pipeline: News sentiment score: 0.0351
+[2025-07-18 20:27:18] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:27:20] INFO signal_pipeline: Feature DataFrame shape: (4728, 91)
+[2025-07-18 20:27:20] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 15:00:00+00:00  88.777000  ...                   True
+2025-07-18 16:00:00+00:00  88.704002  ...                   True
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.681000  ...                   True
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:27:20] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:52:12] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 20:52:15] INFO signal_pipeline: Fetched 4724 rows of price data for EURUSD
+[2025-07-18 20:52:15] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:52:19] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 20:52:19] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:52:24] INFO signal_pipeline: Feature DataFrame shape: (4724, 92)
+[2025-07-18 20:52:24] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open      High       Low  ...  market_regime_downtrend  market_regime_range  market_regime_uptrend
+Datetime                                                 ...                                                                     
+2025-07-18 15:00:00+00:00  1.164687  1.166045  1.164687  ...                    False                 True                  False
+2025-07-18 16:00:00+00:00  1.163196  1.165094  1.163061  ...                    False                 True                  False
+2025-07-18 17:00:00+00:00  1.163061  1.163332  1.162250  ...                    False                 True                  False
+2025-07-18 18:00:00+00:00  1.162656  1.163061  1.162250  ...                    False                 True                  False
+2025-07-18 19:00:00+00:00  1.162250  1.162520  1.161980  ...                    False                 True                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:52:24] ERROR signal_pipeline: Error in signal pipeline for EURUSD: could not convert string to float: 'neutral'
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 78, in run
+    train_result = model_trainer.train(df, pair)
+  File "/Users/admin/forex_ai_project/models/model_training_service.py", line 168, in train
+    X_train_scaled = scaler.fit_transform(X_train)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 892, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/base.py", line 1363, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 971, in check_array
+    array = array.astype(new_dtype)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 6662, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/internals/blocks.py", line 784, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/dtypes/astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/pandas/core/dtypes/astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+ValueError: could not convert string to float: 'neutral'
+[2025-07-18 20:52:24] INFO signal_pipeline: Fetching price data for GBPUSD...
+[2025-07-18 20:52:25] INFO signal_pipeline: Fetched 4724 rows of price data for GBPUSD
+[2025-07-18 20:52:25] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:52:28] INFO signal_pipeline: News sentiment score: 0.0485
+[2025-07-18 20:52:28] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:52:31] INFO signal_pipeline: Feature DataFrame shape: (4724, 92)
+[2025-07-18 20:52:31] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open      High       Low  ...  market_regime_downtrend  market_regime_range  market_regime_uptrend
+Datetime                                                 ...                                                                     
+2025-07-18 15:00:00+00:00  1.343743  1.344827  1.343544  ...                    False                 True                  False
+2025-07-18 16:00:00+00:00  1.341940  1.343815  1.341832  ...                    False                 True                  False
+2025-07-18 17:00:00+00:00  1.342030  1.342084  1.341238  ...                    False                 True                  False
+2025-07-18 18:00:00+00:00  1.341724  1.342210  1.341508  ...                    False                 True                  False
+2025-07-18 19:00:00+00:00  1.341472  1.341814  1.340968  ...                    False                 True                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:52:31] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:52:31] ERROR signal_pipeline: Prediction failed for GBPUSD. Skipping signal generation.
+[2025-07-18 20:52:31] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 20:52:32] INFO signal_pipeline: Fetched 4701 rows of price data for USDJPY
+[2025-07-18 20:52:32] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:52:34] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:52:34] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:52:36] INFO signal_pipeline: Feature DataFrame shape: (4701, 91)
+[2025-07-18 20:52:36] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open        High         Low  ...  market_regime_downtrend  market_regime_range  market_regime_uptrend
+Datetime                                                       ...                                                                     
+2025-07-18 15:00:00+00:00  148.548996  148.563004  148.358002  ...                    False                False                  False
+2025-07-18 16:00:00+00:00  148.686996  148.731995  148.507996  ...                    False                False                  False
+2025-07-18 17:00:00+00:00  148.714005  148.794006  148.649994  ...                    False                False                  False
+2025-07-18 18:00:00+00:00  148.764008  148.785004  148.695999  ...                    False                False                  False
+2025-07-18 19:00:00+00:00  148.774002  148.807999  148.740005  ...                    False                False                  False
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:52:36] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:52:36] ERROR signal_pipeline: Error in signal pipeline for USDJPY: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 104, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+[2025-07-18 20:52:36] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-18 20:52:38] INFO signal_pipeline: Fetched 4701 rows of price data for USDCHF
+[2025-07-18 20:52:38] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:52:41] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:52:41] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:52:43] INFO signal_pipeline: Feature DataFrame shape: (4701, 92)
+[2025-07-18 20:52:43] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open     High      Low  ...  market_regime_downtrend  market_regime_range  market_regime_uptrend
+Datetime                                              ...                                                                     
+2025-07-18 15:00:00+00:00  0.80013  0.80020  0.79920  ...                    False                 True                  False
+2025-07-18 16:00:00+00:00  0.80075  0.80103  0.79979  ...                    False                 True                  False
+2025-07-18 17:00:00+00:00  0.80123  0.80156  0.80066  ...                    False                 True                  False
+2025-07-18 18:00:00+00:00  0.80167  0.80169  0.80105  ...                    False                 True                  False
+2025-07-18 19:00:00+00:00  0.80178  0.80196  0.80160  ...                    False                 True                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:52:43] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:52:46] INFO signal_pipeline: Fetching price data for AUDUSD...
+[2025-07-18 20:52:47] INFO signal_pipeline: Fetched 4758 rows of price data for AUDUSD
+[2025-07-18 20:52:47] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:52:50] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:52:50] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:52:52] INFO signal_pipeline: Feature DataFrame shape: (4758, 92)
+[2025-07-18 20:52:53] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 15:00:00+00:00  0.652784  ...                  False
+2025-07-18 16:00:00+00:00  0.651423  ...                  False
+2025-07-18 17:00:00+00:00  0.651228  ...                  False
+2025-07-18 18:00:00+00:00  0.650940  ...                  False
+2025-07-18 19:00:00+00:00  0.650940  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:52:53] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:52:54] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-18 20:52:56] INFO signal_pipeline: Fetched 4758 rows of price data for NZDUSD
+[2025-07-18 20:52:56] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:52:58] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:52:58] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:53:01] INFO signal_pipeline: Feature DataFrame shape: (4758, 92)
+[2025-07-18 20:53:01] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 15:00:00+00:00  0.597764  ...                   True
+2025-07-18 16:00:00+00:00  0.596766  ...                   True
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596267  ...                   True
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:53:01] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:53:03] INFO signal_pipeline: Fetching price data for USDCAD...
+[2025-07-18 20:53:05] INFO signal_pipeline: Fetched 4755 rows of price data for USDCAD
+[2025-07-18 20:53:05] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:53:07] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 20:53:07] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:53:10] INFO signal_pipeline: Feature DataFrame shape: (4755, 92)
+[2025-07-18 20:53:10] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 15:00:00+00:00  1.37125  ...                  False
+2025-07-18 16:00:00+00:00  1.37252  ...                  False
+2025-07-18 17:00:00+00:00  1.37258  ...                  False
+2025-07-18 18:00:00+00:00  1.37259  ...                  False
+2025-07-18 19:00:00+00:00  1.37279  ...                  False
+
+[5 rows x 92 columns]
+
+[2025-07-18 20:53:10] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:53:12] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-18 20:53:13] INFO signal_pipeline: Fetched 4726 rows of price data for EURJPY
+[2025-07-18 20:53:13] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:53:16] INFO signal_pipeline: News sentiment score: 0.0560
+[2025-07-18 20:53:16] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:53:18] INFO signal_pipeline: Feature DataFrame shape: (4726, 91)
+[2025-07-18 20:53:18] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 15:00:00+00:00  172.996002  ...                  False
+2025-07-18 16:00:00+00:00  172.912003  ...                  False
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.897995  ...                  False
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:53:18] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:53:18] INFO signal_pipeline: Fetching price data for GBPJPY...
+[2025-07-18 20:53:19] INFO signal_pipeline: Fetched 4726 rows of price data for GBPJPY
+[2025-07-18 20:53:19] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:53:22] INFO signal_pipeline: News sentiment score: 0.0536
+[2025-07-18 20:53:22] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:53:24] INFO signal_pipeline: Feature DataFrame shape: (4726, 91)
+[2025-07-18 20:53:24] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 15:00:00+00:00  199.615005  ...                   True
+2025-07-18 16:00:00+00:00  199.516998  ...                   True
+2025-07-18 17:00:00+00:00  199.557007  ...                  False
+2025-07-18 18:00:00+00:00  199.600006  ...                  False
+2025-07-18 19:00:00+00:00  199.572998  ...                  False
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:53:24] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:53:26] INFO signal_pipeline: Fetching price data for AUDJPY...
+[2025-07-18 20:53:27] INFO signal_pipeline: Fetched 4729 rows of price data for AUDJPY
+[2025-07-18 20:53:27] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:53:29] INFO signal_pipeline: News sentiment score: 0.0293
+[2025-07-18 20:53:29] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:53:32] INFO signal_pipeline: Feature DataFrame shape: (4729, 91)
+[2025-07-18 20:53:32] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 15:00:00+00:00  96.944000  ...                   True
+2025-07-18 16:00:00+00:00  96.828003  ...                  False
+2025-07-18 17:00:00+00:00  96.808998  ...                  False
+2025-07-18 18:00:00+00:00  96.791000  ...                  False
+2025-07-18 19:00:00+00:00  96.797997  ...                  False
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:53:32] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 20:53:34] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-18 20:53:34] INFO signal_pipeline: Fetched 4728 rows of price data for NZDJPY
+[2025-07-18 20:53:34] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 20:53:37] INFO signal_pipeline: News sentiment score: 0.0351
+[2025-07-18 20:53:37] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 20:53:39] INFO signal_pipeline: Feature DataFrame shape: (4728, 91)
+[2025-07-18 20:53:39] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 15:00:00+00:00  88.777000  ...                   True
+2025-07-18 16:00:00+00:00  88.704002  ...                   True
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.684998  ...                   True
+
+[5 rows x 91 columns]
+
+[2025-07-18 20:53:39] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:11:48] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 21:11:50] INFO signal_pipeline: Fetched 4725 rows of price data for EURUSD
+[2025-07-18 21:11:50] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:11:53] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 21:11:53] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:11:56] INFO signal_pipeline: Feature DataFrame shape: (4725, 94)
+[2025-07-18 21:11:56] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162926  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:11:57] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:12:04] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 21:12:06] INFO signal_pipeline: Fetched 4725 rows of price data for EURUSD
+[2025-07-18 21:12:06] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:12:08] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 21:12:08] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:12:11] INFO signal_pipeline: Feature DataFrame shape: (4725, 94)
+[2025-07-18 21:12:11] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162926  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:12:11] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:12:13] ERROR signal_pipeline: Error in signal pipeline for EURUSD: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 113, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+
+[2025-07-18 21:12:13] INFO signal_pipeline: Fetching price data for GBPUSD...
+[2025-07-18 21:12:15] INFO signal_pipeline: Fetched 4725 rows of price data for GBPUSD
+[2025-07-18 21:12:15] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:12:17] INFO signal_pipeline: News sentiment score: 0.0485
+[2025-07-18 21:12:17] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:12:20] INFO signal_pipeline: Feature DataFrame shape: (4725, 94)
+[2025-07-18 21:12:20] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open      High       Low  ...  market_regime_downtrend  market_regime_range  market_regime_uptrend
+Datetime                                                 ...                                                                     
+2025-07-18 16:00:00+00:00  1.341940  1.343815  1.341832  ...                    False                 True                  False
+2025-07-18 17:00:00+00:00  1.342030  1.342084  1.341238  ...                    False                 True                  False
+2025-07-18 18:00:00+00:00  1.341724  1.342210  1.341508  ...                    False                 True                  False
+2025-07-18 19:00:00+00:00  1.341454  1.341814  1.340968  ...                    False                 True                  False
+2025-07-18 20:00:00+00:00  1.341490  1.341652  1.341400  ...                    False                 True                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:12:22] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:14:52] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 21:14:53] INFO signal_pipeline: Fetched 4725 rows of price data for EURUSD
+[2025-07-18 21:14:53] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:14:56] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 21:14:56] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:14:59] INFO signal_pipeline: Feature DataFrame shape: (4725, 94)
+[2025-07-18 21:14:59] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162926  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:14:59] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:15:02] ERROR signal_pipeline: Error in signal pipeline for EURUSD: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 113, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+
+[2025-07-18 21:15:02] INFO signal_pipeline: Fetching price data for GBPUSD...
+[2025-07-18 21:15:03] INFO signal_pipeline: Fetched 4725 rows of price data for GBPUSD
+[2025-07-18 21:15:03] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:15:06] INFO signal_pipeline: News sentiment score: 0.0485
+[2025-07-18 21:15:06] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:15:09] INFO signal_pipeline: Feature DataFrame shape: (4725, 94)
+[2025-07-18 21:15:09] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  1.341940  ...                  False
+2025-07-18 17:00:00+00:00  1.342030  ...                  False
+2025-07-18 18:00:00+00:00  1.341724  ...                  False
+2025-07-18 19:00:00+00:00  1.341454  ...                  False
+2025-07-18 20:00:00+00:00  1.341562  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:15:09] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:15:11] ERROR signal_pipeline: Prediction failed for GBPUSD. Skipping signal generation.
+[2025-07-18 21:15:11] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 21:15:13] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-18 21:15:13] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:15:15] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:15:15] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:15:18] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-18 21:15:18] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.746002  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:15:19] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:15:28] ERROR signal_pipeline: Error in signal pipeline for USDJPY: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 113, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+
+[2025-07-18 21:15:28] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-18 21:15:29] INFO signal_pipeline: Fetched 4702 rows of price data for USDCHF
+[2025-07-18 21:15:29] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:15:32] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:15:32] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:15:34] INFO signal_pipeline: Feature DataFrame shape: (4702, 94)
+[2025-07-18 21:15:34] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 16:00:00+00:00  0.80075  ...                  False
+2025-07-18 17:00:00+00:00  0.80123  ...                  False
+2025-07-18 18:00:00+00:00  0.80167  ...                  False
+2025-07-18 19:00:00+00:00  0.80153  ...                  False
+2025-07-18 20:00:00+00:00  0.80124  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:15:36] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:15:39] ERROR signal_pipeline: Error in signal pipeline for USDCHF: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_accumulation
+- wyckoff_distribution
+- wyckoff_markdown
+- wyckoff_markup
+- wyckoff_unknown
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 113, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- wyckoff_accumulation
+- wyckoff_distribution
+- wyckoff_markdown
+- wyckoff_markup
+- wyckoff_unknown
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+
+[2025-07-18 21:15:39] INFO signal_pipeline: Fetching price data for AUDUSD...
+[2025-07-18 21:15:40] INFO signal_pipeline: Fetched 4759 rows of price data for AUDUSD
+[2025-07-18 21:15:40] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:15:42] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:15:42] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:15:45] INFO signal_pipeline: Feature DataFrame shape: (4759, 94)
+[2025-07-18 21:15:45] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  0.651423  ...                  False
+2025-07-18 17:00:00+00:00  0.651228  ...                  False
+2025-07-18 18:00:00+00:00  0.650940  ...                  False
+2025-07-18 19:00:00+00:00  0.651059  ...                  False
+2025-07-18 20:00:00+00:00  0.651059  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:15:47] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:15:57] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-18 21:15:58] INFO signal_pipeline: Fetched 4759 rows of price data for NZDUSD
+[2025-07-18 21:15:58] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:16:00] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:16:00] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:16:03] INFO signal_pipeline: Feature DataFrame shape: (4759, 94)
+[2025-07-18 21:16:03] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  0.596766  ...                   True
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596267  ...                   True
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:16:04] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:16:14] INFO signal_pipeline: Fetching price data for USDCAD...
+[2025-07-18 21:16:15] INFO signal_pipeline: Fetched 4756 rows of price data for USDCAD
+[2025-07-18 21:16:15] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:16:18] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:16:18] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:16:20] INFO signal_pipeline: Feature DataFrame shape: (4756, 94)
+[2025-07-18 21:16:20] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 16:00:00+00:00  1.37252  ...                  False
+2025-07-18 17:00:00+00:00  1.37258  ...                  False
+2025-07-18 18:00:00+00:00  1.37259  ...                  False
+2025-07-18 19:00:00+00:00  1.37255  ...                  False
+2025-07-18 20:00:00+00:00  1.37250  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:16:24] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:16:32] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-18 21:16:34] INFO signal_pipeline: Fetched 4727 rows of price data for EURJPY
+[2025-07-18 21:16:34] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:16:36] INFO signal_pipeline: News sentiment score: 0.0560
+[2025-07-18 21:16:36] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:16:39] INFO signal_pipeline: Feature DataFrame shape: (4727, 93)
+[2025-07-18 21:16:39] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  172.912003  ...                  False
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.884003  ...                  False
+2025-07-18 20:00:00+00:00  172.942001  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:16:40] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:16:55] ERROR signal_pipeline: Prediction failed for EURJPY. Skipping signal generation.
+[2025-07-18 21:16:55] INFO signal_pipeline: Fetching price data for GBPJPY...
+[2025-07-18 21:16:56] INFO signal_pipeline: Fetched 4727 rows of price data for GBPJPY
+[2025-07-18 21:16:56] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:16:59] INFO signal_pipeline: News sentiment score: 0.0536
+[2025-07-18 21:16:59] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:17:01] INFO signal_pipeline: Feature DataFrame shape: (4727, 93)
+[2025-07-18 21:17:01] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  199.516998  ...                   True
+2025-07-18 17:00:00+00:00  199.557007  ...                  False
+2025-07-18 18:00:00+00:00  199.600006  ...                  False
+2025-07-18 19:00:00+00:00  199.511002  ...                  False
+2025-07-18 20:00:00+00:00  199.535995  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:17:03] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:17:11] INFO signal_pipeline: Fetching price data for AUDJPY...
+[2025-07-18 21:17:11] WARNING signal_pipeline: No price data for AUDJPY.
+[2025-07-18 21:17:11] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-18 21:17:11] WARNING signal_pipeline: No price data for NZDJPY.
+[2025-07-18 21:32:06] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 21:32:17] INFO signal_pipeline: Fetched 4725 rows of price data for EURUSD
+[2025-07-18 21:32:17] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:32:23] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 21:32:23] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:32:26] INFO signal_pipeline: Feature DataFrame shape: (4725, 94)
+[2025-07-18 21:32:26] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.163061  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:32:26] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:32:29] ERROR signal_pipeline: Error in signal pipeline for EURUSD: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 113, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+
+[2025-07-18 21:32:29] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 21:32:36] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-18 21:32:36] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:32:43] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:32:43] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:32:46] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-18 21:32:46] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.757004  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:32:46] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:32:48] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-18 21:32:48] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-18 21:32:58] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-18 21:32:58] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-18 21:33:09] WARNING signal_pipeline: No price data for NZDUSD.
+[2025-07-18 21:33:09] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-18 21:33:19] WARNING signal_pipeline: No price data for EURJPY.
+[2025-07-18 21:33:19] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-18 21:33:21] INFO signal_pipeline: Fetched 4729 rows of price data for NZDJPY
+[2025-07-18 21:33:21] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:33:26] INFO signal_pipeline: News sentiment score: 0.0351
+[2025-07-18 21:33:26] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:33:29] INFO signal_pipeline: Feature DataFrame shape: (4729, 93)
+[2025-07-18 21:33:29] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 16:00:00+00:00  88.704002  ...                   True
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.669998  ...                   True
+2025-07-18 20:00:00+00:00  88.661003  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:33:31] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:33:51] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-18 21:33:57] INFO signal_pipeline: Fetched 4796 rows of price data for BTCUSD
+[2025-07-18 21:33:57] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:34:15] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:34:15] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:34:18] INFO signal_pipeline: Feature DataFrame shape: (4796, 93)
+[2025-07-18 21:34:18] INFO signal_pipeline: Feature summary (last 5 rows):
+                                    Open  ...  market_regime_uptrend
+Datetime                                  ...                       
+2025-07-18 16:00:00+00:00  117653.679688  ...                  False
+2025-07-18 17:00:00+00:00  117703.742188  ...                  False
+2025-07-18 18:00:00+00:00  117437.156250  ...                  False
+2025-07-18 19:00:00+00:00  117454.312500  ...                  False
+2025-07-18 20:00:00+00:00  117091.976562  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:34:19] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:35:33] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 21:35:44] INFO signal_pipeline: Fetched 4725 rows of price data for EURUSD
+[2025-07-18 21:35:44] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:35:49] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 21:35:49] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:35:52] INFO signal_pipeline: Feature DataFrame shape: (4725, 94)
+[2025-07-18 21:35:52] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162926  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:35:52] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:35:57] ERROR signal_pipeline: Error in signal pipeline for EURUSD: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+Traceback (most recent call last):
+  File "/Users/admin/forex_ai_project/pipeline/signal_pipeline.py", line 83, in run
+    prediction_result = predict_signal(features_df, pair)
+  File "/Users/admin/forex_ai_project/models/predict.py", line 113, in predict_signal
+    latest_scaled = scaler.transform(latest_data)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/admin/forex_ai_project/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- atr_14_4h
+- bb_high_4h
+- bb_low_4h
+- ema_12_4h
+- ema_26_4h
+- ...
+Feature names seen at fit time, yet now missing:
+- bb_high
+- bb_low
+- bearish_engulfing
+- bearish_engulfing_bar
+- bearish_flag
+- ...
+
+[2025-07-18 21:35:57] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 21:36:02] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-18 21:36:02] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:36:07] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:36:07] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:36:10] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-18 21:36:10] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.755005  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:36:10] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:36:15] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-18 21:36:15] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-18 21:36:25] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-18 21:36:25] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-18 21:36:28] INFO signal_pipeline: Fetched 4759 rows of price data for NZDUSD
+[2025-07-18 21:36:28] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:36:31] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:36:31] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:36:34] INFO signal_pipeline: Feature DataFrame shape: (4759, 94)
+[2025-07-18 21:36:34] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  0.596766  ...                   True
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596232  ...                   True
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:36:34] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:36:45] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-18 21:36:49] INFO signal_pipeline: Fetched 4727 rows of price data for EURJPY
+[2025-07-18 21:36:49] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:45:01] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 21:45:14] WARNING signal_pipeline: No price data for EURUSD.
+[2025-07-18 21:45:14] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 21:45:19] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-18 21:45:19] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:45:34] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:45:34] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:45:36] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 21:45:42] INFO signal_pipeline: Fetched 4725 rows of price data for EURUSD
+[2025-07-18 21:45:42] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:45:47] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-18 21:45:47] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:45:50] INFO signal_pipeline: Feature DataFrame shape: (4725, 94)
+[2025-07-18 21:45:50] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.163061  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:45:50] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:46:00] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-18 21:46:00] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 21:46:07] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-18 21:46:07] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:46:12] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:46:12] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:46:15] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-18 21:46:15] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.766006  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:46:15] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:46:26] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-18 21:46:26] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-18 21:46:36] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-18 21:46:36] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-18 21:46:39] INFO signal_pipeline: Fetched 4759 rows of price data for NZDUSD
+[2025-07-18 21:46:39] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:46:42] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:46:42] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:46:45] INFO signal_pipeline: Feature DataFrame shape: (4759, 94)
+[2025-07-18 21:46:45] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 16:00:00+00:00  0.596766  ...                   True
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596303  ...                   True
+
+[5 rows x 94 columns]
+
+[2025-07-18 21:46:45] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:46:55] ERROR signal_pipeline: Prediction failed for NZDUSD. Skipping signal generation.
+[2025-07-18 21:46:55] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-18 21:47:05] WARNING signal_pipeline: No price data for EURJPY.
+[2025-07-18 21:47:05] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-18 21:47:09] INFO signal_pipeline: Fetched 4729 rows of price data for NZDJPY
+[2025-07-18 21:47:09] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:47:16] INFO signal_pipeline: News sentiment score: 0.0351
+[2025-07-18 21:47:16] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:47:19] INFO signal_pipeline: Feature DataFrame shape: (4729, 93)
+[2025-07-18 21:47:19] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 16:00:00+00:00  88.704002  ...                   True
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.669998  ...                   True
+2025-07-18 20:00:00+00:00  88.679001  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:47:19] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:47:29] ERROR signal_pipeline: Prediction failed for NZDJPY. Skipping signal generation.
+[2025-07-18 21:47:29] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-18 21:47:35] INFO signal_pipeline: Fetched 4796 rows of price data for BTCUSD
+[2025-07-18 21:47:35] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-18 21:48:17] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-18 21:48:17] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-18 21:48:20] INFO signal_pipeline: Feature DataFrame shape: (4796, 93)
+[2025-07-18 21:48:20] INFO signal_pipeline: Feature summary (last 5 rows):
+                                    Open  ...  market_regime_uptrend
+Datetime                                  ...                       
+2025-07-18 16:00:00+00:00  117653.679688  ...                  False
+2025-07-18 17:00:00+00:00  117703.742188  ...                  False
+2025-07-18 18:00:00+00:00  117437.156250  ...                  False
+2025-07-18 19:00:00+00:00  117454.312500  ...                  False
+2025-07-18 20:00:00+00:00  117157.429688  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-18 21:48:20] INFO signal_pipeline: Model trained successfully!
+[2025-07-18 21:48:29] ERROR signal_pipeline: Prediction failed for BTCUSD. Skipping signal generation.
+[2025-07-18 22:12:48] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-18 22:12:48] WARNING signal_pipeline: No price data for EURUSD.
+[2025-07-18 22:12:48] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-18 22:12:48] WARNING signal_pipeline: No price data for USDJPY.
+[2025-07-18 22:12:48] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-18 22:12:48] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-18 22:12:48] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-18 22:12:48] WARNING signal_pipeline: No price data for NZDUSD.
+[2025-07-18 22:12:48] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-18 22:12:48] WARNING signal_pipeline: No price data for EURJPY.
+[2025-07-18 22:12:48] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-18 22:12:48] WARNING signal_pipeline: No price data for NZDJPY.
+[2025-07-18 22:12:48] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-18 22:12:48] WARNING signal_pipeline: No price data for BTCUSD.
+[2025-07-19 00:00:04] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 00:00:06] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 00:00:06] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:00:10] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-19 00:00:10] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:00:16] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 00:00:16] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 00:00:18] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:00:29] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-19 00:00:29] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 00:00:31] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 00:00:31] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:00:35] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 00:00:35] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:00:38] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 00:00:38] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.748993  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 00:00:39] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:00:59] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-19 00:00:59] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 00:01:09] INFO signal_pipeline: Fetched 4702 rows of price data for USDCHF
+[2025-07-19 00:01:09] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:01:17] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 00:01:17] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:01:20] INFO signal_pipeline: Feature DataFrame shape: (4702, 94)
+[2025-07-19 00:01:20] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 16:00:00+00:00  0.80075  ...                  False
+2025-07-18 17:00:00+00:00  0.80123  ...                  False
+2025-07-18 18:00:00+00:00  0.80167  ...                  False
+2025-07-18 19:00:00+00:00  0.80153  ...                  False
+2025-07-18 20:00:00+00:00  0.80087  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 00:01:21] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:01:42] ERROR signal_pipeline: Prediction failed for USDCHF. Skipping signal generation.
+[2025-07-19 00:01:42] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 00:01:48] INFO signal_pipeline: Fetched 4760 rows of price data for NZDUSD
+[2025-07-19 00:01:48] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:01:52] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 00:01:52] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:01:54] INFO signal_pipeline: Feature DataFrame shape: (4760, 94)
+[2025-07-19 00:01:54] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596196  ...                   True
+2025-07-18 21:00:00+00:00  0.596445  ...                   True
+
+[5 rows x 94 columns]
+
+[2025-07-19 00:01:56] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:02:19] ERROR signal_pipeline: Prediction failed for NZDUSD. Skipping signal generation.
+[2025-07-19 00:02:19] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 00:02:22] INFO signal_pipeline: Fetched 4728 rows of price data for EURJPY
+[2025-07-19 00:02:22] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:02:27] INFO signal_pipeline: News sentiment score: 0.0560
+[2025-07-19 00:02:27] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:02:30] INFO signal_pipeline: Feature DataFrame shape: (4728, 93)
+[2025-07-19 00:02:30] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.884003  ...                  False
+2025-07-18 20:00:00+00:00  172.945999  ...                   True
+2025-07-18 21:00:00+00:00  172.990005  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 00:02:32] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:02:51] ERROR signal_pipeline: Prediction failed for EURJPY. Skipping signal generation.
+[2025-07-19 00:02:51] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 00:02:58] INFO signal_pipeline: Fetched 4730 rows of price data for NZDJPY
+[2025-07-19 00:02:58] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:03:01] INFO signal_pipeline: News sentiment score: 0.0351
+[2025-07-19 00:03:01] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:03:04] INFO signal_pipeline: Feature DataFrame shape: (4730, 93)
+[2025-07-19 00:03:04] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.669998  ...                   True
+2025-07-18 20:00:00+00:00  88.653999  ...                   True
+2025-07-18 21:00:00+00:00  88.716003  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 00:03:05] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:03:26] ERROR signal_pipeline: Prediction failed for NZDJPY. Skipping signal generation.
+[2025-07-19 00:03:26] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 00:03:28] INFO signal_pipeline: Fetched 4799 rows of price data for BTCUSD
+[2025-07-19 00:03:28] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:03:38] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 00:03:38] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:03:41] INFO signal_pipeline: Feature DataFrame shape: (4799, 93)
+[2025-07-19 00:03:41] INFO signal_pipeline: Feature summary (last 5 rows):
+                                    Open  ...  market_regime_uptrend
+Datetime                                  ...                       
+2025-07-18 19:00:00+00:00  117454.312500  ...                  False
+2025-07-18 20:00:00+00:00  117548.945312  ...                  False
+2025-07-18 21:00:00+00:00  117691.257812  ...                  False
+2025-07-18 22:00:00+00:00  117769.781250  ...                  False
+2025-07-18 23:00:00+00:00  117765.585938  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 00:03:43] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:04:02] ERROR signal_pipeline: Prediction failed for BTCUSD. Skipping signal generation.
+[2025-07-19 00:19:58] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 00:20:00] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 00:20:00] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:20:04] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-19 00:20:04] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:20:07] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 00:20:07] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 00:20:07] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:20:27] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-19 00:20:27] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 00:20:29] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 00:20:29] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:20:32] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 00:20:32] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:20:34] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 00:20:34] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.748993  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 00:20:34] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:20:54] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-19 00:20:54] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 00:20:56] INFO signal_pipeline: Fetched 4702 rows of price data for USDCHF
+[2025-07-19 00:20:56] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:20:59] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 00:20:59] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:21:02] INFO signal_pipeline: Feature DataFrame shape: (4702, 94)
+[2025-07-19 00:21:02] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 16:00:00+00:00  0.80075  ...                  False
+2025-07-18 17:00:00+00:00  0.80123  ...                  False
+2025-07-18 18:00:00+00:00  0.80167  ...                  False
+2025-07-18 19:00:00+00:00  0.80153  ...                  False
+2025-07-18 20:00:00+00:00  0.80087  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 00:21:02] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:21:22] ERROR signal_pipeline: Prediction failed for USDCHF. Skipping signal generation.
+[2025-07-19 00:21:22] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 00:21:23] INFO signal_pipeline: Fetched 4760 rows of price data for NZDUSD
+[2025-07-19 00:21:23] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:21:26] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 00:21:26] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:21:28] INFO signal_pipeline: Feature DataFrame shape: (4760, 94)
+[2025-07-19 00:21:29] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596196  ...                   True
+2025-07-18 21:00:00+00:00  0.596445  ...                   True
+
+[5 rows x 94 columns]
+
+[2025-07-19 00:21:29] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:21:49] ERROR signal_pipeline: Prediction failed for NZDUSD. Skipping signal generation.
+[2025-07-19 00:21:49] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 00:21:50] INFO signal_pipeline: Fetched 4728 rows of price data for EURJPY
+[2025-07-19 00:21:50] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:21:53] INFO signal_pipeline: News sentiment score: 0.0560
+[2025-07-19 00:21:53] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:21:56] INFO signal_pipeline: Feature DataFrame shape: (4728, 93)
+[2025-07-19 00:21:56] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.884003  ...                  False
+2025-07-18 20:00:00+00:00  172.945999  ...                   True
+2025-07-18 21:00:00+00:00  172.990005  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 00:21:56] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:22:18] ERROR signal_pipeline: Prediction failed for EURJPY. Skipping signal generation.
+[2025-07-19 00:22:18] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 00:22:20] INFO signal_pipeline: Fetched 4730 rows of price data for NZDJPY
+[2025-07-19 00:22:20] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:22:22] INFO signal_pipeline: News sentiment score: 0.0351
+[2025-07-19 00:22:22] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:22:25] INFO signal_pipeline: Feature DataFrame shape: (4730, 93)
+[2025-07-19 00:22:25] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.669998  ...                   True
+2025-07-18 20:00:00+00:00  88.653999  ...                   True
+2025-07-18 21:00:00+00:00  88.716003  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 00:22:25] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:22:45] ERROR signal_pipeline: Prediction failed for NZDJPY. Skipping signal generation.
+[2025-07-19 00:22:45] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 00:22:46] INFO signal_pipeline: Fetched 4799 rows of price data for BTCUSD
+[2025-07-19 00:22:46] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 00:22:54] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 00:22:54] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 00:22:57] INFO signal_pipeline: Feature DataFrame shape: (4799, 93)
+[2025-07-19 00:22:57] INFO signal_pipeline: Feature summary (last 5 rows):
+                                    Open  ...  market_regime_uptrend
+Datetime                                  ...                       
+2025-07-18 19:00:00+00:00  117454.312500  ...                  False
+2025-07-18 20:00:00+00:00  117548.945312  ...                  False
+2025-07-18 21:00:00+00:00  117691.257812  ...                  False
+2025-07-18 22:00:00+00:00  117769.781250  ...                  False
+2025-07-18 23:00:00+00:00  117900.500000  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 00:22:57] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 00:23:21] ERROR signal_pipeline: Prediction failed for BTCUSD. Skipping signal generation.
+[2025-07-19 01:30:00] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 01:30:01] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 01:30:01] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 01:30:03] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-19 01:30:03] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 01:30:06] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 01:30:06] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 01:30:06] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 01:30:27] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-19 01:30:27] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 01:30:28] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 01:30:28] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 01:30:30] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 01:30:30] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 01:30:33] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 01:30:33] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.748993  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 01:30:33] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 01:30:54] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-19 01:30:54] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 01:30:55] INFO signal_pipeline: Fetched 4702 rows of price data for USDCHF
+[2025-07-19 01:30:55] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 01:30:58] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 01:30:58] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 01:31:01] INFO signal_pipeline: Feature DataFrame shape: (4702, 94)
+[2025-07-19 01:31:01] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 16:00:00+00:00  0.80075  ...                  False
+2025-07-18 17:00:00+00:00  0.80123  ...                  False
+2025-07-18 18:00:00+00:00  0.80167  ...                  False
+2025-07-18 19:00:00+00:00  0.80153  ...                  False
+2025-07-18 20:00:00+00:00  0.80087  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 01:31:01] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 01:31:22] ERROR signal_pipeline: Prediction failed for USDCHF. Skipping signal generation.
+[2025-07-19 01:31:22] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 01:31:23] INFO signal_pipeline: Fetched 4760 rows of price data for NZDUSD
+[2025-07-19 01:31:23] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 01:31:25] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 01:31:25] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 01:31:28] INFO signal_pipeline: Feature DataFrame shape: (4760, 94)
+[2025-07-19 01:31:28] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596196  ...                   True
+2025-07-18 21:00:00+00:00  0.596445  ...                   True
+
+[5 rows x 94 columns]
+
+[2025-07-19 01:31:28] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 01:31:49] ERROR signal_pipeline: Prediction failed for NZDUSD. Skipping signal generation.
+[2025-07-19 01:31:49] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 01:31:50] INFO signal_pipeline: Fetched 4728 rows of price data for EURJPY
+[2025-07-19 01:31:50] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 01:31:53] INFO signal_pipeline: News sentiment score: 0.0560
+[2025-07-19 01:31:53] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 01:31:55] INFO signal_pipeline: Feature DataFrame shape: (4728, 93)
+[2025-07-19 01:31:55] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.884003  ...                  False
+2025-07-18 20:00:00+00:00  172.945999  ...                   True
+2025-07-18 21:00:00+00:00  172.990005  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 01:31:55] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 01:32:17] ERROR signal_pipeline: Prediction failed for EURJPY. Skipping signal generation.
+[2025-07-19 01:32:17] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 01:32:18] INFO signal_pipeline: Fetched 4730 rows of price data for NZDJPY
+[2025-07-19 01:32:18] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 01:32:20] INFO signal_pipeline: News sentiment score: 0.0351
+[2025-07-19 01:32:20] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 01:32:23] INFO signal_pipeline: Feature DataFrame shape: (4730, 93)
+[2025-07-19 01:32:23] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.669998  ...                   True
+2025-07-18 20:00:00+00:00  88.653999  ...                   True
+2025-07-18 21:00:00+00:00  88.716003  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 01:32:23] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 01:32:43] ERROR signal_pipeline: Prediction failed for NZDJPY. Skipping signal generation.
+[2025-07-19 01:32:43] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 01:32:44] INFO signal_pipeline: Fetched 4776 rows of price data for BTCUSD
+[2025-07-19 01:32:44] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 01:32:52] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 01:32:52] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 01:32:55] INFO signal_pipeline: Feature DataFrame shape: (4776, 93)
+[2025-07-19 01:32:55] INFO signal_pipeline: Feature summary (last 5 rows):
+                                    Open  ...  market_regime_uptrend
+Datetime                                  ...                       
+2025-07-18 20:00:00+00:00  117548.945312  ...                  False
+2025-07-18 21:00:00+00:00  117691.257812  ...                  False
+2025-07-18 22:00:00+00:00  117769.781250  ...                  False
+2025-07-18 23:00:00+00:00  117874.062500  ...                  False
+2025-07-19 00:00:00+00:00  118054.984375  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 01:32:55] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 01:33:20] ERROR signal_pipeline: Prediction failed for BTCUSD. Skipping signal generation.
+[2025-07-19 03:06:48] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 03:06:48] WARNING signal_pipeline: No price data for EURUSD.
+[2025-07-19 03:06:48] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 03:06:48] WARNING signal_pipeline: No price data for USDJPY.
+[2025-07-19 03:06:48] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 03:06:48] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-19 03:06:48] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 03:06:48] WARNING signal_pipeline: No price data for NZDUSD.
+[2025-07-19 03:06:48] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 03:06:48] WARNING signal_pipeline: No price data for EURJPY.
+[2025-07-19 03:06:48] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 03:06:48] WARNING signal_pipeline: No price data for NZDJPY.
+[2025-07-19 03:06:48] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 03:06:48] WARNING signal_pipeline: No price data for BTCUSD.
+[2025-07-19 07:06:53] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 07:06:53] WARNING signal_pipeline: No price data for EURUSD.
+[2025-07-19 07:06:53] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 07:06:53] WARNING signal_pipeline: No price data for USDJPY.
+[2025-07-19 07:06:53] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 07:06:53] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-19 07:06:53] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 07:06:53] WARNING signal_pipeline: No price data for NZDUSD.
+[2025-07-19 07:06:53] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 07:06:53] WARNING signal_pipeline: No price data for EURJPY.
+[2025-07-19 07:06:53] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 07:06:53] WARNING signal_pipeline: No price data for NZDJPY.
+[2025-07-19 07:06:53] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 07:06:53] WARNING signal_pipeline: No price data for BTCUSD.
+[2025-07-19 08:30:03] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 08:30:07] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 08:30:07] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 08:30:12] INFO signal_pipeline: News sentiment score: 0.0512
+[2025-07-19 08:30:12] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 08:30:15] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 08:30:15] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 08:30:15] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 08:30:37] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-19 08:30:37] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 08:30:40] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 08:30:40] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 08:30:44] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 08:30:44] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 08:30:47] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 08:30:47] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.748993  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 08:30:47] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 08:31:13] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-19 08:31:13] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 08:31:20] INFO signal_pipeline: Fetched 4702 rows of price data for USDCHF
+[2025-07-19 08:31:20] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 08:31:25] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 08:31:25] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 08:31:28] INFO signal_pipeline: Feature DataFrame shape: (4702, 94)
+[2025-07-19 08:31:28] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 16:00:00+00:00  0.80075  ...                  False
+2025-07-18 17:00:00+00:00  0.80123  ...                  False
+2025-07-18 18:00:00+00:00  0.80167  ...                  False
+2025-07-18 19:00:00+00:00  0.80153  ...                  False
+2025-07-18 20:00:00+00:00  0.80087  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 08:31:28] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 08:32:00] ERROR signal_pipeline: Prediction failed for USDCHF. Skipping signal generation.
+[2025-07-19 08:32:00] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 08:32:07] INFO signal_pipeline: Fetched 4760 rows of price data for NZDUSD
+[2025-07-19 08:32:07] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 08:32:11] INFO signal_pipeline: News sentiment score: 0.0428
+[2025-07-19 08:32:11] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 08:32:14] INFO signal_pipeline: Feature DataFrame shape: (4760, 94)
+[2025-07-19 08:32:14] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596196  ...                   True
+2025-07-18 21:00:00+00:00  0.596445  ...                   True
+
+[5 rows x 94 columns]
+
+[2025-07-19 08:32:14] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 08:32:43] ERROR signal_pipeline: Prediction failed for NZDUSD. Skipping signal generation.
+[2025-07-19 08:32:43] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 08:32:46] INFO signal_pipeline: Fetched 4728 rows of price data for EURJPY
+[2025-07-19 08:32:46] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 08:32:49] INFO signal_pipeline: News sentiment score: 0.0560
+[2025-07-19 08:32:49] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 08:32:52] INFO signal_pipeline: Feature DataFrame shape: (4728, 93)
+[2025-07-19 08:32:52] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.884003  ...                  False
+2025-07-18 20:00:00+00:00  172.945999  ...                   True
+2025-07-18 21:00:00+00:00  172.990005  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 08:32:52] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 08:33:19] ERROR signal_pipeline: Prediction failed for EURJPY. Skipping signal generation.
+[2025-07-19 08:33:19] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 08:33:23] INFO signal_pipeline: Fetched 4730 rows of price data for NZDJPY
+[2025-07-19 08:33:23] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 08:33:27] INFO signal_pipeline: News sentiment score: 0.0351
+[2025-07-19 08:33:27] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 08:33:30] INFO signal_pipeline: Feature DataFrame shape: (4730, 93)
+[2025-07-19 08:33:30] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.669998  ...                   True
+2025-07-18 20:00:00+00:00  88.653999  ...                   True
+2025-07-18 21:00:00+00:00  88.716003  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 08:33:30] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 08:33:58] ERROR signal_pipeline: Prediction failed for NZDJPY. Skipping signal generation.
+[2025-07-19 08:33:58] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 08:34:08] WARNING signal_pipeline: No price data for BTCUSD.
+[2025-07-19 10:00:02] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 10:00:04] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 10:00:04] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 10:00:05] INFO signal_pipeline: News sentiment score: 0.0714
+[2025-07-19 10:00:05] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 10:00:08] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 10:00:08] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 10:00:08] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 10:00:29] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-19 10:00:29] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 10:00:30] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 10:00:30] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 10:00:32] INFO signal_pipeline: News sentiment score: 0.0629
+[2025-07-19 10:00:32] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 10:00:35] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 10:00:35] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.748993  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 10:00:35] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 10:00:58] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-19 10:00:58] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 10:01:00] INFO signal_pipeline: Fetched 4702 rows of price data for USDCHF
+[2025-07-19 10:01:00] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 10:01:02] INFO signal_pipeline: News sentiment score: 0.0629
+[2025-07-19 10:01:02] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 10:01:04] INFO signal_pipeline: Feature DataFrame shape: (4702, 94)
+[2025-07-19 10:01:04] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 16:00:00+00:00  0.80075  ...                  False
+2025-07-18 17:00:00+00:00  0.80123  ...                  False
+2025-07-18 18:00:00+00:00  0.80167  ...                  False
+2025-07-18 19:00:00+00:00  0.80153  ...                  False
+2025-07-18 20:00:00+00:00  0.80087  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 10:01:04] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 10:01:28] ERROR signal_pipeline: Prediction failed for USDCHF. Skipping signal generation.
+[2025-07-19 10:01:28] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 10:01:29] INFO signal_pipeline: Fetched 4760 rows of price data for NZDUSD
+[2025-07-19 10:01:29] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 10:01:31] INFO signal_pipeline: News sentiment score: 0.0629
+[2025-07-19 10:01:31] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 10:01:34] INFO signal_pipeline: Feature DataFrame shape: (4760, 94)
+[2025-07-19 10:01:34] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596196  ...                   True
+2025-07-18 21:00:00+00:00  0.596445  ...                   True
+
+[5 rows x 94 columns]
+
+[2025-07-19 10:01:34] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 10:01:58] ERROR signal_pipeline: Prediction failed for NZDUSD. Skipping signal generation.
+[2025-07-19 10:01:58] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 10:02:00] INFO signal_pipeline: Fetched 4728 rows of price data for EURJPY
+[2025-07-19 10:02:00] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 10:02:01] INFO signal_pipeline: News sentiment score: 0.1013
+[2025-07-19 10:02:01] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 10:02:04] INFO signal_pipeline: Feature DataFrame shape: (4728, 93)
+[2025-07-19 10:02:04] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.884003  ...                  False
+2025-07-18 20:00:00+00:00  172.945999  ...                   True
+2025-07-18 21:00:00+00:00  172.990005  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 10:02:04] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 10:02:28] ERROR signal_pipeline: Prediction failed for EURJPY. Skipping signal generation.
+[2025-07-19 10:02:28] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 10:02:29] INFO signal_pipeline: Fetched 4730 rows of price data for NZDJPY
+[2025-07-19 10:02:29] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 10:02:31] INFO signal_pipeline: News sentiment score: 0.0439
+[2025-07-19 10:02:31] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 10:02:34] INFO signal_pipeline: Feature DataFrame shape: (4730, 93)
+[2025-07-19 10:02:34] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.669998  ...                   True
+2025-07-18 20:00:00+00:00  88.653999  ...                   True
+2025-07-18 21:00:00+00:00  88.716003  ...                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 10:02:34] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 10:02:57] ERROR signal_pipeline: Prediction failed for NZDJPY. Skipping signal generation.
+[2025-07-19 10:02:57] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 10:02:58] INFO signal_pipeline: Fetched 4785 rows of price data for BTCUSD
+[2025-07-19 10:02:58] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 10:03:03] INFO signal_pipeline: News sentiment score: 0.0629
+[2025-07-19 10:03:03] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 10:03:06] INFO signal_pipeline: Feature DataFrame shape: (4785, 93)
+[2025-07-19 10:03:06] INFO signal_pipeline: Feature summary (last 5 rows):
+                                    Open  ...  market_regime_uptrend
+Datetime                                  ...                       
+2025-07-19 05:00:00+00:00  118312.531250  ...                  False
+2025-07-19 06:00:00+00:00  118231.687500  ...                  False
+2025-07-19 07:00:00+00:00  118250.859375  ...                  False
+2025-07-19 08:00:00+00:00  118219.359375  ...                  False
+2025-07-19 09:00:00+00:00  118182.851562  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 10:03:06] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 10:03:44] ERROR signal_pipeline: Prediction failed for BTCUSD. Skipping signal generation.
+[2025-07-19 13:08:39] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 13:08:40] WARNING signal_pipeline: No price data for EURUSD.
+[2025-07-19 13:08:40] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 13:08:40] WARNING signal_pipeline: No price data for USDJPY.
+[2025-07-19 13:08:40] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 13:08:40] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-19 13:08:40] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 13:08:40] WARNING signal_pipeline: No price data for NZDUSD.
+[2025-07-19 13:08:40] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 13:08:40] WARNING signal_pipeline: No price data for EURJPY.
+[2025-07-19 13:08:40] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 13:08:40] WARNING signal_pipeline: No price data for NZDJPY.
+[2025-07-19 13:08:40] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 13:08:40] WARNING signal_pipeline: No price data for BTCUSD.
+[2025-07-19 14:39:12] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 14:39:12] WARNING signal_pipeline: No price data for EURUSD.
+[2025-07-19 14:39:12] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 14:39:12] WARNING signal_pipeline: No price data for USDJPY.
+[2025-07-19 14:39:12] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 14:39:12] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-19 14:39:12] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 14:39:12] WARNING signal_pipeline: No price data for NZDUSD.
+[2025-07-19 14:39:12] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 14:39:12] WARNING signal_pipeline: No price data for EURJPY.
+[2025-07-19 14:39:12] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 14:39:12] WARNING signal_pipeline: No price data for NZDJPY.
+[2025-07-19 14:39:12] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 14:39:12] WARNING signal_pipeline: No price data for BTCUSD.
+[2025-07-19 15:16:27] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 15:16:29] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 15:16:29] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 15:16:35] INFO signal_pipeline: News sentiment score: 0.0414
+[2025-07-19 15:16:35] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 15:16:40] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 15:16:40] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open      High  ...  market_regime_range  market_regime_uptrend
+Datetime                                       ...                                            
+2025-07-18 17:00:00+00:00  1.163061  1.163332  ...                 True                  False
+2025-07-18 18:00:00+00:00  1.162656  1.163061  ...                 True                  False
+2025-07-18 19:00:00+00:00  1.162520  1.162656  ...                 True                  False
+2025-07-18 20:00:00+00:00  1.162656  1.163061  ...                 True                  False
+2025-07-18 21:00:00+00:00  1.161845  1.162656  ...                 True                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 15:16:40] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 15:21:31] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 15:21:40] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 15:21:40] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 15:21:45] INFO signal_pipeline: News sentiment score: 0.0414
+[2025-07-19 15:21:45] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 15:21:48] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 15:21:48] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open      High  ...  market_regime_range  market_regime_uptrend
+Datetime                                       ...                                            
+2025-07-18 17:00:00+00:00  1.163061  1.163332  ...                 True                  False
+2025-07-18 18:00:00+00:00  1.162656  1.163061  ...                 True                  False
+2025-07-18 19:00:00+00:00  1.162520  1.162656  ...                 True                  False
+2025-07-18 20:00:00+00:00  1.162656  1.163061  ...                 True                  False
+2025-07-18 21:00:00+00:00  1.161845  1.162656  ...                 True                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 15:21:48] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 15:21:53] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 15:21:53] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 15:21:55] INFO signal_pipeline: News sentiment score: 0.0421
+[2025-07-19 15:21:55] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 15:21:59] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 15:21:59] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open        High  ...  market_regime_range  market_regime_uptrend
+Datetime                                           ...                                            
+2025-07-18 16:00:00+00:00  148.686996  148.731995  ...                False                  False
+2025-07-18 17:00:00+00:00  148.714005  148.794006  ...                False                  False
+2025-07-18 18:00:00+00:00  148.764008  148.785004  ...                False                  False
+2025-07-18 19:00:00+00:00  148.744003  148.807999  ...                False                  False
+2025-07-18 20:00:00+00:00  148.748993  148.852997  ...                False                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 15:21:59] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 15:22:09] WARNING signal_pipeline: No price data for USDCHF.
+[2025-07-19 15:22:09] INFO signal_pipeline: Fetching price data for NZDUSD...
+[2025-07-19 15:22:13] INFO signal_pipeline: Fetched 4760 rows of price data for NZDUSD
+[2025-07-19 15:22:13] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 15:22:19] INFO signal_pipeline: News sentiment score: 0.0421
+[2025-07-19 15:22:19] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 15:22:22] INFO signal_pipeline: Feature DataFrame shape: (4760, 94)
+[2025-07-19 15:22:22] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open      High  ...  market_regime_range  market_regime_uptrend
+Datetime                                       ...                                            
+2025-07-18 17:00:00+00:00  0.596623  0.596801  ...                False                   True
+2025-07-18 18:00:00+00:00  0.596410  0.596623  ...                False                   True
+2025-07-18 19:00:00+00:00  0.596338  0.596374  ...                False                   True
+2025-07-18 20:00:00+00:00  0.596196  0.596374  ...                False                   True
+2025-07-18 21:00:00+00:00  0.596445  0.596445  ...                False                   True
+
+[5 rows x 94 columns]
+
+[2025-07-19 15:22:22] INFO signal_pipeline: Fetching price data for EURJPY...
+[2025-07-19 15:22:24] INFO signal_pipeline: Fetched 4728 rows of price data for EURJPY
+[2025-07-19 15:22:24] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 15:22:30] INFO signal_pipeline: News sentiment score: 0.0300
+[2025-07-19 15:22:30] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 15:22:33] INFO signal_pipeline: Feature DataFrame shape: (4728, 93)
+[2025-07-19 15:22:33] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open        High  ...  market_regime_range  market_regime_uptrend
+Datetime                                           ...                                            
+2025-07-18 17:00:00+00:00  172.914001  172.953995  ...                 True                  False
+2025-07-18 18:00:00+00:00  172.901993  172.932999  ...                 True                  False
+2025-07-18 19:00:00+00:00  172.884003  172.912994  ...                 True                  False
+2025-07-18 20:00:00+00:00  172.945999  173.119003  ...                False                   True
+2025-07-18 21:00:00+00:00  172.990005  172.990005  ...                False                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 15:22:33] INFO signal_pipeline: Fetching price data for NZDJPY...
+[2025-07-19 15:22:36] INFO signal_pipeline: Fetched 4730 rows of price data for NZDJPY
+[2025-07-19 15:22:36] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 15:22:39] INFO signal_pipeline: News sentiment score: -0.2633
+[2025-07-19 15:22:39] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 15:22:42] INFO signal_pipeline: Feature DataFrame shape: (4730, 93)
+[2025-07-19 15:22:42] INFO signal_pipeline: Feature summary (last 5 rows):
+                                Open       High  ...  market_regime_range  market_regime_uptrend
+Datetime                                         ...                                            
+2025-07-18 17:00:00+00:00  88.685997  88.714996  ...                False                   True
+2025-07-18 18:00:00+00:00  88.680000  88.717003  ...                False                   True
+2025-07-18 19:00:00+00:00  88.669998  88.695999  ...                False                   True
+2025-07-18 20:00:00+00:00  88.653999  88.709000  ...                False                   True
+2025-07-18 21:00:00+00:00  88.716003  88.716003  ...                False                   True
+
+[5 rows x 93 columns]
+
+[2025-07-19 15:22:42] INFO signal_pipeline: Fetching price data for BTCUSD...
+[2025-07-19 15:22:51] INFO signal_pipeline: Fetched 4790 rows of price data for BTCUSD
+[2025-07-19 15:22:51] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 15:23:10] INFO signal_pipeline: News sentiment score: 0.0421
+[2025-07-19 15:23:10] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 15:23:13] INFO signal_pipeline: Feature DataFrame shape: (4790, 93)
+[2025-07-19 15:23:13] INFO signal_pipeline: Feature summary (last 5 rows):
+                                    Open           High  ...  market_regime_range  market_regime_uptrend
+Datetime                                                 ...                                            
+2025-07-19 10:00:00+00:00  118455.054688  118511.046875  ...                False                  False
+2025-07-19 11:00:00+00:00  118371.656250  118540.445312  ...                False                  False
+2025-07-19 12:00:00+00:00  118271.492188  118402.992188  ...                False                  False
+2025-07-19 13:00:00+00:00  118146.117188  118365.328125  ...                False                  False
+2025-07-19 14:00:00+00:00  118222.273438  118261.320312  ...                False                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 16:35:05] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 16:35:10] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 16:35:10] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 16:35:14] INFO signal_pipeline: News sentiment score: 0.1580
+[2025-07-19 16:35:14] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 16:35:17] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 16:35:17] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 16:35:17] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 17:41:46] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 17:41:56] WARNING signal_pipeline: No price data for EURUSD.
+[2025-07-19 17:41:56] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 17:42:03] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 17:42:03] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 17:42:08] INFO signal_pipeline: News sentiment score: 0.1258
+[2025-07-19 17:42:08] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 17:42:22] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 17:42:22] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.748993  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 17:42:22] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 17:54:40] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 17:54:44] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 17:54:44] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 17:54:47] INFO signal_pipeline: News sentiment score: 0.1049
+[2025-07-19 17:54:47] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 17:54:49] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 17:54:49] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 17:54:49] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 18:27:17] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 18:27:24] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 18:27:24] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 18:27:28] INFO signal_pipeline: News sentiment score: 0.1258
+[2025-07-19 18:27:28] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 18:27:31] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 18:27:31] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 18:27:31] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 18:29:14] INFO signal_pipeline: Fetching price data for EURUSD...
+[2025-07-19 18:29:21] INFO signal_pipeline: Fetched 4726 rows of price data for EURUSD
+[2025-07-19 18:29:21] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 18:29:29] INFO signal_pipeline: News sentiment score: 0.1258
+[2025-07-19 18:29:29] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 18:29:32] INFO signal_pipeline: Feature DataFrame shape: (4726, 94)
+[2025-07-19 18:29:32] INFO signal_pipeline: Feature summary (last 5 rows):
+                               Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162520  ...                  False
+2025-07-18 20:00:00+00:00  1.162656  ...                  False
+2025-07-18 21:00:00+00:00  1.161845  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 18:29:32] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 18:31:56] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-19 18:31:56] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 18:31:59] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 18:31:59] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 18:32:02] INFO signal_pipeline: News sentiment score: 0.1573
+[2025-07-19 18:32:02] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 18:32:05] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 18:32:05] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.748993  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 18:32:05] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 18:32:41] ERROR signal_pipeline: Prediction failed for USDJPY. Skipping signal generation.
+[2025-07-19 18:32:41] INFO signal_pipeline: Fetching price data for USDCHF...
+[2025-07-19 18:32:44] ERROR signal_pipeline: Prediction failed for EURUSD. Skipping signal generation.
+[2025-07-19 18:32:44] INFO signal_pipeline: Fetching price data for USDJPY...
+[2025-07-19 18:32:51] INFO signal_pipeline: Fetched 4702 rows of price data for USDCHF
+[2025-07-19 18:32:51] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 18:32:53] INFO signal_pipeline: Fetched 4702 rows of price data for USDJPY
+[2025-07-19 18:32:53] INFO signal_pipeline: Fetching news sentiment...
+[2025-07-19 18:32:59] INFO signal_pipeline: News sentiment score: 0.1573
+[2025-07-19 18:32:59] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 18:33:00] INFO signal_pipeline: News sentiment score: 0.1573
+[2025-07-19 18:33:00] INFO signal_pipeline: Generating technical indicators with multi-timeframe analysis...
+[2025-07-19 18:33:02] INFO signal_pipeline: Feature DataFrame shape: (4702, 93)
+[2025-07-19 18:33:02] INFO signal_pipeline: Feature summary (last 5 rows):
+                                 Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2025-07-18 16:00:00+00:00  148.686996  ...                  False
+2025-07-18 17:00:00+00:00  148.714005  ...                  False
+2025-07-18 18:00:00+00:00  148.764008  ...                  False
+2025-07-18 19:00:00+00:00  148.744003  ...                  False
+2025-07-18 20:00:00+00:00  148.748993  ...                  False
+
+[5 rows x 93 columns]
+
+[2025-07-19 18:33:02] INFO signal_pipeline: Model trained successfully!
+[2025-07-19 18:33:03] INFO signal_pipeline: Feature DataFrame shape: (4702, 94)
+[2025-07-19 18:33:03] INFO signal_pipeline: Feature summary (last 5 rows):
+                              Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2025-07-18 16:00:00+00:00  0.80075  ...                  False
+2025-07-18 17:00:00+00:00  0.80123  ...                  False
+2025-07-18 18:00:00+00:00  0.80167  ...                  False
+2025-07-18 19:00:00+00:00  0.80153  ...                  False
+2025-07-18 20:00:00+00:00  0.80087  ...                  False
+
+[5 rows x 94 columns]
+
+[2025-07-19 18:33:03] INFO signal_pipeline: Model trained successfully!

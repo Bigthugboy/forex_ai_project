@@ -248,14 +248,23 @@ def preprocess_features(price_df, sentiment_score, use_multi_timeframe=True):
         # --- After all feature engineering, always add news_sentiment column ---
         df['news_sentiment'] = sentiment_score
         logger.info(f"[DEBUG] Final columns in preprocess_features: {list(df.columns)}")
-        # --- Encode categorical columns ---
-        # One-hot encode 'market_regime' if present and is object/string type
-        if 'market_regime' in df.columns and df['market_regime'].dtype == object:
-            df = pd.get_dummies(df, columns=['market_regime'])
-        # Label encode 'wyckoff_phase' if present and is object/string type
-        if 'wyckoff_phase' in df.columns and df['wyckoff_phase'].dtype == object:
-            le = LabelEncoder()
-            df['wyckoff_phase'] = le.fit_transform(df['wyckoff_phase'].astype(str))
+        # --- Encode categorical features as numeric ---
+        categorical_cols = []
+        for col in df.columns:
+            if col in ['regime_label', 'market_regime', 'wyckoff_phase']:
+                categorical_cols.append(col)
+            elif isinstance(df[col], pd.Series) and pd.api.types.is_object_dtype(df[col]):
+                categorical_cols.append(col)
+        if categorical_cols:
+            for col in categorical_cols:
+                # Use one-hot encoding for regime_label and market_regime, integer for wyckoff_phase
+                if col in ['regime_label', 'market_regime']:
+                    dummies = pd.get_dummies(df[col], prefix=col)
+                    df = pd.concat([df.drop(columns=[col]), dummies], axis=1)
+                else:
+                    # For wyckoff_phase and other object columns, use integer encoding
+                    df[col] = pd.factorize(df[col])[0]
+        logger.info(f"[DEBUG] Encoded categorical columns: {categorical_cols}")
         # Fill any remaining NaNs
         df = df.ffill().bfill().fillna(0)
         return df

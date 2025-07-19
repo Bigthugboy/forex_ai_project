@@ -1,0 +1,3016 @@
+{
+  "last_analysis": {
+    "EURUSD": "2025-07-19T18:42:41.240257",
+    "USDJPY": "2025-07-19T18:43:05.683579",
+    "USDCHF": "2025-07-19T18:01:46.512405",
+    "NZDUSD": "2025-07-19T18:44:18.955665",
+    "EURJPY": "2025-07-19T18:44:46.236311",
+    "NZDJPY": "2025-07-19T18:45:12.745827",
+    "BTCUSD": "2025-07-19T18:36:37.549739"
+  },
+  "learning_insights": {
+    "EURUSD": [
+      {
+        "timestamp": "2025-07-19T12:26:32.313116",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.0453,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:34:11.022089",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.03296153846153846,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:22:30.852383",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.005609090909090908,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:31:16.510699",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.015422222222222223,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:39:50.779934",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.004013178294573649,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:48:19.054331",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.004013178294573649,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:56:42.674670",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.004013178294573649,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:06:01.569002",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.004013178294573649,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:15:11.848194",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.014170289855072453,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:24:16.360775",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.015422222222222223,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T17:52:41.519390",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.03146666666666666,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:09:20.486948",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.03146666666666666,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:17:25.366666",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.1573,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:33:39.594313",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.1573,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:42:41.239755",
+        "pair": "EURUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.1573,
+        "price_range": {
+          "high": 1.1831519603729248,
+          "low": 1.0182262659072876,
+          "current": 1.1618449687957764
+        },
+        "volatility": 0.0011218242778121392,
+        "volume_trend": "stable"
+      }
+    ],
+    "USDJPY": [
+      {
+        "timestamp": "2025-07-19T15:22:56.203780",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:31:42.070952",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:40:21.503795",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:48:54.538759",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:06:28.810372",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:15:41.915371",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:24:37.222401",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:33:13.725789",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:41:25.341056",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T17:44:30.431022",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T17:53:03.807491",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:09:43.426497",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:25:56.441642",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:34:05.056965",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:43:05.683080",
+        "pair": "USDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 158.87899780273438,
+          "low": 139.8820037841797,
+          "current": 148.74400329589844
+        },
+        "volatility": 0.001325580613179566,
+        "volume_trend": "stable"
+      }
+    ],
+    "USDCHF": [
+      {
+        "timestamp": "2025-07-19T11:56:25.819467",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.01453333333333333,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:04:15.873661",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.0396375,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:12:04.910295",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.04228,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:19:44.458826",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.0453,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:27:16.909442",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.0453,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:35:01.216307",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.03296153846153846,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:23:35.597638",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.005609090909090908,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:57:52.692044",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.004013178294573649,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:07:26.032886",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.004013178294573649,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:25:29.303076",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.015422222222222223,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:01:46.511609",
+        "pair": "USDCHF",
+        "patterns": {
+          "technical": [
+            "falling_wedge"
+          ],
+          "trend": "downtrend",
+          "volatility": "normal",
+          "regime": "range",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.03146666666666666,
+        "price_range": {
+          "high": 0.9200299978256226,
+          "low": 0.7871800065040588,
+          "current": 0.8015599846839905
+        },
+        "volatility": 0.0011625816818447339,
+        "volume_trend": "stable"
+      }
+    ],
+    "NZDUSD": [
+      {
+        "timestamp": "2025-07-19T12:20:11.660818",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.0453,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:27:43.834101",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.0453,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:35:33.340069",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.03296153846153846,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:15:24.415574",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.005609090909090908,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:24:21.483801",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.005609090909090908,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:32:58.900134",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.015422222222222223,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:58:46.357540",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.004013178294573649,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:17:02.667846",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.014170289855072453,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:26:16.147345",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.015422222222222223,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:34:25.793917",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0831875,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:18:59.259781",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.1573,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:35:14.287777",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.1573,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:44:18.955212",
+        "pair": "NZDUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge"
+          ],
+          "trend": "sideways",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.1573,
+        "price_range": {
+          "high": 0.6122199296951294,
+          "low": 0.5492392778396606,
+          "current": 0.5964452028274536
+        },
+        "volatility": 0.001341602916373367,
+        "volume_trend": "stable"
+      }
+    ],
+    "EURJPY": [
+      {
+        "timestamp": "2025-07-19T12:28:01.286087",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.12087999999999999,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T12:35:49.195993",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.09967499999999999,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:41:32.548328",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:50:00.728079",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:08:13.949151",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:17:33.315941",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:26:33.282337",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:34:49.531507",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:42:24.864611",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T17:45:33.817328",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T17:54:10.811600",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:02:28.292020",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:26:58.959497",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:35:42.608539",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:44:46.235744",
+        "pair": "EURJPY",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 173.24200439453125,
+          "low": 154.79100036621094,
+          "current": 172.95399475097656
+        },
+        "volatility": 0.0012124826273775002,
+        "volume_trend": "stable"
+      }
+    ],
+    "NZDJPY": [
+      {
+        "timestamp": "2025-07-19T15:33:40.202055",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:42:03.561106",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:50:31.529561",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:59:35.845854",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:08:42.189756",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.08214545454545454,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:18:01.312155",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:26:58.033597",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": -0.17556666666666665,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:35:16.157934",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T16:42:48.919026",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T17:46:10.262817",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T17:54:34.928711",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:02:55.106864",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:11:07.480010",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:19:42.526249",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:27:26.276142",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:36:07.567637",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T18:45:12.745357",
+        "pair": "NZDJPY",
+        "patterns": {
+          "technical": [
+            "doji",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "uptrend",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 92.45999908447266,
+          "low": 79.77999877929688,
+          "current": 88.71600341796875
+        },
+        "volatility": 0.0015383930780186019,
+        "volume_trend": "stable"
+      }
+    ],
+    "BTCUSD": [
+      {
+        "timestamp": "2025-07-19T15:02:14.744735",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "inside_bar",
+            "rising_wedge",
+            "bearish_flag",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118235.84375
+        },
+        "volatility": 0.005123202004847503,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:16:47.051476",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "rising_wedge",
+            "bearish_flag",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118235.84375
+        },
+        "volatility": 0.005123202004847503,
+        "volume_trend": "stable"
+      },
+      {
+        "timestamp": "2025-07-19T15:25:28.619862",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "rising_wedge",
+            "bearish_flag",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118235.84375
+        },
+        "volatility": 0.005123202004847503,
+        "volume_trend": "increasing"
+      },
+      {
+        "timestamp": "2025-07-19T15:42:28.750446",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "rising_wedge",
+            "bearish_flag",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.08798135593220341,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118235.84375
+        },
+        "volatility": 0.005123202004847503,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T16:00:01.011687",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "rising_wedge",
+            "bearish_flag",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.08798135593220341,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118235.84375
+        },
+        "volatility": 0.005123202004847503,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T16:09:04.426361",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.08798135593220341,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 117721.7890625
+        },
+        "volatility": 0.005123063375360159,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T16:18:30.467204",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 117721.7890625
+        },
+        "volatility": 0.005123063375360159,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T16:27:30.305155",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "bearish_engulfing",
+            "bearish_engulfing_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 117721.7890625
+        },
+        "volatility": 0.005123063375360159,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T16:43:46.369951",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "bearish_engulfing",
+            "bearish_engulfing_bar",
+            "rising_wedge"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 117721.7890625
+        },
+        "volatility": 0.005123063375360159,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T17:46:44.160989",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118088.09375
+        },
+        "volatility": 0.005122718119177148,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T17:55:12.479361",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "pin_bar",
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118088.09375
+        },
+        "volatility": 0.005122718119177148,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T18:03:31.668847",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "doji",
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118009.75
+        },
+        "volatility": 0.00512219419501976,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T18:20:13.124235",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "inside_bar",
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118009.75
+        },
+        "volatility": 0.00512219419501976,
+        "volume_trend": "decreasing"
+      },
+      {
+        "timestamp": "2025-07-19T18:36:37.549199",
+        "pair": "BTCUSD",
+        "patterns": {
+          "technical": [
+            "rising_wedge",
+            "bearish_pennant"
+          ],
+          "trend": "uptrend",
+          "volatility": "normal",
+          "regime": "choppy",
+          "rsi": "neutral"
+        },
+        "sentiment": 0.0,
+        "price_range": {
+          "high": 123077.6328125,
+          "low": 74467.703125,
+          "current": 118009.75
+        },
+        "volatility": 0.00512219419501976,
+        "volume_trend": "stable"
+      }
+    ]
+  },
+  "pattern_memory": {
+    "EURUSD": {
+      "technical": {
+        "count": 14,
+        "price_changes": [
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.14104792588562592
+      },
+      "trend": {
+        "count": 14,
+        "price_changes": [
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.14104792588562592
+      },
+      "volatility": {
+        "count": 14,
+        "price_changes": [
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.14104792588562592
+      },
+      "regime": {
+        "count": 14,
+        "price_changes": [
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.14104792588562592
+      },
+      "rsi": {
+        "count": 14,
+        "price_changes": [
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595,
+          0.14104792588562595
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.14104792588562592
+      }
+    },
+    "USDJPY": {
+      "technical": {
+        "count": 14,
+        "price_changes": [
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.06335339265937098
+      },
+      "trend": {
+        "count": 14,
+        "price_changes": [
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.06335339265937098
+      },
+      "volatility": {
+        "count": 14,
+        "price_changes": [
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.06335339265937098
+      },
+      "regime": {
+        "count": 14,
+        "price_changes": [
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.06335339265937098
+      },
+      "rsi": {
+        "count": 14,
+        "price_changes": [
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096,
+          0.06335339265937096
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.06335339265937098
+      }
+    },
+    "USDCHF": {
+      "technical": {
+        "count": 11,
+        "price_changes": [
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.018267712671964944
+      },
+      "trend": {
+        "count": 11,
+        "price_changes": [
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.018267712671964944
+      },
+      "volatility": {
+        "count": 11,
+        "price_changes": [
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.018267712671964944
+      },
+      "regime": {
+        "count": 11,
+        "price_changes": [
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.018267712671964944
+      },
+      "rsi": {
+        "count": 11,
+        "price_changes": [
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494,
+          0.01826771267196494
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.018267712671964944
+      }
+    },
+    "NZDUSD": {
+      "technical": {
+        "count": 12,
+        "price_changes": [
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.08594783165084162
+      },
+      "trend": {
+        "count": 12,
+        "price_changes": [
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.08594783165084162
+      },
+      "volatility": {
+        "count": 12,
+        "price_changes": [
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.08594783165084162
+      },
+      "regime": {
+        "count": 12,
+        "price_changes": [
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.08594783165084162
+      },
+      "rsi": {
+        "count": 12,
+        "price_changes": [
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416,
+          0.0859478316508416
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.08594783165084162
+      }
+    },
+    "EURJPY": {
+      "technical": {
+        "count": 14,
+        "price_changes": [
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11733882681677142
+      },
+      "trend": {
+        "count": 14,
+        "price_changes": [
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11733882681677142
+      },
+      "volatility": {
+        "count": 14,
+        "price_changes": [
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11733882681677142
+      },
+      "regime": {
+        "count": 14,
+        "price_changes": [
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11733882681677142
+      },
+      "rsi": {
+        "count": 14,
+        "price_changes": [
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141,
+          0.11733882681677141
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11733882681677142
+      }
+    },
+    "NZDJPY": {
+      "technical": {
+        "count": 16,
+        "price_changes": [
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11200808191778001
+      },
+      "trend": {
+        "count": 16,
+        "price_changes": [
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11200808191778001
+      },
+      "volatility": {
+        "count": 16,
+        "price_changes": [
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11200808191778001
+      },
+      "regime": {
+        "count": 16,
+        "price_changes": [
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11200808191778001
+      },
+      "rsi": {
+        "count": 16,
+        "price_changes": [
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003,
+          0.11200808191778003
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.11200808191778001
+      }
+    },
+    "BTCUSD": {
+      "technical": {
+        "count": 14,
+        "price_changes": [
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5857625358980078,
+          0.5857625358980078,
+          0.5847104858586976,
+          0.5847104858586976,
+          0.5847104858586976
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.5848402760652681
+      },
+      "trend": {
+        "count": 14,
+        "price_changes": [
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5857625358980078,
+          0.5857625358980078,
+          0.5847104858586976,
+          0.5847104858586976,
+          0.5847104858586976
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.5848402760652681
+      },
+      "volatility": {
+        "count": 14,
+        "price_changes": [
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5857625358980078,
+          0.5857625358980078,
+          0.5847104858586976,
+          0.5847104858586976,
+          0.5847104858586976
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.5848402760652681
+      },
+      "regime": {
+        "count": 14,
+        "price_changes": [
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5857625358980078,
+          0.5857625358980078,
+          0.5847104858586976,
+          0.5847104858586976,
+          0.5847104858586976
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.5848402760652681
+      },
+      "rsi": {
+        "count": 14,
+        "price_changes": [
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5877466175038549,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5808435620055926,
+          0.5857625358980078,
+          0.5857625358980078,
+          0.5847104858586976,
+          0.5847104858586976,
+          0.5847104858586976
+        ],
+        "success_rate": 1.0,
+        "avg_price_change": 0.5848402760652681
+      }
+    }
+  },
+  "last_save": "2025-07-19T18:45:43.774418"
+}

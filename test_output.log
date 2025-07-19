@@ -1,0 +1,12 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.10.18, pytest-8.4.1, pluggy-1.6.0
+rootdir: /Users/admin/forex_ai_project
+collected 51 items
+
+test_multi_timeframe.py .                                                [  1%]
+test_rss.py ...                                                          [  7%]
+tests/test_attempt_log.py ........                                       [ 23%]
+tests/test_data_fetcher.py .......                                       [ 37%]
+tests/test_model_registry.py ....F                                       [ 47%]
+tests/test_model_training_service.py .............                       [ 72%]
+tests/test_pipeline_integration.py 

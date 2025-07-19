@@ -1669,3 +1669,1808 @@ weighted avg       0.83      0.83      0.83      1233
 [2025-07-18 20:03:46] INFO model_training_service: Starting training for NZDJPY...
 [2025-07-18 20:03:46] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
 [2025-07-18 20:03:46] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:20:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:20:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:21:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:21:17] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 20:21:17] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:21:17] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:21:25] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:21:25] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:21:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:21:52] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 20:21:52] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:21:52] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:22:09] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:22:09] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 20:22:09] INFO model_training_service: Model for GBPUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:22:09] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:23:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:23:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:24:09] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:24:09] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 20:24:09] INFO model_training_service: Model for EURUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:24:09] INFO model_training_service: Model for EURUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:24:36] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:24:36] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 20:24:36] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:24:36] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:24:58] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:24:58] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 20:24:58] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:24:58] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:25:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:25:20] INFO model_training_service: Starting training for AUDUSD...
+[2025-07-18 20:25:20] INFO model_training_service: Model for AUDUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:25:20] INFO model_training_service: Model for AUDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:25:46] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:25:46] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-18 20:25:46] INFO model_training_service: Model for NZDUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:25:46] INFO model_training_service: Model for NZDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:26:08] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:26:08] INFO model_training_service: Starting training for USDCAD...
+[2025-07-18 20:26:08] INFO model_training_service: Model for USDCAD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:26:08] INFO model_training_service: Model for USDCAD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:26:27] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:26:27] INFO model_training_service: Starting training for EURJPY...
+[2025-07-18 20:26:27] INFO model_training_service: Model for EURJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:26:27] INFO model_training_service: Model for EURJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:26:42] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:26:42] INFO model_training_service: Starting training for GBPJPY...
+[2025-07-18 20:26:42] INFO model_training_service: Model for GBPJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:26:42] INFO model_training_service: Model for GBPJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:27:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:27:01] INFO model_training_service: Starting training for AUDJPY...
+[2025-07-18 20:27:01] INFO model_training_service: Model for AUDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:27:01] INFO model_training_service: Model for AUDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:27:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:27:20] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 20:27:20] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:27:20] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:52:12] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:52:12] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:52:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:52:24] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 20:52:31] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:52:31] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 20:52:31] INFO model_training_service: Model for GBPUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:52:31] INFO model_training_service: Model for GBPUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:52:36] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:52:36] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 20:52:36] INFO model_training_service: Model for USDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:52:36] INFO model_training_service: Model for USDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:52:43] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:52:43] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 20:52:43] INFO model_training_service: Model for USDCHF is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:52:43] INFO model_training_service: Model for USDCHF (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:52:53] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:52:53] INFO model_training_service: Starting training for AUDUSD...
+[2025-07-18 20:52:53] INFO model_training_service: Model for AUDUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:52:53] INFO model_training_service: Model for AUDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:53:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:53:01] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-18 20:53:01] INFO model_training_service: Model for NZDUSD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:53:01] INFO model_training_service: Model for NZDUSD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:53:10] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:53:10] INFO model_training_service: Starting training for USDCAD...
+[2025-07-18 20:53:10] INFO model_training_service: Model for USDCAD is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:53:10] INFO model_training_service: Model for USDCAD (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:53:18] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:53:18] INFO model_training_service: Starting training for EURJPY...
+[2025-07-18 20:53:18] INFO model_training_service: Model for EURJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:53:18] INFO model_training_service: Model for EURJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:53:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:53:24] INFO model_training_service: Starting training for GBPJPY...
+[2025-07-18 20:53:24] INFO model_training_service: Model for GBPJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:53:24] INFO model_training_service: Model for GBPJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:53:32] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:53:32] INFO model_training_service: Starting training for AUDJPY...
+[2025-07-18 20:53:32] INFO model_training_service: Model for AUDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:53:32] INFO model_training_service: Model for AUDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 20:53:39] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 20:53:39] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 20:53:39] INFO model_training_service: Model for NZDJPY is up to date (version: c1553960e5e5b966e2fe85a3f76b44ee). Loading from MongoDB.
+[2025-07-18 20:53:39] INFO model_training_service: Model for NZDJPY (version c1553960e5e5b966e2fe85a3f76b44ee) loaded from MongoDB.
+[2025-07-18 21:11:48] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:11:48] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:11:56] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:11:56] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 21:11:56] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:11:57] INFO model_training_service: Model Accuracy: 0.8528
+[2025-07-18 21:11:57] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.85      0.85       663
+           1       0.85      0.85      0.85       662
+
+    accuracy                           0.85      1325
+   macro avg       0.85      0.85      0.85      1325
+weighted avg       0.85      0.85      0.85      1325
+
+[2025-07-18 21:11:57] INFO model_training_service: Saved model version for EURUSD: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:11:57] INFO model_training_service: Model, scaler, features, and version saved for EURUSD
+[2025-07-18 21:11:57] INFO model_training_service: Model for EURUSD (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:11:57] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:11:57] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-18 21:12:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:12:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:12:11] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:12:11] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 21:12:11] INFO model_training_service: Model for EURUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:12:11] INFO model_training_service: Model for EURUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:12:11] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:12:11] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-18 21:12:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:12:20] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 21:12:20] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:12:22] INFO model_training_service: Model Accuracy: 0.8523
+[2025-07-18 21:12:22] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85       667
+           1       0.84      0.87      0.85       667
+
+    accuracy                           0.85      1334
+   macro avg       0.85      0.85      0.85      1334
+weighted avg       0.85      0.85      0.85      1334
+
+[2025-07-18 21:12:22] INFO model_training_service: Saved model version for GBPUSD: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:12:22] INFO model_training_service: Model, scaler, features, and version saved for GBPUSD
+[2025-07-18 21:12:22] INFO model_training_service: Model for GBPUSD (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:12:22] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:12:22] INFO model_training_service: [Auto-Retrain] Retraining model for GBPUSD due to feature mismatch or update.
+[2025-07-18 21:14:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:14:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:14:59] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:14:59] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 21:14:59] INFO model_training_service: Model for EURUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:14:59] INFO model_training_service: Model for EURUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:14:59] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:14:59] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-18 21:15:09] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:15:09] INFO model_training_service: Starting training for GBPUSD...
+[2025-07-18 21:15:09] INFO model_training_service: Model for GBPUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:15:09] INFO model_training_service: Model for GBPUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:15:09] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:15:09] INFO model_training_service: [Auto-Retrain] Retraining model for GBPUSD due to feature mismatch or update.
+[2025-07-18 21:15:18] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:15:18] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 21:15:18] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:15:19] INFO model_training_service: Model Accuracy: 0.8207
+[2025-07-18 21:15:19] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.81      0.82       622
+           1       0.81      0.83      0.82       622
+
+    accuracy                           0.82      1244
+   macro avg       0.82      0.82      0.82      1244
+weighted avg       0.82      0.82      0.82      1244
+
+[2025-07-18 21:15:19] INFO model_training_service: Saved model version for USDJPY: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:15:19] INFO model_training_service: Model, scaler, features, and version saved for USDJPY
+[2025-07-18 21:15:19] INFO model_training_service: Model for USDJPY (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:15:19] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:15:19] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-18 21:15:28] INFO model_training_service: [Auto-Retrain] Model retrained and saved for USDJPY.
+[2025-07-18 21:15:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:15:34] INFO model_training_service: Starting training for USDCHF...
+[2025-07-18 21:15:35] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:15:36] INFO model_training_service: Model Accuracy: 0.8739
+[2025-07-18 21:15:36] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.87      0.87       686
+           1       0.87      0.88      0.87       686
+
+    accuracy                           0.87      1372
+   macro avg       0.87      0.87      0.87      1372
+weighted avg       0.87      0.87      0.87      1372
+
+[2025-07-18 21:15:36] INFO model_training_service: Saved model version for USDCHF: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:15:36] INFO model_training_service: Model, scaler, features, and version saved for USDCHF
+[2025-07-18 21:15:36] INFO model_training_service: Model for USDCHF (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:15:36] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:15:36] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-18 21:15:45] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:15:45] INFO model_training_service: Starting training for AUDUSD...
+[2025-07-18 21:15:45] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:15:47] INFO model_training_service: Model Accuracy: 0.8692
+[2025-07-18 21:15:47] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.87      0.87       639
+           1       0.87      0.87      0.87       638
+
+    accuracy                           0.87      1277
+   macro avg       0.87      0.87      0.87      1277
+weighted avg       0.87      0.87      0.87      1277
+
+[2025-07-18 21:15:47] INFO model_training_service: Saved model version for AUDUSD: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:15:47] INFO model_training_service: Model, scaler, features, and version saved for AUDUSD
+[2025-07-18 21:15:47] INFO model_training_service: Model for AUDUSD (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:15:47] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:15:47] INFO model_training_service: [Auto-Retrain] Retraining model for AUDUSD due to feature mismatch or update.
+[2025-07-18 21:15:54] INFO model_training_service: [Auto-Retrain] Model retrained and saved for AUDUSD.
+[2025-07-18 21:16:03] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:16:03] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-18 21:16:03] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:16:04] INFO model_training_service: Model Accuracy: 0.8335
+[2025-07-18 21:16:04] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.84      0.84       625
+           1       0.84      0.82      0.83       624
+
+    accuracy                           0.83      1249
+   macro avg       0.83      0.83      0.83      1249
+weighted avg       0.83      0.83      0.83      1249
+
+[2025-07-18 21:16:04] INFO model_training_service: Saved model version for NZDUSD: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:16:04] INFO model_training_service: Model, scaler, features, and version saved for NZDUSD
+[2025-07-18 21:16:04] INFO model_training_service: Model for NZDUSD (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:16:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:16:04] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-18 21:16:12] INFO model_training_service: [Auto-Retrain] Model retrained and saved for NZDUSD.
+[2025-07-18 21:16:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:16:20] INFO model_training_service: Starting training for USDCAD...
+[2025-07-18 21:16:20] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:16:24] INFO model_training_service: Model Accuracy: 0.9061
+[2025-07-18 21:16:24] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.90      0.91       735
+           1       0.90      0.91      0.91       734
+
+    accuracy                           0.91      1469
+   macro avg       0.91      0.91      0.91      1469
+weighted avg       0.91      0.91      0.91      1469
+
+[2025-07-18 21:16:24] INFO model_training_service: Saved model version for USDCAD: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:16:24] INFO model_training_service: Model, scaler, features, and version saved for USDCAD
+[2025-07-18 21:16:24] INFO model_training_service: Model for USDCAD (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:16:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:16:24] INFO model_training_service: [Auto-Retrain] Retraining model for USDCAD due to feature mismatch or update.
+[2025-07-18 21:16:32] INFO model_training_service: [Auto-Retrain] Model retrained and saved for USDCAD.
+[2025-07-18 21:16:39] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:16:39] INFO model_training_service: Starting training for EURJPY...
+[2025-07-18 21:16:39] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:16:40] INFO model_training_service: Model Accuracy: 0.8389
+[2025-07-18 21:16:40] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84       633
+           1       0.84      0.84      0.84       633
+
+    accuracy                           0.84      1266
+   macro avg       0.84      0.84      0.84      1266
+weighted avg       0.84      0.84      0.84      1266
+
+[2025-07-18 21:16:40] INFO model_training_service: Saved model version for EURJPY: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:16:40] INFO model_training_service: Model, scaler, features, and version saved for EURJPY
+[2025-07-18 21:16:40] INFO model_training_service: Model for EURJPY (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:16:40] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:16:40] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-18 21:16:55] INFO model_training_service: [Auto-Retrain] Model retrained and saved for EURJPY.
+[2025-07-18 21:17:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:17:01] INFO model_training_service: Starting training for GBPJPY...
+[2025-07-18 21:17:01] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:17:03] INFO model_training_service: Model Accuracy: 0.8575
+[2025-07-18 21:17:03] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.86      0.86       628
+           1       0.86      0.85      0.86       628
+
+    accuracy                           0.86      1256
+   macro avg       0.86      0.86      0.86      1256
+weighted avg       0.86      0.86      0.86      1256
+
+[2025-07-18 21:17:03] INFO model_training_service: Saved model version for GBPJPY: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:17:03] INFO model_training_service: Model, scaler, features, and version saved for GBPJPY
+[2025-07-18 21:17:03] INFO model_training_service: Model for GBPJPY (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:17:03] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:17:03] INFO model_training_service: [Auto-Retrain] Retraining model for GBPJPY due to feature mismatch or update.
+[2025-07-18 21:17:03] ERROR model_training_service: [Auto-Retrain] No price data for GBPJPY. Cannot retrain.
+[2025-07-18 21:32:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:32:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:32:26] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:32:26] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 21:32:26] INFO model_training_service: Model for EURUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:32:26] INFO model_training_service: Model for EURUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:32:26] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:32:26] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-18 21:32:46] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:32:46] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 21:32:46] INFO model_training_service: Model for USDJPY is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:32:46] INFO model_training_service: Model for USDJPY (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:32:46] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:32:46] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-18 21:33:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:33:29] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 21:33:29] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:33:31] INFO model_training_service: Model Accuracy: 0.8184
+[2025-07-18 21:33:31] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.83      0.82       614
+           1       0.82      0.81      0.82       614
+
+    accuracy                           0.82      1228
+   macro avg       0.82      0.82      0.82      1228
+weighted avg       0.82      0.82      0.82      1228
+
+[2025-07-18 21:33:31] INFO model_training_service: Saved model version for NZDJPY: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:33:31] INFO model_training_service: Model, scaler, features, and version saved for NZDJPY
+[2025-07-18 21:33:31] INFO model_training_service: Model for NZDJPY (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:33:31] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:33:31] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-18 21:33:51] INFO model_training_service: [Auto-Retrain] Model retrained and saved for NZDJPY.
+[2025-07-18 21:34:18] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:34:18] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-18 21:34:18] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-18 21:34:19] INFO model_training_service: Model Accuracy: 0.8092
+[2025-07-18 21:34:19] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.83      0.81       522
+           1       0.82      0.79      0.81       521
+
+    accuracy                           0.81      1043
+   macro avg       0.81      0.81      0.81      1043
+weighted avg       0.81      0.81      0.81      1043
+
+[2025-07-18 21:34:19] INFO model_training_service: Saved model version for BTCUSD: 55235dc799d148e6528ff807876fabcc
+[2025-07-18 21:34:19] INFO model_training_service: Model, scaler, features, and version saved for BTCUSD
+[2025-07-18 21:34:19] INFO model_training_service: Model for BTCUSD (version 55235dc799d148e6528ff807876fabcc) saved to MongoDB.
+[2025-07-18 21:34:19] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:34:19] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-18 21:34:34] INFO model_training_service: [Auto-Retrain] Model retrained and saved for BTCUSD.
+[2025-07-18 21:35:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:35:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:35:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:35:52] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 21:35:52] INFO model_training_service: Model for EURUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:35:52] INFO model_training_service: Model for EURUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:35:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:35:52] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-18 21:35:57] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: unsupported format string passed to Series.__format__
+[2025-07-18 21:36:10] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:36:10] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 21:36:10] INFO model_training_service: Model for USDJPY is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:36:10] INFO model_training_service: Model for USDJPY (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:36:10] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:36:10] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-18 21:36:15] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: unsupported format string passed to Series.__format__
+[2025-07-18 21:36:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:36:34] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-18 21:36:34] INFO model_training_service: Model for NZDUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:36:34] INFO model_training_service: Model for NZDUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:36:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:36:34] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-18 21:36:39] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: unsupported format string passed to Series.__format__
+[2025-07-18 21:45:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:45:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:45:36] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:45:36] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:45:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:45:50] INFO model_training_service: Starting training for EURUSD...
+[2025-07-18 21:45:50] INFO model_training_service: Model for EURUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:45:50] INFO model_training_service: Model for EURUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:45:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:45:50] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-18 21:45:55] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: unsupported format string passed to Series.__format__
+[2025-07-18 21:45:55] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:45:55] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-18 21:46:00] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: unsupported format string passed to Series.__format__
+[2025-07-18 21:46:15] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:46:15] INFO model_training_service: Starting training for USDJPY...
+[2025-07-18 21:46:15] INFO model_training_service: Model for USDJPY is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:46:15] INFO model_training_service: Model for USDJPY (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:46:15] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:46:15] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-18 21:46:20] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: unsupported format string passed to Series.__format__
+[2025-07-18 21:46:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:46:20] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-18 21:46:26] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: unsupported format string passed to Series.__format__
+[2025-07-18 21:46:45] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:46:45] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-18 21:46:45] INFO model_training_service: Model for NZDUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:46:45] INFO model_training_service: Model for NZDUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:46:45] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:46:45] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-18 21:46:50] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: unsupported format string passed to Series.__format__
+[2025-07-18 21:46:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:46:50] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-18 21:46:55] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: unsupported format string passed to Series.__format__
+[2025-07-18 21:47:19] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:47:19] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-18 21:47:19] INFO model_training_service: Model for NZDJPY is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:47:19] INFO model_training_service: Model for NZDJPY (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:47:19] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:47:19] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-18 21:47:24] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: unsupported format string passed to Series.__format__
+[2025-07-18 21:47:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:47:24] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-18 21:47:29] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: unsupported format string passed to Series.__format__
+[2025-07-18 21:48:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:48:20] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-18 21:48:20] INFO model_training_service: Model for BTCUSD is up to date (version: 55235dc799d148e6528ff807876fabcc). Loading from MongoDB.
+[2025-07-18 21:48:20] INFO model_training_service: Model for BTCUSD (version 55235dc799d148e6528ff807876fabcc) loaded from MongoDB.
+[2025-07-18 21:48:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:48:20] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-18 21:48:25] ERROR model_training_service: [Auto-Retrain] Model retrain failed for BTCUSD: unsupported format string passed to Series.__format__
+[2025-07-18 21:48:25] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-18 21:48:25] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-18 21:48:29] ERROR model_training_service: [Auto-Retrain] Model retrain failed for BTCUSD: unsupported format string passed to Series.__format__
+[2025-07-19 00:00:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:00:16] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 00:00:16] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 00:00:18] INFO model_training_service: Model Accuracy: 0.8462
+[2025-07-19 00:00:18] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.85       663
+           1       0.85      0.85      0.85       663
+
+    accuracy                           0.85      1326
+   macro avg       0.85      0.85      0.85      1326
+weighted avg       0.85      0.85      0.85      1326
+
+[2025-07-19 00:00:18] INFO model_training_service: Saved model version for EURUSD: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 00:00:18] INFO model_training_service: Model, scaler, features, and version saved for EURUSD
+[2025-07-19 00:00:18] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 00:00:18] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:00:18] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 00:00:24] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: unsupported format string passed to Series.__format__
+[2025-07-19 00:00:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:00:24] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 00:00:29] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: unsupported format string passed to Series.__format__
+[2025-07-19 00:00:38] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:00:38] INFO model_training_service: Starting training for USDJPY...
+[2025-07-19 00:00:38] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 00:00:39] INFO model_training_service: Model Accuracy: 0.8143
+[2025-07-19 00:00:39] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.80      0.81       622
+           1       0.80      0.83      0.82       622
+
+    accuracy                           0.81      1244
+   macro avg       0.81      0.81      0.81      1244
+weighted avg       0.81      0.81      0.81      1244
+
+[2025-07-19 00:00:39] INFO model_training_service: Saved model version for USDJPY: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 00:00:39] INFO model_training_service: Model, scaler, features, and version saved for USDJPY
+[2025-07-19 00:00:39] INFO model_training_service: Model for USDJPY (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 00:00:39] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:00:39] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 00:00:54] INFO model_training_service: [Auto-Retrain] Model retrained and saved for USDJPY.
+[2025-07-19 00:00:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:00:54] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 00:00:59] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: unsupported format string passed to Series.__format__
+[2025-07-19 00:01:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:01:20] INFO model_training_service: Starting training for USDCHF...
+[2025-07-19 00:01:20] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 00:01:21] INFO model_training_service: Model Accuracy: 0.8739
+[2025-07-19 00:01:21] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.87      0.87       686
+           1       0.87      0.88      0.87       686
+
+    accuracy                           0.87      1372
+   macro avg       0.87      0.87      0.87      1372
+weighted avg       0.87      0.87      0.87      1372
+
+[2025-07-19 00:01:21] INFO model_training_service: Saved model version for USDCHF: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 00:01:21] INFO model_training_service: Model, scaler, features, and version saved for USDCHF
+[2025-07-19 00:01:21] INFO model_training_service: Model for USDCHF (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 00:01:21] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:01:21] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 00:01:36] INFO model_training_service: [Auto-Retrain] Model retrained and saved for USDCHF.
+[2025-07-19 00:01:36] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:01:36] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 00:01:42] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDCHF: unsupported format string passed to Series.__format__
+[2025-07-19 00:01:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:01:54] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-19 00:01:54] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 00:01:56] INFO model_training_service: Model Accuracy: 0.8367
+[2025-07-19 00:01:56] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.86      0.84       625
+           1       0.85      0.82      0.83       624
+
+    accuracy                           0.84      1249
+   macro avg       0.84      0.84      0.84      1249
+weighted avg       0.84      0.84      0.84      1249
+
+[2025-07-19 00:01:56] INFO model_training_service: Saved model version for NZDUSD: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 00:01:56] INFO model_training_service: Model, scaler, features, and version saved for NZDUSD
+[2025-07-19 00:01:56] INFO model_training_service: Model for NZDUSD (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 00:01:56] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:01:56] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 00:02:13] INFO model_training_service: [Auto-Retrain] Model retrained and saved for NZDUSD.
+[2025-07-19 00:02:13] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:02:13] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 00:02:19] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: unsupported format string passed to Series.__format__
+[2025-07-19 00:02:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:02:30] INFO model_training_service: Starting training for EURJPY...
+[2025-07-19 00:02:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 00:02:32] INFO model_training_service: Model Accuracy: 0.8539
+[2025-07-19 00:02:32] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.85      0.85       633
+           1       0.85      0.86      0.85       633
+
+    accuracy                           0.85      1266
+   macro avg       0.85      0.85      0.85      1266
+weighted avg       0.85      0.85      0.85      1266
+
+[2025-07-19 00:02:32] INFO model_training_service: Saved model version for EURJPY: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 00:02:32] INFO model_training_service: Model, scaler, features, and version saved for EURJPY
+[2025-07-19 00:02:32] INFO model_training_service: Model for EURJPY (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 00:02:32] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:02:32] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 00:02:46] INFO model_training_service: [Auto-Retrain] Model retrained and saved for EURJPY.
+[2025-07-19 00:02:46] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:02:46] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 00:02:51] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURJPY: unsupported format string passed to Series.__format__
+[2025-07-19 00:03:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:03:04] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-19 00:03:04] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 00:03:05] INFO model_training_service: Model Accuracy: 0.8151
+[2025-07-19 00:03:05] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.80      0.81       614
+           1       0.81      0.83      0.82       614
+
+    accuracy                           0.82      1228
+   macro avg       0.82      0.82      0.82      1228
+weighted avg       0.82      0.82      0.82      1228
+
+[2025-07-19 00:03:05] INFO model_training_service: Saved model version for NZDJPY: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 00:03:05] INFO model_training_service: Model, scaler, features, and version saved for NZDJPY
+[2025-07-19 00:03:05] INFO model_training_service: Model for NZDJPY (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 00:03:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:03:05] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 00:03:20] INFO model_training_service: [Auto-Retrain] Model retrained and saved for NZDJPY.
+[2025-07-19 00:03:20] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:03:20] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 00:03:26] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: unsupported format string passed to Series.__format__
+[2025-07-19 00:03:41] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:03:41] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-19 00:03:41] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 00:03:43] INFO model_training_service: Model Accuracy: 0.7490
+[2025-07-19 00:03:43] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.76      0.75       522
+           1       0.75      0.74      0.75       522
+
+    accuracy                           0.75      1044
+   macro avg       0.75      0.75      0.75      1044
+weighted avg       0.75      0.75      0.75      1044
+
+[2025-07-19 00:03:43] INFO model_training_service: Saved model version for BTCUSD: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 00:03:43] INFO model_training_service: Model, scaler, features, and version saved for BTCUSD
+[2025-07-19 00:03:43] INFO model_training_service: Model for BTCUSD (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 00:03:43] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:03:43] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-19 00:03:57] INFO model_training_service: [Auto-Retrain] Model retrained and saved for BTCUSD.
+[2025-07-19 00:03:57] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:03:57] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-19 00:04:02] ERROR model_training_service: [Auto-Retrain] Model retrain failed for BTCUSD: unsupported format string passed to Series.__format__
+[2025-07-19 00:19:58] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:19:58] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:20:07] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:20:07] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 00:20:07] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 00:20:07] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 00:20:07] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:20:07] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 00:20:17] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:20:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:20:17] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 00:20:27] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:20:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:20:34] INFO model_training_service: Starting training for USDJPY...
+[2025-07-19 00:20:34] INFO model_training_service: Model for USDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 00:20:34] INFO model_training_service: Model for USDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 00:20:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:20:34] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 00:20:44] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:20:44] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:20:44] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 00:20:54] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:21:02] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:21:02] INFO model_training_service: Starting training for USDCHF...
+[2025-07-19 00:21:02] INFO model_training_service: Model for USDCHF is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 00:21:02] INFO model_training_service: Model for USDCHF (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 00:21:02] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:21:02] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 00:21:12] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDCHF: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:21:12] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:21:12] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 00:21:22] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDCHF: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:21:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:21:29] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-19 00:21:29] INFO model_training_service: Model for NZDUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 00:21:29] INFO model_training_service: Model for NZDUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 00:21:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:21:29] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 00:21:39] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:21:39] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:21:39] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 00:21:49] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:21:56] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:21:56] INFO model_training_service: Starting training for EURJPY...
+[2025-07-19 00:21:56] INFO model_training_service: Model for EURJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 00:21:56] INFO model_training_service: Model for EURJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 00:21:56] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:21:56] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 00:22:06] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:22:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:22:06] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 00:22:18] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:22:25] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:22:25] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-19 00:22:25] INFO model_training_service: Model for NZDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 00:22:25] INFO model_training_service: Model for NZDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 00:22:25] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:22:25] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 00:22:35] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:22:35] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:22:35] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 00:22:45] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:22:57] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:22:57] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-19 00:22:57] INFO model_training_service: Model for BTCUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 00:22:57] INFO model_training_service: Model for BTCUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 00:22:57] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:22:57] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-19 00:23:09] ERROR model_training_service: [Auto-Retrain] Model retrain failed for BTCUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:23:09] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:23:09] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-19 00:23:21] ERROR model_training_service: [Auto-Retrain] Model retrain failed for BTCUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 00:38:35] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:38:35] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:38:55] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:38:55] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:39:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:39:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:40:00] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 00:40:00] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:23:27] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:24:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:25:26] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:30:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:30:06] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 01:30:06] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 01:30:06] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 01:30:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:30:06] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 01:30:16] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:30:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:30:16] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 01:30:27] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:30:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:30:33] INFO model_training_service: Starting training for USDJPY...
+[2025-07-19 01:30:33] INFO model_training_service: Model for USDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 01:30:33] INFO model_training_service: Model for USDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 01:30:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:30:33] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 01:30:43] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:30:43] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:30:43] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 01:30:54] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:31:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:31:01] INFO model_training_service: Starting training for USDCHF...
+[2025-07-19 01:31:01] INFO model_training_service: Model for USDCHF is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 01:31:01] INFO model_training_service: Model for USDCHF (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 01:31:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:31:01] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 01:31:12] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDCHF: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:31:12] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:31:12] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 01:31:22] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDCHF: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:31:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:31:28] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-19 01:31:28] INFO model_training_service: Model for NZDUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 01:31:28] INFO model_training_service: Model for NZDUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 01:31:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:31:28] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 01:31:39] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:31:39] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:31:39] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 01:31:49] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:31:55] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:31:55] INFO model_training_service: Starting training for EURJPY...
+[2025-07-19 01:31:55] INFO model_training_service: Model for EURJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 01:31:55] INFO model_training_service: Model for EURJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 01:31:55] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:31:55] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 01:32:06] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:32:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:32:06] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 01:32:17] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:32:23] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:32:23] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-19 01:32:23] INFO model_training_service: Model for NZDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 01:32:23] INFO model_training_service: Model for NZDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 01:32:23] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:32:23] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 01:32:33] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:32:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:32:33] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 01:32:43] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:32:55] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:32:55] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-19 01:32:55] INFO model_training_service: Model for BTCUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 01:32:55] INFO model_training_service: Model for BTCUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 01:32:55] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:32:55] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-19 01:33:07] ERROR model_training_service: [Auto-Retrain] Model retrain failed for BTCUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 01:33:07] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 01:33:07] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-19 01:33:20] ERROR model_training_service: [Auto-Retrain] Model retrain failed for BTCUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 08:30:15] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:30:15] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 08:30:15] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 08:30:15] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 08:30:15] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:30:15] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 08:30:26] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 08:30:27] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:30:27] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 08:30:37] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 08:30:47] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:30:47] INFO model_training_service: Starting training for USDJPY...
+[2025-07-19 08:30:47] INFO model_training_service: Model for USDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 08:30:47] INFO model_training_service: Model for USDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 08:30:47] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:30:47] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 08:31:03] INFO model_training_service: [Auto-Retrain] Model retrained and saved for USDJPY.
+[2025-07-19 08:31:03] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:31:03] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 08:31:13] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 08:31:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:31:28] INFO model_training_service: Starting training for USDCHF...
+[2025-07-19 08:31:28] INFO model_training_service: Model for USDCHF is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 08:31:28] INFO model_training_service: Model for USDCHF (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 08:31:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:31:28] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 08:31:49] INFO model_training_service: [Auto-Retrain] Model retrained and saved for USDCHF.
+[2025-07-19 08:31:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:31:49] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 08:32:00] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDCHF: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 08:32:14] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:32:14] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-19 08:32:14] INFO model_training_service: Model for NZDUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 08:32:14] INFO model_training_service: Model for NZDUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 08:32:14] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:32:14] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 08:32:32] INFO model_training_service: [Auto-Retrain] Model retrained and saved for NZDUSD.
+[2025-07-19 08:32:32] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:32:32] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 08:32:43] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 08:32:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:32:52] INFO model_training_service: Starting training for EURJPY...
+[2025-07-19 08:32:52] INFO model_training_service: Model for EURJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 08:32:52] INFO model_training_service: Model for EURJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 08:32:52] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:32:52] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 08:33:09] INFO model_training_service: [Auto-Retrain] Model retrained and saved for EURJPY.
+[2025-07-19 08:33:09] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:33:09] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 08:33:19] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 08:33:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:33:30] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-19 08:33:30] INFO model_training_service: Model for NZDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 08:33:30] INFO model_training_service: Model for NZDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 08:33:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:33:30] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 08:33:47] INFO model_training_service: [Auto-Retrain] Model retrained and saved for NZDJPY.
+[2025-07-19 08:33:47] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 08:33:47] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 08:33:58] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 09:19:12] INFO model_training_service: Starting training for ALL...
+[2025-07-19 10:00:08] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:00:08] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 10:00:08] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 10:00:08] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 10:00:08] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:00:08] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 10:00:19] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 10:00:19] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:00:19] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 10:00:29] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 10:00:35] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:00:35] INFO model_training_service: Starting training for USDJPY...
+[2025-07-19 10:00:35] INFO model_training_service: Model for USDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 10:00:35] INFO model_training_service: Model for USDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 10:00:35] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:00:35] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 10:00:48] INFO model_training_service: [Auto-Retrain] Model retrained and saved for USDJPY.
+[2025-07-19 10:00:48] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:00:48] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 10:00:58] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 10:01:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:01:04] INFO model_training_service: Starting training for USDCHF...
+[2025-07-19 10:01:04] INFO model_training_service: Model for USDCHF is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 10:01:04] INFO model_training_service: Model for USDCHF (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 10:01:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:01:04] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 10:01:17] INFO model_training_service: [Auto-Retrain] Model retrained and saved for USDCHF.
+[2025-07-19 10:01:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:01:17] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 10:01:28] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDCHF: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 10:01:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:01:34] INFO model_training_service: Starting training for NZDUSD...
+[2025-07-19 10:01:34] INFO model_training_service: Model for NZDUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 10:01:34] INFO model_training_service: Model for NZDUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 10:01:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:01:34] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 10:01:47] INFO model_training_service: [Auto-Retrain] Model retrained and saved for NZDUSD.
+[2025-07-19 10:01:48] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:01:48] INFO model_training_service: [Auto-Retrain] Retraining model for NZDUSD due to feature mismatch or update.
+[2025-07-19 10:01:58] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 10:02:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:02:04] INFO model_training_service: Starting training for EURJPY...
+[2025-07-19 10:02:04] INFO model_training_service: Model for EURJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 10:02:04] INFO model_training_service: Model for EURJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 10:02:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:02:04] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 10:02:18] INFO model_training_service: [Auto-Retrain] Model retrained and saved for EURJPY.
+[2025-07-19 10:02:18] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:02:18] INFO model_training_service: [Auto-Retrain] Retraining model for EURJPY due to feature mismatch or update.
+[2025-07-19 10:02:28] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 10:02:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:02:34] INFO model_training_service: Starting training for NZDJPY...
+[2025-07-19 10:02:34] INFO model_training_service: Model for NZDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 10:02:34] INFO model_training_service: Model for NZDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 10:02:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:02:34] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 10:02:46] INFO model_training_service: [Auto-Retrain] Model retrained and saved for NZDJPY.
+[2025-07-19 10:02:46] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:02:46] INFO model_training_service: [Auto-Retrain] Retraining model for NZDJPY due to feature mismatch or update.
+[2025-07-19 10:02:57] ERROR model_training_service: [Auto-Retrain] Model retrain failed for NZDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 10:03:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:03:06] INFO model_training_service: Starting training for BTCUSD...
+[2025-07-19 10:03:06] INFO model_training_service: Model for BTCUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 10:03:06] INFO model_training_service: Model for BTCUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 10:03:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:03:06] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-19 10:03:25] INFO model_training_service: [Auto-Retrain] Model retrained and saved for BTCUSD.
+[2025-07-19 10:03:25] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 10:03:25] INFO model_training_service: [Auto-Retrain] Retraining model for BTCUSD due to feature mismatch or update.
+[2025-07-19 10:03:44] ERROR model_training_service: [Auto-Retrain] Model retrain failed for BTCUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 10:20:21] INFO model_training_service: Starting training for ALL...
+[2025-07-19 12:38:01] INFO model_training_service: Starting training for ALL...
+[2025-07-19 15:03:24] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 15:15:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 15:16:40] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 15:16:40] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 15:16:40] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 15:16:40] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 15:16:40] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 15:16:40] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 15:20:41] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 15:46:44] INFO model_training_service: Starting training for ALL...
+[2025-07-19 16:18:32] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:19:16] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:19:16] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:19:16] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:19:16] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:19:16] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 16:19:16] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 16:19:16] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:19:16] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:19:16] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:19:16] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:19:16] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:19:16] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:19:16] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:16] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:16] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:19:17] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:19:17] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:19:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:17] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:17] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:19:17] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:19:17] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:19:17] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 16:19:17] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 16:19:17] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 16:19:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:19:17] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:19:17] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:19:17] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:19:17] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:19:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:06] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:49] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:49] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:49] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:34:49] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:34:49] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:34:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:49] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:49] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-19 16:34:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:49] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:49] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:49] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:34:50] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:34:50] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:34:50] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 16:34:50] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 16:34:50] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 16:34:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:50] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:50] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:34:50] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:34:50] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:34:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:50] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:50] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:50] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:34:50] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:34:50] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:34:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:50] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:50] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:34:50] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:34:50] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:34:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:50] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:50] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:50] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:34:50] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:34:50] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:34:50] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:50] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:50] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:34:51] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:34:51] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:34:51] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 16:34:51] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 16:34:51] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 16:34:51] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:34:51] INFO model_training_service: Starting training for TEST...
+[2025-07-19 16:34:51] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 16:34:51] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 16:34:51] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 16:35:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:35:17] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 16:35:17] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 16:35:17] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 16:35:17] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 16:35:17] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 17:40:41] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:41:33] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:41:33] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:41:33] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:41:33] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:41:33] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 17:41:33] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 17:41:33] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:41:33] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:41:33] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:41:33] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:41:33] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:41:33] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:41:33] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:33] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:33] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:41:34] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:41:34] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:41:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:34] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:34] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:41:34] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:41:34] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:41:34] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 17:41:34] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 17:41:34] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 17:41:34] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:41:34] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:41:34] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:41:34] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:41:34] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:42:22] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:42:22] INFO model_training_service: Starting training for USDJPY...
+[2025-07-19 17:42:22] INFO model_training_service: Model for USDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 17:42:22] INFO model_training_service: Model for USDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 17:42:22] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:42:22] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 17:49:24] INFO model_training_service: Starting training for ALL...
+[2025-07-19 17:53:53] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:28] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:28] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:28] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:54:29] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:54:29] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:54:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:29] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:29] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-19 17:54:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:29] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:29] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:29] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:54:29] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:54:29] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:54:29] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 17:54:29] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 17:54:29] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 17:54:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:29] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:29] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:54:29] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:54:29] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:54:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:29] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:29] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:29] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:54:29] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:54:29] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:54:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:29] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:29] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:54:30] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:54:30] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:54:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:30] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:30] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:54:30] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:54:30] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:54:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:30] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:54:30] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:54:30] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:54:30] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 17:54:30] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 17:54:30] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 17:54:30] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:30] INFO model_training_service: Starting training for TEST...
+[2025-07-19 17:54:30] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 17:54:30] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 17:54:30] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 17:54:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:49] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 17:54:49] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 17:54:49] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 17:54:49] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 17:54:49] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 18:26:28] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:04] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:04] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:04] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:27:04] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:27:04] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:27:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:04] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:04] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-19 18:27:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:04] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:04] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:04] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:04] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:27:05] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:27:05] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:27:05] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 18:27:05] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 18:27:05] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 18:27:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:05] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:05] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:27:05] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:27:05] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:27:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:05] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:05] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:05] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:27:05] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:27:05] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:27:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:05] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:05] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:27:05] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:27:05] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:27:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:05] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:05] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:05] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:27:05] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:27:05] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:27:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:05] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:05] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:27:05] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:27:05] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:27:05] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 18:27:05] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 18:27:05] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 18:27:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:05] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:27:05] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:27:06] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:27:06] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:27:31] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:31] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 18:27:31] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 18:27:31] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 18:27:31] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:27:31] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 18:28:05] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 18:28:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:28:05] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 18:28:26] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:00] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:00] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:00] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:00] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:00] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:29:00] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:29:00] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:29:00] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:00] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:00] ERROR model_training_service: Not enough data for training TEST. Need at least 10, got 5.
+[2025-07-19 18:29:00] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:00] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:00] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:00] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:00] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:29:00] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:29:00] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:29:00] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 18:29:00] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 18:29:00] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 18:29:00] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:00] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:00] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:29:01] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:29:01] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:29:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:01] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:01] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:01] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:29:01] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:29:01] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:29:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:01] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:01] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:29:01] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:29:01] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:29:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:01] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:01] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:01] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:29:01] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:29:01] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:29:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:01] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:01] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:29:01] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:29:01] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:29:01] INFO model_training_service: Saved model version for TEST: e04d814978e99716dc9fc33f6f6af3e9
+[2025-07-19 18:29:01] INFO model_training_service: Model, scaler, features, and version saved for TEST
+[2025-07-19 18:29:01] INFO model_training_service: Model for TEST (version e04d814978e99716dc9fc33f6f6af3e9) saved to MongoDB.
+[2025-07-19 18:29:01] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:01] INFO model_training_service: Starting training for TEST...
+[2025-07-19 18:29:01] INFO model_training_service: Fitting ensemble and calibrating probabilities...
+[2025-07-19 18:29:01] INFO model_training_service: Model Accuracy: 0.6667
+[2025-07-19 18:29:01] INFO model_training_service: 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75         3
+           1       1.00      0.33      0.50         3
+
+    accuracy                           0.67         6
+   macro avg       0.80      0.67      0.62         6
+weighted avg       0.80      0.67      0.62         6
+
+[2025-07-19 18:29:32] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:32] INFO model_training_service: Starting training for EURUSD...
+[2025-07-19 18:29:32] INFO model_training_service: Model for EURUSD is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 18:29:32] INFO model_training_service: Model for EURUSD (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 18:29:32] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:29:32] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 18:31:54] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 18:31:54] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:31:54] INFO model_training_service: [Auto-Retrain] Retraining model for EURUSD due to feature mismatch or update.
+[2025-07-19 18:31:56] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 18:32:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:32:05] INFO model_training_service: Starting training for USDJPY...
+[2025-07-19 18:32:05] INFO model_training_service: Model for USDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 18:32:05] INFO model_training_service: Model for USDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 18:32:05] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:32:05] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 18:32:19] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 18:32:19] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:32:19] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 18:32:41] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 18:32:44] ERROR model_training_service: [Auto-Retrain] Model retrain failed for EURUSD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 18:33:02] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:33:02] INFO model_training_service: Starting training for USDJPY...
+[2025-07-19 18:33:02] INFO model_training_service: Model for USDJPY is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 18:33:02] INFO model_training_service: Model for USDJPY (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 18:33:02] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:33:02] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.
+[2025-07-19 18:33:03] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:33:03] INFO model_training_service: Starting training for USDCHF...
+[2025-07-19 18:33:03] INFO model_training_service: Model for USDCHF is up to date (version: e04d814978e99716dc9fc33f6f6af3e9). Loading from MongoDB.
+[2025-07-19 18:33:03] INFO model_training_service: Model for USDCHF (version e04d814978e99716dc9fc33f6f6af3e9) loaded from MongoDB.
+[2025-07-19 18:33:03] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:33:03] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 18:33:13] ERROR model_training_service: [Auto-Retrain] No price data for USDCHF. Cannot retrain.
+[2025-07-19 18:33:13] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:33:13] INFO model_training_service: [Auto-Retrain] Retraining model for USDCHF due to feature mismatch or update.
+[2025-07-19 18:41:29] ERROR model_training_service: [Auto-Retrain] Model retrain failed for USDJPY: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-07-19 18:41:29] INFO model_training_service: MongoDB connected: mongodb://localhost:27017/, db: forex_ai, collection: models
+[2025-07-19 18:41:29] INFO model_training_service: [Auto-Retrain] Retraining model for USDJPY due to feature mismatch or update.

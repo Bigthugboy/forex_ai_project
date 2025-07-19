@@ -185,8 +185,18 @@ class MultiTimeframeData:
                 base_df.index = base_df.index.tz_localize(None)
             if tf_data.index.tz is not None:
                 tf_data.index = tf_data.index.tz_localize(None)
-            # --- Fix: Align tf_data to base_df index using reindex and ffill ---
+            # --- Enhanced index alignment and logging ---
+            base_index = base_df.index
+            tf_index = tf_data.index
+            if not base_index.equals(tf_index):
+                logger.warning(f"[MTF ALIGNMENT] Index mismatch for {tf_name}: base_index({len(base_index)}) != tf_index({len(tf_index)}). Aligning with reindex.")
+                logger.debug(f"[MTF ALIGNMENT] base_index sample: {list(base_index[:5])} ... {list(base_index[-5:])}")
+                logger.debug(f"[MTF ALIGNMENT] tf_index sample: {list(tf_index[:5])} ... {list(tf_index[-5:])}")
             tf_data = tf_data.reindex(base_df.index, method='ffill')
+            if tf_data.isnull().any().any():
+                logger.warning(f"[MTF ALIGNMENT] After reindex, NaNs present in tf_data for {tf_name}. Filling with 0.")
+                tf_data = tf_data.fillna(0)
+            # --- Fix: Align tf_data to base_df index using reindex and ffill ---
             # Now, base_df and tf_data always have the same index
             # Calculate timeframe-specific indicators
             close_col = [col for col in tf_data.columns if col.startswith('Close')][0]

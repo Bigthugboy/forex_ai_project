@@ -1,0 +1,3650 @@
+{
+  "EURUSD": [
+    {
+      "timestamp": "2025-07-19T01:23:29.860128",
+      "pair": "EURUSD",
+      "patterns": {
+        "technical": [
+          "doji",
+          "pin_bar"
+        ],
+        "trend": "downtrend",
+        "volatility": "normal",
+        "regime": "range",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 1.1831519604,
+        "low": 1.0182262659,
+        "current": 1.1618449688
+      },
+      "volatility": 0.0011218242770962654,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T01:25:29.715142",
+      "pair": "EURUSD",
+      "patterns": {
+        "technical": [
+          "doji",
+          "pin_bar"
+        ],
+        "trend": "downtrend",
+        "volatility": "normal",
+        "regime": "range",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 1.1831519604,
+        "low": 1.0182262659,
+        "current": 1.1618449688
+      },
+      "volatility": 0.0011218242770962654,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T15:03:42.772951",
+      "pair": "EURUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0006875255940014358
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0020157954379594273
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.003421169610030881
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:03:43.645835",
+      "pair": "EURUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0006875255940014358
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0020157954379594273
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.003421169610030881
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:15:19.765205",
+      "pair": "EURUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0006875255940014358
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0020157954462228594
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.003421169610030881
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:20:45.086453",
+      "pair": "EURUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0006875255940014358
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0020157954462228594
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.003421169610030881
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    }
+  ],
+  "USDJPY": [
+    {
+      "timestamp": "2025-07-19T01:23:36.720908",
+      "pair": "USDJPY",
+      "patterns": {
+        "technical": [
+          "doji",
+          "pin_bar",
+          "rising_wedge"
+        ],
+        "trend": "uptrend",
+        "volatility": "normal",
+        "regime": "choppy",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 158.87899780273438,
+        "low": 139.8820037841797,
+        "current": 148.74400329589844
+      },
+      "volatility": 0.001325580613179566,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T01:25:34.442528",
+      "pair": "USDJPY",
+      "patterns": {
+        "technical": [
+          "doji",
+          "pin_bar",
+          "rising_wedge"
+        ],
+        "trend": "uptrend",
+        "volatility": "normal",
+        "regime": "choppy",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 158.8789978027,
+        "low": 139.8820037842,
+        "current": 148.7440032959
+      },
+      "volatility": 0.0013255806131813803,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T15:04:16.237658",
+      "pair": "USDJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007596730935173146
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0023857383419665455
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007596730935173146
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:04:16.237931",
+      "pair": "USDJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007596730935173146
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0023857383419665455
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007596730935173146
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:15:26.312538",
+      "pair": "USDJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007596730935379212
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0023857383420515564
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007596730935379212
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:20:51.193470",
+      "pair": "USDJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007596730935379212
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0023857383420515564
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007596730935379212
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    }
+  ],
+  "USDCHF": [
+    {
+      "timestamp": "2025-07-19T01:23:44.004000",
+      "pair": "USDCHF",
+      "patterns": {
+        "technical": [
+          "falling_wedge"
+        ],
+        "trend": "downtrend",
+        "volatility": "normal",
+        "regime": "range",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 0.9200299978256226,
+        "low": 0.7871800065040588,
+        "current": 0.8015599846839905
+      },
+      "volatility": 0.0011625816818447339,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T01:25:39.196071",
+      "pair": "USDCHF",
+      "patterns": {
+        "technical": [
+          "falling_wedge"
+        ],
+        "trend": "downtrend",
+        "volatility": "normal",
+        "regime": "range",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 0.9200299978,
+        "low": 0.7871800065,
+        "current": 0.8015599847
+      },
+      "volatility": 0.0011625816814664605,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T15:04:42.676552",
+      "pair": "USDCHF",
+      "patterns": {
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bullish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0022904278888252754
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.003981010896053274
+        }
+      },
+      "sentiment": {
+        "current": 0.031558333333333334,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:04:45.541223",
+      "pair": "USDCHF",
+      "patterns": {
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bullish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0022904278888252754
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.003981010896053274
+        }
+      },
+      "sentiment": {
+        "current": 0.031558333333333334,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:15:38.487897",
+      "pair": "USDCHF",
+      "patterns": {
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bullish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0022904278902932634
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.003981010909526735
+        }
+      },
+      "sentiment": {
+        "current": 0.031558333333333334,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:21:00.856433",
+      "pair": "USDCHF",
+      "patterns": {
+        "1h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bullish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0007336047400856348
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0022904278902932634
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.003981010909526735
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    }
+  ],
+  "NZDUSD": [
+    {
+      "timestamp": "2025-07-19T01:23:50.297547",
+      "pair": "NZDUSD",
+      "patterns": {
+        "technical": [
+          "doji",
+          "rising_wedge"
+        ],
+        "trend": "sideways",
+        "volatility": "normal",
+        "regime": "uptrend",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 0.6122199296951294,
+        "low": 0.5492392778396606,
+        "current": 0.5964452028274536
+      },
+      "volatility": 0.001341602916373367,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T01:25:44.003894",
+      "pair": "NZDUSD",
+      "patterns": {
+        "technical": [
+          "doji",
+          "rising_wedge"
+        ],
+        "trend": "sideways",
+        "volatility": "normal",
+        "regime": "uptrend",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 0.6122199297,
+        "low": 0.5492392778,
+        "current": 0.5964452028
+      },
+      "volatility": 0.0013416029142272086,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T15:05:02.060682",
+      "pair": "NZDUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0009270052690012399
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.002868031928905357
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.002868031928905357
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:05:02.070265",
+      "pair": "NZDUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0009270052690012399
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.002868031928905357
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.002868031928905357
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:15:42.875994",
+      "pair": "NZDUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0009270052708228374
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0028680319593902275
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0028680319593902275
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:21:04.858124",
+      "pair": "NZDUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0009270052708228374
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0028680319593902275
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0028680319593902275
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    }
+  ],
+  "EURJPY": [
+    {
+      "timestamp": "2025-07-19T01:23:56.256756",
+      "pair": "EURJPY",
+      "patterns": {
+        "technical": [
+          "inside_bar",
+          "rising_wedge",
+          "bearish_pennant"
+        ],
+        "trend": "uptrend",
+        "volatility": "normal",
+        "regime": "uptrend",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 173.24200439453125,
+        "low": 154.79100036621094,
+        "current": 172.95399475097656
+      },
+      "volatility": 0.0012124826273775002,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T01:25:48.885611",
+      "pair": "EURJPY",
+      "patterns": {
+        "technical": [
+          "inside_bar",
+          "rising_wedge",
+          "bearish_pennant"
+        ],
+        "trend": "uptrend",
+        "volatility": "normal",
+        "regime": "uptrend",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 173.2420043945,
+        "low": 154.7910003662,
+        "current": 172.953994751
+      },
+      "volatility": 0.0012124826273758385,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T15:05:22.787744",
+      "pair": "EURJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.00043724894722326407
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.001407086225713953
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.001407086225713953
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:05:23.198814",
+      "pair": "EURJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.00043724894722326407
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.001407086225713953
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.001407086225713953
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:15:47.090615",
+      "pair": "EURJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.00043724894724826106
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.001407086225642721
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.001407086225642721
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:21:09.286628",
+      "pair": "EURJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.00043724894724826106
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.001407086225642721
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.001407086225642721
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    }
+  ],
+  "NZDJPY": [
+    {
+      "timestamp": "2025-07-19T01:24:02.481250",
+      "pair": "NZDJPY",
+      "patterns": {
+        "technical": [
+          "doji",
+          "rising_wedge",
+          "bearish_pennant"
+        ],
+        "trend": "uptrend",
+        "volatility": "normal",
+        "regime": "uptrend",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 92.45999908447266,
+        "low": 79.77999877929688,
+        "current": 88.71600341796875
+      },
+      "volatility": 0.0015383930780186019,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T01:25:53.687782",
+      "pair": "NZDJPY",
+      "patterns": {
+        "technical": [
+          "doji",
+          "rising_wedge",
+          "bearish_pennant"
+        ],
+        "trend": "uptrend",
+        "volatility": "normal",
+        "regime": "uptrend",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.032470833333333345,
+      "price_range": {
+        "high": 92.4599990845,
+        "low": 79.7799987793,
+        "current": 88.716003418
+      },
+      "volatility": 0.0015383930780262188,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T15:07:33.706640",
+      "pair": "NZDJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bearish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "bearish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0005228975296791936
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0018557516002046062
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0018557516002046062
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:07:33.922066",
+      "pair": "NZDJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bearish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "bearish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0005228975296791936
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0018557516002046062
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0018557516002046062
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:15:51.280572",
+      "pair": "NZDJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bearish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "bearish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.000522897529561925
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0018557516001366581
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0018557516001366581
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:21:13.671693",
+      "pair": "NZDJPY",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bearish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "bearish_harami",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.000522897529561925
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0018557516001366581
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0018557516001366581
+        }
+      },
+      "sentiment": {
+        "current": 0.03256428571428572,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    }
+  ],
+  "BTCUSD": [
+    {
+      "timestamp": "2025-07-19T01:24:13.288666",
+      "pair": "BTCUSD",
+      "patterns": {
+        "technical": [
+          "pin_bar"
+        ],
+        "trend": "downtrend",
+        "volatility": "normal",
+        "regime": "choppy",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.0,
+      "price_range": {
+        "high": 123077.6328125,
+        "low": 49578.88671875,
+        "current": 118006.859375
+      },
+      "volatility": 0.0053761254148335606,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T01:26:02.507847",
+      "pair": "BTCUSD",
+      "patterns": {
+        "technical": [
+          "falling_wedge",
+          "fakeout_down"
+        ],
+        "trend": "downtrend",
+        "volatility": "normal",
+        "regime": "range",
+        "rsi": "neutral"
+      },
+      "sentiment": 0.0,
+      "price_range": {
+        "high": 123077.6328125,
+        "low": 49578.88671875,
+        "current": 118006.859375
+      },
+      "volatility": 0.0053761254148335606,
+      "volume_trend": "stable"
+    },
+    {
+      "timestamp": "2025-07-19T15:16:27.663397",
+      "pair": "BTCUSD",
+      "patterns": {
+        "1h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0012868265764513157
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.015290301868036048
+        }
+      },
+      "sentiment": {
+        "current": 0.0,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T15:21:31.761749",
+      "pair": "BTCUSD",
+      "patterns": {
+        "1h": {
+          "technical": [],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "bullish_engulfing",
+              "strength": 1.0
+            },
+            {
+              "pattern": "bullish_engulfing_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0012868265764513157
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0050915467388922215
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.015290301868036048
+        }
+      },
+      "sentiment": {
+        "current": 0.0,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T16:35:05.210682",
+      "pair": "BTCUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "bearish_engulfing",
+              "strength": 1.0
+            },
+            {
+              "pattern": "bearish_engulfing_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "hammer",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "doji",
+              "strength": 1.0
+            },
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0015469492099493484
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0050915467388922215
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.015290301868036048
+        }
+      },
+      "sentiment": {
+        "current": 0.0,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T17:41:46.046775",
+      "pair": "BTCUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0016798913196083502
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.004942061448140481
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.015290301868036048
+        }
+      },
+      "sentiment": {
+        "current": 0.0,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T17:54:40.454366",
+      "pair": "BTCUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0016798913196083502
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.004942061448140481
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.015290301868036048
+        }
+      },
+      "sentiment": {
+        "current": 0.0,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T18:27:17.441642",
+      "pair": "BTCUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0016798913196083502
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.004942061448140481
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.015290301868036048
+        }
+      },
+      "sentiment": {
+        "current": 0.0,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    },
+    {
+      "timestamp": "2025-07-19T18:29:14.388878",
+      "pair": "BTCUSD",
+      "patterns": {
+        "1h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "4h": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        },
+        "1d": {
+          "technical": [
+            {
+              "pattern": "pin_bar",
+              "strength": 1.0
+            },
+            {
+              "pattern": "inside_bar",
+              "strength": 1.0
+            }
+          ],
+          "chart": [],
+          "harmonic": [],
+          "strength": 0.5
+        }
+      },
+      "regime": {
+        "1h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "4h": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        },
+        "1d": {
+          "trend_strength": 0.5,
+          "volatility_regime": "normal",
+          "momentum_regime": "neutral",
+          "overall_regime": "trending",
+          "confidence": 0.7
+        }
+      },
+      "volume_profile": {
+        "1h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "4h": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        },
+        "1d": {
+          "trend": "increasing",
+          "clusters": [],
+          "price_correlation": 0.0,
+          "abnormal_volume": false
+        }
+      },
+      "volatility": {
+        "1h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.0016798913196083502
+        },
+        "4h": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.004942061448140481
+        },
+        "1d": {
+          "regime": "normal",
+          "clustering": false,
+          "cycles": [],
+          "current_level": 0.015290301868036048
+        }
+      },
+      "sentiment": {
+        "current": 0.0,
+        "momentum": 0.0,
+        "confidence": 0.5
+      },
+      "price_action": {},
+      "support_resistance": {},
+      "momentum_indicators": {}
+    }
+  ]
+}

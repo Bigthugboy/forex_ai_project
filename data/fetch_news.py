@@ -125,6 +125,9 @@ def load_last_news_cache(pair):
         return json.load(f)
 
 def get_news_sentiment(keywords, from_date, to_date, pair=None, ttl_hours=12):
+    # For BTCUSD, prioritize crypto news sources and keywords
+    if pair == 'BTCUSD':
+        keywords = ['BTC', 'Bitcoin', 'BTCUSD', 'BTC-USD', 'crypto', 'cryptocurrency']
     logger.info(f"Starting news sentiment fetch for {keywords}, from={from_date}, to={to_date}, pair={pair}")
     all_headlines = []
     cache_key = f"{pair}_{from_date}_{to_date}" if pair else f"{from_date}_{to_date}"

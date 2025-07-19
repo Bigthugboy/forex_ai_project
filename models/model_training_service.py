@@ -15,6 +15,7 @@ from utils.logger import get_logger
 import hashlib
 from pymongo import MongoClient
 import gridfs
+from config import Config
 
 logger = get_logger('model_training_service', log_file='logs/model_training_service.log')
 
@@ -216,7 +217,44 @@ class ModelTrainingService:
         scaler = joblib.load(scaler_path)
         with open(features_path, 'r') as f:
             feature_cols = json.load(f)
-        return model, scaler, feature_cols 
+        return model, scaler, feature_cols
+
+    def retrain_model_for_pair(self, pair):
+        if pair not in Config.TRADING_PAIRS:
+            logger.warning(f"[TRAIN] Skipping {pair}: not in config.TRADING_PAIRS.")
+            return
+        """Retrain the model for a single pair, using the current feature set."""
+        logger.info(f"[Auto-Retrain] Retraining model for {pair} due to feature mismatch or update.")
+        from data.fetch_market import get_price_data
+        from data.preprocess import preprocess_features
+        price_df = get_price_data(pair, interval='1h', lookback=200)
+        if price_df is None or price_df.empty:
+            logger.error(f"[Auto-Retrain] No price data for {pair}. Cannot retrain.")
+            return
+        # Use dummy sentiment score (0.0) for retrain
+        features_df = preprocess_features(price_df, sentiment_score=0.0, use_multi_timeframe=True)
+        from models.train_model import train_signal_model
+        try:
+            train_signal_model(features_df, pair, model_dir=self.model_dir)
+            logger.info(f"[Auto-Retrain] Model retrained and saved for {pair}.")
+        except Exception as e:
+            logger.error(f"[Auto-Retrain] Model retrain failed for {pair}: {e}")
+
+    def retrain_all_models(self):
+        for pair in Config.TRADING_PAIRS:
+            self.retrain_model_for_pair(pair)
+        # Optionally, clean up model files for pairs not in config
+        model_files = os.listdir(self.model_dir)
+        for fname in model_files:
+            for ext in ['.pkl', '_scaler.pkl', '_features.json', '_version.txt']:
+                if fname.endswith(ext):
+                    pair_name = fname.replace('signal_model_', '').replace(ext, '').replace('_scaler', '').replace('_features', '').replace('_version', '')
+                    if pair_name not in Config.TRADING_PAIRS:
+                        try:
+                            os.remove(os.path.join(self.model_dir, fname))
+                            logger.info(f"[CLEANUP] Removed model file for non-config pair: {fname}")
+                        except Exception as e:
+                            logger.warning(f"[CLEANUP] Failed to remove {fname}: {e}")
 
 # --- Unit test stub for MongoDB model persistence ---
 def test_mongo_model_persistence():

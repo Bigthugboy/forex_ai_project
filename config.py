@@ -19,8 +19,8 @@ class Config:
     
     # Trading pairs
     TRADING_PAIRS = [
-        'EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'NZDUSD', 'USDCAD',
-        'EURJPY', 'GBPJPY', 'AUDJPY', 'NZDJPY'
+        'EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD',
+        'EURJPY', 'NZDJPY', 'BTCUSD'
     ]
     
     # Risk management

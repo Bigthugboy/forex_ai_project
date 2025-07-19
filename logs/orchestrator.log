@@ -1483,3 +1483,483 @@ Datetime                              ...
 2025-07-18 19:00:00+00:00  88.679001  ...                   True
 
 [4728 rows x 91 columns], 'error': None, 'logs': []}}
+[2025-07-18 20:20:49] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 20:20:49] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 20:20:49] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'NZDUSD', 'USDCAD', 'EURJPY', 'GBPJPY', 'AUDJPY', 'NZDJPY']
+[2025-07-18 20:21:25] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 20:21:25] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 20:21:25] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'NZDUSD', 'USDCAD', 'EURJPY', 'GBPJPY', 'AUDJPY', 'NZDJPY']
+[2025-07-18 20:23:52] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 20:23:52] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 20:23:52] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'NZDUSD', 'USDCAD', 'EURJPY', 'GBPJPY', 'AUDJPY', 'NZDJPY']
+[2025-07-18 20:27:21] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features':                                Open      High  ...  atr_14_4h  volatility_20_4h
+Datetime                                       ...                             
+2024-10-13 23:00:00+00:00  1.092657  1.093135  ...        0.0               0.0
+2024-10-14 00:00:00+00:00  1.092538  1.092777  ...        0.0               0.0
+2024-10-14 01:00:00+00:00  1.092657  1.092777  ...        0.0               0.0
+2024-10-14 02:00:00+00:00  1.092777  1.093016  ...        0.0               0.0
+2024-10-14 03:00:00+00:00  1.092896  1.093255  ...        0.0               0.0
+...                             ...       ...  ...        ...               ...
+2025-07-18 15:00:00+00:00  1.164687  1.166045  ...        0.0               0.0
+2025-07-18 16:00:00+00:00  1.163196  1.165094  ...        0.0               0.0
+2025-07-18 17:00:00+00:00  1.163061  1.163332  ...        0.0               0.0
+2025-07-18 18:00:00+00:00  1.162656  1.163061  ...        0.0               0.0
+2025-07-18 19:00:00+00:00  1.162250  1.162520  ...        0.0               0.0
+
+[4724 rows x 108 columns], 'error': 'The feature names should match those that were passed during fit.\nFeature names must be in the same order as they were in fit.\n', 'logs': []}, 'GBPUSD': {'pair': 'GBPUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open        High  ...  atr_14_4h  volatility_20_4h
+Datetime                                           ...                             
+2024-10-13 23:00:00+00:00  149.304993  149.391006  ...        0.0               0.0
+2024-10-14 00:00:00+00:00  149.216995  149.367004  ...        0.0               0.0
+2024-10-14 01:00:00+00:00  149.210007  149.278000  ...        0.0               0.0
+2024-10-14 02:00:00+00:00  149.315002  149.317993  ...        0.0               0.0
+2024-10-14 03:00:00+00:00  149.322998  149.352997  ...        0.0               0.0
+...                               ...         ...  ...        ...               ...
+2025-07-18 15:00:00+00:00  148.548996  148.563004  ...        0.0               0.0
+2025-07-18 16:00:00+00:00  148.686996  148.731995  ...        0.0               0.0
+2025-07-18 17:00:00+00:00  148.714005  148.794006  ...        0.0               0.0
+2025-07-18 18:00:00+00:00  148.764008  148.785004  ...        0.0               0.0
+2025-07-18 19:00:00+00:00  148.761993  148.800003  ...        0.0               0.0
+
+[4701 rows x 107 columns], 'error': 'The feature names should match those that were passed during fit.\nFeature names must be in the same order as they were in fit.\n', 'logs': []}, 'USDCHF': {'pair': 'USDCHF', 'signal': {'pair': 'USDCHF', 'trade_type': 'Sell Stop', 'entry': 0.80156, 'signal': 'SELL', 'confidence': 0.8295476606484177, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 0.80456, 'take_profit_1': 0.79556, 'take_profit_2': 0.79256, 'take_profit_3': 0.78956, 'latest_close': 0.8016600012779236, 'latest_high': 0.8019599914550781, 'latest_low': 0.8015999794006348, 'probabilities': array([0.82954766, 0.17045234]), 'position_size': 0.05}, 'features':                               Open  ...  wyckoff_distribution
+Datetime                            ...                      
+2024-10-13 23:00:00+00:00  0.85821  ...                   0.0
+2024-10-14 00:00:00+00:00  0.85826  ...                   0.0
+2024-10-14 01:00:00+00:00  0.85834  ...                   0.0
+2024-10-14 02:00:00+00:00  0.85827  ...                   0.0
+2024-10-14 03:00:00+00:00  0.85831  ...                   0.0
+...                            ...  ...                   ...
+2025-07-18 15:00:00+00:00  0.80013  ...                   0.0
+2025-07-18 16:00:00+00:00  0.80075  ...                   0.0
+2025-07-18 17:00:00+00:00  0.80123  ...                   0.0
+2025-07-18 18:00:00+00:00  0.80167  ...                   0.0
+2025-07-18 19:00:00+00:00  0.80176  ...                   0.0
+
+[4701 rows x 97 columns], 'error': None, 'logs': []}, 'AUDUSD': {'pair': 'AUDUSD', 'signal': {'pair': 'AUDUSD', 'trade_type': 'Sell Limit', 'entry': 0.65106, 'signal': 'SELL', 'confidence': 0.8702354477743656, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 0.65406, 'take_profit_1': 0.64506, 'take_profit_2': 0.64206, 'take_profit_3': 0.63906, 'latest_close': 0.6509568691253662, 'latest_high': 0.6510162353515625, 'latest_low': 0.6505757570266724, 'probabilities': array([0.87023545, 0.12976455]), 'position_size': 0.05}, 'features':                                Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2024-10-13 23:00:00+00:00  0.673228  ...                  False
+2024-10-14 00:00:00+00:00  0.673528  ...                  False
+2024-10-14 01:00:00+00:00  0.673491  ...                  False
+2024-10-14 02:00:00+00:00  0.673387  ...                  False
+2024-10-14 03:00:00+00:00  0.673982  ...                  False
+...                             ...  ...                    ...
+2025-07-18 15:00:00+00:00  0.652784  ...                  False
+2025-07-18 16:00:00+00:00  0.651423  ...                  False
+2025-07-18 17:00:00+00:00  0.651228  ...                  False
+2025-07-18 18:00:00+00:00  0.650940  ...                  False
+2025-07-18 19:00:00+00:00  0.650948  ...                  False
+
+[4758 rows x 92 columns], 'error': None, 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': {'pair': 'NZDUSD', 'trade_type': 'Sell Limit', 'entry': 0.5964, 'signal': 'SELL', 'confidence': 0.8763521802163489, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 0.5994, 'take_profit_1': 0.5904, 'take_profit_2': 0.5874, 'take_profit_3': 0.5844, 'latest_close': 0.5963740348815918, 'latest_high': 0.5963740348815918, 'latest_low': 0.5961251854896545, 'probabilities': array([0.87635218, 0.12364782]), 'position_size': 0.05}, 'features':                                Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2024-10-13 23:00:00+00:00  0.609236  ...                  False
+2024-10-14 00:00:00+00:00  0.609868  ...                  False
+2024-10-14 01:00:00+00:00  0.609422  ...                  False
+2024-10-14 02:00:00+00:00  0.609236  ...                  False
+2024-10-14 03:00:00+00:00  0.609533  ...                  False
+...                             ...  ...                    ...
+2025-07-18 15:00:00+00:00  0.597764  ...                   True
+2025-07-18 16:00:00+00:00  0.596766  ...                   True
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+
+[4758 rows x 92 columns], 'error': None, 'logs': []}, 'USDCAD': {'pair': 'USDCAD', 'signal': {'pair': 'USDCAD', 'trade_type': 'Instant Execution', 'entry': 1.37262, 'signal': 'SELL', 'confidence': 0.9760584569095206, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 1.37562, 'take_profit_1': 1.36662, 'take_profit_2': 1.36362, 'take_profit_3': 1.36062, 'latest_close': 1.3726199865341187, 'latest_high': 1.3732399940490723, 'latest_low': 1.3720999956130981, 'probabilities': array([0.97605846, 0.02394154]), 'position_size': 0.05}, 'features':                               Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2024-10-13 23:00:00+00:00  1.37821  ...                  False
+2024-10-14 00:00:00+00:00  1.37791  ...                  False
+2024-10-14 01:00:00+00:00  1.37841  ...                  False
+2024-10-14 02:00:00+00:00  1.37787  ...                  False
+2024-10-14 03:00:00+00:00  1.37757  ...                  False
+...                            ...  ...                    ...
+2025-07-18 15:00:00+00:00  1.37125  ...                  False
+2025-07-18 16:00:00+00:00  1.37252  ...                  False
+2025-07-18 17:00:00+00:00  1.37258  ...                  False
+2025-07-18 18:00:00+00:00  1.37259  ...                  False
+2025-07-18 19:00:00+00:00  1.37296  ...                  False
+
+[4755 rows x 92 columns], 'error': None, 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features':                                  Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2024-10-13 23:00:00+00:00  163.082001  ...                  False
+2024-10-14 00:00:00+00:00  162.959000  ...                  False
+2024-10-14 01:00:00+00:00  162.981995  ...                  False
+2024-10-14 02:00:00+00:00  163.121994  ...                  False
+2024-10-14 03:00:00+00:00  163.143997  ...                  False
+...                               ...  ...                    ...
+2025-07-18 15:00:00+00:00  172.996002  ...                  False
+2025-07-18 16:00:00+00:00  172.912003  ...                  False
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.852997  ...                  False
+
+[4726 rows x 91 columns], 'error': None, 'logs': []}, 'GBPJPY': {'pair': 'GBPJPY', 'signal': {'pair': 'GBPJPY', 'trade_type': 'Sell Limit', 'entry': 199.6337, 'signal': 'SELL', 'confidence': 0.8538277934936351, 'confluence': 4.0, 'confluence_factors': ['key_level', 'pattern', 'macd', 'ema'], 'stop_loss': 199.9337, 'take_profit_1': 199.0337, 'take_profit_2': 198.7337, 'take_profit_3': 198.4337, 'latest_close': 199.5989990234375, 'latest_high': 199.61900329589844, 'latest_low': 199.4720001220703, 'probabilities': array([0.85382779, 0.14617221]), 'position_size': 0.02}, 'features':                                  Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2024-10-13 23:00:00+00:00  194.811005  ...                  False
+2024-10-14 00:00:00+00:00  194.740005  ...                  False
+2024-10-14 01:00:00+00:00  194.714996  ...                  False
+2024-10-14 02:00:00+00:00  194.891998  ...                  False
+2024-10-14 03:00:00+00:00  195.005005  ...                  False
+...                               ...  ...                    ...
+2025-07-18 15:00:00+00:00  199.615005  ...                   True
+2025-07-18 16:00:00+00:00  199.516998  ...                   True
+2025-07-18 17:00:00+00:00  199.557007  ...                  False
+2025-07-18 18:00:00+00:00  199.600006  ...                  False
+2025-07-18 19:00:00+00:00  199.516006  ...                  False
+
+[4726 rows x 91 columns], 'error': None, 'logs': []}, 'AUDJPY': {'pair': 'AUDJPY', 'signal': {'pair': 'AUDJPY', 'trade_type': 'Sell Limit', 'entry': 96.8087, 'signal': 'SELL', 'confidence': 0.8830168395962344, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 97.1087, 'take_profit_1': 96.2087, 'take_profit_2': 95.9087, 'take_profit_3': 95.6087, 'latest_close': 96.79199981689453, 'latest_high': 96.8030014038086, 'latest_low': 96.74600219726562, 'probabilities': array([0.88301684, 0.11698316]), 'position_size': 0.02}, 'features':                                  Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2024-10-13 23:00:00+00:00  100.485001  ...                  False
+2024-10-14 00:00:00+00:00  100.480003  ...                  False
+2024-10-14 01:00:00+00:00  100.476997  ...                  False
+2024-10-14 02:00:00+00:00  100.527000  ...                  False
+2024-10-14 03:00:00+00:00  100.626999  ...                  False
+...                               ...  ...                    ...
+2025-07-18 15:00:00+00:00   96.944000  ...                   True
+2025-07-18 16:00:00+00:00   96.828003  ...                  False
+2025-07-18 17:00:00+00:00   96.808998  ...                  False
+2025-07-18 18:00:00+00:00   96.791000  ...                  False
+2025-07-18 19:00:00+00:00   96.788002  ...                  False
+
+[4729 rows x 91 columns], 'error': None, 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features':                                 Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2024-10-13 23:00:00+00:00  90.926003  ...                  False
+2024-10-14 00:00:00+00:00  90.958000  ...                  False
+2024-10-14 01:00:00+00:00  90.889000  ...                  False
+2024-10-14 02:00:00+00:00  90.940002  ...                  False
+2024-10-14 03:00:00+00:00  90.964996  ...                  False
+...                              ...  ...                    ...
+2025-07-18 15:00:00+00:00  88.777000  ...                   True
+2025-07-18 16:00:00+00:00  88.704002  ...                   True
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.681000  ...                   True
+
+[4728 rows x 91 columns], 'error': None, 'logs': []}}
+[2025-07-18 20:52:12] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 20:52:12] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 20:52:12] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'NZDUSD', 'USDCAD', 'EURJPY', 'GBPJPY', 'AUDJPY', 'NZDJPY']
+[2025-07-18 20:53:40] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features':                                Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2024-10-13 23:00:00+00:00  1.092657  ...                  False
+2024-10-14 00:00:00+00:00  1.092538  ...                  False
+2024-10-14 01:00:00+00:00  1.092657  ...                  False
+2024-10-14 02:00:00+00:00  1.092777  ...                  False
+2024-10-14 03:00:00+00:00  1.092896  ...                  False
+...                             ...  ...                    ...
+2025-07-18 15:00:00+00:00  1.164687  ...                  False
+2025-07-18 16:00:00+00:00  1.163196  ...                  False
+2025-07-18 17:00:00+00:00  1.163061  ...                  False
+2025-07-18 18:00:00+00:00  1.162656  ...                  False
+2025-07-18 19:00:00+00:00  1.162250  ...                  False
+
+[4724 rows x 92 columns], 'error': "could not convert string to float: 'neutral'", 'logs': []}, 'GBPUSD': {'pair': 'GBPUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open  ...  volatility_20_4h
+Datetime                               ...                  
+2024-10-13 23:00:00+00:00  149.304993  ...               0.0
+2024-10-14 00:00:00+00:00  149.216995  ...               0.0
+2024-10-14 01:00:00+00:00  149.210007  ...               0.0
+2024-10-14 02:00:00+00:00  149.315002  ...               0.0
+2024-10-14 03:00:00+00:00  149.322998  ...               0.0
+...                               ...  ...               ...
+2025-07-18 15:00:00+00:00  148.548996  ...               0.0
+2025-07-18 16:00:00+00:00  148.686996  ...               0.0
+2025-07-18 17:00:00+00:00  148.714005  ...               0.0
+2025-07-18 18:00:00+00:00  148.764008  ...               0.0
+2025-07-18 19:00:00+00:00  148.774002  ...               0.0
+
+[4701 rows x 107 columns], 'error': 'The feature names should match those that were passed during fit.\nFeature names must be in the same order as they were in fit.\n', 'logs': []}, 'USDCHF': {'pair': 'USDCHF', 'signal': {'pair': 'USDCHF', 'trade_type': 'Sell Stop', 'entry': 0.80156, 'signal': 'SELL', 'confidence': 0.8295476606484177, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 0.80456, 'take_profit_1': 0.79556, 'take_profit_2': 0.79256, 'take_profit_3': 0.78956, 'latest_close': 0.8016600012779236, 'latest_high': 0.8019599914550781, 'latest_low': 0.8015999794006348, 'probabilities': array([0.82954766, 0.17045234]), 'position_size': 0.05}, 'features':                               Open  ...  wyckoff_distribution
+Datetime                            ...                      
+2024-10-13 23:00:00+00:00  0.85821  ...                   0.0
+2024-10-14 00:00:00+00:00  0.85826  ...                   0.0
+2024-10-14 01:00:00+00:00  0.85834  ...                   0.0
+2024-10-14 02:00:00+00:00  0.85827  ...                   0.0
+2024-10-14 03:00:00+00:00  0.85831  ...                   0.0
+...                            ...  ...                   ...
+2025-07-18 15:00:00+00:00  0.80013  ...                   0.0
+2025-07-18 16:00:00+00:00  0.80075  ...                   0.0
+2025-07-18 17:00:00+00:00  0.80123  ...                   0.0
+2025-07-18 18:00:00+00:00  0.80167  ...                   0.0
+2025-07-18 19:00:00+00:00  0.80178  ...                   0.0
+
+[4701 rows x 97 columns], 'error': None, 'logs': []}, 'AUDUSD': {'pair': 'AUDUSD', 'signal': {'pair': 'AUDUSD', 'trade_type': 'Sell Limit', 'entry': 0.65106, 'signal': 'SELL', 'confidence': 0.8702354477743656, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 0.65406, 'take_profit_1': 0.64506, 'take_profit_2': 0.64206, 'take_profit_3': 0.63906, 'latest_close': 0.6509568691253662, 'latest_high': 0.6510162353515625, 'latest_low': 0.6505757570266724, 'probabilities': array([0.87023545, 0.12976455]), 'position_size': 0.05}, 'features':                                Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2024-10-13 23:00:00+00:00  0.673228  ...                  False
+2024-10-14 00:00:00+00:00  0.673528  ...                  False
+2024-10-14 01:00:00+00:00  0.673491  ...                  False
+2024-10-14 02:00:00+00:00  0.673387  ...                  False
+2024-10-14 03:00:00+00:00  0.673982  ...                  False
+...                             ...  ...                    ...
+2025-07-18 15:00:00+00:00  0.652784  ...                  False
+2025-07-18 16:00:00+00:00  0.651423  ...                  False
+2025-07-18 17:00:00+00:00  0.651228  ...                  False
+2025-07-18 18:00:00+00:00  0.650940  ...                  False
+2025-07-18 19:00:00+00:00  0.650940  ...                  False
+
+[4758 rows x 92 columns], 'error': None, 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': {'pair': 'NZDUSD', 'trade_type': 'Sell Limit', 'entry': 0.5964, 'signal': 'SELL', 'confidence': 0.8414321855208255, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 0.5994, 'take_profit_1': 0.5904, 'take_profit_2': 0.5874, 'take_profit_3': 0.5844, 'latest_close': 0.5963740348815918, 'latest_high': 0.5963740348815918, 'latest_low': 0.5961251854896545, 'probabilities': array([0.84143219, 0.15856781]), 'position_size': 0.05}, 'features':                                Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2024-10-13 23:00:00+00:00  0.609236  ...                  False
+2024-10-14 00:00:00+00:00  0.609868  ...                  False
+2024-10-14 01:00:00+00:00  0.609422  ...                  False
+2024-10-14 02:00:00+00:00  0.609236  ...                  False
+2024-10-14 03:00:00+00:00  0.609533  ...                  False
+...                             ...  ...                    ...
+2025-07-18 15:00:00+00:00  0.597764  ...                   True
+2025-07-18 16:00:00+00:00  0.596766  ...                   True
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596267  ...                   True
+
+[4758 rows x 92 columns], 'error': None, 'logs': []}, 'USDCAD': {'pair': 'USDCAD', 'signal': {'pair': 'USDCAD', 'trade_type': 'Instant Execution', 'entry': 1.37262, 'signal': 'SELL', 'confidence': 0.9760584569095206, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 1.37562, 'take_profit_1': 1.36662, 'take_profit_2': 1.36362, 'take_profit_3': 1.36062, 'latest_close': 1.3726199865341187, 'latest_high': 1.3732399940490723, 'latest_low': 1.3720999956130981, 'probabilities': array([0.97605846, 0.02394154]), 'position_size': 0.05}, 'features':                               Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2024-10-13 23:00:00+00:00  1.37821  ...                  False
+2024-10-14 00:00:00+00:00  1.37791  ...                  False
+2024-10-14 01:00:00+00:00  1.37841  ...                  False
+2024-10-14 02:00:00+00:00  1.37787  ...                  False
+2024-10-14 03:00:00+00:00  1.37757  ...                  False
+...                            ...  ...                    ...
+2025-07-18 15:00:00+00:00  1.37125  ...                  False
+2025-07-18 16:00:00+00:00  1.37252  ...                  False
+2025-07-18 17:00:00+00:00  1.37258  ...                  False
+2025-07-18 18:00:00+00:00  1.37259  ...                  False
+2025-07-18 19:00:00+00:00  1.37279  ...                  False
+
+[4755 rows x 92 columns], 'error': None, 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features':                                  Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2024-10-13 23:00:00+00:00  163.082001  ...                  False
+2024-10-14 00:00:00+00:00  162.959000  ...                  False
+2024-10-14 01:00:00+00:00  162.981995  ...                  False
+2024-10-14 02:00:00+00:00  163.121994  ...                  False
+2024-10-14 03:00:00+00:00  163.143997  ...                  False
+...                               ...  ...                    ...
+2025-07-18 15:00:00+00:00  172.996002  ...                  False
+2025-07-18 16:00:00+00:00  172.912003  ...                  False
+2025-07-18 17:00:00+00:00  172.914001  ...                  False
+2025-07-18 18:00:00+00:00  172.901993  ...                  False
+2025-07-18 19:00:00+00:00  172.897995  ...                  False
+
+[4726 rows x 91 columns], 'error': None, 'logs': []}, 'GBPJPY': {'pair': 'GBPJPY', 'signal': {'pair': 'GBPJPY', 'trade_type': 'Sell Limit', 'entry': 199.6337, 'signal': 'SELL', 'confidence': 0.8888590074584051, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 199.9337, 'take_profit_1': 199.0337, 'take_profit_2': 198.7337, 'take_profit_3': 198.4337, 'latest_close': 199.5989990234375, 'latest_high': 199.61900329589844, 'latest_low': 199.4720001220703, 'probabilities': array([0.88885901, 0.11114099]), 'position_size': 0.02}, 'features':                                  Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2024-10-13 23:00:00+00:00  194.811005  ...                  False
+2024-10-14 00:00:00+00:00  194.740005  ...                  False
+2024-10-14 01:00:00+00:00  194.714996  ...                  False
+2024-10-14 02:00:00+00:00  194.891998  ...                  False
+2024-10-14 03:00:00+00:00  195.005005  ...                  False
+...                               ...  ...                    ...
+2025-07-18 15:00:00+00:00  199.615005  ...                   True
+2025-07-18 16:00:00+00:00  199.516998  ...                   True
+2025-07-18 17:00:00+00:00  199.557007  ...                  False
+2025-07-18 18:00:00+00:00  199.600006  ...                  False
+2025-07-18 19:00:00+00:00  199.572998  ...                  False
+
+[4726 rows x 91 columns], 'error': None, 'logs': []}, 'AUDJPY': {'pair': 'AUDJPY', 'signal': {'pair': 'AUDJPY', 'trade_type': 'Instant Execution', 'entry': 96.792, 'signal': 'SELL', 'confidence': 0.8830168395962344, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 97.092, 'take_profit_1': 96.192, 'take_profit_2': 95.892, 'take_profit_3': 95.592, 'latest_close': 96.79199981689453, 'latest_high': 96.80699920654297, 'latest_low': 96.74600219726562, 'probabilities': array([0.88301684, 0.11698316]), 'position_size': 0.02}, 'features':                                  Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2024-10-13 23:00:00+00:00  100.485001  ...                  False
+2024-10-14 00:00:00+00:00  100.480003  ...                  False
+2024-10-14 01:00:00+00:00  100.476997  ...                  False
+2024-10-14 02:00:00+00:00  100.527000  ...                  False
+2024-10-14 03:00:00+00:00  100.626999  ...                  False
+...                               ...  ...                    ...
+2025-07-18 15:00:00+00:00   96.944000  ...                   True
+2025-07-18 16:00:00+00:00   96.828003  ...                  False
+2025-07-18 17:00:00+00:00   96.808998  ...                  False
+2025-07-18 18:00:00+00:00   96.791000  ...                  False
+2025-07-18 19:00:00+00:00   96.797997  ...                  False
+
+[4729 rows x 91 columns], 'error': None, 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features':                                 Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2024-10-13 23:00:00+00:00  90.926003  ...                  False
+2024-10-14 00:00:00+00:00  90.958000  ...                  False
+2024-10-14 01:00:00+00:00  90.889000  ...                  False
+2024-10-14 02:00:00+00:00  90.940002  ...                  False
+2024-10-14 03:00:00+00:00  90.964996  ...                  False
+...                              ...  ...                    ...
+2025-07-18 15:00:00+00:00  88.777000  ...                   True
+2025-07-18 16:00:00+00:00  88.704002  ...                   True
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.684998  ...                   True
+
+[4728 rows x 91 columns], 'error': None, 'logs': []}}
+[2025-07-18 21:11:48] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 21:11:48] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 21:11:48] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'NZDUSD', 'USDCAD', 'EURJPY', 'GBPJPY', 'AUDJPY', 'NZDJPY']
+[2025-07-18 21:12:04] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 21:12:04] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 21:12:04] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'NZDUSD', 'USDCAD', 'EURJPY', 'GBPJPY', 'AUDJPY', 'NZDJPY']
+[2025-07-18 21:14:52] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 21:14:52] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 21:14:52] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'NZDUSD', 'USDCAD', 'EURJPY', 'GBPJPY', 'AUDJPY', 'NZDJPY']
+[2025-07-18 21:17:11] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features':                                Open      High  ...  atr_14_4h  volatility_20_4h
+Datetime                                       ...                             
+2024-10-13 23:00:00+00:00  1.092657  1.093135  ...        0.0               0.0
+2024-10-14 00:00:00+00:00  1.092538  1.092777  ...        0.0               0.0
+2024-10-14 01:00:00+00:00  1.092657  1.092777  ...        0.0               0.0
+2024-10-14 02:00:00+00:00  1.092777  1.093016  ...        0.0               0.0
+2024-10-14 03:00:00+00:00  1.092896  1.093255  ...        0.0               0.0
+...                             ...       ...  ...        ...               ...
+2025-07-18 16:00:00+00:00  1.163196  1.165094  ...        0.0               0.0
+2025-07-18 17:00:00+00:00  1.163061  1.163332  ...        0.0               0.0
+2025-07-18 18:00:00+00:00  1.162656  1.163061  ...        0.0               0.0
+2025-07-18 19:00:00+00:00  1.162520  1.162656  ...        0.0               0.0
+2025-07-18 20:00:00+00:00  1.162926  1.162926  ...        0.0               0.0
+
+[4725 rows x 110 columns], 'error': 'The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- atr_14_4h\n- bb_high_4h\n- bb_low_4h\n- ema_12_4h\n- ema_26_4h\n- ...\nFeature names seen at fit time, yet now missing:\n- bb_high\n- bb_low\n- bearish_engulfing\n- bearish_engulfing_bar\n- bearish_flag\n- ...\n', 'logs': []}, 'GBPUSD': {'pair': 'GBPUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features':                                  Open        High  ...  atr_14_4h  volatility_20_4h
+Datetime                                           ...                             
+2024-10-13 23:00:00+00:00  149.304993  149.391006  ...        0.0               0.0
+2024-10-14 00:00:00+00:00  149.216995  149.367004  ...        0.0               0.0
+2024-10-14 01:00:00+00:00  149.210007  149.278000  ...        0.0               0.0
+2024-10-14 02:00:00+00:00  149.315002  149.317993  ...        0.0               0.0
+2024-10-14 03:00:00+00:00  149.322998  149.352997  ...        0.0               0.0
+...                               ...         ...  ...        ...               ...
+2025-07-18 16:00:00+00:00  148.686996  148.731995  ...        0.0               0.0
+2025-07-18 17:00:00+00:00  148.714005  148.794006  ...        0.0               0.0
+2025-07-18 18:00:00+00:00  148.764008  148.785004  ...        0.0               0.0
+2025-07-18 19:00:00+00:00  148.744003  148.807999  ...        0.0               0.0
+2025-07-18 20:00:00+00:00  148.746002  148.770004  ...        0.0               0.0
+
+[4702 rows x 109 columns], 'error': 'The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- atr_14_4h\n- bb_high_4h\n- bb_low_4h\n- ema_12_4h\n- ema_26_4h\n- ...\nFeature names seen at fit time, yet now missing:\n- bb_high\n- bb_low\n- bearish_engulfing\n- bearish_engulfing_bar\n- bearish_flag\n- ...\n', 'logs': []}, 'USDCHF': {'pair': 'USDCHF', 'signal': None, 'features':                               Open  ...  wyckoff_distribution
+Datetime                            ...                      
+2024-10-13 23:00:00+00:00  0.85821  ...                   0.0
+2024-10-14 00:00:00+00:00  0.85826  ...                   0.0
+2024-10-14 01:00:00+00:00  0.85834  ...                   0.0
+2024-10-14 02:00:00+00:00  0.85827  ...                   0.0
+2024-10-14 03:00:00+00:00  0.85831  ...                   0.0
+...                            ...  ...                   ...
+2025-07-18 16:00:00+00:00  0.80075  ...                   0.0
+2025-07-18 17:00:00+00:00  0.80123  ...                   0.0
+2025-07-18 18:00:00+00:00  0.80167  ...                   0.0
+2025-07-18 19:00:00+00:00  0.80153  ...                   0.0
+2025-07-18 20:00:00+00:00  0.80124  ...                   0.0
+
+[4702 rows x 99 columns], 'error': 'The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- wyckoff_accumulation\n- wyckoff_distribution\n- wyckoff_markdown\n- wyckoff_markup\n- wyckoff_unknown\nFeature names seen at fit time, yet now missing:\n- bb_high\n- bb_low\n- bearish_engulfing\n- bearish_engulfing_bar\n- bearish_flag\n- ...\n', 'logs': []}, 'AUDUSD': {'pair': 'AUDUSD', 'signal': {'pair': 'AUDUSD', 'trade_type': 'Instant Execution', 'entry': 0.65096, 'signal': 'SELL', 'confidence': 0.9033125213837584, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 0.65396, 'take_profit_1': 0.64496, 'take_profit_2': 0.64196, 'take_profit_3': 0.63896, 'latest_close': 0.6509568691253662, 'latest_high': 0.6510968208312988, 'latest_low': 0.6509145498275757, 'probabilities': array([0.90331252, 0.09668748]), 'position_size': 0.05}, 'features':                                Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2024-10-13 23:00:00+00:00  0.673228  ...                  False
+2024-10-14 00:00:00+00:00  0.673528  ...                  False
+2024-10-14 01:00:00+00:00  0.673491  ...                  False
+2024-10-14 02:00:00+00:00  0.673387  ...                  False
+2024-10-14 03:00:00+00:00  0.673982  ...                  False
+...                             ...  ...                    ...
+2025-07-18 16:00:00+00:00  0.651423  ...                  False
+2025-07-18 17:00:00+00:00  0.651228  ...                  False
+2025-07-18 18:00:00+00:00  0.650940  ...                  False
+2025-07-18 19:00:00+00:00  0.651059  ...                  False
+2025-07-18 20:00:00+00:00  0.651059  ...                  False
+
+[4759 rows x 94 columns], 'error': None, 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': {'pair': 'NZDUSD', 'trade_type': 'Sell Limit', 'entry': 0.59639, 'signal': 'SELL', 'confidence': 0.9274520004954788, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 0.59939, 'take_profit_1': 0.59039, 'take_profit_2': 0.58739, 'take_profit_3': 0.58439, 'latest_close': 0.5963740348815918, 'latest_high': 0.5963740348815918, 'latest_low': 0.5962318181991577, 'probabilities': array([0.927452, 0.072548]), 'position_size': 0.05}, 'features':                                Open  ...  market_regime_uptrend
+Datetime                             ...                       
+2024-10-13 23:00:00+00:00  0.609236  ...                  False
+2024-10-14 00:00:00+00:00  0.609868  ...                  False
+2024-10-14 01:00:00+00:00  0.609422  ...                  False
+2024-10-14 02:00:00+00:00  0.609236  ...                  False
+2024-10-14 03:00:00+00:00  0.609533  ...                  False
+...                             ...  ...                    ...
+2025-07-18 16:00:00+00:00  0.596766  ...                   True
+2025-07-18 17:00:00+00:00  0.596623  ...                   True
+2025-07-18 18:00:00+00:00  0.596410  ...                   True
+2025-07-18 19:00:00+00:00  0.596338  ...                   True
+2025-07-18 20:00:00+00:00  0.596267  ...                   True
+
+[4759 rows x 94 columns], 'error': None, 'logs': []}, 'USDCAD': {'pair': 'USDCAD', 'signal': None, 'features':                               Open  ...  market_regime_uptrend
+Datetime                            ...                       
+2024-10-13 23:00:00+00:00  1.37821  ...                  False
+2024-10-14 00:00:00+00:00  1.37791  ...                  False
+2024-10-14 01:00:00+00:00  1.37841  ...                  False
+2024-10-14 02:00:00+00:00  1.37787  ...                  False
+2024-10-14 03:00:00+00:00  1.37757  ...                  False
+...                            ...  ...                    ...
+2025-07-18 16:00:00+00:00  1.37252  ...                  False
+2025-07-18 17:00:00+00:00  1.37258  ...                  False
+2025-07-18 18:00:00+00:00  1.37259  ...                  False
+2025-07-18 19:00:00+00:00  1.37255  ...                  False
+2025-07-18 20:00:00+00:00  1.37250  ...                  False
+
+[4756 rows x 94 columns], 'error': None, 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'GBPJPY': {'pair': 'GBPJPY', 'signal': {'pair': 'GBPJPY', 'trade_type': 'Instant Execution', 'entry': 199.51401, 'signal': 'SELL', 'confidence': 0.8827359068627452, 'confluence': 4.0, 'confluence_factors': ['key_level', 'pattern', 'macd', 'ema'], 'stop_loss': 199.81401, 'take_profit_1': 198.91401, 'take_profit_2': 198.61401, 'take_profit_3': 198.31401, 'latest_close': 199.51400756835938, 'latest_high': 199.56500244140625, 'latest_low': 199.46200561523438, 'probabilities': array([0.88273591, 0.11726409]), 'position_size': 0.02}, 'features':                                  Open  ...  market_regime_uptrend
+Datetime                               ...                       
+2024-10-13 23:00:00+00:00  194.811005  ...                  False
+2024-10-14 00:00:00+00:00  194.740005  ...                  False
+2024-10-14 01:00:00+00:00  194.714996  ...                  False
+2024-10-14 02:00:00+00:00  194.891998  ...                  False
+2024-10-14 03:00:00+00:00  195.005005  ...                  False
+...                               ...  ...                    ...
+2025-07-18 16:00:00+00:00  199.516998  ...                   True
+2025-07-18 17:00:00+00:00  199.557007  ...                  False
+2025-07-18 18:00:00+00:00  199.600006  ...                  False
+2025-07-18 19:00:00+00:00  199.511002  ...                  False
+2025-07-18 20:00:00+00:00  199.535995  ...                  False
+
+[4727 rows x 93 columns], 'error': None, 'logs': []}, 'AUDJPY': {'pair': 'AUDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-18 21:32:06] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 21:32:06] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 21:32:06] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-18 21:34:44] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features':                                Open      High  ...  atr_14_4h  volatility_20_4h
+Datetime                                       ...                             
+2024-10-13 23:00:00+00:00  1.092657  1.093135  ...        0.0               0.0
+2024-10-14 00:00:00+00:00  1.092538  1.092777  ...        0.0               0.0
+2024-10-14 01:00:00+00:00  1.092657  1.092777  ...        0.0               0.0
+2024-10-14 02:00:00+00:00  1.092777  1.093016  ...        0.0               0.0
+2024-10-14 03:00:00+00:00  1.092896  1.093255  ...        0.0               0.0
+...                             ...       ...  ...        ...               ...
+2025-07-18 16:00:00+00:00  1.163196  1.165094  ...        0.0               0.0
+2025-07-18 17:00:00+00:00  1.163061  1.163332  ...        0.0               0.0
+2025-07-18 18:00:00+00:00  1.162656  1.163061  ...        0.0               0.0
+2025-07-18 19:00:00+00:00  1.162520  1.162656  ...        0.0               0.0
+2025-07-18 20:00:00+00:00  1.163061  1.163061  ...        0.0               0.0
+
+[4725 rows x 110 columns], 'error': 'The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- atr_14_4h\n- bb_high_4h\n- bb_low_4h\n- ema_12_4h\n- ema_26_4h\n- ...\nFeature names seen at fit time, yet now missing:\n- bb_high\n- bb_low\n- bearish_engulfing\n- bearish_engulfing_bar\n- bearish_flag\n- ...\n', 'logs': []}, 'USDJPY': {'pair': 'USDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDCHF': {'pair': 'USDCHF', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features':                                 Open  ...  market_regime_uptrend
+Datetime                              ...                       
+2024-10-13 23:00:00+00:00  90.926003  ...                  False
+2024-10-14 00:00:00+00:00  90.958000  ...                  False
+2024-10-14 01:00:00+00:00  90.889000  ...                  False
+2024-10-14 02:00:00+00:00  90.940002  ...                  False
+2024-10-14 03:00:00+00:00  90.964996  ...                  False
+...                              ...  ...                    ...
+2025-07-18 16:00:00+00:00  88.704002  ...                   True
+2025-07-18 17:00:00+00:00  88.685997  ...                   True
+2025-07-18 18:00:00+00:00  88.680000  ...                   True
+2025-07-18 19:00:00+00:00  88.669998  ...                   True
+2025-07-18 20:00:00+00:00  88.661003  ...                   True
+
+[4729 rows x 93 columns], 'error': None, 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': {'pair': 'BTCUSD', 'trade_type': 'Sell Limit', 'entry': 117494.49062, 'signal': 'SELL', 'confidence': 0.8769629063746711, 'confluence': 3.0, 'confluence_factors': ['key_level', 'macd', 'ema'], 'stop_loss': 117494.49362, 'take_profit_1': 117494.48463, 'take_profit_2': 117494.48162, 'take_profit_3': 117494.47862, 'latest_close': 117457.8984375, 'latest_high': 117457.8984375, 'latest_low': 117091.9765625, 'probabilities': array([0.87696291, 0.12303709]), 'position_size': 0.05}, 'features':                                     Open  ...  market_regime_uptrend
+Datetime                                  ...                       
+2024-12-31 00:00:00+00:00   92269.562500  ...                  False
+2024-12-31 01:00:00+00:00   92234.164062  ...                  False
+2024-12-31 02:00:00+00:00   92350.890625  ...                  False
+2024-12-31 03:00:00+00:00   92352.617188  ...                  False
+2024-12-31 04:00:00+00:00   92304.929688  ...                  False
+...                                  ...  ...                    ...
+2025-07-18 16:00:00+00:00  117653.679688  ...                  False
+2025-07-18 17:00:00+00:00  117703.742188  ...                  False
+2025-07-18 18:00:00+00:00  117437.156250  ...                  False
+2025-07-18 19:00:00+00:00  117454.312500  ...                  False
+2025-07-18 20:00:00+00:00  117091.976562  ...                  False
+
+[4796 rows x 93 columns], 'error': None, 'logs': []}}
+[2025-07-18 21:35:33] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 21:35:33] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 21:35:33] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-18 21:45:01] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 21:45:01] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 21:45:01] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-18 21:45:36] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-18 21:45:36] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-18 21:45:36] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-18 21:48:29] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDJPY': {'pair': 'USDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDCHF': {'pair': 'USDCHF', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'BTCUSD': {'pair': 'BTCUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}}
+[2025-07-18 22:12:48] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-18 22:12:48] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDCHF': {'pair': 'USDCHF', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-19 00:00:04] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 00:04:02] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDJPY': {'pair': 'USDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDCHF': {'pair': 'USDCHF', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDUSD': {'pair': 'NZDUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'EURJPY': {'pair': 'EURJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDJPY': {'pair': 'NZDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'BTCUSD': {'pair': 'BTCUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}}
+[2025-07-19 00:19:58] INFO orchestrator: Starting orchestrator main loop...
+[2025-07-19 00:19:58] INFO orchestrator: Scheduled sessions at: ['00:00', '01:30', '03:00', '07:00', '08:30', '10:00', '13:00', '14:30', '16:00', '22:00']
+[2025-07-19 00:19:58] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 00:23:21] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDJPY': {'pair': 'USDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDCHF': {'pair': 'USDCHF', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDUSD': {'pair': 'NZDUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'EURJPY': {'pair': 'EURJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDJPY': {'pair': 'NZDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'BTCUSD': {'pair': 'BTCUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}}
+[2025-07-19 01:30:00] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 01:33:20] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDJPY': {'pair': 'USDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDCHF': {'pair': 'USDCHF', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDUSD': {'pair': 'NZDUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'EURJPY': {'pair': 'EURJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDJPY': {'pair': 'NZDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'BTCUSD': {'pair': 'BTCUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}}
+[2025-07-19 03:06:48] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 03:06:48] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDCHF': {'pair': 'USDCHF', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-19 07:06:53] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 07:06:53] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDCHF': {'pair': 'USDCHF', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-19 08:30:03] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 08:34:08] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDJPY': {'pair': 'USDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDCHF': {'pair': 'USDCHF', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDUSD': {'pair': 'NZDUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'EURJPY': {'pair': 'EURJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDJPY': {'pair': 'NZDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-19 10:00:02] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 10:03:44] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDJPY': {'pair': 'USDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'USDCHF': {'pair': 'USDCHF', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDUSD': {'pair': 'NZDUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'EURJPY': {'pair': 'EURJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'NZDJPY': {'pair': 'NZDJPY', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}, 'BTCUSD': {'pair': 'BTCUSD', 'trend': 'N/A', 'key_levels': {}, 'patterns': [], 'indicators': {'rsi': 'N/A', 'macd': 'N/A', 'macd_signal': 'N/A', 'news_sentiment': 'N/A'}, 'confluence': {}, 'model_action': 'No signal: prediction failed or confidence below threshold.', 'decision': 'NO_SIGNAL', 'confidence': 0.0, 'reason': 'Prediction failed or confidence below threshold.', 'signal': None}}
+[2025-07-19 13:08:39] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 13:08:40] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDCHF': {'pair': 'USDCHF', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}
+[2025-07-19 14:39:12] INFO orchestrator: Running orchestrated session for pairs: ['EURUSD', 'USDJPY', 'USDCHF', 'NZDUSD', 'EURJPY', 'NZDJPY', 'BTCUSD']
+[2025-07-19 14:39:12] INFO orchestrator: Session results: {'EURUSD': {'pair': 'EURUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDJPY': {'pair': 'USDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'USDCHF': {'pair': 'USDCHF', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDUSD': {'pair': 'NZDUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'EURJPY': {'pair': 'EURJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'NZDJPY': {'pair': 'NZDJPY', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}, 'BTCUSD': {'pair': 'BTCUSD', 'signal': None, 'features': None, 'error': 'No price data', 'logs': []}}

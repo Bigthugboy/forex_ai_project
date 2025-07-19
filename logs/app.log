@@ -72,3 +72,573 @@
 [2025-07-18 20:16:30] INFO backtest: Starting backtest process...
 [2025-07-18 20:16:30] INFO backtest: Processing pair: USDJPY
 [2025-07-18 20:16:30] INFO backtest: Backtesting USDJPY...
+[2025-07-18 20:20:49] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 20:21:25] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 20:23:52] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 20:25:00] INFO notify: Sending email: AI Signal: USDCHF SELL Sell Stop (82.95%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:25:03] INFO notify: Email sent: AI Signal: USDCHF SELL Sell Stop (82.95%)
+[2025-07-18 20:25:22] INFO notify: Sending email: AI Signal: AUDUSD SELL Sell Limit (87.02%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:25:25] INFO notify: Email sent: AI Signal: AUDUSD SELL Sell Limit (87.02%)
+[2025-07-18 20:25:48] INFO notify: Sending email: AI Signal: NZDUSD SELL Sell Limit (87.64%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:25:51] INFO notify: Email sent: AI Signal: NZDUSD SELL Sell Limit (87.64%)
+[2025-07-18 20:26:09] INFO notify: Sending email: AI Signal: USDCAD SELL Instant Execution (97.61%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:26:12] INFO notify: Email sent: AI Signal: USDCAD SELL Instant Execution (97.61%)
+[2025-07-18 20:26:46] INFO notify: Sending email: AI Signal: GBPJPY SELL Sell Limit (85.38%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:26:48] INFO notify: Email sent: AI Signal: GBPJPY SELL Sell Limit (85.38%)
+[2025-07-18 20:27:04] INFO notify: Sending email: AI Signal: AUDJPY SELL Sell Limit (88.30%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:27:07] INFO notify: Email sent: AI Signal: AUDJPY SELL Sell Limit (88.30%)
+[2025-07-18 20:52:12] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 20:52:44] INFO notify: Sending email: AI Signal: USDCHF SELL Sell Stop (82.95%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:52:46] INFO notify: Email sent: AI Signal: USDCHF SELL Sell Stop (82.95%)
+[2025-07-18 20:52:53] INFO notify: Sending email: AI Signal: AUDUSD SELL Sell Limit (87.02%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:52:54] INFO notify: Email sent: AI Signal: AUDUSD SELL Sell Limit (87.02%)
+[2025-07-18 20:53:01] INFO notify: Sending email: AI Signal: NZDUSD SELL Sell Limit (84.14%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:53:03] INFO notify: Email sent: AI Signal: NZDUSD SELL Sell Limit (84.14%)
+[2025-07-18 20:53:10] INFO notify: Sending email: AI Signal: USDCAD SELL Instant Execution (97.61%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:53:12] INFO notify: Email sent: AI Signal: USDCAD SELL Instant Execution (97.61%)
+[2025-07-18 20:53:25] INFO notify: Sending email: AI Signal: GBPJPY SELL Sell Limit (88.89%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:53:26] INFO notify: Email sent: AI Signal: GBPJPY SELL Sell Limit (88.89%)
+[2025-07-18 20:53:32] INFO notify: Sending email: AI Signal: AUDJPY SELL Instant Execution (88.30%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 20:53:34] INFO notify: Email sent: AI Signal: AUDJPY SELL Instant Execution (88.30%)
+[2025-07-18 21:11:48] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 21:12:04] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 21:14:52] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 21:15:55] INFO notify: Sending email: AI Signal: AUDUSD SELL Instant Execution (90.33%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 21:15:57] INFO notify: Email sent: AI Signal: AUDUSD SELL Instant Execution (90.33%)
+[2025-07-18 21:16:12] INFO notify: Sending email: AI Signal: NZDUSD SELL Sell Limit (92.75%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 21:16:14] INFO notify: Email sent: AI Signal: NZDUSD SELL Sell Limit (92.75%)
+[2025-07-18 21:17:09] INFO notify: Sending email: AI Signal: GBPJPY SELL Instant Execution (88.27%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 21:17:11] INFO notify: Email sent: AI Signal: GBPJPY SELL Instant Execution (88.27%)
+[2025-07-18 21:32:06] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 21:34:37] INFO notify: Sending email: AI Signal: BTCUSD SELL Sell Limit (87.70%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 21:34:44] INFO notify: Email sent: AI Signal: BTCUSD SELL Sell Limit (87.70%)
+[2025-07-18 21:35:33] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 21:36:41] INFO notify: Sending email: AI Signal: NZDUSD SELL Sell Limit (80.39%) to Damilola akintola <ayodeji2k@gmail.com>
+[2025-07-18 21:36:45] INFO notify: Email sent: AI Signal: NZDUSD SELL Sell Limit (80.39%)
+[2025-07-18 21:45:01] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 21:45:36] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-18 23:19:36] ERROR continuous_learning: Error in health check: 'timestamp'
+[2025-07-19 00:00:07] INFO continuous_learning: No signal outcomes to email.
+[2025-07-19 00:01:09] INFO backtest: Starting backtest process...
+[2025-07-19 00:01:09] INFO backtest: Processing pair: USDJPY
+[2025-07-19 00:01:09] INFO backtest: Backtesting USDJPY...
+[2025-07-19 00:01:42] INFO backtest: Starting backtest process...
+[2025-07-19 00:01:42] INFO backtest: Processing pair: USDJPY
+[2025-07-19 00:01:42] INFO backtest: Backtesting USDJPY...
+[2025-07-19 00:02:19] INFO backtest: Starting backtest process...
+[2025-07-19 00:02:19] INFO backtest: Processing pair: USDJPY
+[2025-07-19 00:02:19] INFO backtest: Backtesting USDJPY...
+[2025-07-19 00:04:02] INFO backtest: Starting backtest process...
+[2025-07-19 00:04:02] INFO backtest: Backtesting specific pair: BTCUSD
+[2025-07-19 00:04:02] INFO backtest: Processing pair: BTCUSD
+[2025-07-19 00:04:02] INFO backtest: Backtesting BTCUSD...
+[2025-07-19 00:05:28] INFO backtest: Starting backtest process...
+[2025-07-19 00:05:28] INFO backtest: Backtesting specific pair: BTCUSD
+[2025-07-19 00:05:28] INFO backtest: Processing pair: BTCUSD
+[2025-07-19 00:05:28] INFO backtest: Backtesting BTCUSD...
+[2025-07-19 00:19:40] ERROR continuous_learning: Error in health check: Invalid comparison between dtype=datetime64[ns] and Timestamp
+[2025-07-19 00:19:58] ERROR continuous_learning: Error in health check: Invalid comparison between dtype=datetime64[ns] and Timestamp
+[2025-07-19 01:23:27] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 01:23:27] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 01:23:27] INFO continuous_learning: Running market analysis cycle for all pairs
+[2025-07-19 01:23:27] INFO continuous_learning: Analyzing market patterns for EURUSD
+[2025-07-19 01:23:29] INFO continuous_learning: Market analysis completed for EURUSD: 5 patterns detected
+[2025-07-19 01:23:31] INFO continuous_learning: Analyzing market patterns for USDJPY
+[2025-07-19 01:23:36] INFO continuous_learning: Market analysis completed for USDJPY: 5 patterns detected
+[2025-07-19 01:23:38] INFO continuous_learning: Analyzing market patterns for USDCHF
+[2025-07-19 01:23:44] INFO continuous_learning: Market analysis completed for USDCHF: 5 patterns detected
+[2025-07-19 01:23:46] INFO continuous_learning: Analyzing market patterns for NZDUSD
+[2025-07-19 01:23:50] INFO continuous_learning: Market analysis completed for NZDUSD: 5 patterns detected
+[2025-07-19 01:23:52] INFO continuous_learning: Analyzing market patterns for EURJPY
+[2025-07-19 01:23:56] INFO continuous_learning: Market analysis completed for EURJPY: 5 patterns detected
+[2025-07-19 01:23:58] INFO continuous_learning: Analyzing market patterns for NZDJPY
+[2025-07-19 01:24:02] INFO continuous_learning: Market analysis completed for NZDJPY: 5 patterns detected
+[2025-07-19 01:24:04] INFO continuous_learning: Analyzing market patterns for BTCUSD
+[2025-07-19 01:24:13] INFO continuous_learning: Market analysis completed for BTCUSD: 5 patterns detected
+[2025-07-19 01:24:49] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 01:24:49] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 01:24:49] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 01:24:49] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 01:24:49] INFO continuous_learning: Running pattern learning cycle
+[2025-07-19 01:24:49] INFO continuous_learning: Starting pattern learning cycle
+[2025-07-19 01:25:26] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 01:25:26] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 01:25:26] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 01:25:26] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 01:25:26] INFO continuous_learning: Running enhanced continuous learning cycle...
+[2025-07-19 01:25:26] INFO continuous_learning: Running market analysis cycle for all pairs
+[2025-07-19 01:25:26] INFO continuous_learning: Analyzing market patterns for EURUSD
+[2025-07-19 01:25:29] INFO continuous_learning: Market analysis completed for EURUSD: 5 patterns detected
+[2025-07-19 01:25:31] INFO continuous_learning: Analyzing market patterns for USDJPY
+[2025-07-19 01:25:34] INFO continuous_learning: Market analysis completed for USDJPY: 5 patterns detected
+[2025-07-19 01:25:36] INFO continuous_learning: Analyzing market patterns for USDCHF
+[2025-07-19 01:25:39] INFO continuous_learning: Market analysis completed for USDCHF: 5 patterns detected
+[2025-07-19 01:25:41] INFO continuous_learning: Analyzing market patterns for NZDUSD
+[2025-07-19 01:25:44] INFO continuous_learning: Market analysis completed for NZDUSD: 5 patterns detected
+[2025-07-19 01:25:46] INFO continuous_learning: Analyzing market patterns for EURJPY
+[2025-07-19 01:25:48] INFO continuous_learning: Market analysis completed for EURJPY: 5 patterns detected
+[2025-07-19 01:25:50] INFO continuous_learning: Analyzing market patterns for NZDJPY
+[2025-07-19 01:25:53] INFO continuous_learning: Market analysis completed for NZDJPY: 5 patterns detected
+[2025-07-19 01:25:55] INFO continuous_learning: Analyzing market patterns for BTCUSD
+[2025-07-19 01:26:02] INFO continuous_learning: Market analysis completed for BTCUSD: 5 patterns detected
+[2025-07-19 01:26:04] INFO continuous_learning: Running pattern learning cycle
+[2025-07-19 01:26:04] INFO continuous_learning: Starting pattern learning cycle
+[2025-07-19 01:26:04] INFO continuous_learning: No retraining needed at this time
+[2025-07-19 01:26:04] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 01:26:04] INFO continuous_learning: No signal outcomes to summarize.
+[2025-07-19 01:32:44] ERROR continuous_learning: Error in health check: Invalid comparison between dtype=datetime64[ns] and Timestamp
+[2025-07-19 05:36:25] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 05:36:25] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 05:36:25] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 05:36:25] INFO continuous_learning: Starting model retraining...
+[2025-07-19 05:36:25] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 05:36:25] WARNING continuous_learning: No price data for EURUSD
+[2025-07-19 05:36:25] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 05:36:25] WARNING continuous_learning: No price data for USDJPY
+[2025-07-19 05:36:25] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 05:36:25] WARNING continuous_learning: No price data for USDCHF
+[2025-07-19 05:36:25] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 05:36:25] WARNING continuous_learning: No price data for NZDUSD
+[2025-07-19 05:36:25] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 05:36:25] WARNING continuous_learning: No price data for EURJPY
+[2025-07-19 05:36:25] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 05:36:25] WARNING continuous_learning: No price data for NZDJPY
+[2025-07-19 05:36:25] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 05:36:25] WARNING continuous_learning: No price data for BTCUSD
+[2025-07-19 05:36:25] ERROR continuous_learning: No features collected for retraining
+[2025-07-19 05:36:25] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 05:36:25] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 08:16:45] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 08:16:45] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 08:16:45] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 08:16:45] INFO continuous_learning: Starting model retraining...
+[2025-07-19 08:16:45] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 08:16:45] WARNING continuous_learning: No price data for EURUSD
+[2025-07-19 08:16:45] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 08:16:45] WARNING continuous_learning: No price data for USDJPY
+[2025-07-19 08:16:45] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 08:16:45] WARNING continuous_learning: No price data for USDCHF
+[2025-07-19 08:16:45] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 08:16:45] WARNING continuous_learning: No price data for NZDUSD
+[2025-07-19 08:16:45] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 08:16:45] WARNING continuous_learning: No price data for EURJPY
+[2025-07-19 08:16:45] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 08:16:45] WARNING continuous_learning: No price data for NZDJPY
+[2025-07-19 08:16:45] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 08:16:45] WARNING continuous_learning: No price data for BTCUSD
+[2025-07-19 08:16:45] ERROR continuous_learning: No features collected for retraining
+[2025-07-19 08:16:45] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 08:16:45] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 08:17:04] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 08:17:04] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 08:34:09] ERROR continuous_learning: Error in health check: Invalid comparison between dtype=datetime64[ns] and Timestamp
+[2025-07-19 09:18:04] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 09:18:04] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 09:18:04] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 09:18:04] INFO continuous_learning: Starting model retraining...
+[2025-07-19 09:18:04] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 09:18:18] INFO continuous_learning: Added 4726 samples for EURUSD
+[2025-07-19 09:18:18] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 09:18:23] INFO continuous_learning: Added 4702 samples for USDJPY
+[2025-07-19 09:18:23] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 09:18:38] INFO continuous_learning: Added 4702 samples for USDCHF
+[2025-07-19 09:18:38] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 09:18:52] INFO continuous_learning: Added 4760 samples for NZDUSD
+[2025-07-19 09:18:52] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 09:18:58] INFO continuous_learning: Added 4728 samples for EURJPY
+[2025-07-19 09:18:58] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 09:19:04] INFO continuous_learning: Added 4730 samples for NZDJPY
+[2025-07-19 09:19:04] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 09:19:12] INFO continuous_learning: Added 4784 samples for BTCUSD
+[2025-07-19 09:19:12] INFO continuous_learning: Total training data: 33132 samples
+[2025-07-19 09:19:12] INFO continuous_learning: [Registry] Model for EURUSD is outdated or missing. Retrain needed.
+[2025-07-19 09:19:12] ERROR continuous_learning: Error during model retraining: list index out of range
+[2025-07-19 09:19:12] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 09:19:12] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 09:39:35] ERROR continuous_learning: Error in health check: Invalid comparison between dtype=datetime64[ns] and Timestamp
+[2025-07-19 10:19:13] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 10:19:13] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 10:19:13] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 10:19:13] INFO continuous_learning: Starting model retraining...
+[2025-07-19 10:19:13] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 10:19:27] INFO continuous_learning: Added 4726 samples for EURUSD
+[2025-07-19 10:19:27] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 10:19:33] INFO continuous_learning: Added 4702 samples for USDJPY
+[2025-07-19 10:19:33] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 10:19:47] INFO continuous_learning: Added 4702 samples for USDCHF
+[2025-07-19 10:19:47] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 10:20:01] INFO continuous_learning: Added 4760 samples for NZDUSD
+[2025-07-19 10:20:01] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 10:20:07] INFO continuous_learning: Added 4728 samples for EURJPY
+[2025-07-19 10:20:07] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 10:20:13] INFO continuous_learning: Added 4730 samples for NZDJPY
+[2025-07-19 10:20:13] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 10:20:21] INFO continuous_learning: Added 4785 samples for BTCUSD
+[2025-07-19 10:20:21] INFO continuous_learning: Total training data: 33133 samples
+[2025-07-19 10:20:21] INFO continuous_learning: [Registry] Model for EURUSD is outdated or missing. Retrain needed.
+[2025-07-19 10:20:21] ERROR continuous_learning: Error during model retraining: list index out of range
+[2025-07-19 10:20:21] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 10:20:21] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 11:29:50] ERROR continuous_learning: Error in health check: Invalid comparison between dtype=datetime64[ns] and Timestamp
+[2025-07-19 11:34:49] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 11:34:49] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 11:34:49] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 11:34:49] INFO continuous_learning: Starting model retraining...
+[2025-07-19 11:34:49] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 11:34:49] WARNING continuous_learning: No price data for EURUSD
+[2025-07-19 11:34:49] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 11:34:49] WARNING continuous_learning: No price data for USDJPY
+[2025-07-19 11:34:49] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 11:34:49] WARNING continuous_learning: No price data for USDCHF
+[2025-07-19 11:34:49] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 11:34:49] WARNING continuous_learning: No price data for NZDUSD
+[2025-07-19 11:34:49] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 11:34:49] WARNING continuous_learning: No price data for EURJPY
+[2025-07-19 11:34:49] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 11:34:49] WARNING continuous_learning: No price data for NZDJPY
+[2025-07-19 11:34:49] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 11:34:49] WARNING continuous_learning: No price data for BTCUSD
+[2025-07-19 11:34:49] ERROR continuous_learning: No features collected for retraining
+[2025-07-19 11:34:49] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 11:34:49] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 12:36:48] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 12:36:48] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 12:36:48] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 12:36:48] INFO continuous_learning: Starting model retraining...
+[2025-07-19 12:36:48] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 12:37:03] INFO continuous_learning: Added 4726 samples for EURUSD
+[2025-07-19 12:37:03] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 12:37:09] INFO continuous_learning: Added 4702 samples for USDJPY
+[2025-07-19 12:37:09] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 12:37:24] INFO continuous_learning: Added 4702 samples for USDCHF
+[2025-07-19 12:37:24] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 12:37:40] INFO continuous_learning: Added 4760 samples for NZDUSD
+[2025-07-19 12:37:40] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 12:37:46] INFO continuous_learning: Added 4728 samples for EURJPY
+[2025-07-19 12:37:46] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 12:37:52] INFO continuous_learning: Added 4730 samples for NZDJPY
+[2025-07-19 12:37:52] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 12:38:01] INFO continuous_learning: Added 4787 samples for BTCUSD
+[2025-07-19 12:38:01] INFO continuous_learning: Total training data: 33135 samples
+[2025-07-19 12:38:01] INFO continuous_learning: [Registry] Model for EURUSD is outdated or missing. Retrain needed.
+[2025-07-19 12:38:01] ERROR continuous_learning: Error during model retraining: list index out of range
+[2025-07-19 12:38:01] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 12:38:01] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 14:43:34] ERROR continuous_learning: Error in health check: Invalid comparison between dtype=datetime64[ns] and Timestamp
+[2025-07-19 14:43:35] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 14:43:35] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 14:43:35] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 14:43:35] INFO continuous_learning: Starting model retraining...
+[2025-07-19 14:43:35] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 14:43:35] WARNING continuous_learning: No price data for EURUSD
+[2025-07-19 14:43:35] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 14:43:35] WARNING continuous_learning: No price data for USDJPY
+[2025-07-19 14:43:35] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 14:43:35] WARNING continuous_learning: No price data for USDCHF
+[2025-07-19 14:43:35] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 14:43:35] WARNING continuous_learning: No price data for NZDUSD
+[2025-07-19 14:43:35] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 14:43:35] WARNING continuous_learning: No price data for EURJPY
+[2025-07-19 14:43:35] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 14:43:35] WARNING continuous_learning: No price data for NZDJPY
+[2025-07-19 14:43:35] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 14:43:35] WARNING continuous_learning: No price data for BTCUSD
+[2025-07-19 14:43:35] ERROR continuous_learning: No features collected for retraining
+[2025-07-19 14:43:35] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 14:43:35] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 15:03:24] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 15:03:24] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 15:03:24] INFO advanced_continuous_learning: Running daily summary email (advanced continuous learning)...
+[2025-07-19 15:03:24] INFO advanced_pipeline_orchestrator: Starting advanced continuous learning system
+[2025-07-19 15:03:24] ERROR advanced_continuous_learning: Error in run_daily_summary_email: send_email() got an unexpected keyword argument 'body'
+[2025-07-19 15:03:24] INFO advanced_pipeline_orchestrator: Advanced learning loop started
+[2025-07-19 15:03:24] INFO advanced_pipeline_orchestrator: Performance monitoring started
+[2025-07-19 15:03:24] INFO advanced_pipeline_orchestrator: Advanced continuous learning system started successfully
+[2025-07-19 15:03:24] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 15:03:24] INFO advanced_pipeline_orchestrator: Performance statistics: {
+  "timestamp": "2025-07-19T15:03:24.749284",
+  "market_analysis_count": 0,
+  "pattern_learning_count": 0,
+  "regime_analysis_count": 0,
+  "adaptive_learning_count": 0,
+  "market_conditions": {
+    "volatility_level": "normal",
+    "trend_strength": "neutral",
+    "volume_profile": "normal",
+    "last_condition_update": null
+  },
+  "learning_intervals": {
+    "market_analysis": 300,
+    "pattern_learning": 1800,
+    "regime_analysis": 3600,
+    "adaptive_learning": 7200
+  }
+}
+[2025-07-19 15:03:24] INFO advanced_continuous_learning: Performing advanced market analysis for EURUSD
+[2025-07-19 15:03:24] INFO advanced_pipeline_orchestrator: Running signal generation with advanced learning integration
+[2025-07-19 15:03:24] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 15:03:24] INFO advanced_continuous_learning: Performing advanced market analysis for EURUSD
+[2025-07-19 15:03:42] INFO advanced_continuous_learning: Advanced market analysis completed for EURUSD
+[2025-07-19 15:03:42] INFO advanced_continuous_learning: Performing advanced market analysis for USDJPY
+[2025-07-19 15:03:43] INFO advanced_continuous_learning: Advanced market analysis completed for EURUSD
+[2025-07-19 15:03:43] INFO advanced_continuous_learning: Performing advanced market analysis for USDJPY
+[2025-07-19 15:04:16] INFO advanced_continuous_learning: Advanced market analysis completed for USDJPY
+[2025-07-19 15:04:16] INFO advanced_continuous_learning: Advanced market analysis completed for USDJPY
+[2025-07-19 15:04:16] INFO advanced_continuous_learning: Performing advanced market analysis for USDCHF
+[2025-07-19 15:04:16] INFO advanced_continuous_learning: Performing advanced market analysis for USDCHF
+[2025-07-19 15:04:42] INFO advanced_continuous_learning: Advanced market analysis completed for USDCHF
+[2025-07-19 15:04:42] INFO advanced_continuous_learning: Performing advanced market analysis for NZDUSD
+[2025-07-19 15:04:45] INFO advanced_continuous_learning: Advanced market analysis completed for USDCHF
+[2025-07-19 15:04:45] INFO advanced_continuous_learning: Performing advanced market analysis for NZDUSD
+[2025-07-19 15:05:02] INFO advanced_continuous_learning: Advanced market analysis completed for NZDUSD
+[2025-07-19 15:05:02] INFO advanced_continuous_learning: Performing advanced market analysis for EURJPY
+[2025-07-19 15:05:02] INFO advanced_continuous_learning: Advanced market analysis completed for NZDUSD
+[2025-07-19 15:05:02] INFO advanced_continuous_learning: Performing advanced market analysis for EURJPY
+[2025-07-19 15:05:22] INFO advanced_continuous_learning: Advanced market analysis completed for EURJPY
+[2025-07-19 15:05:22] INFO advanced_continuous_learning: Performing advanced market analysis for NZDJPY
+[2025-07-19 15:05:23] INFO advanced_continuous_learning: Advanced market analysis completed for EURJPY
+[2025-07-19 15:05:23] INFO advanced_continuous_learning: Performing advanced market analysis for NZDJPY
+[2025-07-19 15:07:33] INFO advanced_continuous_learning: Advanced market analysis completed for NZDJPY
+[2025-07-19 15:07:33] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 15:07:33] INFO advanced_continuous_learning: Advanced market analysis completed for NZDJPY
+[2025-07-19 15:07:33] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 15:07:33] WARNING advanced_continuous_learning: No data available for BTCUSD
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 15:07:33] ERROR advanced_pipeline_orchestrator: Error in signal generation: 'SignalPipeline' object has no attribute 'generate_signals'
+[2025-07-19 15:07:33] WARNING advanced_continuous_learning: No data available for BTCUSD
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Starting pattern learning cycle
+[2025-07-19 15:07:33] INFO advanced_continuous_learning: Starting adaptive pattern learning cycle
+[2025-07-19 15:07:33] INFO advanced_continuous_learning: Adaptive pattern learning cycle completed
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Pattern learning cycle completed
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Starting regime analysis cycle
+[2025-07-19 15:07:33] ERROR advanced_pipeline_orchestrator: Error updating market conditions: 'float' object has no attribute 'items'
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Learning intervals adjusted: market_analysis=300s, pattern_learning=1800s, regime_analysis=3600s
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Regime analysis cycle completed
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Starting adaptive learning cycle
+[2025-07-19 15:07:33] INFO advanced_continuous_learning: Advanced analytics report generated: logs/advanced_analytics_report_20250719_1507.json
+[2025-07-19 15:07:33] ERROR advanced_pipeline_orchestrator: Error updating performance metrics: Object of type datetime is not JSON serializable
+[2025-07-19 15:07:33] INFO advanced_pipeline_orchestrator: Adaptive learning cycle completed
+[2025-07-19 15:15:16] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 15:15:16] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 15:15:16] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 15:15:16] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 15:15:16] INFO advanced_continuous_learning: Running daily summary email (advanced continuous learning)...
+[2025-07-19 15:15:16] INFO advanced_pipeline_orchestrator: Starting advanced continuous learning system
+[2025-07-19 15:15:16] ERROR advanced_continuous_learning: Error in run_daily_summary_email: send_email() got an unexpected keyword argument 'body'
+[2025-07-19 15:15:16] INFO advanced_pipeline_orchestrator: Advanced learning loop started
+[2025-07-19 15:15:16] INFO advanced_pipeline_orchestrator: Performance monitoring started
+[2025-07-19 15:15:16] INFO advanced_pipeline_orchestrator: Advanced continuous learning system started successfully
+[2025-07-19 15:15:16] INFO advanced_pipeline_orchestrator: Running signal generation with advanced learning integration
+[2025-07-19 15:15:16] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 15:15:16] INFO advanced_continuous_learning: Performing advanced market analysis for EURUSD
+[2025-07-19 15:15:19] INFO advanced_continuous_learning: Advanced market analysis completed for EURUSD
+[2025-07-19 15:15:19] INFO advanced_continuous_learning: Performing advanced market analysis for USDJPY
+[2025-07-19 15:15:26] INFO advanced_continuous_learning: Advanced market analysis completed for USDJPY
+[2025-07-19 15:15:26] INFO advanced_continuous_learning: Performing advanced market analysis for USDCHF
+[2025-07-19 15:15:38] INFO advanced_continuous_learning: Advanced market analysis completed for USDCHF
+[2025-07-19 15:15:38] INFO advanced_continuous_learning: Performing advanced market analysis for NZDUSD
+[2025-07-19 15:15:42] INFO advanced_continuous_learning: Advanced market analysis completed for NZDUSD
+[2025-07-19 15:15:42] INFO advanced_continuous_learning: Performing advanced market analysis for EURJPY
+[2025-07-19 15:15:47] INFO advanced_continuous_learning: Advanced market analysis completed for EURJPY
+[2025-07-19 15:15:47] INFO advanced_continuous_learning: Performing advanced market analysis for NZDJPY
+[2025-07-19 15:15:51] INFO advanced_continuous_learning: Advanced market analysis completed for NZDJPY
+[2025-07-19 15:15:51] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 15:16:27] INFO advanced_continuous_learning: Advanced market analysis completed for BTCUSD
+[2025-07-19 15:16:27] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 15:20:41] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 15:20:41] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 15:20:41] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 15:20:41] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 15:20:41] INFO advanced_continuous_learning: Running daily summary email (advanced continuous learning)...
+[2025-07-19 15:20:41] INFO advanced_pipeline_orchestrator: Starting advanced continuous learning system
+[2025-07-19 15:20:41] ERROR advanced_continuous_learning: Error in run_daily_summary_email: send_email() got an unexpected keyword argument 'body'
+[2025-07-19 15:20:41] INFO advanced_pipeline_orchestrator: Advanced learning loop started
+[2025-07-19 15:20:41] INFO advanced_pipeline_orchestrator: Performance monitoring started
+[2025-07-19 15:20:41] INFO advanced_pipeline_orchestrator: Advanced continuous learning system started successfully
+[2025-07-19 15:20:41] INFO advanced_pipeline_orchestrator: Running signal generation with advanced learning integration
+[2025-07-19 15:20:41] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 15:20:41] INFO advanced_continuous_learning: Performing advanced market analysis for EURUSD
+[2025-07-19 15:20:45] INFO advanced_continuous_learning: Advanced market analysis completed for EURUSD
+[2025-07-19 15:20:45] INFO advanced_continuous_learning: Performing advanced market analysis for USDJPY
+[2025-07-19 15:20:51] INFO advanced_continuous_learning: Advanced market analysis completed for USDJPY
+[2025-07-19 15:20:51] INFO advanced_continuous_learning: Performing advanced market analysis for USDCHF
+[2025-07-19 15:21:00] INFO advanced_continuous_learning: Advanced market analysis completed for USDCHF
+[2025-07-19 15:21:00] INFO advanced_continuous_learning: Performing advanced market analysis for NZDUSD
+[2025-07-19 15:21:04] INFO advanced_continuous_learning: Advanced market analysis completed for NZDUSD
+[2025-07-19 15:21:04] INFO advanced_continuous_learning: Performing advanced market analysis for EURJPY
+[2025-07-19 15:21:09] INFO advanced_continuous_learning: Advanced market analysis completed for EURJPY
+[2025-07-19 15:21:09] INFO advanced_continuous_learning: Performing advanced market analysis for NZDJPY
+[2025-07-19 15:21:13] INFO advanced_continuous_learning: Advanced market analysis completed for NZDJPY
+[2025-07-19 15:21:13] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 15:21:31] INFO advanced_continuous_learning: Advanced market analysis completed for BTCUSD
+[2025-07-19 15:21:31] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 15:23:13] INFO advanced_pipeline_orchestrator: Signal generation completed: 6 signals generated
+[2025-07-19 15:43:35] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 15:43:35] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 15:43:35] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 15:43:35] INFO continuous_learning: Starting model retraining...
+[2025-07-19 15:43:35] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 15:44:20] INFO continuous_learning: Added 4726 samples for EURUSD
+[2025-07-19 15:44:20] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 15:44:41] INFO continuous_learning: Added 4702 samples for USDJPY
+[2025-07-19 15:44:41] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 15:45:16] INFO continuous_learning: Added 4702 samples for USDCHF
+[2025-07-19 15:45:16] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 15:45:54] INFO continuous_learning: Added 4760 samples for NZDUSD
+[2025-07-19 15:45:54] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 15:46:09] INFO continuous_learning: Added 4728 samples for EURJPY
+[2025-07-19 15:46:09] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 15:46:26] INFO continuous_learning: Added 4730 samples for NZDJPY
+[2025-07-19 15:46:26] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 15:46:44] INFO continuous_learning: Added 4790 samples for BTCUSD
+[2025-07-19 15:46:44] INFO continuous_learning: Total training data: 33138 samples
+[2025-07-19 15:46:44] INFO continuous_learning: [Registry] Model for EURUSD is outdated or missing. Retrain needed.
+[2025-07-19 15:46:44] ERROR continuous_learning: Error during model retraining: list index out of range
+[2025-07-19 15:46:44] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 15:46:44] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 16:18:32] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 16:18:32] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:19:15] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 16:19:15] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 16:19:17] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 16:19:17] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 16:19:17] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:19:17] INFO continuous_learning: Starting model retraining...
+[2025-07-19 16:19:20] ERROR continuous_learning: Error processing EURUSD for retraining: 'target'
+[2025-07-19 16:19:23] ERROR continuous_learning: Error processing USDJPY for retraining: 'target'
+[2025-07-19 16:19:25] ERROR continuous_learning: Error processing USDCHF for retraining: 'target'
+[2025-07-19 16:19:34] ERROR continuous_learning: Error processing NZDUSD for retraining: 'target'
+[2025-07-19 16:19:53] ERROR continuous_learning: Error processing NZDJPY for retraining: 'target'
+[2025-07-19 16:20:03] ERROR continuous_learning: No features available for retraining
+[2025-07-19 16:34:06] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 16:34:06] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:34:49] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 16:34:49] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:34:51] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 16:34:51] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 16:34:51] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 16:34:51] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 16:34:51] INFO advanced_pipeline_orchestrator: Running signal generation with advanced learning integration
+[2025-07-19 16:34:51] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 16:34:51] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 16:35:05] INFO advanced_continuous_learning: Advanced market analysis completed for BTCUSD
+[2025-07-19 16:35:05] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 16:46:44] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 16:46:44] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 16:46:44] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 16:46:44] INFO continuous_learning: Starting model retraining...
+[2025-07-19 16:46:44] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 16:46:44] WARNING continuous_learning: No price data for EURUSD
+[2025-07-19 16:46:44] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 16:46:44] WARNING continuous_learning: No price data for USDJPY
+[2025-07-19 16:46:44] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 16:46:44] WARNING continuous_learning: No price data for USDCHF
+[2025-07-19 16:46:44] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 16:46:44] WARNING continuous_learning: No price data for NZDUSD
+[2025-07-19 16:46:44] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 16:46:44] WARNING continuous_learning: No price data for EURJPY
+[2025-07-19 16:46:44] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 16:46:44] WARNING continuous_learning: No price data for NZDJPY
+[2025-07-19 16:46:44] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 16:46:44] WARNING continuous_learning: No price data for BTCUSD
+[2025-07-19 16:46:44] ERROR continuous_learning: No features collected for retraining
+[2025-07-19 16:46:44] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 16:46:44] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 17:40:41] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 17:40:41] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 17:41:32] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 17:41:32] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 17:41:34] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 17:41:34] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 17:41:34] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 17:41:34] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 17:41:34] INFO advanced_pipeline_orchestrator: Running signal generation with advanced learning integration
+[2025-07-19 17:41:34] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 17:41:34] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 17:41:46] INFO advanced_continuous_learning: Advanced market analysis completed for BTCUSD
+[2025-07-19 17:41:46] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 17:46:55] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 17:46:55] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 17:46:55] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 17:46:55] INFO continuous_learning: Starting model retraining...
+[2025-07-19 17:46:55] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 17:47:32] INFO continuous_learning: Added 4726 samples for EURUSD
+[2025-07-19 17:47:32] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 17:47:48] INFO continuous_learning: Added 4702 samples for USDJPY
+[2025-07-19 17:47:48] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 17:47:58] WARNING continuous_learning: No price data for USDCHF
+[2025-07-19 17:47:58] INFO continuous_learning: Collecting data for NZDUSD...
+[2025-07-19 17:48:45] INFO continuous_learning: Added 4760 samples for NZDUSD
+[2025-07-19 17:48:45] INFO continuous_learning: Collecting data for EURJPY...
+[2025-07-19 17:48:57] INFO continuous_learning: Added 4728 samples for EURJPY
+[2025-07-19 17:48:57] INFO continuous_learning: Collecting data for NZDJPY...
+[2025-07-19 17:49:07] WARNING continuous_learning: No price data for NZDJPY
+[2025-07-19 17:49:07] INFO continuous_learning: Collecting data for BTCUSD...
+[2025-07-19 17:49:24] INFO continuous_learning: Added 4792 samples for BTCUSD
+[2025-07-19 17:49:24] INFO continuous_learning: Total training data: 23708 samples
+[2025-07-19 17:49:24] INFO continuous_learning: [Registry] Model for EURUSD is outdated or missing. Retrain needed.
+[2025-07-19 17:49:24] ERROR continuous_learning: Error during model retraining: list index out of range
+[2025-07-19 17:49:24] ERROR continuous_learning: Continuous learning cycle failed
+[2025-07-19 17:49:24] INFO continuous_learning: Current performance: {'total_signals': 0, 'win_rate': 0, 'avg_pnl': 0, 'accuracy': 0, 'high_confidence_signals': 0}
+[2025-07-19 17:53:53] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 17:53:53] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 17:54:28] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 17:54:28] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 17:54:30] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 17:54:30] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 17:54:30] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 17:54:30] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 17:54:30] INFO advanced_pipeline_orchestrator: Running signal generation with advanced learning integration
+[2025-07-19 17:54:30] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 17:54:30] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 17:54:40] INFO advanced_continuous_learning: Advanced market analysis completed for BTCUSD
+[2025-07-19 17:54:40] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 18:26:28] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 18:26:28] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 18:27:04] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 18:27:04] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 18:27:06] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 18:27:06] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 18:27:06] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 18:27:06] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 18:27:06] INFO advanced_pipeline_orchestrator: Running signal generation with advanced learning integration
+[2025-07-19 18:27:06] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 18:27:06] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 18:27:17] INFO advanced_continuous_learning: Advanced market analysis completed for BTCUSD
+[2025-07-19 18:27:17] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 18:28:26] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 18:28:26] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 18:29:00] INFO continuous_learning: Loaded learning insights from file
+[2025-07-19 18:29:00] INFO continuous_learning: Loaded pattern memory from file
+[2025-07-19 18:29:01] INFO advanced_continuous_learning: Loaded learning insights from file
+[2025-07-19 18:29:01] INFO advanced_continuous_learning: Loaded pattern memory from file
+[2025-07-19 18:29:01] INFO advanced_continuous_learning: Loaded market regime memory from file
+[2025-07-19 18:29:01] INFO advanced_continuous_learning: Loaded adaptive weights from file
+[2025-07-19 18:29:01] INFO advanced_pipeline_orchestrator: Running signal generation with advanced learning integration
+[2025-07-19 18:29:01] INFO advanced_pipeline_orchestrator: Starting market analysis cycle
+[2025-07-19 18:29:01] INFO advanced_continuous_learning: Performing advanced market analysis for BTCUSD
+[2025-07-19 18:29:14] INFO advanced_continuous_learning: Advanced market analysis completed for BTCUSD
+[2025-07-19 18:29:14] INFO advanced_pipeline_orchestrator: Market analysis cycle completed
+[2025-07-19 18:49:24] INFO continuous_learning: Running continuous learning cycle...
+[2025-07-19 18:49:24] INFO continuous_learning: Retrain triggered: Low accuracy 0.00%
+[2025-07-19 18:49:24] INFO continuous_learning: Retraining conditions met, starting retrain...
+[2025-07-19 18:49:24] INFO continuous_learning: Starting model retraining...
+[2025-07-19 18:49:24] INFO continuous_learning: Collecting data for EURUSD...
+[2025-07-19 18:49:34] WARNING continuous_learning: No price data for EURUSD
+[2025-07-19 18:49:34] INFO continuous_learning: Collecting data for USDJPY...
+[2025-07-19 18:49:51] INFO continuous_learning: Added 4702 samples for USDJPY
+[2025-07-19 18:49:51] INFO continuous_learning: Collecting data for USDCHF...
+[2025-07-19 18:50:44] INFO continuous_learning: Added 4702 samples for USDCHF
+[2025-07-19 18:50:44] INFO continuous_learning: Collecting data for NZDUSD...

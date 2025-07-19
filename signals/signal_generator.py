@@ -8,10 +8,31 @@ import json
 from data.fetch_news import fetch_economic_calendar
 import dateutil.parser
 from utils.analytics_logger import AnalyticsLogger
+import csv
 logger = get_logger('signal_generator', log_file='logs/signal_generator.log')
 
 # Instantiate analytics logger (singleton)
 analytics_logger = AnalyticsLogger()
+
+def ensure_outcomes_csv_exists():
+    """Ensure the signal outcomes CSV file exists with proper headers."""
+    outcomes_file = 'logs/signal_outcomes.csv'
+    if not os.path.exists(outcomes_file):
+        os.makedirs('logs', exist_ok=True)
+        with open(outcomes_file, 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                'timestamp', 'pair', 'signal_type', 'entry', 'stop_loss', 
+                'take_profit_1', 'take_profit_2', 'take_profit_3', 'confidence',
+                'confluence', 'confluence_factors', 'outcome', 'tps_hit', 
+                'timeframe', 'days_to_outcome', 'pips_gained', 'exit_price'
+            ])
+        logger.info(f"Created signal outcomes CSV file: {outcomes_file}")
+    else:
+        logger.debug(f"Signal outcomes CSV file already exists: {outcomes_file}")
+
+# Ensure outcomes CSV exists at startup
+ensure_outcomes_csv_exists()
 
 def classify_trade_type(latest_close, latest_high, latest_low, prediction):
     logger.info('Classifying trade type...')
@@ -355,19 +376,34 @@ def generate_signal_output(pair, features_df, prediction_result):
             weighted_votes += weight
             contributing_factors.append(k)
     # --- Tiered Filtering Logic ---
-    num_factors = len(contributing_factors)
-    if num_factors >= 4:
-        if confidence < 0.70:
-            logger.info(f"[FILTERED] {pair} @ {latest_time} | 4+ factors but confidence {confidence:.2f} < 0.70. No signal generated. Factors: {factors}")
+    num_factors = len(factors)
+    # --- BTCUSD-specific confluence logic ---
+    if pair == 'BTCUSD':
+        if num_factors >= 6:
+            if confidence < 0.8:
+                logger.info(f"[BTCUSD FILTERED] {pair} @ {latest_time} | {num_factors} factors but confidence {confidence:.2f} < 0.80. No signal generated. Factors: {factors}")
+                return None
+        elif num_factors == 5:
+            if confidence < 0.85:
+                logger.info(f"[BTCUSD FILTERED] {pair} @ {latest_time} | Only 5 factors and confidence {confidence:.2f} < 0.85. No signal generated. Factors: {factors}")
+                return None
+        else:
+            logger.info(f"[BTCUSD FILTERED] {pair} @ {latest_time} | Only {num_factors} factors. No signal generated. Factors: {factors}")
             return None
-        # else: allow
-    elif num_factors == 3:
-        if confidence < 0.80:
-            logger.info(f"[FILTERED] {pair} @ {latest_time} | Only 3 factors and confidence {confidence:.2f} < 0.80. No signal generated. Factors: {factors}")
-            return None
+        logger.info(f"[BTCUSD] Signal allowed with {num_factors} factors and confidence {confidence:.2f}.")
     else:
-        logger.info(f"[FILTERED] {pair} @ {latest_time} | Only {num_factors} factors. No signal generated. Factors: {factors}")
-        return None
+        # --- Standard confluence logic for other pairs ---
+        if num_factors >= 5:
+            if confidence < 0.7:
+                logger.info(f"[FILTERED] {pair} @ {latest_time} | {num_factors} factors but confidence {confidence:.2f} < 0.70. No signal generated. Factors: {factors}")
+                return None
+        elif num_factors == 4:
+            if confidence < 0.8:
+                logger.info(f"[FILTERED] {pair} @ {latest_time} | Only 4 factors and confidence {confidence:.2f} < 0.80. No signal generated. Factors: {factors}")
+                return None
+        else:
+            logger.info(f"[FILTERED] {pair} @ {latest_time} | Only {num_factors} factors. No signal generated. Factors: {factors}")
+            return None
     # --- Signal rules (dynamic threshold) ---
     threshold = 3.0 if at_key_level else 4.0
     if weighted_votes >= threshold:

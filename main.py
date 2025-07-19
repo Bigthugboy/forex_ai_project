@@ -18,9 +18,9 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np
 from utils.attempt_log import AttemptLog
 from data.data_fetcher import DataFetcher
-from pipeline.pipeline_orchestrator import PipelineOrchestrator
+from pipeline.pipeline_orchestrator import AdvancedPipelineOrchestrator
 from pipeline.signal_pipeline import SignalPipeline
-from models.continuous_learning import continuous_learner
+from models.advanced_continuous_learning import AdvancedContinuousLearning
 import threading
 
 logger = get_logger('main', log_file='logs/main.log')
@@ -98,11 +98,13 @@ def main():
             logger.info("Market closed for forex pairs (Fri-Sun). Skipping live trading for forex pairs. BTCUSD is allowed.")
             exit(0)
     signal_pipeline = SignalPipeline(mode=mode, pair=pair)
-    orchestrator = PipelineOrchestrator(signal_pipeline=signal_pipeline)
+    advanced_learner = AdvancedContinuousLearning()
+    orchestrator = AdvancedPipelineOrchestrator(signal_pipeline=signal_pipeline, continuous_learner=advanced_learner)
     # Start daily summary email scheduler in background
-    email_thread = threading.Thread(target=continuous_learner.run_daily_summary_email, args=(send_email,), daemon=True)
+    email_thread = threading.Thread(target=advanced_learner.run_daily_summary_email, args=(send_email,), daemon=True)
     email_thread.start()
-    orchestrator.run_forever(send_email_func=send_email)
+    orchestrator.start_advanced_continuous_learning()
+    orchestrator.run_signal_generation()
 
 if __name__ == "__main__":
     main()

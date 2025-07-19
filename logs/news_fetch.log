@@ -5191,3 +5191,665 @@
 [2025-07-18 20:03:39] INFO news_fetch: Economic calendar events for AUDJPY: 0
 [2025-07-18 20:16:30] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
 [2025-07-18 20:16:30] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.49h < 12h TTL
+[2025-07-18 20:22:45] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-15, to=2025-07-18
+[2025-07-18 20:22:45] INFO news_fetch: Starting news sentiment fetch for ['EURUSD'], from=2025-07-15, to=2025-07-18, pair=None
+[2025-07-18 20:22:45] INFO news_fetch: Trying NewsAPI...
+[2025-07-18 20:22:45] INFO news_fetch: Trying NewsAPI for keyword 'EURUSD'...
+[2025-07-18 20:22:47] WARNING news_fetch: NewsAPI rate limit hit for keyword 'EURUSD'. Trying Newsdata.io...
+[2025-07-18 20:22:47] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-18 20:22:47] INFO news_fetch: Fetching RSS news for keywords: ['EURUSD']
+[2025-07-18 20:22:47] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-18 20:22:49] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-18 20:22:49] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-18 20:22:51] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-18 20:22:51] INFO news_fetch: RSS total headlines found: 0
+[2025-07-18 20:22:51] WARNING news_fetch: RSS fallback found no headlines for 2025-07-15_2025-07-18
+[2025-07-18 20:22:51] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-15_2025-07-18, returning 0.0
+[2025-07-18 20:22:51] WARNING news_fetch: [news_api] No news found for EURUSD 2025-07-18. Trying cache fallback.
+[2025-07-18 20:22:51] ERROR news_fetch: [news_cache] No cached news available for EURUSD
+[2025-07-18 20:23:07] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-15, to=2025-07-18
+[2025-07-18 20:23:07] INFO news_fetch: Starting news sentiment fetch for ['USDJPY'], from=2025-07-15, to=2025-07-18, pair=None
+[2025-07-18 20:23:07] INFO news_fetch: Trying NewsAPI...
+[2025-07-18 20:23:07] INFO news_fetch: Trying NewsAPI for keyword 'USDJPY'...
+[2025-07-18 20:23:11] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USDJPY'. Trying Newsdata.io...
+[2025-07-18 20:23:11] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-18 20:23:11] INFO news_fetch: Fetching RSS news for keywords: ['USDJPY']
+[2025-07-18 20:23:11] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-18 20:23:14] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-18 20:23:14] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-18 20:23:16] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-18 20:23:16] INFO news_fetch: RSS total headlines found: 0
+[2025-07-18 20:23:16] WARNING news_fetch: RSS fallback found no headlines for 2025-07-15_2025-07-18
+[2025-07-18 20:23:16] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-15_2025-07-18, returning 0.0
+[2025-07-18 20:23:16] WARNING news_fetch: [news_api] No news found for USDJPY 2025-07-18. Trying cache fallback.
+[2025-07-18 20:23:16] ERROR news_fetch: [news_cache] No cached news available for USDJPY
+[2025-07-18 20:23:27] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-15, to=2025-07-18
+[2025-07-18 20:23:27] INFO news_fetch: Starting news sentiment fetch for ['USDCHF'], from=2025-07-15, to=2025-07-18, pair=None
+[2025-07-18 20:23:27] INFO news_fetch: Trying NewsAPI...
+[2025-07-18 20:23:27] INFO news_fetch: Trying NewsAPI for keyword 'USDCHF'...
+[2025-07-18 20:23:29] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USDCHF'. Trying Newsdata.io...
+[2025-07-18 20:23:29] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-18 20:23:29] INFO news_fetch: Fetching RSS news for keywords: ['USDCHF']
+[2025-07-18 20:23:29] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-18 20:23:33] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-18 20:23:33] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-18 20:23:36] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-18 20:23:36] INFO news_fetch: RSS total headlines found: 0
+[2025-07-18 20:23:36] WARNING news_fetch: RSS fallback found no headlines for 2025-07-15_2025-07-18
+[2025-07-18 20:23:36] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-15_2025-07-18, returning 0.0
+[2025-07-18 20:23:36] WARNING news_fetch: [news_api] No news found for USDCHF 2025-07-18. Trying cache fallback.
+[2025-07-18 20:23:36] ERROR news_fetch: [news_cache] No cached news available for USDCHF
+[2025-07-18 20:24:58] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-18 20:25:00] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-18 20:25:20] INFO news_fetch: Fetching economic calendar for AUDUSD
+[2025-07-18 20:25:22] INFO news_fetch: Economic calendar events for AUDUSD: 0
+[2025-07-18 20:25:46] INFO news_fetch: Fetching economic calendar for NZDUSD
+[2025-07-18 20:25:48] INFO news_fetch: Economic calendar events for NZDUSD: 0
+[2025-07-18 20:26:08] INFO news_fetch: Fetching economic calendar for USDCAD
+[2025-07-18 20:26:09] INFO news_fetch: Economic calendar events for USDCAD: 0
+[2025-07-18 20:26:42] INFO news_fetch: Fetching economic calendar for GBPJPY
+[2025-07-18 20:26:46] INFO news_fetch: Economic calendar events for GBPJPY: 0
+[2025-07-18 20:27:01] INFO news_fetch: Fetching economic calendar for AUDJPY
+[2025-07-18 20:27:04] INFO news_fetch: Economic calendar events for AUDJPY: 0
+[2025-07-18 20:52:43] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-18 20:52:44] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-18 20:52:53] INFO news_fetch: Fetching economic calendar for AUDUSD
+[2025-07-18 20:52:53] INFO news_fetch: Economic calendar events for AUDUSD: 0
+[2025-07-18 20:53:01] INFO news_fetch: Fetching economic calendar for NZDUSD
+[2025-07-18 20:53:01] INFO news_fetch: Economic calendar events for NZDUSD: 0
+[2025-07-18 20:53:10] INFO news_fetch: Fetching economic calendar for USDCAD
+[2025-07-18 20:53:10] INFO news_fetch: Economic calendar events for USDCAD: 0
+[2025-07-18 20:53:24] INFO news_fetch: Fetching economic calendar for GBPJPY
+[2025-07-18 20:53:25] INFO news_fetch: Economic calendar events for GBPJPY: 0
+[2025-07-18 20:53:32] INFO news_fetch: Fetching economic calendar for AUDJPY
+[2025-07-18 20:53:32] INFO news_fetch: Economic calendar events for AUDJPY: 0
+[2025-07-18 21:15:54] INFO news_fetch: Fetching economic calendar for AUDUSD
+[2025-07-18 21:15:55] INFO news_fetch: Economic calendar events for AUDUSD: 0
+[2025-07-18 21:16:12] INFO news_fetch: Fetching economic calendar for NZDUSD
+[2025-07-18 21:16:12] INFO news_fetch: Economic calendar events for NZDUSD: 0
+[2025-07-18 21:17:03] INFO news_fetch: Fetching economic calendar for GBPJPY
+[2025-07-18 21:17:09] INFO news_fetch: Economic calendar events for GBPJPY: 0
+[2025-07-18 21:34:34] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-18 21:34:37] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-18 21:36:39] INFO news_fetch: Fetching economic calendar for NZDUSD
+[2025-07-18 21:36:41] INFO news_fetch: Economic calendar events for NZDUSD: 0
+[2025-07-19 00:01:09] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 00:01:09] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 4.24h < 12h TTL
+[2025-07-19 00:01:42] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 00:01:42] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 4.25h < 12h TTL
+[2025-07-19 00:02:19] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 00:02:19] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 4.26h < 12h TTL
+[2025-07-19 00:04:06] INFO news_fetch: Starting news sentiment fetch for ['BTC', 'Bitcoin', 'BTCUSD', 'BTC-USD', 'crypto', 'cryptocurrency'], from=2025-07-16, to=2025-07-18, pair=BTCUSD
+[2025-07-19 00:04:06] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 00:04:06] INFO news_fetch: Trying NewsAPI for keyword 'BTC'...
+[2025-07-19 00:04:07] WARNING news_fetch: NewsAPI rate limit hit for keyword 'BTC'. Trying Newsdata.io...
+[2025-07-19 00:04:07] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 00:04:07] INFO news_fetch: Fetching RSS news for keywords: ['BTC', 'Bitcoin', 'BTCUSD', 'BTC-USD', 'crypto', 'cryptocurrency']
+[2025-07-19 00:04:07] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 00:04:08] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 00:04:08] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 00:04:09] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 00:04:09] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 00:04:09] WARNING news_fetch: RSS fallback found no headlines for BTCUSD_2025-07-16_2025-07-18
+[2025-07-19 00:04:09] WARNING news_fetch: [news_cache] No news sentiment available for BTCUSD_2025-07-16_2025-07-18, returning 0.0
+[2025-07-19 00:05:28] INFO news_fetch: Starting news sentiment fetch for ['BTC', 'Bitcoin', 'BTCUSD', 'BTC-USD', 'crypto', 'cryptocurrency'], from=2025-07-16, to=2025-07-18, pair=BTCUSD
+[2025-07-19 00:05:28] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 00:05:28] INFO news_fetch: Trying NewsAPI for keyword 'BTC'...
+[2025-07-19 00:05:29] WARNING news_fetch: NewsAPI rate limit hit for keyword 'BTC'. Trying Newsdata.io...
+[2025-07-19 00:05:29] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 00:05:29] INFO news_fetch: Fetching RSS news for keywords: ['BTC', 'Bitcoin', 'BTCUSD', 'BTC-USD', 'crypto', 'cryptocurrency']
+[2025-07-19 00:05:29] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 00:05:30] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 00:05:30] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 00:05:31] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 00:05:31] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 00:05:31] WARNING news_fetch: RSS fallback found no headlines for BTCUSD_2025-07-16_2025-07-18
+[2025-07-19 00:05:31] WARNING news_fetch: [news_cache] No news sentiment available for BTCUSD_2025-07-16_2025-07-18, returning 0.0
+[2025-07-19 01:23:27] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:23:27] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:23:27] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.61h < 12h TTL
+[2025-07-19 01:23:27] INFO news_fetch: [news_api] Got sentiment score 0.0325 for EURUSD 2025-07-18
+[2025-07-19 01:23:33] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:23:33] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'JPY/USD', 'Federal Reserve', 'Bank of Japan', 'interest rates'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:23:33] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.61h < 12h TTL
+[2025-07-19 01:23:33] INFO news_fetch: [news_api] Got sentiment score 0.0325 for USDJPY 2025-07-18
+[2025-07-19 01:23:41] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:23:41] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:23:41] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.61h < 12h TTL
+[2025-07-19 01:23:41] INFO news_fetch: [news_api] Got sentiment score 0.0325 for USDCHF 2025-07-18
+[2025-07-19 01:23:47] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:23:47] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:23:47] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.61h < 12h TTL
+[2025-07-19 01:23:47] INFO news_fetch: [news_api] Got sentiment score 0.0325 for NZDUSD 2025-07-18
+[2025-07-19 01:23:53] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:23:53] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'JPY/USD', 'Federal Reserve', 'Bank of Japan', 'interest rates'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:23:53] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.62h < 12h TTL
+[2025-07-19 01:23:53] INFO news_fetch: [news_api] Got sentiment score 0.0325 for EURJPY 2025-07-18
+[2025-07-19 01:23:59] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:23:59] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'JPY/USD', 'Federal Reserve', 'Bank of Japan', 'interest rates'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:23:59] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.62h < 12h TTL
+[2025-07-19 01:23:59] INFO news_fetch: [news_api] Got sentiment score 0.0325 for NZDJPY 2025-07-18
+[2025-07-19 01:24:06] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 01:24:06] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'cryptocurrency', 'cryptodigital currency'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 01:24:06] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 01:24:06] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 01:24:06] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 01:24:06] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 01:24:06] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'cryptocurrency', 'cryptodigital currency']
+[2025-07-19 01:24:06] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 01:24:07] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 01:24:07] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 01:24:07] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 01:24:07] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 01:24:07] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 01:24:07] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 01:24:07] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 01:24:07] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-19 01:25:26] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:25:26] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:25:26] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.64h < 12h TTL
+[2025-07-19 01:25:26] INFO news_fetch: [news_api] Got sentiment score 0.0325 for EURUSD 2025-07-18
+[2025-07-19 01:25:31] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:25:31] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'JPY/USD', 'Federal Reserve', 'Bank of Japan', 'interest rates'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:25:31] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.64h < 12h TTL
+[2025-07-19 01:25:31] INFO news_fetch: [news_api] Got sentiment score 0.0325 for USDJPY 2025-07-18
+[2025-07-19 01:25:36] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:25:36] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:25:36] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.64h < 12h TTL
+[2025-07-19 01:25:36] INFO news_fetch: [news_api] Got sentiment score 0.0325 for USDCHF 2025-07-18
+[2025-07-19 01:25:41] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:25:41] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:25:41] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.65h < 12h TTL
+[2025-07-19 01:25:41] INFO news_fetch: [news_api] Got sentiment score 0.0325 for NZDUSD 2025-07-18
+[2025-07-19 01:25:46] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:25:46] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'JPY/USD', 'Federal Reserve', 'Bank of Japan', 'interest rates'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:25:46] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.65h < 12h TTL
+[2025-07-19 01:25:46] INFO news_fetch: [news_api] Got sentiment score 0.0325 for EURJPY 2025-07-18
+[2025-07-19 01:25:50] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 01:25:50] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'JPY/USD', 'Federal Reserve', 'Bank of Japan', 'interest rates'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 01:25:50] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 5.65h < 12h TTL
+[2025-07-19 01:25:50] INFO news_fetch: [news_api] Got sentiment score 0.0325 for NZDJPY 2025-07-18
+[2025-07-19 01:25:55] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 01:25:55] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'cryptocurrency', 'cryptodigital currency'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 01:25:55] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 01:25:55] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 01:25:56] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 01:25:56] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 01:25:56] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'cryptocurrency', 'cryptodigital currency']
+[2025-07-19 01:25:56] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 01:25:56] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 01:25:56] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 01:25:57] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 01:25:57] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 01:25:57] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 01:25:57] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 01:25:57] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 01:25:57] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-19 15:03:30] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:03:30] INFO news_fetch: Starting news sentiment fetch for ['EUR', 'USD', 'Euro', 'Dollar', 'EURUSD', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:03:30] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:03:30] INFO news_fetch: [news_cache] Cache expired for 2025-07-16_2025-07-18, age: 19.28h >= 12h TTL. Fetching fresh data.
+[2025-07-19 15:03:30] INFO news_fetch: Starting news sentiment fetch for ['EUR', 'USD', 'Euro', 'Dollar', 'EURUSD', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:03:30] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 15:03:30] INFO news_fetch: Trying NewsAPI for keyword 'EUR'...
+[2025-07-19 15:03:30] INFO news_fetch: [news_cache] Cache expired for 2025-07-16_2025-07-18, age: 19.28h >= 12h TTL. Fetching fresh data.
+[2025-07-19 15:03:30] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 15:03:30] INFO news_fetch: Trying NewsAPI for keyword 'EUR'...
+[2025-07-19 15:03:31] WARNING news_fetch: NewsAPI rate limit hit for keyword 'EUR'. Trying Newsdata.io...
+[2025-07-19 15:03:31] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 15:03:31] INFO news_fetch: Fetching RSS news for keywords: ['EUR', 'USD', 'Euro', 'Dollar', 'EURUSD', 'FX']
+[2025-07-19 15:03:31] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 15:03:32] WARNING news_fetch: NewsAPI rate limit hit for keyword 'EUR'. Trying Newsdata.io...
+[2025-07-19 15:03:32] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 15:03:32] INFO news_fetch: Fetching RSS news for keywords: ['EUR', 'USD', 'Euro', 'Dollar', 'EURUSD', 'FX']
+[2025-07-19 15:03:32] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 15:03:32] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 12 relevant headlines
+[2025-07-19 15:03:32] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 15:03:34] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 12 relevant headlines
+[2025-07-19 15:03:34] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 15:03:35] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 2 relevant headlines
+[2025-07-19 15:03:35] INFO news_fetch: RSS total headlines found: 14
+[2025-07-19 15:03:35] INFO news_fetch: RSS found 14 headlines. Sample: ["EUR/USD gains as Fed's Waller supports July rate cut, US sentiment improves"]
+[2025-07-19 15:03:35] INFO news_fetch: [news_cache] Saved RSS sentiment for 2025-07-16_2025-07-18 to logs/news_cache/2025-07-16_2025-07-18.json
+[2025-07-19 15:03:35] INFO news_fetch: [news_api] Got sentiment score 0.0326 for EURUSD 2025-07-18
+[2025-07-19 15:03:36] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 2 relevant headlines
+[2025-07-19 15:03:36] INFO news_fetch: RSS total headlines found: 14
+[2025-07-19 15:03:36] INFO news_fetch: RSS found 14 headlines. Sample: ["EUR/USD gains as Fed's Waller supports July rate cut, US sentiment improves"]
+[2025-07-19 15:03:36] INFO news_fetch: [news_cache] Saved RSS sentiment for 2025-07-16_2025-07-18 to logs/news_cache/2025-07-16_2025-07-18.json
+[2025-07-19 15:03:36] INFO news_fetch: [news_api] Got sentiment score 0.0326 for EURUSD 2025-07-18
+[2025-07-19 15:03:52] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:03:52] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'Dollar', 'Yen', 'USDJPY', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:03:52] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:03:52] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'Dollar', 'Yen', 'USDJPY', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:03:52] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.01h < 12h TTL
+[2025-07-19 15:03:52] INFO news_fetch: [news_api] Got sentiment score 0.0326 for USDJPY 2025-07-18
+[2025-07-19 15:03:52] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.01h < 12h TTL
+[2025-07-19 15:03:52] INFO news_fetch: [news_api] Got sentiment score 0.0326 for USDJPY 2025-07-18
+[2025-07-19 15:04:35] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-08, to=2025-07-18
+[2025-07-19 15:04:35] INFO news_fetch: Starting news sentiment fetch for ['USD', 'CHF', 'Dollar', 'Franc', 'USDCHF', 'FX'], from=2025-07-08, to=2025-07-18, pair=None
+[2025-07-19 15:04:35] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 15:04:35] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-08, to=2025-07-18
+[2025-07-19 15:04:35] INFO news_fetch: Trying NewsAPI for keyword 'USD'...
+[2025-07-19 15:04:35] INFO news_fetch: Starting news sentiment fetch for ['USD', 'CHF', 'Dollar', 'Franc', 'USDCHF', 'FX'], from=2025-07-08, to=2025-07-18, pair=None
+[2025-07-19 15:04:35] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 15:04:35] INFO news_fetch: Trying NewsAPI for keyword 'USD'...
+[2025-07-19 15:04:37] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USD'. Trying Newsdata.io...
+[2025-07-19 15:04:37] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 15:04:37] INFO news_fetch: Fetching RSS news for keywords: ['USD', 'CHF', 'Dollar', 'Franc', 'USDCHF', 'FX']
+[2025-07-19 15:04:37] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 15:04:39] WARNING news_fetch: NewsAPI rate limit hit for keyword 'USD'. Trying Newsdata.io...
+[2025-07-19 15:04:39] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 15:04:39] INFO news_fetch: Fetching RSS news for keywords: ['USD', 'CHF', 'Dollar', 'Franc', 'USDCHF', 'FX']
+[2025-07-19 15:04:39] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 15:04:40] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 10 relevant headlines
+[2025-07-19 15:04:40] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 15:04:40] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 10 relevant headlines
+[2025-07-19 15:04:40] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 15:04:41] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 2 relevant headlines
+[2025-07-19 15:04:41] INFO news_fetch: RSS total headlines found: 12
+[2025-07-19 15:04:41] INFO news_fetch: RSS found 12 headlines. Sample: ["EUR/USD gains as Fed's Waller supports July rate cut, US sentiment improves"]
+[2025-07-19 15:04:41] INFO news_fetch: [news_cache] Saved RSS sentiment for 2025-07-08_2025-07-18 to logs/news_cache/2025-07-08_2025-07-18.json
+[2025-07-19 15:04:41] INFO news_fetch: [news_api] Got sentiment score 0.0316 for USDCHF 2025-07-18
+[2025-07-19 15:04:44] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 2 relevant headlines
+[2025-07-19 15:04:44] INFO news_fetch: RSS total headlines found: 12
+[2025-07-19 15:04:44] INFO news_fetch: RSS found 12 headlines. Sample: ["EUR/USD gains as Fed's Waller supports July rate cut, US sentiment improves"]
+[2025-07-19 15:04:44] INFO news_fetch: [news_cache] Saved RSS sentiment for 2025-07-08_2025-07-18 to logs/news_cache/2025-07-08_2025-07-18.json
+[2025-07-19 15:04:44] INFO news_fetch: [news_api] Got sentiment score 0.0316 for USDCHF 2025-07-18
+[2025-07-19 15:04:48] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:04:48] INFO news_fetch: Starting news sentiment fetch for ['NZDUSD'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:04:48] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.02h < 12h TTL
+[2025-07-19 15:04:48] INFO news_fetch: [news_api] Got sentiment score 0.0326 for NZDUSD 2025-07-18
+[2025-07-19 15:04:48] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:04:48] INFO news_fetch: Starting news sentiment fetch for ['NZDUSD'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:04:48] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.02h < 12h TTL
+[2025-07-19 15:04:48] INFO news_fetch: [news_api] Got sentiment score 0.0326 for NZDUSD 2025-07-18
+[2025-07-19 15:05:06] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:05:06] INFO news_fetch: Starting news sentiment fetch for ['EURJPY'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:05:06] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:05:06] INFO news_fetch: Starting news sentiment fetch for ['EURJPY'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:05:06] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.03h < 12h TTL
+[2025-07-19 15:05:06] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.03h < 12h TTL
+[2025-07-19 15:05:06] INFO news_fetch: [news_api] Got sentiment score 0.0326 for EURJPY 2025-07-18
+[2025-07-19 15:05:06] INFO news_fetch: [news_api] Got sentiment score 0.0326 for EURJPY 2025-07-18
+[2025-07-19 15:05:35] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:05:35] INFO news_fetch: Starting news sentiment fetch for ['NZDJPY'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:05:35] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:05:35] INFO news_fetch: Starting news sentiment fetch for ['NZDJPY'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:05:35] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.03h < 12h TTL
+[2025-07-19 15:05:35] INFO news_fetch: [news_api] Got sentiment score 0.0326 for NZDJPY 2025-07-18
+[2025-07-19 15:05:35] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.03h < 12h TTL
+[2025-07-19 15:05:35] INFO news_fetch: [news_api] Got sentiment score 0.0326 for NZDJPY 2025-07-18
+[2025-07-19 15:15:16] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:15:16] INFO news_fetch: Starting news sentiment fetch for ['EUR', 'USD', 'Euro', 'Dollar', 'EURUSD', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:15:16] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.20h < 12h TTL
+[2025-07-19 15:15:16] INFO news_fetch: [news_api] Got sentiment score 0.0326 for EURUSD 2025-07-18
+[2025-07-19 15:15:19] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:15:19] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'Dollar', 'Yen', 'USDJPY', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:15:19] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.20h < 12h TTL
+[2025-07-19 15:15:19] INFO news_fetch: [news_api] Got sentiment score 0.0326 for USDJPY 2025-07-18
+[2025-07-19 15:15:37] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-08, to=2025-07-18
+[2025-07-19 15:15:37] INFO news_fetch: Starting news sentiment fetch for ['USD', 'CHF', 'Dollar', 'Franc', 'USDCHF', 'FX'], from=2025-07-08, to=2025-07-18, pair=None
+[2025-07-19 15:15:37] INFO news_fetch: [news_cache] Cache hit for 2025-07-08_2025-07-18, age: 0.18h < 12h TTL
+[2025-07-19 15:15:37] INFO news_fetch: [news_api] Got sentiment score 0.0316 for USDCHF 2025-07-18
+[2025-07-19 15:15:38] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:15:38] INFO news_fetch: Starting news sentiment fetch for ['NZDUSD'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:15:38] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.20h < 12h TTL
+[2025-07-19 15:15:38] INFO news_fetch: [news_api] Got sentiment score 0.0326 for NZDUSD 2025-07-18
+[2025-07-19 15:15:42] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:15:42] INFO news_fetch: Starting news sentiment fetch for ['EURJPY'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:15:42] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.20h < 12h TTL
+[2025-07-19 15:15:42] INFO news_fetch: [news_api] Got sentiment score 0.0326 for EURJPY 2025-07-18
+[2025-07-19 15:15:47] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:15:47] INFO news_fetch: Starting news sentiment fetch for ['NZDJPY'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:15:47] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.20h < 12h TTL
+[2025-07-19 15:15:47] INFO news_fetch: [news_api] Got sentiment score 0.0326 for NZDJPY 2025-07-18
+[2025-07-19 15:16:11] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 15:16:11] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 15:16:11] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 15:16:11] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 15:16:12] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 15:16:12] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 15:16:12] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD']
+[2025-07-19 15:16:12] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 15:16:15] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 15:16:15] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 15:16:20] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 15:16:20] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 15:16:20] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 15:16:20] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 15:16:20] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 15:16:20] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-19 15:20:41] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:20:41] INFO news_fetch: Starting news sentiment fetch for ['EUR', 'USD', 'Euro', 'Dollar', 'EURUSD', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:20:41] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.29h < 12h TTL
+[2025-07-19 15:20:41] INFO news_fetch: [news_api] Got sentiment score 0.0326 for EURUSD 2025-07-18
+[2025-07-19 15:20:45] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:20:45] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'Dollar', 'Yen', 'USDJPY', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:20:45] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.29h < 12h TTL
+[2025-07-19 15:20:45] INFO news_fetch: [news_api] Got sentiment score 0.0326 for USDJPY 2025-07-18
+[2025-07-19 15:20:56] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:20:56] INFO news_fetch: Starting news sentiment fetch for ['USD', 'CHF', 'Dollar', 'Franc', 'USDCHF', 'FX'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:20:56] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.29h < 12h TTL
+[2025-07-19 15:20:56] INFO news_fetch: [news_api] Got sentiment score 0.0326 for USDCHF 2025-07-18
+[2025-07-19 15:21:00] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDUSD, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:21:00] INFO news_fetch: Starting news sentiment fetch for ['NZDUSD'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:21:00] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.29h < 12h TTL
+[2025-07-19 15:21:00] INFO news_fetch: [news_api] Got sentiment score 0.0326 for NZDUSD 2025-07-18
+[2025-07-19 15:21:04] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:21:04] INFO news_fetch: Starting news sentiment fetch for ['EURJPY'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:21:04] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.29h < 12h TTL
+[2025-07-19 15:21:04] INFO news_fetch: [news_api] Got sentiment score 0.0326 for EURJPY 2025-07-18
+[2025-07-19 15:21:09] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDJPY, from=2025-07-16, to=2025-07-18
+[2025-07-19 15:21:09] INFO news_fetch: Starting news sentiment fetch for ['NZDJPY'], from=2025-07-16, to=2025-07-18, pair=None
+[2025-07-19 15:21:09] INFO news_fetch: [news_cache] Cache hit for 2025-07-16_2025-07-18, age: 0.29h < 12h TTL
+[2025-07-19 15:21:09] INFO news_fetch: [news_api] Got sentiment score 0.0326 for NZDJPY 2025-07-18
+[2025-07-19 15:21:18] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 15:21:18] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 15:21:18] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 15:21:18] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 15:21:21] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 15:21:21] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 15:21:21] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD']
+[2025-07-19 15:21:21] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 15:21:23] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 15:21:23] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 15:21:24] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 15:21:24] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 15:21:24] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 15:21:24] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 15:21:24] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 15:21:24] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-19 16:18:51] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'JPY']
+[2025-07-19 16:18:51] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:18:54] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 1 relevant headlines
+[2025-07-19 16:18:54] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:18:55] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:18:55] INFO news_fetch: RSS total headlines found: 1
+[2025-07-19 16:18:55] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC']
+[2025-07-19 16:18:55] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:18:56] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 16:18:56] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:18:57] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:18:57] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 16:18:57] INFO news_fetch: Fetching RSS news for keywords: ['USD/CHF', 'USDCHF', 'CHF']
+[2025-07-19 16:18:57] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:18:59] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 16:18:59] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:19:00] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:19:00] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 16:19:00] INFO news_fetch: Fetching RSS news for keywords: ['NZD/JPY', 'NZDJPY', 'NZD']
+[2025-07-19 16:19:00] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:19:02] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 1 relevant headlines
+[2025-07-19 16:19:02] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:19:03] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:19:03] INFO news_fetch: RSS total headlines found: 1
+[2025-07-19 16:19:03] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-19 16:19:04] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-19 16:19:04] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-19 16:19:06] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-19 16:19:06] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-19 16:19:07] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-19 16:19:07] INFO news_fetch: Fetching economic calendar for NZDJPY
+[2025-07-19 16:19:08] INFO news_fetch: Economic calendar events for NZDJPY: 0
+[2025-07-19 16:19:17] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=EURUSD, from=2025-07-08, to=2025-07-18
+[2025-07-19 16:19:17] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-08, to=2025-07-18, pair=None
+[2025-07-19 16:19:17] INFO news_fetch: [news_cache] Cache hit for 2025-07-08_2025-07-18, age: 1.25h < 12h TTL
+[2025-07-19 16:19:17] INFO news_fetch: [news_api] Got sentiment score 0.0316 for EURUSD 2025-07-18
+[2025-07-19 16:19:20] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDJPY, from=2025-07-08, to=2025-07-18
+[2025-07-19 16:19:20] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'JPY/USD', 'Federal Reserve', 'Bank of Japan', 'interest rates'], from=2025-07-08, to=2025-07-18, pair=None
+[2025-07-19 16:19:20] INFO news_fetch: [news_cache] Cache hit for 2025-07-08_2025-07-18, age: 1.25h < 12h TTL
+[2025-07-19 16:19:20] INFO news_fetch: [news_api] Got sentiment score 0.0316 for USDJPY 2025-07-18
+[2025-07-19 16:19:23] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=USDCHF, from=2025-07-08, to=2025-07-18
+[2025-07-19 16:19:23] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-08, to=2025-07-18, pair=None
+[2025-07-19 16:19:23] INFO news_fetch: [news_cache] Cache hit for 2025-07-08_2025-07-18, age: 1.25h < 12h TTL
+[2025-07-19 16:19:23] INFO news_fetch: [news_api] Got sentiment score 0.0316 for USDCHF 2025-07-18
+[2025-07-19 16:19:31] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDUSD, from=2025-07-08, to=2025-07-18
+[2025-07-19 16:19:31] INFO news_fetch: Starting news sentiment fetch for ['USD', 'JPY', 'JPY/USD', 'USD/JPY', 'Bitcoin', 'BTC', 'cryptocurrency', 'Federal Reserve', 'Bank of Japan', 'interest rates', 'inflation', 'economic data', 'GDP', 'employment', 'trade balance'], from=2025-07-08, to=2025-07-18, pair=None
+[2025-07-19 16:19:31] INFO news_fetch: [news_cache] Cache hit for 2025-07-08_2025-07-18, age: 1.25h < 12h TTL
+[2025-07-19 16:19:31] INFO news_fetch: [news_api] Got sentiment score 0.0316 for NZDUSD 2025-07-18
+[2025-07-19 16:19:50] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=NZDJPY, from=2025-07-08, to=2025-07-18
+[2025-07-19 16:19:50] INFO news_fetch: Starting news sentiment fetch for ['USD/JPY', 'JPY/USD', 'Federal Reserve', 'Bank of Japan', 'interest rates'], from=2025-07-08, to=2025-07-18, pair=None
+[2025-07-19 16:19:50] INFO news_fetch: [news_cache] Cache hit for 2025-07-08_2025-07-18, age: 1.25h < 12h TTL
+[2025-07-19 16:19:50] INFO news_fetch: [news_api] Got sentiment score 0.0316 for NZDJPY 2025-07-18
+[2025-07-19 16:20:03] INFO news_fetch: Fetching economic calendar for TESTPAIR
+[2025-07-19 16:20:06] INFO news_fetch: Economic calendar events for TESTPAIR: 0
+[2025-07-19 16:34:19] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'JPY']
+[2025-07-19 16:34:19] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:34:21] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 16:34:21] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:34:22] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:34:22] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 16:34:22] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC']
+[2025-07-19 16:34:22] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:34:23] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 16:34:23] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:34:26] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:34:26] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 16:34:26] INFO news_fetch: Fetching RSS news for keywords: ['USD/CHF', 'USDCHF', 'CHF']
+[2025-07-19 16:34:26] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:34:27] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 16:34:27] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:34:28] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:34:28] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 16:34:28] INFO news_fetch: Fetching RSS news for keywords: ['NZD/JPY', 'NZDJPY', 'NZD']
+[2025-07-19 16:34:28] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:34:30] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 1 relevant headlines
+[2025-07-19 16:34:30] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:34:32] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:34:32] INFO news_fetch: RSS total headlines found: 1
+[2025-07-19 16:34:32] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-19 16:34:34] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-19 16:34:34] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-19 16:34:36] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-19 16:34:36] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-19 16:34:37] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-19 16:34:37] INFO news_fetch: Fetching economic calendar for NZDJPY
+[2025-07-19 16:34:39] INFO news_fetch: Economic calendar events for NZDJPY: 0
+[2025-07-19 16:34:51] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 16:34:51] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 16:34:51] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 16:34:51] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 16:34:54] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 16:34:54] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 16:34:54] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD']
+[2025-07-19 16:34:54] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 16:34:55] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 16:34:55] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 16:34:58] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 16:34:58] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 16:34:58] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 16:34:58] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 16:34:58] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 16:34:58] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-19 17:41:01] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'JPY']
+[2025-07-19 17:41:01] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:41:02] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 17:41:02] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:41:04] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:41:04] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 17:41:04] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC']
+[2025-07-19 17:41:04] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:41:05] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 17:41:05] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:41:06] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:41:06] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 17:41:06] INFO news_fetch: Fetching RSS news for keywords: ['USD/CHF', 'USDCHF', 'CHF']
+[2025-07-19 17:41:06] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:41:07] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 17:41:07] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:41:08] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:41:08] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 17:41:08] INFO news_fetch: Fetching RSS news for keywords: ['NZD/JPY', 'NZDJPY', 'NZD']
+[2025-07-19 17:41:08] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:41:11] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 1 relevant headlines
+[2025-07-19 17:41:11] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:41:12] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:41:12] INFO news_fetch: RSS total headlines found: 1
+[2025-07-19 17:41:12] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-19 17:41:17] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-19 17:41:17] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-19 17:41:18] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-19 17:41:18] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-19 17:41:22] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-19 17:41:22] INFO news_fetch: Fetching economic calendar for NZDJPY
+[2025-07-19 17:41:24] INFO news_fetch: Economic calendar events for NZDJPY: 0
+[2025-07-19 17:41:34] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 17:41:34] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 17:41:34] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 17:41:34] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 17:41:35] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 17:41:35] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 17:41:35] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD']
+[2025-07-19 17:41:35] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:41:38] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 17:41:38] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:41:39] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:41:39] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 17:41:39] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 17:41:39] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 17:41:39] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 17:41:39] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-19 17:53:54] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'JPY']
+[2025-07-19 17:53:54] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:53:55] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 17:53:55] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:53:56] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:53:56] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 17:53:56] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC']
+[2025-07-19 17:53:56] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:53:57] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 17:53:57] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:53:58] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:53:58] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 17:53:58] INFO news_fetch: Fetching RSS news for keywords: ['USD/CHF', 'USDCHF', 'CHF']
+[2025-07-19 17:53:58] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:54:00] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 17:54:00] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:54:02] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:54:02] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 17:54:02] INFO news_fetch: Fetching RSS news for keywords: ['NZD/JPY', 'NZDJPY', 'NZD']
+[2025-07-19 17:54:02] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:54:04] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 1 relevant headlines
+[2025-07-19 17:54:04] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:54:07] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:54:07] INFO news_fetch: RSS total headlines found: 1
+[2025-07-19 17:54:07] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-19 17:54:08] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-19 17:54:08] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-19 17:54:09] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-19 17:54:09] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-19 17:54:12] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-19 17:54:12] INFO news_fetch: Fetching economic calendar for NZDJPY
+[2025-07-19 17:54:17] INFO news_fetch: Economic calendar events for NZDJPY: 0
+[2025-07-19 17:54:30] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 17:54:30] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 17:54:30] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 17:54:30] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 17:54:32] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 17:54:32] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 17:54:32] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD']
+[2025-07-19 17:54:32] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 17:54:33] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 17:54:33] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 17:54:34] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 17:54:34] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 17:54:34] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 17:54:34] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 17:54:34] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 17:54:34] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-19 18:26:29] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'JPY']
+[2025-07-19 18:26:29] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:26:30] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:26:30] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:26:33] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:26:33] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:26:33] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC']
+[2025-07-19 18:26:33] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:26:36] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:26:36] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:26:37] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:26:37] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:26:37] INFO news_fetch: Fetching RSS news for keywords: ['USD/CHF', 'USDCHF', 'CHF']
+[2025-07-19 18:26:37] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:26:41] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:26:41] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:26:42] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:26:42] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:26:42] INFO news_fetch: Fetching RSS news for keywords: ['NZD/JPY', 'NZDJPY', 'NZD']
+[2025-07-19 18:26:42] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:26:43] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:26:43] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:26:44] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:26:44] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:26:44] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-19 18:26:47] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-19 18:26:47] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-19 18:26:48] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-19 18:26:48] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-19 18:26:49] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-19 18:26:49] INFO news_fetch: Fetching economic calendar for NZDJPY
+[2025-07-19 18:26:53] INFO news_fetch: Economic calendar events for NZDJPY: 0
+[2025-07-19 18:27:06] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 18:27:06] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 18:27:06] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 18:27:06] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 18:27:07] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 18:27:07] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 18:27:07] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD']
+[2025-07-19 18:27:07] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:27:08] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:27:08] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:27:11] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:27:11] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:27:11] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 18:27:11] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 18:27:11] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 18:27:11] ERROR news_fetch: [news_cache] No cached news available for BTCUSD
+[2025-07-19 18:28:26] INFO news_fetch: Fetching RSS news for keywords: ['USD/JPY', 'USDJPY', 'JPY']
+[2025-07-19 18:28:26] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:28:28] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:28:28] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:28:30] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:28:30] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:28:30] INFO news_fetch: Fetching RSS news for keywords: ['BTC/USD', 'BTCUSD', 'Bitcoin', 'BTC']
+[2025-07-19 18:28:30] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:28:31] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:28:31] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:28:32] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:28:32] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:28:32] INFO news_fetch: Fetching RSS news for keywords: ['USD/CHF', 'USDCHF', 'CHF']
+[2025-07-19 18:28:32] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:28:33] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:28:33] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:28:34] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:28:34] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:28:34] INFO news_fetch: Fetching RSS news for keywords: ['NZD/JPY', 'NZDJPY', 'NZD']
+[2025-07-19 18:28:34] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:28:36] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:28:36] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:28:39] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:28:39] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:28:39] INFO news_fetch: Fetching economic calendar for USDJPY
+[2025-07-19 18:28:40] INFO news_fetch: Economic calendar events for USDJPY: 0
+[2025-07-19 18:28:40] INFO news_fetch: Fetching economic calendar for BTCUSD
+[2025-07-19 18:28:43] INFO news_fetch: Economic calendar events for BTCUSD: 0
+[2025-07-19 18:28:43] INFO news_fetch: Fetching economic calendar for USDCHF
+[2025-07-19 18:28:44] INFO news_fetch: Economic calendar events for USDCHF: 0
+[2025-07-19 18:28:44] INFO news_fetch: Fetching economic calendar for NZDJPY
+[2025-07-19 18:28:47] INFO news_fetch: Economic calendar events for NZDJPY: 0
+[2025-07-19 18:29:01] INFO news_fetch: IN get_news_sentiment_with_cache: Checking cache for pair=BTCUSD, from=2025-07-17, to=2025-07-19
+[2025-07-19 18:29:01] INFO news_fetch: Starting news sentiment fetch for ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD'], from=2025-07-17, to=2025-07-19, pair=None
+[2025-07-19 18:29:01] INFO news_fetch: Trying NewsAPI...
+[2025-07-19 18:29:01] INFO news_fetch: Trying NewsAPI for keyword 'Bitcoin'...
+[2025-07-19 18:29:04] WARNING news_fetch: NewsAPI rate limit hit for keyword 'Bitcoin'. Trying Newsdata.io...
+[2025-07-19 18:29:04] INFO news_fetch: Trying RSS as final fallback...
+[2025-07-19 18:29:04] INFO news_fetch: Fetching RSS news for keywords: ['Bitcoin', 'BTC', 'Cryptocurrency', 'Crypto', 'BTCUSD']
+[2025-07-19 18:29:04] INFO news_fetch: Trying RSS feed: https://www.fxstreet.com/rss/news
+[2025-07-19 18:29:06] INFO news_fetch: RSS feed https://www.fxstreet.com/rss/news: 0 relevant headlines
+[2025-07-19 18:29:06] INFO news_fetch: Trying RSS feed: https://www.forexcrunch.com/feed/
+[2025-07-19 18:29:08] INFO news_fetch: RSS feed https://www.forexcrunch.com/feed/: 0 relevant headlines
+[2025-07-19 18:29:08] INFO news_fetch: RSS total headlines found: 0
+[2025-07-19 18:29:08] WARNING news_fetch: RSS fallback found no headlines for 2025-07-17_2025-07-19
+[2025-07-19 18:29:08] WARNING news_fetch: [news_cache] No news sentiment available for 2025-07-17_2025-07-19, returning 0.0
+[2025-07-19 18:29:08] WARNING news_fetch: [news_api] No news found for BTCUSD 2025-07-19. Trying cache fallback.
+[2025-07-19 18:29:08] ERROR news_fetch: [news_cache] No cached news available for BTCUSD

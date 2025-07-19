@@ -149,6 +149,15 @@ Time: {signal.get('time', 'N/A')}
             result['error'] = str(e)
             return result
 
+    def generate_signals(self):
+        """Generate signals for all trading pairs in Config.TRADING_PAIRS."""
+        signals = []
+        for pair in Config.TRADING_PAIRS:
+            result = self.run(pair)
+            if result and result.get('signal'):
+                signals.append(result['signal'])
+        return signals
+
     @staticmethod
     def get_pair_keywords(pair):
         # Dynamically generate keywords for any FX pair

@@ -36,6 +36,9 @@ def get_price_data(pair, interval='1h', lookback=Config.LOOKBACK_PERIOD, ttl_hou
     Returns:
         pd.DataFrame: Price data with OHLCV, or None if unavailable.
     """
+    # BTCUSD: always use at least 365 days for lookback
+    if pair == 'BTCUSD':
+        lookback = max(lookback, 365)
     # Force lookback to at least 200 for robust rolling features
     min_lookback = 200
     if lookback < min_lookback:

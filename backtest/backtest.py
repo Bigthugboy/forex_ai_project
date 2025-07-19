@@ -14,10 +14,12 @@ from datetime import datetime, timedelta
 import numpy as np
 from utils.logger import get_logger
 import os
+import argparse
 
 logger = get_logger('backtest')
 
-PAIRS = ['USDJPY', 'BTCUSD', 'USDCHF', 'NZDJPY']
+# Default pairs if no specific pair is provided
+DEFAULT_PAIRS = ['USDJPY', 'BTCUSD', 'USDCHF', 'NZDJPY']
 
 # --- Enhanced Backtest Parameters ---
 DEFAULTS = {
@@ -54,7 +56,7 @@ def backtest_pair(pair, lookback=120):
     today = datetime.utcnow().date()
     from_date = (today - timedelta(days=2)).strftime('%Y-%m-%d')
     to_date = today.strftime('%Y-%m-%d')
-    sentiment = get_news_sentiment(Config.NEWS_KEYWORDS, from_date, to_date)
+    sentiment = get_news_sentiment(Config.NEWS_KEYWORDS, from_date, to_date, pair)
     features_df = preprocess_features(price_df, sentiment)
     model, scaler, feature_cols = train_signal_model(features_df, pair)
 
@@ -204,8 +206,21 @@ def summarize_backtest(df, equity_curve, drawdowns, pair=None):
 
 
 def main():
+    parser = argparse.ArgumentParser(description='Backtest trading signals')
+    parser.add_argument('--pair', type=str, help='Specific pair to backtest (e.g., BTCUSD)')
+    args = parser.parse_args()
+    
     logger.info("Starting backtest process...")
-    for pair in PAIRS:
+    
+    # Determine which pairs to backtest
+    if args.pair:
+        pairs_to_test = [args.pair.upper()]
+        logger.info(f"Backtesting specific pair: {args.pair}")
+    else:
+        pairs_to_test = DEFAULT_PAIRS
+        logger.info(f"Backtesting all default pairs: {DEFAULT_PAIRS}")
+    
+    for pair in pairs_to_test:
         logger.info(f"Processing pair: {pair}")
         df, equity_curve, drawdowns = backtest_pair(pair, lookback=120)
         summarize_backtest(df, equity_curve, drawdowns, pair=pair)
